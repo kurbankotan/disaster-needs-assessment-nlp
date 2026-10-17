@@ -71,11 +71,13 @@ Dosya: `runs/20261016_1116/data/sentetik_paylasimlar_a8bfe68ee1.csv` (aynı içe
 ### 1. Makaledeki sayıları ve şekilleri yeniden üretmek (API ve model indirmesi gerekmez)
 
 ```bash
+git clone https://github.com/kurbankotan/disaster-needs-assessment-nlp.git
+cd disaster-needs-assessment-nlp
 pip install -r requirements.txt
 python analiz/calistir.py
 ```
 
-Betik `runs/` altındaki tablo ve tahmin dosyalarını okur. Makaledeki şekilleri `makale_sekilleri_yeniden/` klasörüne yazar ve temel sayıları ekrana basar. Şekillerde Liberation Serif yazı tipi kullanılır; sistemde yoksa matplotlib başka bir yazı tipine geçer. Betikler Python 3.11 ile `requirements.txt` içindeki sürümlerle sınanmıştır.
+Betik `runs/` altındaki tablo ve tahmin dosyalarını okur. Dosya adlarında Windows'ta geçersiz olan `:` karakteri yerine `_` kullanılmıştır (örneğin `Temel_ TF-IDF`); ana defter Colab'da bu dosyaları `Temel: TF-IDF` adıyla yazar ve analiz betikleri iki biçimi de tanır. Makaledeki şekilleri `makale_sekilleri_yeniden/` klasörüne yazar ve temel sayıları ekrana basar. Şekillerde Liberation Serif yazı tipi kullanılır; sistemde yoksa matplotlib başka bir yazı tipine geçer. Betikler Python 3.11 ile `requirements.txt` içindeki sürümlerle sınanmıştır.
 
 ### 2. Deneyi baştan çalıştırmak (Google Colab)
 

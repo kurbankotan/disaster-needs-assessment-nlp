@@ -231,16 +231,19 @@ def load(run_dir, ref_run_dir=None):
     # açık/örtük: mesaj düzeyinden yeniden hesapla (temel çizgiler dâhil)
     pred_dir = os.path.join(R, "tahminler")
     import unicodedata as _ud
-    _PRED = {_ud.normalize("NFC", f_): os.path.join(pred_dir, f_) for f_ in os.listdir(pred_dir)} if os.path.isdir(pred_dir) else {}
+    def _pkey(n):
+        """Unicode biçimi (NFC/NFD) ve Windows'ta ':' yerine '_' yazılması fark etmeksizin aynı anahtar."""
+        return _ud.normalize("NFC", n).replace(":", "_")
+    _PRED = {_pkey(f_): os.path.join(pred_dir, f_) for f_ in os.listdir(pred_dir)} if os.path.isdir(pred_dir) else {}
     def pred_path(name):
-        """Dosya adındaki Unicode biçiminden (NFC/NFD) bağımsız tahmin dosyası yolu."""
-        return _PRED.get(_ud.normalize("NFC", name), os.path.join(pred_dir, name))
+        """Tahmin dosyasının diskteki yolu (dosya adı biçim farklarından bağımsız)."""
+        return _PRED.get(_pkey(name), os.path.join(pred_dir, name))
     D["pred_path"] = pred_path
     expl = ds.set_index("id")["explicitness"]
     rows = {}
     for f in glob.glob(os.path.join(pred_dir, "mesaj_sentetik_*.csv")):
         import unicodedata
-        tag = unicodedata.normalize("NFC", os.path.basename(f)[len("mesaj_sentetik_"):-4])
+        tag = unicodedata.normalize("NFC", os.path.basename(f)[len("mesaj_sentetik_"):-4]).replace("Temel_ ", "Temel: ")   # Windows'ta ':' -> '_' 
         if tag.startswith("BDM_") and tag[4:] in excluded:
             continue
         pm = pd.read_csv(f)
