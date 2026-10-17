@@ -1,0 +1,19 @@
+Tarih: 2026-10-16T11:47:21.395905
+Python: 3.13.15
+GPU: NVIDIA A100-SXM4-80GB
+RAM: 179 GB
+Colab: True
+SMOKE_TEST: False
+anthropic: 1.15.0
+sentence-transformers: 5.7.0
+transformers: 5.18.0
+torch: 2.11.0+cu130
+gensim: 4.4.0
+tensorflow: 2.21.0
+tensorflow_hub: 0.16.1
+nltk: 3.9.1
+numpy: 2.1.3
+pandas: 2.2.3
+folium: 0.20.0
+openai: 2.54.0
+google-genai: 2.12.1

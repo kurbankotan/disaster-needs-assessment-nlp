@@ -1,0 +1,1389 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8c0867f35b2f08c2c4bfc72d8e50a909 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    <div style="position:fixed;bottom:30px;left:30px;z-index:9999;background:white;padding:8px;border:1px solid grey;font-size:12px;max-height:400px;overflow:auto"><b>ALBERT / Düz (sentetik)</b><br><i style="background:#1f77b4;width:12px;height:12px;border-radius:50%;display:inline-block"></i> çocuk oyun alanı<br><i style="background:#aec7e8;width:12px;height:12px;border-radius:50%;display:inline-block"></i> engelli ekipmanı</div>
+    
+            <div class="folium-map" id="map_8c0867f35b2f08c2c4bfc72d8e50a909" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8c0867f35b2f08c2c4bfc72d8e50a909 = L.map(
+                "map_8c0867f35b2f08c2c4bfc72d8e50a909",
+                {
+                    center: [41.05, 28.95],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_82cec44fa22ba3c7fa315d7554cdf731 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_82cec44fa22ba3c7fa315d7554cdf731.addTo(map_8c0867f35b2f08c2c4bfc72d8e50a909);
+        
+    
+            var circle_marker_7843206b196bab306458c166edaf5f42 = L.circleMarker(
+                [40.8741659, 29.1293251],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_8c0867f35b2f08c2c4bfc72d8e50a909);
+        
+    
+        var popup_632f4ec76cf4551050f6cb404a83b54d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_03a3d3139a0a5a3c0158ea324bbbc609 = $(`<div id="html_03a3d3139a0a5a3c0158ea324bbbc609" style="width: 100.0%; height: 100.0%;">Adalar: çocuk oyun alanı (26)</div>`)[0];
+                popup_632f4ec76cf4551050f6cb404a83b54d.setContent(html_03a3d3139a0a5a3c0158ea324bbbc609);
+            
+        
+
+        circle_marker_7843206b196bab306458c166edaf5f42.bindPopup(popup_632f4ec76cf4551050f6cb404a83b54d)
+        ;
+
+        
+    
+    
+            circle_marker_7843206b196bab306458c166edaf5f42.bindTooltip(
+                `<div>
+                     Adalar: çocuk oyun alanı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3a464f9a782ac80708966ec3b4afa86f = L.circleMarker(
+                [41.184471, 28.7412446],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_8c0867f35b2f08c2c4bfc72d8e50a909);
+        
+    
+        var popup_d9540633812b3810c862629eae8e5ec8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9be17be41880f48229468b69f909bc12 = $(`<div id="html_9be17be41880f48229468b69f909bc12" style="width: 100.0%; height: 100.0%;">Arnavutköy: çocuk oyun alanı (30)</div>`)[0];
+                popup_d9540633812b3810c862629eae8e5ec8.setContent(html_9be17be41880f48229468b69f909bc12);
+            
+        
+
+        circle_marker_3a464f9a782ac80708966ec3b4afa86f.bindPopup(popup_d9540633812b3810c862629eae8e5ec8)
+        ;
+
+        
+    
+    
+            circle_marker_3a464f9a782ac80708966ec3b4afa86f.bindTooltip(
+                `<div>
+                     Arnavutköy: çocuk oyun alanı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_58bb8627895e652ac5640d242b7cd872 = L.circleMarker(
+                [40.9929379, 29.1135187],
+                {"bubblingMouseEvents": true, "color": "#aec7e8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#aec7e8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_8c0867f35b2f08c2c4bfc72d8e50a909);
+        
+    
+        var popup_b3e0c28c878e44cfe62272ba3ad4c478 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5b61bfaae2349768996a4390f8b286b7 = $(`<div id="html_5b61bfaae2349768996a4390f8b286b7" style="width: 100.0%; height: 100.0%;">Ataşehir: engelli ekipmanı (29)</div>`)[0];
+                popup_b3e0c28c878e44cfe62272ba3ad4c478.setContent(html_5b61bfaae2349768996a4390f8b286b7);
+            
+        
+
+        circle_marker_58bb8627895e652ac5640d242b7cd872.bindPopup(popup_b3e0c28c878e44cfe62272ba3ad4c478)
+        ;
+
+        
+    
+    
+            circle_marker_58bb8627895e652ac5640d242b7cd872.bindTooltip(
+                `<div>
+                     Ataşehir: engelli ekipmanı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2c67aeef21e2f96e42b3c75b5bcbba14 = L.circleMarker(
+                [40.9799389, 28.7216689],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_8c0867f35b2f08c2c4bfc72d8e50a909);
+        
+    
+        var popup_26ae32e65f92b2a6995fc783a5143514 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_673cc1259307fd69c4adad431ea61c48 = $(`<div id="html_673cc1259307fd69c4adad431ea61c48" style="width: 100.0%; height: 100.0%;">Avcılar: çocuk oyun alanı (22)</div>`)[0];
+                popup_26ae32e65f92b2a6995fc783a5143514.setContent(html_673cc1259307fd69c4adad431ea61c48);
+            
+        
+
+        circle_marker_2c67aeef21e2f96e42b3c75b5bcbba14.bindPopup(popup_26ae32e65f92b2a6995fc783a5143514)
+        ;
+
+        
+    
+    
+            circle_marker_2c67aeef21e2f96e42b3c75b5bcbba14.bindTooltip(
+                `<div>
+                     Avcılar: çocuk oyun alanı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_612f1db074ba26f2b68ceab1ceabd900 = L.circleMarker(
+                [41.0030495, 28.8657701],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_8c0867f35b2f08c2c4bfc72d8e50a909);
+        
+    
+        var popup_bc3702c959edd448f9c0f7273336f6b3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bfdd327978aba9af5bba1d775311c834 = $(`<div id="html_bfdd327978aba9af5bba1d775311c834" style="width: 100.0%; height: 100.0%;">Bahçelievler: çocuk oyun alanı (24)</div>`)[0];
+                popup_bc3702c959edd448f9c0f7273336f6b3.setContent(html_bfdd327978aba9af5bba1d775311c834);
+            
+        
+
+        circle_marker_612f1db074ba26f2b68ceab1ceabd900.bindPopup(popup_bc3702c959edd448f9c0f7273336f6b3)
+        ;
+
+        
+    
+    
+            circle_marker_612f1db074ba26f2b68ceab1ceabd900.bindTooltip(
+                `<div>
+                     Bahçelievler: çocuk oyun alanı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_da8a99df03b85938023116791e921c79 = L.circleMarker(
+                [40.9782585, 28.8744461],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_8c0867f35b2f08c2c4bfc72d8e50a909);
+        
+    
+        var popup_9bd30ed6f4ec110281130a9814498103 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6f87e98fa4169cb4f7e1bd450278fe66 = $(`<div id="html_6f87e98fa4169cb4f7e1bd450278fe66" style="width: 100.0%; height: 100.0%;">Bakırköy: çocuk oyun alanı (23)</div>`)[0];
+                popup_9bd30ed6f4ec110281130a9814498103.setContent(html_6f87e98fa4169cb4f7e1bd450278fe66);
+            
+        
+
+        circle_marker_da8a99df03b85938023116791e921c79.bindPopup(popup_9bd30ed6f4ec110281130a9814498103)
+        ;
+
+        
+    
+    
+            circle_marker_da8a99df03b85938023116791e921c79.bindTooltip(
+                `<div>
+                     Bakırköy: çocuk oyun alanı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c2602cfe9f50cf81afdd8f8ab15d32b7 = L.circleMarker(
+                [41.0345549, 28.9118417],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_8c0867f35b2f08c2c4bfc72d8e50a909);
+        
+    
+        var popup_ef540772f5bd6eac16e8ae5b1c260038 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_64e600d0f6036e8dd590f4b2cca6b2b4 = $(`<div id="html_64e600d0f6036e8dd590f4b2cca6b2b4" style="width: 100.0%; height: 100.0%;">Bayrampaşa: çocuk oyun alanı (33)</div>`)[0];
+                popup_ef540772f5bd6eac16e8ae5b1c260038.setContent(html_64e600d0f6036e8dd590f4b2cca6b2b4);
+            
+        
+
+        circle_marker_c2602cfe9f50cf81afdd8f8ab15d32b7.bindPopup(popup_ef540772f5bd6eac16e8ae5b1c260038)
+        ;
+
+        
+    
+    
+            circle_marker_c2602cfe9f50cf81afdd8f8ab15d32b7.bindTooltip(
+                `<div>
+                     Bayrampaşa: çocuk oyun alanı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1ef1992b330efbebac622b7c11f50aa7 = L.circleMarker(
+                [41.034547, 28.8567558],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_8c0867f35b2f08c2c4bfc72d8e50a909);
+        
+    
+        var popup_1f698403db1fb20d3c34f62136a29289 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69e2dd766e02ab872e2af2470d514f2d = $(`<div id="html_69e2dd766e02ab872e2af2470d514f2d" style="width: 100.0%; height: 100.0%;">Bağcılar: çocuk oyun alanı (27)</div>`)[0];
+                popup_1f698403db1fb20d3c34f62136a29289.setContent(html_69e2dd766e02ab872e2af2470d514f2d);
+            
+        
+
+        circle_marker_1ef1992b330efbebac622b7c11f50aa7.bindPopup(popup_1f698403db1fb20d3c34f62136a29289)
+        ;
+
+        
+    
+    
+            circle_marker_1ef1992b330efbebac622b7c11f50aa7.bindTooltip(
+                `<div>
+                     Bağcılar: çocuk oyun alanı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ef2714e774c30b093f43e4a43e246b42 = L.circleMarker(
+                [41.1075794, 28.7950711],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_8c0867f35b2f08c2c4bfc72d8e50a909);
+        
+    
+        var popup_f646fe4ad872f7ff81652f946d40e443 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e18738b18ffe9f66a3dcc8e93c855ed9 = $(`<div id="html_e18738b18ffe9f66a3dcc8e93c855ed9" style="width: 100.0%; height: 100.0%;">Başakşehir: çocuk oyun alanı (26)</div>`)[0];
+                popup_f646fe4ad872f7ff81652f946d40e443.setContent(html_e18738b18ffe9f66a3dcc8e93c855ed9);
+            
+        
+
+        circle_marker_ef2714e774c30b093f43e4a43e246b42.bindPopup(popup_f646fe4ad872f7ff81652f946d40e443)
+        ;
+
+        
+    
+    
+            circle_marker_ef2714e774c30b093f43e4a43e246b42.bindTooltip(
+                `<div>
+                     Başakşehir: çocuk oyun alanı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9fb6e8f1d42d224b6c292539b2c5ff27 = L.circleMarker(
+                [41.1343001, 29.0920378],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_8c0867f35b2f08c2c4bfc72d8e50a909);
+        
+    
+        var popup_254d1ac25319c577074fa6a33f8d585d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5eb1a599c50cf3d2df3eb6825acdf08c = $(`<div id="html_5eb1a599c50cf3d2df3eb6825acdf08c" style="width: 100.0%; height: 100.0%;">Beykoz: çocuk oyun alanı (18)</div>`)[0];
+                popup_254d1ac25319c577074fa6a33f8d585d.setContent(html_5eb1a599c50cf3d2df3eb6825acdf08c);
+            
+        
+
+        circle_marker_9fb6e8f1d42d224b6c292539b2c5ff27.bindPopup(popup_254d1ac25319c577074fa6a33f8d585d)
+        ;
+
+        
+    
+    
+            circle_marker_9fb6e8f1d42d224b6c292539b2c5ff27.bindTooltip(
+                `<div>
+                     Beykoz: çocuk oyun alanı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_17317b59ac8b1b65ab769fc8f5e5f9db = L.circleMarker(
+                [41.0037541, 28.6372583],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_8c0867f35b2f08c2c4bfc72d8e50a909);
+        
+    
+        var popup_68fc6a99e4ff3a55810ae57bd8cf3455 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6643f15c626c400f20c55e09cd690213 = $(`<div id="html_6643f15c626c400f20c55e09cd690213" style="width: 100.0%; height: 100.0%;">Beylikdüzü: çocuk oyun alanı (23)</div>`)[0];
+                popup_68fc6a99e4ff3a55810ae57bd8cf3455.setContent(html_6643f15c626c400f20c55e09cd690213);
+            
+        
+
+        circle_marker_17317b59ac8b1b65ab769fc8f5e5f9db.bindPopup(popup_68fc6a99e4ff3a55810ae57bd8cf3455)
+        ;
+
+        
+    
+    
+            circle_marker_17317b59ac8b1b65ab769fc8f5e5f9db.bindTooltip(
+                `<div>
+                     Beylikdüzü: çocuk oyun alanı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d1939b0f5aa615a3f25fa4cdd9373c2b = L.circleMarker(
+                [41.0284233, 28.9736808],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_8c0867f35b2f08c2c4bfc72d8e50a909);
+        
+    
+        var popup_003fe862f219a6fd9644a2c67788db10 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_654890a54e26cae7478ec443b6d6c49f = $(`<div id="html_654890a54e26cae7478ec443b6d6c49f" style="width: 100.0%; height: 100.0%;">Beyoğlu: çocuk oyun alanı (23)</div>`)[0];
+                popup_003fe862f219a6fd9644a2c67788db10.setContent(html_654890a54e26cae7478ec443b6d6c49f);
+            
+        
+
+        circle_marker_d1939b0f5aa615a3f25fa4cdd9373c2b.bindPopup(popup_003fe862f219a6fd9644a2c67788db10)
+        ;
+
+        
+    
+    
+            circle_marker_d1939b0f5aa615a3f25fa4cdd9373c2b.bindTooltip(
+                `<div>
+                     Beyoğlu: çocuk oyun alanı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e61edf7b836a15319e9587bca4a48779 = L.circleMarker(
+                [41.0428465, 29.0075283],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_8c0867f35b2f08c2c4bfc72d8e50a909);
+        
+    
+        var popup_778f78d42576282b153ce35835d4f671 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_717401447b4ea160b349c1c00123cdbe = $(`<div id="html_717401447b4ea160b349c1c00123cdbe" style="width: 100.0%; height: 100.0%;">Beşiktaş: çocuk oyun alanı (24)</div>`)[0];
+                popup_778f78d42576282b153ce35835d4f671.setContent(html_717401447b4ea160b349c1c00123cdbe);
+            
+        
+
+        circle_marker_e61edf7b836a15319e9587bca4a48779.bindPopup(popup_778f78d42576282b153ce35835d4f671)
+        ;
+
+        
+    
+    
+            circle_marker_e61edf7b836a15319e9587bca4a48779.bindTooltip(
+                `<div>
+                     Beşiktaş: çocuk oyun alanı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_543121b42318517a369a5f6487a6b391 = L.circleMarker(
+                [41.021654, 28.579757],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_8c0867f35b2f08c2c4bfc72d8e50a909);
+        
+    
+        var popup_db03294874b6dc067c60af58461f4400 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7b4332169559ef5059d38cb0c683a03c = $(`<div id="html_7b4332169559ef5059d38cb0c683a03c" style="width: 100.0%; height: 100.0%;">Büyükçekmece: çocuk oyun alanı (29)</div>`)[0];
+                popup_db03294874b6dc067c60af58461f4400.setContent(html_7b4332169559ef5059d38cb0c683a03c);
+            
+        
+
+        circle_marker_543121b42318517a369a5f6487a6b391.bindPopup(popup_db03294874b6dc067c60af58461f4400)
+        ;
+
+        
+    
+    
+            circle_marker_543121b42318517a369a5f6487a6b391.bindTooltip(
+                `<div>
+                     Büyükçekmece: çocuk oyun alanı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c6be5f3e13f825f92bcb79a5ae1452fa = L.circleMarker(
+                [41.0376175, 28.8824519],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_8c0867f35b2f08c2c4bfc72d8e50a909);
+        
+    
+        var popup_0d49ff0a890d41612fe629027c398906 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_679e5307ca32d420c3180490a4c071fa = $(`<div id="html_679e5307ca32d420c3180490a4c071fa" style="width: 100.0%; height: 100.0%;">Esenler: çocuk oyun alanı (23)</div>`)[0];
+                popup_0d49ff0a890d41612fe629027c398906.setContent(html_679e5307ca32d420c3180490a4c071fa);
+            
+        
+
+        circle_marker_c6be5f3e13f825f92bcb79a5ae1452fa.bindPopup(popup_0d49ff0a890d41612fe629027c398906)
+        ;
+
+        
+    
+    
+            circle_marker_c6be5f3e13f825f92bcb79a5ae1452fa.bindTooltip(
+                `<div>
+                     Esenler: çocuk oyun alanı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a0c9d8f6801866eaa09a5bc478d6b3ef = L.circleMarker(
+                [41.0342862, 28.6801113],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_8c0867f35b2f08c2c4bfc72d8e50a909);
+        
+    
+        var popup_c89a0ff7a68fca5f7a1b0f2e58e794cc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f9addf215dae4a89255382044a2cfea5 = $(`<div id="html_f9addf215dae4a89255382044a2cfea5" style="width: 100.0%; height: 100.0%;">Esenyurt: çocuk oyun alanı (25)</div>`)[0];
+                popup_c89a0ff7a68fca5f7a1b0f2e58e794cc.setContent(html_f9addf215dae4a89255382044a2cfea5);
+            
+        
+
+        circle_marker_a0c9d8f6801866eaa09a5bc478d6b3ef.bindPopup(popup_c89a0ff7a68fca5f7a1b0f2e58e794cc)
+        ;
+
+        
+    
+    
+            circle_marker_a0c9d8f6801866eaa09a5bc478d6b3ef.bindTooltip(
+                `<div>
+                     Esenyurt: çocuk oyun alanı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ebefc99ec8c0932f7472d3d772863ac6 = L.circleMarker(
+                [41.0478358, 28.9327383],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_8c0867f35b2f08c2c4bfc72d8e50a909);
+        
+    
+        var popup_440d82c7b1a6d7bedd782ccbee179be0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f7895c68fb22c0bb240895a2c775a862 = $(`<div id="html_f7895c68fb22c0bb240895a2c775a862" style="width: 100.0%; height: 100.0%;">Eyüpsultan: çocuk oyun alanı (25)</div>`)[0];
+                popup_440d82c7b1a6d7bedd782ccbee179be0.setContent(html_f7895c68fb22c0bb240895a2c775a862);
+            
+        
+
+        circle_marker_ebefc99ec8c0932f7472d3d772863ac6.bindPopup(popup_440d82c7b1a6d7bedd782ccbee179be0)
+        ;
+
+        
+    
+    
+            circle_marker_ebefc99ec8c0932f7472d3d772863ac6.bindTooltip(
+                `<div>
+                     Eyüpsultan: çocuk oyun alanı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_99d047519390b158c63d3b281d67530f = L.circleMarker(
+                [41.0192846, 28.9479296],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_8c0867f35b2f08c2c4bfc72d8e50a909);
+        
+    
+        var popup_3a08b46b0a0a50459c9b740a3cd317b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2490977f3e8832cd1c66f26cae9d0254 = $(`<div id="html_2490977f3e8832cd1c66f26cae9d0254" style="width: 100.0%; height: 100.0%;">Fatih: çocuk oyun alanı (30)</div>`)[0];
+                popup_3a08b46b0a0a50459c9b740a3cd317b1.setContent(html_2490977f3e8832cd1c66f26cae9d0254);
+            
+        
+
+        circle_marker_99d047519390b158c63d3b281d67530f.bindPopup(popup_3a08b46b0a0a50459c9b740a3cd317b1)
+        ;
+
+        
+    
+    
+            circle_marker_99d047519390b158c63d3b281d67530f.bindTooltip(
+                `<div>
+                     Fatih: çocuk oyun alanı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9b8298aa3c54234fc0be82a58385d95d = L.circleMarker(
+                [41.0578305, 28.9122452],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_8c0867f35b2f08c2c4bfc72d8e50a909);
+        
+    
+        var popup_019497cc7183c735d455f38025071e8f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_98828b5a55b9a3e0860d0c5f8a5b782c = $(`<div id="html_98828b5a55b9a3e0860d0c5f8a5b782c" style="width: 100.0%; height: 100.0%;">Gaziosmanpaşa: çocuk oyun alanı (24)</div>`)[0];
+                popup_019497cc7183c735d455f38025071e8f.setContent(html_98828b5a55b9a3e0860d0c5f8a5b782c);
+            
+        
+
+        circle_marker_9b8298aa3c54234fc0be82a58385d95d.bindPopup(popup_019497cc7183c735d455f38025071e8f)
+        ;
+
+        
+    
+    
+            circle_marker_9b8298aa3c54234fc0be82a58385d95d.bindTooltip(
+                `<div>
+                     Gaziosmanpaşa: çocuk oyun alanı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7bcc0c950e462bb2b1180ddcbe63b9e1 = L.circleMarker(
+                [41.0252832, 28.8726498],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_8c0867f35b2f08c2c4bfc72d8e50a909);
+        
+    
+        var popup_d7bf3c632cb018f147bf347953be3148 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab06ad02f01e3389ffd30b1e6011a5ee = $(`<div id="html_ab06ad02f01e3389ffd30b1e6011a5ee" style="width: 100.0%; height: 100.0%;">Güngören: çocuk oyun alanı (33)</div>`)[0];
+                popup_d7bf3c632cb018f147bf347953be3148.setContent(html_ab06ad02f01e3389ffd30b1e6011a5ee);
+            
+        
+
+        circle_marker_7bcc0c950e462bb2b1180ddcbe63b9e1.bindPopup(popup_d7bf3c632cb018f147bf347953be3148)
+        ;
+
+        
+    
+    
+            circle_marker_7bcc0c950e462bb2b1180ddcbe63b9e1.bindTooltip(
+                `<div>
+                     Güngören: çocuk oyun alanı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a5249c08ba561a7d2ec2daac8c12e2d0 = L.circleMarker(
+                [40.9912955, 29.0245631],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_8c0867f35b2f08c2c4bfc72d8e50a909);
+        
+    
+        var popup_cb8ec6e0df7263f4a2a49abaac6adf2b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1aa07c7cb816768fa1bc41e2f5395e98 = $(`<div id="html_1aa07c7cb816768fa1bc41e2f5395e98" style="width: 100.0%; height: 100.0%;">Kadıköy: çocuk oyun alanı (26)</div>`)[0];
+                popup_cb8ec6e0df7263f4a2a49abaac6adf2b.setContent(html_1aa07c7cb816768fa1bc41e2f5395e98);
+            
+        
+
+        circle_marker_a5249c08ba561a7d2ec2daac8c12e2d0.bindPopup(popup_cb8ec6e0df7263f4a2a49abaac6adf2b)
+        ;
+
+        
+    
+    
+            circle_marker_a5249c08ba561a7d2ec2daac8c12e2d0.bindTooltip(
+                `<div>
+                     Kadıköy: çocuk oyun alanı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_02b4d9f9b904c728cdf7ec17673ffa42 = L.circleMarker(
+                [40.88858, 29.1856536],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_8c0867f35b2f08c2c4bfc72d8e50a909);
+        
+    
+        var popup_963b42ccbff0d68b7dcd15d0c037a284 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_40f3cbaef97ad723d501787f734fbb79 = $(`<div id="html_40f3cbaef97ad723d501787f734fbb79" style="width: 100.0%; height: 100.0%;">Kartal: çocuk oyun alanı (22)</div>`)[0];
+                popup_963b42ccbff0d68b7dcd15d0c037a284.setContent(html_40f3cbaef97ad723d501787f734fbb79);
+            
+        
+
+        circle_marker_02b4d9f9b904c728cdf7ec17673ffa42.bindPopup(popup_963b42ccbff0d68b7dcd15d0c037a284)
+        ;
+
+        
+    
+    
+            circle_marker_02b4d9f9b904c728cdf7ec17673ffa42.bindTooltip(
+                `<div>
+                     Kartal: çocuk oyun alanı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5d8170edd8cb7f19fc494b60ec61b6cc = L.circleMarker(
+                [41.0796544, 28.9731198],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_8c0867f35b2f08c2c4bfc72d8e50a909);
+        
+    
+        var popup_889913fe07a557cfccc570c685fd0c9c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_98f80353337d4883a143ab7a7b4f18af = $(`<div id="html_98f80353337d4883a143ab7a7b4f18af" style="width: 100.0%; height: 100.0%;">Kağıthane: çocuk oyun alanı (28)</div>`)[0];
+                popup_889913fe07a557cfccc570c685fd0c9c.setContent(html_98f80353337d4883a143ab7a7b4f18af);
+            
+        
+
+        circle_marker_5d8170edd8cb7f19fc494b60ec61b6cc.bindPopup(popup_889913fe07a557cfccc570c685fd0c9c)
+        ;
+
+        
+    
+    
+            circle_marker_5d8170edd8cb7f19fc494b60ec61b6cc.bindTooltip(
+                `<div>
+                     Kağıthane: çocuk oyun alanı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_06d74d2e0818a35bbea2e38864455324 = L.circleMarker(
+                [40.9918737, 28.7711956],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_8c0867f35b2f08c2c4bfc72d8e50a909);
+        
+    
+        var popup_9160a136dafb22d235b19c923a225a0a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3d966c9b4af942749a3a238e0743fde8 = $(`<div id="html_3d966c9b4af942749a3a238e0743fde8" style="width: 100.0%; height: 100.0%;">Küçükçekmece: çocuk oyun alanı (23)</div>`)[0];
+                popup_9160a136dafb22d235b19c923a225a0a.setContent(html_3d966c9b4af942749a3a238e0743fde8);
+            
+        
+
+        circle_marker_06d74d2e0818a35bbea2e38864455324.bindPopup(popup_9160a136dafb22d235b19c923a225a0a)
+        ;
+
+        
+    
+    
+            circle_marker_06d74d2e0818a35bbea2e38864455324.bindTooltip(
+                `<div>
+                     Küçükçekmece: çocuk oyun alanı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5aa510858104c5ab07b1f684b2cd15fb = L.circleMarker(
+                [40.9247539, 29.1310782],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_8c0867f35b2f08c2c4bfc72d8e50a909);
+        
+    
+        var popup_462349c0c18aa95b35af32bcca3b16f2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b16024a152a907aff9232970a009ca0f = $(`<div id="html_b16024a152a907aff9232970a009ca0f" style="width: 100.0%; height: 100.0%;">Maltepe: çocuk oyun alanı (30)</div>`)[0];
+                popup_462349c0c18aa95b35af32bcca3b16f2.setContent(html_b16024a152a907aff9232970a009ca0f);
+            
+        
+
+        circle_marker_5aa510858104c5ab07b1f684b2cd15fb.bindPopup(popup_462349c0c18aa95b35af32bcca3b16f2)
+        ;
+
+        
+    
+    
+            circle_marker_5aa510858104c5ab07b1f684b2cd15fb.bindTooltip(
+                `<div>
+                     Maltepe: çocuk oyun alanı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_82dd73e6fdb775d348e49964a5aa56c4 = L.circleMarker(
+                [40.8768715, 29.2349672],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_8c0867f35b2f08c2c4bfc72d8e50a909);
+        
+    
+        var popup_6bbd41fe89f1e306a22e662707e94bc7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_91ebeffcaab440e098abed0d742e753e = $(`<div id="html_91ebeffcaab440e098abed0d742e753e" style="width: 100.0%; height: 100.0%;">Pendik: çocuk oyun alanı (23)</div>`)[0];
+                popup_6bbd41fe89f1e306a22e662707e94bc7.setContent(html_91ebeffcaab440e098abed0d742e753e);
+            
+        
+
+        circle_marker_82dd73e6fdb775d348e49964a5aa56c4.bindPopup(popup_6bbd41fe89f1e306a22e662707e94bc7)
+        ;
+
+        
+    
+    
+            circle_marker_82dd73e6fdb775d348e49964a5aa56c4.bindTooltip(
+                `<div>
+                     Pendik: çocuk oyun alanı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_df50e05f9c451b4b8ca6c66cf9b52ab8 = L.circleMarker(
+                [40.9905196, 29.2288624],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_8c0867f35b2f08c2c4bfc72d8e50a909);
+        
+    
+        var popup_e2bb46de989fc1d578a15070373dcb1f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_944001efbec495f3c5a769b6e5c8fc7a = $(`<div id="html_944001efbec495f3c5a769b6e5c8fc7a" style="width: 100.0%; height: 100.0%;">Sancaktepe: çocuk oyun alanı (33)</div>`)[0];
+                popup_e2bb46de989fc1d578a15070373dcb1f.setContent(html_944001efbec495f3c5a769b6e5c8fc7a);
+            
+        
+
+        circle_marker_df50e05f9c451b4b8ca6c66cf9b52ab8.bindPopup(popup_e2bb46de989fc1d578a15070373dcb1f)
+        ;
+
+        
+    
+    
+            circle_marker_df50e05f9c451b4b8ca6c66cf9b52ab8.bindTooltip(
+                `<div>
+                     Sancaktepe: çocuk oyun alanı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1bec1634a4cb8c28b51c9c84da95053e = L.circleMarker(
+                [41.1685803, 29.0572623],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_8c0867f35b2f08c2c4bfc72d8e50a909);
+        
+    
+        var popup_48104dd346dde40c80b831315e5e3856 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ad717e182f4f19d91960d7498f19ee07 = $(`<div id="html_ad717e182f4f19d91960d7498f19ee07" style="width: 100.0%; height: 100.0%;">Sarıyer: çocuk oyun alanı (24)</div>`)[0];
+                popup_48104dd346dde40c80b831315e5e3856.setContent(html_ad717e182f4f19d91960d7498f19ee07);
+            
+        
+
+        circle_marker_1bec1634a4cb8c28b51c9c84da95053e.bindPopup(popup_48104dd346dde40c80b831315e5e3856)
+        ;
+
+        
+    
+    
+            circle_marker_1bec1634a4cb8c28b51c9c84da95053e.bindTooltip(
+                `<div>
+                     Sarıyer: çocuk oyun alanı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3649fd4975afcdc8e3717ec2ee6348e3 = L.circleMarker(
+                [41.0742476, 28.2481709],
+                {"bubblingMouseEvents": true, "color": "#aec7e8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#aec7e8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_8c0867f35b2f08c2c4bfc72d8e50a909);
+        
+    
+        var popup_b9d3a1fb5e15c80f00685adf21cbe139 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e802729f098ea31dcc68cc2ad94f71da = $(`<div id="html_e802729f098ea31dcc68cc2ad94f71da" style="width: 100.0%; height: 100.0%;">Silivri: engelli ekipmanı (21)</div>`)[0];
+                popup_b9d3a1fb5e15c80f00685adf21cbe139.setContent(html_e802729f098ea31dcc68cc2ad94f71da);
+            
+        
+
+        circle_marker_3649fd4975afcdc8e3717ec2ee6348e3.bindPopup(popup_b9d3a1fb5e15c80f00685adf21cbe139)
+        ;
+
+        
+    
+    
+            circle_marker_3649fd4975afcdc8e3717ec2ee6348e3.bindTooltip(
+                `<div>
+                     Silivri: engelli ekipmanı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5059a325f4b7137e66948dde69b0874d = L.circleMarker(
+                [40.9670242, 29.2671314],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_8c0867f35b2f08c2c4bfc72d8e50a909);
+        
+    
+        var popup_23b43db2ed0ce1586b6e3ac0e7bc7fc9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ab0d668a9af8d0bf2e9d07f3d1cd0301 = $(`<div id="html_ab0d668a9af8d0bf2e9d07f3d1cd0301" style="width: 100.0%; height: 100.0%;">Sultanbeyli: çocuk oyun alanı (26)</div>`)[0];
+                popup_23b43db2ed0ce1586b6e3ac0e7bc7fc9.setContent(html_ab0d668a9af8d0bf2e9d07f3d1cd0301);
+            
+        
+
+        circle_marker_5059a325f4b7137e66948dde69b0874d.bindPopup(popup_23b43db2ed0ce1586b6e3ac0e7bc7fc9)
+        ;
+
+        
+    
+    
+            circle_marker_5059a325f4b7137e66948dde69b0874d.bindTooltip(
+                `<div>
+                     Sultanbeyli: çocuk oyun alanı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_85d7506b0c97e875bf975ed8648b9884 = L.circleMarker(
+                [41.1043344, 28.8614367],
+                {"bubblingMouseEvents": true, "color": "#aec7e8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#aec7e8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_8c0867f35b2f08c2c4bfc72d8e50a909);
+        
+    
+        var popup_908966d16d1021240b9debb40b7e38e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4a2b8337e58e44096b2a394b593f04ff = $(`<div id="html_4a2b8337e58e44096b2a394b593f04ff" style="width: 100.0%; height: 100.0%;">Sultangazi: engelli ekipmanı (17)</div>`)[0];
+                popup_908966d16d1021240b9debb40b7e38e7.setContent(html_4a2b8337e58e44096b2a394b593f04ff);
+            
+        
+
+        circle_marker_85d7506b0c97e875bf975ed8648b9884.bindPopup(popup_908966d16d1021240b9debb40b7e38e7)
+        ;
+
+        
+    
+    
+            circle_marker_85d7506b0c97e875bf975ed8648b9884.bindTooltip(
+                `<div>
+                     Sultangazi: engelli ekipmanı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ed14082107d17e92acf7a2a6d432d763 = L.circleMarker(
+                [40.8161732, 29.3034194],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_8c0867f35b2f08c2c4bfc72d8e50a909);
+        
+    
+        var popup_485ee10a1e87e6f9b1283e5c53358e06 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a4d7dc4d8e72e09df07c644c62d83f95 = $(`<div id="html_a4d7dc4d8e72e09df07c644c62d83f95" style="width: 100.0%; height: 100.0%;">Tuzla: çocuk oyun alanı (36)</div>`)[0];
+                popup_485ee10a1e87e6f9b1283e5c53358e06.setContent(html_a4d7dc4d8e72e09df07c644c62d83f95);
+            
+        
+
+        circle_marker_ed14082107d17e92acf7a2a6d432d763.bindPopup(popup_485ee10a1e87e6f9b1283e5c53358e06)
+        ;
+
+        
+    
+    
+            circle_marker_ed14082107d17e92acf7a2a6d432d763.bindTooltip(
+                `<div>
+                     Tuzla: çocuk oyun alanı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_74c7292332b104d10d775670b9e87843 = L.circleMarker(
+                [40.9898653, 28.9037467],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_8c0867f35b2f08c2c4bfc72d8e50a909);
+        
+    
+        var popup_6f8bac4309a8b434b516cdddec5a2eaf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d022bc4254fedc036be16acdd2c44594 = $(`<div id="html_d022bc4254fedc036be16acdd2c44594" style="width: 100.0%; height: 100.0%;">Zeytinburnu: çocuk oyun alanı (25)</div>`)[0];
+                popup_6f8bac4309a8b434b516cdddec5a2eaf.setContent(html_d022bc4254fedc036be16acdd2c44594);
+            
+        
+
+        circle_marker_74c7292332b104d10d775670b9e87843.bindPopup(popup_6f8bac4309a8b434b516cdddec5a2eaf)
+        ;
+
+        
+    
+    
+            circle_marker_74c7292332b104d10d775670b9e87843.bindTooltip(
+                `<div>
+                     Zeytinburnu: çocuk oyun alanı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_14ffaacf5edaa723316d1f5f7926498d = L.circleMarker(
+                [41.1436804, 28.4605154],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_8c0867f35b2f08c2c4bfc72d8e50a909);
+        
+    
+        var popup_67d8626c2b3ea8c09659756fe97ae892 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b226293a43f00820ecb7db52dafdcbf4 = $(`<div id="html_b226293a43f00820ecb7db52dafdcbf4" style="width: 100.0%; height: 100.0%;">Çatalca: çocuk oyun alanı (28)</div>`)[0];
+                popup_67d8626c2b3ea8c09659756fe97ae892.setContent(html_b226293a43f00820ecb7db52dafdcbf4);
+            
+        
+
+        circle_marker_14ffaacf5edaa723316d1f5f7926498d.bindPopup(popup_67d8626c2b3ea8c09659756fe97ae892)
+        ;
+
+        
+    
+    
+            circle_marker_14ffaacf5edaa723316d1f5f7926498d.bindTooltip(
+                `<div>
+                     Çatalca: çocuk oyun alanı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ba5b5513f6d1ab3cba2a0abfac959460 = L.circleMarker(
+                [41.0351579, 29.1739149],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_8c0867f35b2f08c2c4bfc72d8e50a909);
+        
+    
+        var popup_6ad3ff30b503e7216af3c95b38775e7c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_afb1b3fcc326a65f6d5b35927daf2079 = $(`<div id="html_afb1b3fcc326a65f6d5b35927daf2079" style="width: 100.0%; height: 100.0%;">Çekmeköy: çocuk oyun alanı (31)</div>`)[0];
+                popup_6ad3ff30b503e7216af3c95b38775e7c.setContent(html_afb1b3fcc326a65f6d5b35927daf2079);
+            
+        
+
+        circle_marker_ba5b5513f6d1ab3cba2a0abfac959460.bindPopup(popup_6ad3ff30b503e7216af3c95b38775e7c)
+        ;
+
+        
+    
+    
+            circle_marker_ba5b5513f6d1ab3cba2a0abfac959460.bindTooltip(
+                `<div>
+                     Çekmeköy: çocuk oyun alanı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c769cb6eba19535ee8448b742b9d19ce = L.circleMarker(
+                [41.0256362, 29.0963049],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_8c0867f35b2f08c2c4bfc72d8e50a909);
+        
+    
+        var popup_240315c83ff180b496134cb055266f58 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bacf62e50178633d1aa5825bb4d28a75 = $(`<div id="html_bacf62e50178633d1aa5825bb4d28a75" style="width: 100.0%; height: 100.0%;">Ümraniye: çocuk oyun alanı (35)</div>`)[0];
+                popup_240315c83ff180b496134cb055266f58.setContent(html_bacf62e50178633d1aa5825bb4d28a75);
+            
+        
+
+        circle_marker_c769cb6eba19535ee8448b742b9d19ce.bindPopup(popup_240315c83ff180b496134cb055266f58)
+        ;
+
+        
+    
+    
+            circle_marker_c769cb6eba19535ee8448b742b9d19ce.bindTooltip(
+                `<div>
+                     Ümraniye: çocuk oyun alanı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d2bb0d34c01ef42ccb2b356710acc5ec = L.circleMarker(
+                [41.0265498, 29.0151321],
+                {"bubblingMouseEvents": true, "color": "#aec7e8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#aec7e8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_8c0867f35b2f08c2c4bfc72d8e50a909);
+        
+    
+        var popup_03a314a3b6bb23400bc956f00aaf41cf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_98d14359077ea1094af0c8a23e8e0cb6 = $(`<div id="html_98d14359077ea1094af0c8a23e8e0cb6" style="width: 100.0%; height: 100.0%;">Üsküdar: engelli ekipmanı (23)</div>`)[0];
+                popup_03a314a3b6bb23400bc956f00aaf41cf.setContent(html_98d14359077ea1094af0c8a23e8e0cb6);
+            
+        
+
+        circle_marker_d2bb0d34c01ef42ccb2b356710acc5ec.bindPopup(popup_03a314a3b6bb23400bc956f00aaf41cf)
+        ;
+
+        
+    
+    
+            circle_marker_d2bb0d34c01ef42ccb2b356710acc5ec.bindTooltip(
+                `<div>
+                     Üsküdar: engelli ekipmanı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7b261bfd895ec449048ee03d3d946b15 = L.circleMarker(
+                [41.1744067, 29.6125216],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_8c0867f35b2f08c2c4bfc72d8e50a909);
+        
+    
+        var popup_f6e99a938f54ab14339191de9b53b104 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1e875136c6064ad33392fc7a53a00f13 = $(`<div id="html_1e875136c6064ad33392fc7a53a00f13" style="width: 100.0%; height: 100.0%;">Şile: çocuk oyun alanı (38)</div>`)[0];
+                popup_f6e99a938f54ab14339191de9b53b104.setContent(html_1e875136c6064ad33392fc7a53a00f13);
+            
+        
+
+        circle_marker_7b261bfd895ec449048ee03d3d946b15.bindPopup(popup_f6e99a938f54ab14339191de9b53b104)
+        ;
+
+        
+    
+    
+            circle_marker_7b261bfd895ec449048ee03d3d946b15.bindTooltip(
+                `<div>
+                     Şile: çocuk oyun alanı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a62d143c6592e155c5c832264500395f = L.circleMarker(
+                [41.0637891, 28.9831642],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_8c0867f35b2f08c2c4bfc72d8e50a909);
+        
+    
+        var popup_523752ca9d18c215839651bd21d78949 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ea70a7ef9fccc380b934aaf7dee9e1a0 = $(`<div id="html_ea70a7ef9fccc380b934aaf7dee9e1a0" style="width: 100.0%; height: 100.0%;">Şişli: çocuk oyun alanı (23)</div>`)[0];
+                popup_523752ca9d18c215839651bd21d78949.setContent(html_ea70a7ef9fccc380b934aaf7dee9e1a0);
+            
+        
+
+        circle_marker_a62d143c6592e155c5c832264500395f.bindPopup(popup_523752ca9d18c215839651bd21d78949)
+        ;
+
+        
+    
+    
+            circle_marker_a62d143c6592e155c5c832264500395f.bindTooltip(
+                `<div>
+                     Şişli: çocuk oyun alanı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>

@@ -1,0 +1,1389 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_22ab19023b19bb957dae6d19da06b1fe {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    <div style="position:fixed;bottom:30px;left:30px;z-index:9999;background:white;padding:8px;border:1px solid grey;font-size:12px;max-height:400px;overflow:auto"><b>RoBERTa / Lemma (sentetik)</b><br><i style="background:#1f77b4;width:12px;height:12px;border-radius:50%;display:inline-block"></i> bebek maması<br><i style="background:#aec7e8;width:12px;height:12px;border-radius:50%;display:inline-block"></i> kan toplama merkezi<br><i style="background:#ff7f0e;width:12px;height:12px;border-radius:50%;display:inline-block"></i> soğuk algınlığı ilacı<br><i style="background:#ffbb78;width:12px;height:12px;border-radius:50%;display:inline-block"></i> engelli ekipmanı<br><i style="background:#2ca02c;width:12px;height:12px;border-radius:50%;display:inline-block"></i> kalp ilacı<br><i style="background:#98df8a;width:12px;height:12px;border-radius:50%;display:inline-block"></i> soba<br><i style="background:#d62728;width:12px;height:12px;border-radius:50%;display:inline-block"></i> sıcak yemek<br><i style="background:#ff9896;width:12px;height:12px;border-radius:50%;display:inline-block"></i> ağrı kesici<br><i style="background:#9467bd;width:12px;height:12px;border-radius:50%;display:inline-block"></i> hayvan maması<br><i style="background:#c5b0d5;width:12px;height:12px;border-radius:50%;display:inline-block"></i> tuzsuz-şekersiz yiyecek<br><i style="background:#8c564b;width:12px;height:12px;border-radius:50%;display:inline-block"></i> arama kurtarma ekibi<br><i style="background:#c49c94;width:12px;height:12px;border-radius:50%;display:inline-block"></i> uyku tulumu</div>
+    
+            <div class="folium-map" id="map_22ab19023b19bb957dae6d19da06b1fe" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_22ab19023b19bb957dae6d19da06b1fe = L.map(
+                "map_22ab19023b19bb957dae6d19da06b1fe",
+                {
+                    center: [41.05, 28.95],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4af0c080eb072827f8508a087e3de844 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_4af0c080eb072827f8508a087e3de844.addTo(map_22ab19023b19bb957dae6d19da06b1fe);
+        
+    
+            var circle_marker_d7980113cd60584e8309a770b4ced961 = L.circleMarker(
+                [40.8741659, 29.1293251],
+                {"bubblingMouseEvents": true, "color": "#c5b0d5", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c5b0d5", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_22ab19023b19bb957dae6d19da06b1fe);
+        
+    
+        var popup_9c9c2406fa58fbbc6b7e196f3df0d140 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_790e8b347b4683cf74e428967eb4dc23 = $(`<div id="html_790e8b347b4683cf74e428967eb4dc23" style="width: 100.0%; height: 100.0%;">Adalar: tuzsuz-şekersiz yiyecek (12)</div>`)[0];
+                popup_9c9c2406fa58fbbc6b7e196f3df0d140.setContent(html_790e8b347b4683cf74e428967eb4dc23);
+            
+        
+
+        circle_marker_d7980113cd60584e8309a770b4ced961.bindPopup(popup_9c9c2406fa58fbbc6b7e196f3df0d140)
+        ;
+
+        
+    
+    
+            circle_marker_d7980113cd60584e8309a770b4ced961.bindTooltip(
+                `<div>
+                     Adalar: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b0d3f83cf057bfae27e40d7765a466f6 = L.circleMarker(
+                [41.184471, 28.7412446],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_22ab19023b19bb957dae6d19da06b1fe);
+        
+    
+        var popup_11cf6c2a70dc16b98e2f5cfbc6056e90 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9a74f1535fb04bfd989de45916d79e87 = $(`<div id="html_9a74f1535fb04bfd989de45916d79e87" style="width: 100.0%; height: 100.0%;">Arnavutköy: kalp ilacı (12)</div>`)[0];
+                popup_11cf6c2a70dc16b98e2f5cfbc6056e90.setContent(html_9a74f1535fb04bfd989de45916d79e87);
+            
+        
+
+        circle_marker_b0d3f83cf057bfae27e40d7765a466f6.bindPopup(popup_11cf6c2a70dc16b98e2f5cfbc6056e90)
+        ;
+
+        
+    
+    
+            circle_marker_b0d3f83cf057bfae27e40d7765a466f6.bindTooltip(
+                `<div>
+                     Arnavutköy: kalp ilacı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a33790d918042a1318a34d706b3a8040 = L.circleMarker(
+                [40.9929379, 29.1135187],
+                {"bubblingMouseEvents": true, "color": "#ffbb78", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffbb78", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_22ab19023b19bb957dae6d19da06b1fe);
+        
+    
+        var popup_c572ec05d43d2745f4b30c0ef829e340 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1cebef1423652f6c7b892496b99d919b = $(`<div id="html_1cebef1423652f6c7b892496b99d919b" style="width: 100.0%; height: 100.0%;">Ataşehir: engelli ekipmanı (6)</div>`)[0];
+                popup_c572ec05d43d2745f4b30c0ef829e340.setContent(html_1cebef1423652f6c7b892496b99d919b);
+            
+        
+
+        circle_marker_a33790d918042a1318a34d706b3a8040.bindPopup(popup_c572ec05d43d2745f4b30c0ef829e340)
+        ;
+
+        
+    
+    
+            circle_marker_a33790d918042a1318a34d706b3a8040.bindTooltip(
+                `<div>
+                     Ataşehir: engelli ekipmanı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8d57d55dafebd81367f4ecd777a9b7c5 = L.circleMarker(
+                [40.9799389, 28.7216689],
+                {"bubblingMouseEvents": true, "color": "#c5b0d5", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c5b0d5", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_22ab19023b19bb957dae6d19da06b1fe);
+        
+    
+        var popup_72cda603004bf4be2483f706c6c06c3b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bcb68fcab769cfccf2bebe7a697c4793 = $(`<div id="html_bcb68fcab769cfccf2bebe7a697c4793" style="width: 100.0%; height: 100.0%;">Avcılar: tuzsuz-şekersiz yiyecek (12)</div>`)[0];
+                popup_72cda603004bf4be2483f706c6c06c3b.setContent(html_bcb68fcab769cfccf2bebe7a697c4793);
+            
+        
+
+        circle_marker_8d57d55dafebd81367f4ecd777a9b7c5.bindPopup(popup_72cda603004bf4be2483f706c6c06c3b)
+        ;
+
+        
+    
+    
+            circle_marker_8d57d55dafebd81367f4ecd777a9b7c5.bindTooltip(
+                `<div>
+                     Avcılar: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_70b72ea20e7c11a1ceb228081df14243 = L.circleMarker(
+                [41.0030495, 28.8657701],
+                {"bubblingMouseEvents": true, "color": "#98df8a", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#98df8a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_22ab19023b19bb957dae6d19da06b1fe);
+        
+    
+        var popup_61bbc87b5e781cb3db385161eb3dd1d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7742ee63f182c18054436cc23a7cbbd7 = $(`<div id="html_7742ee63f182c18054436cc23a7cbbd7" style="width: 100.0%; height: 100.0%;">Bahçelievler: soba (8)</div>`)[0];
+                popup_61bbc87b5e781cb3db385161eb3dd1d8.setContent(html_7742ee63f182c18054436cc23a7cbbd7);
+            
+        
+
+        circle_marker_70b72ea20e7c11a1ceb228081df14243.bindPopup(popup_61bbc87b5e781cb3db385161eb3dd1d8)
+        ;
+
+        
+    
+    
+            circle_marker_70b72ea20e7c11a1ceb228081df14243.bindTooltip(
+                `<div>
+                     Bahçelievler: soba
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a6f45b33b4397e5c7a5d3974087f0a14 = L.circleMarker(
+                [40.9782585, 28.8744461],
+                {"bubblingMouseEvents": true, "color": "#8c564b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8c564b", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_22ab19023b19bb957dae6d19da06b1fe);
+        
+    
+        var popup_df0f54525f4d94661f22bf41c3f6c7df = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_73cf3897b0028bd7baf105b12d8c501f = $(`<div id="html_73cf3897b0028bd7baf105b12d8c501f" style="width: 100.0%; height: 100.0%;">Bakırköy: arama kurtarma ekibi (11)</div>`)[0];
+                popup_df0f54525f4d94661f22bf41c3f6c7df.setContent(html_73cf3897b0028bd7baf105b12d8c501f);
+            
+        
+
+        circle_marker_a6f45b33b4397e5c7a5d3974087f0a14.bindPopup(popup_df0f54525f4d94661f22bf41c3f6c7df)
+        ;
+
+        
+    
+    
+            circle_marker_a6f45b33b4397e5c7a5d3974087f0a14.bindTooltip(
+                `<div>
+                     Bakırköy: arama kurtarma ekibi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_29cd7c6d65da7cdff0ac0dde325db5be = L.circleMarker(
+                [41.0345549, 28.9118417],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_22ab19023b19bb957dae6d19da06b1fe);
+        
+    
+        var popup_21d18cde3be14d3c2f152503768b0725 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8823806fa394fa52d164e8a526cd2f18 = $(`<div id="html_8823806fa394fa52d164e8a526cd2f18" style="width: 100.0%; height: 100.0%;">Bayrampaşa: soğuk algınlığı ilacı (20)</div>`)[0];
+                popup_21d18cde3be14d3c2f152503768b0725.setContent(html_8823806fa394fa52d164e8a526cd2f18);
+            
+        
+
+        circle_marker_29cd7c6d65da7cdff0ac0dde325db5be.bindPopup(popup_21d18cde3be14d3c2f152503768b0725)
+        ;
+
+        
+    
+    
+            circle_marker_29cd7c6d65da7cdff0ac0dde325db5be.bindTooltip(
+                `<div>
+                     Bayrampaşa: soğuk algınlığı ilacı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_77559c633f8593cbecbc4e2aae356d1c = L.circleMarker(
+                [41.034547, 28.8567558],
+                {"bubblingMouseEvents": true, "color": "#c49c94", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c49c94", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_22ab19023b19bb957dae6d19da06b1fe);
+        
+    
+        var popup_a4a79162d3f62fc2233a28513e800980 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5ee4d9ad5a754cab82582a427279593c = $(`<div id="html_5ee4d9ad5a754cab82582a427279593c" style="width: 100.0%; height: 100.0%;">Bağcılar: uyku tulumu (12)</div>`)[0];
+                popup_a4a79162d3f62fc2233a28513e800980.setContent(html_5ee4d9ad5a754cab82582a427279593c);
+            
+        
+
+        circle_marker_77559c633f8593cbecbc4e2aae356d1c.bindPopup(popup_a4a79162d3f62fc2233a28513e800980)
+        ;
+
+        
+    
+    
+            circle_marker_77559c633f8593cbecbc4e2aae356d1c.bindTooltip(
+                `<div>
+                     Bağcılar: uyku tulumu
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fa3abc542839b3fb6f369d646a06938d = L.circleMarker(
+                [41.1075794, 28.7950711],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_22ab19023b19bb957dae6d19da06b1fe);
+        
+    
+        var popup_f1cd52a9102784ee02bebcaeae34fa8b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a900875e149fb35151d3eac7fad94ab2 = $(`<div id="html_a900875e149fb35151d3eac7fad94ab2" style="width: 100.0%; height: 100.0%;">Başakşehir: soğuk algınlığı ilacı (10)</div>`)[0];
+                popup_f1cd52a9102784ee02bebcaeae34fa8b.setContent(html_a900875e149fb35151d3eac7fad94ab2);
+            
+        
+
+        circle_marker_fa3abc542839b3fb6f369d646a06938d.bindPopup(popup_f1cd52a9102784ee02bebcaeae34fa8b)
+        ;
+
+        
+    
+    
+            circle_marker_fa3abc542839b3fb6f369d646a06938d.bindTooltip(
+                `<div>
+                     Başakşehir: soğuk algınlığı ilacı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a4ff20ac42db71bd922178a37507c524 = L.circleMarker(
+                [41.1343001, 29.0920378],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_22ab19023b19bb957dae6d19da06b1fe);
+        
+    
+        var popup_13877e95d9f429c70cd8413e40949844 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b468988e485f6d88bd6818cd82ba800 = $(`<div id="html_9b468988e485f6d88bd6818cd82ba800" style="width: 100.0%; height: 100.0%;">Beykoz: kalp ilacı (9)</div>`)[0];
+                popup_13877e95d9f429c70cd8413e40949844.setContent(html_9b468988e485f6d88bd6818cd82ba800);
+            
+        
+
+        circle_marker_a4ff20ac42db71bd922178a37507c524.bindPopup(popup_13877e95d9f429c70cd8413e40949844)
+        ;
+
+        
+    
+    
+            circle_marker_a4ff20ac42db71bd922178a37507c524.bindTooltip(
+                `<div>
+                     Beykoz: kalp ilacı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_436987e848a22b8b18745522a63e3d0d = L.circleMarker(
+                [41.0037541, 28.6372583],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_22ab19023b19bb957dae6d19da06b1fe);
+        
+    
+        var popup_5a5cde42cff5fc334ce734eaf15905e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c67bab5c766d1190c943701f5d86b3ec = $(`<div id="html_c67bab5c766d1190c943701f5d86b3ec" style="width: 100.0%; height: 100.0%;">Beylikdüzü: kalp ilacı (12)</div>`)[0];
+                popup_5a5cde42cff5fc334ce734eaf15905e1.setContent(html_c67bab5c766d1190c943701f5d86b3ec);
+            
+        
+
+        circle_marker_436987e848a22b8b18745522a63e3d0d.bindPopup(popup_5a5cde42cff5fc334ce734eaf15905e1)
+        ;
+
+        
+    
+    
+            circle_marker_436987e848a22b8b18745522a63e3d0d.bindTooltip(
+                `<div>
+                     Beylikdüzü: kalp ilacı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a918ef26c900c7ec91a6d24b35b10464 = L.circleMarker(
+                [41.0284233, 28.9736808],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_22ab19023b19bb957dae6d19da06b1fe);
+        
+    
+        var popup_e6d135cdae31880da1ec9f5f022cf5c2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7fcdcee77b9a5b057d6ffc60afb9974b = $(`<div id="html_7fcdcee77b9a5b057d6ffc60afb9974b" style="width: 100.0%; height: 100.0%;">Beyoğlu: bebek maması (8)</div>`)[0];
+                popup_e6d135cdae31880da1ec9f5f022cf5c2.setContent(html_7fcdcee77b9a5b057d6ffc60afb9974b);
+            
+        
+
+        circle_marker_a918ef26c900c7ec91a6d24b35b10464.bindPopup(popup_e6d135cdae31880da1ec9f5f022cf5c2)
+        ;
+
+        
+    
+    
+            circle_marker_a918ef26c900c7ec91a6d24b35b10464.bindTooltip(
+                `<div>
+                     Beyoğlu: bebek maması
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_449a7da9162f1ffc2bf264de08d77178 = L.circleMarker(
+                [41.0428465, 29.0075283],
+                {"bubblingMouseEvents": true, "color": "#d62728", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d62728", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_22ab19023b19bb957dae6d19da06b1fe);
+        
+    
+        var popup_a4a4e59f790bef343e74a5a08dad33cd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_abfce9ac8548a59d1b3ed95dc0cec5c0 = $(`<div id="html_abfce9ac8548a59d1b3ed95dc0cec5c0" style="width: 100.0%; height: 100.0%;">Beşiktaş: sıcak yemek (9)</div>`)[0];
+                popup_a4a4e59f790bef343e74a5a08dad33cd.setContent(html_abfce9ac8548a59d1b3ed95dc0cec5c0);
+            
+        
+
+        circle_marker_449a7da9162f1ffc2bf264de08d77178.bindPopup(popup_a4a4e59f790bef343e74a5a08dad33cd)
+        ;
+
+        
+    
+    
+            circle_marker_449a7da9162f1ffc2bf264de08d77178.bindTooltip(
+                `<div>
+                     Beşiktaş: sıcak yemek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c973c8b40fd7db83a3c995fb6633d680 = L.circleMarker(
+                [41.021654, 28.579757],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_22ab19023b19bb957dae6d19da06b1fe);
+        
+    
+        var popup_08380d755fda011c6497cf5e1893e076 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e9d921da2ede19624b7e0754d3b9945a = $(`<div id="html_e9d921da2ede19624b7e0754d3b9945a" style="width: 100.0%; height: 100.0%;">Büyükçekmece: soğuk algınlığı ilacı (16)</div>`)[0];
+                popup_08380d755fda011c6497cf5e1893e076.setContent(html_e9d921da2ede19624b7e0754d3b9945a);
+            
+        
+
+        circle_marker_c973c8b40fd7db83a3c995fb6633d680.bindPopup(popup_08380d755fda011c6497cf5e1893e076)
+        ;
+
+        
+    
+    
+            circle_marker_c973c8b40fd7db83a3c995fb6633d680.bindTooltip(
+                `<div>
+                     Büyükçekmece: soğuk algınlığı ilacı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_31dbf57be3f68c22c2f54d502f52c0fc = L.circleMarker(
+                [41.0376175, 28.8824519],
+                {"bubblingMouseEvents": true, "color": "#98df8a", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#98df8a", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_22ab19023b19bb957dae6d19da06b1fe);
+        
+    
+        var popup_02c88277315d25d15919f4b61279dccd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_66600f23f1b946c91414dd8cf060e857 = $(`<div id="html_66600f23f1b946c91414dd8cf060e857" style="width: 100.0%; height: 100.0%;">Esenler: soba (8)</div>`)[0];
+                popup_02c88277315d25d15919f4b61279dccd.setContent(html_66600f23f1b946c91414dd8cf060e857);
+            
+        
+
+        circle_marker_31dbf57be3f68c22c2f54d502f52c0fc.bindPopup(popup_02c88277315d25d15919f4b61279dccd)
+        ;
+
+        
+    
+    
+            circle_marker_31dbf57be3f68c22c2f54d502f52c0fc.bindTooltip(
+                `<div>
+                     Esenler: soba
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6ec215e89ebe76c2b9766bc8b2a7d7ef = L.circleMarker(
+                [41.0342862, 28.6801113],
+                {"bubblingMouseEvents": true, "color": "#8c564b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8c564b", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_22ab19023b19bb957dae6d19da06b1fe);
+        
+    
+        var popup_df6a0bbe92b6d2ba242f1cccd3d9baba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_792ed87283c138c0c87fe386d0eaec33 = $(`<div id="html_792ed87283c138c0c87fe386d0eaec33" style="width: 100.0%; height: 100.0%;">Esenyurt: arama kurtarma ekibi (16)</div>`)[0];
+                popup_df6a0bbe92b6d2ba242f1cccd3d9baba.setContent(html_792ed87283c138c0c87fe386d0eaec33);
+            
+        
+
+        circle_marker_6ec215e89ebe76c2b9766bc8b2a7d7ef.bindPopup(popup_df6a0bbe92b6d2ba242f1cccd3d9baba)
+        ;
+
+        
+    
+    
+            circle_marker_6ec215e89ebe76c2b9766bc8b2a7d7ef.bindTooltip(
+                `<div>
+                     Esenyurt: arama kurtarma ekibi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_67e7c14af0f856952b8762322f6886d9 = L.circleMarker(
+                [41.0478358, 28.9327383],
+                {"bubblingMouseEvents": true, "color": "#c5b0d5", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c5b0d5", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_22ab19023b19bb957dae6d19da06b1fe);
+        
+    
+        var popup_8caaa4c9739da1fb4a1d4f4b36dd80b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cf781cfca15522b30bb8304772195de8 = $(`<div id="html_cf781cfca15522b30bb8304772195de8" style="width: 100.0%; height: 100.0%;">Eyüpsultan: tuzsuz-şekersiz yiyecek (18)</div>`)[0];
+                popup_8caaa4c9739da1fb4a1d4f4b36dd80b2.setContent(html_cf781cfca15522b30bb8304772195de8);
+            
+        
+
+        circle_marker_67e7c14af0f856952b8762322f6886d9.bindPopup(popup_8caaa4c9739da1fb4a1d4f4b36dd80b2)
+        ;
+
+        
+    
+    
+            circle_marker_67e7c14af0f856952b8762322f6886d9.bindTooltip(
+                `<div>
+                     Eyüpsultan: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f60737fcfcba41451b7ce28da48fe830 = L.circleMarker(
+                [41.0192846, 28.9479296],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_22ab19023b19bb957dae6d19da06b1fe);
+        
+    
+        var popup_118316123468c24b2b36423d9256fa74 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fc3688d565d0da2adb8ff86c90422118 = $(`<div id="html_fc3688d565d0da2adb8ff86c90422118" style="width: 100.0%; height: 100.0%;">Fatih: soğuk algınlığı ilacı (10)</div>`)[0];
+                popup_118316123468c24b2b36423d9256fa74.setContent(html_fc3688d565d0da2adb8ff86c90422118);
+            
+        
+
+        circle_marker_f60737fcfcba41451b7ce28da48fe830.bindPopup(popup_118316123468c24b2b36423d9256fa74)
+        ;
+
+        
+    
+    
+            circle_marker_f60737fcfcba41451b7ce28da48fe830.bindTooltip(
+                `<div>
+                     Fatih: soğuk algınlığı ilacı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3574412acdb87675386aaa07b15fb22f = L.circleMarker(
+                [41.0578305, 28.9122452],
+                {"bubblingMouseEvents": true, "color": "#8c564b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8c564b", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_22ab19023b19bb957dae6d19da06b1fe);
+        
+    
+        var popup_898af0bc5d0eb75c77735fdebfd9f03c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f55208c5b3d2b1e6333f3231c3ccec16 = $(`<div id="html_f55208c5b3d2b1e6333f3231c3ccec16" style="width: 100.0%; height: 100.0%;">Gaziosmanpaşa: arama kurtarma ekibi (11)</div>`)[0];
+                popup_898af0bc5d0eb75c77735fdebfd9f03c.setContent(html_f55208c5b3d2b1e6333f3231c3ccec16);
+            
+        
+
+        circle_marker_3574412acdb87675386aaa07b15fb22f.bindPopup(popup_898af0bc5d0eb75c77735fdebfd9f03c)
+        ;
+
+        
+    
+    
+            circle_marker_3574412acdb87675386aaa07b15fb22f.bindTooltip(
+                `<div>
+                     Gaziosmanpaşa: arama kurtarma ekibi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2de622a589551ccf60d5c344d6f5cc42 = L.circleMarker(
+                [41.0252832, 28.8726498],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_22ab19023b19bb957dae6d19da06b1fe);
+        
+    
+        var popup_2415e6547f47395261599844ffed26f9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_51e08dd894e0055da1d027e2ee302c27 = $(`<div id="html_51e08dd894e0055da1d027e2ee302c27" style="width: 100.0%; height: 100.0%;">Güngören: soğuk algınlığı ilacı (8)</div>`)[0];
+                popup_2415e6547f47395261599844ffed26f9.setContent(html_51e08dd894e0055da1d027e2ee302c27);
+            
+        
+
+        circle_marker_2de622a589551ccf60d5c344d6f5cc42.bindPopup(popup_2415e6547f47395261599844ffed26f9)
+        ;
+
+        
+    
+    
+            circle_marker_2de622a589551ccf60d5c344d6f5cc42.bindTooltip(
+                `<div>
+                     Güngören: soğuk algınlığı ilacı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_278f9e70efbe276a6c97fb74a417c38e = L.circleMarker(
+                [40.9912955, 29.0245631],
+                {"bubblingMouseEvents": true, "color": "#8c564b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8c564b", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_22ab19023b19bb957dae6d19da06b1fe);
+        
+    
+        var popup_ca282d185bf5ad49b94029cff67ed698 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_62d0dd62a281f1922f9d7cc0bbd835d4 = $(`<div id="html_62d0dd62a281f1922f9d7cc0bbd835d4" style="width: 100.0%; height: 100.0%;">Kadıköy: arama kurtarma ekibi (9)</div>`)[0];
+                popup_ca282d185bf5ad49b94029cff67ed698.setContent(html_62d0dd62a281f1922f9d7cc0bbd835d4);
+            
+        
+
+        circle_marker_278f9e70efbe276a6c97fb74a417c38e.bindPopup(popup_ca282d185bf5ad49b94029cff67ed698)
+        ;
+
+        
+    
+    
+            circle_marker_278f9e70efbe276a6c97fb74a417c38e.bindTooltip(
+                `<div>
+                     Kadıköy: arama kurtarma ekibi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ef9f5470339e8a01a451d7224f66a401 = L.circleMarker(
+                [40.88858, 29.1856536],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_22ab19023b19bb957dae6d19da06b1fe);
+        
+    
+        var popup_199030767a40ed29db089a2ba69252f3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aa5ca2481a2a09e824d16cbb291b905b = $(`<div id="html_aa5ca2481a2a09e824d16cbb291b905b" style="width: 100.0%; height: 100.0%;">Kartal: soğuk algınlığı ilacı (11)</div>`)[0];
+                popup_199030767a40ed29db089a2ba69252f3.setContent(html_aa5ca2481a2a09e824d16cbb291b905b);
+            
+        
+
+        circle_marker_ef9f5470339e8a01a451d7224f66a401.bindPopup(popup_199030767a40ed29db089a2ba69252f3)
+        ;
+
+        
+    
+    
+            circle_marker_ef9f5470339e8a01a451d7224f66a401.bindTooltip(
+                `<div>
+                     Kartal: soğuk algınlığı ilacı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fd8cb16341bd1866edae75d3bb3cfe0e = L.circleMarker(
+                [41.0796544, 28.9731198],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_22ab19023b19bb957dae6d19da06b1fe);
+        
+    
+        var popup_426ef9e961392bca89cd6a2ccc651898 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dd629832b810b5d1d6d03345e99cac2e = $(`<div id="html_dd629832b810b5d1d6d03345e99cac2e" style="width: 100.0%; height: 100.0%;">Kağıthane: soğuk algınlığı ilacı (9)</div>`)[0];
+                popup_426ef9e961392bca89cd6a2ccc651898.setContent(html_dd629832b810b5d1d6d03345e99cac2e);
+            
+        
+
+        circle_marker_fd8cb16341bd1866edae75d3bb3cfe0e.bindPopup(popup_426ef9e961392bca89cd6a2ccc651898)
+        ;
+
+        
+    
+    
+            circle_marker_fd8cb16341bd1866edae75d3bb3cfe0e.bindTooltip(
+                `<div>
+                     Kağıthane: soğuk algınlığı ilacı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c628a144387afbb5391212e447ffb5e3 = L.circleMarker(
+                [40.9918737, 28.7711956],
+                {"bubblingMouseEvents": true, "color": "#aec7e8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#aec7e8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_22ab19023b19bb957dae6d19da06b1fe);
+        
+    
+        var popup_be23ddb459caae247698f4bd5aa4e9c0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_15b611efe27081bcb5ee856e1458c3c3 = $(`<div id="html_15b611efe27081bcb5ee856e1458c3c3" style="width: 100.0%; height: 100.0%;">Küçükçekmece: kan toplama merkezi (8)</div>`)[0];
+                popup_be23ddb459caae247698f4bd5aa4e9c0.setContent(html_15b611efe27081bcb5ee856e1458c3c3);
+            
+        
+
+        circle_marker_c628a144387afbb5391212e447ffb5e3.bindPopup(popup_be23ddb459caae247698f4bd5aa4e9c0)
+        ;
+
+        
+    
+    
+            circle_marker_c628a144387afbb5391212e447ffb5e3.bindTooltip(
+                `<div>
+                     Küçükçekmece: kan toplama merkezi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_581b98dac3fce016137789653872eed3 = L.circleMarker(
+                [40.9247539, 29.1310782],
+                {"bubblingMouseEvents": true, "color": "#8c564b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8c564b", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_22ab19023b19bb957dae6d19da06b1fe);
+        
+    
+        var popup_57d9aeda4dc6a7efc97ef5c7e8d00e04 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5bf10cc7bcee409cce1ff638d3bf7c9e = $(`<div id="html_5bf10cc7bcee409cce1ff638d3bf7c9e" style="width: 100.0%; height: 100.0%;">Maltepe: arama kurtarma ekibi (10)</div>`)[0];
+                popup_57d9aeda4dc6a7efc97ef5c7e8d00e04.setContent(html_5bf10cc7bcee409cce1ff638d3bf7c9e);
+            
+        
+
+        circle_marker_581b98dac3fce016137789653872eed3.bindPopup(popup_57d9aeda4dc6a7efc97ef5c7e8d00e04)
+        ;
+
+        
+    
+    
+            circle_marker_581b98dac3fce016137789653872eed3.bindTooltip(
+                `<div>
+                     Maltepe: arama kurtarma ekibi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2ad5c328029f412cf9e4b09b30ee52d3 = L.circleMarker(
+                [40.8768715, 29.2349672],
+                {"bubblingMouseEvents": true, "color": "#c5b0d5", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c5b0d5", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_22ab19023b19bb957dae6d19da06b1fe);
+        
+    
+        var popup_4db7e4bb7e71443ee67585c4d26b19ba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8e8d4893589066fa6d993477946c3c81 = $(`<div id="html_8e8d4893589066fa6d993477946c3c81" style="width: 100.0%; height: 100.0%;">Pendik: tuzsuz-şekersiz yiyecek (18)</div>`)[0];
+                popup_4db7e4bb7e71443ee67585c4d26b19ba.setContent(html_8e8d4893589066fa6d993477946c3c81);
+            
+        
+
+        circle_marker_2ad5c328029f412cf9e4b09b30ee52d3.bindPopup(popup_4db7e4bb7e71443ee67585c4d26b19ba)
+        ;
+
+        
+    
+    
+            circle_marker_2ad5c328029f412cf9e4b09b30ee52d3.bindTooltip(
+                `<div>
+                     Pendik: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_103e61ee37de092b7730ad7500fd259e = L.circleMarker(
+                [40.9905196, 29.2288624],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_22ab19023b19bb957dae6d19da06b1fe);
+        
+    
+        var popup_392cf72807444ce5984e542ab2d45d1f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_62ace327976ba98b8ab2e1f63ce680d0 = $(`<div id="html_62ace327976ba98b8ab2e1f63ce680d0" style="width: 100.0%; height: 100.0%;">Sancaktepe: soğuk algınlığı ilacı (8)</div>`)[0];
+                popup_392cf72807444ce5984e542ab2d45d1f.setContent(html_62ace327976ba98b8ab2e1f63ce680d0);
+            
+        
+
+        circle_marker_103e61ee37de092b7730ad7500fd259e.bindPopup(popup_392cf72807444ce5984e542ab2d45d1f)
+        ;
+
+        
+    
+    
+            circle_marker_103e61ee37de092b7730ad7500fd259e.bindTooltip(
+                `<div>
+                     Sancaktepe: soğuk algınlığı ilacı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_71b84798fe1c0b529c12e9bc37b5108a = L.circleMarker(
+                [41.1685803, 29.0572623],
+                {"bubblingMouseEvents": true, "color": "#8c564b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8c564b", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_22ab19023b19bb957dae6d19da06b1fe);
+        
+    
+        var popup_31dd3a8464a42f46e025b55c17b75036 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ed82833156f1a351d44682ddf4190c2b = $(`<div id="html_ed82833156f1a351d44682ddf4190c2b" style="width: 100.0%; height: 100.0%;">Sarıyer: arama kurtarma ekibi (11)</div>`)[0];
+                popup_31dd3a8464a42f46e025b55c17b75036.setContent(html_ed82833156f1a351d44682ddf4190c2b);
+            
+        
+
+        circle_marker_71b84798fe1c0b529c12e9bc37b5108a.bindPopup(popup_31dd3a8464a42f46e025b55c17b75036)
+        ;
+
+        
+    
+    
+            circle_marker_71b84798fe1c0b529c12e9bc37b5108a.bindTooltip(
+                `<div>
+                     Sarıyer: arama kurtarma ekibi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e85fa305155e26ba9df0f683c401b113 = L.circleMarker(
+                [41.0742476, 28.2481709],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_22ab19023b19bb957dae6d19da06b1fe);
+        
+    
+        var popup_e233ad977be75738b27f570bd8928d11 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d8c01c11580fac214824ddb7d3e70cc2 = $(`<div id="html_d8c01c11580fac214824ddb7d3e70cc2" style="width: 100.0%; height: 100.0%;">Silivri: soğuk algınlığı ilacı (10)</div>`)[0];
+                popup_e233ad977be75738b27f570bd8928d11.setContent(html_d8c01c11580fac214824ddb7d3e70cc2);
+            
+        
+
+        circle_marker_e85fa305155e26ba9df0f683c401b113.bindPopup(popup_e233ad977be75738b27f570bd8928d11)
+        ;
+
+        
+    
+    
+            circle_marker_e85fa305155e26ba9df0f683c401b113.bindTooltip(
+                `<div>
+                     Silivri: soğuk algınlığı ilacı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_73bbbf19d4287eb8080ff22416ce5930 = L.circleMarker(
+                [40.9670242, 29.2671314],
+                {"bubblingMouseEvents": true, "color": "#ff9896", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff9896", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_22ab19023b19bb957dae6d19da06b1fe);
+        
+    
+        var popup_1560ce33d6b6e8b61329f394a4b7a702 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fa975c1754626df342058eefe500e49c = $(`<div id="html_fa975c1754626df342058eefe500e49c" style="width: 100.0%; height: 100.0%;">Sultanbeyli: ağrı kesici (8)</div>`)[0];
+                popup_1560ce33d6b6e8b61329f394a4b7a702.setContent(html_fa975c1754626df342058eefe500e49c);
+            
+        
+
+        circle_marker_73bbbf19d4287eb8080ff22416ce5930.bindPopup(popup_1560ce33d6b6e8b61329f394a4b7a702)
+        ;
+
+        
+    
+    
+            circle_marker_73bbbf19d4287eb8080ff22416ce5930.bindTooltip(
+                `<div>
+                     Sultanbeyli: ağrı kesici
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6fc19d69ef445f55b14209660229b327 = L.circleMarker(
+                [41.1043344, 28.8614367],
+                {"bubblingMouseEvents": true, "color": "#aec7e8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#aec7e8", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_22ab19023b19bb957dae6d19da06b1fe);
+        
+    
+        var popup_71b392d95c56294888cac722f75243b5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a415828667a65b3435ea55bb809849e = $(`<div id="html_7a415828667a65b3435ea55bb809849e" style="width: 100.0%; height: 100.0%;">Sultangazi: kan toplama merkezi (13)</div>`)[0];
+                popup_71b392d95c56294888cac722f75243b5.setContent(html_7a415828667a65b3435ea55bb809849e);
+            
+        
+
+        circle_marker_6fc19d69ef445f55b14209660229b327.bindPopup(popup_71b392d95c56294888cac722f75243b5)
+        ;
+
+        
+    
+    
+            circle_marker_6fc19d69ef445f55b14209660229b327.bindTooltip(
+                `<div>
+                     Sultangazi: kan toplama merkezi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c9f062746b6febf045351ba0b38026f5 = L.circleMarker(
+                [40.8161732, 29.3034194],
+                {"bubblingMouseEvents": true, "color": "#9467bd", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9467bd", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_22ab19023b19bb957dae6d19da06b1fe);
+        
+    
+        var popup_186cdcf190ebfb2f1a9cfede04d7fa5b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9c9a2e70984caf6538e7569722642aa7 = $(`<div id="html_9c9a2e70984caf6538e7569722642aa7" style="width: 100.0%; height: 100.0%;">Tuzla: hayvan maması (23)</div>`)[0];
+                popup_186cdcf190ebfb2f1a9cfede04d7fa5b.setContent(html_9c9a2e70984caf6538e7569722642aa7);
+            
+        
+
+        circle_marker_c9f062746b6febf045351ba0b38026f5.bindPopup(popup_186cdcf190ebfb2f1a9cfede04d7fa5b)
+        ;
+
+        
+    
+    
+            circle_marker_c9f062746b6febf045351ba0b38026f5.bindTooltip(
+                `<div>
+                     Tuzla: hayvan maması
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1c026ec9ba2e4e398857386766ff2191 = L.circleMarker(
+                [40.9898653, 28.9037467],
+                {"bubblingMouseEvents": true, "color": "#ff7f0e", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ff7f0e", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_22ab19023b19bb957dae6d19da06b1fe);
+        
+    
+        var popup_488491880cbc26e41b57c9a772fcfef8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b67eaa61d6fa4bc794494b929127710a = $(`<div id="html_b67eaa61d6fa4bc794494b929127710a" style="width: 100.0%; height: 100.0%;">Zeytinburnu: soğuk algınlığı ilacı (6)</div>`)[0];
+                popup_488491880cbc26e41b57c9a772fcfef8.setContent(html_b67eaa61d6fa4bc794494b929127710a);
+            
+        
+
+        circle_marker_1c026ec9ba2e4e398857386766ff2191.bindPopup(popup_488491880cbc26e41b57c9a772fcfef8)
+        ;
+
+        
+    
+    
+            circle_marker_1c026ec9ba2e4e398857386766ff2191.bindTooltip(
+                `<div>
+                     Zeytinburnu: soğuk algınlığı ilacı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7dc34574aa789b440eb9b505e44a422b = L.circleMarker(
+                [41.1436804, 28.4605154],
+                {"bubblingMouseEvents": true, "color": "#c49c94", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c49c94", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_22ab19023b19bb957dae6d19da06b1fe);
+        
+    
+        var popup_d926505811c1109031e6acd2ef51aba4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a06d1dd2df1210a8e8ee2407b22a76d9 = $(`<div id="html_a06d1dd2df1210a8e8ee2407b22a76d9" style="width: 100.0%; height: 100.0%;">Çatalca: uyku tulumu (12)</div>`)[0];
+                popup_d926505811c1109031e6acd2ef51aba4.setContent(html_a06d1dd2df1210a8e8ee2407b22a76d9);
+            
+        
+
+        circle_marker_7dc34574aa789b440eb9b505e44a422b.bindPopup(popup_d926505811c1109031e6acd2ef51aba4)
+        ;
+
+        
+    
+    
+            circle_marker_7dc34574aa789b440eb9b505e44a422b.bindTooltip(
+                `<div>
+                     Çatalca: uyku tulumu
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ef715f83c0289b9efa5c2ec247895604 = L.circleMarker(
+                [41.0351579, 29.1739149],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_22ab19023b19bb957dae6d19da06b1fe);
+        
+    
+        var popup_a25bd8298df7fc24e23cf161e55e0947 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6a7b59f0fd045a996332e54c72a10694 = $(`<div id="html_6a7b59f0fd045a996332e54c72a10694" style="width: 100.0%; height: 100.0%;">Çekmeköy: bebek maması (12)</div>`)[0];
+                popup_a25bd8298df7fc24e23cf161e55e0947.setContent(html_6a7b59f0fd045a996332e54c72a10694);
+            
+        
+
+        circle_marker_ef715f83c0289b9efa5c2ec247895604.bindPopup(popup_a25bd8298df7fc24e23cf161e55e0947)
+        ;
+
+        
+    
+    
+            circle_marker_ef715f83c0289b9efa5c2ec247895604.bindTooltip(
+                `<div>
+                     Çekmeköy: bebek maması
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1a35bd81bdb7ec3ef8ec55eca4978e6f = L.circleMarker(
+                [41.0256362, 29.0963049],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_22ab19023b19bb957dae6d19da06b1fe);
+        
+    
+        var popup_f09cb70bba85793331200be75a235299 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0005b97e06e96008ffdc6dad628739ac = $(`<div id="html_0005b97e06e96008ffdc6dad628739ac" style="width: 100.0%; height: 100.0%;">Ümraniye: kalp ilacı (12)</div>`)[0];
+                popup_f09cb70bba85793331200be75a235299.setContent(html_0005b97e06e96008ffdc6dad628739ac);
+            
+        
+
+        circle_marker_1a35bd81bdb7ec3ef8ec55eca4978e6f.bindPopup(popup_f09cb70bba85793331200be75a235299)
+        ;
+
+        
+    
+    
+            circle_marker_1a35bd81bdb7ec3ef8ec55eca4978e6f.bindTooltip(
+                `<div>
+                     Ümraniye: kalp ilacı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_959799dfa5a36ef4ae1d003d50c9a67b = L.circleMarker(
+                [41.0265498, 29.0151321],
+                {"bubblingMouseEvents": true, "color": "#8c564b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#8c564b", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_22ab19023b19bb957dae6d19da06b1fe);
+        
+    
+        var popup_5ed2448b12fd096250a5262fb20afcdc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d99f63c27575eea1aff213f2cbae055b = $(`<div id="html_d99f63c27575eea1aff213f2cbae055b" style="width: 100.0%; height: 100.0%;">Üsküdar: arama kurtarma ekibi (7)</div>`)[0];
+                popup_5ed2448b12fd096250a5262fb20afcdc.setContent(html_d99f63c27575eea1aff213f2cbae055b);
+            
+        
+
+        circle_marker_959799dfa5a36ef4ae1d003d50c9a67b.bindPopup(popup_5ed2448b12fd096250a5262fb20afcdc)
+        ;
+
+        
+    
+    
+            circle_marker_959799dfa5a36ef4ae1d003d50c9a67b.bindTooltip(
+                `<div>
+                     Üsküdar: arama kurtarma ekibi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_56846595c60debc3eac27c781f28ed85 = L.circleMarker(
+                [41.1744067, 29.6125216],
+                {"bubblingMouseEvents": true, "color": "#c5b0d5", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c5b0d5", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_22ab19023b19bb957dae6d19da06b1fe);
+        
+    
+        var popup_02db5965b6ad0b9d03f058263825a8b9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dc056063321218e2586f91fe5cd91352 = $(`<div id="html_dc056063321218e2586f91fe5cd91352" style="width: 100.0%; height: 100.0%;">Şile: tuzsuz-şekersiz yiyecek (13)</div>`)[0];
+                popup_02db5965b6ad0b9d03f058263825a8b9.setContent(html_dc056063321218e2586f91fe5cd91352);
+            
+        
+
+        circle_marker_56846595c60debc3eac27c781f28ed85.bindPopup(popup_02db5965b6ad0b9d03f058263825a8b9)
+        ;
+
+        
+    
+    
+            circle_marker_56846595c60debc3eac27c781f28ed85.bindTooltip(
+                `<div>
+                     Şile: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_33ca120d6c8c9df4993e4195fc2dc2a8 = L.circleMarker(
+                [41.0637891, 28.9831642],
+                {"bubblingMouseEvents": true, "color": "#2ca02c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2ca02c", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_22ab19023b19bb957dae6d19da06b1fe);
+        
+    
+        var popup_3e36669dd2d964e4fb7752482f00f509 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1a364950ef8fccd82247d7a98616fb8d = $(`<div id="html_1a364950ef8fccd82247d7a98616fb8d" style="width: 100.0%; height: 100.0%;">Şişli: kalp ilacı (7)</div>`)[0];
+                popup_3e36669dd2d964e4fb7752482f00f509.setContent(html_1a364950ef8fccd82247d7a98616fb8d);
+            
+        
+
+        circle_marker_33ca120d6c8c9df4993e4195fc2dc2a8.bindPopup(popup_3e36669dd2d964e4fb7752482f00f509)
+        ;
+
+        
+    
+    
+            circle_marker_33ca120d6c8c9df4993e4195fc2dc2a8.bindTooltip(
+                `<div>
+                     Şişli: kalp ilacı
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>

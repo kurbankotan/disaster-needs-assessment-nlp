@@ -1,0 +1,16 @@
+﻿Model,Düz,Lemma,Gövde
+BERT,0.192,0.284,0.34
+ALBERT,0.066,0.0665,0.03
+RoBERTa,0.1745,0.2475,0.253
+GloVe,0.164,0.293,0.3515
+Word2Vec,0.3575,0.584,0.5545
+USE,0.712,0.71,0.6255
+FastText,0.1425,0.386,0.456
+SBERT-mpnet,0.6515,0.613,0.57
+BERT-raw,0.104,0.094,0.057
+ALBERT-paraphrase,0.602,0.612,0.595
+SBERT-çokdilli (TR),0.442,,
+BERTurk-STS (TR),0.4405,,
+Temel: TF-IDF,0.635,0.702,0.712
+Temel: Rastgele,0.0235,,
+Temel: Çoğunluk,0.0655,,

@@ -1,0 +1,81 @@
+{
+ "kaynak": {
+  "BERT": "sentence-transformers:bert-base-nli-mean-tokens",
+  "ALBERT": "sentence-transformers:albert-base-v2",
+  "RoBERTa": "sentence-transformers:roberta-base-nli-mean-tokens",
+  "GloVe": "glove.840B.300d (/content/drive/MyDrive/Colab Notebooks/NLP Modeller/GloVe File/glove.840B.300d-001.txt)",
+  "Word2Vec": "word2vec-google-news-300 (/content/drive/MyDrive/Colab Notebooks/NLP Modeller/Word2Vec Files/word2vec-google-news-300.bin)",
+  "USE": "universal-sentence-encoder/4 (/content/drive/MyDrive/Colab Notebooks/NLP Modeller/USE Files)",
+  "FastText": "cc.en.300.bin (/content/drive/MyDrive/Colab Notebooks/NLP Modeller/FastText Files/cc.en.300.bin)",
+  "SBERT-mpnet": "sentence-transformers:all-mpnet-base-v2",
+  "BERT-raw": "sentence-transformers:bert-base-uncased",
+  "ALBERT-paraphrase": "sentence-transformers:paraphrase-albert-small-v2",
+  "SBERT-çokdilli (TR)": "sentence-transformers:paraphrase-multilingual-MiniLM-L12-v2",
+  "BERTurk-STS (TR)": "sentence-transformers:emrecan/bert-base-turkish-cased-mean-nli-stsb-tr",
+  "Temel: TF-IDF": "TF-IDF (sklearn, 1-2 gram, sublinear tf)",
+  "Temel: Rastgele": "temel çizgi",
+  "Temel: Çoğunluk": "temel çizgi"
+ },
+ "olcum": {
+  "BERT": {
+   "dim": 768,
+   "n_params": 109482240
+  },
+  "ALBERT": {
+   "dim": 768,
+   "n_params": 11683584
+  },
+  "RoBERTa": {
+   "dim": 768,
+   "n_params": 124645632
+  },
+  "GloVe": {
+   "dim": 300,
+   "n_params": 658804800
+  },
+  "Word2Vec": {
+   "dim": 300,
+   "n_params": 900000000
+  },
+  "USE": {
+   "dim": 512,
+   "n_params": 256797824
+  },
+  "FastText": {
+   "dim": 300,
+   "n_params": 1200000000
+  },
+  "SBERT-mpnet": {
+   "dim": 768,
+   "n_params": 109486464
+  },
+  "BERT-raw": {
+   "dim": 768,
+   "n_params": 109482240
+  },
+  "ALBERT-paraphrase": {
+   "dim": 768,
+   "n_params": 11683584
+  },
+  "SBERT-çokdilli (TR)": {
+   "dim": 384,
+   "n_params": 117653760
+  },
+  "BERTurk-STS (TR)": {
+   "dim": 768,
+   "n_params": 110617344
+  },
+  "Temel: TF-IDF": {
+   "dim": 18809,
+   "n_params": 0
+  },
+  "Temel: Rastgele": {
+   "dim": 0,
+   "n_params": 0
+  },
+  "Temel: Çoğunluk": {
+   "dim": 0,
+   "n_params": 0
+  }
+ }
+}

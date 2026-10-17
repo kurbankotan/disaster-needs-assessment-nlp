@@ -1,0 +1,1389 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_af8aeaf25d08d7558d144f87221e97bc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    <div style="position:fixed;bottom:30px;left:30px;z-index:9999;background:white;padding:8px;border:1px solid grey;font-size:12px;max-height:400px;overflow:auto"><b>BERT-raw / Düz (sentetik)</b><br><i style="background:#1f77b4;width:12px;height:12px;border-radius:50%;display:inline-block"></i> tuzsuz-şekersiz yiyecek</div>
+    
+            <div class="folium-map" id="map_af8aeaf25d08d7558d144f87221e97bc" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_af8aeaf25d08d7558d144f87221e97bc = L.map(
+                "map_af8aeaf25d08d7558d144f87221e97bc",
+                {
+                    center: [41.05, 28.95],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_96542af7dcad1a1f5d4fb77dee6519d2 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_96542af7dcad1a1f5d4fb77dee6519d2.addTo(map_af8aeaf25d08d7558d144f87221e97bc);
+        
+    
+            var circle_marker_8ce2c6943e57fa20af26ed1e87efc347 = L.circleMarker(
+                [40.8741659, 29.1293251],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_af8aeaf25d08d7558d144f87221e97bc);
+        
+    
+        var popup_47dd9b6b0b1e8c446b6505747274d52d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e86eedb48c8d55d2911ec052f297f314 = $(`<div id="html_e86eedb48c8d55d2911ec052f297f314" style="width: 100.0%; height: 100.0%;">Adalar: tuzsuz-şekersiz yiyecek (46)</div>`)[0];
+                popup_47dd9b6b0b1e8c446b6505747274d52d.setContent(html_e86eedb48c8d55d2911ec052f297f314);
+            
+        
+
+        circle_marker_8ce2c6943e57fa20af26ed1e87efc347.bindPopup(popup_47dd9b6b0b1e8c446b6505747274d52d)
+        ;
+
+        
+    
+    
+            circle_marker_8ce2c6943e57fa20af26ed1e87efc347.bindTooltip(
+                `<div>
+                     Adalar: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c93e6442871fe8b5bc8814bf0380f3e1 = L.circleMarker(
+                [41.184471, 28.7412446],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_af8aeaf25d08d7558d144f87221e97bc);
+        
+    
+        var popup_df2132387d93feff888ed200002a5b94 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a675b515a0f88296020f4ec16c5b8083 = $(`<div id="html_a675b515a0f88296020f4ec16c5b8083" style="width: 100.0%; height: 100.0%;">Arnavutköy: tuzsuz-şekersiz yiyecek (39)</div>`)[0];
+                popup_df2132387d93feff888ed200002a5b94.setContent(html_a675b515a0f88296020f4ec16c5b8083);
+            
+        
+
+        circle_marker_c93e6442871fe8b5bc8814bf0380f3e1.bindPopup(popup_df2132387d93feff888ed200002a5b94)
+        ;
+
+        
+    
+    
+            circle_marker_c93e6442871fe8b5bc8814bf0380f3e1.bindTooltip(
+                `<div>
+                     Arnavutköy: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4986539abdfa43e6b7769c1a755f9987 = L.circleMarker(
+                [40.9929379, 29.1135187],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_af8aeaf25d08d7558d144f87221e97bc);
+        
+    
+        var popup_eb4b0ebd5414438627e020f558b462b4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_311cb83fc20dfde7520d8ef51095ee91 = $(`<div id="html_311cb83fc20dfde7520d8ef51095ee91" style="width: 100.0%; height: 100.0%;">Ataşehir: tuzsuz-şekersiz yiyecek (37)</div>`)[0];
+                popup_eb4b0ebd5414438627e020f558b462b4.setContent(html_311cb83fc20dfde7520d8ef51095ee91);
+            
+        
+
+        circle_marker_4986539abdfa43e6b7769c1a755f9987.bindPopup(popup_eb4b0ebd5414438627e020f558b462b4)
+        ;
+
+        
+    
+    
+            circle_marker_4986539abdfa43e6b7769c1a755f9987.bindTooltip(
+                `<div>
+                     Ataşehir: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e7cbea92b0d9a23af861fb77026916ab = L.circleMarker(
+                [40.9799389, 28.7216689],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_af8aeaf25d08d7558d144f87221e97bc);
+        
+    
+        var popup_d52365a0217b27723e73ed2f6edc9ffa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_171141bd56a336c85aa9dd2df6b657dc = $(`<div id="html_171141bd56a336c85aa9dd2df6b657dc" style="width: 100.0%; height: 100.0%;">Avcılar: tuzsuz-şekersiz yiyecek (36)</div>`)[0];
+                popup_d52365a0217b27723e73ed2f6edc9ffa.setContent(html_171141bd56a336c85aa9dd2df6b657dc);
+            
+        
+
+        circle_marker_e7cbea92b0d9a23af861fb77026916ab.bindPopup(popup_d52365a0217b27723e73ed2f6edc9ffa)
+        ;
+
+        
+    
+    
+            circle_marker_e7cbea92b0d9a23af861fb77026916ab.bindTooltip(
+                `<div>
+                     Avcılar: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_378dbb70d3c89ddaed02e7d2aeecda3b = L.circleMarker(
+                [41.0030495, 28.8657701],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_af8aeaf25d08d7558d144f87221e97bc);
+        
+    
+        var popup_00fd3cea76df18edafe9c6020aa4856c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8004f87e35f809e3a36b862eebdef7de = $(`<div id="html_8004f87e35f809e3a36b862eebdef7de" style="width: 100.0%; height: 100.0%;">Bahçelievler: tuzsuz-şekersiz yiyecek (41)</div>`)[0];
+                popup_00fd3cea76df18edafe9c6020aa4856c.setContent(html_8004f87e35f809e3a36b862eebdef7de);
+            
+        
+
+        circle_marker_378dbb70d3c89ddaed02e7d2aeecda3b.bindPopup(popup_00fd3cea76df18edafe9c6020aa4856c)
+        ;
+
+        
+    
+    
+            circle_marker_378dbb70d3c89ddaed02e7d2aeecda3b.bindTooltip(
+                `<div>
+                     Bahçelievler: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_83573a48d75610c069509df232e854cd = L.circleMarker(
+                [40.9782585, 28.8744461],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_af8aeaf25d08d7558d144f87221e97bc);
+        
+    
+        var popup_721cd1cd8c2fa2e4320c35e38954b4ae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4e843052ff827fe99496301c84b1abca = $(`<div id="html_4e843052ff827fe99496301c84b1abca" style="width: 100.0%; height: 100.0%;">Bakırköy: tuzsuz-şekersiz yiyecek (35)</div>`)[0];
+                popup_721cd1cd8c2fa2e4320c35e38954b4ae.setContent(html_4e843052ff827fe99496301c84b1abca);
+            
+        
+
+        circle_marker_83573a48d75610c069509df232e854cd.bindPopup(popup_721cd1cd8c2fa2e4320c35e38954b4ae)
+        ;
+
+        
+    
+    
+            circle_marker_83573a48d75610c069509df232e854cd.bindTooltip(
+                `<div>
+                     Bakırköy: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_685077283c34ff69027e7098ab1f29c2 = L.circleMarker(
+                [41.0345549, 28.9118417],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_af8aeaf25d08d7558d144f87221e97bc);
+        
+    
+        var popup_a4280b4f30844455b1a6bfe590ab1be6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_02b08c131beb1e62f1afb6efbd7dc045 = $(`<div id="html_02b08c131beb1e62f1afb6efbd7dc045" style="width: 100.0%; height: 100.0%;">Bayrampaşa: tuzsuz-şekersiz yiyecek (33)</div>`)[0];
+                popup_a4280b4f30844455b1a6bfe590ab1be6.setContent(html_02b08c131beb1e62f1afb6efbd7dc045);
+            
+        
+
+        circle_marker_685077283c34ff69027e7098ab1f29c2.bindPopup(popup_a4280b4f30844455b1a6bfe590ab1be6)
+        ;
+
+        
+    
+    
+            circle_marker_685077283c34ff69027e7098ab1f29c2.bindTooltip(
+                `<div>
+                     Bayrampaşa: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_160881f6ab9ea3a35f31dd1e89e3c5c4 = L.circleMarker(
+                [41.034547, 28.8567558],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_af8aeaf25d08d7558d144f87221e97bc);
+        
+    
+        var popup_463d9978886f9e1925e41b3294342c08 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0b000f3f7151c57a37b805cbd9105bfe = $(`<div id="html_0b000f3f7151c57a37b805cbd9105bfe" style="width: 100.0%; height: 100.0%;">Bağcılar: tuzsuz-şekersiz yiyecek (31)</div>`)[0];
+                popup_463d9978886f9e1925e41b3294342c08.setContent(html_0b000f3f7151c57a37b805cbd9105bfe);
+            
+        
+
+        circle_marker_160881f6ab9ea3a35f31dd1e89e3c5c4.bindPopup(popup_463d9978886f9e1925e41b3294342c08)
+        ;
+
+        
+    
+    
+            circle_marker_160881f6ab9ea3a35f31dd1e89e3c5c4.bindTooltip(
+                `<div>
+                     Bağcılar: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cf5e5005ad64ba0c03c5052bdf44a4bd = L.circleMarker(
+                [41.1075794, 28.7950711],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_af8aeaf25d08d7558d144f87221e97bc);
+        
+    
+        var popup_3e083a51cc5d8617aa438a10c09d7845 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0df5ca8e5de7370003709043518a1358 = $(`<div id="html_0df5ca8e5de7370003709043518a1358" style="width: 100.0%; height: 100.0%;">Başakşehir: tuzsuz-şekersiz yiyecek (38)</div>`)[0];
+                popup_3e083a51cc5d8617aa438a10c09d7845.setContent(html_0df5ca8e5de7370003709043518a1358);
+            
+        
+
+        circle_marker_cf5e5005ad64ba0c03c5052bdf44a4bd.bindPopup(popup_3e083a51cc5d8617aa438a10c09d7845)
+        ;
+
+        
+    
+    
+            circle_marker_cf5e5005ad64ba0c03c5052bdf44a4bd.bindTooltip(
+                `<div>
+                     Başakşehir: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_54b515a2cf57b206db0a8f45c7206713 = L.circleMarker(
+                [41.1343001, 29.0920378],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_af8aeaf25d08d7558d144f87221e97bc);
+        
+    
+        var popup_cb097b71c4f3ab72edb09bcd80d840cb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_85697c474e4ca18923696299ca603748 = $(`<div id="html_85697c474e4ca18923696299ca603748" style="width: 100.0%; height: 100.0%;">Beykoz: tuzsuz-şekersiz yiyecek (27)</div>`)[0];
+                popup_cb097b71c4f3ab72edb09bcd80d840cb.setContent(html_85697c474e4ca18923696299ca603748);
+            
+        
+
+        circle_marker_54b515a2cf57b206db0a8f45c7206713.bindPopup(popup_cb097b71c4f3ab72edb09bcd80d840cb)
+        ;
+
+        
+    
+    
+            circle_marker_54b515a2cf57b206db0a8f45c7206713.bindTooltip(
+                `<div>
+                     Beykoz: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f1296f8fcbe4ef985ac1e217bca9cbc5 = L.circleMarker(
+                [41.0037541, 28.6372583],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_af8aeaf25d08d7558d144f87221e97bc);
+        
+    
+        var popup_091676ca2415379293f6876ed848536a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_34e9694673d040fc4bc68d28ad197b81 = $(`<div id="html_34e9694673d040fc4bc68d28ad197b81" style="width: 100.0%; height: 100.0%;">Beylikdüzü: tuzsuz-şekersiz yiyecek (33)</div>`)[0];
+                popup_091676ca2415379293f6876ed848536a.setContent(html_34e9694673d040fc4bc68d28ad197b81);
+            
+        
+
+        circle_marker_f1296f8fcbe4ef985ac1e217bca9cbc5.bindPopup(popup_091676ca2415379293f6876ed848536a)
+        ;
+
+        
+    
+    
+            circle_marker_f1296f8fcbe4ef985ac1e217bca9cbc5.bindTooltip(
+                `<div>
+                     Beylikdüzü: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6c11b5e9f8fae6059cd7c9b9abcb0e4e = L.circleMarker(
+                [41.0284233, 28.9736808],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_af8aeaf25d08d7558d144f87221e97bc);
+        
+    
+        var popup_561eccb2d4b84ac83d86045faf898c92 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3f525ca4605b6837c101274870cf7cbf = $(`<div id="html_3f525ca4605b6837c101274870cf7cbf" style="width: 100.0%; height: 100.0%;">Beyoğlu: tuzsuz-şekersiz yiyecek (29)</div>`)[0];
+                popup_561eccb2d4b84ac83d86045faf898c92.setContent(html_3f525ca4605b6837c101274870cf7cbf);
+            
+        
+
+        circle_marker_6c11b5e9f8fae6059cd7c9b9abcb0e4e.bindPopup(popup_561eccb2d4b84ac83d86045faf898c92)
+        ;
+
+        
+    
+    
+            circle_marker_6c11b5e9f8fae6059cd7c9b9abcb0e4e.bindTooltip(
+                `<div>
+                     Beyoğlu: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fa7d25ffb362375eaf8f59deacc2db25 = L.circleMarker(
+                [41.0428465, 29.0075283],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_af8aeaf25d08d7558d144f87221e97bc);
+        
+    
+        var popup_b3e986b0dd86d6c491b77a7c1c10c7b7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_859c92045b6a10f116258bea2fd26169 = $(`<div id="html_859c92045b6a10f116258bea2fd26169" style="width: 100.0%; height: 100.0%;">Beşiktaş: tuzsuz-şekersiz yiyecek (39)</div>`)[0];
+                popup_b3e986b0dd86d6c491b77a7c1c10c7b7.setContent(html_859c92045b6a10f116258bea2fd26169);
+            
+        
+
+        circle_marker_fa7d25ffb362375eaf8f59deacc2db25.bindPopup(popup_b3e986b0dd86d6c491b77a7c1c10c7b7)
+        ;
+
+        
+    
+    
+            circle_marker_fa7d25ffb362375eaf8f59deacc2db25.bindTooltip(
+                `<div>
+                     Beşiktaş: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6fc5c9ac2461cb432aab364a1605703e = L.circleMarker(
+                [41.021654, 28.579757],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_af8aeaf25d08d7558d144f87221e97bc);
+        
+    
+        var popup_3b6ba691c26fe06439ac33c21f5f57a7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_888efacfd662c0f92296d395d34aa4ad = $(`<div id="html_888efacfd662c0f92296d395d34aa4ad" style="width: 100.0%; height: 100.0%;">Büyükçekmece: tuzsuz-şekersiz yiyecek (36)</div>`)[0];
+                popup_3b6ba691c26fe06439ac33c21f5f57a7.setContent(html_888efacfd662c0f92296d395d34aa4ad);
+            
+        
+
+        circle_marker_6fc5c9ac2461cb432aab364a1605703e.bindPopup(popup_3b6ba691c26fe06439ac33c21f5f57a7)
+        ;
+
+        
+    
+    
+            circle_marker_6fc5c9ac2461cb432aab364a1605703e.bindTooltip(
+                `<div>
+                     Büyükçekmece: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_aa5cf7d8b2404c7cc274308aeaf2158b = L.circleMarker(
+                [41.0376175, 28.8824519],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_af8aeaf25d08d7558d144f87221e97bc);
+        
+    
+        var popup_09d8a25c67c3036d03a65737b85aa416 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce8a9b1d76f87aa30575ce3b52dbb8e5 = $(`<div id="html_ce8a9b1d76f87aa30575ce3b52dbb8e5" style="width: 100.0%; height: 100.0%;">Esenler: tuzsuz-şekersiz yiyecek (33)</div>`)[0];
+                popup_09d8a25c67c3036d03a65737b85aa416.setContent(html_ce8a9b1d76f87aa30575ce3b52dbb8e5);
+            
+        
+
+        circle_marker_aa5cf7d8b2404c7cc274308aeaf2158b.bindPopup(popup_09d8a25c67c3036d03a65737b85aa416)
+        ;
+
+        
+    
+    
+            circle_marker_aa5cf7d8b2404c7cc274308aeaf2158b.bindTooltip(
+                `<div>
+                     Esenler: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ef783262de14c712a8106794066e95f9 = L.circleMarker(
+                [41.0342862, 28.6801113],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_af8aeaf25d08d7558d144f87221e97bc);
+        
+    
+        var popup_38b1ebd7c92b86684c1ec478509fcae1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c9db5c5a60fad3769ade68ef5c8360d = $(`<div id="html_0c9db5c5a60fad3769ade68ef5c8360d" style="width: 100.0%; height: 100.0%;">Esenyurt: tuzsuz-şekersiz yiyecek (31)</div>`)[0];
+                popup_38b1ebd7c92b86684c1ec478509fcae1.setContent(html_0c9db5c5a60fad3769ade68ef5c8360d);
+            
+        
+
+        circle_marker_ef783262de14c712a8106794066e95f9.bindPopup(popup_38b1ebd7c92b86684c1ec478509fcae1)
+        ;
+
+        
+    
+    
+            circle_marker_ef783262de14c712a8106794066e95f9.bindTooltip(
+                `<div>
+                     Esenyurt: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_940b08b0fcddcf438743555d146bef38 = L.circleMarker(
+                [41.0478358, 28.9327383],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_af8aeaf25d08d7558d144f87221e97bc);
+        
+    
+        var popup_2ad32ca4d938aa036cd8bbdbc0ba8a92 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5431718e6c0d2ac018dbb8d0f862e81a = $(`<div id="html_5431718e6c0d2ac018dbb8d0f862e81a" style="width: 100.0%; height: 100.0%;">Eyüpsultan: tuzsuz-şekersiz yiyecek (47)</div>`)[0];
+                popup_2ad32ca4d938aa036cd8bbdbc0ba8a92.setContent(html_5431718e6c0d2ac018dbb8d0f862e81a);
+            
+        
+
+        circle_marker_940b08b0fcddcf438743555d146bef38.bindPopup(popup_2ad32ca4d938aa036cd8bbdbc0ba8a92)
+        ;
+
+        
+    
+    
+            circle_marker_940b08b0fcddcf438743555d146bef38.bindTooltip(
+                `<div>
+                     Eyüpsultan: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_ddbf62e25747b386804887b97db926bc = L.circleMarker(
+                [41.0192846, 28.9479296],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_af8aeaf25d08d7558d144f87221e97bc);
+        
+    
+        var popup_3bf8ad34df8853dfb4ce5d1049b3a772 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c3a0cdc05dec004a12b64ba557800bf6 = $(`<div id="html_c3a0cdc05dec004a12b64ba557800bf6" style="width: 100.0%; height: 100.0%;">Fatih: tuzsuz-şekersiz yiyecek (43)</div>`)[0];
+                popup_3bf8ad34df8853dfb4ce5d1049b3a772.setContent(html_c3a0cdc05dec004a12b64ba557800bf6);
+            
+        
+
+        circle_marker_ddbf62e25747b386804887b97db926bc.bindPopup(popup_3bf8ad34df8853dfb4ce5d1049b3a772)
+        ;
+
+        
+    
+    
+            circle_marker_ddbf62e25747b386804887b97db926bc.bindTooltip(
+                `<div>
+                     Fatih: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_abe8d5607619c2a70d59b21c0918711e = L.circleMarker(
+                [41.0578305, 28.9122452],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_af8aeaf25d08d7558d144f87221e97bc);
+        
+    
+        var popup_bb359e0812c18e3698cfc244dbe10497 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9f9a4b40d3b1b22ac14a0eb6f94123d2 = $(`<div id="html_9f9a4b40d3b1b22ac14a0eb6f94123d2" style="width: 100.0%; height: 100.0%;">Gaziosmanpaşa: tuzsuz-şekersiz yiyecek (38)</div>`)[0];
+                popup_bb359e0812c18e3698cfc244dbe10497.setContent(html_9f9a4b40d3b1b22ac14a0eb6f94123d2);
+            
+        
+
+        circle_marker_abe8d5607619c2a70d59b21c0918711e.bindPopup(popup_bb359e0812c18e3698cfc244dbe10497)
+        ;
+
+        
+    
+    
+            circle_marker_abe8d5607619c2a70d59b21c0918711e.bindTooltip(
+                `<div>
+                     Gaziosmanpaşa: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b817c6a1bdf557f4c36495026f946853 = L.circleMarker(
+                [41.0252832, 28.8726498],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_af8aeaf25d08d7558d144f87221e97bc);
+        
+    
+        var popup_bd60f775d43b6c01980af940ad9cdfd4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aaedf9a25389a9908c54ed40277fb534 = $(`<div id="html_aaedf9a25389a9908c54ed40277fb534" style="width: 100.0%; height: 100.0%;">Güngören: tuzsuz-şekersiz yiyecek (41)</div>`)[0];
+                popup_bd60f775d43b6c01980af940ad9cdfd4.setContent(html_aaedf9a25389a9908c54ed40277fb534);
+            
+        
+
+        circle_marker_b817c6a1bdf557f4c36495026f946853.bindPopup(popup_bd60f775d43b6c01980af940ad9cdfd4)
+        ;
+
+        
+    
+    
+            circle_marker_b817c6a1bdf557f4c36495026f946853.bindTooltip(
+                `<div>
+                     Güngören: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_74baf1bf78899d51621acec756a43cec = L.circleMarker(
+                [40.9912955, 29.0245631],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_af8aeaf25d08d7558d144f87221e97bc);
+        
+    
+        var popup_30609e71925000474f5d108a28462c20 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ff2d239010e44321919d6a2bf8e6bc08 = $(`<div id="html_ff2d239010e44321919d6a2bf8e6bc08" style="width: 100.0%; height: 100.0%;">Kadıköy: tuzsuz-şekersiz yiyecek (33)</div>`)[0];
+                popup_30609e71925000474f5d108a28462c20.setContent(html_ff2d239010e44321919d6a2bf8e6bc08);
+            
+        
+
+        circle_marker_74baf1bf78899d51621acec756a43cec.bindPopup(popup_30609e71925000474f5d108a28462c20)
+        ;
+
+        
+    
+    
+            circle_marker_74baf1bf78899d51621acec756a43cec.bindTooltip(
+                `<div>
+                     Kadıköy: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5533eedfd725568a3bf787a9f2fc82b5 = L.circleMarker(
+                [40.88858, 29.1856536],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_af8aeaf25d08d7558d144f87221e97bc);
+        
+    
+        var popup_f3c2d8b864e463683b8afca2df27e449 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3a6fe13d5177e68ff8dd968bcaa7af72 = $(`<div id="html_3a6fe13d5177e68ff8dd968bcaa7af72" style="width: 100.0%; height: 100.0%;">Kartal: tuzsuz-şekersiz yiyecek (35)</div>`)[0];
+                popup_f3c2d8b864e463683b8afca2df27e449.setContent(html_3a6fe13d5177e68ff8dd968bcaa7af72);
+            
+        
+
+        circle_marker_5533eedfd725568a3bf787a9f2fc82b5.bindPopup(popup_f3c2d8b864e463683b8afca2df27e449)
+        ;
+
+        
+    
+    
+            circle_marker_5533eedfd725568a3bf787a9f2fc82b5.bindTooltip(
+                `<div>
+                     Kartal: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_65ee5936761e734e6a3b921f6ab0b724 = L.circleMarker(
+                [41.0796544, 28.9731198],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_af8aeaf25d08d7558d144f87221e97bc);
+        
+    
+        var popup_f2bfea242fdd4352d59fa0fad75897dd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c8d562ac877157e5fafd34c1c468c53f = $(`<div id="html_c8d562ac877157e5fafd34c1c468c53f" style="width: 100.0%; height: 100.0%;">Kağıthane: tuzsuz-şekersiz yiyecek (45)</div>`)[0];
+                popup_f2bfea242fdd4352d59fa0fad75897dd.setContent(html_c8d562ac877157e5fafd34c1c468c53f);
+            
+        
+
+        circle_marker_65ee5936761e734e6a3b921f6ab0b724.bindPopup(popup_f2bfea242fdd4352d59fa0fad75897dd)
+        ;
+
+        
+    
+    
+            circle_marker_65ee5936761e734e6a3b921f6ab0b724.bindTooltip(
+                `<div>
+                     Kağıthane: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_2d5b2929c7ea5f0a53dabd4b07bd645c = L.circleMarker(
+                [40.9918737, 28.7711956],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_af8aeaf25d08d7558d144f87221e97bc);
+        
+    
+        var popup_9f38165b211d1bdc88f1ecf0e79fe651 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ba6f58d3d3a9c82f26e463837f49d9c5 = $(`<div id="html_ba6f58d3d3a9c82f26e463837f49d9c5" style="width: 100.0%; height: 100.0%;">Küçükçekmece: tuzsuz-şekersiz yiyecek (31)</div>`)[0];
+                popup_9f38165b211d1bdc88f1ecf0e79fe651.setContent(html_ba6f58d3d3a9c82f26e463837f49d9c5);
+            
+        
+
+        circle_marker_2d5b2929c7ea5f0a53dabd4b07bd645c.bindPopup(popup_9f38165b211d1bdc88f1ecf0e79fe651)
+        ;
+
+        
+    
+    
+            circle_marker_2d5b2929c7ea5f0a53dabd4b07bd645c.bindTooltip(
+                `<div>
+                     Küçükçekmece: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a057cd9796eee46b6fa038cc0855dcc0 = L.circleMarker(
+                [40.9247539, 29.1310782],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_af8aeaf25d08d7558d144f87221e97bc);
+        
+    
+        var popup_8dc51f9ab83929b7f243ee62e2f890e1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0b175f42d62b9bb7ef5490242d397695 = $(`<div id="html_0b175f42d62b9bb7ef5490242d397695" style="width: 100.0%; height: 100.0%;">Maltepe: tuzsuz-şekersiz yiyecek (43)</div>`)[0];
+                popup_8dc51f9ab83929b7f243ee62e2f890e1.setContent(html_0b175f42d62b9bb7ef5490242d397695);
+            
+        
+
+        circle_marker_a057cd9796eee46b6fa038cc0855dcc0.bindPopup(popup_8dc51f9ab83929b7f243ee62e2f890e1)
+        ;
+
+        
+    
+    
+            circle_marker_a057cd9796eee46b6fa038cc0855dcc0.bindTooltip(
+                `<div>
+                     Maltepe: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_696e844e31133f0ada1a8daf0d82ca64 = L.circleMarker(
+                [40.8768715, 29.2349672],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_af8aeaf25d08d7558d144f87221e97bc);
+        
+    
+        var popup_1d39bd4af45734e8ccda60d1f03c84f3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c07f657d0e7fa0f9f462ac4564bba289 = $(`<div id="html_c07f657d0e7fa0f9f462ac4564bba289" style="width: 100.0%; height: 100.0%;">Pendik: tuzsuz-şekersiz yiyecek (37)</div>`)[0];
+                popup_1d39bd4af45734e8ccda60d1f03c84f3.setContent(html_c07f657d0e7fa0f9f462ac4564bba289);
+            
+        
+
+        circle_marker_696e844e31133f0ada1a8daf0d82ca64.bindPopup(popup_1d39bd4af45734e8ccda60d1f03c84f3)
+        ;
+
+        
+    
+    
+            circle_marker_696e844e31133f0ada1a8daf0d82ca64.bindTooltip(
+                `<div>
+                     Pendik: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_82317ebe03072a206b0ba4c14ab86343 = L.circleMarker(
+                [40.9905196, 29.2288624],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_af8aeaf25d08d7558d144f87221e97bc);
+        
+    
+        var popup_c8b65d3505adc13442c8c09f055ee5da = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_09b9971af8704d0fb7be6be3ffa39b00 = $(`<div id="html_09b9971af8704d0fb7be6be3ffa39b00" style="width: 100.0%; height: 100.0%;">Sancaktepe: tuzsuz-şekersiz yiyecek (43)</div>`)[0];
+                popup_c8b65d3505adc13442c8c09f055ee5da.setContent(html_09b9971af8704d0fb7be6be3ffa39b00);
+            
+        
+
+        circle_marker_82317ebe03072a206b0ba4c14ab86343.bindPopup(popup_c8b65d3505adc13442c8c09f055ee5da)
+        ;
+
+        
+    
+    
+            circle_marker_82317ebe03072a206b0ba4c14ab86343.bindTooltip(
+                `<div>
+                     Sancaktepe: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e291e6c54e505127f167b25681b3e7ec = L.circleMarker(
+                [41.1685803, 29.0572623],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_af8aeaf25d08d7558d144f87221e97bc);
+        
+    
+        var popup_e7aaec0715c82818bbbc68bd42698d15 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7fc8bbbf0a0799c548f726622748489d = $(`<div id="html_7fc8bbbf0a0799c548f726622748489d" style="width: 100.0%; height: 100.0%;">Sarıyer: tuzsuz-şekersiz yiyecek (30)</div>`)[0];
+                popup_e7aaec0715c82818bbbc68bd42698d15.setContent(html_7fc8bbbf0a0799c548f726622748489d);
+            
+        
+
+        circle_marker_e291e6c54e505127f167b25681b3e7ec.bindPopup(popup_e7aaec0715c82818bbbc68bd42698d15)
+        ;
+
+        
+    
+    
+            circle_marker_e291e6c54e505127f167b25681b3e7ec.bindTooltip(
+                `<div>
+                     Sarıyer: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_de3e08833caf5a4695ad86ceaeccf45e = L.circleMarker(
+                [41.0742476, 28.2481709],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_af8aeaf25d08d7558d144f87221e97bc);
+        
+    
+        var popup_937992b559f9f6f29626f9ce734ed188 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1d2c79bf9b4c2ce1e57dcea1da2fc03e = $(`<div id="html_1d2c79bf9b4c2ce1e57dcea1da2fc03e" style="width: 100.0%; height: 100.0%;">Silivri: tuzsuz-şekersiz yiyecek (43)</div>`)[0];
+                popup_937992b559f9f6f29626f9ce734ed188.setContent(html_1d2c79bf9b4c2ce1e57dcea1da2fc03e);
+            
+        
+
+        circle_marker_de3e08833caf5a4695ad86ceaeccf45e.bindPopup(popup_937992b559f9f6f29626f9ce734ed188)
+        ;
+
+        
+    
+    
+            circle_marker_de3e08833caf5a4695ad86ceaeccf45e.bindTooltip(
+                `<div>
+                     Silivri: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7bfd6a7581131f49aea2c8a6be009ebe = L.circleMarker(
+                [40.9670242, 29.2671314],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_af8aeaf25d08d7558d144f87221e97bc);
+        
+    
+        var popup_b1a7bb1377c2933135d413a0c469d701 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_93398cc308a868971932cc5c3c48b0b7 = $(`<div id="html_93398cc308a868971932cc5c3c48b0b7" style="width: 100.0%; height: 100.0%;">Sultanbeyli: tuzsuz-şekersiz yiyecek (42)</div>`)[0];
+                popup_b1a7bb1377c2933135d413a0c469d701.setContent(html_93398cc308a868971932cc5c3c48b0b7);
+            
+        
+
+        circle_marker_7bfd6a7581131f49aea2c8a6be009ebe.bindPopup(popup_b1a7bb1377c2933135d413a0c469d701)
+        ;
+
+        
+    
+    
+            circle_marker_7bfd6a7581131f49aea2c8a6be009ebe.bindTooltip(
+                `<div>
+                     Sultanbeyli: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_1176a5a9f7b505ad40c466a47ad846f1 = L.circleMarker(
+                [41.1043344, 28.8614367],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_af8aeaf25d08d7558d144f87221e97bc);
+        
+    
+        var popup_6266621635a52c2e3baa3db8a430dc4f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_20e79046f5c29065f106b20102b52c61 = $(`<div id="html_20e79046f5c29065f106b20102b52c61" style="width: 100.0%; height: 100.0%;">Sultangazi: tuzsuz-şekersiz yiyecek (40)</div>`)[0];
+                popup_6266621635a52c2e3baa3db8a430dc4f.setContent(html_20e79046f5c29065f106b20102b52c61);
+            
+        
+
+        circle_marker_1176a5a9f7b505ad40c466a47ad846f1.bindPopup(popup_6266621635a52c2e3baa3db8a430dc4f)
+        ;
+
+        
+    
+    
+            circle_marker_1176a5a9f7b505ad40c466a47ad846f1.bindTooltip(
+                `<div>
+                     Sultangazi: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_fed2dc64584343a944a809f37289430a = L.circleMarker(
+                [40.8161732, 29.3034194],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_af8aeaf25d08d7558d144f87221e97bc);
+        
+    
+        var popup_bd726e60ed11ccfb48d6ad256de0895f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_65af70051cbe2589a352d66787b00ec8 = $(`<div id="html_65af70051cbe2589a352d66787b00ec8" style="width: 100.0%; height: 100.0%;">Tuzla: tuzsuz-şekersiz yiyecek (40)</div>`)[0];
+                popup_bd726e60ed11ccfb48d6ad256de0895f.setContent(html_65af70051cbe2589a352d66787b00ec8);
+            
+        
+
+        circle_marker_fed2dc64584343a944a809f37289430a.bindPopup(popup_bd726e60ed11ccfb48d6ad256de0895f)
+        ;
+
+        
+    
+    
+            circle_marker_fed2dc64584343a944a809f37289430a.bindTooltip(
+                `<div>
+                     Tuzla: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_698151ed8db973902fffe552a6e6b262 = L.circleMarker(
+                [40.9898653, 28.9037467],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_af8aeaf25d08d7558d144f87221e97bc);
+        
+    
+        var popup_246a04a7f3d265f807b00e7665c2c00a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4fae8a53ce9c2ad600ce123eb5d9983d = $(`<div id="html_4fae8a53ce9c2ad600ce123eb5d9983d" style="width: 100.0%; height: 100.0%;">Zeytinburnu: tuzsuz-şekersiz yiyecek (39)</div>`)[0];
+                popup_246a04a7f3d265f807b00e7665c2c00a.setContent(html_4fae8a53ce9c2ad600ce123eb5d9983d);
+            
+        
+
+        circle_marker_698151ed8db973902fffe552a6e6b262.bindPopup(popup_246a04a7f3d265f807b00e7665c2c00a)
+        ;
+
+        
+    
+    
+            circle_marker_698151ed8db973902fffe552a6e6b262.bindTooltip(
+                `<div>
+                     Zeytinburnu: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b751750db092d8b27469ac26f92bbcd4 = L.circleMarker(
+                [41.1436804, 28.4605154],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_af8aeaf25d08d7558d144f87221e97bc);
+        
+    
+        var popup_a4715b172c51cfafa6ce4e2705f60fd1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_393771a5b47d0fc0e191202965a4b29f = $(`<div id="html_393771a5b47d0fc0e191202965a4b29f" style="width: 100.0%; height: 100.0%;">Çatalca: tuzsuz-şekersiz yiyecek (28)</div>`)[0];
+                popup_a4715b172c51cfafa6ce4e2705f60fd1.setContent(html_393771a5b47d0fc0e191202965a4b29f);
+            
+        
+
+        circle_marker_b751750db092d8b27469ac26f92bbcd4.bindPopup(popup_a4715b172c51cfafa6ce4e2705f60fd1)
+        ;
+
+        
+    
+    
+            circle_marker_b751750db092d8b27469ac26f92bbcd4.bindTooltip(
+                `<div>
+                     Çatalca: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_36a5ae926a7a9e105ea6468354230956 = L.circleMarker(
+                [41.0351579, 29.1739149],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_af8aeaf25d08d7558d144f87221e97bc);
+        
+    
+        var popup_8d30a99926ee32261dfb2cc7924b4d1f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_23335e53c18f7050224e3e26006ab229 = $(`<div id="html_23335e53c18f7050224e3e26006ab229" style="width: 100.0%; height: 100.0%;">Çekmeköy: tuzsuz-şekersiz yiyecek (34)</div>`)[0];
+                popup_8d30a99926ee32261dfb2cc7924b4d1f.setContent(html_23335e53c18f7050224e3e26006ab229);
+            
+        
+
+        circle_marker_36a5ae926a7a9e105ea6468354230956.bindPopup(popup_8d30a99926ee32261dfb2cc7924b4d1f)
+        ;
+
+        
+    
+    
+            circle_marker_36a5ae926a7a9e105ea6468354230956.bindTooltip(
+                `<div>
+                     Çekmeköy: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e2546031bb3384bf97ca83e031ab4506 = L.circleMarker(
+                [41.0256362, 29.0963049],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_af8aeaf25d08d7558d144f87221e97bc);
+        
+    
+        var popup_8de7a8be10b6a9c92ae787b79b20f911 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a07fb807e2cf010ba9541a9f6103a3ca = $(`<div id="html_a07fb807e2cf010ba9541a9f6103a3ca" style="width: 100.0%; height: 100.0%;">Ümraniye: tuzsuz-şekersiz yiyecek (42)</div>`)[0];
+                popup_8de7a8be10b6a9c92ae787b79b20f911.setContent(html_a07fb807e2cf010ba9541a9f6103a3ca);
+            
+        
+
+        circle_marker_e2546031bb3384bf97ca83e031ab4506.bindPopup(popup_8de7a8be10b6a9c92ae787b79b20f911)
+        ;
+
+        
+    
+    
+            circle_marker_e2546031bb3384bf97ca83e031ab4506.bindTooltip(
+                `<div>
+                     Ümraniye: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6708ac4c441f2dc3cc6e317153d7a33c = L.circleMarker(
+                [41.0265498, 29.0151321],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_af8aeaf25d08d7558d144f87221e97bc);
+        
+    
+        var popup_74d82f5fca77ece275bdf1c702888702 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_810718e57c6a4c3535c05eb1ffd13619 = $(`<div id="html_810718e57c6a4c3535c05eb1ffd13619" style="width: 100.0%; height: 100.0%;">Üsküdar: tuzsuz-şekersiz yiyecek (46)</div>`)[0];
+                popup_74d82f5fca77ece275bdf1c702888702.setContent(html_810718e57c6a4c3535c05eb1ffd13619);
+            
+        
+
+        circle_marker_6708ac4c441f2dc3cc6e317153d7a33c.bindPopup(popup_74d82f5fca77ece275bdf1c702888702)
+        ;
+
+        
+    
+    
+            circle_marker_6708ac4c441f2dc3cc6e317153d7a33c.bindTooltip(
+                `<div>
+                     Üsküdar: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6e4e93ae0e6a20fe6a8630db75f0d877 = L.circleMarker(
+                [41.1744067, 29.6125216],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_af8aeaf25d08d7558d144f87221e97bc);
+        
+    
+        var popup_6e20fd5c116a3d86d617bf4ae1ee5fb6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4e8bd6590c00d8bc5b15c9aaae71812d = $(`<div id="html_4e8bd6590c00d8bc5b15c9aaae71812d" style="width: 100.0%; height: 100.0%;">Şile: tuzsuz-şekersiz yiyecek (47)</div>`)[0];
+                popup_6e20fd5c116a3d86d617bf4ae1ee5fb6.setContent(html_4e8bd6590c00d8bc5b15c9aaae71812d);
+            
+        
+
+        circle_marker_6e4e93ae0e6a20fe6a8630db75f0d877.bindPopup(popup_6e20fd5c116a3d86d617bf4ae1ee5fb6)
+        ;
+
+        
+    
+    
+            circle_marker_6e4e93ae0e6a20fe6a8630db75f0d877.bindTooltip(
+                `<div>
+                     Şile: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_18f65360c1ea9ecbd5c511d702da3f16 = L.circleMarker(
+                [41.0637891, 28.9831642],
+                {"bubblingMouseEvents": true, "color": "#1f77b4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#1f77b4", "fillOpacity": 0.85, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9, "stroke": true, "weight": 3}
+            ).addTo(map_af8aeaf25d08d7558d144f87221e97bc);
+        
+    
+        var popup_93967a7cbea3e08372b14a707a5ac609 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8a3a248ac5677afba47636baea359a15 = $(`<div id="html_8a3a248ac5677afba47636baea359a15" style="width: 100.0%; height: 100.0%;">Şişli: tuzsuz-şekersiz yiyecek (39)</div>`)[0];
+                popup_93967a7cbea3e08372b14a707a5ac609.setContent(html_8a3a248ac5677afba47636baea359a15);
+            
+        
+
+        circle_marker_18f65360c1ea9ecbd5c511d702da3f16.bindPopup(popup_93967a7cbea3e08372b14a707a5ac609)
+        ;
+
+        
+    
+    
+            circle_marker_18f65360c1ea9ecbd5c511d702da3f16.bindTooltip(
+                `<div>
+                     Şişli: tuzsuz-şekersiz yiyecek
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>

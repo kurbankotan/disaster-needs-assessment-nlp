@@ -1,0 +1,159 @@
+{
+ "SMOKE_TEST": false,
+ "DRIVE_FOLDER_NAME": "NLP_Disaster",
+ "RUN_TAG": "20261016_1116",
+ "N_MESSAGES": 2000,
+ "GEN_MODEL": "claude-opus-5-5",
+ "GEN_EFFORT": "low",
+ "THINKING_MODE": "minimal",
+ "GEN_RECORDS_PER_CALL": 20,
+ "GEN_WORKERS": 4,
+ "GEN_MAX_TOKENS_PER_RECORD": 700,
+ "BUDGET_GUARD_USD": 30.0,
+ "GEN_TEMPERATURE": null,
+ "GEN_OVERSAMPLE": 1.15,
+ "IMPLICIT_RATIO": 0.3,
+ "MIN_PER_NEED": 12,
+ "DEDUP_COSINE_THRESHOLD": 0.92,
+ "FORCE_REGENERATE": false,
+ "RUN_LABEL_QC": true,
+ "QC_MODEL": "claude-sonnet-5-5",
+ "QC_EFFORT": "low",
+ "QC_EXCLUDE_FAILED": false,
+ "FIX_NEED_TRANSLATIONS": true,
+ "PREPROCESS_NEEDS_LIKE_MESSAGES": true,
+ "MODELS_TO_RUN": [
+  "BERT",
+  "ALBERT",
+  "RoBERTa",
+  "GloVe",
+  "Word2Vec",
+  "USE",
+  "FastText"
+ ],
+ "EXTRA_MODELS": [
+  "SBERT-mpnet",
+  "BERT-raw",
+  "ALBERT-paraphrase"
+ ],
+ "TURKISH_MODELS": [
+  "SBERT-çokdilli (TR)",
+  "BERTurk-STS (TR)"
+ ],
+ "BASELINES": [
+  "Temel: TF-IDF",
+  "Temel: Rastgele",
+  "Temel: Çoğunluk"
+ ],
+ "TEXT_TYPES": [
+  "plain",
+  "lemma",
+  "stem"
+ ],
+ "LATENCY_ON_CPU": true,
+ "SIGNIFICANCE_TESTS": true,
+ "GLOVE_VARIANT": "840B",
+ "CACHE_MODELS_TO_DRIVE": false,
+ "MODEL_DIR_CANDIDATES": {
+  "Word2Vec": [
+   "MyDrive/Colab Notebooks/NLP Modeller/Word2Vec Files/word2vec-google-news-300.bin",
+   "MyDrive/NLP_Disaster/models/word2vec-google-news-300.bin"
+  ],
+  "GloVe": [
+   "MyDrive/NLP_Disaster/models/glove.840B.300d.kv",
+   "MyDrive/Colab Notebooks/NLP Modeller/GloVe File/glove.840B.300d.txt",
+   "MyDrive/Colab Notebooks/NLP Modeller/GloVe File/glove.840B.300d-001.txt"
+  ],
+  "FastText": [
+   "MyDrive/Colab Notebooks/NLP Modeller/FastText Files/cc.en.300.bin",
+   "MyDrive/NLP_Disaster/models/cc.en.300.bin"
+  ],
+  "USE": [
+   "MyDrive/Colab Notebooks/NLP Modeller/USE Files",
+   "MyDrive/NLP_Disaster/models/USE"
+  ]
+ },
+ "BOOTSTRAP_N": 1000,
+ "LLM_EVAL_MODELS": [
+  [
+   "anthropic",
+   "claude-opus-5-5"
+  ],
+  [
+   "anthropic",
+   "claude-sonnet-5-5"
+  ],
+  [
+   "anthropic",
+   "claude-haiku-5-5"
+  ],
+  [
+   "openai",
+   "gpt-5-mini"
+  ],
+  [
+   "google",
+   "gemini-2.5-flash"
+  ]
+ ],
+ "LLM_EVAL_MESSAGES_PER_CALL": 10,
+ "LLM_EVAL_EFFORT": "low",
+ "LLM_EVAL_WORKERS": 4,
+ "LLM_EVAL_MAX_MESSAGES": null,
+ "SEED": 42,
+ "AUTO_DOWNLOAD_ZIP": true,
+ "PRICES_USD_PER_MTOK": {
+  "claude-opus-5-5": [
+   4.0,
+   20.0,
+   0.2,
+   5.0
+  ],
+  "claude-sonnet-5-5": [
+   2.0,
+   10.0,
+   0.1,
+   2.5
+  ],
+  "claude-haiku-5-5": [
+   0.1,
+   0.5,
+   0.01,
+   0.125
+  ]
+ },
+ "IN_COLAB": true,
+ "DRIVE_ROOT": "/content/drive",
+ "BASE_DIR": "/content/drive/MyDrive/NLP_Disaster",
+ "LOCAL_SCRATCH": "/content/nlp_scratch",
+ "RUN_DIR": "/content/drive/MyDrive/NLP_Disaster/runs/20261016_1116",
+ "DATA_DIR": "/content/drive/MyDrive/NLP_Disaster/data",
+ "MODEL_DIR": "/content/drive/MyDrive/NLP_Disaster/models",
+ "DIRS": {
+  "data": "/content/drive/MyDrive/NLP_Disaster/data",
+  "models": "/content/drive/MyDrive/NLP_Disaster/models",
+  "run": "/content/drive/MyDrive/NLP_Disaster/runs/20261016_1116",
+  "results": "/content/drive/MyDrive/NLP_Disaster/runs/20261016_1116/results",
+  "figures": "/content/drive/MyDrive/NLP_Disaster/runs/20261016_1116/figures",
+  "maps": "/content/drive/MyDrive/NLP_Disaster/runs/20261016_1116/maps",
+  "logs": "/content/drive/MyDrive/NLP_Disaster/runs/20261016_1116/logs",
+  "preds": "/content/drive/MyDrive/NLP_Disaster/runs/20261016_1116/results/tahminler",
+  "llm_cache": "/content/drive/MyDrive/NLP_Disaster/data/bdm_cache",
+  "scratch": "/content/nlp_scratch"
+ },
+ "LOG_PATH": "/content/drive/MyDrive/NLP_Disaster/runs/20261016_1116/logs/log.txt",
+ "DEVICE": "cuda",
+ "GPU_NAME": "NVIDIA A100-SXM4-80GB",
+ "RAM_GB": 179.370467328,
+ "PALETTE": [
+  "#0072B2",
+  "#E69F00",
+  "#009E73",
+  "#D55E00",
+  "#CC79A7",
+  "#56B4E9",
+  "#F0E442",
+  "#000000",
+  "#999999"
+ ]
+}

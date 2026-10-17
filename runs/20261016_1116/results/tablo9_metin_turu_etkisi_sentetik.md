@@ -1,0 +1,32 @@
+| Model | Karşılaştırma | fark | fark_GA_alt | fark_GA_ust | p_McNemar | p_Holm | anlamli_0.05 |
+|---|---|---|---|---|---|---|---|
+| BERT | Düz - Lemma | -0,092 | -0,109 | -0,075 | 0,000 | 0,000 | True |
+| BERT | Düz - Gövde | -0,148 | -0,168 | -0,127 | 0,000 | 0,000 | True |
+| BERT | Lemma - Gövde | -0,056 | -0,075 | -0,037 | 0,000 | 0,000 | True |
+| ALBERT | Düz - Lemma | -0,001 | -0,012 | 0,011 | 1,000 | 1,000 | False |
+| ALBERT | Düz - Gövde | 0,036 | 0,024 | 0,048 | 0,000 | 0,000 | True |
+| ALBERT | Lemma - Gövde | 0,036 | 0,026 | 0,048 | 0,000 | 0,000 | True |
+| RoBERTa | Düz - Lemma | -0,073 | -0,088 | -0,059 | 0,000 | 0,000 | True |
+| RoBERTa | Düz - Gövde | -0,079 | -0,099 | -0,060 | 0,000 | 0,000 | True |
+| RoBERTa | Lemma - Gövde | -0,005 | -0,022 | 0,011 | 0,559 | 1,000 | False |
+| GloVe | Düz - Lemma | -0,129 | -0,146 | -0,111 | 0,000 | 0,000 | True |
+| GloVe | Düz - Gövde | -0,188 | -0,207 | -0,167 | 0,000 | 0,000 | True |
+| GloVe | Lemma - Gövde | -0,059 | -0,076 | -0,042 | 0,000 | 0,000 | True |
+| Word2Vec | Düz - Lemma | -0,227 | -0,247 | -0,207 | 0,000 | 0,000 | True |
+| Word2Vec | Düz - Gövde | -0,197 | -0,219 | -0,176 | 0,000 | 0,000 | True |
+| Word2Vec | Lemma - Gövde | 0,029 | 0,013 | 0,047 | 0,001 | 0,006 | True |
+| USE | Düz - Lemma | 0,002 | -0,013 | 0,017 | 0,844 | 1,000 | False |
+| USE | Düz - Gövde | 0,086 | 0,067 | 0,106 | 0,000 | 0,000 | True |
+| USE | Lemma - Gövde | 0,085 | 0,066 | 0,102 | 0,000 | 0,000 | True |
+| FastText | Düz - Lemma | -0,243 | -0,264 | -0,223 | 0,000 | 0,000 | True |
+| FastText | Düz - Gövde | -0,314 | -0,335 | -0,292 | 0,000 | 0,000 | True |
+| FastText | Lemma - Gövde | -0,070 | -0,086 | -0,054 | 0,000 | 0,000 | True |
+| SBERT-mpnet | Düz - Lemma | 0,038 | 0,019 | 0,059 | 0,000 | 0,001 | True |
+| SBERT-mpnet | Düz - Gövde | 0,082 | 0,058 | 0,105 | 0,000 | 0,000 | True |
+| SBERT-mpnet | Lemma - Gövde | 0,043 | 0,021 | 0,066 | 0,000 | 0,001 | True |
+| BERT-raw | Düz - Lemma | 0,010 | 0,001 | 0,019 | 0,054 | 0,381 | False |
+| BERT-raw | Düz - Gövde | 0,047 | 0,032 | 0,061 | 0,000 | 0,000 | True |
+| BERT-raw | Lemma - Gövde | 0,037 | 0,023 | 0,051 | 0,000 | 0,000 | True |
+| ALBERT-paraphrase | Düz - Lemma | -0,010 | -0,028 | 0,009 | 0,300 | 1,000 | False |
+| ALBERT-paraphrase | Düz - Gövde | 0,007 | -0,013 | 0,029 | 0,548 | 1,000 | False |
+| ALBERT-paraphrase | Lemma - Gövde | 0,017 | -0,001 | 0,035 | 0,086 | 0,517 | False |
