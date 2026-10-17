@@ -1,8 +1,6 @@
-# Afet sonrası sosyal medya paylaşımlarından ilçe düzeyinde ihtiyaç tespiti
+# Afet sonrası ihtiyaç tespiti için doğal dil işleme: kod, simüle veri seti ve sonuçlar
 
-Bu depoda aşağıdaki makalenin kodu, simüle veri seti ve sonuçları bulunur:
-
-> Kotan K., *Afetlerde hızlı risk profillemesi için doğal dil işleme: Bir karar destek çerçevesi*, Gazi Üniversitesi Mühendislik Mimarlık Fakültesi Dergisi (değerlendirme aşamasında).
+Bu depoda değerlendirme aşamasındaki bir makalenin kodu, simüle veri seti ve sonuçları bulunur. Makalenin künyesi yayımlandığında eklenecektir.
 
 [English summary](#english-summary)
 
@@ -42,7 +40,7 @@ runs/
                                  ilçe profilleri, model bilgisi, ortam bilgisi, çalıştırma günlüğü
   20261016_0743_claude_maliyet/  Claude modellerinin gerçek API çağrılarıyla ölçülen maliyetleri (aşağıdaki nota bakınız)
 analiz/                          Makaledeki türetilmiş sayıları ve şekilleri depodaki dosyalardan yeniden üreten betikler
-makale_sekilleri/                Makaledeki şekiller (300 dpi PNG)
+makale_sekilleri/                Şekiller (Liberation Serif yazı tipi, 300 dpi PNG)
 ```
 
 ## Veri seti
@@ -77,7 +75,17 @@ pip install -r requirements.txt
 python analiz/calistir.py
 ```
 
-Betik `runs/` altındaki tablo ve tahmin dosyalarını okur. Dosya adlarında Windows'ta geçersiz olan `:` karakteri yerine `_` kullanılmıştır (örneğin `Temel_ TF-IDF`); ana defter Colab'da bu dosyaları `Temel: TF-IDF` adıyla yazar ve analiz betikleri iki biçimi de tanır. Makaledeki şekilleri `makale_sekilleri_yeniden/` klasörüne yazar ve temel sayıları ekrana basar. Şekillerde Liberation Serif yazı tipi kullanılır; sistemde yoksa matplotlib başka bir yazı tipine geçer. Betikler Python 3.11 ile `requirements.txt` içindeki sürümlerle sınanmıştır.
+Betik `runs/` altındaki tablo ve tahmin dosyalarını okur. Dosya adlarında Windows'ta geçersiz olan `:` karakteri yerine `_` kullanılmıştır (örneğin `Temel_ TF-IDF`); ana defter Colab'da bu dosyaları `Temel: TF-IDF` adıyla yazar ve analiz betikleri iki biçimi de tanır. Temel sayıları ekrana basar ve şekilleri Liberation Serif yazı tipiyle `makale_sekilleri_yeniden/` klasörüne yazar (yazı tipi sistemde yoksa matplotlib başka bir yazı tipine geçer).
+
+Şekillerin Carlito yazı tipli düzeni ve grafiksel özetler için:
+
+```bash
+python analiz/sekiller_carlito.py
+```
+
+Bu betik aynı dosyaları okur; genel çerçeve, hit@1, genel karşılaştırma ve anlatım biçimi şekillerini, ayrı paneller hâlinde dört ilçe haritasını ve İngilizce/Türkçe grafiksel özetleri `makale_sekilleri_carlito_yeniden/` klasörüne yazar, haritaların ilçe doğruluklarını da ekrana basar. Carlito, Calibri ile aynı ölçülere sahip açık lisanslı bir yazı tipidir; kurulu değilse matplotlib başka bir yazı tipine geçer (bu durumda yalnızca görünüm değişir).
+
+Betikler Python 3.11 ile `requirements.txt` içindeki sürümlerle sınanmıştır.
 
 ### 2. Deneyi baştan çalıştırmak (Google Colab)
 
@@ -97,7 +105,7 @@ Betik `runs/` altındaki tablo ve tahmin dosyalarını okur. Dosya adlarında Wi
 - **GPT-5 mini:** 2.000 paylaşımın 210'u ilk denemede `reasoning_effort` ayarı verilmeden, yani modelin varsayılan düşünme düzeyiyle yanıtlanmıştır. Diğer paylaşımlar `minimal` ayarıyla yanıtlanmıştır. Makaledeki sonuçlar bu kayıtlarla hesaplanmıştır. Ek defterdeki `REDO_IDS` ayarı, bu paylaşımları `minimal` ayarıyla yeniden ister.
 - **Gemini:** Ana çalıştırmanın ayar kaydında (`logs/config.json`) Google modeli olarak `gemini-2.5-flash` görünür. Bu model çalıştırma sırasında yeni kullanıcılara kapalı olduğundan API 404 yanıtı vermiştir. Bu nedenle Google değerlendirmesi ek defterle `gemini-3.8-flash` üzerinde yapılmıştır (`logs/bdm_ek_20261016_1252.json`). Gemini 3.8 Flash için değerlendirme sırasında ölçülen gecikme, istemci tarafındaki hız sınırı beklemesini içerdiği için makalede raporlanmamıştır.
 - **Claude maliyetleri:** `20261016_1116` çalıştırması Claude yanıtlarını önceki `20261016_0743` çalıştırmasının önbelleğinden almıştır; bu yüzden bu çalıştırmanın tablolarında Claude maliyeti 0 görünür. Gerçek çağrıların maliyeti `runs/20261016_0743_claude_maliyet/` altındadır ve analiz betikleri bu dosyayı kullanır.
-- **Şekiller ve haritalar:** `runs/20261016_1116/figures/` klasöründe yalnızca veri dağılımı şekilleri vardır. Model karşılaştırma şekillerinin güncel hâlleri `makale_sekilleri/` klasöründedir. Ek defterle tamamlanan BDM'lerin (GPT-5 mini, Gemini 3.8 Flash) ilçe haritaları `maps/` klasöründe yoktur; bu modellerin ilçe düzeyi sonuçları `results/tahminler/ilce_sentetik_BDM_*.csv` dosyalarındadır.
+- **Şekiller ve haritalar:** `runs/20261016_1116/figures/` klasöründe yalnızca veri dağılımı şekilleri vardır. Model karşılaştırma şekilleri `makale_sekilleri/` klasöründedir; Carlito yazı tipli düzen `analiz/sekiller_carlito.py` ile üretilir. Ek defterle tamamlanan BDM'lerin (GPT-5 mini, Gemini 3.8 Flash) ilçe haritaları `maps/` klasöründe yoktur; bu modellerin ilçe düzeyi sonuçları `results/tahminler/ilce_sentetik_BDM_*.csv` dosyalarındadır.
 - **Model ağırlıkları** depoya konmamıştır. Kaynakları `logs/model_bilgisi.json` dosyasında listelenmiştir.
 
 ## Lisans
@@ -108,13 +116,13 @@ Betik `runs/` altındaki tablo ve tahmin dosyalarını okur. Dosya adlarında Wi
 
 ## Atıf
 
-Bu depoyu kullanırsanız lütfen makaleye atıf yapın. Künye bilgileri `CITATION.cff` dosyasındadır; makale yayımlandığında güncellenecektir.
+Makalenin künyesi yayımlandığında buraya ve `CITATION.cff` dosyasına eklenecektir. O zamana kadar depoya `CITATION.cff` dosyasındaki bilgilerle atıf yapılabilir.
 
 ---
 
 ## English summary
 
-This repository contains the code, the simulated dataset and the results of the paper *Natural language processing for rapid risk profiling in disasters: A decision support framework* (K. Kotan, under review at the Journal of the Faculty of Engineering and Architecture of Gazi University).
+This repository contains the code, the simulated dataset and the results of a paper that is currently under review (the paper is written in Turkish). The full reference will be added after publication.
 
 - **Data:** 2,000 simulated Turkish-English social media posts, spread over the 39 districts of Istanbul (51-52 posts per district). Each post is labelled with one to three true needs from a 66-item need list. The posts were generated with Claude Opus 5.5 under a label-first protocol and audited by an independent model (Claude Sonnet 5.5).
 - **Methods:**
@@ -128,6 +136,7 @@ This repository contains the code, the simulated dataset and the results of the 
 
 **Quick start:**
 - `pip install -r requirements.txt && python analiz/calistir.py` regenerates the paper figures and key numbers from the stored outputs. It needs no API keys or model downloads.
+- `python analiz/sekiller_carlito.py` regenerates the Carlito-font version of the figures, with the district maps as separate panels, and the English and Turkish graphical abstracts.
 - To rerun the full experiment, open `notebooks/NLP_Afet_TekParca.ipynb` in Google Colab with a GPU, high RAM and an `ANTHROPIC_API_KEY` secret. `OPENAI_API_KEY` and `GOOGLE_API_KEY` are optional. LLM outputs are not deterministic; the reported results are based on the stored responses in `runs/20261016_1116/results/tahminler/`.
 
 **License:** code under MIT; data, results and figures under CC BY 4.0. District boundaries come from geoBoundaries (OpenStreetMap contributors).

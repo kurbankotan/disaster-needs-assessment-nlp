@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-message: "Bu depoyu kullanırsanız lütfen aşağıdaki makaleye atıf yapın. If you use this repository, please cite the article below."
-title: "Afet sonrası sosyal medya paylaşımlarından ilçe düzeyinde ihtiyaç tespiti: kod, veri seti ve sonuçlar"
+message: "Bu depoyu kullanırsanız lütfen aşağıdaki bilgilerle atıf yapın. If you use this repository, please cite it as below."
+title: "Afet sonrası ihtiyaç tespiti için doğal dil işleme: kod, simüle veri seti ve sonuçlar"
 type: software
 repository-code: "https://github.com/kurbankotan/disaster-needs-assessment-nlp"
 url: "https://github.com/kurbankotan/disaster-needs-assessment-nlp"
@@ -21,13 +21,4 @@ keywords:
   - synthetic data
   - earthquake
   - Turkish
-preferred-citation:
-  type: article
-  title: "Afetlerde hızlı risk profillemesi için doğal dil işleme: Bir karar destek çerçevesi"
-  authors:
-    - family-names: Kotan
-      given-names: Kurban
-      orcid: "https://orcid.org/0000-0002-6660-0565"
-      affiliation: "Manisa Celal Bayar Üniversitesi"
-  journal: "Gazi Üniversitesi Mühendislik Mimarlık Fakültesi Dergisi"
-  status: submitted
+# Makale yayımlandığında künyesi preferred-citation alanı olarak eklenecektir.
