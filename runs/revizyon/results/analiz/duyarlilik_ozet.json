@@ -1,0 +1,152 @@
+{
+ "kendi_ailesini_kayirma": {
+  "tum_617": {
+   "n_plan": 617,
+   "n_gozlem": 9255,
+   "lpm_ayni_aile": -0.0009261403102564687,
+   "lpm_ga": [
+    -0.007912857964354664,
+    0.006060577343841727
+   ],
+   "lpm_p": 0.7950122647664967,
+   "logit_or": 0.9974584111653547,
+   "logit_ga": [
+    0.877116167227437,
+    1.1343118724506756
+   ],
+   "logit_p": 0.9690547533580978,
+   "aile_fark_farki": {
+    "claude": {
+     "fark_farki": -0.012965964343598074,
+     "ga": [
+      -0.026607239330091827,
+      0.0002701242571583178
+     ]
+    },
+    "gemini": {
+     "fark_farki": -0.008103727714748765,
+     "ga": [
+      -0.02310068881685579,
+      0.006690640194489402
+     ]
+    },
+    "gpt": {
+     "fark_farki": 0.022690437601296715,
+     "ga": [
+      0.0058752025931929335,
+      0.03930814424635332
+     ]
+    }
+   },
+   "anlatim": {
+    "explicit": 432,
+    "mixed": 35,
+    "implicit": 150
+   }
+  },
+  "temiz_455": {
+   "n_plan": 455,
+   "n_gozlem": 6825,
+   "lpm_ayni_aile": -0.003139717425430971,
+   "lpm_ga": [
+    -0.008270031069313784,
+    0.0019905962184518415
+   ],
+   "lpm_p": 0.23033950369882483,
+   "logit_or": 0.9042774000796825,
+   "logit_ga": [
+    0.7436516548762525,
+    1.0995976556132894
+   ],
+   "logit_p": 0.3132535392670417,
+   "aile_fark_farki": {
+    "claude": {
+     "fark_farki": -0.011904761904761973,
+     "ga": [
+      -0.02307692307692305,
+      -0.0012820512820513506
+     ]
+    },
+    "gemini": {
+     "fark_farki": -0.004670329670329737,
+     "ga": [
+      -0.017032967032967028,
+      0.006868131868131789
+     ]
+    },
+    "gpt": {
+     "fark_farki": 0.00604395604395605,
+     "ga": [
+      -0.006318681318681324,
+      0.018688186813186847
+     ]
+    }
+   },
+   "anlatim": {
+    "explicit": 391,
+    "mixed": 15,
+    "implicit": 49
+   }
+  }
+ },
+ "denetim_n": {
+  "sonnet_gecti": 1878,
+  "sonnet_gecti_ortuk": 543,
+  "sonnet_gecti_acik": 1231,
+  "gpt_gecti": 512,
+  "gpt_gecti_ortuk": 68,
+  "gpt_kaldi_ortuk": 82,
+  "gpt_gecti_acik": 425,
+  "gpt_kaldi_acik": 7
+ },
+ "denetim_ortuk_fark": {
+  "tum_implicit": {
+   "bdm_ort": 0.802027027027027,
+   "bdm_min": 0.7043918918918919,
+   "en_iyi_yerel": 0.5929054054054054,
+   "en_iyi_yerel_ad": "Qwen3-Embedding-4B + tanım",
+   "fark": 0.20912162162162162
+  },
+  "sonnet_gecti_implicit": {
+   "bdm_ort": 0.8180478821362799,
+   "bdm_min": 0.7219152854511971,
+   "en_iyi_yerel": 0.6114180478821363,
+   "en_iyi_yerel_ad": "Qwen3-Embedding-4B + tanım",
+   "fark": 0.2066298342541436
+  },
+  "g617_implicit": {
+   "bdm_ort": 0.7853333333333333,
+   "bdm_min": 0.7266666666666667,
+   "en_iyi_yerel": 0.5866666666666667,
+   "en_iyi_yerel_ad": "Qwen3-Embedding-4B + tanım",
+   "fark": 0.19866666666666666
+  },
+  "gpt_gecti_implicit": {
+   "bdm_ort": 0.8352941176470589,
+   "bdm_min": 0.7647058823529411,
+   "en_iyi_yerel": 0.6323529411764706,
+   "en_iyi_yerel_ad": "Qwen3-Embedding-4B + tanım",
+   "fark": 0.2029411764705883
+  },
+  "gpt_kaldi_implicit": {
+   "bdm_ort": 0.7439024390243902,
+   "bdm_min": 0.6707317073170732,
+   "en_iyi_yerel": 0.5487804878048781,
+   "en_iyi_yerel_ad": "Qwen3-Embedding-4B + tanım",
+   "fark": 0.19512195121951215
+  }
+ },
+ "denetim_siralama_spearman_ortuk": {
+  "sonnet_gecti_vs_tum": 1.0,
+  "gpt_gecti_vs_g617": 0.9958246164193105
+ },
+ "esnek_puan_n_fazladan": 99,
+ "persona": {
+  "n_persona": 30,
+  "min": 49,
+  "max": 89,
+  "ortanca": 65.5,
+  "ortuk_min": 12,
+  "ortuk_max": 25
+ }
+}

@@ -340,14 +340,14 @@ GA_TXT = {
                b4s="TF-IDF güveni düşük\npaylaşımlar BDM'ye", b5="Gerçek paylaşımlar", b5s="HumAID (EN), Kaggle (TR)",
                chart="Anlatım biçimine göre hit@1 (simüle veri)", expl="Açık", impl="Örtük",
                note="Kademeli (TF-IDF → Gemini): BDM payı %{share}, hit@1 {cas} (Gemini tek başına {gem})",
-               note2="Gerçek paylaşımlar: BDM'ler {lo}–{hi}; en iyi yerel yöntem {loc}",
+               note2="Gerçek paylaşımlar (küçük örneklem, n = {n_en} EN, {n_tr} TR): BDM'ler {lo}–{hi}; en iyi yerel {loc}",
                groups=("TF-IDF", "Qwen3-Emb-4B\n+ tanım", "USE", "Claude\nOpus 5.5", "Gemini\n3.8 Flash")),
     "en": dict(b1="Simulated posts", b1s="2,000 posts · 39 districts\n3 generator models · TR/EN", b2="Local methods",
                b2s="TF-IDF, encoders\n(name + description)", b3="Large language models", b3s="5 models, zero-shot", b4="Cascade",
                b4s="low TF-IDF confidence\nposts go to an LLM", b5="Real posts", b5s="HumAID (EN), Kaggle (TR)",
                chart="Hit@1 by phrasing (simulated data)", expl="Explicit", impl="Implicit",
                note="Cascade (TF-IDF → Gemini): {share}% sent to LLM, hit@1 {cas} (Gemini alone {gem})",
-               note2="Real posts: LLMs {lo}–{hi}; best local method {loc}",
+               note2="Real posts (small sample, n = {n_en} EN, {n_tr} TR): LLMs {lo}–{hi}; best local {loc}",
                groups=("TF-IDF", "Qwen3-Emb-4B\n+ description", "USE", "Claude\nOpus 5.5", "Gemini\n3.8 Flash")),
 }
 def graphical_abstract(lang):
@@ -383,7 +383,7 @@ def graphical_abstract(lang):
     ax.text(0.8, 41.0, T["chart"], ha="left", va="center", fontsize=6.3, fontweight="bold")
     share = f"{r.bdm_payi_ort * 100:.0f}"
     ax.text(0.8, 37.6, T["note"].format(share=share, cas=dec(r.hit1_ort, 3), gem=dec(r.bdm_tek_hit1, 3)), ha="left", va="center", fontsize=5.6)
-    ax.text(0.8, 34.6, T["note2"].format(lo=dec(llm_real.min()), hi=dec(llm_real.max()), loc=f"{dec(min(loc_en, loc_tr))}–{dec(max(loc_en, loc_tr))}"), ha="left", va="center", fontsize=5.6)
+    ax.text(0.8, 34.6, T["note2"].format(n_en=int(R[R.veri == "gercek_en"].n.iloc[0]), n_tr=int(R[R.veri == "gercek_tr"].n.iloc[0]), lo=dec(llm_real.min()), hi=dec(llm_real.max()), loc=f"{dec(min(loc_en, loc_tr))}–{dec(max(loc_en, loc_tr))}"), ha="left", va="center", fontsize=5.6)
     axb = fig.add_axes([0.075, 0.075, 0.915, 0.33])
     x = np.arange(len(keys)); w = 0.36
     b1 = axb.bar(x - w / 2, ex, w, color=BLUE, label=T["expl"]); b2 = axb.bar(x + w / 2, im, w, color=GREEN, label=T["impl"])

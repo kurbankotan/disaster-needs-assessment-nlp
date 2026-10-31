@@ -9,7 +9,7 @@ Bu depoda değerlendirme aşamasındaki bir makalenin kodu, simüle veri seti ve
 - **Veri:**
   - 2.000 simüle sosyal medya paylaşımı (Türkçe ve İngilizce sürüm). Paylaşımlar İstanbul'un 39 ilçesine dağıtılmıştır (ilçe başına 51-52 paylaşım). Her biri, 66 maddelik ihtiyaç listesinden bir ila üç gerçek ihtiyaçla etiketlenmiştir. Veri etiket öncelikli bir protokolle Claude Opus 5.5 ile üretilmiştir: önce ilçe, ihtiyaçlar ve anlatım özellikleri planlanmış, ardından metin yazdırılmıştır. Kayıtların plana uygunluğu bağımsız bir modelle (Claude Sonnet 5.5) denetlenmiştir.
   - Aynı planlardan 1.014'ünün Gemini 3.8 Flash ve GPT-5 mini ile yeniden yazdırıldığı alt küme (üç üreticinin ortak 617 planı karşılaştırmada kullanılmıştır).
-  - Gerçek paylaşımlar: HumAID veri setinin deprem bölümünden 225 İngilizce istek tweeti ve 6 Şubat 2023 depremlerine ait bir Kaggle derleminden 423 Türkçe tweet. İki etiketleyicinin birbirinden bağımsız etiketlediği ve tam uyuştuğu 610 paylaşım altın küme olarak kullanılmıştır. Tweet metinleri paylaşılmaz; yalnız kimlikler ve etiketler depodadır.
+  - Gerçek paylaşımlar: HumAID veri setinin deprem bölümünden 225 İngilizce istek tweeti ve 6 Şubat 2023 depremlerine ait bir Kaggle derleminden 423 Türkçe tweet. İki etiketleyicinin birbirinden bağımsız etiketlediği ve tam uyuştuğu 610 paylaşım altın küme olarak kullanılmıştır (uyuşmayan 18 İngilizce ve 20 Türkçe paylaşım dışarıda bırakılmıştır). Bunların yalnızca 51'i listedeki bir ihtiyacı içerir (30 İngilizce, 21 Türkçe; 8'i örtük anlatımlı). Tweet metinleri paylaşılmaz; yalnız kimlikler ve etiketler depodadır.
 - **Yöntemler:**
   - 18 dil temsil modeli: benzerlik için ince ayarlanmış cümle kodlayıcılar (USE, SBERT-mpnet, all-distilroberta-v1, ALBERT-paraphrase), güncel çok dilli kodlayıcılar (multilingual-E5-large-instruct, BGE-M3, Qwen3-Embedding 0,6B ve 4B), Türkçe metin için çok dilli SBERT ve BERTurk-STS; ince ayar ablasyonu için ham BERT, RoBERTa ve ALBERT ile NLI ile ince ayarlanmış BERT ve RoBERTa; statik kelime vektörleri GloVe, Word2Vec ve FastText. Karar kuralı, paylaşım ile ihtiyaç adı (ya da ad ve kısa tanım) arasındaki en yüksek kosinüs benzerliğidir.
   - 3 temel çizgi: TF-IDF, rastgele ve çoğunluk.
@@ -23,7 +23,8 @@ Bu depoda değerlendirme aşamasındaki bir makalenin kodu, simüle veri seti ve
   - Simüle veride (N = 2.000) ihtiyacın adıyla anıldığı açık paylaşımlarda TF-IDF (0,97) BDM'lerle (0,96-0,98) aynı isabete ulaşır. İhtiyacın adlandırılmadığı örtük paylaşımlarda sözcüksel ve gömme yöntemleri 0,11-0,45'e düşer, BDM'ler 0,70-0,88'de kalır.
   - İhtiyaç adlarına kısa tanım eklemek en iyi kodlayıcıyı (Qwen3-Embedding-4B) 0,81'e çıkarır; BDM'lerin genel isabeti 0,88-0,94'tür.
   - BDM üstünlüğü metni yazan modelin ailesine değil, metnin ne kadar örtük olduğuna bağlıdır; değerlendiricinin üreticiyle aynı aileden olması isabeti artırmaz.
-  - Gerçek paylaşımlarda BDM'ler 0,93-1,00 isabete ulaşır ve yöntem sıralaması korunur (Spearman ρ İngilizcede 0,94, Türkçede 0,96).
+  - Simüle verideki etiketler üretim planından gelir. Farklı aileden bir modelin denetiminden geçen ve geçemeyen örtük paylaşımlarda BDM ortalaması ile en iyi yerel yöntem arasındaki fark aynı kalır (0,203 ve 0,195); tartışmalı etiketler mutlak isabetleri düşürür, ancak yöntemler arasındaki farkı açıklamaz.
+  - Listedeki bir ihtiyacı içeren küçük gerçek örneklemde (30 İngilizce, 21 Türkçe paylaşım; 8'i örtük) BDM'ler 0,93-1,00 isabete ulaşır ve yöntem sıralaması simüle veriyle tutarlıdır (Spearman ρ İngilizcede 0,94, Türkçede 0,96). Örneklem küçük ve çoğunlukla açık anlatımlı olduğundan bu sonuç keşif niteliğindedir.
   - Kademeli tasarım paylaşımların yaklaşık üçte birini BDM'ye göndererek BDM'nin isabetine 1 puan yaklaşır, yaklaşık yarısını göndererek ona ulaşır.
 
 ## Depo yapısı
@@ -134,9 +135,22 @@ python analiz/revizyon_calistir.py
 python analiz/revizyon_sekilleri.py
 ```
 
-`revizyon_calistir.py` analiz betiklerini sırayla çalıştırır (persona ve ilçe duyarlılığı, sentetik veride tüm yöntemler, eşleştirilmiş testler, kademeli tasarım, üretici etkisi, gerçek paylaşımlar) ve türetilmiş tabloları `runs/revizyon/results/analiz/` klasörüne yazar. `revizyon_sekilleri.py` makalenin şekillerini ve grafiksel özetleri Carlito yazı tipiyle `makale_sekilleri_revizyon_yeniden/` klasörüne yazar. Betikler Python 3.13 ile `requirements-revizyon.txt` içindeki sürümlerle sınanmıştır ve depodaki tabloları ve şekilleri birebir yeniden üretir.
+`revizyon_calistir.py` analiz betiklerini sırayla çalıştırır (persona ve ilçe duyarlılığı, sentetik veride tüm yöntemler, eşleştirilmiş testler, kademeli tasarım, üretici etkisi, duyarlılık analizleri, gerçek paylaşımlar) ve türetilmiş tabloları `runs/revizyon/results/analiz/` klasörüne yazar. `revizyon_sekilleri.py` makalenin şekillerini ve grafiksel özetleri Carlito yazı tipiyle `makale_sekilleri_revizyon_yeniden/` klasörüne yazar. Betikler Python 3.13 ile `requirements-revizyon.txt` içindeki sürümlerle sınanmıştır ve depodaki tabloları ve şekilleri birebir yeniden üretir.
 
 Gerçek Türkçe paylaşımlarda TF-IDF metin gerektirdiğinden, metinler depoda olmadığında bu yöntemin kayıtlı paylaşım düzeyi tahminleri (`results/analiz/tahmin_gercek_tr_tfidf_tr_*.csv`) kullanılır. Tweet metinleri yeniden toplanıp aynı sütunlara ek olarak `metin` sütunuyla `runs/revizyon/data/gercek_veri_altin.csv` adıyla konduğunda bu tahminler yeniden hesaplanır.
+
+Duyarlılık analizleri (`revizyon_duyarlilik.py`) şunları üretir: kendi ailesini kayırma analizinin üç üreticinin metni de çapraz denetimden geçen 455 planda yinelenmesi; ana sonuçların etiket denetiminden geçen alt kümelerde (Claude Sonnet 5.5 denetiminden geçen 1.878 paylaşım, GPT-5 mini çapraz denetiminden geçen ve geçemeyen Claude metinleri) yinelenmesi; denetçinin bulduğu fazladan liste ihtiyaçlarını da doğru sayan esnek puan; gömme yöntemleri için gerçek ihtiyaç sayısını gerektirmeyen göreli eşik kuralı (eşik 5 katlı çapraz doğrulamayla); metinden çıkarılan ilçelerle uçtan uca ilçe doğruluğu; persona başına paylaşım sayıları.
+
+#### İnsan değerlendirmesi
+
+`analiz/revizyon_insan_degerlendirme.py` simüle etiketlerin insan değerlendirmesi içindir. Örneklem, üç üreticinin ortak 617 planındaki örtük paylaşımların tamamıdır (150 Claude Opus 5.5 metni, Türkçe). İki etiketleyici üretici etiketlerini görmeden, birbirinden bağımsız olarak etiketler.
+
+```bash
+python analiz/revizyon_insan_degerlendirme.py olustur <klasor>          # iki özdeş boş çalışma kitabı
+python analiz/revizyon_insan_degerlendirme.py puanla <e1.xlsx> <e2.xlsx> # uyum, üretici etiketleriyle karşılaştırma, yeniden puanlama
+```
+
+Puanlama; etiketleyiciler arası uyumu (MASI uzaklığıyla Krippendorff α, madde, yakın anlam grubu ve sektör düzeyinde), insan etiketleri ile üretim planı arasındaki uyumu, yöntemlerin insan etiketlerine göre yeniden puanlanmasını ve BDM hatalarının "yanlış tahmin" ile "tartışmalı etiket" olarak ayrıştırılmasını `runs/revizyon/results/analiz/insan_degerlendirme_*` dosyalarına yazar.
 
 ### 3. Deneyi baştan çalıştırmak (Google Colab)
 
@@ -182,7 +196,7 @@ This repository contains the code, the simulated dataset and the results of a pa
 - **Data:**
   - 2,000 simulated Turkish-English social media posts, spread over the 39 districts of Istanbul (51-52 posts per district). Each post is labelled with one to three true needs from a 66-item need list. The posts were generated with Claude Opus 5.5 under a label-first protocol and audited by an independent model (Claude Sonnet 5.5).
   - A subset in which 1,014 of the same plans were rewritten by Gemini 3.8 Flash and GPT-5 mini (617 plans common to all three generators are compared).
-  - Real posts: 225 English request tweets from the earthquake portion of HumAID and 423 Turkish tweets from a Kaggle corpus of the 6 February 2023 earthquakes, labelled independently by two annotators; the 610 posts on which both labellings fully agree form the gold set. Only tweet IDs and labels are shared, not the tweet texts.
+  - Real posts: 225 English request tweets from the earthquake portion of HumAID and 423 Turkish tweets from a Kaggle corpus of the 6 February 2023 earthquakes, labelled independently by two annotators; the 610 posts on which both labellings fully agree form the gold set, and only 51 of them contain a listed need (30 English, 21 Turkish; 8 implicit). Only tweet IDs and labels are shared, not the tweet texts.
 - **Methods:**
   - 18 language representation models, including recent multilingual encoders (multilingual-E5-large-instruct, BGE-M3, Qwen3-Embedding 0.6B and 4B) and a fine-tuning ablation, compared through cosine similarity between each post and the need names (optionally with short need descriptions).
   - 3 baselines: TF-IDF, random and majority.
@@ -192,7 +206,8 @@ This repository contains the code, the simulated dataset and the results of a pa
   - On explicitly phrased posts TF-IDF (0.97) matches the LLMs (0.96-0.98); on implicitly phrased posts lexical and embedding methods fall to 0.11-0.45, while the LLMs stay at 0.70-0.88.
   - Need descriptions raise the best encoder (Qwen3-Embedding-4B) to 0.81; the LLMs reach 0.88-0.94 overall.
   - The LLM advantage depends on how implicit the texts are, not on which model family wrote them; evaluators show no same-family advantage.
-  - On real posts the LLMs reach 0.93-1.00 and the method ranking is preserved (Spearman 0.94 in English, 0.96 in Turkish).
+  - The simulated labels come from generation plans. On implicit posts that passed and failed an audit by a model from another family, the gap between the LLM average and the best local method stays the same (0.203 and 0.195), so disputable labels lower absolute accuracy but do not explain the gap.
+  - In the small real sample with a listed need (30 English, 21 Turkish posts; 8 implicit) the LLMs reach 0.93-1.00 and the method ranking is consistent with the simulated data (Spearman 0.94 in English, 0.96 in Turkish). The sample is small and mostly explicit, so this result is exploratory.
 
 **Quick start:**
 - `pip install -r requirements.txt && python analiz/calistir.py` regenerates the figures and key numbers of the first version from the stored outputs. It needs no API keys or model downloads.

@@ -16,6 +16,7 @@ ADIMLAR = [
     ("revizyon_testler.py", "eşleştirilmiş testler (McNemar, Holm) ve fark güven aralıkları"),
     ("revizyon_kademeli.py", "kademeli tasarım: eğriler, çapraz doğrulama, maliyet ve gecikme"),
     ("revizyon_uretici.py", "üretici modelin etkisi ve kendi ailesini kayırma"),
+    ("revizyon_duyarlilik.py", "duyarlılık: çapraz denetimden geçen alt kümeler, esnek puan, çok etiket eşik kuralı, uçtan uca ilçe, persona sayıları"),
     ("revizyon_gercek.py", "gerçek paylaşımlar: kapalı ve açık küme, sıralama ilişkisi"),
 ]
 for betik, aciklama in ADIMLAR:
