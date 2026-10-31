@@ -1,0 +1,5 @@
+﻿Model,kaynak,parametre,boyut,toplu_ms_paylasim_cuda,tek_paylasim_ms_cuda,tek_paylasim_ms_cpu
+mE5-large-instruct,sentence-transformers:intfloat/multilingual-e5-large-instruct,559890432,1024,0.9605530785000269,23.916462000045158,193.29540899997255
+BGE-M3,sentence-transformers:BAAI/bge-m3,567754752,1024,2.005830698500006,22.192805500026225,177.47516899993343
+Qwen3-Emb-0.6B,sentence-transformers:Qwen/Qwen3-Embedding-0.6B,595776512,1024,1.6720766545000174,46.25483450001866,292.2666480000089
+Qwen3-Emb-4B,sentence-transformers:Qwen/Qwen3-Embedding-4B,4021774336,2560,3.7744992415000524,58.66579799999272,

@@ -1,0 +1,491 @@
+===== tek_en (makale) =====
+You are a disaster response assistant. Based on the social media message of an earthquake victim, identify the single most urgently needed relief item from the following list of disaster relief needs:
+- drinking water
+- baby formula
+- baby bottle
+- wet wipes
+- napkin
+- food
+- lantern
+- electric heater
+- heating stove
+- firewood
+- batteries
+- blanket
+- battery-powered radio
+- toothbrush
+- toothpaste
+- sanitary pad
+- diaper
+- soap
+- spare clothes
+- coat
+- mask
+- cash
+- canned food
+- hot meal
+- medicine
+- painkiller
+- antibiotic
+- cold medicine
+- fever reducer
+- adhesive bandage
+- bandage
+- allergy medication
+- asthma medicine
+- insulin
+- portable toilet
+- tent
+- sleeping bag
+- search and rescue team
+- medical team
+- psychological support team
+- security forces
+- generator
+- power bank
+- gluten free food
+- salt-free and sugar-free food
+- volunteers
+- dry food
+- bread
+- first aid kit
+- pots and pans
+- equipment for disabled people
+- blood
+- lighting equipment
+- pet food
+- heart medicine
+- container housing
+- cleaning product
+- hardware tools
+- children's playground
+- oxygen concentrator
+- electrical field team
+- interpreter
+- blood collection center
+- life jacket
+- kitchenware
+- flashlight
+For each message respond only with the name of the need, exactly as written in the list.
+
+===== tek_tr =====
+Sen bir afet müdahale asistanısın. Bir depremzedenin sosyal medya paylaşımına dayanarak, aşağıdaki afet yardım ihtiyaçları listesinden en acil gereksinim duyulan tek yardım kalemini belirle:
+- içme suyu
+- bebek maması
+- biberon
+- ıslak mendil
+- peçete
+- gıda
+- fener
+- elektrikli ısıtıcı
+- soba
+- odun
+- pil
+- battaniye
+- pilli radyo
+- diş fırçası
+- diş macunu
+- hijyenik ped
+- bebek bezi
+- sabun
+- yedek giysi
+- mont
+- maske
+- nakit para
+- konserve
+- sıcak yemek
+- ilaç
+- ağrı kesici
+- antibiyotik
+- soğuk algınlığı ilacı
+- ateş düşürücü
+- yarabandı
+- bandaj
+- alerji ilaçları
+- astım ilacı
+- insülin
+- seyyar tuvalet
+- çadır
+- uyku tulumu
+- arama kurtarma ekibi
+- sağlık ekibi
+- psikolojik destek ekibi
+- güvenlik güçleri
+- jenaratör
+- powerbank
+- glutesiz yiyecek
+- tuzsuz-şekersiz yiyecek
+- gönüllü
+- kuru gıda
+- ekmek
+- ilk yardım kiti
+- kap kacak
+- engelli ekipmanı
+- kan
+- aydınlatıcı
+- hayvan maması
+- kalp ilacı
+- konteynır
+- temizlik ürünü
+- hırdavat
+- çocuk oyun alanı
+- oksijen cihazı
+- elektrik saha ekibi
+- tercüman
+- kan toplama merkezi
+- can yeleği
+- mutfak eşyası
+- el feneri
+Her paylaşım için yalnızca ihtiyacın adıyla, listede yazıldığı biçimde yanıt ver.
+
+===== coklu_en =====
+You are a disaster response assistant. Based on the social media message of an earthquake victim, identify the relief items from the following list of disaster relief needs that the message asks for or clearly implies, ordered from the most to the least urgent (at most 3 items):
+- drinking water
+- baby formula
+- baby bottle
+- wet wipes
+- napkin
+- food
+- lantern
+- electric heater
+- heating stove
+- firewood
+- batteries
+- blanket
+- battery-powered radio
+- toothbrush
+- toothpaste
+- sanitary pad
+- diaper
+- soap
+- spare clothes
+- coat
+- mask
+- cash
+- canned food
+- hot meal
+- medicine
+- painkiller
+- antibiotic
+- cold medicine
+- fever reducer
+- adhesive bandage
+- bandage
+- allergy medication
+- asthma medicine
+- insulin
+- portable toilet
+- tent
+- sleeping bag
+- search and rescue team
+- medical team
+- psychological support team
+- security forces
+- generator
+- power bank
+- gluten free food
+- salt-free and sugar-free food
+- volunteers
+- dry food
+- bread
+- first aid kit
+- pots and pans
+- equipment for disabled people
+- blood
+- lighting equipment
+- pet food
+- heart medicine
+- container housing
+- cleaning product
+- hardware tools
+- children's playground
+- oxygen concentrator
+- electrical field team
+- interpreter
+- blood collection center
+- life jacket
+- kitchenware
+- flashlight
+For each message respond only with the names of the needs, exactly as written in the list.
+
+===== coklu_tr =====
+Sen bir afet müdahale asistanısın. Bir depremzedenin sosyal medya paylaşımına dayanarak, aşağıdaki afet yardım ihtiyaçları listesinden paylaşımda istenen ya da açıkça ima edilen yardım kalemlerini en acilden en az acile doğru sıralayarak belirle (en fazla 3 kalem):
+- içme suyu
+- bebek maması
+- biberon
+- ıslak mendil
+- peçete
+- gıda
+- fener
+- elektrikli ısıtıcı
+- soba
+- odun
+- pil
+- battaniye
+- pilli radyo
+- diş fırçası
+- diş macunu
+- hijyenik ped
+- bebek bezi
+- sabun
+- yedek giysi
+- mont
+- maske
+- nakit para
+- konserve
+- sıcak yemek
+- ilaç
+- ağrı kesici
+- antibiyotik
+- soğuk algınlığı ilacı
+- ateş düşürücü
+- yarabandı
+- bandaj
+- alerji ilaçları
+- astım ilacı
+- insülin
+- seyyar tuvalet
+- çadır
+- uyku tulumu
+- arama kurtarma ekibi
+- sağlık ekibi
+- psikolojik destek ekibi
+- güvenlik güçleri
+- jenaratör
+- powerbank
+- glutesiz yiyecek
+- tuzsuz-şekersiz yiyecek
+- gönüllü
+- kuru gıda
+- ekmek
+- ilk yardım kiti
+- kap kacak
+- engelli ekipmanı
+- kan
+- aydınlatıcı
+- hayvan maması
+- kalp ilacı
+- konteynır
+- temizlik ürünü
+- hırdavat
+- çocuk oyun alanı
+- oksijen cihazı
+- elektrik saha ekibi
+- tercüman
+- kan toplama merkezi
+- can yeleği
+- mutfak eşyası
+- el feneri
+Her paylaşım için yalnızca ihtiyaçların adlarıyla, listede yazıldığı biçimde yanıt ver.
+
+===== az_ornekli_en =====
+You are a disaster response assistant. Based on the social media message of an earthquake victim, identify the single most urgently needed relief item from the following list of disaster relief needs:
+- drinking water
+- baby formula
+- baby bottle
+- wet wipes
+- napkin
+- food
+- lantern
+- electric heater
+- heating stove
+- firewood
+- batteries
+- blanket
+- battery-powered radio
+- toothbrush
+- toothpaste
+- sanitary pad
+- diaper
+- soap
+- spare clothes
+- coat
+- mask
+- cash
+- canned food
+- hot meal
+- medicine
+- painkiller
+- antibiotic
+- cold medicine
+- fever reducer
+- adhesive bandage
+- bandage
+- allergy medication
+- asthma medicine
+- insulin
+- portable toilet
+- tent
+- sleeping bag
+- search and rescue team
+- medical team
+- psychological support team
+- security forces
+- generator
+- power bank
+- gluten free food
+- salt-free and sugar-free food
+- volunteers
+- dry food
+- bread
+- first aid kit
+- pots and pans
+- equipment for disabled people
+- blood
+- lighting equipment
+- pet food
+- heart medicine
+- container housing
+- cleaning product
+- hardware tools
+- children's playground
+- oxygen concentrator
+- electrical field team
+- interpreter
+- blood collection center
+- life jacket
+- kitchenware
+- flashlight
+For each message respond only with the name of the need, exactly as written in the list.
+
+Examples (message -> need):
+Message: "In a wheelchair in Kartal, couldn't get drinking water for 2 days. #earthquake" -> drinking water
+Message: "Çekmeköy, Taşdelen field tent, 3 babies here and formula's run out bro, moms' milk stopped from stress. Anyone bringing formula, straight to us. #deprem #Çekmeköy" -> baby formula
+Message: "We need a baby bottle for my little one in Ümraniye, not a single clean one left." -> baby bottle
+Message: "Esenyurt. My neighbour is bedridden, with a baby too. No water to wash, nothing left to clean them up. Our hands are filthy too." -> wet wipes
+Message: "guys we're at the assembly area in Küçükçekmece, food is coming thank god but no napkins at all, everyone wiping hands on their clothes, kids wiping noses on sleeves. if anyone's coming toss a few packs of napkins pls, seriously need them." -> napkin
+Message: "I GAVE OUT EVERYTHING IN MY SHOP, IT'S GONE!!! Hundreds waiting in Kocasinan Merkez, Bahçelievler, WE NEED FOOD, send anything edible!!! #deprem #Bahçelievler" -> food
+Message: "WE'RE TREATING THE INJURED BY PHONE LIGHT IN THE DARK!! Phones dying at the field point in Zeytinburnu, can't work at night without light!! 😰 #deprem" -> lantern
+Message: "Elderly neighbours shaking outside my shop in Bağcılar!!! Power's back but there's nothing to heat with! WE NEED ELECTRIC HEATERS, as many as possible! Sick old ladies here, it drops below zero at night, I'm scared they won't make it till morning!!!" -> electric heater
+Message: "IN A WHEELCHAIR OUTSIDE IN AYDINLI, TUZLA FOR 2 DAYS! NEED A STOVE, WE'RE FREEZING!!" -> heating stove
+Message: "WE'RE ON THE STREET IN Bayrampaşa, LIT A FIRE BUT FIREWOOD IS GONE! KIDS ARE FREEZING! CAN ANYONE BRING FIREWOOD?! #deprem #İstanbul" -> firewood
+Message: "3 days in the dark in Kadıköy, please bring some batteries, I can't take it anymore." -> batteries
+Message: "Bro ppl in Büyükçekmece were shivering in their cars till morning, need blankets, even a few is fine man, nobody's come by this side honestly" -> blanket
+Message: "we're in the school yard in Esenyurt, no internet, no signal, no clue what's going on. if anyone has a battery radio pls bring it so we can at least hear the news #deprem" -> battery-powered radio
+Message: "NO TOOTHBRUSHES!! We opened our café in Şile, people are staying here, nobody's brushed their teeth in 3 days! There are kids too, PLEASE whoever can bring some!! #deprem #Şile" -> toothbrush
+Message: "Maltepe tent area, we r 3 ppl, no toothpaste, need pls" -> toothpaste
+Message: "We're in a park in Cihangir, Beyoğlu. I gave birth 10 days ago, still bleeding, no sanitary pads left. 2 more women with me. Please help, we're really struggling." -> sanitary pad
+Message: "Şile, Kumbaba area, 2 babies. Diapers kindly requested. #earthquake" -> diaper
+Message: "Folks staying at Kocatepe park, Bayrampaşa, need soap, we cant wash our hands son." -> soap
+Message: "Üsküdar, school yard. 23 students, 4 teachers. Kids soaked, need spare clothes. Ages 7-10 sizes. Please bring. #deprem #İstanbul" -> spare clothes
+Message: "I'M 8 MONTHS PREGNANT, 2 NIGHTS OUTSIDE ON THE Kazlıçeşme shore in Zeytinburnu! I RAN OUT IN PYJAMAS, NOTHING WARM TO PUT ON, I'M SHAKING FROM COLD! MY 3 KIDS ARE IN THIN CLOTHES TOO! PLEASE SOMEBODY HELP!" -> coat
+Message: "I'm in a school yard in Şişli with my three kids. The air is full of dust from rubble work around us and my youngest started coughing. Does anyone know where masks are being handed out? Kids' sizes would be great too." -> mask
+Message: "Fatih. My neighbour, 82, elderly. Card not working, no ATM. Zero cash on her. Need cash. 🙏" -> cash
+Message: "60 of us at the gathering area by the Mimarsinan coast in Büyükçekmece. No shops, no stove, nothing to cook with. Please send stuff that won't spoil and can be eaten straight from the tin." -> canned food
+Message: "Arnavutköy, Hadımköy side, no hot meal for 2 days, 4 ppl n 3 cats here man" -> hot meal
+Message: "I'm a wheelchair user at the assembly area in Aydınlı, Tuzla. My regular medicine was left at home and I haven't taken it for 3 days. If any team is distributing medicine, could they stop by here too?" -> medicine
+Message: "MY HEAD FEELS LIKE IT'S SPLITTING AND MY TOOTH IS THROBBING, HAVEN'T SLEPT IN 12 HOURS!! 3 OF US IN THE DORM ROOM LIKE THIS, PHARMACY CLOSED, WE HAVE NOTHING!!! #earthquake #Ümraniye" -> painkiller
+Message: "under rubble in Barbaros, Ataşehir, leg wound got infected, feverish, battery dyin #deprem" -> antibiotic
+Message: "Whole building sick in Kağıthane! WE NEED COLD MEDICINE, NOW!" -> cold medicine
+Message: "I am tourist. Hasanpaşa area in Sultanbeyli, near mosque. My friend fever very hihg, shaking. Need fever reducer. Pharmacy closed. Little Turkish. Please help 🙏" -> fever reducer
+Message: "Kağıthane, my 2 kids' knees and hands all scraped, keep bleeding, nothing to cover them with ugh 😩" -> adhesive bandage
+Message: "Sarıyer, Rumelifeneri road. Where I feed the strays, 2 neighbours got cut by glass, bleeding won't stop. Used up my cloth. Need something to wrap wounds." -> bandage
+Message: "Under rubble. Başakşehir Ziya Gökalp area, 3 storey building, basement. 2 of us. Allergy flared from the dust, getting short of breath. Allergy meds stayed upstairs. Battery 4%. Whoever comes pls bring meds. Spread this." -> allergy medication
+Message: "7 months pregnant, in Mecidiye, Sultanbeyli... my asthma meds ran out, can't breathe, I'm begging! #deprem" -> asthma medicine
+Message: "Please help, my mom ran out of insulin in Bakırköy, please someone find insulin!" -> insulin
+Message: "200 people at Tozkoparan park in Güngören, there's nowhere to relieve themselves." -> portable toilet
+Message: "Our building in Fatih is damaged, 8 households outside. We need tens." -> tent
+Message: "In Sultanbeyli people are sleeping on the ground in the mosque yard with thin covers 😢 for God's sake" -> sleeping bag
+Message: "PLEASE SHARE!!! I haven't heard from my family in Bayrampaşa since yesterday, they say the building collapsed and STILL nobody has come! SEND A SEARCH AND RESCUE TEAM!!! Mum, dad, my brother could be inside, I can't do anything from here, I'm losing my mind 😭 #deprem #İstanbul" -> search and rescue team
+Message: "Taşdelen, Çekmeköy, injured people. Send a medical team. #deprem" -> medical team
+Message: "I am tourist. Little Turkish. In tents next to hotel in Maltepe. Many people crying. Children scared. Not sleeping. We are scared too. Need psychological support team. Someone to talk to. Please send. Thank you. Help please." -> psychological support team
+Message: "Avcılar Gümüşpala. Night 3 men come, take things from broken houses. We scared, nobody protect." -> security forces
+Message: "There has been no electricity in Alibeyköy, Eyüpsultan for 3 days. The shelter housing the 12 animals in our care has no heating or light. We kindly request support from authorities to provide a device that can produce power independently of the grid." -> generator
+Message: "No power at the assembly area in Piri Mehmet Paşa, Silivri, lots of people trying to reach family. If anyone can bring power banks it'd really help." -> power bank
+Message: "Kurtköy tent camp, Pendik. Son has celiac. Can't eat the bread, pasta handed out." -> gluten free food
+Message: "I'M 7 MONTHS PREGNANT WITH BLOOD PRESSURE AND DIABETES!!! Everything handed out in Eyüpsultan is salty! NEED SALT-FREE SUGAR-FREE FOOD, haven't eaten properly in 2 days!!! #deprem" -> salt-free and sugar-free food
+Message: "Our dorm in Bakırköy was evacuated and the yard is now an assembly area. We need volunteers to sort and hand out aid boxes, anyone who can come please stop by the dorm entrance." -> volunteers
+Message: "Please help, I am tourist, little Turkish. 4 of us in hotel garden in Avcılar, 2 days. We have camp stove but nothing to cook, need something that lasts long. #deprem" -> dry food
+Message: "We've gathered at the village square in Şile, elderly and kids among us. Bakeries aren't working, no bread for two days. Thank you in advance to anyone who can bring some." -> bread
+Message: "My elderly neighbour in Cihangir has been outside for 2 days, fell and cut his hand. Anyone in Beyoğlu who can bring a first aid kit? 3 more injured next to him 🙏 #earthquake" -> first aid kit
+Message: "Please hear us, in Sultanbeyli Battalgazi we want to make soup for my dad on dialysis but no pots or pans left at all. Please someone bring some #deprem" -> pots and pans
+Message: "Guys sorry but nobody gives a damn about us. We're at the tent area in Çatalca, my eldest is physically disabled and his wheelchair is stuck in the rubble. Need disability equipment, wheelchair, walker, anything. Alone with 3 kids honestly. #deprem #Çatalca" -> equipment for disabled people
+Message: "THEY PULLED 3 INJURED OUT OF THE BUILDING IN FRONT OF OUR CAFE, DOCTORS SAY THEY NEED BLOOD!!! 0 RH NEGATIVE NEEDED!!! Everyone in Beyoğlu run to the hospital, PLEASE GIVE BLOOD!!!" -> blood
+Message: "Assembly area in Atatürk neighbourhood, Ataşehir is pitch dark, lighting equipment needed. #earthquake" -> lighting equipment
+Message: "Building manager in Aydinli, Tuzla. got 3 dogs and 5 cats in our yard, owners couldnt get out. need pet food bro, cat or dog whatever, anyone bringing it bless u" -> pet food
+Message: "Çekmeköy Merkez neighbourhood, can't reach my dad. No heart meds. Anyone?" -> heart medicine
+Message: "25 families' homes damaged in Sancaktepe, a longer-term shelter solution is requested 🏠" -> container housing
+Message: "We opened the cafe I work at in Sultangazi and let people in BUT EVERYTHING IS DUST, MUD, VOMIT!!! NO CLEANING STUFF, BLEACH, DETERGENT, WHATEVER YOU HAVE, PEOPLE ARE GONNA GET SICK!!" -> cleaning product
+Message: "A few friends and I are helping neighbours around damaged buildings in Küçükçekmece. We need hardware tools to open jammed doors, get belongings out and set up temporary supports: crowbars, hammers, screwdrivers, pliers, nails. If any shop owners have extras, it would really help 🙏🔧" -> hardware tools
+Message: "Under rubble. Üsküdar. They can hear me. Low battery. Outside kids crying, hours with nowhere to play, scared. Set up a children's playground, keep them busy. I'm waiting. #deprem #Üsküdar" -> children's playground
+Message: "I'm security at a complex in Kazlıçeşme, the old guy in block 5's oxygen concentrator stopped when the power cut, he can barely breathe. Anyone in Zeytinburnu with a battery oxygen concentrator pls reach out bro, it's bad" -> oxygen concentrator
+Message: "Family in Ataşehir. No power, can't reach them. Send an electrical field team." -> electrical field team
+Message: "Injured Afghan family outside my shop in Bağcılar, NOBODY UNDERSTANDS THEIR LANGUAGE!!" -> interpreter
+Message: "Yo me and my friends wanna donate blood, anyone know where a blood collection center opened in Bağcılar?? If there's a Red Crescent spot or smth pls drop it, we're coming rn." -> blood collection center
+Message: "WAVES RISING ON THE MALTEPE SHORE, PEOPLE FALLING IN, SOME CAN'T SWIM!!" -> life jacket
+Message: "14 families staying in Kuzguncuk park in Üsküdar, not a single pot, plate or spoon to cook with. If anyone can send kitchenware please help, I'm begging for my pupils." -> kitchenware
+Message: "60 OF US IN ABBASAGA PARK in Beşiktaş AND NO LIGHT AT ALL!!! 2 more aftershocks at 3am, kids screaming, I fell in the dark trying to round up the cats. NEED FLASHLIGHTS, at least 10!! Anyone who can bring some pls reply #deprem #İstanbul" -> flashlight
+
+===== acik_kume =====
+You are a disaster response assistant. You will read social media posts written after earthquakes. For each post decide:
+1. has_need: true if the post reports a concrete need of people affected by the earthquake: an item, service or team that is needed or requested, for the author or for others (including rescue teams for people trapped under rubble, and aid-collection lists that name concrete items). false for news, donation announcements that name no concrete item, prayers and solidarity messages, political comments, announcements of aid that has arrived, and general calls for help that name no concrete need.
+2. needs: if has_need is true, the relief items from the list below that the post asks for or clearly implies, from the most to the least urgent (at most 3). If a needed item has no equivalent in the list, use "not in list". If has_need is false, return an empty list.
+List of relief items:
+- drinking water
+- baby formula
+- baby bottle
+- wet wipes
+- napkin
+- food
+- lantern
+- electric heater
+- heating stove
+- firewood
+- batteries
+- blanket
+- battery-powered radio
+- toothbrush
+- toothpaste
+- sanitary pad
+- diaper
+- soap
+- spare clothes
+- coat
+- mask
+- cash
+- canned food
+- hot meal
+- medicine
+- painkiller
+- antibiotic
+- cold medicine
+- fever reducer
+- adhesive bandage
+- bandage
+- allergy medication
+- asthma medicine
+- insulin
+- portable toilet
+- tent
+- sleeping bag
+- search and rescue team
+- medical team
+- psychological support team
+- security forces
+- generator
+- power bank
+- gluten free food
+- salt-free and sugar-free food
+- volunteers
+- dry food
+- bread
+- first aid kit
+- pots and pans
+- equipment for disabled people
+- blood
+- lighting equipment
+- pet food
+- heart medicine
+- container housing
+- cleaning product
+- hardware tools
+- children's playground
+- oxygen concentrator
+- electrical field team
+- interpreter
+- blood collection center
+- life jacket
+- kitchenware
+- flashlight
+Respond only with item names exactly as written in the list.
+

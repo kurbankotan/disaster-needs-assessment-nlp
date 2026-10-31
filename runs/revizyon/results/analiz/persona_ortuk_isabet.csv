@@ -1,0 +1,181 @@
+﻿model,persona,ortuk_n,ortuk_hit1
+TF-IDF (gövde),Türkçesi sınırlı bir mülteci,15,0.13333333333333333
+TF-IDF (gövde),apartman yöneticisi,24,0.125
+TF-IDF (gövde),bakkal (esnaf),23,0.17391304347826086
+TF-IDF (gövde),cami görevlisi,23,0.21739130434782608
+TF-IDF (gövde),diyaliz hastası bir yakını olan kişi,13,0.07692307692307693
+TF-IDF (gövde),emekli öğretmen,15,0.0
+TF-IDF (gövde),"enkaz altında kalmış, telefon şarjı azalan bir kişi",22,0.0
+TF-IDF (gövde),ev hanımı,12,0.0
+TF-IDF (gövde),evcil hayvan sahibi,23,0.043478260869565216
+TF-IDF (gövde),gönüllü bir arama kurtarma eri,23,0.17391304347826086
+TF-IDF (gövde),hamile bir kadın,21,0.047619047619047616
+TF-IDF (gövde),ilkokul öğretmeni,14,0.14285714285714285
+TF-IDF (gövde),inşaat işçisi,14,0.14285714285714285
+TF-IDF (gövde),kafe çalışanı,23,0.13043478260869565
+TF-IDF (gövde),komşusu adına yazan bir kişi,20,0.15
+TF-IDF (gövde),lise öğrencisi,21,0.09523809523809523
+TF-IDF (gövde),mahalle muhtarı,21,0.09523809523809523
+TF-IDF (gövde),sağlık çalışanı (hemşire),25,0.12
+TF-IDF (gövde),site güvenlik görevlisi,19,0.2631578947368421
+TF-IDF (gövde),sokak hayvanlarına bakan bir gönüllü,23,0.08695652173913043
+TF-IDF (gövde),taksi şoförü,18,0.16666666666666666
+TF-IDF (gövde),tekerlekli sandalye kullanan engelli bir birey,21,0.09523809523809523
+TF-IDF (gövde),yabancı turist (basit Türkçe),22,0.0
+TF-IDF (gövde),yaşlı bir adam,13,0.07692307692307693
+TF-IDF (gövde),yaşlı bir kadın,23,0.13043478260869565
+TF-IDF (gövde),yeni doğum yapmış bir anne,19,0.0
+TF-IDF (gövde),yurtta kalan öğrenci,23,0.13043478260869565
+TF-IDF (gövde),üniversite öğrencisi,17,0.11764705882352941
+TF-IDF (gövde),üç çocuklu bir anne,22,0.18181818181818182
+TF-IDF (gövde),"şehir dışındaki, ailesine ulaşamayan bir akraba",20,0.2
+USE (düz),Türkçesi sınırlı bir mülteci,15,0.13333333333333333
+USE (düz),apartman yöneticisi,24,0.3333333333333333
+USE (düz),bakkal (esnaf),23,0.43478260869565216
+USE (düz),cami görevlisi,23,0.391304347826087
+USE (düz),diyaliz hastası bir yakını olan kişi,13,0.23076923076923078
+USE (düz),emekli öğretmen,15,0.4
+USE (düz),"enkaz altında kalmış, telefon şarjı azalan bir kişi",22,0.13636363636363635
+USE (düz),ev hanımı,12,0.5833333333333334
+USE (düz),evcil hayvan sahibi,23,0.2608695652173913
+USE (düz),gönüllü bir arama kurtarma eri,23,0.5217391304347826
+USE (düz),hamile bir kadın,21,0.3333333333333333
+USE (düz),ilkokul öğretmeni,14,0.42857142857142855
+USE (düz),inşaat işçisi,14,0.2857142857142857
+USE (düz),kafe çalışanı,23,0.43478260869565216
+USE (düz),komşusu adına yazan bir kişi,20,0.25
+USE (düz),lise öğrencisi,21,0.3333333333333333
+USE (düz),mahalle muhtarı,21,0.47619047619047616
+USE (düz),sağlık çalışanı (hemşire),25,0.28
+USE (düz),site güvenlik görevlisi,19,0.3157894736842105
+USE (düz),sokak hayvanlarına bakan bir gönüllü,23,0.5217391304347826
+USE (düz),taksi şoförü,18,0.2777777777777778
+USE (düz),tekerlekli sandalye kullanan engelli bir birey,21,0.3333333333333333
+USE (düz),yabancı turist (basit Türkçe),22,0.2727272727272727
+USE (düz),yaşlı bir adam,13,0.46153846153846156
+USE (düz),yaşlı bir kadın,23,0.43478260869565216
+USE (düz),yeni doğum yapmış bir anne,19,0.10526315789473684
+USE (düz),yurtta kalan öğrenci,23,0.17391304347826086
+USE (düz),üniversite öğrencisi,17,0.23529411764705882
+USE (düz),üç çocuklu bir anne,22,0.4090909090909091
+USE (düz),"şehir dışındaki, ailesine ulaşamayan bir akraba",20,0.15
+SBERT-mpnet (düz),Türkçesi sınırlı bir mülteci,15,0.2
+SBERT-mpnet (düz),apartman yöneticisi,24,0.375
+SBERT-mpnet (düz),bakkal (esnaf),23,0.5217391304347826
+SBERT-mpnet (düz),cami görevlisi,23,0.34782608695652173
+SBERT-mpnet (düz),diyaliz hastası bir yakını olan kişi,13,0.15384615384615385
+SBERT-mpnet (düz),emekli öğretmen,15,0.4666666666666667
+SBERT-mpnet (düz),"enkaz altında kalmış, telefon şarjı azalan bir kişi",22,0.18181818181818182
+SBERT-mpnet (düz),ev hanımı,12,0.4166666666666667
+SBERT-mpnet (düz),evcil hayvan sahibi,23,0.21739130434782608
+SBERT-mpnet (düz),gönüllü bir arama kurtarma eri,23,0.4782608695652174
+SBERT-mpnet (düz),hamile bir kadın,21,0.38095238095238093
+SBERT-mpnet (düz),ilkokul öğretmeni,14,0.42857142857142855
+SBERT-mpnet (düz),inşaat işçisi,14,0.2857142857142857
+SBERT-mpnet (düz),kafe çalışanı,23,0.2608695652173913
+SBERT-mpnet (düz),komşusu adına yazan bir kişi,20,0.4
+SBERT-mpnet (düz),lise öğrencisi,21,0.42857142857142855
+SBERT-mpnet (düz),mahalle muhtarı,21,0.47619047619047616
+SBERT-mpnet (düz),sağlık çalışanı (hemşire),25,0.24
+SBERT-mpnet (düz),site güvenlik görevlisi,19,0.3684210526315789
+SBERT-mpnet (düz),sokak hayvanlarına bakan bir gönüllü,23,0.5652173913043478
+SBERT-mpnet (düz),taksi şoförü,18,0.6111111111111112
+SBERT-mpnet (düz),tekerlekli sandalye kullanan engelli bir birey,21,0.2857142857142857
+SBERT-mpnet (düz),yabancı turist (basit Türkçe),22,0.3181818181818182
+SBERT-mpnet (düz),yaşlı bir adam,13,0.6923076923076923
+SBERT-mpnet (düz),yaşlı bir kadın,23,0.5217391304347826
+SBERT-mpnet (düz),yeni doğum yapmış bir anne,19,0.10526315789473684
+SBERT-mpnet (düz),yurtta kalan öğrenci,23,0.34782608695652173
+SBERT-mpnet (düz),üniversite öğrencisi,17,0.29411764705882354
+SBERT-mpnet (düz),üç çocuklu bir anne,22,0.45454545454545453
+SBERT-mpnet (düz),"şehir dışındaki, ailesine ulaşamayan bir akraba",20,0.25
+Claude Opus 5.5,Türkçesi sınırlı bir mülteci,15,0.8
+Claude Opus 5.5,apartman yöneticisi,24,0.9166666666666666
+Claude Opus 5.5,bakkal (esnaf),23,0.9565217391304348
+Claude Opus 5.5,cami görevlisi,23,0.8695652173913043
+Claude Opus 5.5,diyaliz hastası bir yakını olan kişi,13,0.9230769230769231
+Claude Opus 5.5,emekli öğretmen,15,1.0
+Claude Opus 5.5,"enkaz altında kalmış, telefon şarjı azalan bir kişi",22,0.18181818181818182
+Claude Opus 5.5,ev hanımı,12,0.9166666666666666
+Claude Opus 5.5,evcil hayvan sahibi,23,0.8260869565217391
+Claude Opus 5.5,gönüllü bir arama kurtarma eri,23,0.9130434782608695
+Claude Opus 5.5,hamile bir kadın,21,1.0
+Claude Opus 5.5,ilkokul öğretmeni,14,0.8571428571428571
+Claude Opus 5.5,inşaat işçisi,14,0.9285714285714286
+Claude Opus 5.5,kafe çalışanı,23,0.8695652173913043
+Claude Opus 5.5,komşusu adına yazan bir kişi,20,0.9
+Claude Opus 5.5,lise öğrencisi,21,1.0
+Claude Opus 5.5,mahalle muhtarı,21,1.0
+Claude Opus 5.5,sağlık çalışanı (hemşire),25,0.72
+Claude Opus 5.5,site güvenlik görevlisi,19,0.8421052631578947
+Claude Opus 5.5,sokak hayvanlarına bakan bir gönüllü,23,0.8695652173913043
+Claude Opus 5.5,taksi şoförü,18,0.8888888888888888
+Claude Opus 5.5,tekerlekli sandalye kullanan engelli bir birey,21,0.8571428571428571
+Claude Opus 5.5,yabancı turist (basit Türkçe),22,0.7727272727272727
+Claude Opus 5.5,yaşlı bir adam,13,0.8461538461538461
+Claude Opus 5.5,yaşlı bir kadın,23,0.8260869565217391
+Claude Opus 5.5,yeni doğum yapmış bir anne,19,0.6842105263157895
+Claude Opus 5.5,yurtta kalan öğrenci,23,0.9130434782608695
+Claude Opus 5.5,üniversite öğrencisi,17,0.8235294117647058
+Claude Opus 5.5,üç çocuklu bir anne,22,0.9545454545454546
+Claude Opus 5.5,"şehir dışındaki, ailesine ulaşamayan bir akraba",20,0.95
+GPT-5 mini,Türkçesi sınırlı bir mülteci,15,0.4666666666666667
+GPT-5 mini,apartman yöneticisi,24,0.875
+GPT-5 mini,bakkal (esnaf),23,0.782608695652174
+GPT-5 mini,cami görevlisi,23,0.8260869565217391
+GPT-5 mini,diyaliz hastası bir yakını olan kişi,13,0.8461538461538461
+GPT-5 mini,emekli öğretmen,15,0.8666666666666667
+GPT-5 mini,"enkaz altında kalmış, telefon şarjı azalan bir kişi",22,0.3181818181818182
+GPT-5 mini,ev hanımı,12,0.8333333333333334
+GPT-5 mini,evcil hayvan sahibi,23,0.8260869565217391
+GPT-5 mini,gönüllü bir arama kurtarma eri,23,0.8260869565217391
+GPT-5 mini,hamile bir kadın,21,0.8095238095238095
+GPT-5 mini,ilkokul öğretmeni,14,0.6428571428571429
+GPT-5 mini,inşaat işçisi,14,0.7857142857142857
+GPT-5 mini,kafe çalışanı,23,0.8260869565217391
+GPT-5 mini,komşusu adına yazan bir kişi,20,0.8
+GPT-5 mini,lise öğrencisi,21,0.8571428571428571
+GPT-5 mini,mahalle muhtarı,21,0.9047619047619048
+GPT-5 mini,sağlık çalışanı (hemşire),25,0.68
+GPT-5 mini,site güvenlik görevlisi,19,0.6842105263157895
+GPT-5 mini,sokak hayvanlarına bakan bir gönüllü,23,0.8260869565217391
+GPT-5 mini,taksi şoförü,18,0.7777777777777778
+GPT-5 mini,tekerlekli sandalye kullanan engelli bir birey,21,0.7142857142857143
+GPT-5 mini,yabancı turist (basit Türkçe),22,0.7727272727272727
+GPT-5 mini,yaşlı bir adam,13,0.7692307692307693
+GPT-5 mini,yaşlı bir kadın,23,0.782608695652174
+GPT-5 mini,yeni doğum yapmış bir anne,19,0.42105263157894735
+GPT-5 mini,yurtta kalan öğrenci,23,0.6956521739130435
+GPT-5 mini,üniversite öğrencisi,17,0.5882352941176471
+GPT-5 mini,üç çocuklu bir anne,22,0.8636363636363636
+GPT-5 mini,"şehir dışındaki, ailesine ulaşamayan bir akraba",20,0.65
+Gemini 3.8 Flash,Türkçesi sınırlı bir mülteci,15,1.0
+Gemini 3.8 Flash,apartman yöneticisi,24,1.0
+Gemini 3.8 Flash,bakkal (esnaf),23,0.9565217391304348
+Gemini 3.8 Flash,cami görevlisi,23,0.9130434782608695
+Gemini 3.8 Flash,diyaliz hastası bir yakını olan kişi,13,0.8461538461538461
+Gemini 3.8 Flash,emekli öğretmen,15,1.0
+Gemini 3.8 Flash,"enkaz altında kalmış, telefon şarjı azalan bir kişi",22,0.18181818181818182
+Gemini 3.8 Flash,ev hanımı,12,1.0
+Gemini 3.8 Flash,evcil hayvan sahibi,23,0.9130434782608695
+Gemini 3.8 Flash,gönüllü bir arama kurtarma eri,23,0.9565217391304348
+Gemini 3.8 Flash,hamile bir kadın,21,0.9047619047619048
+Gemini 3.8 Flash,ilkokul öğretmeni,14,0.9285714285714286
+Gemini 3.8 Flash,inşaat işçisi,14,0.9285714285714286
+Gemini 3.8 Flash,kafe çalışanı,23,1.0
+Gemini 3.8 Flash,komşusu adına yazan bir kişi,20,0.9
+Gemini 3.8 Flash,lise öğrencisi,21,1.0
+Gemini 3.8 Flash,mahalle muhtarı,21,0.9523809523809523
+Gemini 3.8 Flash,sağlık çalışanı (hemşire),25,0.76
+Gemini 3.8 Flash,site güvenlik görevlisi,19,0.8421052631578947
+Gemini 3.8 Flash,sokak hayvanlarına bakan bir gönüllü,23,0.8695652173913043
+Gemini 3.8 Flash,taksi şoförü,18,0.9444444444444444
+Gemini 3.8 Flash,tekerlekli sandalye kullanan engelli bir birey,21,0.9047619047619048
+Gemini 3.8 Flash,yabancı turist (basit Türkçe),22,0.8636363636363636
+Gemini 3.8 Flash,yaşlı bir adam,13,0.9230769230769231
+Gemini 3.8 Flash,yaşlı bir kadın,23,0.8695652173913043
+Gemini 3.8 Flash,yeni doğum yapmış bir anne,19,0.5789473684210527
+Gemini 3.8 Flash,yurtta kalan öğrenci,23,0.9130434782608695
+Gemini 3.8 Flash,üniversite öğrencisi,17,0.8823529411764706
+Gemini 3.8 Flash,üç çocuklu bir anne,22,0.9545454545454546
+Gemini 3.8 Flash,"şehir dışındaki, ailesine ulaşamayan bir akraba",20,0.9

@@ -1,0 +1,208 @@
+﻿id,gercek,top1,top2,top3,top4,top5,s1,s2,s3,s4,s5
+0,,tent,container housing,children's playground,hardware tools,firewood,0.11951,0.05442,0.02846,0.02638,0.02065
+1,,tent,search and rescue team,container housing,life jacket,hardware tools,0.04881,0.0413,0.04065,0.02789,0.02773
+2,,search and rescue team,hardware tools,tent,container housing,painkiller,0.05186,0.0392,0.03263,0.0269,0.02476
+3,,cash,volunteers,blood collection center,container housing,children's playground,0.05849,0.05248,0.02722,0.02534,0.0213
+4,,interpreter,coat,hardware tools,equipment for disabled people,volunteers,0.0545,0.03023,0.02935,0.02745,0.02736
+5,,medical team,search and rescue team,blood collection center,blood,security forces,0.05492,0.04424,0.03046,0.02705,0.02454
+6,,volunteers,interpreter,search and rescue team,hardware tools,cash,0.09069,0.07396,0.02848,0.02449,0.02236
+7,,cash,volunteers,blood collection center,coat,container housing,0.10589,0.06604,0.02509,0.02079,0.01982
+8,medicine;drinking water;food,food,canned food,dry food,medicine,drinking water,0.06832,0.06151,0.05309,0.04814,0.03969
+9,,interpreter,life jacket,coat,battery-powered radio,equipment for disabled people,0.08228,0.04303,0.03083,0.02746,0.02616
+10,,tent,container housing,fever reducer,search and rescue team,psychological support team,0.04043,0.03253,0.03062,0.03009,0.02815
+11,,volunteers,container housing,search and rescue team,psychological support team,tent,0.11313,0.02557,0.02288,0.02152,0.02113
+12,,psychological support team,security forces,fever reducer,battery-powered radio,volunteers,0.03575,0.0241,0.02286,0.02097,0.0207
+13,,hardware tools,adhesive bandage,bandage,search and rescue team,first aid kit,0.0697,0.06834,0.05643,0.04478,0.04379
+14,,interpreter,equipment for disabled people,salt-free and sugar-free food,battery-powered radio,antibiotic,0.0525,0.02375,0.02027,0.01997,0.01979
+15,,interpreter,volunteers,spare clothes,search and rescue team,battery-powered radio,0.04597,0.02252,0.02113,0.02104,0.0199
+16,,tent,search and rescue team,container housing,hardware tools,interpreter,0.04408,0.04119,0.03573,0.02547,0.02535
+17,,volunteers,cash,blood collection center,container housing,blood,0.08245,0.07835,0.02891,0.02059,0.01988
+18,medical team;search and rescue team,search and rescue team,medical team,first aid kit,life jacket,security forces,0.11231,0.07491,0.03391,0.03181,0.02862
+19,,interpreter,container housing,volunteers,coat,bread,0.09452,0.02313,0.01977,0.01929,0.01862
+20,,volunteers,search and rescue team,container housing,tent,hardware tools,0.13936,0.03697,0.03067,0.02394,0.02325
+21,blanket,tent,blanket,container housing,sleeping bag,psychological support team,0.06109,0.05375,0.04069,0.03292,0.02919
+22,,search and rescue team,hardware tools,tent,container housing,painkiller,0.06055,0.0385,0.02911,0.02844,0.02728
+23,,interpreter,battery-powered radio,volunteers,hot meal,search and rescue team,0.05494,0.03045,0.0279,0.02353,0.02192
+24,,volunteers,security forces,psychological support team,interpreter,children's playground,0.05751,0.03418,0.02574,0.02537,0.02486
+25,,cash,volunteers,interpreter,container housing,tent,0.06249,0.05376,0.05011,0.03472,0.02253
+26,,volunteers,search and rescue team,hardware tools,container housing,first aid kit,0.06724,0.06627,0.03197,0.0266,0.02592
+27,medicine,medicine,heart medicine,cold medicine,insulin,painkiller,0.30824,0.19377,0.02055,0.01955,0.01318
+28,,search and rescue team,hardware tools,tent,volunteers,children's playground,0.06291,0.03021,0.02653,0.02557,0.02556
+29,,cash,volunteers,container housing,tent,blood collection center,0.12291,0.03571,0.02403,0.01925,0.01892
+30,,interpreter,equipment for disabled people,battery-powered radio,bread,coat,0.33388,0.02207,0.0188,0.01468,0.01412
+31,spare clothes,spare clothes,coat,equipment for disabled people,children's playground,diaper,0.14524,0.08141,0.02462,0.02446,0.02197
+32,,search and rescue team,interpreter,oxygen concentrator,spare clothes,hardware tools,0.03516,0.02823,0.02489,0.02431,0.02393
+33,hardware tools,hardware tools,search and rescue team,first aid kit,medical team,equipment for disabled people,0.14631,0.06627,0.04034,0.03518,0.03222
+34,,volunteers,interpreter,security forces,children's playground,cash,0.04106,0.02727,0.02613,0.02164,0.02139
+35,,drinking water,baby bottle,generator,life jacket,oxygen concentrator,0.23422,0.02885,0.02502,0.024,0.02107
+36,food,canned food,food,dry food,hot meal,baby formula,0.16549,0.15044,0.13657,0.04828,0.01545
+37,,search and rescue team,hardware tools,tent,painkiller,container housing,0.05356,0.03787,0.02811,0.02744,0.0246
+38,,interpreter,search and rescue team,pet food,battery-powered radio,salt-free and sugar-free food,0.03793,0.02962,0.02289,0.02244,0.02207
+39,,life jacket,equipment for disabled people,interpreter,hardware tools,search and rescue team,0.06314,0.04671,0.04648,0.03885,0.03537
+40,,drinking water,life jacket,cleaning product,oxygen concentrator,portable toilet,0.07523,0.04542,0.03425,0.0283,0.02757
+41,,cash,volunteers,blood collection center,blood,container housing,0.07588,0.06432,0.03046,0.02084,0.02023
+42,,psychological support team,interpreter,equipment for disabled people,asthma medicine,insulin,0.05672,0.03073,0.02895,0.02753,0.02665
+43,food;drinking water;medicine,canned food,food,dry food,drinking water,hot meal,0.07362,0.06125,0.05409,0.03589,0.03444
+44,,cash,volunteers,container housing,blood collection center,interpreter,0.07082,0.06467,0.02836,0.02409,0.019
+45,,tent,interpreter,life jacket,coat,battery-powered radio,0.03242,0.03182,0.02927,0.0257,0.02272
+46,food;drinking water,portable toilet,container housing,cleaning product,tent,drinking water,0.0842,0.06141,0.05096,0.04523,0.03117
+47,,equipment for disabled people,volunteers,container housing,interpreter,tent,0.0669,0.04469,0.02782,0.02555,0.02515
+48,,painkiller,first aid kit,search and rescue team,medical team,hardware tools,0.05785,0.05603,0.04162,0.04146,0.03049
+49,,container housing,tent,children's playground,sleeping bag,search and rescue team,0.26963,0.23917,0.0149,0.01206,0.01017
+50,,pet food,adhesive bandage,bandage,blanket,mask,0.20032,0.02467,0.02396,0.02121,0.02106
+51,,life jacket,tent,coat,container housing,search and rescue team,0.12642,0.03925,0.03038,0.02241,0.01912
+52,,cash,volunteers,container housing,search and rescue team,blood collection center,0.06737,0.05152,0.02954,0.02397,0.02227
+53,,volunteers,interpreter,container housing,tent,hardware tools,0.08155,0.0625,0.03607,0.03079,0.02027
+54,,search and rescue team,hardware tools,tent,container housing,life jacket,0.04869,0.04786,0.04441,0.03407,0.02774
+55,food;drinking water,tent,container housing,canned food,search and rescue team,security forces,0.06804,0.05552,0.02458,0.02382,0.02308
+56,,interpreter,battery-powered radio,coat,life jacket,children's playground,0.05787,0.03562,0.0255,0.02158,0.02145
+57,,volunteers,cash,container housing,blood collection center,tent,0.07187,0.05566,0.03004,0.02687,0.02232
+58,food;medicine,volunteers,search and rescue team,container housing,hardware tools,tent,0.0676,0.0575,0.03403,0.02712,0.02378
+59,,drinking water,baby bottle,heating stove,life jacket,firewood,0.16724,0.03108,0.02284,0.01945,0.01873
+60,canned food,canned food,dry food,food,hot meal,bread,0.12926,0.11385,0.08964,0.04532,0.01817
+61,,interpreter,coat,equipment for disabled people,battery-powered radio,bread,0.08128,0.02522,0.02315,0.02299,0.02103
+62,,interpreter,equipment for disabled people,volunteers,container housing,hardware tools,0.04979,0.02429,0.02244,0.02232,0.02177
+63,,search and rescue team,hardware tools,life jacket,tent,container housing,0.054,0.038,0.03396,0.03349,0.02481
+64,,children's playground,tent,psychological support team,container housing,search and rescue team,0.05945,0.03903,0.03877,0.03792,0.03035
+65,,search and rescue team,hardware tools,tent,container housing,painkiller,0.05227,0.03401,0.03194,0.0267,0.02611
+66,,interpreter,container housing,tent,volunteers,psychological support team,0.04431,0.04362,0.03381,0.02154,0.01999
+67,,search and rescue team,tent,hardware tools,container housing,life jacket,0.06285,0.03532,0.03492,0.03311,0.02685
+68,,volunteers,cash,container housing,search and rescue team,tent,0.05799,0.03547,0.03411,0.02983,0.02313
+69,,cash,volunteers,blood collection center,container housing,coat,0.07395,0.06029,0.02661,0.0212,0.01964
+70,,volunteers,search and rescue team,container housing,hardware tools,children's playground,0.09605,0.05401,0.02505,0.02348,0.02199
+71,,interpreter,cash,battery-powered radio,equipment for disabled people,coat,0.13826,0.02424,0.02393,0.02332,0.02264
+72,,interpreter,volunteers,equipment for disabled people,hardware tools,coat,0.05799,0.03892,0.03131,0.02966,0.02841
+73,,cash,container housing,volunteers,tent,search and rescue team,0.06538,0.03809,0.03618,0.03447,0.02639
+74,,search and rescue team,security forces,life jacket,container housing,battery-powered radio,0.0838,0.04242,0.03555,0.0275,0.02598
+75,spare clothes;food;cash,volunteers,container housing,tent,coat,search and rescue team,0.04478,0.0369,0.03396,0.0338,0.02922
+76,,tent,search and rescue team,container housing,children's playground,hardware tools,0.04854,0.04198,0.04087,0.02565,0.02415
+77,,search and rescue team,tent,hardware tools,container housing,painkiller,0.05218,0.0376,0.03488,0.03334,0.02668
+78,,search and rescue team,container housing,tent,hardware tools,painkiller,0.05288,0.03034,0.03017,0.02995,0.02591
+79,,interpreter,equipment for disabled people,spare clothes,sanitary pad,volunteers,0.03512,0.02841,0.02583,0.02009,0.02001
+80,,interpreter,volunteers,container housing,equipment for disabled people,tent,0.11823,0.04324,0.03057,0.02654,0.02283
+81,,search and rescue team,hardware tools,first aid kit,container housing,tent,0.0907,0.03209,0.02738,0.02583,0.02518
+82,,search and rescue team,volunteers,hardware tools,interpreter,psychological support team,0.0601,0.04155,0.03134,0.02847,0.02836
+83,,volunteers,cash,blood collection center,blood,container housing,0.07335,0.05763,0.03973,0.02688,0.02058
+84,,volunteers,cash,blood collection center,container housing,blood,0.07112,0.04334,0.03324,0.02255,0.02136
+85,,search and rescue team,hardware tools,tent,container housing,first aid kit,0.0726,0.03244,0.03227,0.02966,0.02688
+86,,search and rescue team,life jacket,medical team,firewood,first aid kit,0.08055,0.05075,0.0241,0.02365,0.02193
+87,,search and rescue team,hardware tools,tent,container housing,children's playground,0.06701,0.03981,0.0365,0.03116,0.02476
+88,,search and rescue team,painkiller,hardware tools,tent,container housing,0.04693,0.03017,0.02994,0.0294,0.02489
+89,,volunteers,cash,tent,container housing,food,0.0416,0.03843,0.03592,0.02658,0.02636
+90,,psychological support team,portable toilet,interpreter,medical team,equipment for disabled people,0.03839,0.02592,0.02358,0.02174,0.02128
+91,,cash,volunteers,interpreter,antibiotic,container housing,0.34986,0.02105,0.01562,0.01491,0.01377
+92,food,food,canned food,dry food,volunteers,container housing,0.0581,0.05272,0.04145,0.03,0.0282
+93,drinking water;food;medicine,generator,container housing,drinking water,electrical field team,tent,0.06264,0.03349,0.03191,0.02876,0.02753
+94,,volunteers,interpreter,hardware tools,search and rescue team,security forces,0.06928,0.05301,0.03383,0.02938,0.0248
+95,,security forces,battery-powered radio,antibiotic,search and rescue team,cash,0.11289,0.02326,0.02024,0.01901,0.01873
+96,,life jacket,container housing,tent,search and rescue team,psychological support team,0.04974,0.04241,0.04102,0.03882,0.02367
+97,,tent,search and rescue team,container housing,hardware tools,interpreter,0.05146,0.04105,0.03597,0.0294,0.02816
+98,,interpreter,volunteers,container housing,tent,bread,0.05795,0.04832,0.03147,0.02716,0.0254
+99,tent,tent,container housing,children's playground,sleeping bag,firewood,0.28882,0.07675,0.02104,0.02089,0.01917
+100,,interpreter,psychological support team,battery-powered radio,equipment for disabled people,electrical field team,0.11429,0.02492,0.02468,0.02361,0.02031
+101,,search and rescue team,container housing,tent,painkiller,life jacket,0.05002,0.03175,0.02965,0.02938,0.0271
+102,,coat,life jacket,bandage,blood collection center,equipment for disabled people,0.0308,0.02957,0.02937,0.02832,0.02493
+103,,search and rescue team,hardware tools,tent,first aid kit,container housing,0.06112,0.04521,0.0304,0.02626,0.02575
+104,,volunteers,container housing,cash,interpreter,life jacket,0.03248,0.02888,0.02533,0.02444,0.02136
+105,,cash,volunteers,container housing,search and rescue team,tent,0.0662,0.05033,0.03655,0.02524,0.024
+106,,kitchenware,coat,food,volunteers,canned food,0.0333,0.02883,0.02641,0.02633,0.02558
+107,,psychological support team,interpreter,equipment for disabled people,volunteers,container housing,0.07738,0.04136,0.02836,0.0244,0.02325
+108,,interpreter,life jacket,search and rescue team,equipment for disabled people,battery-powered radio,0.08498,0.0492,0.04074,0.02648,0.02347
+109,,interpreter,equipment for disabled people,bread,life jacket,battery-powered radio,0.10413,0.03013,0.02751,0.02582,0.02562
+110,,tent,container housing,equipment for disabled people,life jacket,volunteers,0.0525,0.05224,0.03255,0.02987,0.02621
+111,,search and rescue team,container housing,tent,painkiller,psychological support team,0.06494,0.02954,0.02851,0.02619,0.02602
+112,,interpreter,life jacket,coat,tent,children's playground,0.03837,0.03224,0.02993,0.02834,0.02344
+113,,interpreter,battery-powered radio,equipment for disabled people,bread,hot meal,0.20345,0.0266,0.02411,0.0237,0.01883
+114,search and rescue team,tent,container housing,search and rescue team,hardware tools,volunteers,0.11008,0.0705,0.0433,0.02697,0.02653
+115,,search and rescue team,container housing,volunteers,psychological support team,tent,0.05041,0.03525,0.03243,0.02738,0.02496
+116,,canned food,food,hot meal,dry food,bread,0.048,0.04044,0.03836,0.03697,0.03449
+117,,search and rescue team,life jacket,psychological support team,interpreter,tent,0.03606,0.03147,0.0303,0.02692,0.02499
+118,,volunteers,cash,blood collection center,container housing,coat,0.06616,0.06194,0.02594,0.02584,0.01875
+119,,cash,volunteers,blood collection center,container housing,interpreter,0.116,0.05693,0.02255,0.02049,0.02032
+120,,security forces,interpreter,battery-powered radio,psychological support team,volunteers,0.02798,0.02742,0.02728,0.02601,0.02503
+121,,battery-powered radio,tent,interpreter,hardware tools,container housing,0.03576,0.02349,0.02276,0.02242,0.0208
+122,drinking water,drinking water,cleaning product,soap,life jacket,portable toilet,0.19436,0.07262,0.05366,0.0239,0.01955
+123,volunteers;food,children's playground,volunteers,kitchenware,hardware tools,food,0.06293,0.05385,0.03558,0.03353,0.03047
+124,,volunteers,cash,blood collection center,container housing,blood,0.07708,0.05579,0.03154,0.02282,0.02091
+125,,volunteers,search and rescue team,container housing,equipment for disabled people,cash,0.10043,0.03658,0.03165,0.02989,0.02442
+126,,search and rescue team,psychological support team,painkiller,first aid kit,medical team,0.04265,0.0365,0.03572,0.02493,0.0249
+127,,sanitary pad,psychological support team,equipment for disabled people,electrical field team,painkiller,0.04051,0.03206,0.02439,0.02253,0.02251
+128,,volunteers,search and rescue team,psychological support team,container housing,tent,0.04002,0.03616,0.03253,0.02991,0.02711
+129,search and rescue team,search and rescue team,hardware tools,tent,container housing,medical team,0.10337,0.05133,0.05042,0.03806,0.02297
+130,,volunteers,container housing,search and rescue team,cash,blood collection center,0.06653,0.03603,0.03022,0.02661,0.026
+131,,search and rescue team,tent,container housing,hardware tools,life jacket,0.05151,0.03736,0.0368,0.02584,0.02397
+132,,life jacket,search and rescue team,tent,firewood,container housing,0.07792,0.05934,0.0311,0.02748,0.02368
+133,,volunteers,interpreter,battery-powered radio,container housing,drinking water,0.03715,0.03405,0.02219,0.02186,0.02148
+134,,lantern,batteries,lighting equipment,flashlight,firewood,0.15382,0.13646,0.11923,0.08029,0.01791
+135,,search and rescue team,hardware tools,tent,container housing,life jacket,0.05522,0.03324,0.03283,0.02636,0.02436
+136,,interpreter,life jacket,search and rescue team,battery-powered radio,hardware tools,0.05108,0.03118,0.02601,0.02477,0.02261
+137,,interpreter,volunteers,container housing,psychological support team,tent,0.04997,0.04449,0.03976,0.03576,0.02252
+138,,tent,search and rescue team,container housing,hardware tools,children's playground,0.05769,0.04515,0.04244,0.0348,0.02501
+139,,search and rescue team,tent,hardware tools,container housing,volunteers,0.04721,0.04318,0.04257,0.04139,0.03163
+140,,volunteers,cash,blood collection center,blood,oxygen concentrator,0.06238,0.04771,0.04622,0.02936,0.02275
+141,,search and rescue team,hardware tools,interpreter,cash,kitchenware,0.0712,0.0304,0.02889,0.02787,0.02225
+142,,search and rescue team,hardware tools,tent,container housing,painkiller,0.0546,0.03147,0.02974,0.02775,0.02735
+143,drinking water;food,tent,container housing,search and rescue team,life jacket,painkiller,0.08369,0.07538,0.03535,0.02117,0.02088
+144,,life jacket,tent,search and rescue team,interpreter,coat,0.03712,0.03078,0.02831,0.02777,0.02554
+145,,search and rescue team,tent,container housing,hardware tools,children's playground,0.05366,0.04811,0.03723,0.03614,0.02695
+146,,interpreter,volunteers,tent,cash,container housing,0.04596,0.03183,0.03151,0.02767,0.02686
+147,,cash,volunteers,container housing,tent,search and rescue team,0.0839,0.03636,0.03085,0.02548,0.02154
+148,,volunteers,interpreter,hardware tools,search and rescue team,blood collection center,0.1115,0.02833,0.02074,0.02056,0.01852
+149,,tent,children's playground,search and rescue team,container housing,volunteers,0.03578,0.0308,0.03064,0.02995,0.02944
+150,,search and rescue team,life jacket,firewood,volunteers,battery-powered radio,0.04769,0.03123,0.02828,0.02524,0.02215
+151,,cash,container housing,interpreter,volunteers,bread,0.09603,0.03011,0.02568,0.02511,0.01937
+152,,search and rescue team,container housing,tent,life jacket,hardware tools,0.08068,0.0421,0.03865,0.03149,0.02606
+153,,cash,volunteers,blood collection center,blood,container housing,0.08756,0.07383,0.03467,0.02317,0.02112
+154,,search and rescue team,tent,hardware tools,container housing,children's playground,0.05368,0.05003,0.04321,0.04249,0.02478
+155,food;drinking water;medicine,canned food,food,dry food,drinking water,hot meal,0.06821,0.04932,0.04784,0.03768,0.02856
+156,,children's playground,tent,battery-powered radio,interpreter,security forces,0.03244,0.02809,0.02487,0.0239,0.02224
+157,,baby formula,pet food,baby bottle,food,canned food,0.05238,0.04274,0.02685,0.02575,0.02511
+158,,interpreter,volunteers,search and rescue team,hardware tools,coat,0.06626,0.0496,0.02667,0.02497,0.01994
+159,,search and rescue team,tent,container housing,hardware tools,first aid kit,0.05356,0.0401,0.03584,0.03198,0.02399
+160,,volunteers,interpreter,search and rescue team,container housing,hardware tools,0.03517,0.03487,0.02921,0.02763,0.02726
+161,,tent,hardware tools,firewood,kitchenware,pots and pans,0.05159,0.04268,0.03545,0.02956,0.02802
+162,,pet food,security forces,search and rescue team,children's playground,medical team,0.2996,0.02274,0.01935,0.01804,0.01742
+163,,volunteers,cash,blood collection center,container housing,children's playground,0.08896,0.06522,0.02682,0.02441,0.0197
+164,,search and rescue team,tent,container housing,painkiller,hardware tools,0.04758,0.03147,0.03075,0.02865,0.02691
+165,,cash,volunteers,blood collection center,container housing,interpreter,0.11839,0.04779,0.02659,0.02365,0.02172
+166,,cash,volunteers,blood collection center,container housing,coat,0.14996,0.05348,0.02187,0.01797,0.01709
+167,,interpreter,equipment for disabled people,hardware tools,coat,search and rescue team,0.14961,0.03156,0.03071,0.01976,0.01881
+168,,search and rescue team,hardware tools,container housing,volunteers,tent,0.06353,0.04759,0.04689,0.04191,0.03964
+169,,tent,container housing,search and rescue team,children's playground,life jacket,0.0678,0.05216,0.04341,0.02696,0.02653
+170,,interpreter,battery-powered radio,volunteers,container housing,drinking water,0.05889,0.03336,0.0307,0.02396,0.02093
+171,,search and rescue team,hardware tools,tent,painkiller,first aid kit,0.04492,0.03708,0.03607,0.02907,0.02704
+172,,blood collection center,blood,oxygen concentrator,volunteers,medical team,0.2418,0.239,0.01666,0.01602,0.01412
+173,,search and rescue team,painkiller,psychological support team,container housing,hardware tools,0.06079,0.02665,0.02647,0.02577,0.02418
+174,,container housing,interpreter,cash,cleaning product,generator,0.02915,0.02844,0.02667,0.02171,0.02163
+175,,equipment for disabled people,interpreter,search and rescue team,tent,hardware tools,0.04736,0.02891,0.02885,0.02627,0.02558
+176,,volunteers,cash,blood collection center,blanket,container housing,0.10076,0.04099,0.03428,0.02925,0.02463
+177,,search and rescue team,interpreter,hardware tools,life jacket,security forces,0.07293,0.05719,0.03111,0.03075,0.03074
+178,,search and rescue team,hardware tools,container housing,painkiller,tent,0.0647,0.03106,0.03058,0.02854,0.0283
+179,,interpreter,volunteers,equipment for disabled people,container housing,battery-powered radio,0.14471,0.03204,0.03107,0.02836,0.02643
+180,,search and rescue team,hardware tools,children's playground,battery-powered radio,tent,0.04484,0.03011,0.02526,0.02496,0.02461
+181,blood,blood collection center,blood,oxygen concentrator,volunteers,bread,0.27061,0.26219,0.01443,0.0141,0.01047
+182,,search and rescue team,security forces,hardware tools,children's playground,tent,0.05799,0.04711,0.03382,0.03009,0.02788
+183,,cleaning product,volunteers,hardware tools,tent,container housing,0.05427,0.04789,0.04259,0.04029,0.03818
+184,volunteers,volunteers,search and rescue team,blood collection center,interpreter,hardware tools,0.39168,0.01997,0.01903,0.01591,0.01306
+185,,painkiller,sleeping bag,medicine,equipment for disabled people,fever reducer,0.07858,0.03531,0.02877,0.02686,0.02614
+186,blood,blood,blood collection center,oxygen concentrator,volunteers,baby formula,0.2696,0.26484,0.01437,0.01347,0.01033
+187,volunteers,search and rescue team,volunteers,life jacket,hardware tools,medical team,0.15761,0.04584,0.03745,0.02709,0.02624
+188,,search and rescue team,volunteers,container housing,hardware tools,tent,0.06081,0.05048,0.0366,0.03138,0.02853
+189,,interpreter,volunteers,container housing,cash,search and rescue team,0.06972,0.0467,0.03123,0.02684,0.02187
+190,pet food,pet food,food,canned food,dry food,baby formula,0.42656,0.02365,0.01754,0.01481,0.0141
+191,,drinking water,heating stove,pots and pans,electric heater,soap,0.25433,0.03291,0.03046,0.02805,0.02411
+192,,search and rescue team,painkiller,tent,hardware tools,kitchenware,0.04238,0.03206,0.02697,0.026,0.02479
+193,tent,tent,container housing,children's playground,blanket,sleeping bag,0.35191,0.08897,0.01896,0.01777,0.01766
+194,blanket;spare clothes,blanket,coat,sleeping bag,electric heater,hot meal,0.30527,0.07477,0.02888,0.02503,0.02292
+195,,search and rescue team,security forces,life jacket,medical team,interpreter,0.10535,0.05587,0.02564,0.02368,0.02241
+196,,cash,volunteers,coat,container housing,blood collection center,0.08835,0.05704,0.02315,0.02293,0.02229
+197,psychological support team,psychological support team,search and rescue team,painkiller,container housing,tent,0.08864,0.03676,0.03371,0.0277,0.02682
+198,,tent,container housing,search and rescue team,hardware tools,children's playground,0.06387,0.04636,0.04193,0.03299,0.02489
+199,,search and rescue team,container housing,equipment for disabled people,tent,hardware tools,0.05572,0.04887,0.04128,0.04071,0.03001
+200,,search and rescue team,hardware tools,tent,container housing,painkiller,0.05355,0.03746,0.0364,0.02971,0.02379
+201,,interpreter,children's playground,battery-powered radio,tent,search and rescue team,0.02914,0.02542,0.02465,0.02397,0.02192
+202,,interpreter,search and rescue team,hardware tools,volunteers,security forces,0.05307,0.04403,0.03685,0.03383,0.03094
+203,,volunteers,cash,container housing,blood collection center,tent,0.07346,0.05188,0.02626,0.02291,0.02201
+204,,search and rescue team,hardware tools,first aid kit,tent,medical team,0.06966,0.03808,0.03304,0.02611,0.02497
+205,,life jacket,coat,bandage,search and rescue team,adhesive bandage,0.05597,0.03246,0.03092,0.02924,0.02756
+206,,container housing,tent,sleeping bag,antibiotic,volunteers,0.37533,0.11562,0.01693,0.01202,0.01201

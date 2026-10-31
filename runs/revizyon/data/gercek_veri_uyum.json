@@ -1,0 +1,154 @@
+{
+ "EN": {
+  "n": 225,
+  "evet_E1": 54,
+  "evet_E2": 54,
+  "ikili_uyum": 0.9467,
+  "ikili_kappa": 0.8538,
+  "ikili_kappa_ga95": [
+   0.7626,
+   0.9278
+  ],
+  "ikisi_evet": 48,
+  "ikisi_evet_liste_ici_kume_ayni": 42,
+  "ikisi_evet_ihtiyac1_ayni": 47,
+  "kripp_alfa_masi_liste_ici": 0.8519,
+  "kripp_alfa_masi_listede_yok_dahil": 0.8241,
+  "listede_yok_kappa": 0.8137,
+  "bicim_uyum_ikisi_evet": 0.9583,
+  "bicim_kappa_ikisi_evet": 0.8121,
+  "emin_degilim_E1": 47,
+  "emin_degilim_E2": 26,
+  "madde_kappa": [
+   {
+    "ihtiyac": "arama kurtarma ekibi | search and rescue team",
+    "E1": 4,
+    "E2": 3,
+    "kappa": 0.855
+   },
+   {
+    "ihtiyac": "battaniye | blanket",
+    "E1": 3,
+    "E2": 3,
+    "kappa": 1.0
+   },
+   {
+    "ihtiyac": "gönüllü | volunteers",
+    "E1": 3,
+    "E2": 3,
+    "kappa": 1.0
+   },
+   {
+    "ihtiyac": "gıda | food",
+    "E1": 15,
+    "E2": 14,
+    "kappa": 0.963
+   },
+   {
+    "ihtiyac": "ilaç | medicine",
+    "E1": 9,
+    "E2": 8,
+    "kappa": 0.939
+   },
+   {
+    "ihtiyac": "içme suyu | drinking water",
+    "E1": 10,
+    "E2": 10,
+    "kappa": 1.0
+   },
+   {
+    "ihtiyac": "kan | blood",
+    "E1": 2,
+    "E2": 2,
+    "kappa": 1.0
+   },
+   {
+    "ihtiyac": "nakit para | cash",
+    "E1": 1,
+    "E2": 4,
+    "kappa": 0.396
+   },
+   {
+    "ihtiyac": "sağlık ekibi | medical team",
+    "E1": 6,
+    "E2": 1,
+    "kappa": 0.28
+   },
+   {
+    "ihtiyac": "yedek giysi | spare clothes",
+    "E1": 4,
+    "E2": 4,
+    "kappa": 1.0
+   },
+   {
+    "ihtiyac": "çadır | tent",
+    "E1": 3,
+    "E2": 3,
+    "kappa": 1.0
+   }
+  ],
+  "altin_satir": 207,
+  "uyusmayan_satir": 18
+ },
+ "TR": {
+  "n": 423,
+  "evet_E1": 45,
+  "evet_E2": 42,
+  "ikili_uyum": 0.974,
+  "ikili_kappa": 0.8591,
+  "ikili_kappa_ga95": [
+   0.7672,
+   0.9332
+  ],
+  "ikisi_evet": 38,
+  "ikisi_evet_liste_ici_kume_ayni": 30,
+  "ikisi_evet_ihtiyac1_ayni": 30,
+  "kripp_alfa_masi_liste_ici": 0.7342,
+  "kripp_alfa_masi_listede_yok_dahil": 0.7656,
+  "listede_yok_kappa": 0.653,
+  "bicim_uyum_ikisi_evet": 0.7632,
+  "bicim_kappa_ikisi_evet": 0.4673,
+  "emin_degilim_E1": 28,
+  "emin_degilim_E2": 24,
+  "madde_kappa": [
+   {
+    "ihtiyac": "arama kurtarma ekibi | search and rescue team",
+    "E1": 21,
+    "E2": 8,
+    "kappa": 0.539
+   },
+   {
+    "ihtiyac": "gıda | food",
+    "E1": 4,
+    "E2": 4,
+    "kappa": 1.0
+   },
+   {
+    "ihtiyac": "ilaç | medicine",
+    "E1": 2,
+    "E2": 2,
+    "kappa": 1.0
+   },
+   {
+    "ihtiyac": "nakit para | cash",
+    "E1": 2,
+    "E2": 2,
+    "kappa": 0.498
+   },
+   {
+    "ihtiyac": "yedek giysi | spare clothes",
+    "E1": 2,
+    "E2": 2,
+    "kappa": 1.0
+   },
+   {
+    "ihtiyac": "çadır | tent",
+    "E1": 6,
+    "E2": 6,
+    "kappa": 1.0
+   }
+  ],
+  "altin_satir": 403,
+  "uyusmayan_satir": 20
+ }
+}

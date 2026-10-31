@@ -1,0 +1,618 @@
+﻿id,gercek,top1,top2,top3,top4,top5,s1,s2,s3,s4,s5
+1,coat,coat,cold medicine,drinking water,baby formula,napkin,0.16427,0.05242,0.0,0.0,0.0
+3,medicine,equipment for disabled people,drinking water,baby bottle,baby formula,napkin,0.01404,0.0,0.0,0.0,0.0
+4,bandage,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+6,soap,blood,drinking water,battery-powered radio,blood collection center,pots and pans,0.09946,0.04433,0.03309,0.02965,0.01029
+9,lantern,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+12,life jacket,life jacket,drinking water,equipment for disabled people,baby formula,napkin,0.09423,0.04183,0.01223,0.0,0.0
+13,search and rescue team,equipment for disabled people,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,0.01156,0.00918,0.00812,0.00531,0.0
+14,baby formula;security forces,baby formula,pots and pans,search and rescue team,salt-free and sugar-free food,napkin,0.11173,0.00997,0.00882,0.00576,0.0
+16,medical team,battery-powered radio,pots and pans,equipment for disabled people,search and rescue team,salt-free and sugar-free food,0.02957,0.0092,0.00855,0.00813,0.00532
+21,medicine,medicine,allergy medication,cold medicine,heart medicine,asthma medicine,0.0953,0.07686,0.05101,0.04523,0.04455
+27,dry food,dry food,food,pet food,canned food,gluten free food,0.18309,0.08067,0.03267,0.02575,0.02429
+28,oxygen concentrator,equipment for disabled people,drinking water,baby bottle,baby formula,napkin,0.0097,0.0,0.0,0.0,0.0
+29,bread;baby formula;soap,bread,drinking water,baby bottle,baby formula,napkin,0.11048,0.0,0.0,0.0,0.0
+30,life jacket,life jacket,drinking water,baby bottle,baby formula,napkin,0.33735,0.0,0.0,0.0,0.0
+31,children's playground,children's playground,equipment for disabled people,drinking water,baby formula,napkin,0.23413,0.00979,0.0,0.0,0.0
+33,medical team;generator;coat,medical team,coat,generator,psychological support team,search and rescue team,0.26991,0.23384,0.17025,0.04093,0.03979
+36,drinking water,drinking water,baby formula,baby bottle,wet wipes,napkin,0.17597,0.0,0.0,0.0,0.0
+38,blanket,blanket,equipment for disabled people,baby bottle,drinking water,napkin,0.1971,0.01486,0.0,0.0,0.0
+42,medical team,medical team,psychological support team,search and rescue team,electrical field team,drinking water,0.22663,0.03437,0.03341,0.02703,0.0
+49,medicine,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+55,search and rescue team,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+61,fever reducer,fever reducer,cold medicine,drinking water,baby formula,napkin,0.20323,0.04805,0.0,0.0,0.0
+62,volunteers,volunteers,medical team,psychological support team,search and rescue team,electrical field team,0.12659,0.03919,0.02556,0.02485,0.02011
+63,drinking water;coat;insulin,drinking water,baby formula,baby bottle,wet wipes,napkin,0.21339,0.0,0.0,0.0,0.0
+66,dry food,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+67,search and rescue team,search and rescue team,medical team,psychological support team,electrical field team,pots and pans,0.308,0.04541,0.02962,0.0233,0.01263
+74,drinking water;medical team,dry food,drinking water,pots and pans,equipment for disabled people,search and rescue team,0.06848,0.05057,0.01174,0.01091,0.01038
+75,children's playground;flashlight,flashlight,children's playground,equipment for disabled people,pots and pans,search and rescue team,0.13455,0.05156,0.01676,0.01065,0.00942
+77,drinking water;diaper,drinking water,pots and pans,search and rescue team,salt-free and sugar-free food,napkin,0.17204,0.01143,0.01011,0.00661,0.0
+83,medical team,medical team,blood,blood collection center,psychological support team,search and rescue team,0.17233,0.10771,0.03211,0.02613,0.02541
+85,antibiotic,equipment for disabled people,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,0.01418,0.01126,0.00996,0.00651,0.0
+86,bread,bread,tent,children's playground,pots and pans,search and rescue team,0.17982,0.08695,0.05172,0.01068,0.00945
+89,antibiotic;food,food,dry food,pet food,canned food,gluten free food,0.08835,0.03893,0.03578,0.0282,0.02661
+90,pet food,pet food,dry food,food,canned food,gluten free food,0.15129,0.07856,0.06127,0.01955,0.01845
+94,volunteers;power bank,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+100,antibiotic;flashlight,equipment for disabled people,drinking water,baby bottle,baby formula,napkin,0.00814,0.0,0.0,0.0,0.0
+104,wet wipes,drinking water,baby formula,baby bottle,wet wipes,napkin,0.07012,0.0,0.0,0.0,0.0
+106,dry food,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+108,toothpaste;battery-powered radio,toothpaste,power bank,pots and pans,equipment for disabled people,search and rescue team,0.08473,0.02689,0.01296,0.01205,0.01146
+116,drinking water,drinking water,equipment for disabled people,baby bottle,baby formula,napkin,0.27293,0.03019,0.0,0.0,0.0
+118,napkin;sleeping bag;mask,sleeping bag,pots and pans,search and rescue team,salt-free and sugar-free food,equipment for disabled people,0.04915,0.01993,0.01763,0.01152,0.01095
+126,blanket;baby formula;container housing,sleeping bag,baby formula,baby bottle,drinking water,napkin,0.05224,0.05039,0.04786,0.0,0.0
+130,fever reducer,hot meal,drinking water,baby bottle,baby formula,napkin,0.06622,0.0,0.0,0.0,0.0
+136,heart medicine,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+137,tent,tent,cold medicine,equipment for disabled people,drinking water,napkin,0.07574,0.03977,0.02037,0.0,0.0
+139,first aid kit,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,napkin,0.01355,0.01198,0.00783,0.0,0.0
+147,tent;firewood;search and rescue team,search and rescue team,firewood,medical team,psychological support team,equipment for disabled people,0.29192,0.16997,0.04198,0.02739,0.0249
+164,gluten free food,gluten free food,salt-free and sugar-free food,food,children's playground,dry food,0.40261,0.1493,0.12125,0.08471,0.05342
+167,generator,generator,heating stove,power bank,equipment for disabled people,napkin,0.11435,0.08748,0.04118,0.01846,0.0
+168,hot meal;cold medicine,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+172,sleeping bag,sleeping bag,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,0.27208,0.0116,0.01026,0.0067,0.0
+173,food,food,dry food,pet food,canned food,gluten free food,0.15409,0.06789,0.0624,0.04918,0.04641
+174,power bank,power bank,drinking water,baby bottle,baby formula,napkin,0.06013,0.0,0.0,0.0,0.0
+175,dry food,dry food,food,pet food,canned food,gluten free food,0.15614,0.0688,0.02786,0.02196,0.02072
+176,oxygen concentrator,oxygen concentrator,battery-powered radio,equipment for disabled people,drinking water,napkin,0.24409,0.19685,0.02325,0.0,0.0
+178,drinking water,drinking water,pots and pans,equipment for disabled people,search and rescue team,salt-free and sugar-free food,0.18256,0.01012,0.00941,0.00895,0.00585
+179,medicine;fever reducer,medicine,fever reducer,cold medicine,heart medicine,asthma medicine,0.11936,0.06557,0.06388,0.05664,0.05579
+182,salt-free and sugar-free food,salt-free and sugar-free food,gluten free food,food,blood,dry food,0.34943,0.1375,0.10559,0.08696,0.04652
+184,life jacket,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,napkin,0.01005,0.00889,0.00581,0.0,0.0
+186,security forces,security forces,drinking water,baby bottle,baby formula,napkin,0.28691,0.0,0.0,0.0,0.0
+189,fever reducer,fever reducer,pots and pans,search and rescue team,salt-free and sugar-free food,napkin,0.23871,0.01099,0.00972,0.00635,0.0
+190,flashlight,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,napkin,0.00899,0.00795,0.0052,0.0,0.0
+191,psychological support team;asthma medicine;tent,psychological support team,asthma medicine,medicine,tent,cold medicine,0.42094,0.3639,0.1701,0.14454,0.09104
+192,pots and pans;salt-free and sugar-free food,salt-free and sugar-free food,pots and pans,gluten free food,food,dry food,0.44351,0.3616,0.23197,0.11622,0.05121
+195,coat,baby formula,baby bottle,drinking water,wet wipes,napkin,0.06317,0.05999,0.0,0.0,0.0
+196,generator;toothpaste;electric heater,electric heater,toothpaste,generator,pots and pans,search and rescue team,0.36279,0.21193,0.18679,0.01915,0.01694
+199,lantern,power bank,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,0.04216,0.012,0.01061,0.00694,0.0
+200,dry food;hot meal,dry food,food,pet food,canned food,gluten free food,0.22728,0.10014,0.04055,0.03196,0.03016
+202,batteries;baby bottle,batteries,baby formula,psychological support team,baby bottle,equipment for disabled people,0.13791,0.04603,0.04424,0.04372,0.0223
+205,antibiotic;dry food,search and rescue team,battery-powered radio,pots and pans,salt-free and sugar-free food,napkin,0.052,0.0333,0.01035,0.00599,0.0
+208,tent,cold medicine,drinking water,baby bottle,baby formula,napkin,0.0551,0.0,0.0,0.0,0.0
+214,psychological support team,psychological support team,medical team,search and rescue team,electrical field team,drinking water,0.45898,0.0696,0.04414,0.03571,0.0
+216,tent;oxygen concentrator,oxygen concentrator,tent,pots and pans,search and rescue team,salt-free and sugar-free food,0.3144,0.12492,0.01535,0.01357,0.00887
+217,dry food;lighting equipment;toothbrush,lighting equipment,dry food,toothbrush,food,equipment for disabled people,0.19803,0.14105,0.13049,0.06215,0.05642
+219,volunteers;food,equipment for disabled people,drinking water,baby bottle,baby formula,napkin,0.02319,0.0,0.0,0.0,0.0
+220,dry food,dry food,food,pet food,canned food,gluten free food,0.1635,0.07204,0.02917,0.02299,0.0217
+221,diaper;sleeping bag,sleeping bag,equipment for disabled people,pots and pans,search and rescue team,salt-free and sugar-free food,0.04426,0.01335,0.0106,0.00937,0.00613
+225,generator,generator,equipment for disabled people,electric heater,power bank,battery-powered radio,0.11286,0.07685,0.06731,0.04064,0.03721
+231,wet wipes,wet wipes,drinking water,baby formula,baby bottle,napkin,0.21208,0.0,0.0,0.0,0.0
+241,baby formula,baby formula,baby bottle,drinking water,wet wipes,napkin,0.23197,0.04794,0.0,0.0,0.0
+271,medical team,medical team,psychological support team,search and rescue team,electrical field team,equipment for disabled people,0.35464,0.05378,0.05229,0.0423,0.02887
+285,medical team,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,napkin,0.01071,0.00947,0.00619,0.0,0.0
+292,medical team,medical team,blood,battery-powered radio,blood collection center,psychological support team,0.19741,0.12338,0.04105,0.03679,0.02993
+296,drinking water,drinking water,equipment for disabled people,baby bottle,baby formula,napkin,0.27749,0.0143,0.0,0.0,0.0
+303,cleaning product;diaper,cleaning product,baby formula,baby bottle,battery-powered radio,pots and pans,0.05597,0.04393,0.04173,0.03508,0.01091
+304,oxygen concentrator,power bank,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,0.04085,0.01163,0.01028,0.00672,0.0
+305,pet food;power bank,power bank,pet food,food,dry food,canned food,0.20928,0.18574,0.07521,0.03314,0.024
+309,blanket;container housing;power bank,power bank,drinking water,baby bottle,baby formula,napkin,0.06174,0.0,0.0,0.0,0.0
+310,heating stove,cold medicine,pots and pans,search and rescue team,salt-free and sugar-free food,napkin,0.03799,0.00889,0.00786,0.00514,0.0
+313,sleeping bag,sleeping bag,drinking water,baby bottle,baby formula,napkin,0.05048,0.0,0.0,0.0,0.0
+316,sleeping bag;diaper;generator,generator,sleeping bag,pots and pans,equipment for disabled people,search and rescue team,0.11455,0.04903,0.01174,0.01092,0.01039
+320,tent,sleeping bag,drinking water,baby bottle,baby formula,napkin,0.07022,0.0,0.0,0.0,0.0
+322,equipment for disabled people,equipment for disabled people,tent,lighting equipment,pots and pans,search and rescue team,0.09337,0.07287,0.06471,0.00895,0.00792
+324,blanket,equipment for disabled people,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,0.01924,0.00879,0.00777,0.00508,0.0
+326,food,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,napkin,0.01723,0.01524,0.00996,0.0,0.0
+335,fever reducer;firewood,heating stove,drinking water,baby bottle,baby formula,napkin,0.07298,0.0,0.0,0.0,0.0
+338,bread,bread,battery-powered radio,baby bottle,drinking water,napkin,0.12589,0.04072,0.0,0.0,0.0
+344,blanket,children's playground,cold medicine,pots and pans,equipment for disabled people,search and rescue team,0.07557,0.0394,0.00922,0.00857,0.00815
+350,pots and pans,pots and pans,food,dry food,pet food,canned food,0.19593,0.06297,0.02775,0.0255,0.0201
+357,generator;interpreter,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+359,generator,generator,battery-powered radio,baby bottle,drinking water,napkin,0.13272,0.04376,0.0,0.0,0.0
+363,cold medicine;heart medicine,cold medicine,heart medicine,medicine,asthma medicine,napkin,0.23989,0.14223,0.12839,0.06001,0.0
+365,tent;diaper,sleeping bag,drinking water,baby bottle,baby formula,napkin,0.05531,0.0,0.0,0.0,0.0
+368,sleeping bag;batteries,batteries,sleeping bag,medical team,search and rescue team,psychological support team,0.20623,0.07136,0.06144,0.05408,0.04008
+381,fever reducer;heart medicine,heart medicine,fever reducer,baby bottle,drinking water,napkin,0.07227,0.06269,0.0,0.0,0.0
+382,gluten free food;heart medicine,gluten free food,heart medicine,medicine,salt-free and sugar-free food,food,0.2214,0.19419,0.09216,0.0821,0.06668
+383,search and rescue team,search and rescue team,medical team,psychological support team,electrical field team,pots and pans,0.29943,0.04415,0.0288,0.02265,0.01228
+384,soap;first aid kit;baby formula,soap,baby formula,baby bottle,drinking water,napkin,0.14285,0.04553,0.04325,0.0,0.0
+391,napkin,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+401,bandage,bandage,tent,adhesive bandage,pots and pans,search and rescue team,0.11093,0.06495,0.06164,0.01351,0.01195
+403,lighting equipment;tent;lantern,lantern,tent,lighting equipment,drinking water,wet wipes,0.17019,0.09965,0.07475,0.0,0.0
+404,fever reducer,fever reducer,drinking water,baby bottle,baby formula,napkin,0.08779,0.0,0.0,0.0,0.0
+405,fever reducer;painkiller,fever reducer,painkiller,pots and pans,search and rescue team,salt-free and sugar-free food,0.24686,0.16535,0.01136,0.01005,0.00657
+408,security forces,security forces,drinking water,baby bottle,baby formula,napkin,0.25857,0.0,0.0,0.0,0.0
+413,electric heater;dry food,battery-powered radio,drinking water,baby bottle,baby formula,napkin,0.06344,0.0,0.0,0.0,0.0
+417,container housing;cleaning product,container housing,cleaning product,drinking water,baby formula,napkin,0.19218,0.04692,0.0,0.0,0.0
+419,cash;insulin,insulin,cash,baby bottle,drinking water,napkin,0.17714,0.17047,0.0,0.0,0.0
+420,security forces;allergy medication,equipment for disabled people,drinking water,baby bottle,baby formula,napkin,0.01245,0.0,0.0,0.0,0.0
+424,mask,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,napkin,0.00923,0.00816,0.00533,0.0,0.0
+428,toothpaste;toothbrush;medicine,blood,tent,blood collection center,drinking water,napkin,0.11547,0.09725,0.03443,0.0,0.0
+431,batteries,battery-powered radio,drinking water,baby bottle,baby formula,napkin,0.07126,0.0,0.0,0.0,0.0
+432,adhesive bandage;kitchenware;insulin,food,pots and pans,dry food,pet food,canned food,0.07339,0.04854,0.03234,0.02972,0.02342
+435,heating stove,equipment for disabled people,drinking water,baby bottle,baby formula,napkin,0.01683,0.0,0.0,0.0,0.0
+441,power bank,power bank,baby formula,baby bottle,drinking water,napkin,0.31107,0.06496,0.0617,0.0,0.0
+444,dry food;fever reducer,fever reducer,dry food,food,pet food,canned food,0.25216,0.18257,0.08044,0.03257,0.02567
+446,sleeping bag,sleeping bag,equipment for disabled people,drinking water,baby formula,napkin,0.07543,0.02275,0.0,0.0,0.0
+449,mask;power bank;heating stove,power bank,heating stove,children's playground,equipment for disabled people,pots and pans,0.22307,0.07678,0.05601,0.01821,0.01157
+453,dry food,heating stove,drinking water,baby bottle,baby formula,napkin,0.0623,0.0,0.0,0.0,0.0
+454,toothpaste,toothpaste,tent,baby bottle,drinking water,napkin,0.16895,0.12427,0.0,0.0,0.0
+461,baby bottle;coat,baby formula,baby bottle,pots and pans,search and rescue team,salt-free and sugar-free food,0.06737,0.06398,0.01673,0.01479,0.00967
+463,hot meal,hot meal,children's playground,equipment for disabled people,pots and pans,search and rescue team,0.16652,0.04263,0.01386,0.0088,0.00779
+466,drinking water;medicine,drinking water,medicine,cold medicine,heart medicine,asthma medicine,0.14209,0.09043,0.0484,0.04291,0.04227
+469,baby formula,baby formula,baby bottle,drinking water,wet wipes,napkin,0.25903,0.07556,0.0,0.0,0.0
+470,first aid kit,first aid kit,drinking water,baby bottle,baby formula,napkin,0.41979,0.0,0.0,0.0,0.0
+472,gluten free food;equipment for disabled people,gluten free food,salt-free and sugar-free food,food,dry food,pet food,0.36559,0.14475,0.1101,0.04851,0.04458
+476,medicine,medicine,cold medicine,heart medicine,asthma medicine,pots and pans,0.1754,0.09387,0.08324,0.08199,0.01831
+480,first aid kit;container housing,container housing,first aid kit,equipment for disabled people,drinking water,napkin,0.26584,0.17272,0.01176,0.0,0.0
+482,food;wet wipes;first aid kit,first aid kit,wet wipes,food,security forces,dry food,0.19855,0.15362,0.0565,0.0501,0.0249
+483,baby bottle;interpreter,baby bottle,interpreter,baby formula,drinking water,napkin,0.22986,0.13909,0.0708,0.0,0.0
+485,napkin,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+486,cash;salt-free and sugar-free food,cash,food,dry food,pet food,canned food,0.16821,0.1004,0.04424,0.04066,0.03204
+487,search and rescue team;fever reducer,search and rescue team,fever reducer,medical team,psychological support team,electrical field team,0.27337,0.2436,0.0403,0.02629,0.02068
+489,power bank,power bank,drinking water,baby bottle,baby formula,napkin,0.04925,0.0,0.0,0.0,0.0
+491,fever reducer,fever reducer,drinking water,baby bottle,baby formula,napkin,0.28799,0.0,0.0,0.0,0.0
+493,dry food,search and rescue team,dry food,food,medical team,pet food,0.24677,0.15921,0.07015,0.03638,0.02841
+495,kitchenware,kitchenware,tent,pots and pans,drinking water,napkin,0.17306,0.11675,0.06574,0.0,0.0
+501,drinking water;asthma medicine,asthma medicine,drinking water,medicine,cold medicine,heart medicine,0.24115,0.17711,0.11272,0.06033,0.05349
+509,container housing,container housing,cold medicine,baby bottle,drinking water,napkin,0.2777,0.05648,0.0,0.0,0.0
+513,battery-powered radio;kitchenware,battery-powered radio,drinking water,baby bottle,baby formula,napkin,0.13188,0.0,0.0,0.0,0.0
+519,electric heater;medicine,electric heater,power bank,baby bottle,drinking water,wet wipes,0.18549,0.03439,0.0,0.0,0.0
+523,portable toilet,portable toilet,equipment for disabled people,drinking water,baby formula,napkin,0.13559,0.02618,0.0,0.0,0.0
+532,toothpaste;portable toilet,portable toilet,drinking water,baby bottle,baby formula,napkin,0.10107,0.0,0.0,0.0,0.0
+539,medical team;napkin,medical team,search and rescue team,psychological support team,electrical field team,equipment for disabled people,0.1497,0.03063,0.0227,0.01785,0.01219
+545,psychological support team,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+549,medicine,heart medicine,blood,medicine,tent,cold medicine,0.11938,0.10872,0.10776,0.09157,0.05767
+550,tent;medical team,medical team,search and rescue team,psychological support team,electrical field team,equipment for disabled people,0.21275,0.04354,0.03226,0.02537,0.01732
+561,antibiotic,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+562,psychological support team,equipment for disabled people,drinking water,baby bottle,baby formula,napkin,0.0315,0.0,0.0,0.0,0.0
+566,hot meal,hot meal,equipment for disabled people,baby bottle,drinking water,napkin,0.2128,0.02463,0.0,0.0,0.0
+570,cold medicine;power bank,tent,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,0.08385,0.01744,0.01542,0.01008,0.0
+571,tent,tent,drinking water,baby bottle,baby formula,napkin,0.1843,0.0,0.0,0.0,0.0
+572,bread;portable toilet;toothpaste,toothpaste,bread,portable toilet,pots and pans,search and rescue team,0.12545,0.11271,0.08318,0.01134,0.01003
+575,container housing,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+578,blanket;kitchenware,blanket,kitchenware,cold medicine,baby bottle,napkin,0.17045,0.16677,0.05908,0.0,0.0
+581,psychological support team;blanket,battery-powered radio,pots and pans,search and rescue team,salt-free and sugar-free food,napkin,0.02939,0.00914,0.00808,0.00528,0.0
+582,electric heater,power bank,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,0.04728,0.01346,0.0119,0.00778,0.0
+585,spare clothes,spare clothes,drinking water,baby bottle,baby formula,napkin,0.23919,0.0,0.0,0.0,0.0
+588,antibiotic;search and rescue team;portable toilet,equipment for disabled people,drinking water,baby bottle,baby formula,napkin,0.01358,0.0,0.0,0.0,0.0
+589,hot meal,heating stove,cold medicine,medical team,psychological support team,search and rescue team,0.06659,0.04288,0.03606,0.02352,0.02287
+590,container housing,heart medicine,container housing,equipment for disabled people,drinking water,napkin,0.06162,0.05919,0.00945,0.0,0.0
+593,bread,bread,equipment for disabled people,drinking water,baby formula,napkin,0.18918,0.02396,0.0,0.0,0.0
+595,insulin,insulin,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,0.12752,0.01057,0.00935,0.00611,0.0
+597,cash,cash,bread,psychological support team,pots and pans,equipment for disabled people,0.16753,0.08472,0.03298,0.00852,0.00792
+604,baby bottle,baby bottle,baby formula,equipment for disabled people,drinking water,napkin,0.16382,0.03386,0.00782,0.0,0.0
+606,napkin,food,dry food,pet food,canned food,gluten free food,0.07095,0.03126,0.02873,0.02265,0.02137
+608,medical team,medical team,psychological support team,search and rescue team,electrical field team,drinking water,0.18309,0.02776,0.02699,0.02184,0.0
+611,dry food,dry food,food,pet food,canned food,gluten free food,0.26114,0.11506,0.04659,0.03672,0.03465
+614,blanket,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+615,fever reducer,fever reducer,children's playground,baby bottle,drinking water,napkin,0.34878,0.09341,0.0,0.0,0.0
+619,lighting equipment,lighting equipment,equipment for disabled people,baby formula,psychological support team,baby bottle,0.24096,0.05148,0.04394,0.04223,0.04173
+620,batteries;volunteers,batteries,volunteers,baby bottle,drinking water,napkin,0.19883,0.19134,0.0,0.0,0.0
+622,tent,tent,equipment for disabled people,drinking water,baby formula,napkin,0.13837,0.01581,0.0,0.0,0.0
+625,tent,sleeping bag,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,0.04428,0.0106,0.00938,0.00613,0.0
+626,medical team;pots and pans,pots and pans,medical team,search and rescue team,psychological support team,electrical field team,0.38366,0.2751,0.05629,0.04172,0.03281
+628,napkin,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+630,blanket;portable toilet,portable toilet,drinking water,baby bottle,baby formula,napkin,0.10342,0.0,0.0,0.0,0.0
+633,baby formula,baby formula,baby bottle,equipment for disabled people,drinking water,napkin,0.27657,0.04581,0.01114,0.0,0.0
+634,gluten free food,gluten free food,bread,salt-free and sugar-free food,food,first aid kit,0.22077,0.09537,0.09126,0.06649,0.03973
+637,dry food,dry food,food,pet food,canned food,gluten free food,0.17839,0.0786,0.03183,0.02509,0.02367
+638,generator,tent,power bank,equipment for disabled people,drinking water,napkin,0.08492,0.03664,0.0097,0.0,0.0
+639,oxygen concentrator,oxygen concentrator,drinking water,baby bottle,baby formula,napkin,0.2111,0.0,0.0,0.0,0.0
+641,electric heater,battery-powered radio,drinking water,baby bottle,baby formula,napkin,0.05233,0.0,0.0,0.0,0.0
+642,dry food;volunteers,pots and pans,search and rescue team,salt-free and sugar-free food,equipment for disabled people,drinking water,0.01822,0.01612,0.01053,0.01001,0.0
+644,tent;power bank,medical team,power bank,search and rescue team,psychological support team,electrical field team,0.06491,0.06343,0.05714,0.04234,0.0333
+647,medicine;electrical field team,heart medicine,power bank,equipment for disabled people,drinking water,napkin,0.06313,0.03655,0.02278,0.0,0.0
+652,generator;search and rescue team,search and rescue team,generator,medical team,power bank,psychological support team,0.33427,0.13372,0.04928,0.04816,0.03215
+675,fever reducer,wet wipes,drinking water,baby formula,baby bottle,napkin,0.05905,0.0,0.0,0.0,0.0
+679,interpreter;blanket,interpreter,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,0.22827,0.01704,0.01507,0.00985,0.0
+681,lighting equipment,lighting equipment,drinking water,baby bottle,baby formula,napkin,0.06775,0.0,0.0,0.0,0.0
+682,sleeping bag,sleeping bag,equipment for disabled people,drinking water,baby formula,napkin,0.07048,0.02125,0.0,0.0,0.0
+687,pots and pans,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,napkin,0.43933,0.01802,0.01177,0.0,0.0
+688,spare clothes;dry food;baby bottle,baby bottle,spare clothes,dry food,food,baby formula,0.34686,0.2965,0.24645,0.10859,0.10683
+690,tent;first aid kit,first aid kit,tent,children's playground,cold medicine,equipment for disabled people,0.23048,0.13042,0.04582,0.04045,0.025
+691,heart medicine,heart medicine,drinking water,baby bottle,baby formula,napkin,0.1121,0.0,0.0,0.0,0.0
+692,salt-free and sugar-free food,salt-free and sugar-free food,gluten free food,food,blood,dry food,0.2659,0.14861,0.11412,0.09399,0.05028
+696,pots and pans,pots and pans,food,spare clothes,dry food,pet food,0.29596,0.0723,0.06561,0.03186,0.02928
+697,bread;pet food,food,dry food,pet food,canned food,gluten free food,0.08142,0.03587,0.03297,0.02598,0.02452
+698,canned food;blood,equipment for disabled people,drinking water,baby bottle,baby formula,napkin,0.01547,0.0,0.0,0.0,0.0
+699,antibiotic,tent,fever reducer,baby bottle,drinking water,napkin,0.1019,0.06588,0.0,0.0,0.0
+700,mask,tent,equipment for disabled people,drinking water,baby formula,napkin,0.13063,0.01492,0.0,0.0,0.0
+702,blanket;medical team,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+704,spare clothes,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,napkin,0.01342,0.01187,0.00776,0.0,0.0
+709,spare clothes;hot meal,spare clothes,hot meal,tent,food,wet wipes,0.20353,0.16691,0.07184,0.06117,0.05161
+714,electric heater,electric heater,power bank,baby bottle,drinking water,wet wipes,0.14963,0.0428,0.0,0.0,0.0
+717,blanket,cold medicine,equipment for disabled people,baby bottle,drinking water,napkin,0.04557,0.01342,0.0,0.0,0.0
+718,sanitary pad,sanitary pad,drinking water,baby bottle,baby formula,napkin,0.09715,0.0,0.0,0.0,0.0
+721,drinking water,drinking water,equipment for disabled people,pots and pans,search and rescue team,salt-free and sugar-free food,0.1725,0.02093,0.00956,0.00846,0.00553
+724,security forces,security forces,tent,electrical field team,equipment for disabled people,pots and pans,0.23635,0.09073,0.04987,0.0244,0.01115
+728,generator;first aid kit,generator,equipment for disabled people,drinking water,baby formula,napkin,0.14219,0.01356,0.0,0.0,0.0
+731,cold medicine,cold medicine,medicine,heart medicine,asthma medicine,napkin,0.21671,0.11598,0.05504,0.05421,0.0
+736,hot meal;life jacket,hot meal,life jacket,pots and pans,search and rescue team,salt-free and sugar-free food,0.33723,0.10221,0.01783,0.01577,0.01031
+740,bread,bread,drinking water,baby bottle,baby formula,napkin,0.24012,0.0,0.0,0.0,0.0
+760,first aid kit;psychological support team,first aid kit,psychological support team,medical team,search and rescue team,electrical field team,0.27378,0.26648,0.04041,0.02563,0.02073
+761,tent,sleeping bag,drinking water,baby bottle,baby formula,napkin,0.06745,0.0,0.0,0.0,0.0
+767,battery-powered radio;toothpaste,battery-powered radio,toothpaste,power bank,equipment for disabled people,napkin,0.31219,0.11893,0.03775,0.00999,0.0
+769,blanket;food,blanket,cold medicine,baby bottle,drinking water,napkin,0.16247,0.05631,0.0,0.0,0.0
+770,baby bottle,baby formula,baby bottle,drinking water,wet wipes,napkin,0.06874,0.06529,0.0,0.0,0.0
+774,antibiotic,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+777,tent;medicine,medicine,cold medicine,heart medicine,asthma medicine,medical team,0.13179,0.07053,0.06254,0.0616,0.02921
+780,sanitary pad;blanket,sanitary pad,drinking water,baby bottle,baby formula,napkin,0.05943,0.0,0.0,0.0,0.0
+781,pots and pans,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,napkin,0.43797,0.01796,0.01174,0.0,0.0
+782,sleeping bag;gluten free food,gluten free food,bread,salt-free and sugar-free food,food,sleeping bag,0.20706,0.08945,0.08559,0.06236,0.03756
+785,pet food,pet food,food,dry food,canned food,gluten free food,0.30843,0.1249,0.05503,0.03986,0.03761
+786,medical team,medical team,battery-powered radio,psychological support team,search and rescue team,electrical field team,0.18821,0.03914,0.02854,0.02775,0.02245
+788,wet wipes,wet wipes,drinking water,equipment for disabled people,baby formula,napkin,0.27596,0.06309,0.01362,0.0,0.0
+790,search and rescue team,search and rescue team,medical team,psychological support team,electrical field team,pots and pans,0.30326,0.04471,0.02917,0.02294,0.01244
+793,cash;painkiller,cash,bread,baby bottle,drinking water,napkin,0.11999,0.10274,0.0,0.0,0.0
+802,cold medicine;sleeping bag,sleeping bag,cold medicine,medicine,heart medicine,asthma medicine,0.19503,0.16972,0.09083,0.04311,0.04246
+811,coat;antibiotic,fever reducer,drinking water,baby bottle,baby formula,napkin,0.05426,0.0,0.0,0.0,0.0
+813,spare clothes;cold medicine,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,napkin,0.01361,0.01204,0.00787,0.0,0.0
+840,generator,power bank,pots and pans,equipment for disabled people,search and rescue team,salt-free and sugar-free food,0.03579,0.01019,0.00947,0.00901,0.00589
+846,electric heater,electric heater,equipment for disabled people,baby bottle,drinking water,wet wipes,0.10726,0.01715,0.0,0.0,0.0
+847,gluten free food;medicine,equipment for disabled people,drinking water,baby bottle,baby formula,napkin,0.00897,0.0,0.0,0.0,0.0
+848,sleeping bag,sleeping bag,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,0.3451,0.01678,0.01484,0.0097,0.0
+852,volunteers;search and rescue team,volunteers,psychological support team,pots and pans,search and rescue team,salt-free and sugar-free food,0.11263,0.03755,0.01642,0.01452,0.00949
+854,pet food,pet food,food,dry food,salt-free and sugar-free food,canned food,0.2002,0.08107,0.03572,0.02651,0.02587
+859,blanket;blood,blanket,blood,blood collection center,equipment for disabled people,napkin,0.13566,0.10631,0.0317,0.01023,0.0
+860,coat,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+861,psychological support team;food,equipment for disabled people,drinking water,baby bottle,baby formula,napkin,0.02003,0.0,0.0,0.0,0.0
+862,search and rescue team,equipment for disabled people,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,0.0189,0.00864,0.00764,0.00499,0.0
+863,cleaning product;blanket,tent,cleaning product,baby formula,baby bottle,equipment for disabled people,0.09777,0.06163,0.04837,0.04594,0.01117
+867,baby formula,baby formula,baby bottle,equipment for disabled people,drinking water,napkin,0.07672,0.07286,0.01046,0.0,0.0
+868,coat,blanket,drinking water,baby bottle,baby formula,napkin,0.10185,0.0,0.0,0.0,0.0
+870,medical team,medical team,psychological support team,search and rescue team,electrical field team,drinking water,0.25392,0.0385,0.03744,0.03028,0.0
+871,medicine,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,napkin,0.01277,0.0113,0.00738,0.0,0.0
+875,baby formula,baby formula,baby bottle,pots and pans,search and rescue team,salt-free and sugar-free food,0.21526,0.03194,0.00835,0.00739,0.00483
+876,first aid kit,first aid kit,drinking water,baby bottle,baby formula,napkin,0.25391,0.0,0.0,0.0,0.0
+878,food,food,dry food,pet food,canned food,gluten free food,0.15749,0.06939,0.06378,0.05026,0.04743
+880,hot meal,hot meal,medical team,psychological support team,search and rescue team,electrical field team,0.25544,0.04855,0.03167,0.03079,0.02491
+881,coat;electric heater,tent,cold medicine,power bank,pots and pans,search and rescue team,0.10366,0.05444,0.04473,0.02156,0.01907
+887,cash;psychological support team,psychological support team,cash,medical team,search and rescue team,electrical field team,0.23902,0.11708,0.03625,0.02299,0.0186
+890,electric heater,electric heater,power bank,baby bottle,drinking water,wet wipes,0.33327,0.0618,0.0,0.0,0.0
+891,generator;mask;container housing,generator,container housing,power bank,equipment for disabled people,pots and pans,0.0908,0.05424,0.0327,0.02038,0.01953
+892,electric heater,tent,power bank,equipment for disabled people,drinking water,napkin,0.09929,0.04285,0.01536,0.0,0.0
+894,wet wipes;coat;electric heater,wet wipes,generator,electric heater,equipment for disabled people,pots and pans,0.19359,0.1002,0.05976,0.03298,0.01027
+897,security forces;blood collection center,blood,blood collection center,equipment for disabled people,drinking water,napkin,0.12621,0.03763,0.01214,0.0,0.0
+899,life jacket,life jacket,drinking water,baby bottle,baby formula,napkin,0.09511,0.0,0.0,0.0,0.0
+902,flashlight,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+903,blanket;coat,cold medicine,pots and pans,search and rescue team,salt-free and sugar-free food,napkin,0.03992,0.00934,0.00826,0.0054,0.0
+904,mask,tent,pots and pans,search and rescue team,salt-free and sugar-free food,equipment for disabled people,0.07495,0.01559,0.01379,0.00901,0.00856
+908,search and rescue team,search and rescue team,medical team,psychological support team,electrical field team,pots and pans,0.22795,0.03278,0.02138,0.01682,0.01544
+909,baby formula,baby formula,baby bottle,drinking water,wet wipes,napkin,0.21933,0.04533,0.0,0.0,0.0
+914,napkin,food,dry food,pet food,canned food,gluten free food,0.07511,0.0331,0.03042,0.02397,0.02262
+917,lantern,electrical field team,drinking water,baby bottle,baby formula,napkin,0.05394,0.0,0.0,0.0,0.0
+918,batteries,batteries,pots and pans,search and rescue team,equipment for disabled people,salt-free and sugar-free food,0.2111,0.01749,0.01547,0.01301,0.01011
+919,salt-free and sugar-free food,salt-free and sugar-free food,gluten free food,blood,food,battery-powered radio,0.24864,0.13296,0.09288,0.06661,0.0309
+920,cold medicine,pots and pans,equipment for disabled people,search and rescue team,salt-free and sugar-free food,drinking water,0.01501,0.01396,0.01328,0.00868,0.0
+926,sleeping bag;medical team;flashlight,medical team,sleeping bag,psychological support team,search and rescue team,electrical field team,0.17452,0.04712,0.02646,0.02573,0.02081
+927,equipment for disabled people;kitchenware;drinking water,drinking water,kitchenware,lighting equipment,equipment for disabled people,pots and pans,0.23613,0.18929,0.1134,0.07401,0.01569
+929,lighting equipment,lighting equipment,drinking water,baby bottle,baby formula,napkin,0.1013,0.0,0.0,0.0,0.0
+930,pet food,pet food,food,dry food,canned food,gluten free food,0.30596,0.1239,0.05459,0.03954,0.03731
+932,adhesive bandage;medical team,medical team,first aid kit,psychological support team,search and rescue team,electrical field team,0.15146,0.04056,0.02297,0.02233,0.01806
+933,cold medicine;heart medicine,cold medicine,heart medicine,medicine,asthma medicine,napkin,0.23147,0.11775,0.10629,0.04968,0.0
+936,insulin;coat,insulin,equipment for disabled people,drinking water,baby formula,napkin,0.12389,0.02247,0.0,0.0,0.0
+938,cleaning product;cash,cash,cleaning product,pots and pans,search and rescue team,salt-free and sugar-free food,0.19812,0.08755,0.01706,0.01509,0.00986
+939,adhesive bandage,adhesive bandage,drinking water,baby bottle,baby formula,napkin,0.09738,0.0,0.0,0.0,0.0
+940,pet food,pet food,food,dry food,canned food,gluten free food,0.17685,0.07161,0.03155,0.02286,0.02157
+942,dry food,dry food,food,pet food,canned food,gluten free food,0.19817,0.08732,0.03536,0.02787,0.0263
+943,container housing;sleeping bag,container housing,sleeping bag,pots and pans,search and rescue team,salt-free and sugar-free food,0.34445,0.33707,0.01639,0.01449,0.00947
+945,medicine,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,napkin,0.01103,0.00975,0.00637,0.0,0.0
+948,psychological support team;tent,sleeping bag,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,0.04582,0.01097,0.00971,0.00634,0.0
+949,tent,tent,drinking water,baby bottle,baby formula,napkin,0.17553,0.0,0.0,0.0,0.0
+952,bread,equipment for disabled people,drinking water,baby bottle,baby formula,napkin,0.00833,0.0,0.0,0.0,0.0
+954,soap;asthma medicine,asthma medicine,soap,medicine,cold medicine,heart medicine,0.23875,0.1472,0.1116,0.05973,0.05296
+956,spare clothes,spare clothes,wet wipes,cold medicine,drinking water,napkin,0.37346,0.0947,0.06923,0.0,0.0
+957,blanket,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+959,medicine;batteries;dry food,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+961,search and rescue team;coat,search and rescue team,medical team,psychological support team,electrical field team,drinking water,0.22272,0.07459,0.04866,0.03827,0.0
+969,drinking water,drinking water,baby formula,baby bottle,pots and pans,search and rescue team,0.23512,0.05249,0.04986,0.01303,0.01153
+970,tent,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+972,drinking water,drinking water,baby formula,baby bottle,wet wipes,napkin,0.36434,0.0,0.0,0.0,0.0
+973,toothpaste;baby formula,baby formula,baby bottle,drinking water,wet wipes,napkin,0.056,0.05318,0.0,0.0,0.0
+974,medical team;blanket,medical team,blanket,children's playground,cold medicine,psychological support team,0.22946,0.183,0.07185,0.06343,0.03479
+978,painkiller;food,food,dry food,pet food,canned food,gluten free food,0.11346,0.04999,0.04594,0.03621,0.03417
+980,kitchenware,kitchenware,food,dry food,pet food,canned food,0.11469,0.06588,0.02903,0.02668,0.02103
+982,cold medicine;blanket,cold medicine,medicine,heart medicine,asthma medicine,napkin,0.26591,0.14231,0.06754,0.06652,0.0
+983,wet wipes,wet wipes,drinking water,equipment for disabled people,baby formula,napkin,0.18105,0.04139,0.0121,0.0,0.0
+986,search and rescue team,search and rescue team,medical team,psychological support team,electrical field team,pots and pans,0.27457,0.03949,0.02576,0.02026,0.0186
+989,kitchenware,kitchenware,tent,food,pots and pans,dry food,0.15961,0.10767,0.09168,0.06063,0.0404
+995,tent,tent,pots and pans,equipment for disabled people,search and rescue team,salt-free and sugar-free food,0.08061,0.0099,0.00921,0.00876,0.00572
+996,food,food,dry food,children's playground,pet food,first aid kit,0.12115,0.05338,0.04999,0.04906,0.04275
+997,security forces,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+998,generator,generator,children's playground,cold medicine,equipment for disabled people,napkin,0.10077,0.05002,0.04416,0.00961,0.0
+1003,salt-free and sugar-free food,salt-free and sugar-free food,gluten free food,blood,food,battery-powered radio,0.31167,0.16666,0.11643,0.08349,0.03874
+1005,search and rescue team;blanket,search and rescue team,cold medicine,medical team,battery-powered radio,psychological support team,0.33218,0.05824,0.04898,0.04381,0.03195
+1008,cold medicine;lighting equipment,lighting equipment,cold medicine,pots and pans,search and rescue team,salt-free and sugar-free food,0.05516,0.03862,0.00903,0.00799,0.00522
+1012,pots and pans,pots and pans,equipment for disabled people,search and rescue team,salt-free and sugar-free food,drinking water,0.20142,0.01176,0.00826,0.0054,0.0
+1017,life jacket;bandage,life jacket,drinking water,baby formula,baby bottle,equipment for disabled people,0.05596,0.04206,0.03932,0.03735,0.02989
+1018,gluten free food,gluten free food,salt-free and sugar-free food,food,dry food,pet food,0.41811,0.15505,0.12592,0.05548,0.05099
+1020,cleaning product;search and rescue team,search and rescue team,cleaning product,medical team,psychological support team,electrical field team,0.44993,0.09237,0.06471,0.04221,0.0332
+1022,drinking water,drinking water,baby bottle,equipment for disabled people,baby formula,napkin,0.17502,0.07249,0.00902,0.0,0.0
+1023,container housing;coat,container housing,spare clothes,baby bottle,drinking water,napkin,0.27677,0.07858,0.0,0.0,0.0
+1024,spare clothes;dry food,spare clothes,dry food,food,pet food,canned food,0.36709,0.30512,0.13444,0.05444,0.04291
+1027,drinking water,drinking water,baby formula,baby bottle,wet wipes,napkin,0.20761,0.0,0.0,0.0,0.0
+1031,dry food;baby formula,baby formula,baby bottle,drinking water,wet wipes,napkin,0.06365,0.06045,0.0,0.0,0.0
+1038,dry food;pots and pans,pots and pans,dry food,food,pet food,canned food,0.22131,0.16143,0.07113,0.0288,0.0227
+1041,baby formula;search and rescue team,search and rescue team,baby formula,baby bottle,medical team,psychological support team,0.37261,0.28287,0.05846,0.05494,0.03583
+1044,drinking water;generator;battery-powered radio,drinking water,battery-powered radio,generator,pots and pans,equipment for disabled people,0.15888,0.11274,0.10295,0.01055,0.00981
+1055,generator;psychological support team,psychological support team,generator,medical team,power bank,search and rescue team,0.20919,0.08607,0.03172,0.031,0.02792
+1061,pots and pans;children's playground,pots and pans,equipment for disabled people,search and rescue team,salt-free and sugar-free food,drinking water,0.33339,0.01437,0.01367,0.00894,0.0
+1070,antibiotic,fever reducer,pots and pans,search and rescue team,salt-free and sugar-free food,napkin,0.0766,0.01456,0.01287,0.00841,0.0
+1072,medical team,medical team,psychological support team,search and rescue team,electrical field team,drinking water,0.06675,0.04354,0.04234,0.03425,0.0
+1074,coat,medical team,psychological support team,search and rescue team,electrical field team,equipment for disabled people,0.03767,0.02457,0.02389,0.01933,0.00974
+1076,flashlight;food;first aid kit,first aid kit,food,medical team,search and rescue team,dry food,0.1763,0.08948,0.04641,0.04085,0.03943
+1077,drinking water;food,drinking water,food,dry food,pet food,canned food,0.18656,0.12137,0.05348,0.04915,0.03874
+1079,drinking water,drinking water,pots and pans,search and rescue team,salt-free and sugar-free food,napkin,0.24233,0.01343,0.01188,0.00776,0.0
+1082,dry food,equipment for disabled people,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,0.01824,0.01449,0.01282,0.00838,0.0
+1083,first aid kit;drinking water,first aid kit,drinking water,pots and pans,search and rescue team,salt-free and sugar-free food,0.4082,0.25227,0.01676,0.01482,0.00969
+1084,coat;lighting equipment,electrical field team,drinking water,baby bottle,baby formula,napkin,0.0471,0.0,0.0,0.0,0.0
+1085,sleeping bag,sleeping bag,drinking water,baby bottle,baby formula,napkin,0.07721,0.0,0.0,0.0,0.0
+1088,allergy medication;insulin,insulin,allergy medication,baby bottle,drinking water,napkin,0.1122,0.07183,0.0,0.0,0.0
+1089,pots and pans,pots and pans,psychological support team,search and rescue team,salt-free and sugar-free food,drinking water,0.37582,0.03984,0.01541,0.01007,0.0
+1092,napkin,equipment for disabled people,drinking water,baby bottle,baby formula,napkin,0.01061,0.0,0.0,0.0,0.0
+1097,napkin;search and rescue team,search and rescue team,pots and pans,salt-free and sugar-free food,drinking water,napkin,0.19805,0.01113,0.00644,0.0,0.0
+1100,wet wipes,wet wipes,pots and pans,equipment for disabled people,search and rescue team,salt-free and sugar-free food,0.18411,0.00977,0.00908,0.00864,0.00565
+1102,napkin;medical team,medical team,psychological support team,search and rescue team,electrical field team,equipment for disabled people,0.2451,0.03717,0.03614,0.02923,0.01474
+1103,generator,power bank,battery-powered radio,equipment for disabled people,drinking water,napkin,0.03757,0.0344,0.01684,0.0,0.0
+1104,oxygen concentrator,oxygen concentrator,battery-powered radio,pots and pans,search and rescue team,salt-free and sugar-free food,0.30077,0.02788,0.00867,0.00767,0.00501
+1105,pet food,food,dry food,pet food,baby formula,baby bottle,0.12415,0.0547,0.05027,0.04261,0.04047
+1110,sleeping bag,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+1113,first aid kit,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+1115,electric heater,electric heater,tent,cold medicine,baby bottle,wet wipes,0.29904,0.10392,0.05457,0.0,0.0
+1118,security forces;sleeping bag,security forces,sleeping bag,pots and pans,search and rescue team,salt-free and sugar-free food,0.25719,0.05064,0.01213,0.01073,0.00701
+1120,medical team,medical team,psychological support team,search and rescue team,electrical field team,drinking water,0.27015,0.04097,0.03983,0.03222,0.0
+1125,bandage,volunteers,psychological support team,pots and pans,search and rescue team,salt-free and sugar-free food,0.10648,0.0355,0.00917,0.00811,0.0053
+1127,mask;drinking water,drinking water,pots and pans,search and rescue team,salt-free and sugar-free food,napkin,0.26329,0.01749,0.01547,0.01011,0.0
+1129,hot meal,bread,dry food,drinking water,baby formula,napkin,0.172,0.10092,0.0,0.0,0.0
+1131,medical team,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,napkin,0.01328,0.01175,0.00768,0.0,0.0
+1132,blanket;antibiotic;power bank,power bank,equipment for disabled people,pots and pans,search and rescue team,salt-free and sugar-free food,0.04276,0.01533,0.01217,0.01077,0.00704
+1133,blanket;blood,blood,blood collection center,equipment for disabled people,drinking water,napkin,0.12004,0.03579,0.01155,0.0,0.0
+1138,flashlight,flashlight,baby formula,baby bottle,equipment for disabled people,napkin,0.2001,0.06378,0.06058,0.01473,0.0
+1139,baby formula;container housing,baby formula,cold medicine,pots and pans,search and rescue team,salt-free and sugar-free food,0.06239,0.04031,0.00943,0.00834,0.00545
+1141,tent;drinking water,drinking water,baby formula,baby bottle,wet wipes,napkin,0.27614,0.0,0.0,0.0,0.0
+1142,tent;sleeping bag,cold medicine,sleeping bag,pots and pans,search and rescue team,salt-free and sugar-free food,0.03842,0.03752,0.01522,0.01346,0.0088
+1148,fever reducer,fever reducer,equipment for disabled people,baby bottle,drinking water,napkin,0.18318,0.00942,0.0,0.0,0.0
+1149,hot meal;blanket,hot meal,equipment for disabled people,baby bottle,drinking water,napkin,0.09692,0.02193,0.0,0.0,0.0
+1152,search and rescue team,search and rescue team,medical team,psychological support team,electrical field team,pots and pans,0.25752,0.03704,0.02416,0.019,0.01744
+1156,medicine;spare clothes,spare clothes,medicine,security forces,cold medicine,heart medicine,0.21759,0.11014,0.07066,0.05895,0.05227
+1160,hot meal,hot meal,psychological support team,baby bottle,drinking water,napkin,0.06202,0.04314,0.0,0.0,0.0
+1165,blood collection center;blanket;fever reducer,blood,fever reducer,blood collection center,equipment for disabled people,napkin,0.09288,0.05057,0.02769,0.00894,0.0
+1166,drinking water,dry food,equipment for disabled people,drinking water,baby formula,napkin,0.07726,0.01231,0.0,0.0,0.0
+1170,mask;blanket,children's playground,pots and pans,equipment for disabled people,search and rescue team,salt-free and sugar-free food,0.06238,0.02181,0.02028,0.01929,0.01261
+1176,bread,bread,children's playground,equipment for disabled people,drinking water,napkin,0.20887,0.06008,0.01562,0.0,0.0
+1184,baby formula,equipment for disabled people,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,0.01305,0.00829,0.00733,0.00479,0.0
+1186,generator,generator,power bank,drinking water,baby formula,napkin,0.18733,0.06746,0.0,0.0,0.0
+1188,power bank;pet food;tent,power bank,pet food,tent,food,dry food,0.18489,0.16409,0.07803,0.06645,0.02928
+1195,gluten free food;hardware tools,hardware tools,gluten free food,salt-free and sugar-free food,food,dry food,0.36246,0.34644,0.12847,0.10433,0.04597
+1212,baby formula,baby formula,drinking water,baby bottle,wet wipes,napkin,0.09469,0.0,0.0,0.0,0.0
+1218,electric heater,generator,tent,equipment for disabled people,pots and pans,search and rescue team,0.09535,0.07957,0.01231,0.00977,0.00865
+1219,drinking water,drinking water,pots and pans,search and rescue team,salt-free and sugar-free food,napkin,0.24542,0.0124,0.01097,0.00717,0.0
+1225,napkin,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+1226,flashlight,flashlight,baby formula,baby bottle,drinking water,napkin,0.19293,0.0615,0.05841,0.0,0.0
+1227,drinking water;search and rescue team,search and rescue team,drinking water,medical team,psychological support team,electrical field team,0.41936,0.25254,0.06031,0.03934,0.03094
+1230,generator,generator,drinking water,baby bottle,baby formula,napkin,0.17704,0.0,0.0,0.0,0.0
+1231,food,food,dry food,pet food,canned food,gluten free food,0.0872,0.03842,0.03531,0.02783,0.02626
+1233,sleeping bag,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+1234,hot meal;lighting equipment,hot meal,tent,lighting equipment,baby formula,baby bottle,0.31543,0.13577,0.10184,0.06717,0.0638
+1235,baby formula;spare clothes;equipment for disabled people,baby formula,baby bottle,spare clothes,equipment for disabled people,napkin,0.14661,0.07068,0.06512,0.01015,0.0
+1241,generator;tent;pots and pans,electrical field team,cold medicine,sleeping bag,power bank,equipment for disabled people,0.05388,0.05148,0.05028,0.0423,0.01516
+1242,medical team;pots and pans,pots and pans,medical team,search and rescue team,psychological support team,electrical field team,0.34503,0.24741,0.05063,0.03752,0.02951
+1244,blanket,heart medicine,drinking water,baby bottle,baby formula,napkin,0.05023,0.0,0.0,0.0,0.0
+1247,cleaning product,cleaning product,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,0.05082,0.02078,0.01838,0.01201,0.0
+1248,drinking water,drinking water,baby formula,baby bottle,wet wipes,napkin,0.27058,0.0,0.0,0.0,0.0
+1249,sanitary pad;cash;drinking water,cash,sanitary pad,drinking water,pots and pans,search and rescue team,0.13404,0.06727,0.04973,0.01154,0.01021
+1250,medical team;adhesive bandage;search and rescue team,medical team,search and rescue team,psychological support team,electrical field team,pots and pans,0.19694,0.1447,0.04355,0.03425,0.01097
+1252,bandage;security forces;portable toilet,portable toilet,equipment for disabled people,pots and pans,search and rescue team,salt-free and sugar-free food,0.06425,0.01867,0.00876,0.00774,0.00506
+1253,drinking water;lighting equipment;power bank,drinking water,equipment for disabled people,baby bottle,baby formula,napkin,0.05202,0.0152,0.0,0.0,0.0
+1254,antibiotic;insulin;sleeping bag,insulin,sleeping bag,equipment for disabled people,pots and pans,search and rescue team,0.13765,0.04763,0.01796,0.01141,0.01009
+1255,gluten free food;equipment for disabled people,bread,drinking water,baby bottle,baby formula,napkin,0.10274,0.0,0.0,0.0,0.0
+1259,blanket;hot meal;baby formula,equipment for disabled people,drinking water,baby bottle,baby formula,napkin,0.01717,0.0,0.0,0.0,0.0
+1261,first aid kit;heating stove,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+1264,drinking water,equipment for disabled people,drinking water,baby bottle,baby formula,napkin,0.0139,0.0,0.0,0.0,0.0
+1266,power bank;generator,power bank,generator,electric heater,drinking water,wet wipes,0.25402,0.12847,0.07662,0.0,0.0
+1268,heart medicine;electric heater,electric heater,heart medicine,container housing,power bank,wet wipes,0.1806,0.05784,0.05555,0.03349,0.0
+1270,first aid kit,first aid kit,drinking water,baby bottle,baby formula,napkin,0.49402,0.0,0.0,0.0,0.0
+1271,generator,generator,equipment for disabled people,drinking water,baby formula,napkin,0.13705,0.01769,0.0,0.0,0.0
+1272,drinking water;flashlight,drinking water,baby formula,baby bottle,wet wipes,napkin,0.06222,0.0,0.0,0.0,0.0
+1274,pots and pans;napkin;coat,pots and pans,tent,equipment for disabled people,search and rescue team,salt-free and sugar-free food,0.10662,0.08021,0.01241,0.00871,0.0057
+1275,pots and pans,pots and pans,tent,search and rescue team,salt-free and sugar-free food,drinking water,0.41138,0.15528,0.01687,0.01103,0.0
+1283,fever reducer;blood collection center,fever reducer,equipment for disabled people,baby bottle,drinking water,napkin,0.14604,0.01768,0.0,0.0,0.0
+1284,hot meal;cold medicine,bread,dry food,psychological support team,pots and pans,equipment for disabled people,0.09742,0.05716,0.03793,0.01659,0.01543
+1299,medicine;drinking water,drinking water,equipment for disabled people,pots and pans,search and rescue team,salt-free and sugar-free food,0.16055,0.01343,0.01067,0.00943,0.00617
+1300,wet wipes,wet wipes,drinking water,baby formula,baby bottle,napkin,0.2526,0.0,0.0,0.0,0.0
+1301,cash,cash,pots and pans,search and rescue team,salt-free and sugar-free food,napkin,0.1116,0.00961,0.0085,0.00556,0.0
+1305,drinking water;portable toilet,drinking water,baby formula,baby bottle,wet wipes,napkin,0.21667,0.0,0.0,0.0,0.0
+1319,fever reducer,fever reducer,tent,baby bottle,drinking water,napkin,0.25109,0.11305,0.0,0.0,0.0
+1331,medical team,medical team,psychological support team,search and rescue team,electrical field team,drinking water,0.15966,0.02421,0.02354,0.01904,0.0
+1332,medical team,medical team,search and rescue team,psychological support team,electrical field team,equipment for disabled people,0.1795,0.03673,0.02722,0.02141,0.01461
+1335,toothpaste,toothpaste,medical team,psychological support team,search and rescue team,electrical field team,0.12624,0.04101,0.02675,0.02601,0.02104
+1338,food,food,dry food,pet food,canned food,gluten free food,0.13022,0.05738,0.05273,0.04156,0.03922
+1339,mask,equipment for disabled people,drinking water,baby bottle,baby formula,napkin,0.01925,0.0,0.0,0.0,0.0
+1342,fever reducer;soap,fever reducer,soap,drinking water,baby formula,napkin,0.16316,0.11403,0.0,0.0,0.0
+1344,search and rescue team,search and rescue team,medical team,psychological support team,electrical field team,pots and pans,0.32235,0.04753,0.031,0.02438,0.01322
+1345,bread;portable toilet,bread,equipment for disabled people,pots and pans,search and rescue team,salt-free and sugar-free food,0.10086,0.01277,0.01014,0.00897,0.00586
+1347,fever reducer,fever reducer,drinking water,baby bottle,baby formula,napkin,0.2635,0.0,0.0,0.0,0.0
+1350,power bank;wet wipes,pots and pans,equipment for disabled people,search and rescue team,salt-free and sugar-free food,drinking water,0.01064,0.0099,0.00941,0.00615,0.0
+1351,electric heater;food,electric heater,food,power bank,battery-powered radio,dry food,0.20746,0.07591,0.03847,0.03522,0.03344
+1356,canned food;hot meal,canned food,food,hot meal,dry food,pet food,0.36241,0.11567,0.09287,0.05096,0.04684
+1357,salt-free and sugar-free food;diaper;psychological support team,salt-free and sugar-free food,psychological support team,gluten free food,food,medical team,0.28342,0.17745,0.16185,0.10332,0.05359
+1360,drinking water,drinking water,equipment for disabled people,baby bottle,baby formula,napkin,0.20854,0.02531,0.0,0.0,0.0
+1366,adhesive bandage,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,napkin,0.01182,0.01046,0.00683,0.0,0.0
+1367,coat,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+1369,medicine,blood,blood collection center,pots and pans,search and rescue team,salt-free and sugar-free food,0.10182,0.03036,0.01784,0.01578,0.01031
+1372,container housing;bread;cold medicine,bread,container housing,cold medicine,drinking water,napkin,0.17376,0.10183,0.07471,0.0,0.0
+1381,cleaning product,cleaning product,equipment for disabled people,pots and pans,search and rescue team,salt-free and sugar-free food,0.05366,0.02229,0.01046,0.00925,0.00604
+1384,medical team,medical team,psychological support team,search and rescue team,electrical field team,drinking water,0.20967,0.03179,0.03091,0.02501,0.0
+1391,first aid kit,first aid kit,drinking water,baby bottle,baby formula,napkin,0.38209,0.0,0.0,0.0,0.0
+1393,bandage,equipment for disabled people,drinking water,baby bottle,baby formula,napkin,0.01109,0.0,0.0,0.0,0.0
+1395,life jacket,life jacket,drinking water,baby bottle,baby formula,napkin,0.22351,0.0,0.0,0.0,0.0
+1396,medicine,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+1397,asthma medicine,asthma medicine,medicine,cold medicine,heart medicine,napkin,0.22053,0.08159,0.04367,0.03872,0.0
+1400,diaper;lantern,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,napkin,0.01825,0.01614,0.01055,0.0,0.0
+1406,cleaning product,tent,cleaning product,drinking water,baby formula,napkin,0.10034,0.06325,0.0,0.0,0.0
+1407,fever reducer;hot meal,hot meal,fever reducer,tent,psychological support team,medical team,0.24032,0.22975,0.10344,0.07899,0.04568
+1409,cleaning product,cleaning product,salt-free and sugar-free food,gluten free food,equipment for disabled people,drinking water,0.04265,0.03729,0.0357,0.01046,0.0
+1411,pet food;sleeping bag,pet food,food,dry food,canned food,gluten free food,0.27211,0.11019,0.04855,0.03517,0.03318
+1412,soap,soap,security forces,baby bottle,drinking water,napkin,0.22824,0.06556,0.0,0.0,0.0
+1413,life jacket;fever reducer,fever reducer,life jacket,electrical field team,drinking water,napkin,0.09567,0.06154,0.04804,0.0,0.0
+1416,asthma medicine,asthma medicine,drinking water,baby bottle,baby formula,napkin,0.12124,0.0,0.0,0.0,0.0
+1421,fever reducer;power bank,tent,fever reducer,pots and pans,search and rescue team,salt-free and sugar-free food,0.06734,0.04353,0.00827,0.00732,0.00478
+1422,power bank;drinking water,power bank,drinking water,pots and pans,equipment for disabled people,search and rescue team,0.30801,0.06881,0.01597,0.01485,0.01412
+1424,flashlight,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+1425,drinking water;medical team,drinking water,medical team,psychological support team,search and rescue team,equipment for disabled people,0.17906,0.13995,0.02122,0.02063,0.01981
+1427,drinking water,drinking water,equipment for disabled people,baby bottle,baby formula,napkin,0.3001,0.01854,0.0,0.0,0.0
+1429,cleaning product;napkin,equipment for disabled people,drinking water,baby bottle,baby formula,napkin,0.01056,0.0,0.0,0.0,0.0
+1438,coat,spare clothes,cold medicine,equipment for disabled people,drinking water,napkin,0.0896,0.06419,0.01891,0.0,0.0
+1440,dry food,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+1441,mask,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,napkin,0.011,0.00973,0.00636,0.0,0.0
+1443,wet wipes;baby formula,wet wipes,tent,psychological support team,pots and pans,equipment for disabled people,0.29158,0.12595,0.0599,0.01547,0.01439
+1444,spare clothes,spare clothes,pots and pans,search and rescue team,salt-free and sugar-free food,napkin,0.18212,0.00962,0.00851,0.00556,0.0
+1447,generator;drinking water,heating stove,drinking water,power bank,equipment for disabled people,napkin,0.08626,0.0498,0.0406,0.01075,0.0
+1455,generator,generator,electrical field team,power bank,drinking water,napkin,0.12663,0.05808,0.0456,0.0,0.0
+1461,food;tent;hot meal,food,hot meal,children's playground,dry food,pet food,0.08713,0.06996,0.06087,0.03839,0.03528
+1462,food,food,first aid kit,dry food,pet food,canned food,0.07797,0.04658,0.03435,0.03157,0.02488
+1466,cash,cash,battery-powered radio,baby bottle,drinking water,napkin,0.17407,0.04821,0.0,0.0,0.0
+1479,tent,tent,drinking water,baby bottle,baby formula,napkin,0.10555,0.0,0.0,0.0,0.0
+1483,search and rescue team,search and rescue team,medical team,psychological support team,electrical field team,pots and pans,0.2691,0.03967,0.02588,0.02035,0.01104
+1484,kitchenware,kitchenware,food,pots and pans,psychological support team,dry food,0.13459,0.07731,0.07001,0.04318,0.03406
+1485,spare clothes;search and rescue team,equipment for disabled people,drinking water,baby bottle,baby formula,napkin,0.01656,0.0,0.0,0.0,0.0
+1493,search and rescue team,pots and pans,equipment for disabled people,search and rescue team,salt-free and sugar-free food,drinking water,0.00871,0.0081,0.0077,0.00504,0.0
+1496,toothpaste,toothpaste,equipment for disabled people,baby bottle,drinking water,napkin,0.18867,0.02146,0.0,0.0,0.0
+1500,diaper,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,napkin,0.01038,0.00918,0.006,0.0,0.0
+1501,blanket,cold medicine,drinking water,baby bottle,baby formula,napkin,0.08057,0.0,0.0,0.0,0.0
+1506,drinking water;volunteers,drinking water,pots and pans,search and rescue team,equipment for disabled people,salt-free and sugar-free food,0.04571,0.01796,0.01589,0.01336,0.01038
+1508,blood,blood,blood collection center,drinking water,baby formula,napkin,0.13838,0.04126,0.0,0.0,0.0
+1509,antibiotic,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+1510,insulin,insulin,drinking water,baby bottle,baby formula,napkin,0.22169,0.0,0.0,0.0,0.0
+1511,lighting equipment,pots and pans,equipment for disabled people,search and rescue team,salt-free and sugar-free food,drinking water,0.01061,0.00987,0.00939,0.00613,0.0
+1512,power bank;generator,generator,power bank,pots and pans,search and rescue team,salt-free and sugar-free food,0.19141,0.11671,0.01962,0.01736,0.01134
+1513,flashlight;drinking water,drinking water,flashlight,pots and pans,search and rescue team,salt-free and sugar-free food,0.28332,0.23782,0.01882,0.01665,0.01088
+1520,coat;salt-free and sugar-free food,salt-free and sugar-free food,gluten free food,coat,food,dry food,0.29491,0.15425,0.14937,0.07728,0.03405
+1521,cold medicine;sanitary pad,cold medicine,medicine,tent,heart medicine,asthma medicine,0.18915,0.10123,0.08602,0.04804,0.04732
+1524,blanket,equipment for disabled people,drinking water,baby bottle,baby formula,napkin,0.02613,0.0,0.0,0.0,0.0
+1526,pet food,pet food,food,dry food,canned food,gluten free food,0.27747,0.11236,0.04951,0.03586,0.03384
+1527,bandage,first aid kit,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,0.10626,0.00778,0.00688,0.0045,0.0
+1528,napkin;medical team,medical team,psychological support team,search and rescue team,electrical field team,drinking water,0.31084,0.04714,0.04583,0.03707,0.0
+1529,napkin,blood,blood collection center,pots and pans,search and rescue team,salt-free and sugar-free food,0.14745,0.04396,0.01525,0.01349,0.00882
+1531,kitchenware;spare clothes,spare clothes,kitchenware,pots and pans,search and rescue team,salt-free and sugar-free food,0.24413,0.15565,0.07203,0.01141,0.00746
+1532,napkin,food,dry food,pet food,salt-free and sugar-free food,canned food,0.06713,0.02958,0.02718,0.02195,0.02142
+1533,toothpaste,toothpaste,drinking water,baby bottle,baby formula,napkin,0.14844,0.0,0.0,0.0,0.0
+1535,batteries,batteries,salt-free and sugar-free food,gluten free food,pots and pans,search and rescue team,0.16003,0.04464,0.03364,0.01644,0.01454
+1536,toothpaste,toothpaste,volunteers,tent,drinking water,napkin,0.18719,0.11601,0.08132,0.0,0.0
+1537,medicine;first aid kit,blood,medicine,cold medicine,heart medicine,asthma medicine,0.08447,0.08372,0.04481,0.03973,0.03913
+1540,electric heater,electric heater,power bank,baby formula,baby bottle,wet wipes,0.25974,0.06594,0.04466,0.04242,0.0
+1541,first aid kit;search and rescue team,first aid kit,equipment for disabled people,drinking water,baby formula,napkin,0.25002,0.01292,0.0,0.0,0.0
+1544,bread,bread,food,dry food,pet food,salt-free and sugar-free food,0.141,0.05806,0.02558,0.02351,0.01898
+1545,coat;medicine,blood,blood collection center,pots and pans,search and rescue team,salt-free and sugar-free food,0.09605,0.02864,0.00994,0.00879,0.00574
+1547,tent;drinking water;children's playground,children's playground,drinking water,pots and pans,search and rescue team,salt-free and sugar-free food,0.21189,0.14347,0.00953,0.00843,0.00551
+1551,food,food,dry food,pet food,canned food,gluten free food,0.11205,0.04937,0.04537,0.03576,0.03374
+1553,pet food;wet wipes;toothbrush,wet wipes,food,dry food,pet food,canned food,0.36138,0.13292,0.05856,0.05382,0.04242
+1559,portable toilet,equipment for disabled people,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,0.02235,0.01048,0.00927,0.00606,0.0
+1561,dry food,dry food,food,pet food,canned food,gluten free food,0.21238,0.09358,0.03789,0.02987,0.02818
+1565,salt-free and sugar-free food;generator,salt-free and sugar-free food,gluten free food,generator,food,dry food,0.43582,0.22795,0.16071,0.1142,0.05032
+1570,baby bottle,baby bottle,baby formula,equipment for disabled people,drinking water,napkin,0.31276,0.06463,0.01492,0.0,0.0
+1576,diaper,equipment for disabled people,drinking water,baby bottle,baby formula,napkin,0.01718,0.0,0.0,0.0,0.0
+1581,cleaning product,cleaning product,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,0.06178,0.01204,0.01065,0.00696,0.0
+1582,psychological support team;oxygen concentrator;batteries,power bank,equipment for disabled people,drinking water,baby formula,napkin,0.06005,0.00939,0.0,0.0,0.0
+1583,pots and pans;oxygen concentrator,pots and pans,oxygen concentrator,search and rescue team,salt-free and sugar-free food,drinking water,0.39796,0.37805,0.01632,0.01067,0.0
+1595,cleaning product,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,napkin,0.01004,0.00888,0.0058,0.0,0.0
+1600,life jacket,life jacket,equipment for disabled people,drinking water,baby formula,napkin,0.1044,0.01694,0.0,0.0,0.0
+1603,container housing;blood,blood,blood collection center,drinking water,baby formula,napkin,0.09473,0.02824,0.0,0.0,0.0
+1622,psychological support team,psychological support team,medical team,search and rescue team,electrical field team,drinking water,0.22231,0.03371,0.02138,0.01729,0.0
+1634,food;volunteers,pots and pans,equipment for disabled people,search and rescue team,salt-free and sugar-free food,drinking water,0.0092,0.00856,0.00814,0.00532,0.0
+1637,generator,drinking water,power bank,equipment for disabled people,baby formula,napkin,0.05185,0.04228,0.01119,0.0,0.0
+1652,batteries,equipment for disabled people,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,0.01296,0.01029,0.0091,0.00595,0.0
+1666,sleeping bag;mask,sleeping bag,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,0.07898,0.01891,0.01673,0.01093,0.0
+1678,pots and pans,pots and pans,spare clothes,search and rescue team,salt-free and sugar-free food,equipment for disabled people,0.32045,0.06912,0.01646,0.01075,0.01022
+1680,first aid kit;volunteers,first aid kit,volunteers,pots and pans,search and rescue team,salt-free and sugar-free food,0.47041,0.22428,0.01931,0.01708,0.01116
+1684,spare clothes;lantern,spare clothes,wet wipes,equipment for disabled people,baby formula,napkin,0.07143,0.07,0.01507,0.0,0.0
+1688,blood,blood,first aid kit,blood collection center,equipment for disabled people,drinking water,0.10464,0.04484,0.0312,0.01704,0.0
+1689,bread;hot meal,heating stove,drinking water,baby bottle,baby formula,napkin,0.06793,0.0,0.0,0.0,0.0
+1695,coat,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+1700,psychological support team,psychological support team,medical team,search and rescue team,electrical field team,equipment for disabled people,0.28032,0.04251,0.02696,0.02181,0.01099
+1703,life jacket;insulin,insulin,life jacket,drinking water,pots and pans,search and rescue team,0.10389,0.04935,0.03709,0.01458,0.01289
+1708,hot meal,hot meal,children's playground,equipment for disabled people,pots and pans,search and rescue team,0.05349,0.04654,0.02104,0.00961,0.0085
+1715,wet wipes,wet wipes,security forces,drinking water,baby formula,napkin,0.28513,0.09298,0.06519,0.0,0.0
+1716,hot meal;medicine,medicine,hot meal,cold medicine,heart medicine,asthma medicine,0.1873,0.10881,0.10024,0.08888,0.08755
+1720,blanket,sleeping bag,drinking water,baby bottle,baby formula,napkin,0.06949,0.0,0.0,0.0,0.0
+1736,spare clothes,spare clothes,electrical field team,equipment for disabled people,drinking water,napkin,0.37191,0.08791,0.01827,0.0,0.0
+1739,sanitary pad;electric heater,electric heater,sanitary pad,pots and pans,equipment for disabled people,search and rescue team,0.21242,0.06534,0.01121,0.01043,0.00992
+1740,toothpaste;coat,baby formula,baby bottle,drinking water,wet wipes,napkin,0.05808,0.05516,0.0,0.0,0.0
+1742,container housing;salt-free and sugar-free food,salt-free and sugar-free food,gluten free food,food,container housing,dry food,0.41771,0.22336,0.1119,0.09407,0.04931
+1747,psychological support team,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+1751,hot meal,bread,dry food,cold medicine,drinking water,napkin,0.11038,0.06477,0.04746,0.0,0.0
+1755,electric heater,electric heater,tent,baby bottle,drinking water,wet wipes,0.3472,0.14919,0.0,0.0,0.0
+1760,hot meal,hot meal,baby formula,psychological support team,baby bottle,napkin,0.31144,0.06632,0.06375,0.06299,0.0
+1762,hot meal,hot meal,psychological support team,equipment for disabled people,pots and pans,search and rescue team,0.22652,0.04637,0.01886,0.01198,0.01059
+1764,drinking water;generator,dry food,power bank,drinking water,baby formula,napkin,0.10159,0.06117,0.0,0.0,0.0
+1765,toothbrush,equipment for disabled people,drinking water,baby bottle,baby formula,napkin,0.01404,0.0,0.0,0.0,0.0
+1768,dry food,electrical field team,equipment for disabled people,drinking water,baby formula,napkin,0.05538,0.0271,0.0,0.0,0.0
+1771,adhesive bandage;batteries,batteries,equipment for disabled people,baby bottle,drinking water,napkin,0.15199,0.01586,0.0,0.0,0.0
+1772,food,food,dry food,pet food,canned food,gluten free food,0.07188,0.03167,0.02911,0.02294,0.02165
+1776,volunteers;tent;baby formula,volunteers,baby formula,equipment for disabled people,drinking water,napkin,0.15122,0.08616,0.02851,0.0,0.0
+1782,mask,equipment for disabled people,drinking water,baby bottle,baby formula,napkin,0.01629,0.0,0.0,0.0,0.0
+1790,dry food;psychological support team,psychological support team,dry food,food,medical team,pet food,0.24835,0.16479,0.07261,0.03766,0.0294
+1791,batteries;pet food,pet food,batteries,food,dry food,canned food,0.35584,0.25086,0.1441,0.06349,0.04599
+1798,salt-free and sugar-free food;medicine,salt-free and sugar-free food,gluten free food,blood,medicine,food,0.34265,0.1478,0.13156,0.1304,0.09435
+1800,generator,generator,power bank,equipment for disabled people,pots and pans,search and rescue team,0.08268,0.02978,0.01881,0.00848,0.0075
+1805,drinking water,drinking water,baby bottle,pots and pans,equipment for disabled people,search and rescue team,0.16946,0.07019,0.00939,0.00874,0.00831
+1806,spare clothes;tent;wet wipes,spare clothes,wet wipes,pots and pans,search and rescue team,salt-free and sugar-free food,0.3216,0.32023,0.01699,0.01503,0.00982
+1808,container housing,container housing,cold medicine,equipment for disabled people,drinking water,napkin,0.06697,0.04914,0.01069,0.0,0.0
+1809,drinking water;search and rescue team,dry food,drinking water,pots and pans,equipment for disabled people,search and rescue team,0.05054,0.03732,0.00866,0.00806,0.00766
+1811,coat,pots and pans,search and rescue team,equipment for disabled people,salt-free and sugar-free food,drinking water,0.01898,0.01678,0.01411,0.01097,0.0
+1815,batteries;psychological support team,lantern,battery-powered radio,pots and pans,search and rescue team,salt-free and sugar-free food,0.1184,0.0446,0.01787,0.01581,0.01033
+1816,oxygen concentrator,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+1819,adhesive bandage,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+1823,interpreter;tent,interpreter,tent,equipment for disabled people,pots and pans,search and rescue team,0.16071,0.09765,0.01889,0.01199,0.01061
+1825,gluten free food;baby bottle;spare clothes,gluten free food,salt-free and sugar-free food,food,dry food,pet food,0.24911,0.09238,0.07502,0.03306,0.03038
+1828,tent,cold medicine,sleeping bag,equipment for disabled people,pots and pans,search and rescue team,0.0535,0.05225,0.02739,0.01251,0.01107
+1831,mask,volunteers,drinking water,baby bottle,baby formula,napkin,0.14653,0.0,0.0,0.0,0.0
+1833,power bank;medicine,blood,blood collection center,pots and pans,search and rescue team,salt-free and sugar-free food,0.13953,0.0416,0.01443,0.01277,0.00834
+1836,psychological support team;medicine,blood,blood collection center,equipment for disabled people,drinking water,napkin,0.09775,0.02915,0.0094,0.0,0.0
+1837,kitchenware;sanitary pad,sanitary pad,pots and pans,equipment for disabled people,drinking water,napkin,0.06574,0.05172,0.02469,0.0,0.0
+1839,tent,sleeping bag,drinking water,baby bottle,baby formula,napkin,0.05098,0.0,0.0,0.0,0.0
+1840,diaper;fever reducer;food,equipment for disabled people,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,0.01542,0.01225,0.01083,0.00708,0.0
+1841,container housing;interpreter;sleeping bag,container housing,sleeping bag,drinking water,baby formula,napkin,0.06401,0.04587,0.0,0.0,0.0
+1846,oxygen concentrator;tent,oxygen concentrator,tent,pots and pans,search and rescue team,salt-free and sugar-free food,0.21923,0.08711,0.0107,0.00946,0.00619
+1849,search and rescue team;drinking water,search and rescue team,drinking water,medical team,psychological support team,equipment for disabled people,0.35342,0.21818,0.05211,0.03399,0.03173
+1857,baby formula,baby formula,baby bottle,drinking water,wet wipes,napkin,0.39758,0.08216,0.0,0.0,0.0
+1859,life jacket;power bank,life jacket,drinking water,power bank,equipment for disabled people,napkin,0.0619,0.04653,0.03793,0.0136,0.0
+1862,coat,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+1864,batteries,battery-powered radio,drinking water,baby bottle,baby formula,napkin,0.0701,0.0,0.0,0.0,0.0
+1867,oxygen concentrator,oxygen concentrator,power bank,drinking water,baby formula,napkin,0.25332,0.04343,0.0,0.0,0.0
+1869,first aid kit;baby formula;toothpaste,baby formula,baby bottle,pots and pans,search and rescue team,salt-free and sugar-free food,0.03797,0.03606,0.00943,0.00834,0.00545
+1870,sanitary pad,sanitary pad,drinking water,baby bottle,baby formula,napkin,0.05833,0.0,0.0,0.0,0.0
+1871,pet food,pet food,tent,food,baby formula,baby bottle,0.2245,0.10676,0.09091,0.05282,0.05017
+1872,pet food;flashlight,pet food,food,dry food,canned food,gluten free food,0.25199,0.10204,0.04496,0.03257,0.03073
+1878,sanitary pad;lighting equipment,lighting equipment,sanitary pad,baby bottle,drinking water,napkin,0.10288,0.09819,0.0,0.0,0.0
+1883,hardware tools;heart medicine,heart medicine,hardware tools,medicine,cold medicine,asthma medicine,0.21918,0.21637,0.08608,0.04607,0.04024
+1884,power bank;lighting equipment,lighting equipment,power bank,equipment for disabled people,drinking water,napkin,0.07334,0.04219,0.01512,0.0,0.0
+1886,hot meal,hot meal,food,dry food,pet food,canned food,0.28345,0.08628,0.03802,0.03494,0.02754
+1888,flashlight,flashlight,power bank,baby bottle,drinking water,napkin,0.25068,0.06969,0.0,0.0,0.0
+1889,bandage;napkin,equipment for disabled people,drinking water,baby bottle,baby formula,napkin,0.00875,0.0,0.0,0.0,0.0
+1893,blanket,tent,equipment for disabled people,drinking water,baby formula,napkin,0.07937,0.00907,0.0,0.0,0.0
+1894,security forces,security forces,equipment for disabled people,drinking water,baby formula,napkin,0.20285,0.01204,0.0,0.0,0.0
+1896,dry food;medical team;lantern,dry food,medical team,food,search and rescue team,pet food,0.17376,0.17081,0.07656,0.03495,0.031
+1899,toothpaste,toothpaste,equipment for disabled people,pots and pans,search and rescue team,salt-free and sugar-free food,0.09348,0.01801,0.00845,0.00747,0.00488
+1903,volunteers;firewood,volunteers,cold medicine,baby bottle,drinking water,napkin,0.13585,0.05001,0.0,0.0,0.0
+1905,bread;soap,soap,bread,pots and pans,equipment for disabled people,search and rescue team,0.18919,0.14887,0.01497,0.01392,0.01324
+1907,fever reducer,fever reducer,tent,baby bottle,drinking water,napkin,0.36266,0.13587,0.0,0.0,0.0
+1908,coat;first aid kit,first aid kit,equipment for disabled people,pots and pans,search and rescue team,salt-free and sugar-free food,0.22594,0.01168,0.00928,0.0082,0.00536
+1911,search and rescue team,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+1913,antibiotic,tent,electrical field team,drinking water,baby formula,napkin,0.07678,0.0422,0.0,0.0,0.0
+1917,heart medicine,allergy medication,heart medicine,pots and pans,equipment for disabled people,search and rescue team,0.09733,0.07643,0.0126,0.01172,0.01114
+1919,blanket;search and rescue team,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+1921,toothpaste;generator;allergy medication,toothpaste,generator,allergy medication,pots and pans,search and rescue team,0.1976,0.17416,0.13794,0.01785,0.01579
+1923,kitchenware,tent,drinking water,baby bottle,baby formula,napkin,0.12267,0.0,0.0,0.0,0.0
+1927,hot meal;spare clothes,spare clothes,hot meal,drinking water,baby formula,napkin,0.31915,0.31892,0.0,0.0,0.0
+1930,adhesive bandage,adhesive bandage,security forces,baby bottle,drinking water,napkin,0.09734,0.07743,0.0,0.0,0.0
+1932,dry food,dry food,food,pet food,salt-free and sugar-free food,canned food,0.14388,0.0634,0.02567,0.02073,0.02023
+1934,baby bottle,baby bottle,baby formula,equipment for disabled people,drinking water,napkin,0.3962,0.08188,0.0189,0.0,0.0
+1938,cleaning product,equipment for disabled people,drinking water,baby bottle,baby formula,napkin,0.01878,0.0,0.0,0.0,0.0
+1939,bread,bread,equipment for disabled people,drinking water,baby formula,napkin,0.12479,0.02747,0.0,0.0,0.0
+1941,oxygen concentrator,oxygen concentrator,drinking water,baby bottle,baby formula,napkin,0.29481,0.0,0.0,0.0,0.0
+1947,medical team,medical team,psychological support team,search and rescue team,electrical field team,drinking water,0.28183,0.04274,0.04155,0.03361,0.0
+1953,adhesive bandage,pots and pans,search and rescue team,salt-free and sugar-free food,drinking water,napkin,0.0116,0.01026,0.0067,0.0,0.0
+1954,toothpaste,toothpaste,drinking water,baby bottle,baby formula,napkin,0.18267,0.0,0.0,0.0,0.0
+1959,cleaning product;electric heater,electric heater,cleaning product,power bank,equipment for disabled people,pots and pans,0.17096,0.04631,0.0317,0.01136,0.00902
+1966,wet wipes;food,wet wipes,food,dry food,pet food,canned food,0.33296,0.12246,0.05396,0.04959,0.03908
+1967,heating stove,heating stove,pots and pans,equipment for disabled people,search and rescue team,salt-free and sugar-free food,0.06784,0.00909,0.00845,0.00804,0.00525
+1970,coat,baby formula,baby bottle,pots and pans,equipment for disabled people,search and rescue team,0.04818,0.04576,0.01196,0.01112,0.01058
+1975,drinking water,drinking water,baby formula,baby bottle,wet wipes,napkin,0.19942,0.0,0.0,0.0,0.0
+1979,cold medicine;tent;children's playground,cold medicine,pots and pans,search and rescue team,salt-free and sugar-free food,napkin,0.06762,0.01582,0.01399,0.00914,0.0
+1982,bread,bread,drinking water,baby bottle,baby formula,napkin,0.11153,0.0,0.0,0.0,0.0
+1986,sleeping bag,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+1988,napkin;baby formula,drinking water,baby formula,baby bottle,wet wipes,napkin,0.0,0.0,0.0,0.0,0.0
+1999,electric heater;tent,electric heater,equipment for disabled people,baby bottle,drinking water,wet wipes,0.34786,0.02312,0.0,0.0,0.0

@@ -1,0 +1,21 @@
+﻿veri,bdm,yerel,bdm_hit1,yerel_hit1,p
+gercek_en,claude-opus-5-5,Temel: TF-IDF | en/stem/ad,1.0,0.8333333333333334,0.0625
+gercek_en,claude-sonnet-5-5,Temel: TF-IDF | en/stem/ad,1.0,0.8333333333333334,0.0625
+gercek_en,claude-haiku-5-5,Temel: TF-IDF | en/stem/ad,0.9333333333333333,0.8333333333333334,0.375
+gercek_en,gpt-5-mini,Temel: TF-IDF | en/stem/ad,0.9333333333333333,0.8333333333333334,0.453125
+gercek_en,gemini-3.8-flash,Temel: TF-IDF | en/stem/ad,0.9666666666666667,0.8333333333333334,0.21875
+gercek_en,claude-opus-5-5,Qwen3-Emb-4B | en/plain/ad+tanim,1.0,0.7666666666666667,0.015625
+gercek_en,claude-sonnet-5-5,Qwen3-Emb-4B | en/plain/ad+tanim,1.0,0.7666666666666667,0.015625
+gercek_en,claude-haiku-5-5,Qwen3-Emb-4B | en/plain/ad+tanim,0.9333333333333333,0.7666666666666667,0.1796875
+gercek_en,gpt-5-mini,Qwen3-Emb-4B | en/plain/ad+tanim,0.9333333333333333,0.7666666666666667,0.125
+gercek_en,gemini-3.8-flash,Qwen3-Emb-4B | en/plain/ad+tanim,0.9666666666666667,0.7666666666666667,0.0703125
+gercek_tr,claude-opus-5-5,mE5-large-instruct | tr/raw/ad+tanim,1.0,0.7619047619047619,0.0625
+gercek_tr,claude-sonnet-5-5,mE5-large-instruct | tr/raw/ad+tanim,1.0,0.7619047619047619,0.0625
+gercek_tr,claude-haiku-5-5,mE5-large-instruct | tr/raw/ad+tanim,0.9523809523809523,0.7619047619047619,0.125
+gercek_tr,gpt-5-mini,mE5-large-instruct | tr/raw/ad+tanim,0.9523809523809523,0.7619047619047619,0.21875
+gercek_tr,gemini-3.8-flash,mE5-large-instruct | tr/raw/ad+tanim,1.0,0.7619047619047619,0.0625
+gercek_tr,claude-opus-5-5,TF-IDF (TR) | tr/stem/ad,1.0,0.2857142857142857,6.103515625e-05
+gercek_tr,claude-sonnet-5-5,TF-IDF (TR) | tr/stem/ad,1.0,0.2857142857142857,6.103515625e-05
+gercek_tr,claude-haiku-5-5,TF-IDF (TR) | tr/stem/ad,0.9523809523809523,0.2857142857142857,0.0001220703125
+gercek_tr,gpt-5-mini,TF-IDF (TR) | tr/stem/ad,0.9523809523809523,0.2857142857142857,0.000518798828125
+gercek_tr,gemini-3.8-flash,TF-IDF (TR) | tr/stem/ad,1.0,0.2857142857142857,6.103515625e-05

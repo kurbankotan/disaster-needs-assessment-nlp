@@ -1,0 +1,120 @@
+{
+ "gercek_en": {
+  "n_altin": 207,
+  "somut_ihtiyac": 42,
+  "listede_ihtiyacli": 30,
+  "yalniz_listede_olmayan": 12,
+  "listede_olmayan_iceren": 21,
+  "anlatim_pozitif": {
+   "Açık": 37,
+   "Örtük": 5
+  },
+  "anlatim_kapali": {
+   "Açık": 27,
+   "Örtük": 3
+  },
+  "ihtiyac_sayisi_kapali": [
+   [
+    1,
+    18
+   ],
+   [
+    2,
+    7
+   ],
+   [
+    3,
+    5
+   ]
+  ],
+  "en_sik_ihtiyaclar": [
+   [
+    "gıda",
+    12
+   ],
+   [
+    "içme suyu",
+    8
+   ],
+   [
+    "ilaç",
+    6
+   ],
+   [
+    "arama kurtarma ekibi",
+    3
+   ],
+   [
+    "yedek giysi",
+    3
+   ],
+   [
+    "gönüllü",
+    3
+   ]
+  ],
+  "ort_kelime": 16.758454106280194
+ },
+ "gercek_tr": {
+  "n_altin": 403,
+  "somut_ihtiyac": 29,
+  "listede_ihtiyacli": 21,
+  "yalniz_listede_olmayan": 8,
+  "listede_olmayan_iceren": 11,
+  "anlatim_pozitif": {
+   "Açık": 20,
+   "Örtük": 7,
+   "": 2
+  },
+  "anlatim_kapali": {
+   "Açık": 15,
+   "Örtük": 5,
+   "": 1
+  },
+  "ihtiyac_sayisi_kapali": [
+   [
+    1,
+    18
+   ],
+   [
+    3,
+    1
+   ],
+   [
+    5,
+    1
+   ],
+   [
+    2,
+    1
+   ]
+  ],
+  "en_sik_ihtiyaclar": [
+   [
+    "arama kurtarma ekibi",
+    8
+   ],
+   [
+    "çadır",
+    5
+   ],
+   [
+    "gıda",
+    3
+   ],
+   [
+    "ilaç",
+    2
+   ],
+   [
+    "içme suyu",
+    1
+   ],
+   [
+    "nakit para",
+    1
+   ]
+  ],
+  "ort_kelime": 18.736972704714642
+ }
+}

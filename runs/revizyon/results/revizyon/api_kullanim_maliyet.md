@@ -1,0 +1,7 @@
+| Model | cagri | giris_token | cikis_token | dusunme_token | tahmini_usd |
+|---|---|---|---|---|---|
+| claude-haiku-5-5 | 1413 | 1165649 | 300193 | 0 | 0,302 |
+| claude-opus-5-5 | 1413 | 1165649 | 292857 | 223 | 11,372 |
+| claude-sonnet-5-5 | 1413 | 1165649 | 298189 | 0 | 5,739 |
+| gemini-3.8-flash | 1505 | 2070660 | 355678 | 0 | 2,881 |
+| gpt-5-mini | 1614 | 2943583 | 396396 | 0 | 1,417 |

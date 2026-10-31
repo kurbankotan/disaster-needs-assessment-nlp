@@ -1,0 +1,208 @@
+﻿id,gercek,top1,top2,top3,top4,top5,s1,s2,s3,s4,s5
+0,,volunteers,food,equipment for disabled people,psychological support team,interpreter,0.67773,0.67766,0.6644,0.65965,0.65601
+1,,flashlight,food,first aid kit,sleeping bag,medicine,0.72038,0.72029,0.70773,0.69745,0.6961
+2,,food,generator,sleeping bag,interpreter,flashlight,0.6463,0.62485,0.61482,0.6121,0.61061
+3,,blood collection center,volunteers,food,medicine,first aid kit,0.70821,0.67045,0.65478,0.64308,0.64145
+4,,blood collection center,food,volunteers,interpreter,psychological support team,0.61177,0.55709,0.54821,0.54739,0.54057
+5,,food,diaper,interpreter,firewood,insulin,0.62984,0.58111,0.58103,0.56227,0.55925
+6,,food,interpreter,medicine,blood collection center,flashlight,0.74746,0.72463,0.68683,0.6767,0.67659
+7,,food,blood collection center,first aid kit,flashlight,medicine,0.67926,0.67115,0.66183,0.66067,0.64911
+8,medicine;drinking water;food,food,medicine,dry food,tent,children's playground,0.80498,0.74829,0.73525,0.72433,0.72348
+9,,food,interpreter,generator,medicine,firewood,0.59057,0.57519,0.56537,0.53943,0.53332
+10,,food,interpreter,medicine,tent,children's playground,0.74503,0.71801,0.71013,0.70949,0.69988
+11,,food,interpreter,tent,medicine,dry food,0.78068,0.72984,0.70629,0.69942,0.69229
+12,,food,interpreter,dry food,medicine,tent,0.64788,0.6365,0.59774,0.58834,0.58575
+13,,food,firewood,interpreter,generator,medicine,0.75486,0.71529,0.68892,0.68101,0.68032
+14,,interpreter,food,volunteers,dry food,search and rescue team,0.67716,0.64135,0.60809,0.60686,0.599
+15,,interpreter,blood collection center,psychological support team,food,diaper,0.6277,0.62374,0.61014,0.61002,0.56804
+16,,food,interpreter,flashlight,medicine,blood collection center,0.73063,0.70804,0.70526,0.69916,0.69415
+17,,food,blood collection center,interpreter,dry food,generator,0.74236,0.69943,0.68957,0.68857,0.68492
+18,medical team;search and rescue team,food,tent,interpreter,firewood,medicine,0.76193,0.74327,0.74243,0.74207,0.72925
+19,,interpreter,food,diaper,blood collection center,psychological support team,0.47163,0.44347,0.44255,0.43708,0.42258
+20,,food,flashlight,interpreter,search and rescue team,medicine,0.75915,0.7242,0.71058,0.70652,0.70646
+21,blanket,food,tent,blanket,spare clothes,dry food,0.78043,0.755,0.74998,0.7324,0.71074
+22,,food,interpreter,generator,tent,medicine,0.66861,0.64733,0.63892,0.63388,0.63365
+23,,food,generator,interpreter,flashlight,firewood,0.70222,0.67949,0.67588,0.66098,0.65493
+24,,food,interpreter,diaper,tent,blood,0.62952,0.62857,0.58552,0.57401,0.57366
+25,,food,blood collection center,interpreter,medicine,dry food,0.72259,0.68778,0.68508,0.65783,0.65047
+26,,flashlight,food,interpreter,sleeping bag,children's playground,0.75053,0.75033,0.71979,0.71733,0.70693
+27,medicine,insulin,medicine,asthma medicine,cold medicine,painkiller,0.44494,0.43909,0.41692,0.40534,0.40311
+28,,interpreter,food,children's playground,tent,psychological support team,0.62918,0.62698,0.60703,0.60374,0.58075
+29,,blood collection center,psychological support team,food,interpreter,volunteers,0.68329,0.64669,0.63938,0.62899,0.62795
+30,,interpreter,food,equipment for disabled people,psychological support team,insulin,0.66137,0.56805,0.5632,0.56215,0.55541
+31,spare clothes,food,spare clothes,dry food,tent,medicine,0.82893,0.79593,0.77291,0.77102,0.75746
+32,,blood collection center,interpreter,psychological support team,medical team,medicine,0.53358,0.50878,0.4991,0.48252,0.47776
+33,hardware tools,food,generator,medicine,flashlight,children's playground,0.75911,0.75225,0.72865,0.72019,0.71763
+34,,food,tent,interpreter,children's playground,medicine,0.75265,0.7389,0.73637,0.70521,0.69774
+35,,food,drinking water,firewood,generator,dry food,0.76343,0.73233,0.73059,0.71386,0.71351
+36,food,food,hot meal,container housing,dry food,drinking water,0.59763,0.57075,0.56802,0.55772,0.55392
+37,,tent,food,children's playground,dry food,medicine,0.67184,0.67128,0.6495,0.63697,0.63066
+38,,food,interpreter,firewood,generator,tent,0.5445,0.53156,0.52187,0.52073,0.51632
+39,,interpreter,blood collection center,diaper,food,container housing,0.53498,0.51942,0.51089,0.51057,0.50543
+40,,medicine,food,drinking water,portable toilet,volunteers,0.68568,0.66849,0.66067,0.65897,0.65756
+41,,blood collection center,food,firewood,interpreter,medicine,0.73407,0.66924,0.63925,0.63595,0.62999
+42,,psychological support team,volunteers,food,interpreter,blood collection center,0.64013,0.6321,0.61741,0.60996,0.60571
+43,food;drinking water;medicine,food,medicine,children's playground,dry food,blood collection center,0.7995,0.74935,0.73672,0.73436,0.73196
+44,,blood collection center,food,blanket,interpreter,medicine,0.69039,0.68715,0.65596,0.64359,0.64324
+45,,interpreter,food,firewood,blood collection center,blanket,0.5496,0.53685,0.53217,0.52236,0.50056
+46,food;drinking water,food,drinking water,portable toilet,dry food,salt-free and sugar-free food,0.76135,0.74716,0.72799,0.71147,0.69411
+47,,food,tent,firewood,blood collection center,interpreter,0.77374,0.74105,0.72905,0.72657,0.72567
+48,,flashlight,first aid kit,food,children's playground,medicine,0.74813,0.7262,0.72459,0.71268,0.68446
+49,,food,tent,sleeping bag,medicine,firewood,0.7029,0.68033,0.65052,0.64788,0.64449
+50,,psychological support team,search and rescue team,blood collection center,interpreter,pet food,0.54757,0.52152,0.52093,0.51967,0.51584
+51,,firewood,food,flashlight,sleeping bag,coat,0.71063,0.69487,0.68234,0.67127,0.66822
+52,,blood collection center,food,interpreter,volunteers,psychological support team,0.70903,0.68873,0.68264,0.68175,0.67487
+53,,food,interpreter,psychological support team,diaper,equipment for disabled people,0.59456,0.59252,0.58818,0.5752,0.56845
+54,,first aid kit,interpreter,food,children's playground,volunteers,0.68007,0.6718,0.66922,0.66574,0.66532
+55,food;drinking water,food,children's playground,flashlight,toothpaste,medicine,0.78931,0.7467,0.74515,0.74294,0.74255
+56,,interpreter,blood collection center,food,dry food,medicine,0.55392,0.51728,0.49703,0.49456,0.4944
+57,,food,blood collection center,medicine,flashlight,interpreter,0.72353,0.70393,0.69183,0.68752,0.66979
+58,food;medicine,food,volunteers,medicine,medical team,interpreter,0.65942,0.65503,0.65167,0.63575,0.63332
+59,,hot meal,firewood,food,first aid kit,fever reducer,0.61451,0.60643,0.60346,0.60068,0.59226
+60,canned food,hot meal,food,sleeping bag,heating stove,flashlight,0.7232,0.71006,0.70716,0.70584,0.7017
+61,,blood collection center,psychological support team,interpreter,firewood,medicine,0.60249,0.58842,0.56271,0.56081,0.53806
+62,,food,interpreter,flashlight,firewood,first aid kit,0.71897,0.70752,0.70609,0.7015,0.69734
+63,,flashlight,first aid kit,generator,sleeping bag,food,0.71033,0.66663,0.65802,0.65087,0.64831
+64,,children's playground,food,volunteers,psychological support team,interpreter,0.78218,0.75339,0.74162,0.73985,0.73253
+65,,food,flashlight,first aid kit,children's playground,search and rescue team,0.67529,0.66673,0.66189,0.6562,0.65453
+66,,food,interpreter,tent,medicine,medical team,0.75466,0.72262,0.71098,0.69378,0.68734
+67,,food,medicine,tent,interpreter,insulin,0.81443,0.75467,0.7545,0.75045,0.74264
+68,,blood collection center,food,psychological support team,interpreter,volunteers,0.72253,0.6736,0.66402,0.65864,0.63697
+69,,blood collection center,food,interpreter,dry food,medicine,0.68373,0.6659,0.64711,0.61898,0.61288
+70,,blood collection center,food,volunteers,first aid kit,children's playground,0.79178,0.77265,0.75978,0.75167,0.74899
+71,,food,interpreter,blood collection center,psychological support team,volunteers,0.67891,0.67662,0.65079,0.63263,0.62995
+72,,food,interpreter,insulin,firewood,diaper,0.58608,0.57908,0.56477,0.55589,0.55268
+73,,food,blood collection center,psychological support team,volunteers,medicine,0.70297,0.69892,0.68732,0.68108,0.67451
+74,,sleeping bag,children's playground,tent,medicine,flashlight,0.6407,0.63727,0.61824,0.6098,0.60622
+75,spare clothes;food;cash,food,dry food,blood collection center,interpreter,spare clothes,0.81086,0.74699,0.73498,0.72575,0.72424
+76,,food,psychological support team,interpreter,blood collection center,medical team,0.60657,0.59066,0.57997,0.57299,0.54259
+77,,food,firewood,interpreter,medicine,dry food,0.71091,0.68473,0.67199,0.6659,0.65867
+78,,food,firewood,interpreter,hot meal,dry food,0.69303,0.68522,0.67272,0.66967,0.6683
+79,,blood collection center,interpreter,food,diaper,firewood,0.57792,0.57049,0.56782,0.5283,0.52682
+80,,food,interpreter,tent,blanket,medicine,0.65881,0.65193,0.64868,0.64463,0.63409
+81,,psychological support team,volunteers,children's playground,food,search and rescue team,0.66112,0.65217,0.63369,0.63265,0.6309
+82,,flashlight,food,generator,medicine,sleeping bag,0.75774,0.75522,0.73326,0.72063,0.72009
+83,,food,blood collection center,firewood,medicine,hot meal,0.58616,0.58191,0.57552,0.57228,0.56085
+84,,flashlight,food,first aid kit,blood collection center,generator,0.67488,0.66727,0.66021,0.65374,0.64514
+85,,food,interpreter,tent,dry food,medicine,0.7372,0.6971,0.69135,0.68474,0.68455
+86,,food,tent,interpreter,flashlight,generator,0.77243,0.73102,0.71293,0.70289,0.69525
+87,,psychological support team,food,blood collection center,volunteers,interpreter,0.56174,0.55329,0.55074,0.53919,0.53746
+88,,food,medicine,firewood,generator,sleeping bag,0.7306,0.70064,0.68884,0.68509,0.68308
+89,,flashlight,hot meal,sleeping bag,first aid kit,food,0.7254,0.71618,0.71584,0.70245,0.70099
+90,,food,medicine,interpreter,tent,hot meal,0.66125,0.63998,0.63503,0.6223,0.62155
+91,,food,interpreter,blood collection center,medicine,psychological support team,0.70882,0.69091,0.68418,0.65983,0.65373
+92,food,food,medicine,firewood,interpreter,sleeping bag,0.74803,0.69603,0.68729,0.67681,0.67571
+93,drinking water;food;medicine,food,drinking water,heating stove,dry food,medicine,0.76584,0.74052,0.73301,0.73202,0.71379
+94,,interpreter,food,psychological support team,blood collection center,diaper,0.66308,0.66132,0.6278,0.62675,0.6235
+95,,food,blanket,medicine,interpreter,sleeping bag,0.73068,0.70251,0.70074,0.69814,0.68883
+96,,first aid kit,medicine,food,flashlight,children's playground,0.72042,0.70663,0.70095,0.70016,0.67368
+97,,food,flashlight,interpreter,firewood,children's playground,0.69529,0.68842,0.6877,0.67693,0.67411
+98,,food,interpreter,generator,tent,children's playground,0.73494,0.68983,0.68141,0.68036,0.67047
+99,tent,blanket,tent,heating stove,firewood,lantern,0.57423,0.56965,0.54349,0.54195,0.5304
+100,,flashlight,first aid kit,food,interpreter,sleeping bag,0.71416,0.69521,0.68397,0.67784,0.66885
+101,,flashlight,children's playground,first aid kit,food,search and rescue team,0.75015,0.71562,0.71006,0.70107,0.69042
+102,,food,flashlight,generator,hot meal,first aid kit,0.6132,0.60271,0.59668,0.59181,0.58536
+103,,food,flashlight,tent,children's playground,search and rescue team,0.76073,0.74352,0.70859,0.70571,0.70545
+104,,blood collection center,volunteers,cash,food,canned food,0.5271,0.50058,0.44548,0.43574,0.43079
+105,,food,blood collection center,interpreter,medicine,tent,0.75343,0.75115,0.70218,0.70104,0.68384
+106,,interpreter,psychological support team,food,medicine,flashlight,0.70218,0.68882,0.67799,0.65784,0.65392
+107,,interpreter,food,insulin,psychological support team,volunteers,0.49862,0.49677,0.49142,0.48135,0.47976
+108,,food,dry food,interpreter,hot meal,flashlight,0.64078,0.62537,0.62383,0.60035,0.59192
+109,,interpreter,food,medicine,blood collection center,firewood,0.6527,0.64008,0.62146,0.61942,0.61123
+110,,interpreter,food,volunteers,psychological support team,search and rescue team,0.74465,0.73301,0.72268,0.71741,0.7122
+111,,flashlight,food,children's playground,generator,interpreter,0.70906,0.67593,0.67508,0.67355,0.66858
+112,,food,interpreter,toothpaste,toothbrush,medicine,0.65096,0.6379,0.63639,0.63403,0.62751
+113,,interpreter,food,blood collection center,medicine,firewood,0.5164,0.50764,0.4991,0.49192,0.48954
+114,search and rescue team,food,firewood,tent,interpreter,blanket,0.76357,0.70891,0.70386,0.68224,0.682
+115,,flashlight,first aid kit,sleeping bag,children's playground,food,0.75523,0.75221,0.73682,0.73648,0.72193
+116,,food,hot meal,dry food,medicine,sleeping bag,0.77394,0.76638,0.7325,0.72426,0.7226
+117,,interpreter,blood collection center,psychological support team,flashlight,medicine,0.47289,0.46152,0.45381,0.45163,0.4472
+118,,volunteers,blood collection center,psychological support team,medical team,medicine,0.61162,0.59767,0.57794,0.57759,0.5717
+119,,food,flashlight,first aid kit,toothpaste,blood collection center,0.72874,0.72516,0.71751,0.70735,0.70572
+120,,food,flashlight,tent,interpreter,children's playground,0.78224,0.71963,0.71931,0.71643,0.71529
+121,,food,generator,interpreter,flashlight,firewood,0.69246,0.66302,0.66278,0.6535,0.6463
+122,drinking water,flashlight,food,children's playground,sleeping bag,heating stove,0.77701,0.75602,0.74826,0.74278,0.72806
+123,volunteers;food,food,interpreter,insulin,firewood,tent,0.58631,0.53944,0.53445,0.53417,0.53321
+124,,blood collection center,food,interpreter,medicine,blood,0.6624,0.63191,0.60689,0.57829,0.57263
+125,,container housing,psychological support team,volunteers,blood collection center,cash,0.54081,0.54053,0.52678,0.51967,0.51131
+126,,first aid kit,medicine,children's playground,food,sleeping bag,0.67342,0.66368,0.65968,0.65557,0.65197
+127,,interpreter,psychological support team,flashlight,diaper,blood collection center,0.44239,0.43985,0.4134,0.41103,0.41073
+128,,psychological support team,food,blood collection center,interpreter,flashlight,0.69509,0.66703,0.66382,0.65751,0.64371
+129,search and rescue team,tent,flashlight,food,sleeping bag,medicine,0.67756,0.67662,0.67175,0.671,0.66901
+130,,food,blood collection center,flashlight,generator,sleeping bag,0.71533,0.71183,0.70535,0.69483,0.6833
+131,,first aid kit,search and rescue team,flashlight,blood collection center,psychological support team,0.71825,0.69141,0.68639,0.6808,0.66667
+132,,volunteers,flashlight,first aid kit,interpreter,psychological support team,0.50666,0.49859,0.48506,0.47591,0.47447
+133,,interpreter,food,blood collection center,psychological support team,medicine,0.63992,0.62613,0.60249,0.58906,0.58739
+134,,flashlight,generator,food,hot meal,sleeping bag,0.7686,0.76771,0.75084,0.73446,0.73378
+135,,first aid kit,food,medicine,interpreter,flashlight,0.65957,0.65448,0.6525,0.64037,0.63774
+136,,volunteers,first aid kit,container housing,equipment for disabled people,search and rescue team,0.55037,0.51686,0.49213,0.47975,0.4467
+137,,food,interpreter,medicine,flashlight,firewood,0.78659,0.75513,0.74151,0.72629,0.72482
+138,,medicine,medical team,food,interpreter,psychological support team,0.60563,0.59554,0.5909,0.59002,0.57341
+139,,interpreter,food,tent,firewood,blood collection center,0.73012,0.72908,0.67978,0.67956,0.67903
+140,,blood collection center,food,blood,medicine,dry food,0.6759,0.6512,0.63029,0.61778,0.60823
+141,,food,dry food,medicine,interpreter,spare clothes,0.75048,0.69737,0.69279,0.68329,0.67924
+142,,food,interpreter,tent,dry food,medicine,0.73701,0.69932,0.69372,0.68273,0.66352
+143,drinking water;food,food,firewood,hot meal,generator,blood collection center,0.7645,0.72763,0.7072,0.70612,0.70425
+144,,psychological support team,container housing,volunteers,blood collection center,interpreter,0.38038,0.37858,0.3778,0.37547,0.3728
+145,,flashlight,generator,interpreter,heating stove,firewood,0.48103,0.46883,0.46107,0.45848,0.45178
+146,,blood collection center,food,interpreter,firewood,volunteers,0.60279,0.5639,0.53774,0.53773,0.53614
+147,,food,interpreter,firewood,tent,blanket,0.66556,0.66256,0.64306,0.64287,0.62789
+148,,food,blood collection center,firewood,generator,flashlight,0.69739,0.68915,0.68042,0.66759,0.66747
+149,,food,interpreter,medicine,tent,children's playground,0.77605,0.72085,0.72046,0.71861,0.70737
+150,,interpreter,food,blood collection center,psychological support team,dry food,0.72327,0.71309,0.69539,0.68092,0.66049
+151,,food,medicine,interpreter,firewood,flashlight,0.64135,0.62685,0.61964,0.61086,0.61011
+152,,food,interpreter,firewood,blood collection center,medicine,0.73467,0.69151,0.67939,0.67906,0.67188
+153,,blood collection center,volunteers,psychological support team,interpreter,food,0.60688,0.572,0.56736,0.54117,0.53916
+154,,food,interpreter,medicine,volunteers,flashlight,0.5396,0.53638,0.52267,0.51668,0.51536
+155,food;drinking water;medicine,food,medicine,dry food,toothpaste,cold medicine,0.83339,0.80643,0.7596,0.75767,0.7574
+156,,interpreter,psychological support team,medicine,insulin,food,0.60923,0.59118,0.57152,0.57108,0.56913
+157,,life jacket,heating stove,flashlight,toothpaste,generator,0.58141,0.5706,0.56681,0.55844,0.5574
+158,,food,interpreter,firewood,dry food,generator,0.70415,0.67458,0.67275,0.65233,0.64223
+159,,food,tent,medicine,interpreter,children's playground,0.76202,0.74879,0.71082,0.70486,0.7023
+160,,flashlight,food,sleeping bag,children's playground,first aid kit,0.78836,0.76183,0.71503,0.71317,0.71006
+161,,food,blood collection center,container housing,volunteers,interpreter,0.64624,0.62784,0.61459,0.60669,0.60549
+162,,food,children's playground,search and rescue team,flashlight,interpreter,0.75293,0.74713,0.7452,0.72798,0.72347
+163,,food,interpreter,blood collection center,tent,psychological support team,0.69945,0.68669,0.67259,0.64959,0.64315
+164,,firewood,interpreter,flashlight,food,medicine,0.65797,0.65154,0.6453,0.64469,0.63344
+165,,food,medicine,blood collection center,medical team,interpreter,0.698,0.68002,0.67736,0.66661,0.6568
+166,,food,blood collection center,interpreter,medicine,medical team,0.6969,0.69475,0.67219,0.66848,0.65175
+167,,volunteers,psychological support team,flashlight,first aid kit,food,0.68916,0.67627,0.67066,0.67061,0.66313
+168,,food,flashlight,sleeping bag,medicine,first aid kit,0.73062,0.71982,0.70766,0.70739,0.69165
+169,,food,blood collection center,interpreter,medicine,flashlight,0.7611,0.72299,0.71896,0.70913,0.70301
+170,,interpreter,food,flashlight,children's playground,psychological support team,0.70072,0.68739,0.66582,0.64171,0.64136
+171,,food,medicine,tent,first aid kit,volunteers,0.709,0.66813,0.65866,0.65394,0.65327
+172,,food,blood collection center,tent,medicine,blood,0.76971,0.72223,0.71359,0.70826,0.69778
+173,,food,interpreter,firewood,flashlight,generator,0.71054,0.67346,0.6672,0.65347,0.65176
+174,,generator,blood collection center,food,first aid kit,flashlight,0.68303,0.67417,0.67331,0.66914,0.66669
+175,,sleeping bag,flashlight,food,firewood,heating stove,0.73608,0.73427,0.73328,0.718,0.71143
+176,,food,tent,blanket,sleeping bag,firewood,0.83224,0.79423,0.78404,0.7825,0.77911
+177,,interpreter,food,psychological support team,medicine,container housing,0.55163,0.53089,0.52226,0.52122,0.5092
+178,,food,interpreter,firewood,medicine,dry food,0.69798,0.66726,0.65124,0.6407,0.62643
+179,,interpreter,food,blanket,firewood,blood collection center,0.55748,0.55173,0.53926,0.53324,0.52695
+180,,first aid kit,sleeping bag,painkiller,cold medicine,life jacket,0.58392,0.55763,0.54688,0.54568,0.54293
+181,blood,blood collection center,blood,food,generator,medicine,0.77764,0.69457,0.66139,0.66124,0.65087
+182,,food,interpreter,firewood,psychological support team,medicine,0.63984,0.63025,0.61584,0.59149,0.59017
+183,,firewood,food,blanket,sleeping bag,heating stove,0.6741,0.67203,0.66576,0.65095,0.64728
+184,volunteers,volunteers,food,interpreter,search and rescue team,children's playground,0.54681,0.46415,0.46034,0.44164,0.4407
+185,,food,interpreter,first aid kit,flashlight,medicine,0.74273,0.73324,0.7249,0.71549,0.70267
+186,blood,blood collection center,medical team,blood,food,tent,0.70002,0.65241,0.63556,0.62275,0.62193
+187,volunteers,food,interpreter,tent,medicine,blood collection center,0.80744,0.77814,0.74263,0.7409,0.73972
+188,,blood collection center,interpreter,food,psychological support team,medicine,0.62117,0.61678,0.61447,0.60696,0.59491
+189,,food,firewood,dry food,interpreter,flashlight,0.75186,0.69434,0.68997,0.68394,0.67646
+190,pet food,food,blood collection center,firewood,medicine,dry food,0.77404,0.72663,0.70711,0.69795,0.68941
+191,,drinking water,food,firewood,dry food,blood collection center,0.79263,0.73637,0.72917,0.72249,0.69687
+192,,food,flashlight,interpreter,medicine,first aid kit,0.7199,0.69686,0.68054,0.67273,0.66681
+193,tent,food,flashlight,first aid kit,sleeping bag,tent,0.74888,0.74449,0.7369,0.7366,0.72762
+194,blanket;spare clothes,food,flashlight,sleeping bag,blanket,coat,0.80185,0.77072,0.77016,0.76706,0.75472
+195,,children's playground,food,flashlight,interpreter,medicine,0.73078,0.71961,0.71232,0.70898,0.70844
+196,,food,volunteers,medical team,equipment for disabled people,blood collection center,0.76708,0.753,0.72128,0.71916,0.71411
+197,psychological support team,flashlight,food,toothpaste,sleeping bag,medicine,0.75477,0.74666,0.72232,0.71869,0.71617
+198,,food,interpreter,tent,flashlight,psychological support team,0.73556,0.69963,0.67247,0.66923,0.66911
+199,,food,children's playground,flashlight,generator,interpreter,0.75111,0.7432,0.73052,0.71744,0.71413
+200,,food,medicine,tent,interpreter,children's playground,0.68601,0.65394,0.65083,0.64985,0.63721
+201,,food,interpreter,blood collection center,tent,firewood,0.63504,0.61143,0.60913,0.59808,0.59517
+202,,interpreter,psychological support team,food,children's playground,blood collection center,0.63282,0.61599,0.60674,0.5913,0.58725
+203,,food,children's playground,firewood,medicine,blood collection center,0.71011,0.70826,0.7018,0.69578,0.68836
+204,,food,interpreter,blood collection center,generator,psychological support team,0.70557,0.69409,0.67816,0.64995,0.64794
+205,,food,medicine,flashlight,first aid kit,tent,0.7656,0.71735,0.70889,0.70003,0.6937
+206,,sleeping bag,flashlight,heating stove,tent,food,0.82197,0.79936,0.76707,0.76322,0.75217

@@ -1,0 +1,618 @@
+﻿id,gercek,top1,top2,top3,top4,top5,s1,s2,s3,s4,s5
+1,coat,coat,search and rescue team,hot meal,first aid kit,spare clothes,0.5309,0.49553,0.49161,0.48846,0.48456
+3,medicine,medical team,psychological support team,medicine,search and rescue team,first aid kit,0.53089,0.5147,0.5081,0.50527,0.48639
+4,bandage,first aid kit,search and rescue team,bandage,medical team,equipment for disabled people,0.54698,0.53551,0.53171,0.51388,0.49631
+6,soap,search and rescue team,soap,medical team,portable toilet,cleaning product,0.5474,0.53262,0.50591,0.48712,0.48708
+9,lantern,search and rescue team,equipment for disabled people,spare clothes,medical team,first aid kit,0.47297,0.46569,0.4628,0.44998,0.44693
+12,life jacket,life jacket,search and rescue team,children's playground,medical team,psychological support team,0.54422,0.53966,0.48427,0.47281,0.46944
+13,search and rescue team,search and rescue team,medical team,first aid kit,spare clothes,children's playground,0.52937,0.43795,0.42964,0.42076,0.42071
+14,baby formula;security forces,baby formula,pet food,bread,search and rescue team,diaper,0.58396,0.52037,0.50051,0.49764,0.48763
+16,medical team,search and rescue team,medical team,psychological support team,spare clothes,volunteers,0.54537,0.51517,0.46948,0.45751,0.44258
+21,medicine,medicine,medical team,heart medicine,oxygen concentrator,painkiller,0.52734,0.51406,0.49638,0.46989,0.46535
+27,dry food,dry food,hot meal,food,medical team,salt-free and sugar-free food,0.59411,0.50739,0.507,0.48322,0.47424
+28,oxygen concentrator,oxygen concentrator,equipment for disabled people,medical team,search and rescue team,diaper,0.62741,0.55195,0.53842,0.5089,0.49933
+29,bread;baby formula;soap,search and rescue team,medical team,baby formula,first aid kit,bread,0.52523,0.51208,0.51197,0.50882,0.49631
+30,life jacket,volunteers,search and rescue team,medical team,spare clothes,life jacket,0.54354,0.54274,0.53888,0.52503,0.51672
+31,children's playground,children's playground,search and rescue team,medical team,psychological support team,first aid kit,0.66949,0.50546,0.47166,0.46255,0.45111
+33,medical team;generator;coat,medical team,search and rescue team,equipment for disabled people,psychological support team,first aid kit,0.56998,0.55953,0.50953,0.50335,0.4962
+36,drinking water,drinking water,medical team,search and rescue team,bread,baby formula,0.57875,0.49315,0.4925,0.49089,0.45708
+38,blanket,spare clothes,blanket,lighting equipment,first aid kit,search and rescue team,0.50935,0.50311,0.49881,0.49213,0.4736
+42,medical team,medical team,search and rescue team,psychological support team,first aid kit,volunteers,0.57933,0.56391,0.50794,0.49193,0.48095
+49,medicine,fever reducer,search and rescue team,medical team,allergy medication,psychological support team,0.52441,0.5144,0.50924,0.50103,0.49203
+55,search and rescue team,medical team,search and rescue team,first aid kit,oxygen concentrator,equipment for disabled people,0.58671,0.57415,0.52847,0.50691,0.50556
+61,fever reducer,fever reducer,medical team,search and rescue team,children's playground,psychological support team,0.58738,0.56614,0.54812,0.50635,0.48897
+62,volunteers,volunteers,medical team,search and rescue team,psychological support team,first aid kit,0.60909,0.58694,0.57197,0.56251,0.50681
+63,drinking water;coat;insulin,insulin,medical team,search and rescue team,pet food,hot meal,0.54152,0.48884,0.48839,0.48664,0.47737
+66,dry food,dry food,hot meal,bread,medical team,food,0.56912,0.48714,0.47934,0.47734,0.47632
+67,search and rescue team,search and rescue team,medical team,volunteers,equipment for disabled people,salt-free and sugar-free food,0.56448,0.4996,0.4765,0.46501,0.45297
+74,drinking water;medical team,medical team,drinking water,search and rescue team,hot meal,mask,0.55796,0.55298,0.51085,0.47828,0.46662
+75,children's playground;flashlight,children's playground,search and rescue team,equipment for disabled people,tent,lighting equipment,0.60649,0.47962,0.46783,0.46583,0.45878
+77,drinking water;diaper,diaper,cleaning product,baby formula,children's playground,search and rescue team,0.5513,0.51034,0.49743,0.48886,0.4868
+83,medical team,search and rescue team,medical team,psychological support team,volunteers,security forces,0.57636,0.57171,0.49655,0.48905,0.46369
+85,antibiotic,medical team,search and rescue team,volunteers,antibiotic,first aid kit,0.58873,0.58351,0.5754,0.54616,0.5326
+86,bread,bread,search and rescue team,hot meal,baby formula,dry food,0.50289,0.49789,0.4953,0.49232,0.49202
+89,antibiotic;food,medical team,search and rescue team,first aid kit,antibiotic,hot meal,0.55399,0.50949,0.48588,0.48555,0.4846
+90,pet food,pet food,lighting equipment,search and rescue team,salt-free and sugar-free food,children's playground,0.48725,0.48039,0.4704,0.45222,0.43258
+94,volunteers;power bank,volunteers,search and rescue team,medical team,first aid kit,power bank,0.56767,0.55186,0.49839,0.47651,0.47543
+100,antibiotic;flashlight,medical team,search and rescue team,antibiotic,kitchenware,first aid kit,0.54905,0.52018,0.51978,0.50221,0.50024
+104,wet wipes,cleaning product,wet wipes,kitchenware,spare clothes,container housing,0.54962,0.5375,0.4777,0.46415,0.46385
+106,dry food,psychological support team,dry food,first aid kit,medical team,search and rescue team,0.53078,0.5083,0.49919,0.48636,0.48234
+108,toothpaste;battery-powered radio,battery-powered radio,search and rescue team,medical team,toothpaste,batteries,0.57396,0.53841,0.53702,0.49361,0.48726
+116,drinking water,drinking water,search and rescue team,medical team,hot meal,first aid kit,0.57345,0.50336,0.49497,0.48822,0.48437
+118,napkin;sleeping bag;mask,mask,sleeping bag,medical team,napkin,spare clothes,0.55436,0.54255,0.53357,0.52034,0.51794
+126,blanket;baby formula;container housing,baby formula,pet food,blanket,container housing,portable toilet,0.61354,0.56873,0.5165,0.5143,0.50825
+130,fever reducer,fever reducer,search and rescue team,medical team,painkiller,hot meal,0.56734,0.56352,0.53809,0.49747,0.4833
+136,heart medicine,medical team,search and rescue team,heart medicine,psychological support team,first aid kit,0.52806,0.51009,0.49625,0.48998,0.48423
+137,tent,search and rescue team,medical team,sleeping bag,spare clothes,tent,0.53657,0.52364,0.48768,0.48015,0.47763
+139,first aid kit,first aid kit,equipment for disabled people,search and rescue team,medical team,spare clothes,0.61389,0.54867,0.52085,0.51994,0.51125
+147,tent;firewood;search and rescue team,search and rescue team,first aid kit,tent,medical team,psychological support team,0.64188,0.55406,0.53168,0.5266,0.51223
+164,gluten free food,gluten free food,salt-free and sugar-free food,dry food,food,hot meal,0.68278,0.61184,0.53949,0.50921,0.48933
+167,generator,equipment for disabled people,medical team,spare clothes,power bank,first aid kit,0.4876,0.48545,0.48178,0.47976,0.46602
+168,hot meal;cold medicine,cold medicine,hot meal,medical team,medicine,search and rescue team,0.56488,0.54971,0.51732,0.51362,0.51148
+172,sleeping bag,sleeping bag,spare clothes,lighting equipment,cleaning product,first aid kit,0.70842,0.54673,0.52639,0.51176,0.50159
+173,food,medical team,search and rescue team,psychological support team,first aid kit,food,0.60858,0.55295,0.54565,0.51783,0.50342
+174,power bank,power bank,pet food,blood collection center,lighting equipment,equipment for disabled people,0.59591,0.48923,0.48345,0.47197,0.47086
+175,dry food,dry food,food,pet food,gluten free food,kitchenware,0.64974,0.55656,0.51935,0.50143,0.50017
+176,oxygen concentrator,oxygen concentrator,medical team,equipment for disabled people,search and rescue team,blood collection center,0.61839,0.54421,0.5168,0.50963,0.47958
+178,drinking water,drinking water,medical team,search and rescue team,blood collection center,cash,0.5649,0.47068,0.45805,0.43811,0.42813
+179,medicine;fever reducer,medical team,search and rescue team,blood collection center,first aid kit,medicine,0.58628,0.54068,0.52621,0.52016,0.51194
+182,salt-free and sugar-free food,salt-free and sugar-free food,gluten free food,dry food,hot meal,insulin,0.59601,0.577,0.53696,0.48819,0.4827
+184,life jacket,search and rescue team,medical team,first aid kit,life jacket,spare clothes,0.56375,0.51234,0.49294,0.47387,0.46018
+186,security forces,security forces,search and rescue team,medical team,equipment for disabled people,lighting equipment,0.55027,0.50806,0.48094,0.47234,0.44063
+189,fever reducer,fever reducer,painkiller,asthma medicine,allergy medication,heart medicine,0.70825,0.57791,0.51545,0.4933,0.49257
+190,flashlight,pet food,lantern,first aid kit,search and rescue team,kitchenware,0.504,0.4992,0.4717,0.47035,0.46203
+191,psychological support team;asthma medicine;tent,psychological support team,medical team,search and rescue team,asthma medicine,first aid kit,0.60913,0.55986,0.55549,0.55294,0.5314
+192,pots and pans;salt-free and sugar-free food,salt-free and sugar-free food,gluten free food,hot meal,pots and pans,dry food,0.64206,0.57855,0.49152,0.48504,0.48243
+195,coat,baby formula,spare clothes,coat,first aid kit,mask,0.52769,0.51883,0.50129,0.50111,0.4947
+196,generator;toothpaste;electric heater,toothpaste,kitchenware,electric heater,cleaning product,lighting equipment,0.5939,0.55369,0.55022,0.53994,0.52836
+199,lantern,lighting equipment,lantern,kitchenware,sleeping bag,medical team,0.50213,0.50202,0.49133,0.45304,0.44442
+200,dry food;hot meal,dry food,hot meal,food,search and rescue team,medical team,0.57898,0.56187,0.53792,0.4926,0.47848
+202,batteries;baby bottle,baby bottle,diaper,spare clothes,baby formula,portable toilet,0.58189,0.53118,0.51904,0.51014,0.50982
+205,antibiotic;dry food,antibiotic,dry food,medical team,search and rescue team,first aid kit,0.56673,0.51487,0.50839,0.50634,0.48965
+208,tent,tent,spare clothes,first aid kit,children's playground,search and rescue team,0.58434,0.48129,0.48007,0.46288,0.46255
+214,psychological support team,psychological support team,search and rescue team,medical team,first aid kit,equipment for disabled people,0.7117,0.58924,0.58504,0.50923,0.48472
+216,tent;oxygen concentrator,oxygen concentrator,tent,first aid kit,blood collection center,search and rescue team,0.58438,0.55791,0.55026,0.52525,0.51515
+217,dry food;lighting equipment;toothbrush,hot meal,kitchenware,dry food,lighting equipment,medical team,0.54112,0.5139,0.5068,0.49772,0.4964
+219,volunteers;food,medical team,volunteers,search and rescue team,psychological support team,first aid kit,0.56629,0.51658,0.48788,0.48072,0.46606
+220,dry food,dry food,food,search and rescue team,medical team,first aid kit,0.54653,0.47857,0.47626,0.47152,0.47088
+221,diaper;sleeping bag,sleeping bag,diaper,spare clothes,children's playground,baby formula,0.57336,0.52782,0.49606,0.49026,0.48379
+225,generator,equipment for disabled people,generator,spare clothes,portable toilet,lighting equipment,0.63481,0.52254,0.5033,0.49725,0.49299
+231,wet wipes,wet wipes,cleaning product,dry food,spare clothes,baby formula,0.65088,0.49032,0.47103,0.47057,0.46766
+241,baby formula,baby formula,pet food,diaper,dry food,children's playground,0.59028,0.52982,0.49971,0.48113,0.47981
+271,medical team,medical team,search and rescue team,psychological support team,first aid kit,blood collection center,0.61337,0.60075,0.54195,0.53406,0.47997
+285,medical team,search and rescue team,medical team,first aid kit,equipment for disabled people,psychological support team,0.56983,0.56927,0.50853,0.49618,0.47799
+292,medical team,search and rescue team,medical team,first aid kit,psychological support team,equipment for disabled people,0.61376,0.58931,0.52115,0.51875,0.49988
+296,drinking water,drinking water,medical team,search and rescue team,first aid kit,psychological support team,0.57592,0.54289,0.5398,0.49788,0.496
+303,cleaning product;diaper,cleaning product,first aid kit,search and rescue team,diaper,spare clothes,0.56461,0.51066,0.50868,0.49709,0.49609
+304,oxygen concentrator,search and rescue team,medical team,psychological support team,first aid kit,spare clothes,0.62168,0.60103,0.57619,0.56264,0.51683
+305,pet food;power bank,pet food,power bank,equipment for disabled people,first aid kit,spare clothes,0.5471,0.53088,0.52532,0.52127,0.51328
+309,blanket;container housing;power bank,power bank,sleeping bag,container housing,blanket,lighting equipment,0.63295,0.55355,0.54644,0.53628,0.52033
+310,heating stove,heating stove,hot meal,kitchenware,lighting equipment,spare clothes,0.55146,0.51136,0.49879,0.48644,0.48607
+313,sleeping bag,sleeping bag,search and rescue team,spare clothes,first aid kit,medical team,0.60493,0.54841,0.53984,0.53511,0.52667
+316,sleeping bag;diaper;generator,spare clothes,sleeping bag,lighting equipment,medical team,oxygen concentrator,0.51942,0.50451,0.50038,0.49724,0.48785
+320,tent,tent,search and rescue team,blood collection center,medical team,first aid kit,0.66229,0.54836,0.53136,0.50367,0.49676
+322,equipment for disabled people,equipment for disabled people,children's playground,first aid kit,psychological support team,medical team,0.59608,0.49002,0.48595,0.47679,0.47153
+324,blanket,pet food,spare clothes,search and rescue team,blanket,lighting equipment,0.51012,0.50143,0.49811,0.49393,0.48979
+326,food,hot meal,children's playground,pet food,baby formula,kitchenware,0.61002,0.60961,0.58189,0.57977,0.56562
+335,fever reducer;firewood,search and rescue team,medical team,hot meal,first aid kit,children's playground,0.55936,0.53435,0.50265,0.48048,0.47954
+338,bread,search and rescue team,first aid kit,hot meal,equipment for disabled people,kitchenware,0.52969,0.52895,0.51317,0.51069,0.50043
+344,blanket,spare clothes,sleeping bag,first aid kit,mask,baby formula,0.55086,0.53853,0.51724,0.50341,0.49492
+350,pots and pans,search and rescue team,medical team,kitchenware,electrical field team,volunteers,0.52775,0.49283,0.47643,0.47219,0.46574
+357,generator;interpreter,search and rescue team,first aid kit,psychological support team,medical team,electrical field team,0.52576,0.50153,0.4789,0.47819,0.47277
+359,generator,search and rescue team,first aid kit,equipment for disabled people,security forces,medical team,0.54854,0.50015,0.49058,0.4843,0.48109
+363,cold medicine;heart medicine,heart medicine,cold medicine,medicine,asthma medicine,allergy medication,0.644,0.58578,0.56157,0.54467,0.51225
+365,tent;diaper,tent,spare clothes,hot meal,search and rescue team,children's playground,0.60132,0.55055,0.4955,0.48154,0.478
+368,sleeping bag;batteries,sleeping bag,spare clothes,medical team,search and rescue team,psychological support team,0.62724,0.60319,0.57444,0.56668,0.55245
+381,fever reducer;heart medicine,heart medicine,fever reducer,medical team,hot meal,lighting equipment,0.57164,0.53664,0.51616,0.48938,0.47793
+382,gluten free food;heart medicine,gluten free food,salt-free and sugar-free food,hot meal,dry food,heart medicine,0.57652,0.52731,0.5104,0.50978,0.5064
+383,search and rescue team,search and rescue team,medical team,psychological support team,first aid kit,security forces,0.65853,0.56132,0.53892,0.50957,0.48803
+384,soap;first aid kit;baby formula,first aid kit,medical team,search and rescue team,spare clothes,baby formula,0.57933,0.55524,0.53041,0.51645,0.51592
+391,napkin,napkin,first aid kit,search and rescue team,medical team,psychological support team,0.58643,0.56235,0.54535,0.52826,0.52543
+401,bandage,medical team,first aid kit,search and rescue team,psychological support team,volunteers,0.64245,0.60968,0.60042,0.55386,0.50468
+403,lighting equipment;tent;lantern,tent,lighting equipment,kitchenware,equipment for disabled people,lantern,0.62964,0.56622,0.53588,0.532,0.52058
+404,fever reducer,fever reducer,children's playground,first aid kit,search and rescue team,equipment for disabled people,0.66986,0.54293,0.49309,0.49178,0.47965
+405,fever reducer;painkiller,medical team,painkiller,search and rescue team,medicine,hot meal,0.5349,0.52482,0.50048,0.49505,0.49289
+408,security forces,search and rescue team,security forces,medical team,pet food,children's playground,0.56317,0.51002,0.49529,0.48662,0.44051
+413,electric heater;dry food,hot meal,kitchenware,first aid kit,search and rescue team,dry food,0.53832,0.52386,0.5191,0.51637,0.51565
+417,container housing;cleaning product,cleaning product,container housing,medical team,equipment for disabled people,security forces,0.5586,0.53898,0.49222,0.49125,0.482
+419,cash;insulin,insulin,medical team,lighting equipment,medicine,blood collection center,0.56342,0.50252,0.48002,0.46847,0.46718
+420,security forces;allergy medication,allergy medication,security forces,cold medicine,medical team,asthma medicine,0.58936,0.52216,0.50088,0.50049,0.49882
+424,mask,medical team,mask,search and rescue team,volunteers,first aid kit,0.54058,0.52475,0.50422,0.47364,0.46283
+428,toothpaste;toothbrush;medicine,toothpaste,toothbrush,medical team,cleaning product,kitchenware,0.61276,0.55861,0.52763,0.47915,0.47223
+431,batteries,medical team,oxygen concentrator,search and rescue team,lighting equipment,equipment for disabled people,0.4654,0.45005,0.44414,0.44173,0.43913
+432,adhesive bandage;kitchenware;insulin,medical team,kitchenware,equipment for disabled people,medicine,first aid kit,0.52987,0.52085,0.50986,0.50237,0.49672
+435,heating stove,heating stove,hot meal,medical team,search and rescue team,soap,0.59697,0.54139,0.5413,0.48939,0.45963
+441,power bank,power bank,cash,lighting equipment,spare clothes,equipment for disabled people,0.60628,0.51483,0.49158,0.49128,0.46822
+444,dry food;fever reducer,search and rescue team,medical team,first aid kit,dry food,fever reducer,0.53835,0.51279,0.50822,0.48552,0.46578
+446,sleeping bag,sleeping bag,spare clothes,search and rescue team,blood collection center,tent,0.60995,0.52261,0.49108,0.47608,0.47534
+449,mask;power bank;heating stove,power bank,medical team,mask,heating stove,search and rescue team,0.55066,0.52077,0.52006,0.49393,0.48837
+453,dry food,dry food,medical team,food,search and rescue team,hot meal,0.56683,0.50506,0.50309,0.49245,0.46488
+454,toothpaste,toothpaste,cleaning product,toothbrush,kitchenware,mask,0.72107,0.60677,0.57148,0.52168,0.50878
+461,baby bottle;coat,baby bottle,baby formula,spare clothes,first aid kit,cash,0.57495,0.52329,0.52125,0.50239,0.4798
+463,hot meal,hot meal,medical team,salt-free and sugar-free food,dry food,spare clothes,0.60914,0.49522,0.48529,0.48356,0.48151
+466,drinking water;medicine,drinking water,search and rescue team,medical team,medicine,cleaning product,0.54054,0.53611,0.53346,0.51855,0.47907
+469,baby formula,baby formula,pet food,diaper,search and rescue team,dry food,0.63467,0.56192,0.50833,0.48176,0.47755
+470,first aid kit,first aid kit,equipment for disabled people,search and rescue team,medical team,spare clothes,0.73893,0.55451,0.54849,0.54098,0.52158
+472,gluten free food;equipment for disabled people,gluten free food,salt-free and sugar-free food,equipment for disabled people,first aid kit,kitchenware,0.59856,0.54999,0.51133,0.49847,0.48383
+476,medicine,medicine,painkiller,allergy medication,cash,first aid kit,0.55677,0.49594,0.49002,0.48149,0.47733
+480,first aid kit;container housing,first aid kit,container housing,kitchenware,equipment for disabled people,medical team,0.64364,0.50548,0.50049,0.49983,0.49805
+482,food;wet wipes;first aid kit,first aid kit,medical team,search and rescue team,hot meal,spare clothes,0.60319,0.54795,0.54326,0.49618,0.49551
+483,baby bottle;interpreter,interpreter,baby bottle,medical team,search and rescue team,psychological support team,0.60468,0.59608,0.49993,0.49933,0.48314
+485,napkin,napkin,baby formula,diaper,psychological support team,children's playground,0.58564,0.5719,0.54974,0.49857,0.4964
+486,cash;salt-free and sugar-free food,salt-free and sugar-free food,gluten free food,cash,hot meal,kitchenware,0.60849,0.58835,0.53953,0.5232,0.50335
+487,search and rescue team;fever reducer,search and rescue team,medical team,psychological support team,first aid kit,fever reducer,0.65724,0.61167,0.54652,0.50378,0.49621
+489,power bank,power bank,blood collection center,lighting equipment,equipment for disabled people,cash,0.6174,0.48626,0.47514,0.46636,0.44522
+491,fever reducer,fever reducer,first aid kit,search and rescue team,children's playground,medical team,0.64451,0.52222,0.50935,0.50898,0.50292
+493,dry food,medical team,search and rescue team,volunteers,psychological support team,spare clothes,0.63038,0.59404,0.59165,0.58804,0.55507
+495,kitchenware,kitchenware,equipment for disabled people,salt-free and sugar-free food,hot meal,cash,0.61828,0.49048,0.48271,0.48013,0.47876
+501,drinking water;asthma medicine,drinking water,asthma medicine,search and rescue team,medical team,first aid kit,0.5799,0.54103,0.50829,0.4972,0.49312
+509,container housing,container housing,search and rescue team,volunteers,first aid kit,tent,0.53969,0.47773,0.47167,0.46357,0.46256
+513,battery-powered radio;kitchenware,battery-powered radio,spare clothes,kitchenware,first aid kit,search and rescue team,0.55723,0.53758,0.53709,0.52953,0.51328
+519,electric heater;medicine,electric heater,lighting equipment,hot meal,medical team,first aid kit,0.6194,0.55128,0.51823,0.51143,0.5105
+523,portable toilet,portable toilet,equipment for disabled people,medical team,kitchenware,drinking water,0.59724,0.48735,0.47994,0.44681,0.44487
+532,toothpaste;portable toilet,toothpaste,medical team,search and rescue team,first aid kit,portable toilet,0.5383,0.53251,0.51039,0.50719,0.50333
+539,medical team;napkin,medical team,search and rescue team,psychological support team,first aid kit,spare clothes,0.66068,0.58742,0.55181,0.51767,0.50427
+545,psychological support team,psychological support team,search and rescue team,medical team,security forces,first aid kit,0.62425,0.59908,0.58323,0.51225,0.48915
+549,medicine,medical team,medicine,psychological support team,search and rescue team,first aid kit,0.53846,0.52937,0.48279,0.46979,0.46521
+550,tent;medical team,medical team,search and rescue team,tent,first aid kit,psychological support team,0.57342,0.56966,0.56604,0.52743,0.52212
+561,antibiotic,antibiotic,medical team,spare clothes,painkiller,volunteers,0.60033,0.51515,0.49728,0.47587,0.47489
+562,psychological support team,medical team,search and rescue team,psychological support team,first aid kit,painkiller,0.52628,0.51791,0.48258,0.46466,0.45982
+566,hot meal,hot meal,medical team,search and rescue team,bread,psychological support team,0.57606,0.5743,0.54082,0.53849,0.52771
+570,cold medicine;power bank,power bank,medical team,medicine,lighting equipment,equipment for disabled people,0.57039,0.50391,0.48522,0.48475,0.47498
+571,tent,tent,spare clothes,portable toilet,equipment for disabled people,first aid kit,0.63411,0.50953,0.50891,0.48999,0.48132
+572,bread;portable toilet;toothpaste,medical team,kitchenware,portable toilet,cleaning product,first aid kit,0.55157,0.54077,0.54024,0.53969,0.53456
+575,container housing,children's playground,container housing,search and rescue team,medical team,first aid kit,0.50992,0.50594,0.4905,0.47548,0.45587
+578,blanket;kitchenware,kitchenware,first aid kit,lighting equipment,hot meal,spare clothes,0.57278,0.54852,0.53456,0.52051,0.51332
+581,psychological support team;blanket,search and rescue team,psychological support team,first aid kit,medical team,spare clothes,0.57006,0.56332,0.55099,0.53523,0.52195
+582,electric heater,electric heater,hot meal,lighting equipment,kitchenware,electrical field team,0.62734,0.52409,0.52271,0.49271,0.49022
+585,spare clothes,spare clothes,first aid kit,equipment for disabled people,search and rescue team,volunteers,0.68975,0.52198,0.50115,0.50087,0.4835
+588,antibiotic;search and rescue team;portable toilet,medical team,search and rescue team,pet food,hot meal,life jacket,0.53082,0.5252,0.48678,0.46033,0.45996
+589,hot meal,hot meal,volunteers,kitchenware,search and rescue team,medical team,0.60393,0.55015,0.54446,0.51331,0.50587
+590,container housing,container housing,search and rescue team,spare clothes,volunteers,cleaning product,0.54775,0.49807,0.49488,0.4765,0.47329
+593,bread,salt-free and sugar-free food,gluten free food,search and rescue team,pet food,dry food,0.51852,0.51557,0.51153,0.50698,0.50412
+595,insulin,insulin,medical team,psychological support team,blood collection center,oxygen concentrator,0.59703,0.47495,0.46926,0.46875,0.44458
+597,cash,cash,first aid kit,search and rescue team,medical team,kitchenware,0.49626,0.49356,0.48382,0.47754,0.46616
+604,baby bottle,baby bottle,baby formula,spare clothes,first aid kit,diaper,0.5983,0.52421,0.50203,0.50144,0.49338
+606,napkin,cleaning product,sanitary pad,napkin,spare clothes,kitchenware,0.52671,0.51176,0.5048,0.49655,0.49433
+608,medical team,medical team,search and rescue team,psychological support team,equipment for disabled people,first aid kit,0.58249,0.55447,0.55019,0.4807,0.46621
+611,dry food,dry food,kitchenware,canned food,baby formula,pet food,0.5646,0.52043,0.49826,0.48279,0.48163
+614,blanket,spare clothes,first aid kit,medical team,search and rescue team,equipment for disabled people,0.56737,0.54042,0.54003,0.53776,0.53155
+615,fever reducer,fever reducer,search and rescue team,medical team,blood collection center,children's playground,0.62572,0.51469,0.50638,0.49596,0.49149
+619,lighting equipment,lighting equipment,medical team,search and rescue team,spare clothes,first aid kit,0.52877,0.45884,0.4402,0.43814,0.43489
+620,batteries;volunteers,volunteers,medical team,search and rescue team,first aid kit,psychological support team,0.63309,0.55148,0.55036,0.52361,0.50848
+622,tent,tent,search and rescue team,spare clothes,first aid kit,cash,0.58648,0.53463,0.52755,0.49757,0.48271
+625,tent,tent,search and rescue team,salt-free and sugar-free food,lighting equipment,gluten free food,0.5908,0.44886,0.43581,0.42224,0.41732
+626,medical team;pots and pans,medical team,search and rescue team,pots and pans,equipment for disabled people,first aid kit,0.60085,0.51833,0.51374,0.46978,0.45823
+628,napkin,medical team,baby formula,equipment for disabled people,first aid kit,spare clothes,0.50636,0.5015,0.49766,0.48338,0.48299
+630,blanket;portable toilet,portable toilet,cleaning product,kitchenware,sleeping bag,lighting equipment,0.60352,0.53575,0.51628,0.49722,0.48968
+633,baby formula,baby formula,pet food,dry food,baby bottle,bread,0.57749,0.54353,0.47249,0.46067,0.44333
+634,gluten free food,gluten free food,dry food,food,volunteers,salt-free and sugar-free food,0.53652,0.49743,0.48907,0.48084,0.47056
+637,dry food,dry food,food,pet food,hot meal,search and rescue team,0.63587,0.52938,0.52238,0.50242,0.49965
+638,generator,power bank,lighting equipment,equipment for disabled people,electric heater,generator,0.55271,0.54059,0.49743,0.47891,0.47502
+639,oxygen concentrator,oxygen concentrator,medical team,equipment for disabled people,search and rescue team,first aid kit,0.69378,0.58118,0.55942,0.53166,0.52351
+641,electric heater,electric heater,first aid kit,search and rescue team,hot meal,equipment for disabled people,0.59819,0.55335,0.54473,0.54039,0.52618
+642,dry food;volunteers,volunteers,search and rescue team,medical team,psychological support team,tent,0.5686,0.5105,0.50463,0.49188,0.49157
+644,tent;power bank,tent,search and rescue team,power bank,security forces,equipment for disabled people,0.59709,0.55747,0.55747,0.5418,0.53567
+647,medicine;electrical field team,medical team,search and rescue team,electrical field team,equipment for disabled people,psychological support team,0.59699,0.54879,0.51896,0.51294,0.49795
+652,generator;search and rescue team,search and rescue team,medical team,electrical field team,first aid kit,equipment for disabled people,0.58585,0.53454,0.49668,0.49347,0.47653
+675,fever reducer,medical team,search and rescue team,diaper,children's playground,baby formula,0.507,0.50281,0.47345,0.46904,0.46777
+679,interpreter;blanket,interpreter,psychological support team,spare clothes,medical team,blanket,0.61299,0.53066,0.52576,0.51519,0.5071
+681,lighting equipment,lighting equipment,equipment for disabled people,lantern,volunteers,first aid kit,0.59983,0.54427,0.51721,0.51677,0.51303
+682,sleeping bag,sleeping bag,lighting equipment,spare clothes,tent,cleaning product,0.70681,0.50098,0.49338,0.49234,0.46969
+687,pots and pans,kitchenware,hot meal,spare clothes,pots and pans,tent,0.59128,0.5217,0.48793,0.48112,0.46665
+688,spare clothes;dry food;baby bottle,dry food,spare clothes,food,kitchenware,baby formula,0.61605,0.57195,0.54308,0.50322,0.49757
+690,tent;first aid kit,first aid kit,tent,search and rescue team,medical team,volunteers,0.64475,0.58814,0.52355,0.49569,0.49533
+691,heart medicine,heart medicine,asthma medicine,painkiller,medicine,medical team,0.61418,0.52363,0.4875,0.48189,0.46348
+692,salt-free and sugar-free food,salt-free and sugar-free food,gluten free food,dry food,hot meal,search and rescue team,0.54959,0.52587,0.51319,0.48554,0.47961
+696,pots and pans,kitchenware,hot meal,search and rescue team,first aid kit,medical team,0.58803,0.57142,0.55467,0.54005,0.53795
+697,bread;pet food,pet food,baby formula,hot meal,gluten free food,dry food,0.57851,0.49478,0.48255,0.47214,0.4676
+698,canned food;blood,blood collection center,medical team,search and rescue team,volunteers,kitchenware,0.57775,0.50679,0.48503,0.46461,0.46026
+699,antibiotic,antibiotic,painkiller,asthma medicine,equipment for disabled people,portable toilet,0.54878,0.49694,0.47918,0.47326,0.45941
+700,mask,mask,oxygen concentrator,toothbrush,medical team,equipment for disabled people,0.5292,0.46786,0.4456,0.43816,0.42973
+702,blanket;medical team,medical team,search and rescue team,first aid kit,spare clothes,tent,0.48658,0.48467,0.47301,0.46102,0.44604
+704,spare clothes,spare clothes,wet wipes,search and rescue team,tent,volunteers,0.5971,0.50305,0.49527,0.49338,0.49238
+709,spare clothes;hot meal,spare clothes,hot meal,medical team,search and rescue team,cash,0.62346,0.60491,0.52129,0.51212,0.50157
+714,electric heater,electric heater,lighting equipment,electrical field team,search and rescue team,hot meal,0.65209,0.55137,0.53204,0.52982,0.51517
+717,blanket,medical team,blanket,first aid kit,search and rescue team,spare clothes,0.53966,0.524,0.52106,0.50624,0.50572
+718,sanitary pad,sanitary pad,portable toilet,cleaning product,diaper,volunteers,0.60083,0.48472,0.44277,0.42965,0.41862
+721,drinking water,drinking water,search and rescue team,dry food,lighting equipment,medical team,0.54395,0.4975,0.47324,0.47139,0.46015
+724,security forces,medical team,search and rescue team,blood collection center,security forces,psychological support team,0.56468,0.54806,0.51782,0.50201,0.4596
+728,generator;first aid kit,first aid kit,search and rescue team,equipment for disabled people,psychological support team,medical team,0.55436,0.51154,0.47688,0.46978,0.46678
+731,cold medicine,cold medicine,medical team,hot meal,asthma medicine,search and rescue team,0.505,0.50139,0.48727,0.46571,0.46215
+736,hot meal;life jacket,hot meal,medical team,search and rescue team,life jacket,blood collection center,0.53842,0.52238,0.51928,0.50649,0.47956
+740,bread,bread,hot meal,first aid kit,medical team,kitchenware,0.54067,0.53448,0.49684,0.49607,0.49515
+760,first aid kit;psychological support team,first aid kit,search and rescue team,medical team,psychological support team,equipment for disabled people,0.68121,0.58559,0.58102,0.56955,0.53524
+761,tent,tent,search and rescue team,cash,psychological support team,spare clothes,0.63558,0.5001,0.46291,0.45848,0.45655
+767,battery-powered radio;toothpaste,medical team,toothpaste,cleaning product,toothbrush,battery-powered radio,0.50892,0.50847,0.50207,0.49429,0.47594
+769,blanket;food,hot meal,first aid kit,kitchenware,medical team,search and rescue team,0.55943,0.55889,0.55025,0.54337,0.53718
+770,baby bottle,baby bottle,portable toilet,diaper,spare clothes,baby formula,0.57286,0.54358,0.53887,0.51821,0.51359
+774,antibiotic,search and rescue team,medical team,psychological support team,first aid kit,spare clothes,0.55402,0.53706,0.49012,0.48517,0.46605
+777,tent;medicine,search and rescue team,medical team,volunteers,first aid kit,psychological support team,0.62099,0.57799,0.57627,0.55073,0.5415
+780,sanitary pad;blanket,sanitary pad,first aid kit,medical team,search and rescue team,spare clothes,0.57039,0.5667,0.55447,0.54675,0.53529
+781,pots and pans,kitchenware,hot meal,pots and pans,spare clothes,bread,0.58387,0.56766,0.52445,0.51634,0.51025
+782,sleeping bag;gluten free food,sleeping bag,gluten free food,salt-free and sugar-free food,spare clothes,children's playground,0.55867,0.54922,0.53171,0.52008,0.50563
+785,pet food,pet food,kitchenware,search and rescue team,dry food,first aid kit,0.55902,0.52407,0.50706,0.50605,0.50593
+786,medical team,search and rescue team,medical team,psychological support team,first aid kit,equipment for disabled people,0.60795,0.57039,0.52726,0.52034,0.48517
+788,wet wipes,cleaning product,spare clothes,kitchenware,baby formula,first aid kit,0.53835,0.50565,0.4987,0.49462,0.49101
+790,search and rescue team,search and rescue team,medical team,psychological support team,first aid kit,equipment for disabled people,0.60841,0.54851,0.50949,0.49982,0.4647
+793,cash;painkiller,medical team,cash,search and rescue team,psychological support team,painkiller,0.53028,0.52904,0.52571,0.52397,0.52162
+802,cold medicine;sleeping bag,search and rescue team,medical team,spare clothes,sleeping bag,first aid kit,0.55272,0.5421,0.53509,0.52488,0.52202
+811,coat;antibiotic,medical team,spare clothes,antibiotic,search and rescue team,hot meal,0.54253,0.53774,0.51399,0.51189,0.50314
+813,spare clothes;cold medicine,spare clothes,hot meal,mask,fever reducer,medical team,0.55669,0.52374,0.49584,0.47969,0.47873
+840,generator,medical team,lighting equipment,search and rescue team,electrical field team,equipment for disabled people,0.5087,0.49657,0.48888,0.47917,0.47887
+846,electric heater,electric heater,hot meal,lighting equipment,pet food,kitchenware,0.61044,0.51452,0.49676,0.48128,0.47449
+847,gluten free food;medicine,gluten free food,salt-free and sugar-free food,hot meal,dry food,food,0.56148,0.51859,0.51157,0.50695,0.47662
+848,sleeping bag,sleeping bag,spare clothes,lighting equipment,mask,volunteers,0.67537,0.55263,0.53278,0.50728,0.5007
+852,volunteers;search and rescue team,search and rescue team,volunteers,medical team,psychological support team,security forces,0.65678,0.61192,0.54364,0.51945,0.46652
+854,pet food,pet food,baby formula,food,sanitary pad,hot meal,0.59443,0.53388,0.47048,0.46563,0.44519
+859,blanket;blood,blood collection center,first aid kit,medical team,spare clothes,search and rescue team,0.53072,0.51843,0.50373,0.49036,0.49004
+860,coat,coat,search and rescue team,medical team,equipment for disabled people,security forces,0.51035,0.49948,0.49126,0.47989,0.47341
+861,psychological support team;food,psychological support team,hot meal,first aid kit,medical team,search and rescue team,0.58475,0.52104,0.49837,0.49577,0.48511
+862,search and rescue team,search and rescue team,medical team,children's playground,psychological support team,first aid kit,0.59994,0.51919,0.48781,0.48637,0.47454
+863,cleaning product;blanket,cleaning product,baby formula,soap,kitchenware,portable toilet,0.65392,0.5242,0.51204,0.49151,0.48067
+867,baby formula,baby formula,diaper,search and rescue team,first aid kit,medical team,0.53803,0.49174,0.48403,0.46882,0.46406
+868,coat,tent,spare clothes,search and rescue team,first aid kit,pet food,0.53927,0.51229,0.49895,0.49837,0.49416
+870,medical team,medical team,search and rescue team,psychological support team,electrical field team,first aid kit,0.65468,0.61581,0.54968,0.486,0.48116
+871,medicine,medicine,medical team,pet food,heart medicine,search and rescue team,0.52136,0.50245,0.50087,0.47269,0.47123
+875,baby formula,baby formula,pet food,hot meal,children's playground,diaper,0.62258,0.59276,0.49058,0.49045,0.47713
+876,first aid kit,first aid kit,medical team,equipment for disabled people,search and rescue team,psychological support team,0.76667,0.53091,0.52919,0.52898,0.50636
+878,food,search and rescue team,medical team,hot meal,dry food,first aid kit,0.50995,0.49173,0.48089,0.47909,0.45602
+880,hot meal,search and rescue team,medical team,hot meal,psychological support team,spare clothes,0.65285,0.62637,0.62143,0.56958,0.56613
+881,coat;electric heater,search and rescue team,hot meal,first aid kit,electric heater,medical team,0.55918,0.53275,0.52234,0.5175,0.50757
+887,cash;psychological support team,psychological support team,medical team,first aid kit,interpreter,cash,0.57,0.52126,0.51689,0.5092,0.50298
+890,electric heater,electric heater,lighting equipment,spare clothes,electrical field team,hot meal,0.60769,0.53681,0.51737,0.50443,0.49857
+891,generator;mask;container housing,pet food,search and rescue team,first aid kit,container housing,medical team,0.51866,0.5063,0.50039,0.48304,0.48192
+892,electric heater,volunteers,electric heater,search and rescue team,psychological support team,medical team,0.62505,0.60325,0.57682,0.56772,0.56738
+894,wet wipes;coat;electric heater,electric heater,first aid kit,kitchenware,lighting equipment,hot meal,0.5587,0.55095,0.54609,0.54124,0.53376
+897,security forces;blood collection center,blood collection center,medical team,security forces,search and rescue team,volunteers,0.59153,0.53317,0.53288,0.52465,0.47219
+899,life jacket,life jacket,search and rescue team,medical team,psychological support team,spare clothes,0.55094,0.53264,0.52631,0.50509,0.49615
+902,flashlight,lighting equipment,search and rescue team,equipment for disabled people,flashlight,spare clothes,0.53112,0.46585,0.46236,0.45249,0.45194
+903,blanket;coat,search and rescue team,medical team,spare clothes,lighting equipment,hot meal,0.55701,0.53221,0.52071,0.49786,0.49768
+904,mask,mask,medical team,blood collection center,oxygen concentrator,spare clothes,0.54642,0.52698,0.48601,0.48225,0.48141
+908,search and rescue team,search and rescue team,medical team,first aid kit,psychological support team,security forces,0.61205,0.52062,0.49274,0.48115,0.43246
+909,baby formula,baby formula,pet food,diaper,dry food,spare clothes,0.63317,0.55736,0.49506,0.48259,0.46211
+914,napkin,napkin,first aid kit,search and rescue team,psychological support team,volunteers,0.55293,0.506,0.49728,0.49317,0.48192
+917,lantern,medical team,search and rescue team,equipment for disabled people,electrical field team,lighting equipment,0.56209,0.5349,0.48882,0.481,0.4802
+918,batteries,search and rescue team,security forces,equipment for disabled people,electrical field team,spare clothes,0.52297,0.5082,0.50361,0.50318,0.49877
+919,salt-free and sugar-free food,salt-free and sugar-free food,gluten free food,search and rescue team,dry food,medical team,0.59769,0.5536,0.53715,0.50125,0.49791
+920,cold medicine,cold medicine,medical team,allergy medication,pet food,asthma medicine,0.61128,0.51579,0.50107,0.50008,0.48948
+926,sleeping bag;medical team;flashlight,search and rescue team,medical team,sleeping bag,first aid kit,psychological support team,0.60193,0.58906,0.55591,0.53319,0.52571
+927,equipment for disabled people;kitchenware;drinking water,kitchenware,equipment for disabled people,portable toilet,first aid kit,cleaning product,0.62386,0.59156,0.54873,0.51459,0.5075
+929,lighting equipment,lighting equipment,search and rescue team,medical team,electrical field team,equipment for disabled people,0.5816,0.5153,0.47789,0.44703,0.44664
+930,pet food,pet food,lighting equipment,baby formula,search and rescue team,children's playground,0.56771,0.54626,0.51632,0.49333,0.48975
+932,adhesive bandage;medical team,medical team,search and rescue team,psychological support team,adhesive bandage,first aid kit,0.61979,0.56309,0.47774,0.47729,0.46494
+933,cold medicine;heart medicine,cold medicine,heart medicine,medicine,asthma medicine,medical team,0.60742,0.59564,0.52229,0.5148,0.49657
+936,insulin;coat,insulin,hot meal,medical team,first aid kit,spare clothes,0.56129,0.51813,0.5137,0.49104,0.47401
+938,cleaning product;cash,cleaning product,sleeping bag,medical team,spare clothes,first aid kit,0.54045,0.51665,0.50737,0.50169,0.50164
+939,adhesive bandage,search and rescue team,medical team,blood collection center,adhesive bandage,first aid kit,0.57843,0.55678,0.52332,0.48183,0.47628
+940,pet food,pet food,search and rescue team,baby formula,psychological support team,medical team,0.5036,0.46463,0.44622,0.43606,0.42718
+942,dry food,search and rescue team,dry food,medical team,first aid kit,psychological support team,0.54037,0.50961,0.50674,0.505,0.48204
+943,container housing;sleeping bag,container housing,sleeping bag,equipment for disabled people,portable toilet,kitchenware,0.55266,0.5358,0.5356,0.49944,0.48095
+945,medicine,painkiller,medicine,fever reducer,medical team,baby formula,0.49935,0.48997,0.48786,0.48335,0.4774
+948,psychological support team;tent,psychological support team,tent,search and rescue team,medical team,first aid kit,0.57056,0.52383,0.51077,0.50334,0.46965
+949,tent,tent,children's playground,search and rescue team,first aid kit,spare clothes,0.64873,0.60255,0.55189,0.51381,0.50593
+952,bread,search and rescue team,medical team,hot meal,dry food,bread,0.51791,0.50477,0.49549,0.47715,0.46641
+954,soap;asthma medicine,medical team,pet food,soap,cleaning product,asthma medicine,0.53855,0.51174,0.50462,0.49552,0.49352
+956,spare clothes,spare clothes,baby formula,sleeping bag,hot meal,dry food,0.5555,0.50137,0.48959,0.47518,0.47343
+957,blanket,lighting equipment,spare clothes,medical team,mask,hot meal,0.53384,0.52306,0.51827,0.49875,0.49621
+959,medicine;batteries;dry food,medical team,dry food,lighting equipment,search and rescue team,food,0.50465,0.50443,0.47518,0.47206,0.46391
+961,search and rescue team;coat,search and rescue team,medical team,psychological support team,first aid kit,electrical field team,0.66567,0.56441,0.51917,0.50522,0.50284
+969,drinking water,drinking water,baby formula,medical team,search and rescue team,hot meal,0.59352,0.51961,0.49927,0.48852,0.48687
+970,tent,tent,sleeping bag,spare clothes,hot meal,search and rescue team,0.58785,0.47289,0.46782,0.4443,0.44184
+972,drinking water,drinking water,portable toilet,soap,insulin,sanitary pad,0.525,0.52326,0.47072,0.46808,0.4665
+973,toothpaste;baby formula,toothbrush,baby formula,medical team,kitchenware,cleaning product,0.49742,0.47077,0.47,0.46561,0.46182
+974,medical team;blanket,medical team,search and rescue team,first aid kit,psychological support team,hot meal,0.62816,0.60701,0.55581,0.53442,0.48459
+978,painkiller;food,painkiller,gluten free food,equipment for disabled people,salt-free and sugar-free food,hot meal,0.5473,0.51202,0.47971,0.47798,0.47557
+980,kitchenware,kitchenware,hot meal,medical team,equipment for disabled people,search and rescue team,0.6054,0.4905,0.48285,0.46318,0.46264
+982,cold medicine;blanket,cold medicine,allergy medication,pet food,medical team,asthma medicine,0.60997,0.48942,0.48187,0.47063,0.46557
+983,wet wipes,wet wipes,cleaning product,medical team,lighting equipment,search and rescue team,0.58847,0.53337,0.50085,0.47299,0.47009
+986,search and rescue team,search and rescue team,medical team,psychological support team,first aid kit,equipment for disabled people,0.65004,0.55789,0.5378,0.5036,0.4692
+989,kitchenware,volunteers,kitchenware,medical team,search and rescue team,spare clothes,0.5975,0.57316,0.54535,0.51697,0.51446
+995,tent,tent,children's playground,search and rescue team,medical team,first aid kit,0.61076,0.52516,0.50321,0.48001,0.46991
+996,food,dry food,search and rescue team,medical team,bread,psychological support team,0.52561,0.50303,0.49825,0.48939,0.48702
+997,security forces,security forces,medical team,search and rescue team,psychological support team,lighting equipment,0.54427,0.49924,0.48515,0.41942,0.41804
+998,generator,spare clothes,first aid kit,search and rescue team,lighting equipment,hot meal,0.50017,0.49761,0.49171,0.48675,0.48608
+1003,salt-free and sugar-free food,salt-free and sugar-free food,gluten free food,dry food,drinking water,hot meal,0.60764,0.55898,0.53102,0.50727,0.50322
+1005,search and rescue team;blanket,search and rescue team,medical team,first aid kit,psychological support team,spare clothes,0.65342,0.58199,0.55081,0.53386,0.52122
+1008,cold medicine;lighting equipment,medical team,lighting equipment,search and rescue team,equipment for disabled people,medicine,0.53493,0.51813,0.48109,0.47555,0.46845
+1012,pots and pans,kitchenware,hot meal,search and rescue team,pots and pans,medical team,0.57707,0.54553,0.53429,0.50836,0.49873
+1017,life jacket;bandage,search and rescue team,medical team,children's playground,life jacket,spare clothes,0.5,0.48842,0.47659,0.47116,0.47067
+1018,gluten free food,gluten free food,salt-free and sugar-free food,dry food,hot meal,food,0.64615,0.57772,0.5001,0.44547,0.43643
+1020,cleaning product;search and rescue team,cleaning product,search and rescue team,spare clothes,kitchenware,medical team,0.62796,0.53329,0.5034,0.50109,0.50101
+1022,drinking water,drinking water,equipment for disabled people,search and rescue team,portable toilet,medical team,0.54466,0.49275,0.48368,0.48031,0.46411
+1023,container housing;coat,container housing,spare clothes,coat,lighting equipment,medical team,0.51346,0.49778,0.49152,0.48101,0.47322
+1024,spare clothes;dry food,spare clothes,kitchenware,dry food,first aid kit,hot meal,0.58395,0.52298,0.48538,0.47924,0.47871
+1027,drinking water,drinking water,search and rescue team,medical team,baby bottle,first aid kit,0.58309,0.51822,0.47567,0.47038,0.463
+1031,dry food;baby formula,dry food,baby formula,gluten free food,pet food,diaper,0.60379,0.57518,0.53507,0.52803,0.52627
+1038,dry food;pots and pans,dry food,kitchenware,hot meal,food,search and rescue team,0.56309,0.52178,0.51669,0.51641,0.5114
+1041,baby formula;search and rescue team,baby formula,search and rescue team,pet food,medical team,psychological support team,0.64883,0.64011,0.58141,0.57303,0.51027
+1044,drinking water;generator;battery-powered radio,equipment for disabled people,battery-powered radio,search and rescue team,medical team,first aid kit,0.52678,0.51326,0.50063,0.49195,0.48189
+1055,generator;psychological support team,psychological support team,volunteers,medical team,search and rescue team,first aid kit,0.59036,0.5466,0.53484,0.52285,0.4906
+1061,pots and pans;children's playground,children's playground,pet food,pots and pans,equipment for disabled people,search and rescue team,0.63529,0.59033,0.52554,0.48442,0.48286
+1070,antibiotic,antibiotic,medical team,blood collection center,hot meal,children's playground,0.49667,0.47935,0.45641,0.43459,0.43367
+1072,medical team,medical team,search and rescue team,psychological support team,security forces,first aid kit,0.62524,0.59076,0.51576,0.5153,0.49365
+1074,coat,medical team,search and rescue team,psychological support team,spare clothes,electrical field team,0.60592,0.59494,0.54143,0.53115,0.51764
+1076,flashlight;food;first aid kit,first aid kit,search and rescue team,medical team,blood collection center,kitchenware,0.60394,0.57565,0.54289,0.52362,0.50844
+1077,drinking water;food,hot meal,baby formula,first aid kit,drinking water,diaper,0.53237,0.53162,0.50877,0.49729,0.47865
+1079,drinking water,drinking water,medical team,baby formula,children's playground,search and rescue team,0.60823,0.53962,0.53317,0.53255,0.51252
+1082,dry food,dry food,pet food,food,blood collection center,salt-free and sugar-free food,0.57777,0.56938,0.4775,0.45997,0.45936
+1083,first aid kit;drinking water,first aid kit,search and rescue team,medical team,psychological support team,spare clothes,0.66441,0.53044,0.52544,0.48049,0.46417
+1084,coat;lighting equipment,coat,lighting equipment,search and rescue team,spare clothes,first aid kit,0.53291,0.52991,0.50868,0.50414,0.4984
+1085,sleeping bag,sleeping bag,portable toilet,salt-free and sugar-free food,spare clothes,equipment for disabled people,0.62608,0.53636,0.53477,0.51614,0.51188
+1088,allergy medication;insulin,allergy medication,insulin,painkiller,asthma medicine,medical team,0.52925,0.52209,0.49842,0.49543,0.47722
+1089,pots and pans,kitchenware,hot meal,search and rescue team,pots and pans,food,0.52352,0.50943,0.50628,0.47158,0.46829
+1092,napkin,napkin,medical team,search and rescue team,equipment for disabled people,lantern,0.57839,0.57748,0.50979,0.48916,0.48235
+1097,napkin;search and rescue team,search and rescue team,medical team,first aid kit,napkin,spare clothes,0.58622,0.54092,0.53817,0.50816,0.49538
+1100,wet wipes,wet wipes,pet food,volunteers,life jacket,lighting equipment,0.59553,0.51276,0.5062,0.4746,0.46323
+1102,napkin;medical team,search and rescue team,medical team,first aid kit,psychological support team,napkin,0.63075,0.60167,0.54675,0.53856,0.51517
+1103,generator,lighting equipment,generator,equipment for disabled people,search and rescue team,electrical field team,0.50197,0.47522,0.47511,0.46909,0.46683
+1104,oxygen concentrator,oxygen concentrator,equipment for disabled people,medical team,search and rescue team,first aid kit,0.60756,0.53495,0.52788,0.51197,0.49498
+1105,pet food,pet food,baby formula,hot meal,salt-free and sugar-free food,children's playground,0.54709,0.52348,0.49171,0.49139,0.46757
+1110,sleeping bag,spare clothes,sleeping bag,hot meal,search and rescue team,salt-free and sugar-free food,0.55421,0.51665,0.50617,0.50548,0.49816
+1113,first aid kit,medical team,first aid kit,equipment for disabled people,baby formula,kitchenware,0.57484,0.54105,0.53634,0.51798,0.49929
+1115,electric heater,electric heater,lighting equipment,children's playground,hot meal,electrical field team,0.63229,0.53463,0.49254,0.48641,0.47572
+1118,security forces;sleeping bag,sleeping bag,medical team,search and rescue team,blood collection center,equipment for disabled people,0.60203,0.54865,0.52718,0.5103,0.49686
+1120,medical team,medical team,first aid kit,search and rescue team,psychological support team,equipment for disabled people,0.61479,0.57096,0.55963,0.49763,0.49276
+1125,bandage,search and rescue team,medical team,first aid kit,bandage,equipment for disabled people,0.56828,0.56375,0.52646,0.52526,0.50668
+1127,mask;drinking water,mask,medical team,drinking water,blood collection center,cleaning product,0.53978,0.52822,0.51743,0.51684,0.51035
+1129,hot meal,hot meal,kitchenware,medical team,bread,spare clothes,0.67421,0.53782,0.52737,0.51969,0.51584
+1131,medical team,medical team,search and rescue team,diaper,psychological support team,baby formula,0.59049,0.50618,0.49866,0.47343,0.47053
+1132,blanket;antibiotic;power bank,medical team,first aid kit,power bank,search and rescue team,spare clothes,0.56701,0.551,0.54702,0.5428,0.52177
+1133,blanket;blood,medical team,search and rescue team,blood collection center,first aid kit,volunteers,0.58061,0.56126,0.50223,0.49587,0.49557
+1138,flashlight,spare clothes,equipment for disabled people,first aid kit,search and rescue team,kitchenware,0.52825,0.52241,0.51774,0.51254,0.50273
+1139,baby formula;container housing,baby formula,pet food,children's playground,medical team,search and rescue team,0.59281,0.52633,0.5239,0.49035,0.48777
+1141,tent;drinking water,tent,drinking water,search and rescue team,hot meal,first aid kit,0.56117,0.51553,0.49522,0.49291,0.47898
+1142,tent;sleeping bag,tent,first aid kit,spare clothes,search and rescue team,sleeping bag,0.55788,0.53836,0.5248,0.51027,0.49272
+1148,fever reducer,fever reducer,search and rescue team,first aid kit,lighting equipment,spare clothes,0.6764,0.53006,0.51236,0.49572,0.49506
+1149,hot meal;blanket,pet food,hot meal,children's playground,search and rescue team,baby formula,0.56092,0.5449,0.48606,0.48182,0.48137
+1152,search and rescue team,search and rescue team,medical team,adhesive bandage,baby formula,psychological support team,0.58892,0.56604,0.47679,0.47102,0.4628
+1156,medicine;spare clothes,spare clothes,medical team,first aid kit,medicine,search and rescue team,0.66407,0.55625,0.53555,0.52902,0.51987
+1160,hot meal,hot meal,medical team,search and rescue team,food,drinking water,0.62947,0.56162,0.53253,0.50454,0.50103
+1165,blood collection center;blanket;fever reducer,medical team,blood collection center,search and rescue team,fever reducer,first aid kit,0.58958,0.5864,0.52276,0.52232,0.51971
+1166,drinking water,search and rescue team,drinking water,medical team,hot meal,first aid kit,0.57201,0.56599,0.54317,0.49346,0.49048
+1170,mask;blanket,mask,medical team,spare clothes,first aid kit,equipment for disabled people,0.51981,0.47576,0.45793,0.45663,0.44191
+1176,bread,bread,volunteers,first aid kit,hot meal,search and rescue team,0.50788,0.49639,0.48482,0.48392,0.48066
+1184,baby formula,baby formula,pet food,medical team,search and rescue team,diaper,0.59701,0.54054,0.51414,0.49573,0.48838
+1186,generator,equipment for disabled people,lighting equipment,generator,first aid kit,search and rescue team,0.49925,0.48798,0.48247,0.47991,0.47943
+1188,power bank;pet food;tent,volunteers,tent,pet food,power bank,first aid kit,0.56427,0.54458,0.53946,0.529,0.50404
+1195,gluten free food;hardware tools,gluten free food,salt-free and sugar-free food,dry food,food,medical team,0.60567,0.53308,0.50129,0.49703,0.4938
+1212,baby formula,baby formula,pet food,blood collection center,first aid kit,hot meal,0.58749,0.53499,0.47957,0.46278,0.44547
+1218,electric heater,electric heater,equipment for disabled people,medical team,first aid kit,spare clothes,0.55739,0.53952,0.52818,0.52695,0.51516
+1219,drinking water,drinking water,medical team,first aid kit,search and rescue team,kitchenware,0.55059,0.494,0.49201,0.4669,0.4642
+1225,napkin,napkin,kitchenware,hot meal,lighting equipment,portable toilet,0.67166,0.47142,0.46367,0.43969,0.43847
+1226,flashlight,lighting equipment,children's playground,search and rescue team,baby formula,lantern,0.5399,0.51586,0.49394,0.49364,0.48937
+1227,drinking water;search and rescue team,search and rescue team,medical team,psychological support team,first aid kit,equipment for disabled people,0.65742,0.55851,0.54017,0.4809,0.48075
+1230,generator,generator,volunteers,power bank,interpreter,lighting equipment,0.49087,0.46878,0.44935,0.44633,0.4444
+1231,food,volunteers,medical team,search and rescue team,psychological support team,first aid kit,0.55518,0.52524,0.51599,0.49106,0.47854
+1233,sleeping bag,sleeping bag,search and rescue team,first aid kit,spare clothes,medical team,0.62949,0.5516,0.54089,0.51862,0.49181
+1234,hot meal;lighting equipment,hot meal,lighting equipment,medical team,kitchenware,search and rescue team,0.60724,0.52246,0.50652,0.48996,0.46479
+1235,baby formula;spare clothes;equipment for disabled people,baby formula,spare clothes,pet food,equipment for disabled people,cash,0.63296,0.57701,0.56903,0.53128,0.51442
+1241,generator;tent;pots and pans,kitchenware,spare clothes,first aid kit,equipment for disabled people,medical team,0.49826,0.49079,0.4874,0.4843,0.47396
+1242,medical team;pots and pans,medical team,search and rescue team,psychological support team,pots and pans,first aid kit,0.667,0.59195,0.55356,0.48529,0.47057
+1244,blanket,children's playground,lighting equipment,medical team,spare clothes,blanket,0.47422,0.47072,0.45622,0.45501,0.44721
+1247,cleaning product,equipment for disabled people,cleaning product,first aid kit,kitchenware,portable toilet,0.63551,0.61305,0.52408,0.51851,0.51394
+1248,drinking water,drinking water,portable toilet,search and rescue team,spare clothes,cleaning product,0.52506,0.46567,0.45602,0.44978,0.44667
+1249,sanitary pad;cash;drinking water,sanitary pad,drinking water,cleaning product,spare clothes,kitchenware,0.62499,0.5395,0.5311,0.52855,0.52594
+1250,medical team;adhesive bandage;search and rescue team,search and rescue team,medical team,lighting equipment,psychological support team,equipment for disabled people,0.59359,0.57615,0.50231,0.47746,0.46482
+1252,bandage;security forces;portable toilet,first aid kit,medical team,search and rescue team,equipment for disabled people,spare clothes,0.54092,0.53942,0.5293,0.52483,0.51659
+1253,drinking water;lighting equipment;power bank,search and rescue team,lighting equipment,power bank,medical team,equipment for disabled people,0.54819,0.54239,0.52097,0.50771,0.48987
+1254,antibiotic;insulin;sleeping bag,sleeping bag,antibiotic,spare clothes,insulin,medical team,0.58114,0.54246,0.53814,0.53552,0.53086
+1255,gluten free food;equipment for disabled people,equipment for disabled people,gluten free food,food,salt-free and sugar-free food,dry food,0.57669,0.558,0.50711,0.50563,0.49068
+1259,blanket;hot meal;baby formula,baby formula,hot meal,pet food,medical team,children's playground,0.58437,0.55497,0.53993,0.49965,0.49481
+1261,first aid kit;heating stove,first aid kit,medical team,spare clothes,search and rescue team,hot meal,0.60701,0.57003,0.53162,0.53101,0.51421
+1264,drinking water,pet food,search and rescue team,drinking water,hot meal,dry food,0.51043,0.48877,0.48745,0.45928,0.45075
+1266,power bank;generator,power bank,electrical field team,equipment for disabled people,spare clothes,search and rescue team,0.58644,0.52631,0.48637,0.48279,0.47709
+1268,heart medicine;electric heater,electric heater,heart medicine,medical team,first aid kit,hot meal,0.56001,0.54334,0.51196,0.50987,0.50857
+1270,first aid kit,first aid kit,equipment for disabled people,spare clothes,psychological support team,search and rescue team,0.7199,0.53375,0.53343,0.52995,0.5154
+1271,generator,generator,power bank,equipment for disabled people,first aid kit,lighting equipment,0.5455,0.50377,0.50084,0.49106,0.48964
+1272,drinking water;flashlight,search and rescue team,drinking water,first aid kit,lighting equipment,equipment for disabled people,0.55203,0.5316,0.52065,0.51389,0.51277
+1274,pots and pans;napkin;coat,kitchenware,napkin,spare clothes,hot meal,first aid kit,0.61097,0.53828,0.53221,0.52909,0.50887
+1275,pots and pans,pots and pans,first aid kit,equipment for disabled people,medical team,search and rescue team,0.56469,0.53488,0.50456,0.50233,0.49172
+1283,fever reducer;blood collection center,blood collection center,fever reducer,search and rescue team,medical team,children's playground,0.60417,0.59829,0.51829,0.50463,0.49765
+1284,hot meal;cold medicine,cold medicine,hot meal,dry food,medical team,food,0.5954,0.59305,0.53719,0.52267,0.51311
+1299,medicine;drinking water,medicine,medical team,drinking water,search and rescue team,first aid kit,0.52954,0.50906,0.49647,0.49157,0.47706
+1300,wet wipes,wet wipes,spare clothes,search and rescue team,portable toilet,lighting equipment,0.57109,0.49454,0.48144,0.47391,0.47341
+1301,cash,cash,search and rescue team,first aid kit,dry food,spare clothes,0.5464,0.50293,0.50218,0.48307,0.48019
+1305,drinking water;portable toilet,portable toilet,first aid kit,search and rescue team,cleaning product,container housing,0.60254,0.56268,0.49349,0.48501,0.48424
+1319,fever reducer,fever reducer,medical team,blood collection center,search and rescue team,hot meal,0.56158,0.49571,0.48709,0.4815,0.48103
+1331,medical team,medical team,search and rescue team,psychological support team,first aid kit,children's playground,0.61793,0.61571,0.56798,0.51802,0.48709
+1332,medical team,medical team,search and rescue team,psychological support team,equipment for disabled people,volunteers,0.609,0.58288,0.5285,0.50647,0.49212
+1335,toothpaste,toothpaste,pet food,medical team,blood collection center,first aid kit,0.54726,0.52654,0.49986,0.48979,0.47926
+1338,food,first aid kit,food,kitchenware,search and rescue team,dry food,0.50185,0.49154,0.4867,0.48426,0.47242
+1339,mask,mask,medical team,first aid kit,search and rescue team,spare clothes,0.58197,0.55578,0.4712,0.46179,0.4614
+1342,fever reducer;soap,fever reducer,medical team,soap,cleaning product,search and rescue team,0.55394,0.55291,0.53438,0.53103,0.52479
+1344,search and rescue team,search and rescue team,medical team,first aid kit,psychological support team,equipment for disabled people,0.68453,0.58561,0.565,0.52416,0.48169
+1345,bread;portable toilet,portable toilet,children's playground,kitchenware,cleaning product,medical team,0.59381,0.52118,0.51954,0.51456,0.50709
+1347,fever reducer,fever reducer,lighting equipment,search and rescue team,first aid kit,electrical field team,0.59322,0.51814,0.51432,0.4699,0.46476
+1350,power bank;wet wipes,children's playground,medical team,search and rescue team,electrical field team,equipment for disabled people,0.54733,0.53288,0.52023,0.50026,0.496
+1351,electric heater;food,search and rescue team,kitchenware,first aid kit,spare clothes,lighting equipment,0.51485,0.49494,0.49348,0.49306,0.49056
+1356,canned food;hot meal,hot meal,search and rescue team,medical team,canned food,first aid kit,0.558,0.49998,0.49889,0.49502,0.47788
+1357,salt-free and sugar-free food;diaper;psychological support team,psychological support team,salt-free and sugar-free food,gluten free food,medical team,search and rescue team,0.58199,0.55158,0.53507,0.53045,0.51552
+1360,drinking water,drinking water,medical team,search and rescue team,psychological support team,mask,0.55495,0.48009,0.47418,0.46615,0.46497
+1366,adhesive bandage,first aid kit,search and rescue team,medical team,equipment for disabled people,spare clothes,0.50475,0.49918,0.49488,0.48176,0.47042
+1367,coat,search and rescue team,medical team,spare clothes,psychological support team,first aid kit,0.6392,0.61484,0.57659,0.56201,0.54639
+1369,medicine,painkiller,psychological support team,medical team,heart medicine,medicine,0.48031,0.44216,0.43841,0.4232,0.42266
+1372,container housing;bread;cold medicine,container housing,medical team,bread,food,search and rescue team,0.56398,0.53895,0.50308,0.4974,0.4945
+1381,cleaning product,medical team,cleaning product,search and rescue team,kitchenware,first aid kit,0.56218,0.54733,0.54028,0.51636,0.50198
+1384,medical team,search and rescue team,medical team,psychological support team,first aid kit,volunteers,0.63496,0.62041,0.5445,0.52948,0.49722
+1391,first aid kit,first aid kit,medical team,search and rescue team,psychological support team,equipment for disabled people,0.68573,0.52738,0.51137,0.49143,0.47829
+1393,bandage,bandage,medical team,spare clothes,first aid kit,search and rescue team,0.57935,0.48676,0.47994,0.47954,0.46775
+1395,life jacket,volunteers,search and rescue team,spare clothes,first aid kit,medical team,0.56075,0.47363,0.46731,0.44742,0.42544
+1396,medicine,medicine,medical team,search and rescue team,painkiller,psychological support team,0.52884,0.52056,0.48742,0.47661,0.47608
+1397,asthma medicine,asthma medicine,search and rescue team,volunteers,medical team,first aid kit,0.56766,0.55087,0.54135,0.53849,0.51232
+1400,diaper;lantern,diaper,baby formula,blood collection center,children's playground,spare clothes,0.50567,0.48082,0.46993,0.46987,0.46293
+1406,cleaning product,cleaning product,kitchenware,portable toilet,soap,medical team,0.58604,0.51119,0.50637,0.50332,0.49148
+1407,fever reducer;hot meal,hot meal,medical team,search and rescue team,fever reducer,first aid kit,0.61365,0.58837,0.56676,0.54378,0.53858
+1409,cleaning product,cleaning product,medical team,kitchenware,soap,sleeping bag,0.63203,0.51285,0.50793,0.49289,0.48643
+1411,pet food;sleeping bag,sleeping bag,spare clothes,pet food,search and rescue team,first aid kit,0.57985,0.52757,0.52553,0.50272,0.48629
+1412,soap,portable toilet,soap,cleaning product,medical team,spare clothes,0.57472,0.57033,0.53788,0.49991,0.48139
+1413,life jacket;fever reducer,fever reducer,medical team,search and rescue team,first aid kit,spare clothes,0.5844,0.56675,0.54054,0.51389,0.4844
+1416,asthma medicine,asthma medicine,medical team,first aid kit,painkiller,search and rescue team,0.51068,0.48112,0.47756,0.47512,0.46789
+1421,fever reducer;power bank,search and rescue team,lighting equipment,medical team,fever reducer,psychological support team,0.54227,0.51693,0.49697,0.47953,0.4728
+1422,power bank;drinking water,power bank,equipment for disabled people,lighting equipment,cash,search and rescue team,0.59323,0.49692,0.48931,0.47298,0.46961
+1424,flashlight,medical team,children's playground,search and rescue team,electrical field team,lighting equipment,0.541,0.53379,0.53226,0.50247,0.49569
+1425,drinking water;medical team,medical team,search and rescue team,drinking water,blood collection center,first aid kit,0.59658,0.54443,0.53532,0.51604,0.50006
+1427,drinking water,search and rescue team,drinking water,medical team,volunteers,psychological support team,0.54148,0.53593,0.4997,0.47901,0.47594
+1429,cleaning product;napkin,cleaning product,pet food,portable toilet,napkin,sleeping bag,0.54505,0.51689,0.47764,0.46866,0.46472
+1438,coat,search and rescue team,medical team,security forces,coat,psychological support team,0.4875,0.47354,0.45543,0.44136,0.43162
+1440,dry food,search and rescue team,first aid kit,pet food,life jacket,psychological support team,0.5135,0.49661,0.48051,0.47383,0.46202
+1441,mask,mask,medical team,search and rescue team,spare clothes,children's playground,0.53974,0.52559,0.48268,0.48114,0.47563
+1443,wet wipes;baby formula,baby formula,wet wipes,pet food,diaper,first aid kit,0.64692,0.5569,0.55427,0.52422,0.51911
+1444,spare clothes,spare clothes,first aid kit,sleeping bag,search and rescue team,medical team,0.67632,0.53312,0.52485,0.52046,0.51086
+1447,generator;drinking water,spare clothes,power bank,equipment for disabled people,first aid kit,hot meal,0.52282,0.50644,0.48976,0.48112,0.47565
+1455,generator,search and rescue team,medical team,equipment for disabled people,power bank,first aid kit,0.54381,0.53399,0.53212,0.5254,0.52012
+1461,food;tent;hot meal,hot meal,tent,food,medical team,dry food,0.61069,0.55708,0.50687,0.50028,0.49812
+1462,food,dry food,search and rescue team,food,tent,first aid kit,0.54843,0.4619,0.44311,0.44186,0.43499
+1466,cash,first aid kit,search and rescue team,cash,medical team,spare clothes,0.56672,0.56483,0.51486,0.50193,0.49982
+1479,tent,tent,search and rescue team,medical team,equipment for disabled people,spare clothes,0.62057,0.53725,0.50093,0.49673,0.49095
+1483,search and rescue team,search and rescue team,medical team,first aid kit,equipment for disabled people,psychological support team,0.62787,0.56236,0.54483,0.51208,0.5091
+1484,kitchenware,kitchenware,blood collection center,medical team,cleaning product,equipment for disabled people,0.60123,0.51878,0.4739,0.47294,0.46933
+1485,spare clothes;search and rescue team,spare clothes,kitchenware,first aid kit,sleeping bag,cash,0.65753,0.5086,0.44947,0.44588,0.44484
+1493,search and rescue team,search and rescue team,medical team,first aid kit,oxygen concentrator,psychological support team,0.57237,0.55142,0.50151,0.48197,0.47854
+1496,toothpaste,toothpaste,toothbrush,medical team,first aid kit,mask,0.67645,0.57102,0.54479,0.54058,0.52489
+1500,diaper,diaper,baby formula,spare clothes,blood collection center,medical team,0.55847,0.51425,0.49039,0.48527,0.48179
+1501,blanket,spare clothes,first aid kit,blanket,lighting equipment,sleeping bag,0.54894,0.53653,0.51786,0.51464,0.51082
+1506,drinking water;volunteers,volunteers,search and rescue team,drinking water,medical team,blood collection center,0.49221,0.49136,0.46274,0.4549,0.43225
+1508,blood,medical team,blood collection center,search and rescue team,psychological support team,first aid kit,0.63605,0.61146,0.55463,0.50001,0.49161
+1509,antibiotic,antibiotic,fever reducer,children's playground,medical team,mask,0.53297,0.51407,0.51113,0.50811,0.47505
+1510,insulin,insulin,medical team,salt-free and sugar-free food,hot meal,gluten free food,0.67208,0.51248,0.48567,0.47993,0.47803
+1511,lighting equipment,lighting equipment,equipment for disabled people,first aid kit,cash,sleeping bag,0.62399,0.56014,0.50804,0.49713,0.48392
+1512,power bank;generator,power bank,children's playground,pet food,electrical field team,generator,0.48583,0.45201,0.43783,0.43582,0.43389
+1513,flashlight;drinking water,drinking water,equipment for disabled people,spare clothes,volunteers,medical team,0.54297,0.53307,0.53068,0.5297,0.52495
+1520,coat;salt-free and sugar-free food,salt-free and sugar-free food,gluten free food,baby formula,cash,hot meal,0.60821,0.57202,0.5263,0.51137,0.50986
+1521,cold medicine;sanitary pad,medical team,search and rescue team,sanitary pad,hot meal,painkiller,0.50556,0.49458,0.47214,0.46902,0.46456
+1524,blanket,spare clothes,sleeping bag,hot meal,first aid kit,mask,0.58284,0.51709,0.51516,0.5081,0.50749
+1526,pet food,pet food,lighting equipment,baby formula,search and rescue team,hot meal,0.54984,0.5106,0.50556,0.48291,0.47259
+1527,bandage,medical team,search and rescue team,first aid kit,equipment for disabled people,spare clothes,0.59117,0.55701,0.55618,0.52208,0.52126
+1528,napkin;medical team,medical team,napkin,search and rescue team,psychological support team,blood collection center,0.58126,0.54045,0.5399,0.52758,0.52519
+1529,napkin,medical team,blood collection center,napkin,search and rescue team,toothbrush,0.51975,0.51514,0.51439,0.49702,0.49365
+1531,kitchenware;spare clothes,spare clothes,first aid kit,kitchenware,equipment for disabled people,cash,0.61781,0.59196,0.58811,0.55792,0.53541
+1532,napkin,napkin,medical team,first aid kit,search and rescue team,kitchenware,0.55276,0.53442,0.53188,0.50512,0.5016
+1533,toothpaste,toothpaste,search and rescue team,medical team,cleaning product,toothbrush,0.63137,0.46934,0.46435,0.45769,0.45227
+1535,batteries,lighting equipment,search and rescue team,medical team,spare clothes,kitchenware,0.55168,0.5005,0.48501,0.48194,0.48047
+1536,toothpaste,toothpaste,toothbrush,medical team,search and rescue team,mask,0.61173,0.52729,0.50999,0.49317,0.47022
+1537,medicine;first aid kit,first aid kit,medical team,medicine,search and rescue team,equipment for disabled people,0.54421,0.49793,0.49793,0.47118,0.46755
+1540,electric heater,electric heater,hot meal,search and rescue team,lighting equipment,first aid kit,0.58655,0.53429,0.52767,0.52212,0.5173
+1541,first aid kit;search and rescue team,search and rescue team,first aid kit,medical team,psychological support team,spare clothes,0.62017,0.60484,0.59724,0.52006,0.49335
+1544,bread,medical team,first aid kit,hot meal,blood collection center,search and rescue team,0.49702,0.48536,0.48231,0.47353,0.46976
+1545,coat;medicine,medical team,lighting equipment,search and rescue team,pet food,medicine,0.50668,0.50558,0.47742,0.46103,0.45216
+1547,tent;drinking water;children's playground,children's playground,tent,lighting equipment,search and rescue team,drinking water,0.58947,0.55913,0.47564,0.45996,0.45233
+1551,food,dry food,medical team,food,spare clothes,hot meal,0.5826,0.49025,0.48808,0.47887,0.47416
+1553,pet food;wet wipes;toothbrush,wet wipes,children's playground,baby formula,search and rescue team,pet food,0.562,0.51845,0.51459,0.50744,0.50271
+1559,portable toilet,portable toilet,spare clothes,cleaning product,medical team,equipment for disabled people,0.64663,0.47787,0.47505,0.46472,0.45111
+1561,dry food,dry food,equipment for disabled people,first aid kit,food,spare clothes,0.63196,0.55371,0.53586,0.53452,0.51748
+1565,salt-free and sugar-free food;generator,gluten free food,salt-free and sugar-free food,baby formula,drinking water,spare clothes,0.50507,0.49985,0.4815,0.46725,0.46681
+1570,baby bottle,baby bottle,baby formula,diaper,pet food,medical team,0.6016,0.49138,0.47142,0.46085,0.45968
+1576,diaper,diaper,baby formula,medical team,baby bottle,spare clothes,0.61431,0.56556,0.52094,0.50403,0.50051
+1581,cleaning product,cleaning product,portable toilet,spare clothes,medical team,kitchenware,0.64162,0.63551,0.5224,0.51856,0.51629
+1582,psychological support team;oxygen concentrator;batteries,psychological support team,search and rescue team,medical team,mask,first aid kit,0.61511,0.55388,0.55229,0.5254,0.51687
+1583,pots and pans;oxygen concentrator,oxygen concentrator,medical team,equipment for disabled people,search and rescue team,blood collection center,0.65919,0.57941,0.56842,0.56408,0.54802
+1595,cleaning product,search and rescue team,first aid kit,medical team,cleaning product,container housing,0.55459,0.49104,0.46592,0.4576,0.45465
+1600,life jacket,life jacket,children's playground,search and rescue team,psychological support team,medical team,0.57798,0.52211,0.50725,0.50127,0.49755
+1603,container housing;blood,search and rescue team,medical team,container housing,volunteers,blood collection center,0.53387,0.52614,0.51089,0.48671,0.48526
+1622,psychological support team,psychological support team,lighting equipment,sleeping bag,volunteers,search and rescue team,0.55022,0.48956,0.47991,0.47075,0.46319
+1634,food;volunteers,volunteers,search and rescue team,medical team,psychological support team,hot meal,0.56751,0.54087,0.5195,0.4928,0.48071
+1637,generator,lighting equipment,electrical field team,equipment for disabled people,search and rescue team,generator,0.53334,0.52112,0.50831,0.49553,0.48322
+1652,batteries,search and rescue team,lighting equipment,medical team,first aid kit,psychological support team,0.48708,0.47223,0.45026,0.42564,0.42302
+1666,sleeping bag;mask,sleeping bag,spare clothes,lighting equipment,hot meal,tent,0.61997,0.53814,0.47906,0.47761,0.47145
+1678,pots and pans,kitchenware,hot meal,pots and pans,bread,spare clothes,0.52387,0.49707,0.48658,0.45877,0.45869
+1680,first aid kit;volunteers,first aid kit,volunteers,search and rescue team,medical team,psychological support team,0.61368,0.58221,0.55686,0.51712,0.50225
+1684,spare clothes;lantern,spare clothes,search and rescue team,sleeping bag,medical team,lighting equipment,0.5606,0.548,0.53697,0.51621,0.50966
+1688,blood,blood collection center,medical team,security forces,search and rescue team,first aid kit,0.56189,0.48676,0.46698,0.46592,0.45076
+1689,bread;hot meal,hot meal,kitchenware,medical team,search and rescue team,first aid kit,0.59902,0.55519,0.53935,0.5308,0.52382
+1695,coat,medical team,search and rescue team,volunteers,coat,mask,0.52397,0.51732,0.50205,0.48992,0.48893
+1700,psychological support team,psychological support team,medical team,search and rescue team,first aid kit,security forces,0.69646,0.63332,0.60395,0.54461,0.51694
+1703,life jacket;insulin,medical team,insulin,search and rescue team,spare clothes,volunteers,0.5813,0.56129,0.53915,0.53441,0.51679
+1708,hot meal,hot meal,medical team,search and rescue team,kitchenware,baby formula,0.6028,0.52018,0.51131,0.50148,0.48027
+1715,wet wipes,children's playground,wet wipes,cleaning product,first aid kit,medical team,0.5398,0.52689,0.49971,0.47564,0.46809
+1716,hot meal;medicine,medical team,hot meal,blood collection center,baby formula,search and rescue team,0.54246,0.52728,0.49333,0.48324,0.4755
+1720,blanket,medical team,search and rescue team,hot meal,spare clothes,mask,0.50587,0.48827,0.48614,0.4814,0.47576
+1736,spare clothes,spare clothes,medical team,first aid kit,mask,search and rescue team,0.64912,0.5438,0.51005,0.4794,0.47367
+1739,sanitary pad;electric heater,first aid kit,electric heater,medical team,search and rescue team,sanitary pad,0.57598,0.53743,0.52683,0.51399,0.51389
+1740,toothpaste;coat,baby formula,toothpaste,pet food,mask,hot meal,0.57985,0.53518,0.5167,0.50129,0.50017
+1742,container housing;salt-free and sugar-free food,salt-free and sugar-free food,gluten free food,container housing,dry food,blood collection center,0.66244,0.6236,0.57196,0.54952,0.49663
+1747,psychological support team,psychological support team,search and rescue team,medical team,children's playground,first aid kit,0.68719,0.59796,0.58726,0.50804,0.49528
+1751,hot meal,hot meal,medical team,volunteers,dry food,search and rescue team,0.6194,0.48252,0.48208,0.48188,0.46977
+1755,electric heater,electric heater,lighting equipment,hot meal,kitchenware,first aid kit,0.61351,0.53217,0.51983,0.49651,0.47412
+1760,hot meal,hot meal,medical team,search and rescue team,kitchenware,baby formula,0.69456,0.57654,0.56042,0.54281,0.53979
+1762,hot meal,hot meal,medical team,search and rescue team,food,baby formula,0.59676,0.52071,0.52,0.49586,0.4879
+1764,drinking water;generator,power bank,search and rescue team,equipment for disabled people,generator,spare clothes,0.488,0.47323,0.46416,0.46345,0.46314
+1765,toothbrush,toothbrush,medical team,portable toilet,first aid kit,search and rescue team,0.52545,0.46965,0.45361,0.4461,0.42988
+1768,dry food,medical team,search and rescue team,first aid kit,dry food,psychological support team,0.57665,0.5448,0.50603,0.49663,0.4962
+1771,adhesive bandage;batteries,first aid kit,batteries,spare clothes,search and rescue team,equipment for disabled people,0.53025,0.50995,0.49055,0.48861,0.47468
+1772,food,food,dry food,kitchenware,search and rescue team,pet food,0.52514,0.5207,0.51432,0.49338,0.49062
+1776,volunteers;tent;baby formula,baby formula,volunteers,pet food,tent,spare clothes,0.59801,0.58407,0.55999,0.54913,0.4685
+1782,mask,mask,medical team,search and rescue team,security forces,spare clothes,0.54026,0.49981,0.4658,0.43244,0.42377
+1790,dry food;psychological support team,psychological support team,medical team,dry food,baby formula,search and rescue team,0.5434,0.53442,0.53122,0.52973,0.51477
+1791,batteries;pet food,pet food,battery-powered radio,medical team,batteries,baby formula,0.50145,0.4817,0.46341,0.44899,0.44511
+1798,salt-free and sugar-free food;medicine,salt-free and sugar-free food,gluten free food,dry food,food,baby formula,0.6277,0.5803,0.50208,0.47224,0.46627
+1800,generator,equipment for disabled people,first aid kit,medical team,search and rescue team,psychological support team,0.56203,0.55078,0.5473,0.52854,0.50135
+1805,drinking water,drinking water,medical team,search and rescue team,psychological support team,children's playground,0.55282,0.49451,0.4892,0.46326,0.46148
+1806,spare clothes;tent;wet wipes,spare clothes,tent,cash,kitchenware,wet wipes,0.64882,0.548,0.51688,0.51513,0.51512
+1808,container housing,container housing,medical team,search and rescue team,volunteers,first aid kit,0.55264,0.53307,0.52602,0.49348,0.4791
+1809,drinking water;search and rescue team,search and rescue team,medical team,drinking water,psychological support team,diaper,0.5546,0.50419,0.45507,0.45265,0.4355
+1811,coat,spare clothes,medical team,mask,search and rescue team,hot meal,0.51361,0.50551,0.47886,0.47568,0.46936
+1815,batteries;psychological support team,lighting equipment,psychological support team,search and rescue team,pet food,medical team,0.52961,0.48311,0.47852,0.46331,0.46005
+1816,oxygen concentrator,oxygen concentrator,equipment for disabled people,medical team,mask,first aid kit,0.6443,0.54666,0.52207,0.50003,0.49421
+1819,adhesive bandage,pet food,medical team,search and rescue team,first aid kit,kitchenware,0.51657,0.48632,0.4822,0.47943,0.46427
+1823,interpreter;tent,interpreter,tent,search and rescue team,medical team,psychological support team,0.59325,0.5173,0.49788,0.49386,0.48655
+1825,gluten free food;baby bottle;spare clothes,spare clothes,gluten free food,dry food,medical team,salt-free and sugar-free food,0.55364,0.52202,0.50953,0.50525,0.50439
+1828,tent,tent,first aid kit,search and rescue team,cash,medical team,0.58478,0.51972,0.5019,0.48618,0.47451
+1831,mask,search and rescue team,medical team,volunteers,first aid kit,psychological support team,0.63957,0.59854,0.57564,0.54361,0.5179
+1833,power bank;medicine,medical team,power bank,medicine,lighting equipment,search and rescue team,0.55538,0.51917,0.50438,0.49124,0.48992
+1836,psychological support team;medicine,psychological support team,medical team,medicine,search and rescue team,security forces,0.55726,0.5258,0.49691,0.48835,0.47124
+1837,kitchenware;sanitary pad,kitchenware,cleaning product,medical team,hot meal,sanitary pad,0.62049,0.52989,0.51825,0.51177,0.51155
+1839,tent,search and rescue team,tent,medical team,first aid kit,children's playground,0.54134,0.53018,0.51465,0.49648,0.4872
+1840,diaper;fever reducer;food,food,spare clothes,baby formula,first aid kit,medical team,0.47996,0.4729,0.46397,0.45839,0.45561
+1841,container housing;interpreter;sleeping bag,interpreter,container housing,sleeping bag,first aid kit,search and rescue team,0.54841,0.53272,0.51798,0.49914,0.49634
+1846,oxygen concentrator;tent,oxygen concentrator,tent,equipment for disabled people,medical team,search and rescue team,0.6531,0.56438,0.55096,0.54563,0.52677
+1849,search and rescue team;drinking water,search and rescue team,medical team,drinking water,psychological support team,first aid kit,0.67327,0.59891,0.53724,0.53635,0.49617
+1857,baby formula,baby formula,pet food,dry food,diaper,blood collection center,0.67197,0.60519,0.50605,0.49907,0.49188
+1859,life jacket;power bank,search and rescue team,medical team,psychological support team,spare clothes,power bank,0.59014,0.5635,0.52869,0.52539,0.51986
+1862,coat,search and rescue team,children's playground,medical team,spare clothes,hot meal,0.52507,0.51002,0.49955,0.48051,0.47803
+1864,batteries,equipment for disabled people,spare clothes,lighting equipment,power bank,electrical field team,0.4702,0.46695,0.46496,0.46356,0.45666
+1867,oxygen concentrator,oxygen concentrator,medical team,search and rescue team,equipment for disabled people,first aid kit,0.61022,0.53007,0.52566,0.50832,0.47888
+1869,first aid kit;baby formula;toothpaste,search and rescue team,medical team,volunteers,toothpaste,psychological support team,0.53197,0.52201,0.51183,0.50785,0.49062
+1870,sanitary pad,sanitary pad,portable toilet,medical team,cleaning product,spare clothes,0.62583,0.52654,0.49078,0.48692,0.4736
+1871,pet food,baby formula,pet food,medical team,diaper,spare clothes,0.52277,0.5015,0.48042,0.4769,0.47258
+1872,pet food;flashlight,pet food,gluten free food,salt-free and sugar-free food,dry food,flashlight,0.53873,0.4995,0.49042,0.4817,0.47502
+1878,sanitary pad;lighting equipment,sanitary pad,lighting equipment,first aid kit,medical team,spare clothes,0.62402,0.60642,0.53547,0.5237,0.51517
+1883,hardware tools;heart medicine,medical team,first aid kit,kitchenware,search and rescue team,heart medicine,0.51034,0.50296,0.49507,0.4924,0.4712
+1884,power bank;lighting equipment,power bank,lighting equipment,spare clothes,cash,search and rescue team,0.58964,0.53684,0.51626,0.51267,0.51256
+1886,hot meal,hot meal,search and rescue team,bread,medical team,dry food,0.59284,0.52754,0.5069,0.5012,0.49128
+1888,flashlight,search and rescue team,first aid kit,medical team,flashlight,equipment for disabled people,0.56803,0.54424,0.53553,0.52047,0.51997
+1889,bandage;napkin,pet food,napkin,first aid kit,search and rescue team,blood collection center,0.49921,0.48791,0.47722,0.45384,0.44823
+1893,blanket,spare clothes,sleeping bag,equipment for disabled people,first aid kit,medical team,0.53748,0.51432,0.51199,0.50453,0.49447
+1894,security forces,security forces,search and rescue team,medical team,blood collection center,hot meal,0.53689,0.52268,0.49885,0.45822,0.4358
+1896,dry food;medical team;lantern,medical team,blood collection center,first aid kit,search and rescue team,dry food,0.5307,0.52479,0.51115,0.49391,0.4918
+1899,toothpaste,toothpaste,toothbrush,cleaning product,drinking water,portable toilet,0.62023,0.54953,0.53981,0.4885,0.48351
+1903,volunteers;firewood,volunteers,search and rescue team,first aid kit,sleeping bag,spare clothes,0.58224,0.53446,0.52386,0.51221,0.50443
+1905,bread;soap,first aid kit,medical team,search and rescue team,soap,kitchenware,0.54766,0.53552,0.52725,0.51048,0.50749
+1907,fever reducer,fever reducer,search and rescue team,first aid kit,children's playground,medical team,0.6244,0.53624,0.50297,0.50034,0.47703
+1908,coat;first aid kit,first aid kit,medical team,search and rescue team,equipment for disabled people,spare clothes,0.63182,0.5446,0.54086,0.50945,0.48195
+1911,search and rescue team,search and rescue team,medical team,psychological support team,first aid kit,pet food,0.59244,0.50631,0.48258,0.47235,0.43763
+1913,antibiotic,antibiotic,medical team,psychological support team,first aid kit,spare clothes,0.54299,0.52325,0.48987,0.48312,0.46557
+1917,heart medicine,heart medicine,medicine,asthma medicine,medical team,spare clothes,0.61514,0.51636,0.48019,0.45361,0.45136
+1919,blanket;search and rescue team,search and rescue team,medical team,hot meal,spare clothes,security forces,0.53204,0.49823,0.4813,0.47644,0.46733
+1921,toothpaste;generator;allergy medication,cleaning product,allergy medication,toothpaste,equipment for disabled people,lighting equipment,0.52225,0.52222,0.50764,0.50407,0.49777
+1923,kitchenware,kitchenware,hot meal,first aid kit,toothbrush,volunteers,0.6151,0.53428,0.50522,0.49998,0.49361
+1927,hot meal;spare clothes,hot meal,spare clothes,medical team,first aid kit,search and rescue team,0.64083,0.61587,0.6109,0.53986,0.52956
+1930,adhesive bandage,security forces,children's playground,search and rescue team,adhesive bandage,baby formula,0.51761,0.51444,0.51128,0.4908,0.48159
+1932,dry food,dry food,search and rescue team,medical team,food,first aid kit,0.52119,0.4889,0.46128,0.45967,0.44851
+1934,baby bottle,baby bottle,first aid kit,baby formula,diaper,medical team,0.65256,0.54337,0.53989,0.51081,0.4939
+1938,cleaning product,cleaning product,kitchenware,search and rescue team,spare clothes,medical team,0.61251,0.52802,0.50869,0.49472,0.48724
+1939,bread,bread,first aid kit,search and rescue team,hot meal,kitchenware,0.54829,0.52858,0.51719,0.5125,0.51039
+1941,oxygen concentrator,oxygen concentrator,blood collection center,medical team,equipment for disabled people,search and rescue team,0.59853,0.51952,0.51458,0.48908,0.46313
+1947,medical team,medical team,search and rescue team,psychological support team,first aid kit,equipment for disabled people,0.66026,0.61995,0.59899,0.58206,0.54556
+1953,adhesive bandage,adhesive bandage,search and rescue team,medical team,first aid kit,spare clothes,0.5538,0.54526,0.52914,0.50552,0.49019
+1954,toothpaste,toothpaste,blood collection center,pet food,cleaning product,toothbrush,0.57488,0.52013,0.51913,0.50807,0.47047
+1959,cleaning product;electric heater,cleaning product,electric heater,kitchenware,lighting equipment,hot meal,0.63335,0.58182,0.53202,0.51005,0.50885
+1966,wet wipes;food,kitchenware,wet wipes,hot meal,spare clothes,sleeping bag,0.5469,0.54099,0.53175,0.51422,0.51135
+1967,heating stove,heating stove,hot meal,search and rescue team,medical team,spare clothes,0.55112,0.52743,0.52619,0.49418,0.49338
+1970,coat,baby formula,coat,pet food,medical team,diaper,0.5597,0.49972,0.48187,0.47491,0.47104
+1975,drinking water,drinking water,blood collection center,search and rescue team,first aid kit,dry food,0.5863,0.51413,0.48524,0.45846,0.45605
+1979,cold medicine;tent;children's playground,cold medicine,children's playground,tent,spare clothes,first aid kit,0.56595,0.5035,0.48778,0.48313,0.4827
+1982,bread,bread,blood collection center,medical team,first aid kit,dry food,0.50785,0.49848,0.49235,0.48224,0.47732
+1986,sleeping bag,sleeping bag,spare clothes,lighting equipment,cleaning product,equipment for disabled people,0.67497,0.52343,0.51916,0.49538,0.48705
+1988,napkin;baby formula,baby formula,gluten free food,napkin,salt-free and sugar-free food,diaper,0.55775,0.53976,0.53934,0.52891,0.50481
+1999,electric heater;tent,electric heater,tent,spare clothes,lighting equipment,search and rescue team,0.55553,0.54001,0.53378,0.53181,0.52232

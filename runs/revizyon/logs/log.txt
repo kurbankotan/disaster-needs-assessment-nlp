@@ -1,0 +1,1451 @@
+[12:29:28] Colab: True | GPU: NVIDIA A100-SXM4-80GB | RAM: 179 GB | Python 3.13.16
+[12:29:28] Çıktı klasörü: /content/drive/MyDrive/NLP_Disaster/runs/revizyon
+[13:53:22] Colab: True | GPU: NVIDIA A100-SXM4-40GB | RAM: 90 GB | Python 3.13.16
+[13:53:22] Çıktı klasörü: /content/drive/MyDrive/NLP_Disaster/runs/revizyon
+[13:53:24] Anahtarlar: Anthropic=var | OpenAI=var | Google=var
+[13:53:24] Kurulum tamam.
+[13:53:29] Makaledeki çalıştırma klasörü: /content/drive/MyDrive/NLP_Disaster/runs/20261016_1116 (Drive’da var)
+[13:53:29] İhtiyaç listesi: 66 Türkçe madde, 66 benzersiz İngilizce etiket (çeviri düzeltme: açık)
+[13:53:29] Düzeltilen çeviriler:
+                     tr                   en_orig                      en_fixed
+           bebek maması                 baby food                  baby formula
+                biberon                    bottle                   baby bottle
+           ıslak mendil                baby wipes                     wet wipes
+                  fener                     torch                       lantern
+                   soba                     stove                 heating stove
+                   odun                      wood                      firewood
+                    pil                   battery                     batteries
+            pilli radyo             battery radio         battery-powered radio
+             nakit para                cash money                          cash
+               konserve                    canned                   canned food
+          ateş düşürücü               antipyretic                 fever reducer
+              yarabandı                   bandage              adhesive bandage
+        alerji ilaçları       allergy medications            allergy medication
+tuzsuz-şekersiz yiyecek salt-free-sugar-free food salt-free and sugar-free food
+                gönüllü               voluntarily                    volunteers
+              kap kacak                  utensils                 pots and pans
+       engelli ekipmanı        disabled equipment equipment for disabled people
+            aydınlatıcı              enlightening            lighting equipment
+              konteynır                 container             container housing
+               hırdavat                  hardware                hardware tools
+         oksijen cihazı             oxygen device           oxygen concentrator
+              el feneri                     torch                    flashlight
+[13:53:29] Üretim imzası: a8bfe68ee1 (parçalar: /content/drive/MyDrive/NLP_Disaster/data/gen_parts/a8bfe68ee1)
+[13:53:32] anthropic SDK 2.3.0: temperature=yok (API varsayılanı kullanılır), output_config=var
+[13:53:33] Makaledeki veri seti yüklendi: 2000 paylaşım, 39 ilçe, QC geçen 1878; ilçe adı tespiti uyumu 1.000
+[13:53:43] Veri özeti: {'kayit': 2000, 'ilce': 39, 'ilce_basina_ort': 51.3, 'benzersiz_etiket_tr': 66, 'ort_karakter_tr': np.float64(143.2), 'ort_kelime_tr': np.float64(19.6), 'ort_karakter_en': np.float64(148.4), 'ort_kelime_en': np.float64(25.9), 'etiket_1_2_3_oran': '0,59 / 0,33 / 0,08', 'acik_karma_ortuk_oran': '0,64 / 0,06 / 0,30', 'ilce_tespit_uyumu': 1.0, 'uretim_modeli': 'claude-opus-5-5'}
+[13:53:44] Ön işleme ve veri istatistikleri tamam.
+[13:53:46] text_plain: bu oturumdaki ön işleme makaledekiyle 1.000 oranında aynı; makaledeki kullanılıyor
+[13:53:46] text_lemma: bu oturumdaki ön işleme makaledekiyle 1.000 oranında aynı; makaledeki kullanılıyor
+[13:53:46] text_stem: bu oturumdaki ön işleme makaledekiyle 1.000 oranında aynı; makaledeki kullanılıyor
+[13:53:47] Revizyon altyapısı hazır. Önbellek: /content/drive/MyDrive/NLP_Disaster/data/revizyon_cache | Sonuçlar: /content/drive/MyDrive/NLP_Disaster/runs/revizyon/results/revizyon
+[13:53:47] Varsayılan ihtiyaç tanımları yazıldı: /content/drive/MyDrive/NLP_Disaster/data/ihtiyac_tanimlari.csv
+[13:53:47] İhtiyaç tanımları: 66 madde (imza 6ddac1)
+[13:53:47] Sektör şeması: Arama-kurtarma (2), Sağlık (19), Gıda ve beslenme (9), Su, sanitasyon ve hijyen (10), Barınma ve temel eşya (16), Enerji ve iletişim (4), Koruma ve güvenlik (3), Lojistik ve ulaşım (0), Eğitim (0), Kamp yönetimi (0), Erken iyileştirme ve altyapı (0), Nakit ve gönüllü destek (2), Diğer (1)
+[13:53:47] Alternatif üretici alt kümesi: 1014 plan (26/ilçe); parçalar: /content/drive/MyDrive/NLP_Disaster/data/gen_parts_alt/973ea9ba
+[14:03:36] gemini tur 0: 846 kabul, retler {'ilçe adı yok': 160, 'başka ilçe adı': 6, 'kimlik uyuşmazlığı': 2}; toplam 846/1014
+[14:05:25] gemini tur 1: 121 kabul, retler {'ilçe adı yok': 46, 'başka ilçe adı': 1}; toplam 967/1014
+[14:05:48] gemini: tekrar elenen 0, kalan 967
+[14:18:20] gpt tur 0: 444 kabul, retler {'ilçe adı yok': 566, 'başka ilçe adı': 4, 'kimlik uyuşmazlığı': 1}; toplam 444/1014
+[14:23:22] gpt tur 1: 191 kabul, retler {'ilçe adı yok': 377, 'kimlik uyuşmazlığı': 1, 'başka ilçe adı': 2}; toplam 635/1014
+[14:23:23] gpt: tekrar elenen 0, kalan 635
+[14:27:59] Eşleştirilmiş alternatif kümeler: ['alt_claude', 'alt_gemini', 'alt_gpt']; ortak plan sayısı 617
+[14:28:00] Gerçek küme EN: 207 paylaşım, somut ihtiyaç 42, listedeki ihtiyacı olan 30, yalnız listede olmayan ihtiyaçlı 12
+[14:28:00]   sektör dağılımı: {'Gıda ve beslenme': 13, 'Sağlık': 10, 'Su, sanitasyon ve hijyen': 8, 'Arama-kurtarma': 3, 'Barınma ve temel eşya': 7, 'Nakit ve gönüllü destek': 4, 'Diğer': 1}
+[14:28:00] Çeviri hattı kurulamadı (KeyError('The task translation has been removed from transformers. Use the `text-generation` pipeline with a chat model instead. See the migration gui); MarianMT ile doğrudan çevriliyor
+[14:28:45] Makine çevirisi: 403 yeni tweet (Helsinki-NLP/opus-mt-tr-en)
+[14:28:46] Gerçek küme TR: 403 paylaşım, somut ihtiyaç 29, listedeki ihtiyacı olan 21, yalnız listede olmayan ihtiyaçlı 8
+[14:28:46]   sektör dağılımı: {'Barınma ve temel eşya': 6, 'Gıda ve beslenme': 4, 'Su, sanitasyon ve hijyen': 3, 'Nakit ve gönüllü destek': 1, 'Arama-kurtarma': 8, 'Sağlık': 4}
+[14:28:47] HumAID örneği: 675 tweet (225 istek/acil ihtiyaç); sınıflar: {'requests_or_urgent_needs': 225, 'sympathy_and_support': 135, 'rescue_volunteering_or_donation_effort': 99, 'injured_or_dead_people': 71, 'caution_and_advice': 40, 'other_relevant_information': 35, 'infrastructure_and_utility_damage': 34, 'not_humanitarian': 30, 'displaced_people_and_evacuations': 6}
+[14:29:07] Gömme: mE5-large-instruct (sentence-transformers:intfloat/multilingual-e5-large-instruct) yüklendi (19 sn); 30 yapılandırma
+[14:29:09] [gomme_sentetik] sentetik | mE5-large-instruct en/plain/ad: ilce_dogruluk_makale=0.410, hit1=0.599, hit3=0.780, sektor_hit1=0.871
+[14:29:09] [gomme_sentetik] sentetik | mE5-large-instruct en/plain/ad+tanim: ilce_dogruluk_makale=0.718, hit1=0.720, hit3=0.890, sektor_hit1=0.891
+[14:29:10] [gomme_alternatif] alt_claude | mE5-large-instruct en/plain/ad: ilce_dogruluk_makale=0.538, hit1=0.627, hit3=0.799, sektor_hit1=0.880
+[14:29:10] [gomme_alternatif] alt_gemini | mE5-large-instruct en/plain/ad: ilce_dogruluk_makale=0.692, hit1=0.694, hit3=0.859, sektor_hit1=0.901
+[14:29:11] [gomme_alternatif] alt_gpt | mE5-large-instruct en/plain/ad: ilce_dogruluk_makale=0.795, hit1=0.770, hit3=0.896, sektor_hit1=0.935
+[14:29:13] [gomme_sentetik] sentetik | mE5-large-instruct en/raw/ad: ilce_dogruluk_makale=0.308, hit1=0.588, hit3=0.784, sektor_hit1=0.874
+[14:29:13] [gomme_sentetik] sentetik | mE5-large-instruct en/raw/ad+tanim: ilce_dogruluk_makale=0.744, hit1=0.668, hit3=0.832, sektor_hit1=0.880
+[14:29:14] [gomme_alternatif] alt_claude | mE5-large-instruct en/raw/ad: ilce_dogruluk_makale=0.513, hit1=0.629, hit3=0.802, sektor_hit1=0.891
+[14:29:14] [gomme_alternatif] alt_gemini | mE5-large-instruct en/raw/ad: ilce_dogruluk_makale=0.615, hit1=0.673, hit3=0.849, sektor_hit1=0.896
+[14:29:15] [gomme_alternatif] alt_gpt | mE5-large-instruct en/raw/ad: ilce_dogruluk_makale=0.821, hit1=0.770, hit3=0.898, sektor_hit1=0.937
+[14:29:17] [gomme_sentetik] sentetik | mE5-large-instruct tr/plain/ad: ilce_dogruluk_makale=0.103, hit1=0.429, hit3=0.638, sektor_hit1=0.741
+[14:29:17] [gomme_sentetik] sentetik | mE5-large-instruct tr/plain/ad+tanim: ilce_dogruluk_makale=0.641, hit1=0.637, hit3=0.847, sektor_hit1=0.872
+[14:29:18] [gomme_alternatif] alt_claude | mE5-large-instruct tr/plain/ad: ilce_dogruluk_makale=0.205, hit1=0.449, hit3=0.674, sektor_hit1=0.754
+[14:29:19] [gomme_alternatif] alt_gemini | mE5-large-instruct tr/plain/ad: ilce_dogruluk_makale=0.308, hit1=0.498, hit3=0.728, sektor_hit1=0.796
+[14:29:19] [gomme_alternatif] alt_gpt | mE5-large-instruct tr/plain/ad: ilce_dogruluk_makale=0.538, hit1=0.592, hit3=0.778, sektor_hit1=0.810
+[14:29:21] [gomme_sentetik] sentetik | mE5-large-instruct tr/raw/ad: ilce_dogruluk_makale=0.179, hit1=0.413, hit3=0.629, sektor_hit1=0.743
+[14:29:21] [gomme_sentetik] sentetik | mE5-large-instruct tr/raw/ad+tanim: ilce_dogruluk_makale=0.564, hit1=0.628, hit3=0.827, sektor_hit1=0.875
+[14:29:22] [gomme_alternatif] alt_claude | mE5-large-instruct tr/raw/ad: ilce_dogruluk_makale=0.205, hit1=0.444, hit3=0.655, sektor_hit1=0.755
+[14:29:23] [gomme_alternatif] alt_gemini | mE5-large-instruct tr/raw/ad: ilce_dogruluk_makale=0.359, hit1=0.486, hit3=0.708, sektor_hit1=0.771
+[14:29:23] [gomme_alternatif] alt_gpt | mE5-large-instruct tr/raw/ad: ilce_dogruluk_makale=0.462, hit1=0.572, hit3=0.750, sektor_hit1=0.810
+[14:29:24] [gomme_gercek] gercek_en | mE5-large-instruct en/plain/ad: hit1=0.367, hit3=0.500, sektor_hit1=0.667
+[14:29:24] [gomme_gercek] gercek_en | mE5-large-instruct en/plain/ad+tanim: hit1=0.767, hit3=0.967, sektor_hit1=0.867
+[14:29:24] [gomme_gercek] gercek_en | mE5-large-instruct en/raw/ad: hit1=0.367, hit3=0.533, sektor_hit1=0.667
+[14:29:24] [gomme_gercek] gercek_en | mE5-large-instruct en/raw/ad+tanim: hit1=0.667, hit3=0.900, sektor_hit1=0.800
+[14:29:25] [gomme_gercek] gercek_tr | mE5-large-instruct tr/plain/ad: hit1=0.333, hit3=0.762, sektor_hit1=0.429
+[14:29:25] [gomme_gercek] gercek_tr | mE5-large-instruct tr/plain/ad+tanim: hit1=0.524, hit3=0.810, sektor_hit1=0.667
+[14:29:25] [gomme_gercek] gercek_tr | mE5-large-instruct tr/raw/ad: hit1=0.476, hit3=0.857, sektor_hit1=0.524
+[14:29:26] [gomme_gercek] gercek_tr | mE5-large-instruct tr/raw/ad+tanim: hit1=0.762, hit3=0.857, sektor_hit1=0.857
+[14:29:26] [gomme_gercek] gercek_tr | mE5-large-instruct en/plain/ad: hit1=0.286, hit3=0.429, sektor_hit1=0.476
+[14:29:27] [gomme_gercek] gercek_tr | mE5-large-instruct en/raw/ad: hit1=0.286, hit3=0.429, sektor_hit1=0.476
+[14:29:56] Gömme: BGE-M3 (sentence-transformers:BAAI/bge-m3) yüklendi (21 sn); 30 yapılandırma
+[14:30:00] [gomme_sentetik] sentetik | BGE-M3 en/plain/ad: ilce_dogruluk_makale=0.718, hit1=0.604, hit3=0.770, sektor_hit1=0.782
+[14:30:01] [gomme_sentetik] sentetik | BGE-M3 en/plain/ad+tanim: ilce_dogruluk_makale=0.385, hit1=0.517, hit3=0.778, sektor_hit1=0.724
+[14:30:02] [gomme_alternatif] alt_claude | BGE-M3 en/plain/ad: ilce_dogruluk_makale=0.590, hit1=0.613, hit3=0.781, sektor_hit1=0.794
+[14:30:03] [gomme_alternatif] alt_gemini | BGE-M3 en/plain/ad: ilce_dogruluk_makale=0.718, hit1=0.700, hit3=0.846, sektor_hit1=0.841
+[14:30:04] [gomme_alternatif] alt_gpt | BGE-M3 en/plain/ad: ilce_dogruluk_makale=0.872, hit1=0.809, hit3=0.917, sektor_hit1=0.882
+[14:30:10] [gomme_sentetik] sentetik | BGE-M3 en/raw/ad: ilce_dogruluk_makale=0.718, hit1=0.580, hit3=0.754, sektor_hit1=0.763
+[14:30:10] [gomme_sentetik] sentetik | BGE-M3 en/raw/ad+tanim: ilce_dogruluk_makale=0.462, hit1=0.549, hit3=0.796, sektor_hit1=0.756
+[14:30:12] [gomme_alternatif] alt_claude | BGE-M3 en/raw/ad: ilce_dogruluk_makale=0.538, hit1=0.588, hit3=0.763, sektor_hit1=0.773
+[14:30:14] [gomme_alternatif] alt_gemini | BGE-M3 en/raw/ad: ilce_dogruluk_makale=0.744, hit1=0.655, hit3=0.823, sektor_hit1=0.799
+[14:30:15] [gomme_alternatif] alt_gpt | BGE-M3 en/raw/ad: ilce_dogruluk_makale=0.872, hit1=0.783, hit3=0.917, sektor_hit1=0.861
+[14:30:20] [gomme_sentetik] sentetik | BGE-M3 tr/plain/ad: ilce_dogruluk_makale=0.436, hit1=0.513, hit3=0.686, sektor_hit1=0.701
+[14:30:20] [gomme_sentetik] sentetik | BGE-M3 tr/plain/ad+tanim: ilce_dogruluk_makale=0.436, hit1=0.538, hit3=0.750, sektor_hit1=0.720
+[14:30:22] [gomme_alternatif] alt_claude | BGE-M3 tr/plain/ad: ilce_dogruluk_makale=0.513, hit1=0.540, hit3=0.697, sektor_hit1=0.700
+[14:30:23] [gomme_alternatif] alt_gemini | BGE-M3 tr/plain/ad: ilce_dogruluk_makale=0.385, hit1=0.535, hit3=0.712, sektor_hit1=0.736
+[14:30:24] [gomme_alternatif] alt_gpt | BGE-M3 tr/plain/ad: ilce_dogruluk_makale=0.641, hit1=0.679, hit3=0.828, sektor_hit1=0.822
+[14:30:30] [gomme_sentetik] sentetik | BGE-M3 tr/raw/ad: ilce_dogruluk_makale=0.308, hit1=0.475, hit3=0.672, sektor_hit1=0.670
+[14:30:30] [gomme_sentetik] sentetik | BGE-M3 tr/raw/ad+tanim: ilce_dogruluk_makale=0.615, hit1=0.604, hit3=0.798, sektor_hit1=0.768
+[14:30:32] [gomme_alternatif] alt_claude | BGE-M3 tr/raw/ad: ilce_dogruluk_makale=0.333, hit1=0.489, hit3=0.690, sektor_hit1=0.665
+[14:30:34] [gomme_alternatif] alt_gemini | BGE-M3 tr/raw/ad: ilce_dogruluk_makale=0.333, hit1=0.506, hit3=0.707, sektor_hit1=0.689
+[14:30:36] [gomme_alternatif] alt_gpt | BGE-M3 tr/raw/ad: ilce_dogruluk_makale=0.615, hit1=0.671, hit3=0.822, sektor_hit1=0.814
+[14:30:36] [gomme_gercek] gercek_en | BGE-M3 en/plain/ad: hit1=0.700, hit3=0.900, sektor_hit1=0.800
+[14:30:36] [gomme_gercek] gercek_en | BGE-M3 en/plain/ad+tanim: hit1=0.733, hit3=0.933, sektor_hit1=0.800
+[14:30:37] [gomme_gercek] gercek_en | BGE-M3 en/raw/ad: hit1=0.733, hit3=0.933, sektor_hit1=0.833
+[14:30:37] [gomme_gercek] gercek_en | BGE-M3 en/raw/ad+tanim: hit1=0.700, hit3=0.900, sektor_hit1=0.800
+[14:30:38] [gomme_gercek] gercek_tr | BGE-M3 tr/plain/ad: hit1=0.524, hit3=0.762, sektor_hit1=0.619
+[14:30:38] [gomme_gercek] gercek_tr | BGE-M3 tr/plain/ad+tanim: hit1=0.667, hit3=0.857, sektor_hit1=0.667
+[14:30:40] [gomme_gercek] gercek_tr | BGE-M3 tr/raw/ad: hit1=0.619, hit3=0.762, sektor_hit1=0.714
+[14:30:40] [gomme_gercek] gercek_tr | BGE-M3 tr/raw/ad+tanim: hit1=0.667, hit3=0.905, sektor_hit1=0.810
+[14:30:41] [gomme_gercek] gercek_tr | BGE-M3 en/plain/ad: hit1=0.286, hit3=0.571, sektor_hit1=0.429
+[14:30:42] [gomme_gercek] gercek_tr | BGE-M3 en/raw/ad: hit1=0.286, hit3=0.619, sektor_hit1=0.381
+[14:30:58] Gömme: Qwen3-Emb-0.6B (sentence-transformers:Qwen/Qwen3-Embedding-0.6B) yüklendi (8 sn); 30 yapılandırma
+[14:31:02] [gomme_sentetik] sentetik | Qwen3-Emb-0.6B en/plain/ad: ilce_dogruluk_makale=0.077, hit1=0.383, hit3=0.625, sektor_hit1=0.665
+[14:31:02] [gomme_sentetik] sentetik | Qwen3-Emb-0.6B en/plain/ad+tanim: ilce_dogruluk_makale=0.462, hit1=0.561, hit3=0.805, sektor_hit1=0.773
+[14:31:03] [gomme_alternatif] alt_claude | Qwen3-Emb-0.6B en/plain/ad: ilce_dogruluk_makale=0.103, hit1=0.395, hit3=0.655, sektor_hit1=0.665
+[14:31:05] [gomme_alternatif] alt_gemini | Qwen3-Emb-0.6B en/plain/ad: ilce_dogruluk_makale=0.205, hit1=0.447, hit3=0.712, sektor_hit1=0.705
+[14:31:06] [gomme_alternatif] alt_gpt | Qwen3-Emb-0.6B en/plain/ad: ilce_dogruluk_makale=0.231, hit1=0.489, hit3=0.749, sektor_hit1=0.724
+[14:31:09] [gomme_sentetik] sentetik | Qwen3-Emb-0.6B en/raw/ad: ilce_dogruluk_makale=0.077, hit1=0.373, hit3=0.624, sektor_hit1=0.650
+[14:31:10] [gomme_sentetik] sentetik | Qwen3-Emb-0.6B en/raw/ad+tanim: ilce_dogruluk_makale=0.436, hit1=0.495, hit3=0.709, sektor_hit1=0.734
+[14:31:11] [gomme_alternatif] alt_claude | Qwen3-Emb-0.6B en/raw/ad: ilce_dogruluk_makale=0.128, hit1=0.399, hit3=0.661, sektor_hit1=0.642
+[14:31:12] [gomme_alternatif] alt_gemini | Qwen3-Emb-0.6B en/raw/ad: ilce_dogruluk_makale=0.128, hit1=0.431, hit3=0.703, sektor_hit1=0.677
+[14:31:13] [gomme_alternatif] alt_gpt | Qwen3-Emb-0.6B en/raw/ad: ilce_dogruluk_makale=0.205, hit1=0.465, hit3=0.715, sektor_hit1=0.700
+[14:31:17] [gomme_sentetik] sentetik | Qwen3-Emb-0.6B tr/plain/ad: ilce_dogruluk_makale=0.026, hit1=0.176, hit3=0.549, sektor_hit1=0.467
+[14:31:17] [gomme_sentetik] sentetik | Qwen3-Emb-0.6B tr/plain/ad+tanim: ilce_dogruluk_makale=0.154, hit1=0.383, hit3=0.593, sektor_hit1=0.648
+[14:31:18] [gomme_alternatif] alt_claude | Qwen3-Emb-0.6B tr/plain/ad: ilce_dogruluk_makale=0.026, hit1=0.191, hit3=0.585, sektor_hit1=0.470
+[14:31:20] [gomme_alternatif] alt_gemini | Qwen3-Emb-0.6B tr/plain/ad: ilce_dogruluk_makale=0.051, hit1=0.201, hit3=0.639, sektor_hit1=0.483
+[14:31:21] [gomme_alternatif] alt_gpt | Qwen3-Emb-0.6B tr/plain/ad: ilce_dogruluk_makale=0.051, hit1=0.248, hit3=0.712, sektor_hit1=0.507
+[14:31:25] [gomme_sentetik] sentetik | Qwen3-Emb-0.6B tr/raw/ad: ilce_dogruluk_makale=0.026, hit1=0.154, hit3=0.537, sektor_hit1=0.457
+[14:31:25] [gomme_sentetik] sentetik | Qwen3-Emb-0.6B tr/raw/ad+tanim: ilce_dogruluk_makale=0.051, hit1=0.276, hit3=0.506, sektor_hit1=0.572
+[14:31:26] [gomme_alternatif] alt_claude | Qwen3-Emb-0.6B tr/raw/ad: ilce_dogruluk_makale=0.026, hit1=0.160, hit3=0.577, sektor_hit1=0.454
+[14:31:28] [gomme_alternatif] alt_gemini | Qwen3-Emb-0.6B tr/raw/ad: ilce_dogruluk_makale=0.026, hit1=0.198, hit3=0.624, sektor_hit1=0.476
+[14:31:29] [gomme_alternatif] alt_gpt | Qwen3-Emb-0.6B tr/raw/ad: ilce_dogruluk_makale=0.051, hit1=0.214, hit3=0.681, sektor_hit1=0.489
+[14:31:30] [gomme_gercek] gercek_en | Qwen3-Emb-0.6B en/plain/ad: hit1=0.233, hit3=0.500, sektor_hit1=0.633
+[14:31:30] [gomme_gercek] gercek_en | Qwen3-Emb-0.6B en/plain/ad+tanim: hit1=0.767, hit3=0.967, sektor_hit1=0.833
+[14:31:30] [gomme_gercek] gercek_en | Qwen3-Emb-0.6B en/raw/ad: hit1=0.200, hit3=0.533, sektor_hit1=0.567
+[14:31:30] [gomme_gercek] gercek_en | Qwen3-Emb-0.6B en/raw/ad+tanim: hit1=0.467, hit3=0.833, sektor_hit1=0.667
+[14:31:31] [gomme_gercek] gercek_tr | Qwen3-Emb-0.6B tr/plain/ad: hit1=0.000, hit3=0.238, sektor_hit1=0.190
+[14:31:32] [gomme_gercek] gercek_tr | Qwen3-Emb-0.6B tr/plain/ad+tanim: hit1=0.143, hit3=0.381, sektor_hit1=0.333
+[14:31:33] [gomme_gercek] gercek_tr | Qwen3-Emb-0.6B tr/raw/ad: hit1=0.000, hit3=0.381, sektor_hit1=0.190
+[14:31:33] [gomme_gercek] gercek_tr | Qwen3-Emb-0.6B tr/raw/ad+tanim: hit1=0.095, hit3=0.238, sektor_hit1=0.476
+[14:31:34] [gomme_gercek] gercek_tr | Qwen3-Emb-0.6B en/plain/ad: hit1=0.190, hit3=0.571, sektor_hit1=0.381
+[14:31:35] [gomme_gercek] gercek_tr | Qwen3-Emb-0.6B en/raw/ad: hit1=0.143, hit3=0.524, sektor_hit1=0.333
+[14:32:18] Gömme: Qwen3-Emb-4B (sentence-transformers:Qwen/Qwen3-Embedding-4B) yüklendi (33 sn); 30 yapılandırma
+[14:32:26] [gomme_sentetik] sentetik | Qwen3-Emb-4B en/plain/ad: ilce_dogruluk_makale=0.590, hit1=0.680, hit3=0.857, sektor_hit1=0.954
+[14:32:26] [gomme_sentetik] sentetik | Qwen3-Emb-4B en/plain/ad+tanim: ilce_dogruluk_makale=0.769, hit1=0.812, hit3=0.952, sektor_hit1=0.967
+[14:32:29] [gomme_alternatif] alt_claude | Qwen3-Emb-4B en/plain/ad: ilce_dogruluk_makale=0.641, hit1=0.697, hit3=0.869, sektor_hit1=0.945
+[14:32:31] [gomme_alternatif] alt_gemini | Qwen3-Emb-4B en/plain/ad: ilce_dogruluk_makale=0.692, hit1=0.747, hit3=0.900, sektor_hit1=0.956
+[14:32:34] [gomme_alternatif] alt_gpt | Qwen3-Emb-4B en/plain/ad: ilce_dogruluk_makale=0.821, hit1=0.796, hit3=0.916, sektor_hit1=0.961
+[14:32:44] [gomme_sentetik] sentetik | Qwen3-Emb-4B en/raw/ad: ilce_dogruluk_makale=0.667, hit1=0.710, hit3=0.864, sektor_hit1=0.964
+[14:32:44] [gomme_sentetik] sentetik | Qwen3-Emb-4B en/raw/ad+tanim: ilce_dogruluk_makale=0.744, hit1=0.755, hit3=0.913, sektor_hit1=0.944
+[14:32:47] [gomme_alternatif] alt_claude | Qwen3-Emb-4B en/raw/ad: ilce_dogruluk_makale=0.718, hit1=0.729, hit3=0.872, sektor_hit1=0.956
+[14:32:50] [gomme_alternatif] alt_gemini | Qwen3-Emb-4B en/raw/ad: ilce_dogruluk_makale=0.667, hit1=0.757, hit3=0.914, sektor_hit1=0.964
+[14:32:53] [gomme_alternatif] alt_gpt | Qwen3-Emb-4B en/raw/ad: ilce_dogruluk_makale=0.769, hit1=0.797, hit3=0.919, sektor_hit1=0.963
+[14:33:02] [gomme_sentetik] sentetik | Qwen3-Emb-4B tr/plain/ad: ilce_dogruluk_makale=0.051, hit1=0.457, hit3=0.734, sektor_hit1=0.677
+[14:33:03] [gomme_sentetik] sentetik | Qwen3-Emb-4B tr/plain/ad+tanim: ilce_dogruluk_makale=0.436, hit1=0.556, hit3=0.777, sektor_hit1=0.796
+[14:33:06] [gomme_alternatif] alt_claude | Qwen3-Emb-4B tr/plain/ad: ilce_dogruluk_makale=0.205, hit1=0.496, hit3=0.744, sektor_hit1=0.682
+[14:33:09] [gomme_alternatif] alt_gemini | Qwen3-Emb-4B tr/plain/ad: ilce_dogruluk_makale=0.333, hit1=0.522, hit3=0.778, sektor_hit1=0.731
+[14:33:12] [gomme_alternatif] alt_gpt | Qwen3-Emb-4B tr/plain/ad: ilce_dogruluk_makale=0.256, hit1=0.499, hit3=0.814, sektor_hit1=0.695
+[14:33:24] [gomme_sentetik] sentetik | Qwen3-Emb-4B tr/raw/ad: ilce_dogruluk_makale=0.179, hit1=0.502, hit3=0.734, sektor_hit1=0.730
+[14:33:24] [gomme_sentetik] sentetik | Qwen3-Emb-4B tr/raw/ad+tanim: ilce_dogruluk_makale=0.333, hit1=0.614, hit3=0.846, sektor_hit1=0.792
+[14:33:28] [gomme_alternatif] alt_claude | Qwen3-Emb-4B tr/raw/ad: ilce_dogruluk_makale=0.308, hit1=0.525, hit3=0.749, sektor_hit1=0.724
+[14:33:32] [gomme_alternatif] alt_gemini | Qwen3-Emb-4B tr/raw/ad: ilce_dogruluk_makale=0.385, hit1=0.556, hit3=0.773, sektor_hit1=0.749
+[14:33:35] [gomme_alternatif] alt_gpt | Qwen3-Emb-4B tr/raw/ad: ilce_dogruluk_makale=0.385, hit1=0.559, hit3=0.814, sektor_hit1=0.749
+[14:33:36] [gomme_gercek] gercek_en | Qwen3-Emb-4B en/plain/ad: hit1=0.400, hit3=0.733, sektor_hit1=0.833
+[14:33:37] [gomme_gercek] gercek_en | Qwen3-Emb-4B en/plain/ad+tanim: hit1=0.767, hit3=1.000, sektor_hit1=0.833
+[14:33:38] [gomme_gercek] gercek_en | Qwen3-Emb-4B en/raw/ad: hit1=0.433, hit3=0.733, sektor_hit1=0.833
+[14:33:38] [gomme_gercek] gercek_en | Qwen3-Emb-4B en/raw/ad+tanim: hit1=0.600, hit3=0.933, sektor_hit1=0.833
+[14:33:40] [gomme_gercek] gercek_tr | Qwen3-Emb-4B tr/plain/ad: hit1=0.286, hit3=0.762, sektor_hit1=0.476
+[14:33:41] [gomme_gercek] gercek_tr | Qwen3-Emb-4B tr/plain/ad+tanim: hit1=0.381, hit3=0.619, sektor_hit1=0.429
+[14:33:43] [gomme_gercek] gercek_tr | Qwen3-Emb-4B tr/raw/ad: hit1=0.381, hit3=0.762, sektor_hit1=0.524
+[14:33:44] [gomme_gercek] gercek_tr | Qwen3-Emb-4B tr/raw/ad+tanim: hit1=0.429, hit3=0.762, sektor_hit1=0.619
+[14:33:46] [gomme_gercek] gercek_tr | Qwen3-Emb-4B en/plain/ad: hit1=0.143, hit3=0.381, sektor_hit1=0.429
+[14:33:48] [gomme_gercek] gercek_tr | Qwen3-Emb-4B en/raw/ad: hit1=0.143, hit3=0.571, sektor_hit1=0.429
+[14:33:55] Gömme: RoBERTa-raw (sentence-transformers:roberta-base) yüklendi (5 sn); 3 yapılandırma
+[14:33:57] [gomme_sentetik] sentetik | RoBERTa-raw en/plain/ad: ilce_dogruluk_makale=0.026, hit1=0.041, hit3=0.083, sektor_hit1=0.326
+[14:33:58] [gomme_sentetik] sentetik | RoBERTa-raw en/lemma/ad: ilce_dogruluk_makale=0.026, hit1=0.062, hit3=0.124, sektor_hit1=0.347
+[14:33:59] [gomme_sentetik] sentetik | RoBERTa-raw en/stem/ad: ilce_dogruluk_makale=0.000, hit1=0.044, hit3=0.111, sektor_hit1=0.366
+[14:34:05] Gömme: RoBERTa-güncel (sentence-transformers:all-distilroberta-v1) yüklendi (5 sn); 3 yapılandırma
+[14:34:06] [gomme_sentetik] sentetik | RoBERTa-güncel en/plain/ad: ilce_dogruluk_makale=0.667, hit1=0.594, hit3=0.791, sektor_hit1=0.825
+[14:34:06] [gomme_sentetik] sentetik | RoBERTa-güncel en/lemma/ad: ilce_dogruluk_makale=0.692, hit1=0.588, hit3=0.782, sektor_hit1=0.811
+[14:34:07] [gomme_sentetik] sentetik | RoBERTa-güncel en/stem/ad: ilce_dogruluk_makale=0.538, hit1=0.481, hit3=0.685, sektor_hit1=0.781
+[14:34:13] Gömme: BERT (sentence-transformers:bert-base-nli-mean-tokens) yüklendi (5 sn); 24 yapılandırma
+[14:34:14] [gomme_sentetik] sentetik | BERT en/plain/ad+tanim: ilce_dogruluk_makale=0.205, hit1=0.230, hit3=0.390, sektor_hit1=0.587
+[14:34:15] [gomme_sentetik] sentetik | BERT en/lemma/ad+tanim: ilce_dogruluk_makale=0.308, hit1=0.336, hit3=0.524, sektor_hit1=0.654
+[14:34:16] [gomme_sentetik] sentetik | BERT en/stem/ad+tanim: ilce_dogruluk_makale=0.333, hit1=0.397, hit3=0.595, sektor_hit1=0.692
+[14:34:17] [gomme_alternatif] alt_claude | BERT en/plain/ad: ilce_dogruluk_makale=0.179, hit1=0.203, hit3=0.335, sektor_hit1=0.533
+[14:34:17] [gomme_alternatif] alt_claude | BERT en/lemma/ad: ilce_dogruluk_makale=0.231, hit1=0.305, hit3=0.507, sektor_hit1=0.637
+[14:34:18] [gomme_alternatif] alt_claude | BERT en/stem/ad: ilce_dogruluk_makale=0.333, hit1=0.335, hit3=0.515, sektor_hit1=0.648
+[14:34:18] [gomme_alternatif] alt_gemini | BERT en/plain/ad: ilce_dogruluk_makale=0.128, hit1=0.250, hit3=0.444, sektor_hit1=0.618
+[14:34:19] [gomme_alternatif] alt_gemini | BERT en/lemma/ad: ilce_dogruluk_makale=0.282, hit1=0.310, hit3=0.514, sektor_hit1=0.645
+[14:34:19] [gomme_alternatif] alt_gemini | BERT en/stem/ad: ilce_dogruluk_makale=0.308, hit1=0.339, hit3=0.522, sektor_hit1=0.652
+[14:34:20] [gomme_alternatif] alt_gpt | BERT en/plain/ad: ilce_dogruluk_makale=0.231, hit1=0.305, hit3=0.496, sektor_hit1=0.621
+[14:34:20] [gomme_alternatif] alt_gpt | BERT en/lemma/ad: ilce_dogruluk_makale=0.308, hit1=0.420, hit3=0.637, sektor_hit1=0.715
+[14:34:21] [gomme_alternatif] alt_gpt | BERT en/stem/ad: ilce_dogruluk_makale=0.282, hit1=0.436, hit3=0.637, sektor_hit1=0.716
+[14:34:21] [gomme_gercek] gercek_en | BERT en/plain/ad: hit1=0.067, hit3=0.200, sektor_hit1=0.600
+[14:34:21] [gomme_gercek] gercek_en | BERT en/plain/ad+tanim: hit1=0.300, hit3=0.500, sektor_hit1=0.700
+[14:34:21] [gomme_gercek] gercek_en | BERT en/lemma/ad: hit1=0.033, hit3=0.200, sektor_hit1=0.500
+[14:34:21] [gomme_gercek] gercek_en | BERT en/lemma/ad+tanim: hit1=0.333, hit3=0.467, sektor_hit1=0.667
+[14:34:22] [gomme_gercek] gercek_en | BERT en/stem/ad: hit1=0.033, hit3=0.200, sektor_hit1=0.467
+[14:34:22] [gomme_gercek] gercek_en | BERT en/stem/ad+tanim: hit1=0.400, hit3=0.533, sektor_hit1=0.667
+[14:34:22] [gomme_gercek] gercek_tr | BERT en/plain/ad: hit1=0.000, hit3=0.190, sektor_hit1=0.286
+[14:34:22] [gomme_gercek] gercek_tr | BERT en/plain/ad+tanim: hit1=0.095, hit3=0.286, sektor_hit1=0.333
+[14:34:23] [gomme_gercek] gercek_tr | BERT en/lemma/ad: hit1=0.048, hit3=0.190, sektor_hit1=0.333
+[14:34:23] [gomme_gercek] gercek_tr | BERT en/lemma/ad+tanim: hit1=0.095, hit3=0.238, sektor_hit1=0.333
+[14:34:23] [gomme_gercek] gercek_tr | BERT en/stem/ad: hit1=0.095, hit3=0.333, sektor_hit1=0.286
+[14:34:23] [gomme_gercek] gercek_tr | BERT en/stem/ad+tanim: hit1=0.095, hit3=0.333, sektor_hit1=0.381
+[14:34:27] Gömme: ALBERT (sentence-transformers:albert-base-v2) yüklendi (3 sn); 24 yapılandırma
+[14:34:28] [gomme_sentetik] sentetik | ALBERT en/plain/ad+tanim: ilce_dogruluk_makale=0.026, hit1=0.121, hit3=0.276, sektor_hit1=0.445
+[14:34:29] [gomme_sentetik] sentetik | ALBERT en/lemma/ad+tanim: ilce_dogruluk_makale=0.051, hit1=0.137, hit3=0.265, sektor_hit1=0.441
+[14:34:31] [gomme_sentetik] sentetik | ALBERT en/stem/ad+tanim: ilce_dogruluk_makale=0.103, hit1=0.154, hit3=0.271, sektor_hit1=0.421
+[14:34:31] [gomme_alternatif] alt_claude | ALBERT en/plain/ad: ilce_dogruluk_makale=0.051, hit1=0.070, hit3=0.151, sektor_hit1=0.233
+[14:34:32] [gomme_alternatif] alt_claude | ALBERT en/lemma/ad: ilce_dogruluk_makale=0.000, hit1=0.071, hit3=0.164, sektor_hit1=0.376
+[14:34:32] [gomme_alternatif] alt_claude | ALBERT en/stem/ad: ilce_dogruluk_makale=0.000, hit1=0.032, hit3=0.131, sektor_hit1=0.353
+[14:34:33] [gomme_alternatif] alt_gemini | ALBERT en/plain/ad: ilce_dogruluk_makale=0.051, hit1=0.096, hit3=0.175, sektor_hit1=0.361
+[14:34:33] [gomme_alternatif] alt_gemini | ALBERT en/lemma/ad: ilce_dogruluk_makale=0.026, hit1=0.070, hit3=0.173, sektor_hit1=0.371
+[14:34:34] [gomme_alternatif] alt_gemini | ALBERT en/stem/ad: ilce_dogruluk_makale=0.000, hit1=0.029, hit3=0.130, sektor_hit1=0.358
+[14:34:34] [gomme_alternatif] alt_gpt | ALBERT en/plain/ad: ilce_dogruluk_makale=0.026, hit1=0.104, hit3=0.191, sektor_hit1=0.306
+[14:34:35] [gomme_alternatif] alt_gpt | ALBERT en/lemma/ad: ilce_dogruluk_makale=0.026, hit1=0.105, hit3=0.201, sektor_hit1=0.392
+[14:34:35] [gomme_alternatif] alt_gpt | ALBERT en/stem/ad: ilce_dogruluk_makale=0.000, hit1=0.042, hit3=0.156, sektor_hit1=0.368
+[14:34:35] [gomme_gercek] gercek_en | ALBERT en/plain/ad: hit1=0.000, hit3=0.033, sektor_hit1=0.300
+[14:34:36] [gomme_gercek] gercek_en | ALBERT en/plain/ad+tanim: hit1=0.033, hit3=0.133, sektor_hit1=0.233
+[14:34:36] [gomme_gercek] gercek_en | ALBERT en/lemma/ad: hit1=0.000, hit3=0.067, sektor_hit1=0.267
+[14:34:36] [gomme_gercek] gercek_en | ALBERT en/lemma/ad+tanim: hit1=0.033, hit3=0.200, sektor_hit1=0.300
+[14:34:36] [gomme_gercek] gercek_en | ALBERT en/stem/ad: hit1=0.000, hit3=0.033, sektor_hit1=0.333
+[14:34:36] [gomme_gercek] gercek_en | ALBERT en/stem/ad+tanim: hit1=0.100, hit3=0.400, sektor_hit1=0.367
+[14:34:37] [gomme_gercek] gercek_tr | ALBERT en/plain/ad: hit1=0.000, hit3=0.048, sektor_hit1=0.143
+[14:34:37] [gomme_gercek] gercek_tr | ALBERT en/plain/ad+tanim: hit1=0.095, hit3=0.238, sektor_hit1=0.333
+[14:34:37] [gomme_gercek] gercek_tr | ALBERT en/lemma/ad: hit1=0.000, hit3=0.095, sektor_hit1=0.143
+[14:34:38] [gomme_gercek] gercek_tr | ALBERT en/lemma/ad+tanim: hit1=0.048, hit3=0.095, sektor_hit1=0.286
+[14:34:38] [gomme_gercek] gercek_tr | ALBERT en/stem/ad: hit1=0.000, hit3=0.000, sektor_hit1=0.190
+[14:34:38] [gomme_gercek] gercek_tr | ALBERT en/stem/ad+tanim: hit1=0.048, hit3=0.143, sektor_hit1=0.238
+[14:34:46] Gömme: RoBERTa (sentence-transformers:roberta-base-nli-mean-tokens) yüklendi (7 sn); 24 yapılandırma
+[14:34:48] [gomme_sentetik] sentetik | RoBERTa en/plain/ad+tanim: ilce_dogruluk_makale=0.205, hit1=0.278, hit3=0.442, sektor_hit1=0.619
+[14:34:49] [gomme_sentetik] sentetik | RoBERTa en/lemma/ad+tanim: ilce_dogruluk_makale=0.359, hit1=0.337, hit3=0.533, sektor_hit1=0.650
+[14:34:50] [gomme_sentetik] sentetik | RoBERTa en/stem/ad+tanim: ilce_dogruluk_makale=0.436, hit1=0.354, hit3=0.559, sektor_hit1=0.699
+[14:34:51] [gomme_alternatif] alt_claude | RoBERTa en/plain/ad: ilce_dogruluk_makale=0.128, hit1=0.188, hit3=0.274, sektor_hit1=0.514
+[14:34:51] [gomme_alternatif] alt_claude | RoBERTa en/lemma/ad: ilce_dogruluk_makale=0.179, hit1=0.267, hit3=0.387, sektor_hit1=0.608
+[14:34:52] [gomme_alternatif] alt_claude | RoBERTa en/stem/ad: ilce_dogruluk_makale=0.231, hit1=0.256, hit3=0.368, sektor_hit1=0.588
+[14:34:52] [gomme_alternatif] alt_gemini | RoBERTa en/plain/ad: ilce_dogruluk_makale=0.154, hit1=0.229, hit3=0.360, sektor_hit1=0.543
+[14:34:53] [gomme_alternatif] alt_gemini | RoBERTa en/lemma/ad: ilce_dogruluk_makale=0.179, hit1=0.235, hit3=0.374, sektor_hit1=0.559
+[14:34:53] [gomme_alternatif] alt_gemini | RoBERTa en/stem/ad: ilce_dogruluk_makale=0.205, hit1=0.243, hit3=0.378, sektor_hit1=0.579
+[14:34:53] [gomme_alternatif] alt_gpt | RoBERTa en/plain/ad: ilce_dogruluk_makale=0.205, hit1=0.266, hit3=0.387, sektor_hit1=0.551
+[14:34:54] [gomme_alternatif] alt_gpt | RoBERTa en/lemma/ad: ilce_dogruluk_makale=0.231, hit1=0.347, hit3=0.512, sektor_hit1=0.642
+[14:34:54] [gomme_alternatif] alt_gpt | RoBERTa en/stem/ad: ilce_dogruluk_makale=0.333, hit1=0.360, hit3=0.504, sektor_hit1=0.639
+[14:34:55] [gomme_gercek] gercek_en | RoBERTa en/plain/ad: hit1=0.067, hit3=0.100, sektor_hit1=0.300
+[14:34:55] [gomme_gercek] gercek_en | RoBERTa en/plain/ad+tanim: hit1=0.300, hit3=0.500, sektor_hit1=0.633
+[14:34:55] [gomme_gercek] gercek_en | RoBERTa en/lemma/ad: hit1=0.067, hit3=0.167, sektor_hit1=0.300
+[14:34:55] [gomme_gercek] gercek_en | RoBERTa en/lemma/ad+tanim: hit1=0.233, hit3=0.300, sektor_hit1=0.567
+[14:34:55] [gomme_gercek] gercek_en | RoBERTa en/stem/ad: hit1=0.133, hit3=0.200, sektor_hit1=0.433
+[14:34:55] [gomme_gercek] gercek_en | RoBERTa en/stem/ad+tanim: hit1=0.233, hit3=0.433, sektor_hit1=0.500
+[14:34:56] [gomme_gercek] gercek_tr | RoBERTa en/plain/ad: hit1=0.095, hit3=0.238, sektor_hit1=0.476
+[14:34:56] [gomme_gercek] gercek_tr | RoBERTa en/plain/ad+tanim: hit1=0.095, hit3=0.238, sektor_hit1=0.476
+[14:34:56] [gomme_gercek] gercek_tr | RoBERTa en/lemma/ad: hit1=0.095, hit3=0.143, sektor_hit1=0.476
+[14:34:56] [gomme_gercek] gercek_tr | RoBERTa en/lemma/ad+tanim: hit1=0.095, hit3=0.143, sektor_hit1=0.333
+[14:34:57] [gomme_gercek] gercek_tr | RoBERTa en/stem/ad: hit1=0.190, hit3=0.190, sektor_hit1=0.429
+[14:34:57] [gomme_gercek] gercek_tr | RoBERTa en/stem/ad+tanim: hit1=0.238, hit3=0.333, sektor_hit1=0.381
+[14:38:43] GloVe yüklendi: 2196016 kelime, atlanan satır 1
+[14:38:49] Gömme: GloVe (glove.840B.300d (/content/drive/MyDrive/Colab Notebooks/NLP Modeller/GloVe File/glove.840B.300d-001.txt)) yüklendi (231 sn); 24 yapılandırma
+[14:38:51] [gomme_sentetik] sentetik | GloVe en/plain/ad+tanim: ilce_dogruluk_makale=0.026, hit1=0.291, hit3=0.488, sektor_hit1=0.583
+[14:38:51] [gomme_sentetik] sentetik | GloVe en/lemma/ad+tanim: ilce_dogruluk_makale=0.179, hit1=0.389, hit3=0.578, sektor_hit1=0.720
+[14:38:51] [gomme_sentetik] sentetik | GloVe en/stem/ad+tanim: ilce_dogruluk_makale=0.359, hit1=0.448, hit3=0.611, sektor_hit1=0.743
+[14:38:51] [gomme_alternatif] alt_claude | GloVe en/plain/ad: ilce_dogruluk_makale=0.026, hit1=0.164, hit3=0.316, sektor_hit1=0.451
+[14:38:52] [gomme_alternatif] alt_claude | GloVe en/lemma/ad: ilce_dogruluk_makale=0.077, hit1=0.308, hit3=0.515, sektor_hit1=0.528
+[14:38:52] [gomme_alternatif] alt_claude | GloVe en/stem/ad: ilce_dogruluk_makale=0.154, hit1=0.361, hit3=0.515, sektor_hit1=0.645
+[14:38:52] [gomme_alternatif] alt_gemini | GloVe en/plain/ad: ilce_dogruluk_makale=0.051, hit1=0.204, hit3=0.397, sektor_hit1=0.491
+[14:38:52] [gomme_alternatif] alt_gemini | GloVe en/lemma/ad: ilce_dogruluk_makale=0.103, hit1=0.321, hit3=0.564, sektor_hit1=0.580
+[14:38:52] [gomme_alternatif] alt_gemini | GloVe en/stem/ad: ilce_dogruluk_makale=0.179, hit1=0.428, hit3=0.603, sektor_hit1=0.690
+[14:38:52] [gomme_alternatif] alt_gpt | GloVe en/plain/ad: ilce_dogruluk_makale=0.051, hit1=0.201, hit3=0.392, sektor_hit1=0.467
+[14:38:52] [gomme_alternatif] alt_gpt | GloVe en/lemma/ad: ilce_dogruluk_makale=0.179, hit1=0.374, hit3=0.634, sektor_hit1=0.585
+[14:38:53] [gomme_alternatif] alt_gpt | GloVe en/stem/ad: ilce_dogruluk_makale=0.385, hit1=0.470, hit3=0.666, sektor_hit1=0.702
+[14:38:53] [gomme_gercek] gercek_en | GloVe en/plain/ad: hit1=0.133, hit3=0.300, sektor_hit1=0.467
+[14:38:53] [gomme_gercek] gercek_en | GloVe en/plain/ad+tanim: hit1=0.533, hit3=0.667, sektor_hit1=0.700
+[14:38:53] [gomme_gercek] gercek_en | GloVe en/lemma/ad: hit1=0.200, hit3=0.467, sektor_hit1=0.667
+[14:38:53] [gomme_gercek] gercek_en | GloVe en/lemma/ad+tanim: hit1=0.300, hit3=0.767, sektor_hit1=0.767
+[14:38:53] [gomme_gercek] gercek_en | GloVe en/stem/ad: hit1=0.267, hit3=0.633, sektor_hit1=0.700
+[14:38:53] [gomme_gercek] gercek_en | GloVe en/stem/ad+tanim: hit1=0.367, hit3=0.700, sektor_hit1=0.800
+[14:38:53] [gomme_gercek] gercek_tr | GloVe en/plain/ad: hit1=0.286, hit3=0.476, sektor_hit1=0.429
+[14:38:53] [gomme_gercek] gercek_tr | GloVe en/plain/ad+tanim: hit1=0.286, hit3=0.429, sektor_hit1=0.333
+[14:38:53] [gomme_gercek] gercek_tr | GloVe en/lemma/ad: hit1=0.095, hit3=0.190, sektor_hit1=0.429
+[14:38:53] [gomme_gercek] gercek_tr | GloVe en/lemma/ad+tanim: hit1=0.143, hit3=0.381, sektor_hit1=0.476
+[14:38:53] [gomme_gercek] gercek_tr | GloVe en/stem/ad: hit1=0.095, hit3=0.190, sektor_hit1=0.238
+[14:38:53] [gomme_gercek] gercek_tr | GloVe en/stem/ad+tanim: hit1=0.143, hit3=0.333, sektor_hit1=0.381
+[14:39:53] Gömme: Word2Vec (word2vec-google-news-300 (/content/drive/MyDrive/Colab Notebooks/NLP Modeller/Word2Vec Files/word2vec-google-news-300.bin)) yüklendi (59 sn); 24 yapılandırma
+[14:39:53] [gomme_sentetik] sentetik | Word2Vec en/plain/ad+tanim: ilce_dogruluk_makale=0.103, hit1=0.402, hit3=0.630, sektor_hit1=0.672
+[14:39:54] [gomme_sentetik] sentetik | Word2Vec en/lemma/ad+tanim: ilce_dogruluk_makale=0.410, hit1=0.573, hit3=0.759, sektor_hit1=0.790
+[14:39:54] [gomme_sentetik] sentetik | Word2Vec en/stem/ad+tanim: ilce_dogruluk_makale=0.641, hit1=0.602, hit3=0.761, sektor_hit1=0.821
+[14:39:54] [gomme_alternatif] alt_claude | Word2Vec en/plain/ad: ilce_dogruluk_makale=0.128, hit1=0.381, hit3=0.614, sektor_hit1=0.647
+[14:39:55] [gomme_alternatif] alt_claude | Word2Vec en/lemma/ad: ilce_dogruluk_makale=0.615, hit1=0.619, hit3=0.736, sektor_hit1=0.809
+[14:39:56] [gomme_alternatif] alt_claude | Word2Vec en/stem/ad: ilce_dogruluk_makale=0.538, hit1=0.592, hit3=0.702, sektor_hit1=0.778
+[14:39:56] [gomme_alternatif] alt_gemini | Word2Vec en/plain/ad: ilce_dogruluk_makale=0.205, hit1=0.467, hit3=0.734, sektor_hit1=0.681
+[14:39:56] [gomme_alternatif] alt_gemini | Word2Vec en/lemma/ad: ilce_dogruluk_makale=0.667, hit1=0.665, hit3=0.820, sektor_hit1=0.841
+[14:39:56] [gomme_alternatif] alt_gemini | Word2Vec en/stem/ad: ilce_dogruluk_makale=0.590, hit1=0.632, hit3=0.755, sektor_hit1=0.799
+[14:39:56] [gomme_alternatif] alt_gpt | Word2Vec en/plain/ad: ilce_dogruluk_makale=0.231, hit1=0.522, hit3=0.786, sektor_hit1=0.699
+[14:39:56] [gomme_alternatif] alt_gpt | Word2Vec en/lemma/ad: ilce_dogruluk_makale=0.718, hit1=0.750, hit3=0.914, sektor_hit1=0.865
+[14:39:57] [gomme_alternatif] alt_gpt | Word2Vec en/stem/ad: ilce_dogruluk_makale=0.769, hit1=0.736, hit3=0.862, sektor_hit1=0.893
+[14:39:57] [gomme_gercek] gercek_en | Word2Vec en/plain/ad: hit1=0.367, hit3=0.567, sektor_hit1=0.600
+[14:39:57] [gomme_gercek] gercek_en | Word2Vec en/plain/ad+tanim: hit1=0.600, hit3=0.867, sektor_hit1=0.767
+[14:39:57] [gomme_gercek] gercek_en | Word2Vec en/lemma/ad: hit1=0.467, hit3=0.800, sektor_hit1=0.833
+[14:39:57] [gomme_gercek] gercek_en | Word2Vec en/lemma/ad+tanim: hit1=0.467, hit3=0.767, sektor_hit1=0.767
+[14:39:57] [gomme_gercek] gercek_en | Word2Vec en/stem/ad: hit1=0.400, hit3=0.667, sektor_hit1=0.733
+[14:39:57] [gomme_gercek] gercek_en | Word2Vec en/stem/ad+tanim: hit1=0.433, hit3=0.767, sektor_hit1=0.767
+[14:39:57] [gomme_gercek] gercek_tr | Word2Vec en/plain/ad: hit1=0.095, hit3=0.238, sektor_hit1=0.238
+[14:39:57] [gomme_gercek] gercek_tr | Word2Vec en/plain/ad+tanim: hit1=0.190, hit3=0.381, sektor_hit1=0.381
+[14:39:57] [gomme_gercek] gercek_tr | Word2Vec en/lemma/ad: hit1=0.333, hit3=0.381, sektor_hit1=0.524
+[14:39:57] [gomme_gercek] gercek_tr | Word2Vec en/lemma/ad+tanim: hit1=0.143, hit3=0.429, sektor_hit1=0.429
+[14:39:57] [gomme_gercek] gercek_tr | Word2Vec en/stem/ad: hit1=0.286, hit3=0.333, sektor_hit1=0.381
+[14:39:57] [gomme_gercek] gercek_tr | Word2Vec en/stem/ad+tanim: hit1=0.286, hit3=0.333, sektor_hit1=0.333
+[14:40:24] Gömme: USE (universal-sentence-encoder/4 (/content/drive/MyDrive/Colab Notebooks/NLP Modeller/USE Files)) yüklendi (25 sn); 24 yapılandırma
+[14:40:24] [gomme_sentetik] sentetik | USE en/plain/ad+tanim: ilce_dogruluk_makale=0.744, hit1=0.704, hit3=0.876, sektor_hit1=0.887
+[14:40:25] [gomme_sentetik] sentetik | USE en/lemma/ad+tanim: ilce_dogruluk_makale=0.744, hit1=0.703, hit3=0.880, sektor_hit1=0.889
+[14:40:25] [gomme_sentetik] sentetik | USE en/stem/ad+tanim: ilce_dogruluk_makale=0.667, hit1=0.665, hit3=0.821, sektor_hit1=0.865
+[14:40:25] [gomme_alternatif] alt_claude | USE en/plain/ad: ilce_dogruluk_makale=0.769, hit1=0.716, hit3=0.870, sektor_hit1=0.887
+[14:40:25] [gomme_alternatif] alt_claude | USE en/lemma/ad: ilce_dogruluk_makale=0.821, hit1=0.734, hit3=0.857, sektor_hit1=0.885
+[14:40:25] [gomme_alternatif] alt_claude | USE en/stem/ad: ilce_dogruluk_makale=0.692, hit1=0.648, hit3=0.780, sektor_hit1=0.861
+[14:40:26] [gomme_alternatif] alt_gemini | USE en/plain/ad: ilce_dogruluk_makale=0.821, hit1=0.778, hit3=0.911, sektor_hit1=0.932
+[14:40:26] [gomme_alternatif] alt_gemini | USE en/lemma/ad: ilce_dogruluk_makale=0.795, hit1=0.775, hit3=0.916, sektor_hit1=0.924
+[14:40:26] [gomme_alternatif] alt_gemini | USE en/stem/ad: ilce_dogruluk_makale=0.821, hit1=0.705, hit3=0.823, sektor_hit1=0.870
+[14:40:26] [gomme_alternatif] alt_gpt | USE en/plain/ad: ilce_dogruluk_makale=0.949, hit1=0.877, hit3=0.956, sektor_hit1=0.943
+[14:40:26] [gomme_alternatif] alt_gpt | USE en/lemma/ad: ilce_dogruluk_makale=0.872, hit1=0.862, hit3=0.956, sektor_hit1=0.943
+[14:40:26] [gomme_alternatif] alt_gpt | USE en/stem/ad: ilce_dogruluk_makale=0.821, hit1=0.789, hit3=0.874, sektor_hit1=0.924
+[14:40:26] [gomme_gercek] gercek_en | USE en/plain/ad: hit1=0.600, hit3=0.833, sektor_hit1=0.800
+[14:40:27] [gomme_gercek] gercek_en | USE en/plain/ad+tanim: hit1=0.500, hit3=0.833, sektor_hit1=0.733
+[14:40:27] [gomme_gercek] gercek_en | USE en/lemma/ad: hit1=0.633, hit3=0.833, sektor_hit1=0.833
+[14:40:27] [gomme_gercek] gercek_en | USE en/lemma/ad+tanim: hit1=0.600, hit3=0.833, sektor_hit1=0.767
+[14:40:27] [gomme_gercek] gercek_en | USE en/stem/ad: hit1=0.533, hit3=0.700, sektor_hit1=0.767
+[14:40:27] [gomme_gercek] gercek_en | USE en/stem/ad+tanim: hit1=0.667, hit3=0.767, sektor_hit1=0.767
+[14:40:27] [gomme_gercek] gercek_tr | USE en/plain/ad: hit1=0.238, hit3=0.333, sektor_hit1=0.381
+[14:40:27] [gomme_gercek] gercek_tr | USE en/plain/ad+tanim: hit1=0.238, hit3=0.476, sektor_hit1=0.476
+[14:40:27] [gomme_gercek] gercek_tr | USE en/lemma/ad: hit1=0.286, hit3=0.429, sektor_hit1=0.429
+[14:40:27] [gomme_gercek] gercek_tr | USE en/lemma/ad+tanim: hit1=0.286, hit3=0.476, sektor_hit1=0.524
+[14:40:28] [gomme_gercek] gercek_tr | USE en/stem/ad: hit1=0.286, hit3=0.333, sektor_hit1=0.476
+[14:40:28] [gomme_gercek] gercek_tr | USE en/stem/ad+tanim: hit1=0.333, hit3=0.429, sektor_hit1=0.429
+[14:42:42] Gömme: FastText (cc.en.300.bin (/content/drive/MyDrive/Colab Notebooks/NLP Modeller/FastText Files/cc.en.300.bin)) yüklendi (134 sn); 24 yapılandırma
+[14:42:44] [gomme_sentetik] sentetik | FastText en/plain/ad+tanim: ilce_dogruluk_makale=0.026, hit1=0.262, hit3=0.455, sektor_hit1=0.561
+[14:42:45] [gomme_sentetik] sentetik | FastText en/lemma/ad+tanim: ilce_dogruluk_makale=0.282, hit1=0.459, hit3=0.657, sektor_hit1=0.732
+[14:42:46] [gomme_sentetik] sentetik | FastText en/stem/ad+tanim: ilce_dogruluk_makale=0.513, hit1=0.509, hit3=0.684, sektor_hit1=0.744
+[14:42:46] [gomme_alternatif] alt_claude | FastText en/plain/ad: ilce_dogruluk_makale=0.051, hit1=0.159, hit3=0.269, sektor_hit1=0.444
+[14:42:46] [gomme_alternatif] alt_claude | FastText en/lemma/ad: ilce_dogruluk_makale=0.256, hit1=0.400, hit3=0.596, sektor_hit1=0.639
+[14:42:47] [gomme_alternatif] alt_claude | FastText en/stem/ad: ilce_dogruluk_makale=0.410, hit1=0.462, hit3=0.635, sektor_hit1=0.697
+[14:42:47] [gomme_alternatif] alt_gemini | FastText en/plain/ad: ilce_dogruluk_makale=0.077, hit1=0.162, hit3=0.319, sektor_hit1=0.446
+[14:42:47] [gomme_alternatif] alt_gemini | FastText en/lemma/ad: ilce_dogruluk_makale=0.333, hit1=0.454, hit3=0.665, sektor_hit1=0.661
+[14:42:48] [gomme_alternatif] alt_gemini | FastText en/stem/ad: ilce_dogruluk_makale=0.513, hit1=0.512, hit3=0.668, sektor_hit1=0.724
+[14:42:48] [gomme_alternatif] alt_gpt | FastText en/plain/ad: ilce_dogruluk_makale=0.051, hit1=0.160, hit3=0.331, sektor_hit1=0.418
+[14:42:48] [gomme_alternatif] alt_gpt | FastText en/lemma/ad: ilce_dogruluk_makale=0.359, hit1=0.502, hit3=0.749, sektor_hit1=0.681
+[14:42:48] [gomme_alternatif] alt_gpt | FastText en/stem/ad: ilce_dogruluk_makale=0.615, hit1=0.605, hit3=0.780, sektor_hit1=0.776
+[14:42:49] [gomme_gercek] gercek_en | FastText en/plain/ad: hit1=0.067, hit3=0.233, sektor_hit1=0.467
+[14:42:49] [gomme_gercek] gercek_en | FastText en/plain/ad+tanim: hit1=0.433, hit3=0.633, sektor_hit1=0.600
+[14:42:49] [gomme_gercek] gercek_en | FastText en/lemma/ad: hit1=0.267, hit3=0.533, sektor_hit1=0.667
+[14:42:49] [gomme_gercek] gercek_en | FastText en/lemma/ad+tanim: hit1=0.400, hit3=0.767, sektor_hit1=0.733
+[14:42:49] [gomme_gercek] gercek_en | FastText en/stem/ad: hit1=0.267, hit3=0.700, sektor_hit1=0.667
+[14:42:49] [gomme_gercek] gercek_en | FastText en/stem/ad+tanim: hit1=0.400, hit3=0.700, sektor_hit1=0.733
+[14:42:49] [gomme_gercek] gercek_tr | FastText en/plain/ad: hit1=0.048, hit3=0.429, sektor_hit1=0.238
+[14:42:49] [gomme_gercek] gercek_tr | FastText en/plain/ad+tanim: hit1=0.190, hit3=0.286, sektor_hit1=0.238
+[14:42:49] [gomme_gercek] gercek_tr | FastText en/lemma/ad: hit1=0.048, hit3=0.190, sektor_hit1=0.286
+[14:42:50] [gomme_gercek] gercek_tr | FastText en/lemma/ad+tanim: hit1=0.095, hit3=0.381, sektor_hit1=0.333
+[14:42:50] [gomme_gercek] gercek_tr | FastText en/stem/ad: hit1=0.143, hit3=0.476, sektor_hit1=0.333
+[14:42:50] [gomme_gercek] gercek_tr | FastText en/stem/ad+tanim: hit1=0.143, hit3=0.286, sektor_hit1=0.381
+[14:42:55] Gömme: SBERT-mpnet (sentence-transformers:all-mpnet-base-v2) yüklendi (5 sn); 24 yapılandırma
+[14:42:57] [gomme_sentetik] sentetik | SBERT-mpnet en/plain/ad+tanim: ilce_dogruluk_makale=0.692, hit1=0.629, hit3=0.853, sektor_hit1=0.829
+[14:42:58] [gomme_sentetik] sentetik | SBERT-mpnet en/lemma/ad+tanim: ilce_dogruluk_makale=0.744, hit1=0.561, hit3=0.787, sektor_hit1=0.788
+[14:43:00] [gomme_sentetik] sentetik | SBERT-mpnet en/stem/ad+tanim: ilce_dogruluk_makale=0.692, hit1=0.523, hit3=0.744, sektor_hit1=0.793
+[14:43:00] [gomme_alternatif] alt_claude | SBERT-mpnet en/plain/ad: ilce_dogruluk_makale=0.821, hit1=0.674, hit3=0.874, sektor_hit1=0.901
+[14:43:01] [gomme_alternatif] alt_claude | SBERT-mpnet en/lemma/ad: ilce_dogruluk_makale=0.692, hit1=0.627, hit3=0.828, sektor_hit1=0.856
+[14:43:01] [gomme_alternatif] alt_claude | SBERT-mpnet en/stem/ad: ilce_dogruluk_makale=0.641, hit1=0.596, hit3=0.765, sektor_hit1=0.843
+[14:43:02] [gomme_alternatif] alt_gemini | SBERT-mpnet en/plain/ad: ilce_dogruluk_makale=0.769, hit1=0.733, hit3=0.911, sektor_hit1=0.922
+[14:43:02] [gomme_alternatif] alt_gemini | SBERT-mpnet en/lemma/ad: ilce_dogruluk_makale=0.718, hit1=0.687, hit3=0.896, sektor_hit1=0.880
+[14:43:02] [gomme_alternatif] alt_gemini | SBERT-mpnet en/stem/ad: ilce_dogruluk_makale=0.641, hit1=0.605, hit3=0.810, sektor_hit1=0.843
+[14:43:03] [gomme_alternatif] alt_gpt | SBERT-mpnet en/plain/ad: ilce_dogruluk_makale=0.897, hit1=0.770, hit3=0.925, sektor_hit1=0.914
+[14:43:03] [gomme_alternatif] alt_gpt | SBERT-mpnet en/lemma/ad: ilce_dogruluk_makale=0.846, hit1=0.797, hit3=0.950, sektor_hit1=0.929
+[14:43:04] [gomme_alternatif] alt_gpt | SBERT-mpnet en/stem/ad: ilce_dogruluk_makale=0.795, hit1=0.781, hit3=0.911, sektor_hit1=0.912
+[14:43:04] [gomme_gercek] gercek_en | SBERT-mpnet en/plain/ad: hit1=0.500, hit3=0.767, sektor_hit1=0.800
+[14:43:04] [gomme_gercek] gercek_en | SBERT-mpnet en/plain/ad+tanim: hit1=0.567, hit3=0.933, sektor_hit1=0.667
+[14:43:04] [gomme_gercek] gercek_en | SBERT-mpnet en/lemma/ad: hit1=0.567, hit3=0.867, sektor_hit1=0.833
+[14:43:05] [gomme_gercek] gercek_en | SBERT-mpnet en/lemma/ad+tanim: hit1=0.433, hit3=0.800, sektor_hit1=0.600
+[14:43:05] [gomme_gercek] gercek_en | SBERT-mpnet en/stem/ad: hit1=0.500, hit3=0.833, sektor_hit1=0.767
+[14:43:05] [gomme_gercek] gercek_en | SBERT-mpnet en/stem/ad+tanim: hit1=0.467, hit3=0.767, sektor_hit1=0.733
+[14:43:05] [gomme_gercek] gercek_tr | SBERT-mpnet en/plain/ad: hit1=0.381, hit3=0.571, sektor_hit1=0.524
+[14:43:06] [gomme_gercek] gercek_tr | SBERT-mpnet en/plain/ad+tanim: hit1=0.333, hit3=0.571, sektor_hit1=0.476
+[14:43:06] [gomme_gercek] gercek_tr | SBERT-mpnet en/lemma/ad: hit1=0.429, hit3=0.619, sektor_hit1=0.619
+[14:43:06] [gomme_gercek] gercek_tr | SBERT-mpnet en/lemma/ad+tanim: hit1=0.238, hit3=0.381, sektor_hit1=0.429
+[14:43:06] [gomme_gercek] gercek_tr | SBERT-mpnet en/stem/ad: hit1=0.476, hit3=0.810, sektor_hit1=0.571
+[14:43:07] [gomme_gercek] gercek_tr | SBERT-mpnet en/stem/ad+tanim: hit1=0.333, hit3=0.571, sektor_hit1=0.571
+[14:43:12] Gömme: BERT-raw (sentence-transformers:bert-base-uncased) yüklendi (4 sn); 24 yapılandırma
+[14:43:13] [gomme_sentetik] sentetik | BERT-raw en/plain/ad+tanim: ilce_dogruluk_makale=0.051, hit1=0.203, hit3=0.367, sektor_hit1=0.569
+[14:43:14] [gomme_sentetik] sentetik | BERT-raw en/lemma/ad+tanim: ilce_dogruluk_makale=0.026, hit1=0.216, hit3=0.384, sektor_hit1=0.574
+[14:43:16] [gomme_sentetik] sentetik | BERT-raw en/stem/ad+tanim: ilce_dogruluk_makale=0.154, hit1=0.178, hit3=0.333, sektor_hit1=0.525
+[14:43:16] [gomme_alternatif] alt_claude | BERT-raw en/plain/ad: ilce_dogruluk_makale=0.051, hit1=0.099, hit3=0.237, sektor_hit1=0.371
+[14:43:17] [gomme_alternatif] alt_claude | BERT-raw en/lemma/ad: ilce_dogruluk_makale=0.026, hit1=0.096, hit3=0.230, sektor_hit1=0.366
+[14:43:17] [gomme_alternatif] alt_claude | BERT-raw en/stem/ad: ilce_dogruluk_makale=0.000, hit1=0.053, hit3=0.138, sektor_hit1=0.361
+[14:43:18] [gomme_alternatif] alt_gemini | BERT-raw en/plain/ad: ilce_dogruluk_makale=0.051, hit1=0.115, hit3=0.253, sektor_hit1=0.395
+[14:43:18] [gomme_alternatif] alt_gemini | BERT-raw en/lemma/ad: ilce_dogruluk_makale=0.026, hit1=0.109, hit3=0.241, sektor_hit1=0.399
+[14:43:18] [gomme_alternatif] alt_gemini | BERT-raw en/stem/ad: ilce_dogruluk_makale=0.000, hit1=0.065, hit3=0.154, sektor_hit1=0.399
+[14:43:19] [gomme_alternatif] alt_gpt | BERT-raw en/plain/ad: ilce_dogruluk_makale=0.077, hit1=0.151, hit3=0.277, sektor_hit1=0.426
+[14:43:19] [gomme_alternatif] alt_gpt | BERT-raw en/lemma/ad: ilce_dogruluk_makale=0.077, hit1=0.160, hit3=0.297, sektor_hit1=0.451
+[14:43:20] [gomme_alternatif] alt_gpt | BERT-raw en/stem/ad: ilce_dogruluk_makale=0.026, hit1=0.089, hit3=0.220, sektor_hit1=0.368
+[14:43:20] [gomme_gercek] gercek_en | BERT-raw en/plain/ad: hit1=0.033, hit3=0.067, sektor_hit1=0.500
+[14:43:20] [gomme_gercek] gercek_en | BERT-raw en/plain/ad+tanim: hit1=0.133, hit3=0.300, sektor_hit1=0.533
+[14:43:20] [gomme_gercek] gercek_en | BERT-raw en/lemma/ad: hit1=0.000, hit3=0.033, sektor_hit1=0.400
+[14:43:21] [gomme_gercek] gercek_en | BERT-raw en/lemma/ad+tanim: hit1=0.200, hit3=0.400, sektor_hit1=0.367
+[14:43:21] [gomme_gercek] gercek_en | BERT-raw en/stem/ad: hit1=0.000, hit3=0.067, sektor_hit1=0.400
+[14:43:21] [gomme_gercek] gercek_en | BERT-raw en/stem/ad+tanim: hit1=0.133, hit3=0.233, sektor_hit1=0.333
+[14:43:21] [gomme_gercek] gercek_tr | BERT-raw en/plain/ad: hit1=0.048, hit3=0.095, sektor_hit1=0.286
+[14:43:21] [gomme_gercek] gercek_tr | BERT-raw en/plain/ad+tanim: hit1=0.095, hit3=0.238, sektor_hit1=0.238
+[14:43:22] [gomme_gercek] gercek_tr | BERT-raw en/lemma/ad: hit1=0.000, hit3=0.000, sektor_hit1=0.286
+[14:43:22] [gomme_gercek] gercek_tr | BERT-raw en/lemma/ad+tanim: hit1=0.000, hit3=0.095, sektor_hit1=0.333
+[14:43:22] [gomme_gercek] gercek_tr | BERT-raw en/stem/ad: hit1=0.048, hit3=0.286, sektor_hit1=0.238
+[14:43:23] [gomme_gercek] gercek_tr | BERT-raw en/stem/ad+tanim: hit1=0.143, hit3=0.190, sektor_hit1=0.238
+[14:43:27] Gömme: ALBERT-paraphrase (sentence-transformers:paraphrase-albert-small-v2) yüklendi (4 sn); 24 yapılandırma
+[14:43:28] [gomme_sentetik] sentetik | ALBERT-paraphrase en/plain/ad+tanim: ilce_dogruluk_makale=0.718, hit1=0.600, hit3=0.805, sektor_hit1=0.815
+[14:43:29] [gomme_sentetik] sentetik | ALBERT-paraphrase en/lemma/ad+tanim: ilce_dogruluk_makale=0.641, hit1=0.542, hit3=0.766, sektor_hit1=0.778
+[14:43:30] [gomme_sentetik] sentetik | ALBERT-paraphrase en/stem/ad+tanim: ilce_dogruluk_makale=0.718, hit1=0.578, hit3=0.773, sektor_hit1=0.809
+[14:43:30] [gomme_alternatif] alt_claude | ALBERT-paraphrase en/plain/ad: ilce_dogruluk_makale=0.769, hit1=0.648, hit3=0.799, sektor_hit1=0.856
+[14:43:31] [gomme_alternatif] alt_claude | ALBERT-paraphrase en/lemma/ad: ilce_dogruluk_makale=0.692, hit1=0.643, hit3=0.791, sektor_hit1=0.849
+[14:43:31] [gomme_alternatif] alt_claude | ALBERT-paraphrase en/stem/ad: ilce_dogruluk_makale=0.667, hit1=0.614, hit3=0.780, sektor_hit1=0.822
+[14:43:31] [gomme_alternatif] alt_gemini | ALBERT-paraphrase en/plain/ad: ilce_dogruluk_makale=0.769, hit1=0.682, hit3=0.856, sektor_hit1=0.853
+[14:43:32] [gomme_alternatif] alt_gemini | ALBERT-paraphrase en/lemma/ad: ilce_dogruluk_makale=0.795, hit1=0.677, hit3=0.838, sektor_hit1=0.859
+[14:43:32] [gomme_alternatif] alt_gemini | ALBERT-paraphrase en/stem/ad: ilce_dogruluk_makale=0.769, hit1=0.673, hit3=0.809, sektor_hit1=0.840
+[14:43:32] [gomme_alternatif] alt_gpt | ALBERT-paraphrase en/plain/ad: ilce_dogruluk_makale=0.897, hit1=0.804, hit3=0.935, sektor_hit1=0.922
+[14:43:33] [gomme_alternatif] alt_gpt | ALBERT-paraphrase en/lemma/ad: ilce_dogruluk_makale=0.897, hit1=0.814, hit3=0.950, sektor_hit1=0.932
+[14:43:33] [gomme_alternatif] alt_gpt | ALBERT-paraphrase en/stem/ad: ilce_dogruluk_makale=0.872, hit1=0.817, hit3=0.919, sektor_hit1=0.932
+[14:43:33] [gomme_gercek] gercek_en | ALBERT-paraphrase en/plain/ad: hit1=0.500, hit3=0.700, sektor_hit1=0.767
+[14:43:33] [gomme_gercek] gercek_en | ALBERT-paraphrase en/plain/ad+tanim: hit1=0.300, hit3=0.800, sektor_hit1=0.533
+[14:43:33] [gomme_gercek] gercek_en | ALBERT-paraphrase en/lemma/ad: hit1=0.467, hit3=0.767, sektor_hit1=0.667
+[14:43:33] [gomme_gercek] gercek_en | ALBERT-paraphrase en/lemma/ad+tanim: hit1=0.367, hit3=0.600, sektor_hit1=0.633
+[14:43:34] [gomme_gercek] gercek_en | ALBERT-paraphrase en/stem/ad: hit1=0.433, hit3=0.700, sektor_hit1=0.733
+[14:43:34] [gomme_gercek] gercek_en | ALBERT-paraphrase en/stem/ad+tanim: hit1=0.433, hit3=0.600, sektor_hit1=0.700
+[14:43:34] [gomme_gercek] gercek_tr | ALBERT-paraphrase en/plain/ad: hit1=0.381, hit3=0.571, sektor_hit1=0.524
+[14:43:34] [gomme_gercek] gercek_tr | ALBERT-paraphrase en/plain/ad+tanim: hit1=0.381, hit3=0.524, sektor_hit1=0.524
+[14:43:34] [gomme_gercek] gercek_tr | ALBERT-paraphrase en/lemma/ad: hit1=0.333, hit3=0.476, sektor_hit1=0.571
+[14:43:35] [gomme_gercek] gercek_tr | ALBERT-paraphrase en/lemma/ad+tanim: hit1=0.238, hit3=0.333, sektor_hit1=0.429
+[14:43:35] [gomme_gercek] gercek_tr | ALBERT-paraphrase en/stem/ad: hit1=0.381, hit3=0.381, sektor_hit1=0.524
+[14:43:35] [gomme_gercek] gercek_tr | ALBERT-paraphrase en/stem/ad+tanim: hit1=0.143, hit3=0.333, sektor_hit1=0.429
+[14:43:50] Gömme: SBERT-çokdilli (TR) (sentence-transformers:paraphrase-multilingual-MiniLM-L12-v2) yüklendi (14 sn); 6 yapılandırma
+[14:43:51] [gomme_sentetik] sentetik | SBERT-çokdilli (TR) tr/plain/ad+tanim: ilce_dogruluk_makale=0.359, hit1=0.425, hit3=0.664, sektor_hit1=0.694
+[14:43:51] [gomme_alternatif] alt_claude | SBERT-çokdilli (TR) tr/plain/ad: ilce_dogruluk_makale=0.436, hit1=0.457, hit3=0.640, sektor_hit1=0.739
+[14:43:51] [gomme_alternatif] alt_gemini | SBERT-çokdilli (TR) tr/plain/ad: ilce_dogruluk_makale=0.513, hit1=0.504, hit3=0.695, sektor_hit1=0.712
+[14:43:52] [gomme_alternatif] alt_gpt | SBERT-çokdilli (TR) tr/plain/ad: ilce_dogruluk_makale=0.615, hit1=0.592, hit3=0.770, sektor_hit1=0.759
+[14:43:52] [gomme_gercek] gercek_tr | SBERT-çokdilli (TR) tr/plain/ad: hit1=0.333, hit3=0.429, sektor_hit1=0.524
+[14:43:52] [gomme_gercek] gercek_tr | SBERT-çokdilli (TR) tr/plain/ad+tanim: hit1=0.429, hit3=0.810, sektor_hit1=0.524
+[14:43:59] Gömme: BERTurk-STS (TR) (sentence-transformers:emrecan/bert-base-turkish-cased-mean-nli-stsb-tr) yüklendi (6 sn); 6 yapılandırma
+[14:44:00] [gomme_sentetik] sentetik | BERTurk-STS (TR) tr/plain/ad+tanim: ilce_dogruluk_makale=0.513, hit1=0.416, hit3=0.664, sektor_hit1=0.683
+[14:44:01] [gomme_alternatif] alt_claude | BERTurk-STS (TR) tr/plain/ad: ilce_dogruluk_makale=0.462, hit1=0.481, hit3=0.686, sektor_hit1=0.757
+[14:44:01] [gomme_alternatif] alt_gemini | BERTurk-STS (TR) tr/plain/ad: ilce_dogruluk_makale=0.410, hit1=0.489, hit3=0.742, sektor_hit1=0.741
+[14:44:02] [gomme_alternatif] alt_gpt | BERTurk-STS (TR) tr/plain/ad: ilce_dogruluk_makale=0.615, hit1=0.613, hit3=0.823, sektor_hit1=0.812
+[14:44:02] [gomme_gercek] gercek_tr | BERTurk-STS (TR) tr/plain/ad: hit1=0.286, hit3=0.571, sektor_hit1=0.333
+[14:44:02] [gomme_gercek] gercek_tr | BERTurk-STS (TR) tr/plain/ad+tanim: hit1=0.095, hit3=0.429, sektor_hit1=0.238
+[14:44:03] Gömme: Temel: TF-IDF (TF-IDF (sklearn, 1-2 gram, sublinear tf)) yüklendi (0 sn); 24 yapılandırma
+[14:44:04] [gomme_sentetik] sentetik | Temel: TF-IDF en/plain/ad+tanim: ilce_dogruluk_makale=0.769, hit1=0.665, hit3=0.796, sektor_hit1=0.807
+[14:44:05] [gomme_sentetik] sentetik | Temel: TF-IDF en/lemma/ad+tanim: ilce_dogruluk_makale=0.872, hit1=0.745, hit3=0.854, sektor_hit1=0.871
+[14:44:05] [gomme_sentetik] sentetik | Temel: TF-IDF en/stem/ad+tanim: ilce_dogruluk_makale=0.846, hit1=0.755, hit3=0.863, sektor_hit1=0.874
+[14:44:05] [gomme_alternatif] alt_claude | Temel: TF-IDF en/plain/ad: ilce_dogruluk_makale=0.769, hit1=0.669, hit3=0.713, sektor_hit1=0.780
+[14:44:06] [gomme_alternatif] alt_claude | Temel: TF-IDF en/lemma/ad: ilce_dogruluk_makale=0.795, hit1=0.755, hit3=0.794, sektor_hit1=0.843
+[14:44:06] [gomme_alternatif] alt_claude | Temel: TF-IDF en/stem/ad: ilce_dogruluk_makale=0.795, hit1=0.763, hit3=0.799, sektor_hit1=0.846
+[14:44:06] [gomme_alternatif] alt_gemini | Temel: TF-IDF en/plain/ad: ilce_dogruluk_makale=0.795, hit1=0.770, hit3=0.797, sektor_hit1=0.848
+[14:44:06] [gomme_alternatif] alt_gemini | Temel: TF-IDF en/lemma/ad: ilce_dogruluk_makale=0.846, hit1=0.793, hit3=0.825, sektor_hit1=0.864
+[14:44:06] [gomme_alternatif] alt_gemini | Temel: TF-IDF en/stem/ad: ilce_dogruluk_makale=0.821, hit1=0.799, hit3=0.836, sektor_hit1=0.870
+[14:44:07] [gomme_alternatif] alt_gpt | Temel: TF-IDF en/plain/ad: ilce_dogruluk_makale=0.821, hit1=0.825, hit3=0.870, sektor_hit1=0.896
+[14:44:07] [gomme_alternatif] alt_gpt | Temel: TF-IDF en/lemma/ad: ilce_dogruluk_makale=0.949, hit1=0.930, hit3=0.966, sektor_hit1=0.963
+[14:44:07] [gomme_alternatif] alt_gpt | Temel: TF-IDF en/stem/ad: ilce_dogruluk_makale=0.949, hit1=0.937, hit3=0.969, sektor_hit1=0.968
+[14:44:07] [gomme_gercek] gercek_en | Temel: TF-IDF en/plain/ad: hit1=0.700, hit3=0.767, sektor_hit1=0.800
+[14:44:07] [gomme_gercek] gercek_en | Temel: TF-IDF en/plain/ad+tanim: hit1=0.467, hit3=0.767, sektor_hit1=0.733
+[14:44:07] [gomme_gercek] gercek_en | Temel: TF-IDF en/lemma/ad: hit1=0.800, hit3=0.833, sektor_hit1=0.900
+[14:44:07] [gomme_gercek] gercek_en | Temel: TF-IDF en/lemma/ad+tanim: hit1=0.700, hit3=0.867, sektor_hit1=0.867
+[14:44:08] [gomme_gercek] gercek_en | Temel: TF-IDF en/stem/ad: hit1=0.833, hit3=0.867, sektor_hit1=0.900
+[14:44:08] [gomme_gercek] gercek_en | Temel: TF-IDF en/stem/ad+tanim: hit1=0.700, hit3=0.833, sektor_hit1=0.833
+[14:44:08] [gomme_gercek] gercek_tr | Temel: TF-IDF en/plain/ad: hit1=0.190, hit3=0.333, sektor_hit1=0.286
+[14:44:08] [gomme_gercek] gercek_tr | Temel: TF-IDF en/plain/ad+tanim: hit1=0.238, hit3=0.333, sektor_hit1=0.381
+[14:44:08] [gomme_gercek] gercek_tr | Temel: TF-IDF en/lemma/ad: hit1=0.381, hit3=0.381, sektor_hit1=0.381
+[14:44:08] [gomme_gercek] gercek_tr | Temel: TF-IDF en/lemma/ad+tanim: hit1=0.286, hit3=0.381, sektor_hit1=0.381
+[14:44:08] [gomme_gercek] gercek_tr | Temel: TF-IDF en/stem/ad: hit1=0.381, hit3=0.381, sektor_hit1=0.381
+[14:44:08] [gomme_gercek] gercek_tr | Temel: TF-IDF en/stem/ad+tanim: hit1=0.333, hit3=0.381, sektor_hit1=0.381
+[14:44:09] [gomme_alternatif] alt_claude | Temel: Rastgele en/plain/ad: ilce_dogruluk_makale=0.026, hit1=0.013, hit3=0.066, sektor_hit1=0.261
+[14:44:09] [gomme_alternatif] alt_gemini | Temel: Rastgele en/plain/ad: ilce_dogruluk_makale=0.026, hit1=0.013, hit3=0.066, sektor_hit1=0.261
+[14:44:09] [gomme_alternatif] alt_gpt | Temel: Rastgele en/plain/ad: ilce_dogruluk_makale=0.026, hit1=0.013, hit3=0.066, sektor_hit1=0.261
+[14:44:09] [gomme_gercek] gercek_en | Temel: Rastgele en/plain/ad: hit1=0.000, hit3=0.100, sektor_hit1=0.333
+[14:44:09] [gomme_gercek] gercek_tr | Temel: Rastgele en/plain/ad: hit1=0.095, hit3=0.095, sektor_hit1=0.286
+[14:44:09] [gomme_alternatif] alt_claude | Temel: Çoğunluk en/plain/ad: ilce_dogruluk_makale=0.077, hit1=0.071, hit3=0.170, sektor_hit1=0.220
+[14:44:10] [gomme_alternatif] alt_gemini | Temel: Çoğunluk en/plain/ad: ilce_dogruluk_makale=0.077, hit1=0.071, hit3=0.170, sektor_hit1=0.220
+[14:44:10] [gomme_alternatif] alt_gpt | Temel: Çoğunluk en/plain/ad: ilce_dogruluk_makale=0.077, hit1=0.071, hit3=0.170, sektor_hit1=0.220
+[14:44:10] [gomme_gercek] gercek_en | Temel: Çoğunluk en/plain/ad: hit1=0.400, hit3=0.500, sektor_hit1=0.433
+[14:44:10] [gomme_gercek] gercek_tr | Temel: Çoğunluk en/plain/ad: hit1=0.381, hit3=0.667, sektor_hit1=0.381
+[14:44:10] Gömme deneyleri tamam.
+[14:44:11] Az örnekli bölme: eğitim 528, test 1472 paylaşım; BDM istemi için 66 örnek
+[14:44:11] [az_ornekli] sentetik_test | BERT sifir_atis/plain: ilce_dogruluk_makale=0.051, hit1=0.192, hit3=0.323, sektor_hit1=0.541
+[14:44:12] [az_ornekli] sentetik_test | BERT sifir_atis/lemma: ilce_dogruluk_makale=0.128, hit1=0.281, hit3=0.481, sektor_hit1=0.635
+[14:44:12] [az_ornekli] sentetik_test | BERT sifir_atis/stem: ilce_dogruluk_makale=0.359, hit1=0.338, hit3=0.502, sektor_hit1=0.681
+[14:44:13] [az_ornekli] sentetik_test | ALBERT sifir_atis/plain: ilce_dogruluk_makale=0.000, hit1=0.067, hit3=0.162, sektor_hit1=0.247
+[14:44:13] [az_ornekli] sentetik_test | ALBERT sifir_atis/lemma: ilce_dogruluk_makale=0.000, hit1=0.071, hit3=0.182, sektor_hit1=0.404
+[14:44:13] [az_ornekli] sentetik_test | ALBERT sifir_atis/stem: ilce_dogruluk_makale=0.000, hit1=0.029, hit3=0.128, sektor_hit1=0.395
+[14:44:14] [az_ornekli] sentetik_test | RoBERTa sifir_atis/plain: ilce_dogruluk_makale=0.051, hit1=0.183, hit3=0.272, sektor_hit1=0.532
+[14:44:14] [az_ornekli] sentetik_test | RoBERTa sifir_atis/lemma: ilce_dogruluk_makale=0.154, hit1=0.255, hit3=0.389, sektor_hit1=0.628
+[14:44:15] [az_ornekli] sentetik_test | RoBERTa sifir_atis/stem: ilce_dogruluk_makale=0.179, hit1=0.268, hit3=0.394, sektor_hit1=0.622
+[14:44:15] [az_ornekli] sentetik_test | GloVe sifir_atis/plain: ilce_dogruluk_makale=0.026, hit1=0.181, hit3=0.346, sektor_hit1=0.486
+[14:44:15] [az_ornekli] sentetik_test | GloVe sifir_atis/lemma: ilce_dogruluk_makale=0.000, hit1=0.300, hit3=0.545, sektor_hit1=0.552
+[14:44:16] [az_ornekli] sentetik_test | GloVe sifir_atis/stem: ilce_dogruluk_makale=0.154, hit1=0.364, hit3=0.537, sektor_hit1=0.674
+[14:44:16] [az_ornekli] sentetik_test | Word2Vec sifir_atis/plain: ilce_dogruluk_makale=0.077, hit1=0.368, hit3=0.610, sektor_hit1=0.651
+[14:44:17] [az_ornekli] sentetik_test | Word2Vec sifir_atis/lemma: ilce_dogruluk_makale=0.487, hit1=0.583, hit3=0.717, sektor_hit1=0.812
+[14:44:17] [az_ornekli] sentetik_test | Word2Vec sifir_atis/stem: ilce_dogruluk_makale=0.487, hit1=0.572, hit3=0.686, sektor_hit1=0.802
+[14:44:17] [az_ornekli] sentetik_test | USE sifir_atis/plain: ilce_dogruluk_makale=0.744, hit1=0.711, hit3=0.871, sektor_hit1=0.891
+[14:44:18] [az_ornekli] sentetik_test | USE sifir_atis/lemma: ilce_dogruluk_makale=0.769, hit1=0.704, hit3=0.849, sektor_hit1=0.885
+[14:44:18] [az_ornekli] sentetik_test | USE sifir_atis/stem: ilce_dogruluk_makale=0.590, hit1=0.632, hit3=0.770, sektor_hit1=0.863
+[14:44:19] [az_ornekli] sentetik_test | FastText sifir_atis/plain: ilce_dogruluk_makale=0.000, hit1=0.154, hit3=0.285, sektor_hit1=0.457
+[14:44:19] [az_ornekli] sentetik_test | FastText sifir_atis/lemma: ilce_dogruluk_makale=0.154, hit1=0.391, hit3=0.605, sektor_hit1=0.642
+[14:44:20] [az_ornekli] sentetik_test | FastText sifir_atis/stem: ilce_dogruluk_makale=0.308, hit1=0.462, hit3=0.625, sektor_hit1=0.715
+[14:44:20] [az_ornekli] sentetik_test | SBERT-mpnet sifir_atis/plain: ilce_dogruluk_makale=0.667, hit1=0.628, hit3=0.851, sektor_hit1=0.895
+[14:44:20] [az_ornekli] sentetik_test | SBERT-mpnet sifir_atis/lemma: ilce_dogruluk_makale=0.615, hit1=0.603, hit3=0.815, sektor_hit1=0.864
+[14:44:21] [az_ornekli] sentetik_test | SBERT-mpnet sifir_atis/stem: ilce_dogruluk_makale=0.641, hit1=0.563, hit3=0.740, sektor_hit1=0.831
+[14:44:21] [az_ornekli] sentetik_test | BERT-raw sifir_atis/plain: ilce_dogruluk_makale=0.026, hit1=0.111, hit3=0.239, sektor_hit1=0.422
+[14:44:22] [az_ornekli] sentetik_test | BERT-raw sifir_atis/lemma: ilce_dogruluk_makale=0.026, hit1=0.099, hit3=0.231, sektor_hit1=0.406
+[14:44:22] [az_ornekli] sentetik_test | BERT-raw sifir_atis/stem: ilce_dogruluk_makale=0.000, hit1=0.053, hit3=0.158, sektor_hit1=0.391
+[14:44:23] [az_ornekli] sentetik_test | ALBERT-paraphrase sifir_atis/plain: ilce_dogruluk_makale=0.692, hit1=0.584, hit3=0.785, sektor_hit1=0.821
+[14:44:23] [az_ornekli] sentetik_test | ALBERT-paraphrase sifir_atis/lemma: ilce_dogruluk_makale=0.769, hit1=0.599, hit3=0.784, sektor_hit1=0.831
+[14:44:23] [az_ornekli] sentetik_test | ALBERT-paraphrase sifir_atis/stem: ilce_dogruluk_makale=0.718, hit1=0.588, hit3=0.742, sektor_hit1=0.823
+[14:44:24] GitHub deposundan indirildi: results/tahminler/mesaj_sentetik_Temel_ TF-IDF_plain.csv
+[14:44:24] [az_ornekli] sentetik_test | Temel: TF-IDF sifir_atis/plain: ilce_dogruluk_makale=0.744, hit1=0.647, hit3=0.694, sektor_hit1=0.765
+[14:44:24] GitHub deposundan indirildi: results/tahminler/mesaj_sentetik_Temel_ TF-IDF_lemma.csv
+[14:44:24] [az_ornekli] sentetik_test | Temel: TF-IDF sifir_atis/lemma: ilce_dogruluk_makale=0.795, hit1=0.704, hit3=0.754, sektor_hit1=0.812
+[14:44:24] GitHub deposundan indirildi: results/tahminler/mesaj_sentetik_Temel_ TF-IDF_stem.csv
+[14:44:24] [az_ornekli] sentetik_test | Temel: TF-IDF sifir_atis/stem: ilce_dogruluk_makale=0.795, hit1=0.711, hit3=0.756, sektor_hit1=0.817
+[14:44:25] [az_ornekli] sentetik_test | SBERT-çokdilli (TR) sifir_atis/plain: ilce_dogruluk_makale=0.487, hit1=0.446, hit3=0.629, sektor_hit1=0.717
+[14:44:25] [az_ornekli] sentetik_test | BERTurk-STS (TR) sifir_atis/plain: ilce_dogruluk_makale=0.410, hit1=0.426, hit3=0.658, sektor_hit1=0.736
+[14:44:29] [az_ornekli] sentetik_test | Dondurulmuş+LR-EN K8: ilce_dogruluk_makale=0.821, hit1=0.782, hit3=0.938, sektor_hit1=0.912
+[14:44:31] [az_ornekli_gercek] gercek_en | Dondurulmuş+LR-EN K8: hit1=0.467, hit3=0.800, sektor_hit1=0.500
+[14:44:33] [az_ornekli_gercek] gercek_tr | Dondurulmuş+LR-EN K8: hit1=0.524, hit3=0.619, sektor_hit1=0.619
+[14:44:35] SetFit başarısız (en, tohum 42): AttributeError("'str' object has no attribute 'to'")
+[14:44:36] SetFit başarısız (en, tohum 43): AttributeError("'str' object has no attribute 'to'")
+[14:44:37] SetFit başarısız (en, tohum 44): AttributeError("'str' object has no attribute 'to'")
+[14:44:39] SetFit (tam sentetik) başarısız (en): AttributeError("'str' object has no attribute 'to'")
+[14:44:54] [az_ornekli] sentetik_test | Dondurulmuş+LR-TR K8: ilce_dogruluk_makale=0.667, hit1=0.447, hit3=0.681, sektor_hit1=0.729
+[14:44:58] [az_ornekli_gercek] gercek_tr | Dondurulmuş+LR-TR K8: hit1=0.381, hit3=0.571, sektor_hit1=0.429
+[14:45:03] SetFit başarısız (tr, tohum 42): AttributeError("'str' object has no attribute 'to'")
+[14:45:07] SetFit başarısız (tr, tohum 43): AttributeError("'str' object has no attribute 'to'")
+[14:45:10] SetFit başarısız (tr, tohum 44): AttributeError("'str' object has no attribute 'to'")
+[14:45:14] SetFit (tam sentetik) başarısız (tr): AttributeError("'str' object has no attribute 'to'")
+[14:45:14] Az örnekli öğrenme tamam.
+[14:45:19] NER modeli: savasy/bert-base-turkish-ner-cased
+[14:45:25] [ilce_cikarimi] sentetik | alt_dize (makale) orijinal: dogruluk=1.000
+[14:45:25] [ilce_cikarimi] sentetik | bulanik_sozluk orijinal: dogruluk=0.987
+[14:45:25] [ilce_cikarimi] sentetik | ner+sozluk orijinal: dogruluk=0.925
+[14:45:32] [ilce_cikarimi] sentetik | alt_dize (makale) kucuk_harf: dogruluk=1.000
+[14:45:32] [ilce_cikarimi] sentetik | bulanik_sozluk kucuk_harf: dogruluk=0.987
+[14:45:32] [ilce_cikarimi] sentetik | ner+sozluk kucuk_harf: dogruluk=0.837
+[14:45:39] [ilce_cikarimi] sentetik | alt_dize (makale) aksansiz: dogruluk=0.390
+[14:45:39] [ilce_cikarimi] sentetik | bulanik_sozluk aksansiz: dogruluk=0.987
+[14:45:39] [ilce_cikarimi] sentetik | ner+sozluk aksansiz: dogruluk=0.850
+[14:45:46] [ilce_cikarimi] sentetik | alt_dize (makale) ek_bitisik: dogruluk=1.000
+[14:45:46] [ilce_cikarimi] sentetik | bulanik_sozluk ek_bitisik: dogruluk=0.987
+[14:45:46] [ilce_cikarimi] sentetik | ner+sozluk ek_bitisik: dogruluk=0.875
+[14:45:53] [ilce_cikarimi] sentetik | alt_dize (makale) yazim_hatasi: dogruluk=0.095
+[14:45:53] [ilce_cikarimi] sentetik | bulanik_sozluk yazim_hatasi: dogruluk=0.659
+[14:45:53] [ilce_cikarimi] sentetik | ner+sozluk yazim_hatasi: dogruluk=0.421
+[14:45:56] [konum_cikarimi] gercek_tr | alt_dize il: dogruluk=0.750
+[14:45:56] [konum_cikarimi] gercek_tr | bulanik_sozluk il: dogruluk=0.917
+[14:45:56] [konum_cikarimi] gercek_tr | ner+sozluk il: dogruluk=0.583
+[14:45:58] [konum_cikarimi] gercek_tr | alt_dize ilce: dogruluk=0.143
+[14:45:58] [konum_cikarimi] gercek_tr | bulanik_sozluk ilce: dogruluk=0.571
+[14:45:58] [konum_cikarimi] gercek_tr | ner+sozluk ilce: dogruluk=0.571
+[14:45:58] Konum sözlüğü: 81 il, 949 ilçe adı (geoBoundaries)
+[14:45:58] İlçe/konum çıkarımı tamam.
+[14:45:58] BDM işleri: 71 (sağlayıcılar paralel, her sağlayıcı kendi içinde sırayla)
+[14:45:58] BDM tek_en | gercek_en | claude-opus-5-5: 0 önbellekten, 42 paylaşım (5 istek) API'den
+[14:45:58] BDM tek_en | gercek_en | gpt-5-mini: 0 önbellekten, 42 paylaşım (5 istek) API'den
+[14:45:58] BDM tek_en | gercek_en | gemini-3.8-flash: 0 önbellekten, 42 paylaşım (5 istek) API'den
+[14:46:05] BDM acik_kume | gercek_en | gpt-5-mini: 0 önbellekten, 207 paylaşım (21 istek) API'den
+[14:46:05] BDM acik_kume | gercek_en | claude-opus-5-5: 0 önbellekten, 207 paylaşım (21 istek) API'den
+[14:46:09] BDM acik_kume | gercek_en | gemini-3.8-flash: 0 önbellekten, 207 paylaşım (21 istek) API'den
+[14:46:21] BDM tek_tr | gercek_tr | claude-opus-5-5: 0 önbellekten, 29 paylaşım (3 istek) API'den
+[14:46:25] BDM tek_en_mt | gercek_tr | claude-opus-5-5: 0 önbellekten, 29 paylaşım (3 istek) API'den
+[14:46:29] BDM acik_kume | gercek_tr | claude-opus-5-5: 0 önbellekten, 403 paylaşım (41 istek) API'den
+[14:46:33] BDM tek_tr | gercek_tr | gpt-5-mini: 0 önbellekten, 29 paylaşım (3 istek) API'den
+[14:46:37] BDM tek_en_mt | gercek_tr | gpt-5-mini: 0 önbellekten, 29 paylaşım (3 istek) API'den
+[14:46:40] BDM acik_kume | gercek_tr | gpt-5-mini: 0 önbellekten, 403 paylaşım (41 istek) API'den
+[14:46:50] BDM tek_tr | gercek_tr | gemini-3.8-flash: 0 önbellekten, 29 paylaşım (3 istek) API'den
+[14:46:54] BDM tek_en_mt | gercek_tr | gemini-3.8-flash: 0 önbellekten, 29 paylaşım (3 istek) API'den
+[14:46:57] BDM acik_kume | humaid | claude-opus-5-5: 0 önbellekten, 675 paylaşım (68 istek) API'den
+[14:46:59] BDM acik_kume | gercek_tr | gemini-3.8-flash: 0 önbellekten, 403 paylaşım (41 istek) API'den
+[14:47:25] BDM acik_kume | humaid | gpt-5-mini: 0 önbellekten, 675 paylaşım (68 istek) API'den
+[14:47:44] BDM tek_en | alt_gemini | claude-opus-5-5: 0 önbellekten, 617 paylaşım (62 istek) API'den
+[14:47:56] BDM acik_kume | humaid | gemini-3.8-flash: 0 önbellekten, 675 paylaşım (68 istek) API'den
+[14:48:25] BDM tek_en | alt_gpt | claude-opus-5-5: 0 önbellekten, 617 paylaşım (62 istek) API'den
+[14:48:41] BDM tek_en_redo210 | sentetik | gpt-5-mini: 0 önbellekten, 210 paylaşım (21 istek) API'den
+[14:49:01] BDM tek_en | alt_gemini | gpt-5-mini: 0 önbellekten, 617 paylaşım (62 istek) API'den
+[14:49:06] BDM tek_tr | sentetik | claude-opus-5-5: 0 önbellekten, 2000 paylaşım (200 istek) API'den
+[14:49:50] BDM tek_en | alt_gemini | gemini-3.8-flash: 0 önbellekten, 617 paylaşım (62 istek) API'den
+[14:49:59] BDM tek_en | alt_gpt | gpt-5-mini: 0 önbellekten, 617 paylaşım (62 istek) API'den
+[14:51:02] BDM tek_tr | sentetik | gpt-5-mini: 0 önbellekten, 2000 paylaşım (200 istek) API'den
+[14:51:15] BDM tek_en | alt_gpt | gemini-3.8-flash: 0 önbellekten, 617 paylaşım (62 istek) API'den
+[14:51:21] BDM tek_en_t2 | sentetik | claude-opus-5-5: 0 önbellekten, 2000 paylaşım (200 istek) API'den
+[14:52:30] BDM tek_tr | sentetik | gemini-3.8-flash: 0 önbellekten, 2000 paylaşım (200 istek) API'den
+[14:53:30] BDM tek_en_t3 | sentetik | claude-opus-5-5: 0 önbellekten, 2000 paylaşım (200 istek) API'den
+[14:54:46] BDM tek_en_t2 | sentetik | gpt-5-mini: 0 önbellekten, 2000 paylaşım (200 istek) API'den
+[14:55:43] BDM coklu_en | sentetik | claude-opus-5-5: 0 önbellekten, 2000 paylaşım (200 istek) API'den
+[14:57:24] BDM tek_en_t2 | sentetik | gemini-3.8-flash: 0 önbellekten, 2000 paylaşım (200 istek) API'den
+[14:58:09] BDM coklu_tr | sentetik | claude-opus-5-5: 0 önbellekten, 2000 paylaşım (200 istek) API'den
+[14:58:11] BDM tek_en_t3 | sentetik | gpt-5-mini: 0 önbellekten, 2000 paylaşım (200 istek) API'den
+[15:00:59] BDM az_ornekli_en | sentetik_test | claude-opus-5-5: 0 önbellekten, 1472 paylaşım (148 istek) API'den
+[15:01:47] BDM coklu_en | sentetik | gpt-5-mini: 0 önbellekten, 2000 paylaşım (200 istek) API'den
+[15:02:00] BDM tek_en_t3 | sentetik | gemini-3.8-flash: 0 önbellekten, 2000 paylaşım (200 istek) API'den
+[15:02:35] BDM tek_en | gercek_en | claude-sonnet-5-5: 0 önbellekten, 42 paylaşım (5 istek) API'den
+[15:02:39] BDM acik_kume | gercek_en | claude-sonnet-5-5: 0 önbellekten, 207 paylaşım (21 istek) API'den
+[15:02:52] BDM tek_tr | gercek_tr | claude-sonnet-5-5: 0 önbellekten, 29 paylaşım (3 istek) API'den
+[15:02:56] BDM tek_en_mt | gercek_tr | claude-sonnet-5-5: 0 önbellekten, 29 paylaşım (3 istek) API'den
+[15:02:58] BDM acik_kume | gercek_tr | claude-sonnet-5-5: 0 önbellekten, 403 paylaşım (41 istek) API'den
+[15:03:20] BDM acik_kume | humaid | claude-sonnet-5-5: 0 önbellekten, 675 paylaşım (68 istek) API'den
+[15:03:56] BDM tek_en | alt_gemini | claude-sonnet-5-5: 0 önbellekten, 617 paylaşım (62 istek) API'den
+[15:04:29] BDM tek_en | alt_gpt | claude-sonnet-5-5: 0 önbellekten, 617 paylaşım (62 istek) API'den
+[15:04:59] BDM tek_tr | sentetik | claude-sonnet-5-5: 0 önbellekten, 2000 paylaşım (200 istek) API'den
+[15:06:23] BDM coklu_tr | sentetik | gpt-5-mini: 0 önbellekten, 2000 paylaşım (200 istek) API'den
+[15:06:45] BDM tek_en_t2 | sentetik | claude-sonnet-5-5: 0 önbellekten, 2000 paylaşım (200 istek) API'den
+[15:07:08] BDM coklu_en | sentetik | gemini-3.8-flash: 0 önbellekten, 2000 paylaşım (200 istek) API'den
+[15:08:24] BDM tek_en_t3 | sentetik | claude-sonnet-5-5: 0 önbellekten, 2000 paylaşım (200 istek) API'den
+[15:10:01] BDM coklu_en | sentetik | claude-sonnet-5-5: 0 önbellekten, 2000 paylaşım (200 istek) API'den
+[15:11:58] BDM coklu_tr | sentetik | claude-sonnet-5-5: 0 önbellekten, 2000 paylaşım (200 istek) API'den
+[15:11:58] BDM az_ornekli_en | sentetik_test | gpt-5-mini: 0 önbellekten, 1472 paylaşım (148 istek) API'den
+[15:11:58] BDM coklu_tr | sentetik | gemini-3.8-flash: 0 önbellekten, 2000 paylaşım (200 istek) API'den
+[15:14:09] BDM az_ornekli_en | sentetik_test | claude-sonnet-5-5: 0 önbellekten, 1472 paylaşım (148 istek) API'den
+[15:15:25] BDM tek_en | gercek_en | claude-haiku-5-5: 0 önbellekten, 42 paylaşım (5 istek) API'den
+[15:15:27] BDM acik_kume | gercek_en | claude-haiku-5-5: 0 önbellekten, 207 paylaşım (21 istek) API'den
+[15:15:36] BDM tek_tr | gercek_tr | claude-haiku-5-5: 0 önbellekten, 29 paylaşım (3 istek) API'den
+[15:15:38] BDM tek_en_mt | gercek_tr | claude-haiku-5-5: 0 önbellekten, 29 paylaşım (3 istek) API'den
+[15:15:39] BDM acik_kume | gercek_tr | claude-haiku-5-5: 0 önbellekten, 403 paylaşım (41 istek) API'den
+[15:15:55] BDM acik_kume | humaid | claude-haiku-5-5: 0 önbellekten, 675 paylaşım (68 istek) API'den
+[15:16:21] BDM tek_en | alt_gemini | claude-haiku-5-5: 0 önbellekten, 617 paylaşım (62 istek) API'den
+[15:16:44] BDM tek_en | alt_gpt | claude-haiku-5-5: 0 önbellekten, 617 paylaşım (62 istek) API'den
+[15:17:08] BDM tek_tr | sentetik | claude-haiku-5-5: 0 önbellekten, 2000 paylaşım (200 istek) API'den
+[15:17:14] BDM az_ornekli_en | sentetik_test | gemini-3.8-flash: 0 önbellekten, 1472 paylaşım (148 istek) API'den
+[15:18:19] BDM tek_en_t2 | sentetik | claude-haiku-5-5: 0 önbellekten, 2000 paylaşım (200 istek) API'den
+[15:19:36] BDM tek_en_t3 | sentetik | claude-haiku-5-5: 0 önbellekten, 2000 paylaşım (200 istek) API'den
+[15:20:50] BDM coklu_en | sentetik | claude-haiku-5-5: 0 önbellekten, 2000 paylaşım (200 istek) API'den
+[15:22:18] BDM coklu_tr | sentetik | claude-haiku-5-5: 0 önbellekten, 2000 paylaşım (200 istek) API'den
+[15:23:53] BDM az_ornekli_en | sentetik_test | claude-haiku-5-5: 0 önbellekten, 1472 paylaşım (148 istek) API'den
+[15:24:47] BDM çağrıları bitti: 38.8 dk; tahmini toplam API maliyeti $21.71
+[15:24:49] [bdm_gpt210] sentetik_210 | BDM gpt-5-mini varsayilan_dusunme(makale): hit1=0.890
+[15:24:49] [bdm_gpt210] sentetik_210 | BDM gpt-5-mini minimal_dusunme(yeniden): hit1=0.905, kapsam=1.000
+[15:24:49] [bdm_gpt210] sentetik | BDM gpt-5-mini makale(karisik_protokol): ilce_dogruluk_makale=0.923, hit1=0.910, hit3=0.910, sektor_hit1=0.979
+[15:24:49] [bdm_gpt210] sentetik | BDM gpt-5-mini protokol_tutarli: ilce_dogruluk_makale=0.923, hit1=0.911, hit3=0.911, sektor_hit1=0.980
+[15:24:49] [bdm_tekrar] sentetik | BDM claude-opus-5-5 tekrar2: ilce_dogruluk_makale=0.974, hit1=0.949, hit3=0.949, sektor_hit1=0.977, kapsam=1.000
+[15:24:49] [bdm_tekrar] sentetik | BDM claude-opus-5-5 tekrar3: ilce_dogruluk_makale=0.974, hit1=0.953, hit3=0.953, sektor_hit1=0.979, kapsam=1.000
+[15:24:49] [bdm_tekrar] sentetik | BDM claude-opus-5-5 ozet: 
+[15:24:50] [bdm_tekrar] sentetik | BDM claude-sonnet-5-5 tekrar2: ilce_dogruluk_makale=0.949, hit1=0.928, hit3=0.928, sektor_hit1=0.971, kapsam=1.000
+[15:24:50] [bdm_tekrar] sentetik | BDM claude-sonnet-5-5 tekrar3: ilce_dogruluk_makale=0.923, hit1=0.929, hit3=0.929, sektor_hit1=0.974, kapsam=1.000
+[15:24:50] [bdm_tekrar] sentetik | BDM claude-sonnet-5-5 ozet: 
+[15:24:50] [bdm_tekrar] sentetik | BDM claude-haiku-5-5 tekrar2: ilce_dogruluk_makale=0.897, hit1=0.889, hit3=0.889, sektor_hit1=0.979, kapsam=1.000
+[15:24:50] [bdm_tekrar] sentetik | BDM claude-haiku-5-5 tekrar3: ilce_dogruluk_makale=0.897, hit1=0.892, hit3=0.892, sektor_hit1=0.977, kapsam=1.000
+[15:24:50] [bdm_tekrar] sentetik | BDM claude-haiku-5-5 ozet: 
+[15:24:50] [bdm_tekrar] sentetik | BDM gpt-5-mini tekrar2: ilce_dogruluk_makale=0.923, hit1=0.910, hit3=0.910, sektor_hit1=0.978, kapsam=1.000
+[15:24:50] [bdm_tekrar] sentetik | BDM gpt-5-mini tekrar3: ilce_dogruluk_makale=0.923, hit1=0.904, hit3=0.904, sektor_hit1=0.978, kapsam=1.000
+[15:24:50] [bdm_tekrar] sentetik | BDM gpt-5-mini ozet: 
+[15:24:50] [bdm_tekrar] sentetik | BDM gemini-3.8-flash tekrar2: ilce_dogruluk_makale=0.949, hit1=0.942, hit3=0.942, sektor_hit1=0.967, kapsam=1.000
+[15:24:51] [bdm_tekrar] sentetik | BDM gemini-3.8-flash tekrar3: ilce_dogruluk_makale=0.923, hit1=0.939, hit3=0.939, sektor_hit1=0.967, kapsam=1.000
+[15:24:51] [bdm_tekrar] sentetik | BDM gemini-3.8-flash ozet: 
+[15:24:51] [bdm_turkce] sentetik | BDM claude-opus-5-5 tr/tek: ilce_dogruluk_makale=0.974, hit1=0.945, hit3=0.945, sektor_hit1=0.979, kapsam=1.000
+[15:24:51] [bdm_coklu] sentetik | BDM claude-opus-5-5 en/coklu: ilce_dogruluk_makale=0.949, hit1=0.922, hit3=0.991, sektor_hit1=0.966, mikro_f1=0.849, makro_f1=0.874, kapsam=1.000
+[15:24:51] [bdm_coklu] sentetik | BDM claude-opus-5-5 tr/coklu: ilce_dogruluk_makale=0.949, hit1=0.919, hit3=0.990, sektor_hit1=0.964, mikro_f1=0.847, makro_f1=0.874, kapsam=1.000
+[15:24:51] [az_ornekli] sentetik_test | BDM claude-opus-5-5 66_ornekli: ilce_dogruluk_makale=0.974, hit1=0.969, hit3=0.969, sektor_hit1=0.988, kapsam=1.000
+[15:24:51] [az_ornekli] sentetik_test | BDM claude-opus-5-5 sifir_atis/makale: ilce_dogruluk_makale=0.974, hit1=0.943, hit3=0.943, sektor_hit1=0.974
+[15:24:51] [bdm_turkce] sentetik | BDM claude-sonnet-5-5 tr/tek: ilce_dogruluk_makale=0.949, hit1=0.925, hit3=0.925, sektor_hit1=0.977, kapsam=1.000
+[15:24:51] [bdm_coklu] sentetik | BDM claude-sonnet-5-5 en/coklu: ilce_dogruluk_makale=0.923, hit1=0.909, hit3=0.990, sektor_hit1=0.964, mikro_f1=0.777, makro_f1=0.818, kapsam=1.000
+[15:24:51] [bdm_coklu] sentetik | BDM claude-sonnet-5-5 tr/coklu: ilce_dogruluk_makale=0.949, hit1=0.904, hit3=0.986, sektor_hit1=0.965, mikro_f1=0.761, makro_f1=0.800, kapsam=1.000
+[15:24:52] [az_ornekli] sentetik_test | BDM claude-sonnet-5-5 66_ornekli: ilce_dogruluk_makale=0.974, hit1=0.957, hit3=0.957, sektor_hit1=0.987, kapsam=1.000
+[15:24:52] [az_ornekli] sentetik_test | BDM claude-sonnet-5-5 sifir_atis/makale: ilce_dogruluk_makale=0.897, hit1=0.930, hit3=0.930, sektor_hit1=0.971
+[15:24:52] [bdm_turkce] sentetik | BDM claude-haiku-5-5 tr/tek: ilce_dogruluk_makale=0.872, hit1=0.855, hit3=0.855, sektor_hit1=0.967, kapsam=1.000
+[15:24:52] [bdm_coklu] sentetik | BDM claude-haiku-5-5 en/coklu: ilce_dogruluk_makale=0.949, hit1=0.878, hit3=0.974, sektor_hit1=0.968, mikro_f1=0.760, makro_f1=0.786, kapsam=1.000
+[15:24:52] [bdm_coklu] sentetik | BDM claude-haiku-5-5 tr/coklu: ilce_dogruluk_makale=0.872, hit1=0.850, hit3=0.960, sektor_hit1=0.952, mikro_f1=0.674, makro_f1=0.706, kapsam=1.000
+[15:24:52] [az_ornekli] sentetik_test | BDM claude-haiku-5-5 66_ornekli: ilce_dogruluk_makale=0.949, hit1=0.899, hit3=0.899, sektor_hit1=0.979, kapsam=1.000
+[15:24:52] [az_ornekli] sentetik_test | BDM claude-haiku-5-5 sifir_atis/makale: ilce_dogruluk_makale=0.949, hit1=0.885, hit3=0.885, sektor_hit1=0.976
+[15:24:52] [bdm_turkce] sentetik | BDM gpt-5-mini tr/tek: ilce_dogruluk_makale=0.949, hit1=0.900, hit3=0.900, sektor_hit1=0.984, kapsam=1.000
+[15:24:52] [bdm_coklu] sentetik | BDM gpt-5-mini en/coklu: ilce_dogruluk_makale=0.923, hit1=0.906, hit3=0.969, sektor_hit1=0.987, mikro_f1=0.711, makro_f1=0.752, kapsam=1.000
+[15:24:52] [bdm_coklu] sentetik | BDM gpt-5-mini tr/coklu: ilce_dogruluk_makale=0.949, hit1=0.891, hit3=0.963, sektor_hit1=0.980, mikro_f1=0.648, makro_f1=0.684, kapsam=1.000
+[15:24:53] [az_ornekli] sentetik_test | BDM gpt-5-mini 66_ornekli: ilce_dogruluk_makale=0.949, hit1=0.925, hit3=0.925, sektor_hit1=0.988, kapsam=1.000
+[15:24:53] [az_ornekli] sentetik_test | BDM gpt-5-mini sifir_atis/makale: ilce_dogruluk_makale=0.897, hit1=0.912, hit3=0.912, sektor_hit1=0.980
+[15:24:53] [bdm_turkce] sentetik | BDM gemini-3.8-flash tr/tek: ilce_dogruluk_makale=0.949, hit1=0.935, hit3=0.935, sektor_hit1=0.971, kapsam=1.000
+[15:24:53] [bdm_coklu] sentetik | BDM gemini-3.8-flash en/coklu: ilce_dogruluk_makale=0.974, hit1=0.919, hit3=0.992, sektor_hit1=0.962, mikro_f1=0.870, makro_f1=0.885, kapsam=1.000
+[15:24:53] [bdm_coklu] sentetik | BDM gemini-3.8-flash tr/coklu: ilce_dogruluk_makale=0.949, hit1=0.908, hit3=0.990, sektor_hit1=0.962, mikro_f1=0.840, makro_f1=0.867, kapsam=1.000
+[15:24:53] [az_ornekli] sentetik_test | BDM gemini-3.8-flash 66_ornekli: ilce_dogruluk_makale=1.000, hit1=0.972, hit3=0.972, sektor_hit1=0.990, kapsam=1.000
+[15:24:53] [az_ornekli] sentetik_test | BDM gemini-3.8-flash sifir_atis/makale: ilce_dogruluk_makale=0.949, hit1=0.940, hit3=0.940, sektor_hit1=0.966
+[15:24:53] [bdm_alternatif] alt_claude | BDM claude-opus-5-5 tek_en(makale): ilce_dogruluk_makale=0.949, hit1=0.940, hit3=0.940, sektor_hit1=0.974
+[15:24:53] [bdm_alternatif] alt_claude | BDM claude-sonnet-5-5 tek_en(makale): ilce_dogruluk_makale=0.897, hit1=0.934, hit3=0.934, sektor_hit1=0.976
+[15:24:53] [bdm_alternatif] alt_claude | BDM claude-haiku-5-5 tek_en(makale): ilce_dogruluk_makale=0.897, hit1=0.896, hit3=0.896, sektor_hit1=0.981
+[15:24:53] [bdm_alternatif] alt_claude | BDM gpt-5-mini tek_en(makale): ilce_dogruluk_makale=0.872, hit1=0.921, hit3=0.921, sektor_hit1=0.979
+[15:24:53] [bdm_alternatif] alt_claude | BDM gemini-3.8-flash tek_en(makale): ilce_dogruluk_makale=0.974, hit1=0.948, hit3=0.948, sektor_hit1=0.971
+[15:24:54] [bdm_alternatif] alt_gemini | BDM claude-opus-5-5 tek_en: ilce_dogruluk_makale=0.974, hit1=0.974, hit3=0.974, sektor_hit1=0.987, kapsam=1.000
+[15:24:54] [bdm_alternatif] alt_gemini | BDM claude-sonnet-5-5 tek_en: ilce_dogruluk_makale=0.974, hit1=0.966, hit3=0.966, sektor_hit1=0.984, kapsam=1.000
+[15:24:54] [bdm_alternatif] alt_gemini | BDM claude-haiku-5-5 tek_en: ilce_dogruluk_makale=0.949, hit1=0.945, hit3=0.945, sektor_hit1=0.984, kapsam=1.000
+[15:24:54] [bdm_alternatif] alt_gemini | BDM gpt-5-mini tek_en: ilce_dogruluk_makale=0.949, hit1=0.950, hit3=0.950, sektor_hit1=0.990, kapsam=1.000
+[15:24:54] [bdm_alternatif] alt_gemini | BDM gemini-3.8-flash tek_en: ilce_dogruluk_makale=1.000, hit1=0.959, hit3=0.959, sektor_hit1=0.976, kapsam=1.000
+[15:24:54] [bdm_alternatif] alt_gpt | BDM claude-opus-5-5 tek_en: ilce_dogruluk_makale=0.974, hit1=0.934, hit3=0.934, sektor_hit1=0.961, kapsam=1.000
+[15:24:54] [bdm_alternatif] alt_gpt | BDM claude-sonnet-5-5 tek_en: ilce_dogruluk_makale=1.000, hit1=0.935, hit3=0.935, sektor_hit1=0.966, kapsam=1.000
+[15:24:54] [bdm_alternatif] alt_gpt | BDM claude-haiku-5-5 tek_en: ilce_dogruluk_makale=0.974, hit1=0.932, hit3=0.932, sektor_hit1=0.972, kapsam=1.000
+[15:24:54] [bdm_alternatif] alt_gpt | BDM gpt-5-mini tek_en: ilce_dogruluk_makale=0.923, hit1=0.945, hit3=0.945, sektor_hit1=0.976, kapsam=1.000
+[15:24:54] [bdm_alternatif] alt_gpt | BDM gemini-3.8-flash tek_en: ilce_dogruluk_makale=0.923, hit1=0.929, hit3=0.929, sektor_hit1=0.959, kapsam=1.000
+[15:24:54] [bdm_gercek] gercek_en | BDM claude-opus-5-5 kapali/tek_en: hit1=1.000, hit3=1.000, sektor_hit1=1.000, kapsam=1.000
+[15:24:54] [bdm_gercek] gercek_en | BDM claude-opus-5-5 acik_kume: ikili_f1=0.874, kapsam=1.000
+[15:24:54] [bdm_gercek] gercek_en | BDM claude-sonnet-5-5 kapali/tek_en: hit1=1.000, hit3=1.000, sektor_hit1=1.000, kapsam=1.000
+[15:24:54] [bdm_gercek] gercek_en | BDM claude-sonnet-5-5 acik_kume: ikili_f1=0.842, kapsam=1.000
+[15:24:54] [bdm_gercek] gercek_en | BDM claude-haiku-5-5 kapali/tek_en: hit1=0.933, hit3=0.933, sektor_hit1=0.967, kapsam=1.000
+[15:24:54] [bdm_gercek] gercek_en | BDM claude-haiku-5-5 acik_kume: ikili_f1=0.528, kapsam=1.000
+[15:24:55] [bdm_gercek] gercek_en | BDM gpt-5-mini kapali/tek_en: hit1=0.933, hit3=0.933, sektor_hit1=0.967, kapsam=1.000
+[15:24:55] [bdm_gercek] gercek_en | BDM gpt-5-mini acik_kume: ikili_f1=0.718, kapsam=1.000
+[15:24:55] [bdm_gercek] gercek_en | BDM gemini-3.8-flash kapali/tek_en: hit1=0.967, hit3=0.967, sektor_hit1=0.967, kapsam=1.000
+[15:24:55] [bdm_gercek] gercek_en | BDM gemini-3.8-flash acik_kume: ikili_f1=0.874, kapsam=1.000
+[15:24:55] [bdm_gercek] gercek_tr | BDM claude-opus-5-5 kapali/tek_tr: hit1=1.000, hit3=1.000, sektor_hit1=1.000, kapsam=1.000
+[15:24:55] [bdm_gercek] gercek_tr | BDM claude-opus-5-5 kapali/tek_en_mt: hit1=0.619, hit3=0.619, sektor_hit1=0.619, kapsam=1.000
+[15:24:55] [bdm_gercek] gercek_tr | BDM claude-opus-5-5 acik_kume: ikili_f1=0.846, kapsam=1.000
+[15:24:55] [bdm_gercek] gercek_tr | BDM claude-sonnet-5-5 kapali/tek_tr: hit1=1.000, hit3=1.000, sektor_hit1=1.000, kapsam=1.000
+[15:24:55] [bdm_gercek] gercek_tr | BDM claude-sonnet-5-5 kapali/tek_en_mt: hit1=0.619, hit3=0.619, sektor_hit1=0.619, kapsam=1.000
+[15:24:55] [bdm_gercek] gercek_tr | BDM claude-sonnet-5-5 acik_kume: ikili_f1=0.750, kapsam=1.000
+[15:24:55] [bdm_gercek] gercek_tr | BDM claude-haiku-5-5 kapali/tek_tr: hit1=0.952, hit3=0.952, sektor_hit1=0.952, kapsam=1.000
+[15:24:55] [bdm_gercek] gercek_tr | BDM claude-haiku-5-5 kapali/tek_en_mt: hit1=0.619, hit3=0.619, sektor_hit1=0.619, kapsam=1.000
+[15:24:55] [bdm_gercek] gercek_tr | BDM claude-haiku-5-5 acik_kume: ikili_f1=0.575, kapsam=1.000
+[15:24:55] [bdm_gercek] gercek_tr | BDM gpt-5-mini kapali/tek_tr: hit1=0.952, hit3=0.952, sektor_hit1=1.000, kapsam=1.000
+[15:24:55] [bdm_gercek] gercek_tr | BDM gpt-5-mini kapali/tek_en_mt: hit1=0.571, hit3=0.571, sektor_hit1=0.571, kapsam=1.000
+[15:24:55] [bdm_gercek] gercek_tr | BDM gpt-5-mini acik_kume: ikili_f1=0.568, kapsam=1.000
+[15:24:55] [bdm_gercek] gercek_tr | BDM gemini-3.8-flash kapali/tek_tr: hit1=1.000, hit3=1.000, sektor_hit1=1.000, kapsam=1.000
+[15:24:55] [bdm_gercek] gercek_tr | BDM gemini-3.8-flash kapali/tek_en_mt: hit1=0.619, hit3=0.619, sektor_hit1=0.619, kapsam=1.000
+[15:24:55] [bdm_gercek] gercek_tr | BDM gemini-3.8-flash acik_kume: ikili_f1=0.760, kapsam=1.000
+[15:24:55] [bdm_humaid] humaid | BDM claude-opus-5-5 acik_kume/istek_ayrimi: ikili_f1=0.403, kapsam=1.000
+[15:24:55] [bdm_humaid] humaid | BDM claude-sonnet-5-5 acik_kume/istek_ayrimi: ikili_f1=0.444, kapsam=1.000
+[15:24:55] [bdm_humaid] humaid | BDM claude-haiku-5-5 acik_kume/istek_ayrimi: ikili_f1=0.699, kapsam=1.000
+[15:24:55] [bdm_humaid] humaid | BDM gpt-5-mini acik_kume/istek_ayrimi: ikili_f1=0.643, kapsam=1.000
+[15:24:55] [bdm_humaid] humaid | BDM gemini-3.8-flash acik_kume/istek_ayrimi: ikili_f1=0.393, kapsam=1.000
+[15:24:56] BDM deneyleri tamam. Oturumdaki tahmini toplam API maliyeti: $21.71
+[15:25:02] Sonuç zip'i: /content/drive/MyDrive/NLP_Disaster/revizyon_sonuclari_revizyon.zip (18.0 MB). Tahmini toplam API maliyeti: $21.71
+[15:25:02] Bu zip dosyasını gönderin; makale ve hakemlere cevap bu sonuçlarla yazılacak.
+[15:57:56] Colab: True | GPU: NVIDIA A100-SXM4-80GB | RAM: 179 GB | Python 3.13.16
+[15:57:56] Çıktı klasörü: /content/drive/MyDrive/NLP_Disaster/runs/revizyon
+[15:58:04] Anahtarlar: Anthropic=var | OpenAI=yok | Google=var
+[15:58:05] Kurulum tamam.
+[15:58:10] Makaledeki çalıştırma klasörü: /content/drive/MyDrive/NLP_Disaster/runs/20261016_1116 (Drive’da var)
+[15:58:10] İhtiyaç listesi: 66 Türkçe madde, 66 benzersiz İngilizce etiket (çeviri düzeltme: açık)
+[15:58:10] Düzeltilen çeviriler:
+                     tr                   en_orig                      en_fixed
+           bebek maması                 baby food                  baby formula
+                biberon                    bottle                   baby bottle
+           ıslak mendil                baby wipes                     wet wipes
+                  fener                     torch                       lantern
+                   soba                     stove                 heating stove
+                   odun                      wood                      firewood
+                    pil                   battery                     batteries
+            pilli radyo             battery radio         battery-powered radio
+             nakit para                cash money                          cash
+               konserve                    canned                   canned food
+          ateş düşürücü               antipyretic                 fever reducer
+              yarabandı                   bandage              adhesive bandage
+        alerji ilaçları       allergy medications            allergy medication
+tuzsuz-şekersiz yiyecek salt-free-sugar-free food salt-free and sugar-free food
+                gönüllü               voluntarily                    volunteers
+              kap kacak                  utensils                 pots and pans
+       engelli ekipmanı        disabled equipment equipment for disabled people
+            aydınlatıcı              enlightening            lighting equipment
+              konteynır                 container             container housing
+               hırdavat                  hardware                hardware tools
+         oksijen cihazı             oxygen device           oxygen concentrator
+              el feneri                     torch                    flashlight
+[15:58:10] Üretim imzası: a8bfe68ee1 (parçalar: /content/drive/MyDrive/NLP_Disaster/data/gen_parts/a8bfe68ee1)
+[15:58:13] anthropic SDK 2.3.0: temperature=yok (API varsayılanı kullanılır), output_config=var
+[15:58:15] Makaledeki veri seti yüklendi: 2000 paylaşım, 39 ilçe, QC geçen 1878; ilçe adı tespiti uyumu 1.000
+[15:58:31] Veri özeti: {'kayit': 2000, 'ilce': 39, 'ilce_basina_ort': 51.3, 'benzersiz_etiket_tr': 66, 'ort_karakter_tr': np.float64(143.2), 'ort_kelime_tr': np.float64(19.6), 'ort_karakter_en': np.float64(148.4), 'ort_kelime_en': np.float64(25.9), 'etiket_1_2_3_oran': '0,59 / 0,33 / 0,08', 'acik_karma_ortuk_oran': '0,64 / 0,06 / 0,30', 'ilce_tespit_uyumu': 1.0, 'uretim_modeli': 'claude-opus-5-5'}
+[15:58:34] Ön işleme ve veri istatistikleri tamam.
+[15:58:38] text_plain: bu oturumdaki ön işleme makaledekiyle 1.000 oranında aynı; makaledeki kullanılıyor
+[15:58:38] text_lemma: bu oturumdaki ön işleme makaledekiyle 1.000 oranında aynı; makaledeki kullanılıyor
+[15:58:38] text_stem: bu oturumdaki ön işleme makaledekiyle 1.000 oranında aynı; makaledeki kullanılıyor
+[15:58:41] Revizyon altyapısı hazır. Önbellek: /content/drive/MyDrive/NLP_Disaster/data/revizyon_cache | Sonuçlar: /content/drive/MyDrive/NLP_Disaster/runs/revizyon/results/revizyon
+[15:58:42] İhtiyaç tanımları: 66 madde (imza 6ddac1)
+[15:58:42] Sektör şeması: Arama-kurtarma (2), Sağlık (19), Gıda ve beslenme (9), Su, sanitasyon ve hijyen (10), Barınma ve temel eşya (16), Enerji ve iletişim (4), Koruma ve güvenlik (3), Lojistik ve ulaşım (0), Eğitim (0), Kamp yönetimi (0), Erken iyileştirme ve altyapı (0), Nakit ve gönüllü destek (2), Diğer (1)
+[15:58:42] Alternatif üretici alt kümesi: 1014 plan (26/ilçe); parçalar: /content/drive/MyDrive/NLP_Disaster/data/gen_parts_alt/973ea9ba
+[15:58:57] gemini tur 0: 846 kabul, retler {'ilçe adı yok': 160, 'başka ilçe adı': 6, 'kimlik uyuşmazlığı': 2}; toplam 846/1014
+[15:59:00] gemini tur 1: 121 kabul, retler {'ilçe adı yok': 46, 'başka ilçe adı': 1}; toplam 967/1014
+[16:00:11] Colab: True | GPU: NVIDIA A100-SXM4-80GB | RAM: 179 GB | Python 3.13.16
+[16:00:11] Çıktı klasörü: /content/drive/MyDrive/NLP_Disaster/runs/revizyon
+[16:03:16] Colab: True | GPU: NVIDIA A100-SXM4-80GB | RAM: 179 GB | Python 3.13.16
+[16:03:18] Çıktı klasörü: /content/drive/MyDrive/NLP_Disaster/runs/revizyon
+[16:03:44] Colab: True | GPU: NVIDIA A100-SXM4-80GB | RAM: 179 GB | Python 3.13.16
+[16:03:44] Çıktı klasörü: /content/drive/MyDrive/NLP_Disaster/runs/revizyon
+[16:03:46] Anahtarlar: Anthropic=var | OpenAI=var | Google=var
+[16:03:47] Kurulum tamam.
+[16:04:00] Makaledeki çalıştırma klasörü: /content/drive/MyDrive/NLP_Disaster/runs/20261016_1116 (Drive’da var)
+[16:04:03] İhtiyaç listesi: 66 Türkçe madde, 66 benzersiz İngilizce etiket (çeviri düzeltme: açık)
+[16:04:03] Düzeltilen çeviriler:
+                     tr                   en_orig                      en_fixed
+           bebek maması                 baby food                  baby formula
+                biberon                    bottle                   baby bottle
+           ıslak mendil                baby wipes                     wet wipes
+                  fener                     torch                       lantern
+                   soba                     stove                 heating stove
+                   odun                      wood                      firewood
+                    pil                   battery                     batteries
+            pilli radyo             battery radio         battery-powered radio
+             nakit para                cash money                          cash
+               konserve                    canned                   canned food
+          ateş düşürücü               antipyretic                 fever reducer
+              yarabandı                   bandage              adhesive bandage
+        alerji ilaçları       allergy medications            allergy medication
+tuzsuz-şekersiz yiyecek salt-free-sugar-free food salt-free and sugar-free food
+                gönüllü               voluntarily                    volunteers
+              kap kacak                  utensils                 pots and pans
+       engelli ekipmanı        disabled equipment equipment for disabled people
+            aydınlatıcı              enlightening            lighting equipment
+              konteynır                 container             container housing
+               hırdavat                  hardware                hardware tools
+         oksijen cihazı             oxygen device           oxygen concentrator
+              el feneri                     torch                    flashlight
+[16:04:12] Üretim imzası: a8bfe68ee1 (parçalar: /content/drive/MyDrive/NLP_Disaster/data/gen_parts/a8bfe68ee1)
+[16:04:15] anthropic SDK 2.3.0: temperature=yok (API varsayılanı kullanılır), output_config=var
+[16:04:18] Makaledeki veri seti yüklendi: 2000 paylaşım, 39 ilçe, QC geçen 1878; ilçe adı tespiti uyumu 1.000
+[16:04:56] Veri özeti: {'kayit': 2000, 'ilce': 39, 'ilce_basina_ort': 51.3, 'benzersiz_etiket_tr': 66, 'ort_karakter_tr': np.float64(143.2), 'ort_kelime_tr': np.float64(19.6), 'ort_karakter_en': np.float64(148.4), 'ort_kelime_en': np.float64(25.9), 'etiket_1_2_3_oran': '0,59 / 0,33 / 0,08', 'acik_karma_ortuk_oran': '0,64 / 0,06 / 0,30', 'ilce_tespit_uyumu': 1.0, 'uretim_modeli': 'claude-opus-5-5'}
+[16:05:00] Ön işleme ve veri istatistikleri tamam.
+[16:05:03] text_plain: bu oturumdaki ön işleme makaledekiyle 1.000 oranında aynı; makaledeki kullanılıyor
+[16:05:03] text_lemma: bu oturumdaki ön işleme makaledekiyle 1.000 oranında aynı; makaledeki kullanılıyor
+[16:05:03] text_stem: bu oturumdaki ön işleme makaledekiyle 1.000 oranında aynı; makaledeki kullanılıyor
+[16:05:32] Revizyon altyapısı hazır. Önbellek: /content/drive/MyDrive/NLP_Disaster/data/revizyon_cache | Sonuçlar: /content/drive/MyDrive/NLP_Disaster/runs/revizyon/results/revizyon
+[16:05:56] İhtiyaç tanımları: 66 madde (imza 6ddac1)
+[16:05:57] Sektör şeması: Arama-kurtarma (2), Sağlık (19), Gıda ve beslenme (9), Su, sanitasyon ve hijyen (10), Barınma ve temel eşya (16), Enerji ve iletişim (4), Koruma ve güvenlik (3), Lojistik ve ulaşım (0), Eğitim (0), Kamp yönetimi (0), Erken iyileştirme ve altyapı (0), Nakit ve gönüllü destek (2), Diğer (1)
+[16:06:15] Alternatif üretici alt kümesi: 1014 plan (26/ilçe); parçalar: /content/drive/MyDrive/NLP_Disaster/data/gen_parts_alt/973ea9ba
+[16:06:40] gemini tur 0: 846 kabul, retler {'başka ilçe adı': 6, 'ilçe adı yok': 160, 'kimlik uyuşmazlığı': 2}; toplam 846/1014
+[16:06:44] gemini tur 1: 121 kabul, retler {'ilçe adı yok': 46, 'başka ilçe adı': 1}; toplam 967/1014
+[16:07:13] gemini: tekrar elenen 0, kalan 967
+[16:07:56] gpt tur 0: 444 kabul, retler {'ilçe adı yok': 566, 'başka ilçe adı': 4, 'kimlik uyuşmazlığı': 1}; toplam 444/1014
+[16:08:08] gpt tur 1: 191 kabul, retler {'ilçe adı yok': 377, 'kimlik uyuşmazlığı': 1, 'başka ilçe adı': 2}; toplam 635/1014
+[16:08:08] gpt: tekrar elenen 0, kalan 635
+[16:08:49] Eşleştirilmiş alternatif kümeler: ['alt_claude', 'alt_gemini', 'alt_gpt']; ortak plan sayısı 617
+[16:08:53] Gerçek küme EN: 207 paylaşım, somut ihtiyaç 42, listedeki ihtiyacı olan 30, yalnız listede olmayan ihtiyaçlı 12
+[16:08:53]   sektör dağılımı: {'Gıda ve beslenme': 13, 'Sağlık': 10, 'Su, sanitasyon ve hijyen': 8, 'Arama-kurtarma': 3, 'Barınma ve temel eşya': 7, 'Nakit ve gönüllü destek': 4, 'Diğer': 1}
+[16:08:54] Gerçek küme TR: 403 paylaşım, somut ihtiyaç 29, listedeki ihtiyacı olan 21, yalnız listede olmayan ihtiyaçlı 8
+[16:08:54]   sektör dağılımı: {'Barınma ve temel eşya': 6, 'Gıda ve beslenme': 4, 'Su, sanitasyon ve hijyen': 3, 'Nakit ve gönüllü destek': 1, 'Arama-kurtarma': 8, 'Sağlık': 4}
+[16:08:58] HumAID örneği: 675 tweet (225 istek/acil ihtiyaç); sınıflar: {'requests_or_urgent_needs': 225, 'sympathy_and_support': 135, 'rescue_volunteering_or_donation_effort': 99, 'injured_or_dead_people': 71, 'caution_and_advice': 40, 'other_relevant_information': 35, 'infrastructure_and_utility_damage': 34, 'not_humanitarian': 30, 'displaced_people_and_evacuations': 6}
+[16:09:18] Gömme: mE5-large-instruct (sentence-transformers:intfloat/multilingual-e5-large-instruct) yüklendi (21 sn); 30 yapılandırma
+[16:09:23] [gomme_sentetik] sentetik | mE5-large-instruct en/plain/ad: ilce_dogruluk_makale=0.410, hit1=0.599, hit3=0.780, sektor_hit1=0.871
+[16:09:26] [gomme_sentetik] sentetik | mE5-large-instruct en/plain/ad+tanim: ilce_dogruluk_makale=0.718, hit1=0.720, hit3=0.890, sektor_hit1=0.891
+[16:09:29] [gomme_alternatif] alt_claude | mE5-large-instruct en/plain/ad: ilce_dogruluk_makale=0.538, hit1=0.627, hit3=0.799, sektor_hit1=0.880
+[16:09:32] [gomme_alternatif] alt_gemini | mE5-large-instruct en/plain/ad: ilce_dogruluk_makale=0.692, hit1=0.694, hit3=0.859, sektor_hit1=0.901
+[16:09:35] [gomme_alternatif] alt_gpt | mE5-large-instruct en/plain/ad: ilce_dogruluk_makale=0.795, hit1=0.770, hit3=0.896, sektor_hit1=0.935
+[16:09:40] [gomme_sentetik] sentetik | mE5-large-instruct en/raw/ad: ilce_dogruluk_makale=0.308, hit1=0.588, hit3=0.784, sektor_hit1=0.874
+[16:09:43] [gomme_sentetik] sentetik | mE5-large-instruct en/raw/ad+tanim: ilce_dogruluk_makale=0.744, hit1=0.668, hit3=0.832, sektor_hit1=0.880
+[16:09:46] [gomme_alternatif] alt_claude | mE5-large-instruct en/raw/ad: ilce_dogruluk_makale=0.513, hit1=0.629, hit3=0.802, sektor_hit1=0.891
+[16:09:49] [gomme_alternatif] alt_gemini | mE5-large-instruct en/raw/ad: ilce_dogruluk_makale=0.615, hit1=0.673, hit3=0.849, sektor_hit1=0.896
+[16:09:52] [gomme_alternatif] alt_gpt | mE5-large-instruct en/raw/ad: ilce_dogruluk_makale=0.821, hit1=0.770, hit3=0.898, sektor_hit1=0.937
+[16:09:56] [gomme_sentetik] sentetik | mE5-large-instruct tr/plain/ad: ilce_dogruluk_makale=0.103, hit1=0.429, hit3=0.638, sektor_hit1=0.741
+[16:09:59] [gomme_sentetik] sentetik | mE5-large-instruct tr/plain/ad+tanim: ilce_dogruluk_makale=0.641, hit1=0.637, hit3=0.847, sektor_hit1=0.872
+[16:10:03] [gomme_alternatif] alt_claude | mE5-large-instruct tr/plain/ad: ilce_dogruluk_makale=0.205, hit1=0.449, hit3=0.674, sektor_hit1=0.754
+[16:10:06] [gomme_alternatif] alt_gemini | mE5-large-instruct tr/plain/ad: ilce_dogruluk_makale=0.308, hit1=0.498, hit3=0.728, sektor_hit1=0.796
+[16:10:09] [gomme_alternatif] alt_gpt | mE5-large-instruct tr/plain/ad: ilce_dogruluk_makale=0.538, hit1=0.592, hit3=0.778, sektor_hit1=0.810
+[16:10:14] [gomme_sentetik] sentetik | mE5-large-instruct tr/raw/ad: ilce_dogruluk_makale=0.179, hit1=0.413, hit3=0.629, sektor_hit1=0.743
+[16:10:16] [gomme_sentetik] sentetik | mE5-large-instruct tr/raw/ad+tanim: ilce_dogruluk_makale=0.564, hit1=0.628, hit3=0.827, sektor_hit1=0.875
+[16:10:20] [gomme_alternatif] alt_claude | mE5-large-instruct tr/raw/ad: ilce_dogruluk_makale=0.205, hit1=0.444, hit3=0.655, sektor_hit1=0.755
+[16:10:23] [gomme_alternatif] alt_gemini | mE5-large-instruct tr/raw/ad: ilce_dogruluk_makale=0.359, hit1=0.486, hit3=0.708, sektor_hit1=0.771
+[16:10:26] [gomme_alternatif] alt_gpt | mE5-large-instruct tr/raw/ad: ilce_dogruluk_makale=0.462, hit1=0.572, hit3=0.750, sektor_hit1=0.810
+[16:10:27] [gomme_gercek] gercek_en | mE5-large-instruct en/plain/ad: hit1=0.367, hit3=0.500, sektor_hit1=0.667
+[16:10:28] [gomme_gercek] gercek_en | mE5-large-instruct en/plain/ad+tanim: hit1=0.767, hit3=0.967, sektor_hit1=0.867
+[16:10:29] [gomme_gercek] gercek_en | mE5-large-instruct en/raw/ad: hit1=0.367, hit3=0.533, sektor_hit1=0.667
+[16:10:30] [gomme_gercek] gercek_en | mE5-large-instruct en/raw/ad+tanim: hit1=0.667, hit3=0.900, sektor_hit1=0.800
+[16:10:32] [gomme_gercek] gercek_tr | mE5-large-instruct tr/plain/ad: hit1=0.333, hit3=0.762, sektor_hit1=0.429
+[16:10:33] [gomme_gercek] gercek_tr | mE5-large-instruct tr/plain/ad+tanim: hit1=0.524, hit3=0.810, sektor_hit1=0.667
+[16:10:34] [gomme_gercek] gercek_tr | mE5-large-instruct tr/raw/ad: hit1=0.476, hit3=0.857, sektor_hit1=0.524
+[16:10:35] [gomme_gercek] gercek_tr | mE5-large-instruct tr/raw/ad+tanim: hit1=0.762, hit3=0.857, sektor_hit1=0.857
+[16:10:36] [gomme_gercek] gercek_tr | mE5-large-instruct en/plain/ad: hit1=0.286, hit3=0.429, sektor_hit1=0.476
+[16:10:37] [gomme_gercek] gercek_tr | mE5-large-instruct en/raw/ad: hit1=0.286, hit3=0.429, sektor_hit1=0.476
+[16:11:10] Gömme: BGE-M3 (sentence-transformers:BAAI/bge-m3) yüklendi (24 sn); 30 yapılandırma
+[16:11:17] [gomme_sentetik] sentetik | BGE-M3 en/plain/ad: ilce_dogruluk_makale=0.718, hit1=0.604, hit3=0.770, sektor_hit1=0.782
+[16:11:20] [gomme_sentetik] sentetik | BGE-M3 en/plain/ad+tanim: ilce_dogruluk_makale=0.385, hit1=0.517, hit3=0.778, sektor_hit1=0.724
+[16:11:24] [gomme_alternatif] alt_claude | BGE-M3 en/plain/ad: ilce_dogruluk_makale=0.590, hit1=0.613, hit3=0.781, sektor_hit1=0.794
+[16:11:28] [gomme_alternatif] alt_gemini | BGE-M3 en/plain/ad: ilce_dogruluk_makale=0.718, hit1=0.700, hit3=0.846, sektor_hit1=0.841
+[16:11:31] [gomme_alternatif] alt_gpt | BGE-M3 en/plain/ad: ilce_dogruluk_makale=0.872, hit1=0.809, hit3=0.917, sektor_hit1=0.882
+[16:11:40] [gomme_sentetik] sentetik | BGE-M3 en/raw/ad: ilce_dogruluk_makale=0.718, hit1=0.580, hit3=0.754, sektor_hit1=0.763
+[16:11:42] [gomme_sentetik] sentetik | BGE-M3 en/raw/ad+tanim: ilce_dogruluk_makale=0.462, hit1=0.549, hit3=0.796, sektor_hit1=0.756
+[16:11:47] [gomme_alternatif] alt_claude | BGE-M3 en/raw/ad: ilce_dogruluk_makale=0.538, hit1=0.588, hit3=0.763, sektor_hit1=0.773
+[16:11:51] [gomme_alternatif] alt_gemini | BGE-M3 en/raw/ad: ilce_dogruluk_makale=0.744, hit1=0.655, hit3=0.823, sektor_hit1=0.799
+[16:11:55] [gomme_alternatif] alt_gpt | BGE-M3 en/raw/ad: ilce_dogruluk_makale=0.872, hit1=0.783, hit3=0.917, sektor_hit1=0.861
+[16:12:02] [gomme_sentetik] sentetik | BGE-M3 tr/plain/ad: ilce_dogruluk_makale=0.436, hit1=0.513, hit3=0.686, sektor_hit1=0.701
+[16:12:05] [gomme_sentetik] sentetik | BGE-M3 tr/plain/ad+tanim: ilce_dogruluk_makale=0.436, hit1=0.538, hit3=0.750, sektor_hit1=0.720
+[16:12:09] [gomme_alternatif] alt_claude | BGE-M3 tr/plain/ad: ilce_dogruluk_makale=0.513, hit1=0.540, hit3=0.697, sektor_hit1=0.700
+[16:12:13] [gomme_alternatif] alt_gemini | BGE-M3 tr/plain/ad: ilce_dogruluk_makale=0.385, hit1=0.535, hit3=0.712, sektor_hit1=0.736
+[16:12:17] [gomme_alternatif] alt_gpt | BGE-M3 tr/plain/ad: ilce_dogruluk_makale=0.641, hit1=0.679, hit3=0.828, sektor_hit1=0.822
+[16:12:25] [gomme_sentetik] sentetik | BGE-M3 tr/raw/ad: ilce_dogruluk_makale=0.308, hit1=0.475, hit3=0.672, sektor_hit1=0.670
+[16:12:28] [gomme_sentetik] sentetik | BGE-M3 tr/raw/ad+tanim: ilce_dogruluk_makale=0.615, hit1=0.604, hit3=0.798, sektor_hit1=0.768
+[16:12:33] [gomme_alternatif] alt_claude | BGE-M3 tr/raw/ad: ilce_dogruluk_makale=0.333, hit1=0.489, hit3=0.690, sektor_hit1=0.665
+[16:12:37] [gomme_alternatif] alt_gemini | BGE-M3 tr/raw/ad: ilce_dogruluk_makale=0.333, hit1=0.506, hit3=0.707, sektor_hit1=0.689
+[16:12:41] [gomme_alternatif] alt_gpt | BGE-M3 tr/raw/ad: ilce_dogruluk_makale=0.615, hit1=0.671, hit3=0.822, sektor_hit1=0.814
+[16:12:42] [gomme_gercek] gercek_en | BGE-M3 en/plain/ad: hit1=0.700, hit3=0.900, sektor_hit1=0.800
+[16:12:43] [gomme_gercek] gercek_en | BGE-M3 en/plain/ad+tanim: hit1=0.733, hit3=0.933, sektor_hit1=0.800
+[16:12:45] [gomme_gercek] gercek_en | BGE-M3 en/raw/ad: hit1=0.733, hit3=0.933, sektor_hit1=0.833
+[16:12:46] [gomme_gercek] gercek_en | BGE-M3 en/raw/ad+tanim: hit1=0.700, hit3=0.900, sektor_hit1=0.800
+[16:12:48] [gomme_gercek] gercek_tr | BGE-M3 tr/plain/ad: hit1=0.524, hit3=0.762, sektor_hit1=0.619
+[16:12:49] [gomme_gercek] gercek_tr | BGE-M3 tr/plain/ad+tanim: hit1=0.667, hit3=0.857, sektor_hit1=0.667
+[16:12:51] [gomme_gercek] gercek_tr | BGE-M3 tr/raw/ad: hit1=0.619, hit3=0.762, sektor_hit1=0.714
+[16:12:52] [gomme_gercek] gercek_tr | BGE-M3 tr/raw/ad+tanim: hit1=0.667, hit3=0.905, sektor_hit1=0.810
+[16:12:54] [gomme_gercek] gercek_tr | BGE-M3 en/plain/ad: hit1=0.286, hit3=0.571, sektor_hit1=0.429
+[16:12:56] [gomme_gercek] gercek_tr | BGE-M3 en/raw/ad: hit1=0.286, hit3=0.619, sektor_hit1=0.381
+[16:13:21] Gömme: Qwen3-Emb-0.6B (sentence-transformers:Qwen/Qwen3-Embedding-0.6B) yüklendi (17 sn); 30 yapılandırma
+[16:13:27] [gomme_sentetik] sentetik | Qwen3-Emb-0.6B en/plain/ad: ilce_dogruluk_makale=0.077, hit1=0.383, hit3=0.625, sektor_hit1=0.665
+[16:13:30] [gomme_sentetik] sentetik | Qwen3-Emb-0.6B en/plain/ad+tanim: ilce_dogruluk_makale=0.462, hit1=0.561, hit3=0.805, sektor_hit1=0.773
+[16:13:33] [gomme_alternatif] alt_claude | Qwen3-Emb-0.6B en/plain/ad: ilce_dogruluk_makale=0.103, hit1=0.395, hit3=0.655, sektor_hit1=0.665
+[16:13:37] [gomme_alternatif] alt_gemini | Qwen3-Emb-0.6B en/plain/ad: ilce_dogruluk_makale=0.205, hit1=0.447, hit3=0.712, sektor_hit1=0.705
+[16:13:41] [gomme_alternatif] alt_gpt | Qwen3-Emb-0.6B en/plain/ad: ilce_dogruluk_makale=0.231, hit1=0.489, hit3=0.749, sektor_hit1=0.724
+[16:13:47] [gomme_sentetik] sentetik | Qwen3-Emb-0.6B en/raw/ad: ilce_dogruluk_makale=0.077, hit1=0.373, hit3=0.624, sektor_hit1=0.650
+[16:13:49] [gomme_sentetik] sentetik | Qwen3-Emb-0.6B en/raw/ad+tanim: ilce_dogruluk_makale=0.436, hit1=0.495, hit3=0.709, sektor_hit1=0.734
+[16:13:53] [gomme_alternatif] alt_claude | Qwen3-Emb-0.6B en/raw/ad: ilce_dogruluk_makale=0.128, hit1=0.399, hit3=0.661, sektor_hit1=0.642
+[16:13:57] [gomme_alternatif] alt_gemini | Qwen3-Emb-0.6B en/raw/ad: ilce_dogruluk_makale=0.128, hit1=0.431, hit3=0.703, sektor_hit1=0.677
+[16:14:01] [gomme_alternatif] alt_gpt | Qwen3-Emb-0.6B en/raw/ad: ilce_dogruluk_makale=0.205, hit1=0.465, hit3=0.715, sektor_hit1=0.700
+[16:14:07] [gomme_sentetik] sentetik | Qwen3-Emb-0.6B tr/plain/ad: ilce_dogruluk_makale=0.026, hit1=0.176, hit3=0.549, sektor_hit1=0.467
+[16:14:10] [gomme_sentetik] sentetik | Qwen3-Emb-0.6B tr/plain/ad+tanim: ilce_dogruluk_makale=0.154, hit1=0.383, hit3=0.593, sektor_hit1=0.648
+[16:14:13] [gomme_alternatif] alt_claude | Qwen3-Emb-0.6B tr/plain/ad: ilce_dogruluk_makale=0.026, hit1=0.191, hit3=0.585, sektor_hit1=0.470
+[16:14:17] [gomme_alternatif] alt_gemini | Qwen3-Emb-0.6B tr/plain/ad: ilce_dogruluk_makale=0.051, hit1=0.201, hit3=0.639, sektor_hit1=0.483
+[16:14:21] [gomme_alternatif] alt_gpt | Qwen3-Emb-0.6B tr/plain/ad: ilce_dogruluk_makale=0.051, hit1=0.248, hit3=0.712, sektor_hit1=0.507
+[16:14:27] [gomme_sentetik] sentetik | Qwen3-Emb-0.6B tr/raw/ad: ilce_dogruluk_makale=0.026, hit1=0.154, hit3=0.537, sektor_hit1=0.457
+[16:14:30] [gomme_sentetik] sentetik | Qwen3-Emb-0.6B tr/raw/ad+tanim: ilce_dogruluk_makale=0.051, hit1=0.276, hit3=0.506, sektor_hit1=0.572
+[16:14:34] [gomme_alternatif] alt_claude | Qwen3-Emb-0.6B tr/raw/ad: ilce_dogruluk_makale=0.026, hit1=0.160, hit3=0.577, sektor_hit1=0.454
+[16:14:38] [gomme_alternatif] alt_gemini | Qwen3-Emb-0.6B tr/raw/ad: ilce_dogruluk_makale=0.026, hit1=0.198, hit3=0.624, sektor_hit1=0.476
+[16:14:42] [gomme_alternatif] alt_gpt | Qwen3-Emb-0.6B tr/raw/ad: ilce_dogruluk_makale=0.051, hit1=0.214, hit3=0.681, sektor_hit1=0.489
+[16:14:43] [gomme_gercek] gercek_en | Qwen3-Emb-0.6B en/plain/ad: hit1=0.233, hit3=0.500, sektor_hit1=0.633
+[16:14:44] [gomme_gercek] gercek_en | Qwen3-Emb-0.6B en/plain/ad+tanim: hit1=0.767, hit3=0.967, sektor_hit1=0.833
+[16:14:45] [gomme_gercek] gercek_en | Qwen3-Emb-0.6B en/raw/ad: hit1=0.200, hit3=0.533, sektor_hit1=0.567
+[16:14:46] [gomme_gercek] gercek_en | Qwen3-Emb-0.6B en/raw/ad+tanim: hit1=0.467, hit3=0.833, sektor_hit1=0.667
+[16:14:48] [gomme_gercek] gercek_tr | Qwen3-Emb-0.6B tr/plain/ad: hit1=0.000, hit3=0.238, sektor_hit1=0.190
+[16:14:49] [gomme_gercek] gercek_tr | Qwen3-Emb-0.6B tr/plain/ad+tanim: hit1=0.143, hit3=0.381, sektor_hit1=0.333
+[16:14:51] [gomme_gercek] gercek_tr | Qwen3-Emb-0.6B tr/raw/ad: hit1=0.000, hit3=0.381, sektor_hit1=0.190
+[16:14:52] [gomme_gercek] gercek_tr | Qwen3-Emb-0.6B tr/raw/ad+tanim: hit1=0.095, hit3=0.238, sektor_hit1=0.476
+[16:14:54] [gomme_gercek] gercek_tr | Qwen3-Emb-0.6B en/plain/ad: hit1=0.190, hit3=0.571, sektor_hit1=0.381
+[16:14:56] [gomme_gercek] gercek_tr | Qwen3-Emb-0.6B en/raw/ad: hit1=0.143, hit3=0.524, sektor_hit1=0.333
+[16:15:46] Gömme: Qwen3-Emb-4B (sentence-transformers:Qwen/Qwen3-Embedding-4B) yüklendi (39 sn); 30 yapılandırma
+[16:15:57] [gomme_sentetik] sentetik | Qwen3-Emb-4B en/plain/ad: ilce_dogruluk_makale=0.590, hit1=0.680, hit3=0.857, sektor_hit1=0.954
+[16:16:00] [gomme_sentetik] sentetik | Qwen3-Emb-4B en/plain/ad+tanim: ilce_dogruluk_makale=0.769, hit1=0.812, hit3=0.952, sektor_hit1=0.967
+[16:16:05] [gomme_alternatif] alt_claude | Qwen3-Emb-4B en/plain/ad: ilce_dogruluk_makale=0.641, hit1=0.697, hit3=0.869, sektor_hit1=0.945
+[16:16:10] [gomme_alternatif] alt_gemini | Qwen3-Emb-4B en/plain/ad: ilce_dogruluk_makale=0.692, hit1=0.747, hit3=0.900, sektor_hit1=0.956
+[16:16:15] [gomme_alternatif] alt_gpt | Qwen3-Emb-4B en/plain/ad: ilce_dogruluk_makale=0.821, hit1=0.796, hit3=0.916, sektor_hit1=0.961
+[16:16:27] [gomme_sentetik] sentetik | Qwen3-Emb-4B en/raw/ad: ilce_dogruluk_makale=0.667, hit1=0.710, hit3=0.864, sektor_hit1=0.964
+[16:16:29] [gomme_sentetik] sentetik | Qwen3-Emb-4B en/raw/ad+tanim: ilce_dogruluk_makale=0.744, hit1=0.755, hit3=0.913, sektor_hit1=0.944
+[16:16:35] [gomme_alternatif] alt_claude | Qwen3-Emb-4B en/raw/ad: ilce_dogruluk_makale=0.718, hit1=0.729, hit3=0.872, sektor_hit1=0.956
+[16:16:41] [gomme_alternatif] alt_gemini | Qwen3-Emb-4B en/raw/ad: ilce_dogruluk_makale=0.667, hit1=0.757, hit3=0.914, sektor_hit1=0.964
+[16:16:46] [gomme_alternatif] alt_gpt | Qwen3-Emb-4B en/raw/ad: ilce_dogruluk_makale=0.769, hit1=0.797, hit3=0.919, sektor_hit1=0.963
+[16:16:58] [gomme_sentetik] sentetik | Qwen3-Emb-4B tr/plain/ad: ilce_dogruluk_makale=0.051, hit1=0.457, hit3=0.734, sektor_hit1=0.677
+[16:17:01] [gomme_sentetik] sentetik | Qwen3-Emb-4B tr/plain/ad+tanim: ilce_dogruluk_makale=0.436, hit1=0.556, hit3=0.777, sektor_hit1=0.796
+[16:17:06] [gomme_alternatif] alt_claude | Qwen3-Emb-4B tr/plain/ad: ilce_dogruluk_makale=0.205, hit1=0.496, hit3=0.744, sektor_hit1=0.682
+[16:17:12] [gomme_alternatif] alt_gemini | Qwen3-Emb-4B tr/plain/ad: ilce_dogruluk_makale=0.333, hit1=0.522, hit3=0.778, sektor_hit1=0.731
+[16:17:17] [gomme_alternatif] alt_gpt | Qwen3-Emb-4B tr/plain/ad: ilce_dogruluk_makale=0.256, hit1=0.499, hit3=0.814, sektor_hit1=0.695
+[16:17:32] [gomme_sentetik] sentetik | Qwen3-Emb-4B tr/raw/ad: ilce_dogruluk_makale=0.179, hit1=0.502, hit3=0.734, sektor_hit1=0.730
+[16:17:34] [gomme_sentetik] sentetik | Qwen3-Emb-4B tr/raw/ad+tanim: ilce_dogruluk_makale=0.333, hit1=0.614, hit3=0.846, sektor_hit1=0.792
+[16:17:41] [gomme_alternatif] alt_claude | Qwen3-Emb-4B tr/raw/ad: ilce_dogruluk_makale=0.308, hit1=0.525, hit3=0.749, sektor_hit1=0.724
+[16:17:47] [gomme_alternatif] alt_gemini | Qwen3-Emb-4B tr/raw/ad: ilce_dogruluk_makale=0.385, hit1=0.556, hit3=0.773, sektor_hit1=0.749
+[16:17:53] [gomme_alternatif] alt_gpt | Qwen3-Emb-4B tr/raw/ad: ilce_dogruluk_makale=0.385, hit1=0.559, hit3=0.814, sektor_hit1=0.749
+[16:17:55] [gomme_gercek] gercek_en | Qwen3-Emb-4B en/plain/ad: hit1=0.400, hit3=0.733, sektor_hit1=0.833
+[16:17:56] [gomme_gercek] gercek_en | Qwen3-Emb-4B en/plain/ad+tanim: hit1=0.767, hit3=1.000, sektor_hit1=0.833
+[16:17:58] [gomme_gercek] gercek_en | Qwen3-Emb-4B en/raw/ad: hit1=0.433, hit3=0.733, sektor_hit1=0.833
+[16:17:59] [gomme_gercek] gercek_en | Qwen3-Emb-4B en/raw/ad+tanim: hit1=0.600, hit3=0.933, sektor_hit1=0.833
+[16:18:02] [gomme_gercek] gercek_tr | Qwen3-Emb-4B tr/plain/ad: hit1=0.286, hit3=0.762, sektor_hit1=0.476
+[16:18:03] [gomme_gercek] gercek_tr | Qwen3-Emb-4B tr/plain/ad+tanim: hit1=0.381, hit3=0.619, sektor_hit1=0.429
+[16:18:07] [gomme_gercek] gercek_tr | Qwen3-Emb-4B tr/raw/ad: hit1=0.381, hit3=0.762, sektor_hit1=0.524
+[16:18:08] [gomme_gercek] gercek_tr | Qwen3-Emb-4B tr/raw/ad+tanim: hit1=0.429, hit3=0.762, sektor_hit1=0.619
+[16:18:10] [gomme_gercek] gercek_tr | Qwen3-Emb-4B en/plain/ad: hit1=0.143, hit3=0.381, sektor_hit1=0.429
+[16:18:13] [gomme_gercek] gercek_tr | Qwen3-Emb-4B en/raw/ad: hit1=0.143, hit3=0.571, sektor_hit1=0.429
+[16:18:32] Gömme: RoBERTa-raw (sentence-transformers:roberta-base) yüklendi (14 sn); 3 yapılandırma
+[16:18:36] [gomme_sentetik] sentetik | RoBERTa-raw en/plain/ad: ilce_dogruluk_makale=0.026, hit1=0.041, hit3=0.083, sektor_hit1=0.326
+[16:18:40] [gomme_sentetik] sentetik | RoBERTa-raw en/lemma/ad: ilce_dogruluk_makale=0.026, hit1=0.062, hit3=0.124, sektor_hit1=0.347
+[16:18:44] [gomme_sentetik] sentetik | RoBERTa-raw en/stem/ad: ilce_dogruluk_makale=0.000, hit1=0.044, hit3=0.111, sektor_hit1=0.366
+[16:18:55] Gömme: RoBERTa-güncel (sentence-transformers:all-distilroberta-v1) yüklendi (11 sn); 3 yapılandırma
+[16:18:58] [gomme_sentetik] sentetik | RoBERTa-güncel en/plain/ad: ilce_dogruluk_makale=0.667, hit1=0.594, hit3=0.791, sektor_hit1=0.825
+[16:19:02] [gomme_sentetik] sentetik | RoBERTa-güncel en/lemma/ad: ilce_dogruluk_makale=0.692, hit1=0.588, hit3=0.782, sektor_hit1=0.811
+[16:19:05] [gomme_sentetik] sentetik | RoBERTa-güncel en/stem/ad: ilce_dogruluk_makale=0.538, hit1=0.481, hit3=0.685, sektor_hit1=0.781
+[16:19:17] Gömme: BERT (sentence-transformers:bert-base-nli-mean-tokens) yüklendi (11 sn); 24 yapılandırma
+[16:19:21] [gomme_sentetik] sentetik | BERT en/plain/ad+tanim: ilce_dogruluk_makale=0.205, hit1=0.230, hit3=0.390, sektor_hit1=0.587
+[16:19:25] [gomme_sentetik] sentetik | BERT en/lemma/ad+tanim: ilce_dogruluk_makale=0.308, hit1=0.336, hit3=0.524, sektor_hit1=0.654
+[16:19:28] [gomme_sentetik] sentetik | BERT en/stem/ad+tanim: ilce_dogruluk_makale=0.333, hit1=0.397, hit3=0.595, sektor_hit1=0.692
+[16:19:31] [gomme_alternatif] alt_claude | BERT en/plain/ad: ilce_dogruluk_makale=0.179, hit1=0.203, hit3=0.335, sektor_hit1=0.533
+[16:19:34] [gomme_alternatif] alt_claude | BERT en/lemma/ad: ilce_dogruluk_makale=0.231, hit1=0.305, hit3=0.507, sektor_hit1=0.637
+[16:19:37] [gomme_alternatif] alt_claude | BERT en/stem/ad: ilce_dogruluk_makale=0.333, hit1=0.335, hit3=0.515, sektor_hit1=0.648
+[16:19:40] [gomme_alternatif] alt_gemini | BERT en/plain/ad: ilce_dogruluk_makale=0.128, hit1=0.250, hit3=0.444, sektor_hit1=0.618
+[16:19:43] [gomme_alternatif] alt_gemini | BERT en/lemma/ad: ilce_dogruluk_makale=0.282, hit1=0.310, hit3=0.514, sektor_hit1=0.645
+[16:19:46] [gomme_alternatif] alt_gemini | BERT en/stem/ad: ilce_dogruluk_makale=0.308, hit1=0.339, hit3=0.522, sektor_hit1=0.652
+[16:19:49] [gomme_alternatif] alt_gpt | BERT en/plain/ad: ilce_dogruluk_makale=0.231, hit1=0.305, hit3=0.496, sektor_hit1=0.621
+[16:19:52] [gomme_alternatif] alt_gpt | BERT en/lemma/ad: ilce_dogruluk_makale=0.308, hit1=0.420, hit3=0.637, sektor_hit1=0.715
+[16:19:55] [gomme_alternatif] alt_gpt | BERT en/stem/ad: ilce_dogruluk_makale=0.282, hit1=0.436, hit3=0.637, sektor_hit1=0.716
+[16:19:56] [gomme_gercek] gercek_en | BERT en/plain/ad: hit1=0.067, hit3=0.200, sektor_hit1=0.600
+[16:19:57] [gomme_gercek] gercek_en | BERT en/plain/ad+tanim: hit1=0.300, hit3=0.500, sektor_hit1=0.700
+[16:19:58] [gomme_gercek] gercek_en | BERT en/lemma/ad: hit1=0.033, hit3=0.200, sektor_hit1=0.500
+[16:19:59] [gomme_gercek] gercek_en | BERT en/lemma/ad+tanim: hit1=0.333, hit3=0.467, sektor_hit1=0.667
+[16:20:00] [gomme_gercek] gercek_en | BERT en/stem/ad: hit1=0.033, hit3=0.200, sektor_hit1=0.467
+[16:20:01] [gomme_gercek] gercek_en | BERT en/stem/ad+tanim: hit1=0.400, hit3=0.533, sektor_hit1=0.667
+[16:20:02] [gomme_gercek] gercek_tr | BERT en/plain/ad: hit1=0.000, hit3=0.190, sektor_hit1=0.286
+[16:20:03] [gomme_gercek] gercek_tr | BERT en/plain/ad+tanim: hit1=0.095, hit3=0.286, sektor_hit1=0.333
+[16:20:04] [gomme_gercek] gercek_tr | BERT en/lemma/ad: hit1=0.048, hit3=0.190, sektor_hit1=0.333
+[16:20:05] [gomme_gercek] gercek_tr | BERT en/lemma/ad+tanim: hit1=0.095, hit3=0.238, sektor_hit1=0.333
+[16:20:06] [gomme_gercek] gercek_tr | BERT en/stem/ad: hit1=0.095, hit3=0.333, sektor_hit1=0.286
+[16:20:07] [gomme_gercek] gercek_tr | BERT en/stem/ad+tanim: hit1=0.095, hit3=0.333, sektor_hit1=0.381
+[16:20:19] Gömme: ALBERT (sentence-transformers:albert-base-v2) yüklendi (11 sn); 24 yapılandırma
+[16:20:23] [gomme_sentetik] sentetik | ALBERT en/plain/ad+tanim: ilce_dogruluk_makale=0.026, hit1=0.121, hit3=0.276, sektor_hit1=0.445
+[16:20:27] [gomme_sentetik] sentetik | ALBERT en/lemma/ad+tanim: ilce_dogruluk_makale=0.051, hit1=0.137, hit3=0.265, sektor_hit1=0.441
+[16:20:30] [gomme_sentetik] sentetik | ALBERT en/stem/ad+tanim: ilce_dogruluk_makale=0.103, hit1=0.154, hit3=0.271, sektor_hit1=0.421
+[16:20:34] [gomme_alternatif] alt_claude | ALBERT en/plain/ad: ilce_dogruluk_makale=0.051, hit1=0.070, hit3=0.151, sektor_hit1=0.233
+[16:20:37] [gomme_alternatif] alt_claude | ALBERT en/lemma/ad: ilce_dogruluk_makale=0.000, hit1=0.071, hit3=0.164, sektor_hit1=0.376
+[16:20:40] [gomme_alternatif] alt_claude | ALBERT en/stem/ad: ilce_dogruluk_makale=0.000, hit1=0.032, hit3=0.131, sektor_hit1=0.353
+[16:20:42] [gomme_alternatif] alt_gemini | ALBERT en/plain/ad: ilce_dogruluk_makale=0.051, hit1=0.096, hit3=0.175, sektor_hit1=0.361
+[16:20:45] [gomme_alternatif] alt_gemini | ALBERT en/lemma/ad: ilce_dogruluk_makale=0.026, hit1=0.070, hit3=0.173, sektor_hit1=0.371
+[16:20:48] [gomme_alternatif] alt_gemini | ALBERT en/stem/ad: ilce_dogruluk_makale=0.000, hit1=0.029, hit3=0.130, sektor_hit1=0.358
+[16:20:51] [gomme_alternatif] alt_gpt | ALBERT en/plain/ad: ilce_dogruluk_makale=0.026, hit1=0.104, hit3=0.191, sektor_hit1=0.306
+[16:20:54] [gomme_alternatif] alt_gpt | ALBERT en/lemma/ad: ilce_dogruluk_makale=0.026, hit1=0.105, hit3=0.201, sektor_hit1=0.392
+[16:20:58] [gomme_alternatif] alt_gpt | ALBERT en/stem/ad: ilce_dogruluk_makale=0.000, hit1=0.042, hit3=0.156, sektor_hit1=0.368
+[16:20:59] [gomme_gercek] gercek_en | ALBERT en/plain/ad: hit1=0.000, hit3=0.033, sektor_hit1=0.300
+[16:21:00] [gomme_gercek] gercek_en | ALBERT en/plain/ad+tanim: hit1=0.033, hit3=0.133, sektor_hit1=0.233
+[16:21:01] [gomme_gercek] gercek_en | ALBERT en/lemma/ad: hit1=0.000, hit3=0.067, sektor_hit1=0.267
+[16:21:02] [gomme_gercek] gercek_en | ALBERT en/lemma/ad+tanim: hit1=0.033, hit3=0.200, sektor_hit1=0.300
+[16:21:03] [gomme_gercek] gercek_en | ALBERT en/stem/ad: hit1=0.000, hit3=0.033, sektor_hit1=0.333
+[16:21:04] [gomme_gercek] gercek_en | ALBERT en/stem/ad+tanim: hit1=0.100, hit3=0.400, sektor_hit1=0.367
+[16:21:05] [gomme_gercek] gercek_tr | ALBERT en/plain/ad: hit1=0.000, hit3=0.048, sektor_hit1=0.143
+[16:21:06] [gomme_gercek] gercek_tr | ALBERT en/plain/ad+tanim: hit1=0.095, hit3=0.238, sektor_hit1=0.333
+[16:21:08] [gomme_gercek] gercek_tr | ALBERT en/lemma/ad: hit1=0.000, hit3=0.095, sektor_hit1=0.143
+[16:21:08] [gomme_gercek] gercek_tr | ALBERT en/lemma/ad+tanim: hit1=0.048, hit3=0.095, sektor_hit1=0.286
+[16:21:10] [gomme_gercek] gercek_tr | ALBERT en/stem/ad: hit1=0.000, hit3=0.000, sektor_hit1=0.190
+[16:21:11] [gomme_gercek] gercek_tr | ALBERT en/stem/ad+tanim: hit1=0.048, hit3=0.143, sektor_hit1=0.238
+[16:21:34] Gömme: RoBERTa (sentence-transformers:roberta-base-nli-mean-tokens) yüklendi (22 sn); 24 yapılandırma
+[16:21:39] [gomme_sentetik] sentetik | RoBERTa en/plain/ad+tanim: ilce_dogruluk_makale=0.205, hit1=0.278, hit3=0.442, sektor_hit1=0.619
+[16:21:42] [gomme_sentetik] sentetik | RoBERTa en/lemma/ad+tanim: ilce_dogruluk_makale=0.359, hit1=0.337, hit3=0.533, sektor_hit1=0.650
+[16:21:46] [gomme_sentetik] sentetik | RoBERTa en/stem/ad+tanim: ilce_dogruluk_makale=0.436, hit1=0.354, hit3=0.559, sektor_hit1=0.699
+[16:21:49] [gomme_alternatif] alt_claude | RoBERTa en/plain/ad: ilce_dogruluk_makale=0.128, hit1=0.188, hit3=0.274, sektor_hit1=0.514
+[16:21:52] [gomme_alternatif] alt_claude | RoBERTa en/lemma/ad: ilce_dogruluk_makale=0.179, hit1=0.267, hit3=0.387, sektor_hit1=0.608
+[16:21:56] [gomme_alternatif] alt_claude | RoBERTa en/stem/ad: ilce_dogruluk_makale=0.231, hit1=0.256, hit3=0.368, sektor_hit1=0.588
+[16:21:59] [gomme_alternatif] alt_gemini | RoBERTa en/plain/ad: ilce_dogruluk_makale=0.154, hit1=0.229, hit3=0.360, sektor_hit1=0.543
+[16:22:02] [gomme_alternatif] alt_gemini | RoBERTa en/lemma/ad: ilce_dogruluk_makale=0.179, hit1=0.235, hit3=0.374, sektor_hit1=0.559
+[16:22:05] [gomme_alternatif] alt_gemini | RoBERTa en/stem/ad: ilce_dogruluk_makale=0.205, hit1=0.243, hit3=0.378, sektor_hit1=0.579
+[16:22:08] [gomme_alternatif] alt_gpt | RoBERTa en/plain/ad: ilce_dogruluk_makale=0.205, hit1=0.266, hit3=0.387, sektor_hit1=0.551
+[16:22:11] [gomme_alternatif] alt_gpt | RoBERTa en/lemma/ad: ilce_dogruluk_makale=0.231, hit1=0.347, hit3=0.512, sektor_hit1=0.642
+[16:22:14] [gomme_alternatif] alt_gpt | RoBERTa en/stem/ad: ilce_dogruluk_makale=0.333, hit1=0.360, hit3=0.504, sektor_hit1=0.639
+[16:22:15] [gomme_gercek] gercek_en | RoBERTa en/plain/ad: hit1=0.067, hit3=0.100, sektor_hit1=0.300
+[16:22:16] [gomme_gercek] gercek_en | RoBERTa en/plain/ad+tanim: hit1=0.300, hit3=0.500, sektor_hit1=0.633
+[16:22:17] [gomme_gercek] gercek_en | RoBERTa en/lemma/ad: hit1=0.067, hit3=0.167, sektor_hit1=0.300
+[16:22:18] [gomme_gercek] gercek_en | RoBERTa en/lemma/ad+tanim: hit1=0.233, hit3=0.300, sektor_hit1=0.567
+[16:22:19] [gomme_gercek] gercek_en | RoBERTa en/stem/ad: hit1=0.133, hit3=0.200, sektor_hit1=0.433
+[16:22:20] [gomme_gercek] gercek_en | RoBERTa en/stem/ad+tanim: hit1=0.233, hit3=0.433, sektor_hit1=0.500
+[16:22:21] [gomme_gercek] gercek_tr | RoBERTa en/plain/ad: hit1=0.095, hit3=0.238, sektor_hit1=0.476
+[16:22:22] [gomme_gercek] gercek_tr | RoBERTa en/plain/ad+tanim: hit1=0.095, hit3=0.238, sektor_hit1=0.476
+[16:22:23] [gomme_gercek] gercek_tr | RoBERTa en/lemma/ad: hit1=0.095, hit3=0.143, sektor_hit1=0.476
+[16:22:24] [gomme_gercek] gercek_tr | RoBERTa en/lemma/ad+tanim: hit1=0.095, hit3=0.143, sektor_hit1=0.333
+[16:22:26] [gomme_gercek] gercek_tr | RoBERTa en/stem/ad: hit1=0.190, hit3=0.190, sektor_hit1=0.429
+[16:22:27] [gomme_gercek] gercek_tr | RoBERTa en/stem/ad+tanim: hit1=0.238, hit3=0.333, sektor_hit1=0.381
+[16:27:09] GloVe yüklendi: 2196016 kelime, atlanan satır 1
+[16:27:12] Gömme: GloVe (glove.840B.300d (/content/drive/MyDrive/Colab Notebooks/NLP Modeller/GloVe File/glove.840B.300d-001.txt)) yüklendi (285 sn); 24 yapılandırma
+[16:27:20] [gomme_sentetik] sentetik | GloVe en/plain/ad+tanim: ilce_dogruluk_makale=0.026, hit1=0.291, hit3=0.488, sektor_hit1=0.583
+[16:27:23] [gomme_sentetik] sentetik | GloVe en/lemma/ad+tanim: ilce_dogruluk_makale=0.179, hit1=0.389, hit3=0.578, sektor_hit1=0.720
+[16:27:26] [gomme_sentetik] sentetik | GloVe en/stem/ad+tanim: ilce_dogruluk_makale=0.359, hit1=0.448, hit3=0.611, sektor_hit1=0.743
+[16:27:28] [gomme_alternatif] alt_claude | GloVe en/plain/ad: ilce_dogruluk_makale=0.026, hit1=0.164, hit3=0.316, sektor_hit1=0.451
+[16:27:31] [gomme_alternatif] alt_claude | GloVe en/lemma/ad: ilce_dogruluk_makale=0.077, hit1=0.308, hit3=0.515, sektor_hit1=0.528
+[16:27:34] [gomme_alternatif] alt_claude | GloVe en/stem/ad: ilce_dogruluk_makale=0.154, hit1=0.361, hit3=0.515, sektor_hit1=0.645
+[16:27:36] [gomme_alternatif] alt_gemini | GloVe en/plain/ad: ilce_dogruluk_makale=0.051, hit1=0.204, hit3=0.397, sektor_hit1=0.491
+[16:27:39] [gomme_alternatif] alt_gemini | GloVe en/lemma/ad: ilce_dogruluk_makale=0.103, hit1=0.321, hit3=0.564, sektor_hit1=0.580
+[16:27:41] [gomme_alternatif] alt_gemini | GloVe en/stem/ad: ilce_dogruluk_makale=0.179, hit1=0.428, hit3=0.603, sektor_hit1=0.690
+[16:27:44] [gomme_alternatif] alt_gpt | GloVe en/plain/ad: ilce_dogruluk_makale=0.051, hit1=0.201, hit3=0.392, sektor_hit1=0.467
+[16:27:47] [gomme_alternatif] alt_gpt | GloVe en/lemma/ad: ilce_dogruluk_makale=0.179, hit1=0.374, hit3=0.634, sektor_hit1=0.585
+[16:27:49] [gomme_alternatif] alt_gpt | GloVe en/stem/ad: ilce_dogruluk_makale=0.385, hit1=0.470, hit3=0.666, sektor_hit1=0.702
+[16:27:50] [gomme_gercek] gercek_en | GloVe en/plain/ad: hit1=0.133, hit3=0.300, sektor_hit1=0.467
+[16:27:51] [gomme_gercek] gercek_en | GloVe en/plain/ad+tanim: hit1=0.533, hit3=0.667, sektor_hit1=0.700
+[16:27:52] [gomme_gercek] gercek_en | GloVe en/lemma/ad: hit1=0.200, hit3=0.467, sektor_hit1=0.667
+[16:27:53] [gomme_gercek] gercek_en | GloVe en/lemma/ad+tanim: hit1=0.300, hit3=0.767, sektor_hit1=0.767
+[16:27:54] [gomme_gercek] gercek_en | GloVe en/stem/ad: hit1=0.267, hit3=0.633, sektor_hit1=0.700
+[16:27:55] [gomme_gercek] gercek_en | GloVe en/stem/ad+tanim: hit1=0.367, hit3=0.700, sektor_hit1=0.800
+[16:27:56] [gomme_gercek] gercek_tr | GloVe en/plain/ad: hit1=0.286, hit3=0.476, sektor_hit1=0.429
+[16:27:57] [gomme_gercek] gercek_tr | GloVe en/plain/ad+tanim: hit1=0.286, hit3=0.429, sektor_hit1=0.333
+[16:27:58] [gomme_gercek] gercek_tr | GloVe en/lemma/ad: hit1=0.095, hit3=0.190, sektor_hit1=0.429
+[16:27:59] [gomme_gercek] gercek_tr | GloVe en/lemma/ad+tanim: hit1=0.143, hit3=0.381, sektor_hit1=0.476
+[16:28:00] [gomme_gercek] gercek_tr | GloVe en/stem/ad: hit1=0.095, hit3=0.190, sektor_hit1=0.238
+[16:28:00] [gomme_gercek] gercek_tr | GloVe en/stem/ad+tanim: hit1=0.143, hit3=0.333, sektor_hit1=0.381
+[16:29:49] Gömme: Word2Vec (word2vec-google-news-300 (/content/drive/MyDrive/Colab Notebooks/NLP Modeller/Word2Vec Files/word2vec-google-news-300.bin)) yüklendi (108 sn); 24 yapılandırma
+[16:29:52] [gomme_sentetik] sentetik | Word2Vec en/plain/ad+tanim: ilce_dogruluk_makale=0.103, hit1=0.402, hit3=0.630, sektor_hit1=0.672
+[16:29:55] [gomme_sentetik] sentetik | Word2Vec en/lemma/ad+tanim: ilce_dogruluk_makale=0.410, hit1=0.573, hit3=0.759, sektor_hit1=0.790
+[16:29:57] [gomme_sentetik] sentetik | Word2Vec en/stem/ad+tanim: ilce_dogruluk_makale=0.641, hit1=0.602, hit3=0.761, sektor_hit1=0.821
+[16:30:00] [gomme_alternatif] alt_claude | Word2Vec en/plain/ad: ilce_dogruluk_makale=0.128, hit1=0.381, hit3=0.614, sektor_hit1=0.647
+[16:30:03] [gomme_alternatif] alt_claude | Word2Vec en/lemma/ad: ilce_dogruluk_makale=0.615, hit1=0.619, hit3=0.736, sektor_hit1=0.809
+[16:30:05] [gomme_alternatif] alt_claude | Word2Vec en/stem/ad: ilce_dogruluk_makale=0.538, hit1=0.592, hit3=0.702, sektor_hit1=0.778
+[16:30:08] [gomme_alternatif] alt_gemini | Word2Vec en/plain/ad: ilce_dogruluk_makale=0.205, hit1=0.467, hit3=0.734, sektor_hit1=0.681
+[16:30:11] [gomme_alternatif] alt_gemini | Word2Vec en/lemma/ad: ilce_dogruluk_makale=0.667, hit1=0.665, hit3=0.820, sektor_hit1=0.841
+[16:30:14] [gomme_alternatif] alt_gemini | Word2Vec en/stem/ad: ilce_dogruluk_makale=0.590, hit1=0.632, hit3=0.755, sektor_hit1=0.799
+[16:30:17] [gomme_alternatif] alt_gpt | Word2Vec en/plain/ad: ilce_dogruluk_makale=0.231, hit1=0.522, hit3=0.786, sektor_hit1=0.699
+[16:30:19] [gomme_alternatif] alt_gpt | Word2Vec en/lemma/ad: ilce_dogruluk_makale=0.718, hit1=0.750, hit3=0.914, sektor_hit1=0.865
+[16:30:22] [gomme_alternatif] alt_gpt | Word2Vec en/stem/ad: ilce_dogruluk_makale=0.769, hit1=0.736, hit3=0.862, sektor_hit1=0.893
+[16:30:23] [gomme_gercek] gercek_en | Word2Vec en/plain/ad: hit1=0.367, hit3=0.567, sektor_hit1=0.600
+[16:30:24] [gomme_gercek] gercek_en | Word2Vec en/plain/ad+tanim: hit1=0.600, hit3=0.867, sektor_hit1=0.767
+[16:30:25] [gomme_gercek] gercek_en | Word2Vec en/lemma/ad: hit1=0.467, hit3=0.800, sektor_hit1=0.833
+[16:30:26] [gomme_gercek] gercek_en | Word2Vec en/lemma/ad+tanim: hit1=0.467, hit3=0.767, sektor_hit1=0.767
+[16:30:27] [gomme_gercek] gercek_en | Word2Vec en/stem/ad: hit1=0.400, hit3=0.667, sektor_hit1=0.733
+[16:30:27] [gomme_gercek] gercek_en | Word2Vec en/stem/ad+tanim: hit1=0.433, hit3=0.767, sektor_hit1=0.767
+[16:30:28] [gomme_gercek] gercek_tr | Word2Vec en/plain/ad: hit1=0.095, hit3=0.238, sektor_hit1=0.238
+[16:30:29] [gomme_gercek] gercek_tr | Word2Vec en/plain/ad+tanim: hit1=0.190, hit3=0.381, sektor_hit1=0.381
+[16:30:30] [gomme_gercek] gercek_tr | Word2Vec en/lemma/ad: hit1=0.333, hit3=0.381, sektor_hit1=0.524
+[16:30:31] [gomme_gercek] gercek_tr | Word2Vec en/lemma/ad+tanim: hit1=0.143, hit3=0.429, sektor_hit1=0.429
+[16:30:32] [gomme_gercek] gercek_tr | Word2Vec en/stem/ad: hit1=0.286, hit3=0.333, sektor_hit1=0.381
+[16:30:33] [gomme_gercek] gercek_tr | Word2Vec en/stem/ad+tanim: hit1=0.286, hit3=0.333, sektor_hit1=0.333
+[16:31:18] Gömme: USE (universal-sentence-encoder/4 (/content/drive/MyDrive/Colab Notebooks/NLP Modeller/USE Files)) yüklendi (45 sn); 24 yapılandırma
+[16:31:21] [gomme_sentetik] sentetik | USE en/plain/ad+tanim: ilce_dogruluk_makale=0.744, hit1=0.704, hit3=0.876, sektor_hit1=0.887
+[16:31:24] [gomme_sentetik] sentetik | USE en/lemma/ad+tanim: ilce_dogruluk_makale=0.744, hit1=0.703, hit3=0.880, sektor_hit1=0.889
+[16:31:27] [gomme_sentetik] sentetik | USE en/stem/ad+tanim: ilce_dogruluk_makale=0.667, hit1=0.665, hit3=0.821, sektor_hit1=0.865
+[16:31:30] [gomme_alternatif] alt_claude | USE en/plain/ad: ilce_dogruluk_makale=0.769, hit1=0.716, hit3=0.870, sektor_hit1=0.887
+[16:31:33] [gomme_alternatif] alt_claude | USE en/lemma/ad: ilce_dogruluk_makale=0.821, hit1=0.734, hit3=0.857, sektor_hit1=0.885
+[16:31:35] [gomme_alternatif] alt_claude | USE en/stem/ad: ilce_dogruluk_makale=0.692, hit1=0.648, hit3=0.780, sektor_hit1=0.861
+[16:31:38] [gomme_alternatif] alt_gemini | USE en/plain/ad: ilce_dogruluk_makale=0.821, hit1=0.778, hit3=0.911, sektor_hit1=0.932
+[16:31:40] [gomme_alternatif] alt_gemini | USE en/lemma/ad: ilce_dogruluk_makale=0.795, hit1=0.775, hit3=0.916, sektor_hit1=0.924
+[16:31:43] [gomme_alternatif] alt_gemini | USE en/stem/ad: ilce_dogruluk_makale=0.821, hit1=0.705, hit3=0.823, sektor_hit1=0.870
+[16:31:46] [gomme_alternatif] alt_gpt | USE en/plain/ad: ilce_dogruluk_makale=0.949, hit1=0.877, hit3=0.956, sektor_hit1=0.943
+[16:31:49] [gomme_alternatif] alt_gpt | USE en/lemma/ad: ilce_dogruluk_makale=0.872, hit1=0.862, hit3=0.956, sektor_hit1=0.943
+[16:31:52] [gomme_alternatif] alt_gpt | USE en/stem/ad: ilce_dogruluk_makale=0.821, hit1=0.789, hit3=0.874, sektor_hit1=0.924
+[16:31:53] [gomme_gercek] gercek_en | USE en/plain/ad: hit1=0.600, hit3=0.833, sektor_hit1=0.800
+[16:31:54] [gomme_gercek] gercek_en | USE en/plain/ad+tanim: hit1=0.500, hit3=0.833, sektor_hit1=0.733
+[16:31:55] [gomme_gercek] gercek_en | USE en/lemma/ad: hit1=0.633, hit3=0.833, sektor_hit1=0.833
+[16:31:56] [gomme_gercek] gercek_en | USE en/lemma/ad+tanim: hit1=0.600, hit3=0.833, sektor_hit1=0.767
+[16:31:56] [gomme_gercek] gercek_en | USE en/stem/ad: hit1=0.533, hit3=0.700, sektor_hit1=0.767
+[16:31:57] [gomme_gercek] gercek_en | USE en/stem/ad+tanim: hit1=0.667, hit3=0.767, sektor_hit1=0.767
+[16:31:59] [gomme_gercek] gercek_tr | USE en/plain/ad: hit1=0.238, hit3=0.333, sektor_hit1=0.381
+[16:31:59] [gomme_gercek] gercek_tr | USE en/plain/ad+tanim: hit1=0.238, hit3=0.476, sektor_hit1=0.476
+[16:32:00] [gomme_gercek] gercek_tr | USE en/lemma/ad: hit1=0.286, hit3=0.429, sektor_hit1=0.429
+[16:32:01] [gomme_gercek] gercek_tr | USE en/lemma/ad+tanim: hit1=0.286, hit3=0.476, sektor_hit1=0.524
+[16:32:02] [gomme_gercek] gercek_tr | USE en/stem/ad: hit1=0.286, hit3=0.333, sektor_hit1=0.476
+[16:32:03] [gomme_gercek] gercek_tr | USE en/stem/ad+tanim: hit1=0.333, hit3=0.429, sektor_hit1=0.429
+[16:35:50] Gömme: FastText (cc.en.300.bin (/content/drive/MyDrive/Colab Notebooks/NLP Modeller/FastText Files/cc.en.300.bin)) yüklendi (226 sn); 24 yapılandırma
+[16:35:55] [gomme_sentetik] sentetik | FastText en/plain/ad+tanim: ilce_dogruluk_makale=0.026, hit1=0.262, hit3=0.455, sektor_hit1=0.561
+[16:35:59] [gomme_sentetik] sentetik | FastText en/lemma/ad+tanim: ilce_dogruluk_makale=0.282, hit1=0.459, hit3=0.657, sektor_hit1=0.732
+[16:36:02] [gomme_sentetik] sentetik | FastText en/stem/ad+tanim: ilce_dogruluk_makale=0.513, hit1=0.509, hit3=0.684, sektor_hit1=0.744
+[16:36:05] [gomme_alternatif] alt_claude | FastText en/plain/ad: ilce_dogruluk_makale=0.051, hit1=0.159, hit3=0.269, sektor_hit1=0.444
+[16:36:08] [gomme_alternatif] alt_claude | FastText en/lemma/ad: ilce_dogruluk_makale=0.256, hit1=0.400, hit3=0.596, sektor_hit1=0.639
+[16:36:10] [gomme_alternatif] alt_claude | FastText en/stem/ad: ilce_dogruluk_makale=0.410, hit1=0.462, hit3=0.635, sektor_hit1=0.697
+[16:36:14] [gomme_alternatif] alt_gemini | FastText en/plain/ad: ilce_dogruluk_makale=0.077, hit1=0.162, hit3=0.319, sektor_hit1=0.446
+[16:36:16] [gomme_alternatif] alt_gemini | FastText en/lemma/ad: ilce_dogruluk_makale=0.333, hit1=0.454, hit3=0.665, sektor_hit1=0.661
+[16:36:19] [gomme_alternatif] alt_gemini | FastText en/stem/ad: ilce_dogruluk_makale=0.513, hit1=0.512, hit3=0.668, sektor_hit1=0.724
+[16:36:22] [gomme_alternatif] alt_gpt | FastText en/plain/ad: ilce_dogruluk_makale=0.051, hit1=0.160, hit3=0.331, sektor_hit1=0.418
+[16:36:25] [gomme_alternatif] alt_gpt | FastText en/lemma/ad: ilce_dogruluk_makale=0.359, hit1=0.502, hit3=0.749, sektor_hit1=0.681
+[16:36:28] [gomme_alternatif] alt_gpt | FastText en/stem/ad: ilce_dogruluk_makale=0.615, hit1=0.605, hit3=0.780, sektor_hit1=0.776
+[16:36:29] [gomme_gercek] gercek_en | FastText en/plain/ad: hit1=0.067, hit3=0.233, sektor_hit1=0.467
+[16:36:30] [gomme_gercek] gercek_en | FastText en/plain/ad+tanim: hit1=0.433, hit3=0.633, sektor_hit1=0.600
+[16:36:31] [gomme_gercek] gercek_en | FastText en/lemma/ad: hit1=0.267, hit3=0.533, sektor_hit1=0.667
+[16:36:32] [gomme_gercek] gercek_en | FastText en/lemma/ad+tanim: hit1=0.400, hit3=0.767, sektor_hit1=0.733
+[16:36:32] [gomme_gercek] gercek_en | FastText en/stem/ad: hit1=0.267, hit3=0.700, sektor_hit1=0.667
+[16:36:33] [gomme_gercek] gercek_en | FastText en/stem/ad+tanim: hit1=0.400, hit3=0.700, sektor_hit1=0.733
+[16:36:34] [gomme_gercek] gercek_tr | FastText en/plain/ad: hit1=0.048, hit3=0.429, sektor_hit1=0.238
+[16:36:35] [gomme_gercek] gercek_tr | FastText en/plain/ad+tanim: hit1=0.190, hit3=0.286, sektor_hit1=0.238
+[16:36:36] [gomme_gercek] gercek_tr | FastText en/lemma/ad: hit1=0.048, hit3=0.190, sektor_hit1=0.286
+[16:36:37] [gomme_gercek] gercek_tr | FastText en/lemma/ad+tanim: hit1=0.095, hit3=0.381, sektor_hit1=0.333
+[16:36:38] [gomme_gercek] gercek_tr | FastText en/stem/ad: hit1=0.143, hit3=0.476, sektor_hit1=0.333
+[16:36:39] [gomme_gercek] gercek_tr | FastText en/stem/ad+tanim: hit1=0.143, hit3=0.286, sektor_hit1=0.381
+[16:36:50] Gömme: SBERT-mpnet (sentence-transformers:all-mpnet-base-v2) yüklendi (10 sn); 24 yapılandırma
+[16:36:54] [gomme_sentetik] sentetik | SBERT-mpnet en/plain/ad+tanim: ilce_dogruluk_makale=0.692, hit1=0.629, hit3=0.853, sektor_hit1=0.829
+[16:36:58] [gomme_sentetik] sentetik | SBERT-mpnet en/lemma/ad+tanim: ilce_dogruluk_makale=0.744, hit1=0.561, hit3=0.787, sektor_hit1=0.788
+[16:37:02] [gomme_sentetik] sentetik | SBERT-mpnet en/stem/ad+tanim: ilce_dogruluk_makale=0.692, hit1=0.523, hit3=0.744, sektor_hit1=0.793
+[16:37:05] [gomme_alternatif] alt_claude | SBERT-mpnet en/plain/ad: ilce_dogruluk_makale=0.821, hit1=0.674, hit3=0.874, sektor_hit1=0.901
+[16:37:08] [gomme_alternatif] alt_claude | SBERT-mpnet en/lemma/ad: ilce_dogruluk_makale=0.692, hit1=0.627, hit3=0.828, sektor_hit1=0.856
+[16:37:11] [gomme_alternatif] alt_claude | SBERT-mpnet en/stem/ad: ilce_dogruluk_makale=0.641, hit1=0.596, hit3=0.765, sektor_hit1=0.843
+[16:37:14] [gomme_alternatif] alt_gemini | SBERT-mpnet en/plain/ad: ilce_dogruluk_makale=0.769, hit1=0.733, hit3=0.911, sektor_hit1=0.922
+[16:37:18] [gomme_alternatif] alt_gemini | SBERT-mpnet en/lemma/ad: ilce_dogruluk_makale=0.718, hit1=0.687, hit3=0.896, sektor_hit1=0.880
+[16:37:21] [gomme_alternatif] alt_gemini | SBERT-mpnet en/stem/ad: ilce_dogruluk_makale=0.641, hit1=0.605, hit3=0.810, sektor_hit1=0.843
+[16:37:24] [gomme_alternatif] alt_gpt | SBERT-mpnet en/plain/ad: ilce_dogruluk_makale=0.897, hit1=0.770, hit3=0.925, sektor_hit1=0.914
+[16:37:27] [gomme_alternatif] alt_gpt | SBERT-mpnet en/lemma/ad: ilce_dogruluk_makale=0.846, hit1=0.797, hit3=0.950, sektor_hit1=0.929
+[16:37:30] [gomme_alternatif] alt_gpt | SBERT-mpnet en/stem/ad: ilce_dogruluk_makale=0.795, hit1=0.781, hit3=0.911, sektor_hit1=0.912
+[16:37:31] [gomme_gercek] gercek_en | SBERT-mpnet en/plain/ad: hit1=0.500, hit3=0.767, sektor_hit1=0.800
+[16:37:32] [gomme_gercek] gercek_en | SBERT-mpnet en/plain/ad+tanim: hit1=0.567, hit3=0.933, sektor_hit1=0.667
+[16:37:33] [gomme_gercek] gercek_en | SBERT-mpnet en/lemma/ad: hit1=0.567, hit3=0.867, sektor_hit1=0.833
+[16:37:34] [gomme_gercek] gercek_en | SBERT-mpnet en/lemma/ad+tanim: hit1=0.433, hit3=0.800, sektor_hit1=0.600
+[16:37:35] [gomme_gercek] gercek_en | SBERT-mpnet en/stem/ad: hit1=0.500, hit3=0.833, sektor_hit1=0.767
+[16:37:36] [gomme_gercek] gercek_en | SBERT-mpnet en/stem/ad+tanim: hit1=0.467, hit3=0.767, sektor_hit1=0.733
+[16:37:37] [gomme_gercek] gercek_tr | SBERT-mpnet en/plain/ad: hit1=0.381, hit3=0.571, sektor_hit1=0.524
+[16:37:38] [gomme_gercek] gercek_tr | SBERT-mpnet en/plain/ad+tanim: hit1=0.333, hit3=0.571, sektor_hit1=0.476
+[16:37:39] [gomme_gercek] gercek_tr | SBERT-mpnet en/lemma/ad: hit1=0.429, hit3=0.619, sektor_hit1=0.619
+[16:37:40] [gomme_gercek] gercek_tr | SBERT-mpnet en/lemma/ad+tanim: hit1=0.238, hit3=0.381, sektor_hit1=0.429
+[16:37:41] [gomme_gercek] gercek_tr | SBERT-mpnet en/stem/ad: hit1=0.476, hit3=0.810, sektor_hit1=0.571
+[16:37:42] [gomme_gercek] gercek_tr | SBERT-mpnet en/stem/ad+tanim: hit1=0.333, hit3=0.571, sektor_hit1=0.571
+[16:37:55] Gömme: BERT-raw (sentence-transformers:bert-base-uncased) yüklendi (11 sn); 24 yapılandırma
+[16:37:59] [gomme_sentetik] sentetik | BERT-raw en/plain/ad+tanim: ilce_dogruluk_makale=0.051, hit1=0.203, hit3=0.367, sektor_hit1=0.569
+[16:38:02] [gomme_sentetik] sentetik | BERT-raw en/lemma/ad+tanim: ilce_dogruluk_makale=0.026, hit1=0.216, hit3=0.384, sektor_hit1=0.574
+[16:38:06] [gomme_sentetik] sentetik | BERT-raw en/stem/ad+tanim: ilce_dogruluk_makale=0.154, hit1=0.178, hit3=0.333, sektor_hit1=0.525
+[16:38:09] [gomme_alternatif] alt_claude | BERT-raw en/plain/ad: ilce_dogruluk_makale=0.051, hit1=0.099, hit3=0.237, sektor_hit1=0.371
+[16:38:12] [gomme_alternatif] alt_claude | BERT-raw en/lemma/ad: ilce_dogruluk_makale=0.026, hit1=0.096, hit3=0.230, sektor_hit1=0.366
+[16:38:15] [gomme_alternatif] alt_claude | BERT-raw en/stem/ad: ilce_dogruluk_makale=0.000, hit1=0.053, hit3=0.138, sektor_hit1=0.361
+[16:38:18] [gomme_alternatif] alt_gemini | BERT-raw en/plain/ad: ilce_dogruluk_makale=0.051, hit1=0.115, hit3=0.253, sektor_hit1=0.395
+[16:38:21] [gomme_alternatif] alt_gemini | BERT-raw en/lemma/ad: ilce_dogruluk_makale=0.026, hit1=0.109, hit3=0.241, sektor_hit1=0.399
+[16:38:24] [gomme_alternatif] alt_gemini | BERT-raw en/stem/ad: ilce_dogruluk_makale=0.000, hit1=0.065, hit3=0.154, sektor_hit1=0.399
+[16:38:27] [gomme_alternatif] alt_gpt | BERT-raw en/plain/ad: ilce_dogruluk_makale=0.077, hit1=0.151, hit3=0.277, sektor_hit1=0.426
+[16:38:30] [gomme_alternatif] alt_gpt | BERT-raw en/lemma/ad: ilce_dogruluk_makale=0.077, hit1=0.160, hit3=0.297, sektor_hit1=0.451
+[16:38:33] [gomme_alternatif] alt_gpt | BERT-raw en/stem/ad: ilce_dogruluk_makale=0.026, hit1=0.089, hit3=0.220, sektor_hit1=0.368
+[16:38:34] [gomme_gercek] gercek_en | BERT-raw en/plain/ad: hit1=0.033, hit3=0.067, sektor_hit1=0.500
+[16:38:35] [gomme_gercek] gercek_en | BERT-raw en/plain/ad+tanim: hit1=0.133, hit3=0.300, sektor_hit1=0.533
+[16:38:36] [gomme_gercek] gercek_en | BERT-raw en/lemma/ad: hit1=0.000, hit3=0.033, sektor_hit1=0.400
+[16:38:37] [gomme_gercek] gercek_en | BERT-raw en/lemma/ad+tanim: hit1=0.200, hit3=0.400, sektor_hit1=0.367
+[16:38:38] [gomme_gercek] gercek_en | BERT-raw en/stem/ad: hit1=0.000, hit3=0.067, sektor_hit1=0.400
+[16:38:39] [gomme_gercek] gercek_en | BERT-raw en/stem/ad+tanim: hit1=0.133, hit3=0.233, sektor_hit1=0.333
+[16:38:40] [gomme_gercek] gercek_tr | BERT-raw en/plain/ad: hit1=0.048, hit3=0.095, sektor_hit1=0.286
+[16:38:41] [gomme_gercek] gercek_tr | BERT-raw en/plain/ad+tanim: hit1=0.095, hit3=0.238, sektor_hit1=0.238
+[16:38:43] [gomme_gercek] gercek_tr | BERT-raw en/lemma/ad: hit1=0.000, hit3=0.000, sektor_hit1=0.286
+[16:38:44] [gomme_gercek] gercek_tr | BERT-raw en/lemma/ad+tanim: hit1=0.000, hit3=0.095, sektor_hit1=0.333
+[16:38:45] [gomme_gercek] gercek_tr | BERT-raw en/stem/ad: hit1=0.048, hit3=0.286, sektor_hit1=0.238
+[16:38:46] [gomme_gercek] gercek_tr | BERT-raw en/stem/ad+tanim: hit1=0.143, hit3=0.190, sektor_hit1=0.238
+[16:38:56] Gömme: ALBERT-paraphrase (sentence-transformers:paraphrase-albert-small-v2) yüklendi (10 sn); 24 yapılandırma
+[16:39:00] [gomme_sentetik] sentetik | ALBERT-paraphrase en/plain/ad+tanim: ilce_dogruluk_makale=0.718, hit1=0.600, hit3=0.805, sektor_hit1=0.815
+[16:39:03] [gomme_sentetik] sentetik | ALBERT-paraphrase en/lemma/ad+tanim: ilce_dogruluk_makale=0.641, hit1=0.542, hit3=0.766, sektor_hit1=0.778
+[16:39:07] [gomme_sentetik] sentetik | ALBERT-paraphrase en/stem/ad+tanim: ilce_dogruluk_makale=0.718, hit1=0.578, hit3=0.773, sektor_hit1=0.809
+[16:39:10] [gomme_alternatif] alt_claude | ALBERT-paraphrase en/plain/ad: ilce_dogruluk_makale=0.769, hit1=0.648, hit3=0.799, sektor_hit1=0.856
+[16:39:12] [gomme_alternatif] alt_claude | ALBERT-paraphrase en/lemma/ad: ilce_dogruluk_makale=0.692, hit1=0.643, hit3=0.791, sektor_hit1=0.849
+[16:39:15] [gomme_alternatif] alt_claude | ALBERT-paraphrase en/stem/ad: ilce_dogruluk_makale=0.667, hit1=0.614, hit3=0.780, sektor_hit1=0.822
+[16:39:19] [gomme_alternatif] alt_gemini | ALBERT-paraphrase en/plain/ad: ilce_dogruluk_makale=0.769, hit1=0.682, hit3=0.856, sektor_hit1=0.853
+[16:39:21] [gomme_alternatif] alt_gemini | ALBERT-paraphrase en/lemma/ad: ilce_dogruluk_makale=0.795, hit1=0.677, hit3=0.838, sektor_hit1=0.859
+[16:39:24] [gomme_alternatif] alt_gemini | ALBERT-paraphrase en/stem/ad: ilce_dogruluk_makale=0.769, hit1=0.673, hit3=0.809, sektor_hit1=0.840
+[16:39:28] [gomme_alternatif] alt_gpt | ALBERT-paraphrase en/plain/ad: ilce_dogruluk_makale=0.897, hit1=0.804, hit3=0.935, sektor_hit1=0.922
+[16:39:31] [gomme_alternatif] alt_gpt | ALBERT-paraphrase en/lemma/ad: ilce_dogruluk_makale=0.897, hit1=0.814, hit3=0.950, sektor_hit1=0.932
+[16:39:33] [gomme_alternatif] alt_gpt | ALBERT-paraphrase en/stem/ad: ilce_dogruluk_makale=0.872, hit1=0.817, hit3=0.919, sektor_hit1=0.932
+[16:39:34] [gomme_gercek] gercek_en | ALBERT-paraphrase en/plain/ad: hit1=0.500, hit3=0.700, sektor_hit1=0.767
+[16:39:36] [gomme_gercek] gercek_en | ALBERT-paraphrase en/plain/ad+tanim: hit1=0.300, hit3=0.800, sektor_hit1=0.533
+[16:39:37] [gomme_gercek] gercek_en | ALBERT-paraphrase en/lemma/ad: hit1=0.467, hit3=0.767, sektor_hit1=0.667
+[16:39:38] [gomme_gercek] gercek_en | ALBERT-paraphrase en/lemma/ad+tanim: hit1=0.367, hit3=0.600, sektor_hit1=0.633
+[16:39:39] [gomme_gercek] gercek_en | ALBERT-paraphrase en/stem/ad: hit1=0.433, hit3=0.700, sektor_hit1=0.733
+[16:39:40] [gomme_gercek] gercek_en | ALBERT-paraphrase en/stem/ad+tanim: hit1=0.433, hit3=0.600, sektor_hit1=0.700
+[16:39:41] [gomme_gercek] gercek_tr | ALBERT-paraphrase en/plain/ad: hit1=0.381, hit3=0.571, sektor_hit1=0.524
+[16:39:42] [gomme_gercek] gercek_tr | ALBERT-paraphrase en/plain/ad+tanim: hit1=0.381, hit3=0.524, sektor_hit1=0.524
+[16:39:43] [gomme_gercek] gercek_tr | ALBERT-paraphrase en/lemma/ad: hit1=0.333, hit3=0.476, sektor_hit1=0.571
+[16:39:44] [gomme_gercek] gercek_tr | ALBERT-paraphrase en/lemma/ad+tanim: hit1=0.238, hit3=0.333, sektor_hit1=0.429
+[16:39:45] [gomme_gercek] gercek_tr | ALBERT-paraphrase en/stem/ad: hit1=0.381, hit3=0.381, sektor_hit1=0.524
+[16:39:46] [gomme_gercek] gercek_tr | ALBERT-paraphrase en/stem/ad+tanim: hit1=0.143, hit3=0.333, sektor_hit1=0.429
+[16:40:00] Gömme: SBERT-çokdilli (TR) (sentence-transformers:paraphrase-multilingual-MiniLM-L12-v2) yüklendi (13 sn); 6 yapılandırma
+[16:40:03] [gomme_sentetik] sentetik | SBERT-çokdilli (TR) tr/plain/ad+tanim: ilce_dogruluk_makale=0.359, hit1=0.425, hit3=0.664, sektor_hit1=0.694
+[16:40:06] [gomme_alternatif] alt_claude | SBERT-çokdilli (TR) tr/plain/ad: ilce_dogruluk_makale=0.436, hit1=0.457, hit3=0.640, sektor_hit1=0.739
+[16:40:10] [gomme_alternatif] alt_gemini | SBERT-çokdilli (TR) tr/plain/ad: ilce_dogruluk_makale=0.513, hit1=0.504, hit3=0.695, sektor_hit1=0.712
+[16:40:12] [gomme_alternatif] alt_gpt | SBERT-çokdilli (TR) tr/plain/ad: ilce_dogruluk_makale=0.615, hit1=0.592, hit3=0.770, sektor_hit1=0.759
+[16:40:14] [gomme_gercek] gercek_tr | SBERT-çokdilli (TR) tr/plain/ad: hit1=0.333, hit3=0.429, sektor_hit1=0.524
+[16:40:14] [gomme_gercek] gercek_tr | SBERT-çokdilli (TR) tr/plain/ad+tanim: hit1=0.429, hit3=0.810, sektor_hit1=0.524
+[16:40:26] Gömme: BERTurk-STS (TR) (sentence-transformers:emrecan/bert-base-turkish-cased-mean-nli-stsb-tr) yüklendi (11 sn); 6 yapılandırma
+[16:40:30] [gomme_sentetik] sentetik | BERTurk-STS (TR) tr/plain/ad+tanim: ilce_dogruluk_makale=0.513, hit1=0.416, hit3=0.664, sektor_hit1=0.683
+[16:40:33] [gomme_alternatif] alt_claude | BERTurk-STS (TR) tr/plain/ad: ilce_dogruluk_makale=0.462, hit1=0.481, hit3=0.686, sektor_hit1=0.757
+[16:40:36] [gomme_alternatif] alt_gemini | BERTurk-STS (TR) tr/plain/ad: ilce_dogruluk_makale=0.410, hit1=0.489, hit3=0.742, sektor_hit1=0.741
+[16:40:44] [gomme_alternatif] alt_gpt | BERTurk-STS (TR) tr/plain/ad: ilce_dogruluk_makale=0.615, hit1=0.613, hit3=0.823, sektor_hit1=0.812
+[16:40:45] [gomme_gercek] gercek_tr | BERTurk-STS (TR) tr/plain/ad: hit1=0.286, hit3=0.571, sektor_hit1=0.333
+[16:40:46] [gomme_gercek] gercek_tr | BERTurk-STS (TR) tr/plain/ad+tanim: hit1=0.095, hit3=0.429, sektor_hit1=0.238
+[16:40:47] Gömme: Temel: TF-IDF (TF-IDF (sklearn, 1-2 gram, sublinear tf)) yüklendi (0 sn); 24 yapılandırma
+[16:40:50] [gomme_sentetik] sentetik | Temel: TF-IDF en/plain/ad+tanim: ilce_dogruluk_makale=0.769, hit1=0.665, hit3=0.796, sektor_hit1=0.807
+[16:40:53] [gomme_sentetik] sentetik | Temel: TF-IDF en/lemma/ad+tanim: ilce_dogruluk_makale=0.872, hit1=0.745, hit3=0.854, sektor_hit1=0.871
+[16:40:56] [gomme_sentetik] sentetik | Temel: TF-IDF en/stem/ad+tanim: ilce_dogruluk_makale=0.846, hit1=0.755, hit3=0.863, sektor_hit1=0.874
+[16:40:59] [gomme_alternatif] alt_claude | Temel: TF-IDF en/plain/ad: ilce_dogruluk_makale=0.769, hit1=0.669, hit3=0.713, sektor_hit1=0.780
+[16:41:03] [gomme_alternatif] alt_claude | Temel: TF-IDF en/lemma/ad: ilce_dogruluk_makale=0.795, hit1=0.755, hit3=0.794, sektor_hit1=0.843
+[16:41:06] [gomme_alternatif] alt_claude | Temel: TF-IDF en/stem/ad: ilce_dogruluk_makale=0.795, hit1=0.763, hit3=0.799, sektor_hit1=0.846
+[16:41:08] [gomme_alternatif] alt_gemini | Temel: TF-IDF en/plain/ad: ilce_dogruluk_makale=0.795, hit1=0.770, hit3=0.797, sektor_hit1=0.848
+[16:41:11] [gomme_alternatif] alt_gemini | Temel: TF-IDF en/lemma/ad: ilce_dogruluk_makale=0.846, hit1=0.793, hit3=0.825, sektor_hit1=0.864
+[16:41:14] [gomme_alternatif] alt_gemini | Temel: TF-IDF en/stem/ad: ilce_dogruluk_makale=0.821, hit1=0.799, hit3=0.836, sektor_hit1=0.870
+[16:41:16] [gomme_alternatif] alt_gpt | Temel: TF-IDF en/plain/ad: ilce_dogruluk_makale=0.821, hit1=0.825, hit3=0.870, sektor_hit1=0.896
+[16:41:19] [gomme_alternatif] alt_gpt | Temel: TF-IDF en/lemma/ad: ilce_dogruluk_makale=0.949, hit1=0.930, hit3=0.966, sektor_hit1=0.963
+[16:41:22] [gomme_alternatif] alt_gpt | Temel: TF-IDF en/stem/ad: ilce_dogruluk_makale=0.949, hit1=0.937, hit3=0.969, sektor_hit1=0.968
+[16:41:22] [gomme_gercek] gercek_en | Temel: TF-IDF en/plain/ad: hit1=0.700, hit3=0.767, sektor_hit1=0.800
+[16:41:23] [gomme_gercek] gercek_en | Temel: TF-IDF en/plain/ad+tanim: hit1=0.467, hit3=0.767, sektor_hit1=0.733
+[16:41:24] [gomme_gercek] gercek_en | Temel: TF-IDF en/lemma/ad: hit1=0.800, hit3=0.833, sektor_hit1=0.900
+[16:41:25] [gomme_gercek] gercek_en | Temel: TF-IDF en/lemma/ad+tanim: hit1=0.700, hit3=0.867, sektor_hit1=0.867
+[16:41:26] [gomme_gercek] gercek_en | Temel: TF-IDF en/stem/ad: hit1=0.833, hit3=0.867, sektor_hit1=0.900
+[16:41:27] [gomme_gercek] gercek_en | Temel: TF-IDF en/stem/ad+tanim: hit1=0.700, hit3=0.833, sektor_hit1=0.833
+[16:41:28] [gomme_gercek] gercek_tr | Temel: TF-IDF en/plain/ad: hit1=0.190, hit3=0.333, sektor_hit1=0.286
+[16:41:29] [gomme_gercek] gercek_tr | Temel: TF-IDF en/plain/ad+tanim: hit1=0.238, hit3=0.333, sektor_hit1=0.381
+[16:41:30] [gomme_gercek] gercek_tr | Temel: TF-IDF en/lemma/ad: hit1=0.381, hit3=0.381, sektor_hit1=0.381
+[16:41:31] [gomme_gercek] gercek_tr | Temel: TF-IDF en/lemma/ad+tanim: hit1=0.286, hit3=0.381, sektor_hit1=0.381
+[16:41:32] [gomme_gercek] gercek_tr | Temel: TF-IDF en/stem/ad: hit1=0.381, hit3=0.381, sektor_hit1=0.381
+[16:41:33] [gomme_gercek] gercek_tr | Temel: TF-IDF en/stem/ad+tanim: hit1=0.333, hit3=0.381, sektor_hit1=0.381
+[16:41:36] [gomme_alternatif] alt_claude | Temel: Rastgele en/plain/ad: ilce_dogruluk_makale=0.026, hit1=0.013, hit3=0.066, sektor_hit1=0.261
+[16:41:38] [gomme_alternatif] alt_gemini | Temel: Rastgele en/plain/ad: ilce_dogruluk_makale=0.026, hit1=0.013, hit3=0.066, sektor_hit1=0.261
+[16:41:41] [gomme_alternatif] alt_gpt | Temel: Rastgele en/plain/ad: ilce_dogruluk_makale=0.026, hit1=0.013, hit3=0.066, sektor_hit1=0.261
+[16:41:42] [gomme_gercek] gercek_en | Temel: Rastgele en/plain/ad: hit1=0.000, hit3=0.100, sektor_hit1=0.333
+[16:41:43] [gomme_gercek] gercek_tr | Temel: Rastgele en/plain/ad: hit1=0.095, hit3=0.095, sektor_hit1=0.286
+[16:41:45] [gomme_alternatif] alt_claude | Temel: Çoğunluk en/plain/ad: ilce_dogruluk_makale=0.077, hit1=0.071, hit3=0.170, sektor_hit1=0.220
+[16:41:47] [gomme_alternatif] alt_gemini | Temel: Çoğunluk en/plain/ad: ilce_dogruluk_makale=0.077, hit1=0.071, hit3=0.170, sektor_hit1=0.220
+[16:41:50] [gomme_alternatif] alt_gpt | Temel: Çoğunluk en/plain/ad: ilce_dogruluk_makale=0.077, hit1=0.071, hit3=0.170, sektor_hit1=0.220
+[16:41:51] [gomme_gercek] gercek_en | Temel: Çoğunluk en/plain/ad: hit1=0.400, hit3=0.500, sektor_hit1=0.433
+[16:41:52] [gomme_gercek] gercek_tr | Temel: Çoğunluk en/plain/ad: hit1=0.381, hit3=0.667, sektor_hit1=0.381
+[16:41:52] Gömme deneyleri tamam.
+[16:41:54] Az örnekli bölme: eğitim 528, test 1472 paylaşım; BDM istemi için 66 örnek
+[16:41:57] [az_ornekli] sentetik_test | BERT sifir_atis/plain: ilce_dogruluk_makale=0.051, hit1=0.192, hit3=0.323, sektor_hit1=0.541
+[16:42:01] [az_ornekli] sentetik_test | BERT sifir_atis/lemma: ilce_dogruluk_makale=0.128, hit1=0.281, hit3=0.481, sektor_hit1=0.635
+[16:42:04] [az_ornekli] sentetik_test | BERT sifir_atis/stem: ilce_dogruluk_makale=0.359, hit1=0.338, hit3=0.502, sektor_hit1=0.681
+[16:42:08] [az_ornekli] sentetik_test | ALBERT sifir_atis/plain: ilce_dogruluk_makale=0.000, hit1=0.067, hit3=0.162, sektor_hit1=0.247
+[16:42:12] [az_ornekli] sentetik_test | ALBERT sifir_atis/lemma: ilce_dogruluk_makale=0.000, hit1=0.071, hit3=0.182, sektor_hit1=0.404
+[16:42:16] [az_ornekli] sentetik_test | ALBERT sifir_atis/stem: ilce_dogruluk_makale=0.000, hit1=0.029, hit3=0.128, sektor_hit1=0.395
+[16:42:19] [az_ornekli] sentetik_test | RoBERTa sifir_atis/plain: ilce_dogruluk_makale=0.051, hit1=0.183, hit3=0.272, sektor_hit1=0.532
+[16:42:23] [az_ornekli] sentetik_test | RoBERTa sifir_atis/lemma: ilce_dogruluk_makale=0.154, hit1=0.255, hit3=0.389, sektor_hit1=0.628
+[16:42:26] [az_ornekli] sentetik_test | RoBERTa sifir_atis/stem: ilce_dogruluk_makale=0.179, hit1=0.268, hit3=0.394, sektor_hit1=0.622
+[16:42:30] [az_ornekli] sentetik_test | GloVe sifir_atis/plain: ilce_dogruluk_makale=0.026, hit1=0.181, hit3=0.346, sektor_hit1=0.486
+[16:42:33] [az_ornekli] sentetik_test | GloVe sifir_atis/lemma: ilce_dogruluk_makale=0.000, hit1=0.300, hit3=0.545, sektor_hit1=0.552
+[16:42:37] [az_ornekli] sentetik_test | GloVe sifir_atis/stem: ilce_dogruluk_makale=0.154, hit1=0.364, hit3=0.537, sektor_hit1=0.674
+[16:42:40] [az_ornekli] sentetik_test | Word2Vec sifir_atis/plain: ilce_dogruluk_makale=0.077, hit1=0.368, hit3=0.610, sektor_hit1=0.651
+[16:42:44] [az_ornekli] sentetik_test | Word2Vec sifir_atis/lemma: ilce_dogruluk_makale=0.487, hit1=0.583, hit3=0.717, sektor_hit1=0.812
+[16:42:48] [az_ornekli] sentetik_test | Word2Vec sifir_atis/stem: ilce_dogruluk_makale=0.487, hit1=0.572, hit3=0.686, sektor_hit1=0.802
+[16:42:51] [az_ornekli] sentetik_test | USE sifir_atis/plain: ilce_dogruluk_makale=0.744, hit1=0.711, hit3=0.871, sektor_hit1=0.891
+[16:42:55] [az_ornekli] sentetik_test | USE sifir_atis/lemma: ilce_dogruluk_makale=0.769, hit1=0.704, hit3=0.849, sektor_hit1=0.885
+[16:42:59] [az_ornekli] sentetik_test | USE sifir_atis/stem: ilce_dogruluk_makale=0.590, hit1=0.632, hit3=0.770, sektor_hit1=0.863
+[16:43:02] [az_ornekli] sentetik_test | FastText sifir_atis/plain: ilce_dogruluk_makale=0.000, hit1=0.154, hit3=0.285, sektor_hit1=0.457
+[16:43:06] [az_ornekli] sentetik_test | FastText sifir_atis/lemma: ilce_dogruluk_makale=0.154, hit1=0.391, hit3=0.605, sektor_hit1=0.642
+[16:43:09] [az_ornekli] sentetik_test | FastText sifir_atis/stem: ilce_dogruluk_makale=0.308, hit1=0.462, hit3=0.625, sektor_hit1=0.715
+[16:43:13] [az_ornekli] sentetik_test | SBERT-mpnet sifir_atis/plain: ilce_dogruluk_makale=0.667, hit1=0.628, hit3=0.851, sektor_hit1=0.895
+[16:43:17] [az_ornekli] sentetik_test | SBERT-mpnet sifir_atis/lemma: ilce_dogruluk_makale=0.615, hit1=0.603, hit3=0.815, sektor_hit1=0.864
+[16:43:20] [az_ornekli] sentetik_test | SBERT-mpnet sifir_atis/stem: ilce_dogruluk_makale=0.641, hit1=0.563, hit3=0.740, sektor_hit1=0.831
+[16:43:24] [az_ornekli] sentetik_test | BERT-raw sifir_atis/plain: ilce_dogruluk_makale=0.026, hit1=0.111, hit3=0.239, sektor_hit1=0.422
+[16:43:28] [az_ornekli] sentetik_test | BERT-raw sifir_atis/lemma: ilce_dogruluk_makale=0.026, hit1=0.099, hit3=0.231, sektor_hit1=0.406
+[16:43:31] [az_ornekli] sentetik_test | BERT-raw sifir_atis/stem: ilce_dogruluk_makale=0.000, hit1=0.053, hit3=0.158, sektor_hit1=0.391
+[16:43:35] [az_ornekli] sentetik_test | ALBERT-paraphrase sifir_atis/plain: ilce_dogruluk_makale=0.692, hit1=0.584, hit3=0.785, sektor_hit1=0.821
+[16:43:38] [az_ornekli] sentetik_test | ALBERT-paraphrase sifir_atis/lemma: ilce_dogruluk_makale=0.769, hit1=0.599, hit3=0.784, sektor_hit1=0.831
+[16:43:42] [az_ornekli] sentetik_test | ALBERT-paraphrase sifir_atis/stem: ilce_dogruluk_makale=0.718, hit1=0.588, hit3=0.742, sektor_hit1=0.823
+[16:43:47] [az_ornekli] sentetik_test | Temel: TF-IDF sifir_atis/plain: ilce_dogruluk_makale=0.744, hit1=0.647, hit3=0.694, sektor_hit1=0.765
+[16:43:50] [az_ornekli] sentetik_test | Temel: TF-IDF sifir_atis/lemma: ilce_dogruluk_makale=0.795, hit1=0.704, hit3=0.754, sektor_hit1=0.812
+[16:43:54] [az_ornekli] sentetik_test | Temel: TF-IDF sifir_atis/stem: ilce_dogruluk_makale=0.795, hit1=0.711, hit3=0.756, sektor_hit1=0.817
+[16:43:57] [az_ornekli] sentetik_test | SBERT-çokdilli (TR) sifir_atis/plain: ilce_dogruluk_makale=0.487, hit1=0.446, hit3=0.629, sektor_hit1=0.717
+[16:44:01] [az_ornekli] sentetik_test | BERTurk-STS (TR) sifir_atis/plain: ilce_dogruluk_makale=0.410, hit1=0.426, hit3=0.658, sektor_hit1=0.736
+[16:44:10] [az_ornekli] sentetik_test | Dondurulmuş+LR-EN K8: ilce_dogruluk_makale=0.821, hit1=0.782, hit3=0.938, sektor_hit1=0.912
+[16:44:13] [az_ornekli_gercek] gercek_en | Dondurulmuş+LR-EN K8: hit1=0.467, hit3=0.800, sektor_hit1=0.500
+[16:44:16] [az_ornekli_gercek] gercek_tr | Dondurulmuş+LR-EN K8: hit1=0.524, hit3=0.619, sektor_hit1=0.619
+[16:45:28] [az_ornekli] sentetik_test | SetFit-EN K8/tohum42: ilce_dogruluk_makale=0.923, hit1=0.847, hit3=0.967, sektor_hit1=0.972
+[16:45:30] [az_ornekli_gercek] gercek_en | SetFit-EN K8/tohum42: hit1=0.500, hit3=0.700, sektor_hit1=0.733
+[16:45:31] [az_ornekli_gercek] gercek_tr | SetFit-EN K8/tohum42: hit1=0.429, hit3=0.619, sektor_hit1=0.524
+[16:45:31] SetFit en tohum 42: 75 sn
+[16:46:44] [az_ornekli] sentetik_test | SetFit-EN K8/tohum43: ilce_dogruluk_makale=0.872, hit1=0.844, hit3=0.965, sektor_hit1=0.969
+[16:46:45] [az_ornekli_gercek] gercek_en | SetFit-EN K8/tohum43: hit1=0.533, hit3=0.800, sektor_hit1=0.767
+[16:46:47] [az_ornekli_gercek] gercek_tr | SetFit-EN K8/tohum43: hit1=0.429, hit3=0.619, sektor_hit1=0.524
+[16:46:47] SetFit en tohum 43: 75 sn
+[16:47:59] [az_ornekli] sentetik_test | SetFit-EN K8/tohum44: ilce_dogruluk_makale=0.923, hit1=0.853, hit3=0.976, sektor_hit1=0.969
+[16:48:00] [az_ornekli_gercek] gercek_en | SetFit-EN K8/tohum44: hit1=0.533, hit3=0.833, sektor_hit1=0.767
+[16:48:02] [az_ornekli_gercek] gercek_tr | SetFit-EN K8/tohum44: hit1=0.571, hit3=0.619, sektor_hit1=0.619
+[16:48:02] SetFit en tohum 44: 74 sn
+[16:49:14] [az_ornekli_gercek] gercek_en | SetFit-EN tam_sentetik: hit1=0.833, hit3=0.967, sektor_hit1=0.933
+[16:49:20] [az_ornekli_gercek] gercek_tr | SetFit-EN tam_sentetik: hit1=0.571, hit3=0.571, sektor_hit1=0.571
+[16:49:45] [az_ornekli] sentetik_test | Dondurulmuş+LR-TR K8: ilce_dogruluk_makale=0.667, hit1=0.447, hit3=0.681, sektor_hit1=0.729
+[16:49:50] [az_ornekli_gercek] gercek_tr | Dondurulmuş+LR-TR K8: hit1=0.381, hit3=0.571, sektor_hit1=0.429
+[16:51:04] [az_ornekli] sentetik_test | SetFit-TR K8/tohum42: ilce_dogruluk_makale=0.821, hit1=0.687, hit3=0.884, sektor_hit1=0.889
+[16:51:10] [az_ornekli_gercek] gercek_tr | SetFit-TR K8/tohum42: hit1=0.333, hit3=0.571, sektor_hit1=0.524
+[16:51:10] SetFit tr tohum 42: 79 sn
+[16:52:24] [az_ornekli] sentetik_test | SetFit-TR K8/tohum43: ilce_dogruluk_makale=0.897, hit1=0.704, hit3=0.878, sektor_hit1=0.893
+[16:52:29] [az_ornekli_gercek] gercek_tr | SetFit-TR K8/tohum43: hit1=0.381, hit3=0.524, sektor_hit1=0.571
+[16:52:29] SetFit tr tohum 43: 78 sn
+[16:53:43] [az_ornekli] sentetik_test | SetFit-TR K8/tohum44: ilce_dogruluk_makale=0.795, hit1=0.681, hit3=0.858, sektor_hit1=0.898
+[16:53:49] [az_ornekli_gercek] gercek_tr | SetFit-TR K8/tohum44: hit1=0.286, hit3=0.524, sektor_hit1=0.524
+[16:53:49] SetFit tr tohum 44: 79 sn
+[16:55:05] [az_ornekli_gercek] gercek_tr | SetFit-TR tam_sentetik: hit1=0.524, hit3=0.857, sektor_hit1=0.619
+[16:55:06] Az örnekli öğrenme tamam.
+[16:55:14] NER modeli: savasy/bert-base-turkish-ner-cased
+[16:55:20] [ilce_cikarimi] sentetik | alt_dize (makale) orijinal: dogruluk=1.000
+[16:55:20] [ilce_cikarimi] sentetik | bulanik_sozluk orijinal: dogruluk=0.987
+[16:55:20] [ilce_cikarimi] sentetik | ner+sozluk orijinal: dogruluk=0.925
+[16:55:27] [ilce_cikarimi] sentetik | alt_dize (makale) kucuk_harf: dogruluk=1.000
+[16:55:27] [ilce_cikarimi] sentetik | bulanik_sozluk kucuk_harf: dogruluk=0.987
+[16:55:27] [ilce_cikarimi] sentetik | ner+sozluk kucuk_harf: dogruluk=0.837
+[16:55:34] [ilce_cikarimi] sentetik | alt_dize (makale) aksansiz: dogruluk=0.390
+[16:55:34] [ilce_cikarimi] sentetik | bulanik_sozluk aksansiz: dogruluk=0.987
+[16:55:34] [ilce_cikarimi] sentetik | ner+sozluk aksansiz: dogruluk=0.850
+[16:55:41] [ilce_cikarimi] sentetik | alt_dize (makale) ek_bitisik: dogruluk=1.000
+[16:55:41] [ilce_cikarimi] sentetik | bulanik_sozluk ek_bitisik: dogruluk=0.987
+[16:55:41] [ilce_cikarimi] sentetik | ner+sozluk ek_bitisik: dogruluk=0.875
+[16:55:48] [ilce_cikarimi] sentetik | alt_dize (makale) yazim_hatasi: dogruluk=0.095
+[16:55:48] [ilce_cikarimi] sentetik | bulanik_sozluk yazim_hatasi: dogruluk=0.659
+[16:55:48] [ilce_cikarimi] sentetik | ner+sozluk yazim_hatasi: dogruluk=0.421
+[16:55:52] [konum_cikarimi] gercek_tr | alt_dize il: dogruluk=0.750
+[16:55:53] [konum_cikarimi] gercek_tr | bulanik_sozluk il: dogruluk=0.917
+[16:55:53] [konum_cikarimi] gercek_tr | ner+sozluk il: dogruluk=0.583
+[16:55:54] [konum_cikarimi] gercek_tr | alt_dize ilce: dogruluk=0.143
+[16:55:54] [konum_cikarimi] gercek_tr | bulanik_sozluk ilce: dogruluk=0.571
+[16:55:54] [konum_cikarimi] gercek_tr | ner+sozluk ilce: dogruluk=0.571
+[16:55:55] Konum sözlüğü: 81 il, 949 ilçe adı (geoBoundaries)
+[16:55:55] İlçe/konum çıkarımı tamam.
+[16:55:56] BDM işleri: 71 (sağlayıcılar paralel, her sağlayıcı kendi içinde sırayla)
+[16:56:32] BDM çağrıları bitti: 0.6 dk; tahmini toplam API maliyeti $0.00
+[16:56:36] [bdm_gpt210] sentetik_210 | BDM gpt-5-mini varsayilan_dusunme(makale): hit1=0.890
+[16:56:36] [bdm_gpt210] sentetik_210 | BDM gpt-5-mini minimal_dusunme(yeniden): hit1=0.905, kapsam=1.000
+[16:56:38] [bdm_gpt210] sentetik | BDM gpt-5-mini makale(karisik_protokol): ilce_dogruluk_makale=0.923, hit1=0.910, hit3=0.910, sektor_hit1=0.979
+[16:56:41] [bdm_gpt210] sentetik | BDM gpt-5-mini protokol_tutarli: ilce_dogruluk_makale=0.923, hit1=0.911, hit3=0.911, sektor_hit1=0.980
+[16:56:43] [bdm_tekrar] sentetik | BDM claude-opus-5-5 tekrar2: ilce_dogruluk_makale=0.974, hit1=0.949, hit3=0.949, sektor_hit1=0.977, kapsam=1.000
+[16:56:46] [bdm_tekrar] sentetik | BDM claude-opus-5-5 tekrar3: ilce_dogruluk_makale=0.974, hit1=0.953, hit3=0.953, sektor_hit1=0.979, kapsam=1.000
+[16:56:46] [bdm_tekrar] sentetik | BDM claude-opus-5-5 ozet: 
+[16:56:49] [bdm_tekrar] sentetik | BDM claude-sonnet-5-5 tekrar2: ilce_dogruluk_makale=0.949, hit1=0.928, hit3=0.928, sektor_hit1=0.971, kapsam=1.000
+[16:56:51] [bdm_tekrar] sentetik | BDM claude-sonnet-5-5 tekrar3: ilce_dogruluk_makale=0.923, hit1=0.929, hit3=0.929, sektor_hit1=0.974, kapsam=1.000
+[16:56:51] [bdm_tekrar] sentetik | BDM claude-sonnet-5-5 ozet: 
+[16:56:54] [bdm_tekrar] sentetik | BDM claude-haiku-5-5 tekrar2: ilce_dogruluk_makale=0.897, hit1=0.889, hit3=0.889, sektor_hit1=0.979, kapsam=1.000
+[16:56:56] [bdm_tekrar] sentetik | BDM claude-haiku-5-5 tekrar3: ilce_dogruluk_makale=0.897, hit1=0.892, hit3=0.892, sektor_hit1=0.977, kapsam=1.000
+[16:56:56] [bdm_tekrar] sentetik | BDM claude-haiku-5-5 ozet: 
+[16:56:59] [bdm_tekrar] sentetik | BDM gpt-5-mini tekrar2: ilce_dogruluk_makale=0.923, hit1=0.910, hit3=0.910, sektor_hit1=0.978, kapsam=1.000
+[16:57:07] [bdm_tekrar] sentetik | BDM gpt-5-mini tekrar3: ilce_dogruluk_makale=0.923, hit1=0.904, hit3=0.904, sektor_hit1=0.978, kapsam=1.000
+[16:57:07] [bdm_tekrar] sentetik | BDM gpt-5-mini ozet: 
+[16:57:10] [bdm_tekrar] sentetik | BDM gemini-3.8-flash tekrar2: ilce_dogruluk_makale=0.949, hit1=0.942, hit3=0.942, sektor_hit1=0.967, kapsam=1.000
+[16:57:12] [bdm_tekrar] sentetik | BDM gemini-3.8-flash tekrar3: ilce_dogruluk_makale=0.923, hit1=0.939, hit3=0.939, sektor_hit1=0.967, kapsam=1.000
+[16:57:12] [bdm_tekrar] sentetik | BDM gemini-3.8-flash ozet: 
+[16:57:18] [bdm_turkce] sentetik | BDM claude-opus-5-5 tr/tek: ilce_dogruluk_makale=0.974, hit1=0.945, hit3=0.945, sektor_hit1=0.979, kapsam=1.000
+[16:57:20] [bdm_coklu] sentetik | BDM claude-opus-5-5 en/coklu: ilce_dogruluk_makale=0.949, hit1=0.922, hit3=0.991, sektor_hit1=0.966, mikro_f1=0.849, makro_f1=0.874, kapsam=1.000
+[16:57:23] [bdm_coklu] sentetik | BDM claude-opus-5-5 tr/coklu: ilce_dogruluk_makale=0.949, hit1=0.919, hit3=0.990, sektor_hit1=0.964, mikro_f1=0.847, makro_f1=0.874, kapsam=1.000
+[16:57:25] [az_ornekli] sentetik_test | BDM claude-opus-5-5 66_ornekli: ilce_dogruluk_makale=0.974, hit1=0.969, hit3=0.969, sektor_hit1=0.988, kapsam=1.000
+[16:57:28] [az_ornekli] sentetik_test | BDM claude-opus-5-5 sifir_atis/makale: ilce_dogruluk_makale=0.974, hit1=0.943, hit3=0.943, sektor_hit1=0.974
+[16:57:32] [bdm_turkce] sentetik | BDM claude-sonnet-5-5 tr/tek: ilce_dogruluk_makale=0.949, hit1=0.925, hit3=0.925, sektor_hit1=0.977, kapsam=1.000
+[16:57:35] [bdm_coklu] sentetik | BDM claude-sonnet-5-5 en/coklu: ilce_dogruluk_makale=0.923, hit1=0.909, hit3=0.990, sektor_hit1=0.964, mikro_f1=0.777, makro_f1=0.818, kapsam=1.000
+[16:57:37] [bdm_coklu] sentetik | BDM claude-sonnet-5-5 tr/coklu: ilce_dogruluk_makale=0.949, hit1=0.904, hit3=0.986, sektor_hit1=0.965, mikro_f1=0.761, makro_f1=0.800, kapsam=1.000
+[16:57:40] [az_ornekli] sentetik_test | BDM claude-sonnet-5-5 66_ornekli: ilce_dogruluk_makale=0.974, hit1=0.957, hit3=0.957, sektor_hit1=0.987, kapsam=1.000
+[16:57:42] [az_ornekli] sentetik_test | BDM claude-sonnet-5-5 sifir_atis/makale: ilce_dogruluk_makale=0.897, hit1=0.930, hit3=0.930, sektor_hit1=0.971
+[16:57:45] [bdm_turkce] sentetik | BDM claude-haiku-5-5 tr/tek: ilce_dogruluk_makale=0.872, hit1=0.855, hit3=0.855, sektor_hit1=0.967, kapsam=1.000
+[16:57:47] [bdm_coklu] sentetik | BDM claude-haiku-5-5 en/coklu: ilce_dogruluk_makale=0.949, hit1=0.878, hit3=0.974, sektor_hit1=0.968, mikro_f1=0.760, makro_f1=0.786, kapsam=1.000
+[16:57:50] [bdm_coklu] sentetik | BDM claude-haiku-5-5 tr/coklu: ilce_dogruluk_makale=0.872, hit1=0.850, hit3=0.960, sektor_hit1=0.952, mikro_f1=0.674, makro_f1=0.706, kapsam=1.000
+[16:57:53] [az_ornekli] sentetik_test | BDM claude-haiku-5-5 66_ornekli: ilce_dogruluk_makale=0.949, hit1=0.899, hit3=0.899, sektor_hit1=0.979, kapsam=1.000
+[16:57:55] [az_ornekli] sentetik_test | BDM claude-haiku-5-5 sifir_atis/makale: ilce_dogruluk_makale=0.949, hit1=0.885, hit3=0.885, sektor_hit1=0.976
+[16:57:58] [bdm_turkce] sentetik | BDM gpt-5-mini tr/tek: ilce_dogruluk_makale=0.949, hit1=0.900, hit3=0.900, sektor_hit1=0.984, kapsam=1.000
+[16:58:00] [bdm_coklu] sentetik | BDM gpt-5-mini en/coklu: ilce_dogruluk_makale=0.923, hit1=0.906, hit3=0.969, sektor_hit1=0.987, mikro_f1=0.711, makro_f1=0.752, kapsam=1.000
+[16:58:03] [bdm_coklu] sentetik | BDM gpt-5-mini tr/coklu: ilce_dogruluk_makale=0.949, hit1=0.891, hit3=0.963, sektor_hit1=0.980, mikro_f1=0.648, makro_f1=0.684, kapsam=1.000
+[16:58:06] [az_ornekli] sentetik_test | BDM gpt-5-mini 66_ornekli: ilce_dogruluk_makale=0.949, hit1=0.925, hit3=0.925, sektor_hit1=0.988, kapsam=1.000
+[16:58:08] [az_ornekli] sentetik_test | BDM gpt-5-mini sifir_atis/makale: ilce_dogruluk_makale=0.897, hit1=0.912, hit3=0.912, sektor_hit1=0.980
+[16:58:11] [bdm_turkce] sentetik | BDM gemini-3.8-flash tr/tek: ilce_dogruluk_makale=0.949, hit1=0.935, hit3=0.935, sektor_hit1=0.971, kapsam=1.000
+[16:58:13] [bdm_coklu] sentetik | BDM gemini-3.8-flash en/coklu: ilce_dogruluk_makale=0.974, hit1=0.919, hit3=0.992, sektor_hit1=0.962, mikro_f1=0.870, makro_f1=0.885, kapsam=1.000
+[16:58:16] [bdm_coklu] sentetik | BDM gemini-3.8-flash tr/coklu: ilce_dogruluk_makale=0.949, hit1=0.908, hit3=0.990, sektor_hit1=0.962, mikro_f1=0.840, makro_f1=0.867, kapsam=1.000
+[16:58:19] [az_ornekli] sentetik_test | BDM gemini-3.8-flash 66_ornekli: ilce_dogruluk_makale=1.000, hit1=0.972, hit3=0.972, sektor_hit1=0.990, kapsam=1.000
+[16:58:21] [az_ornekli] sentetik_test | BDM gemini-3.8-flash sifir_atis/makale: ilce_dogruluk_makale=0.949, hit1=0.940, hit3=0.940, sektor_hit1=0.966
+[16:58:24] [bdm_alternatif] alt_claude | BDM claude-opus-5-5 tek_en(makale): ilce_dogruluk_makale=0.949, hit1=0.940, hit3=0.940, sektor_hit1=0.974
+[16:58:26] [bdm_alternatif] alt_claude | BDM claude-sonnet-5-5 tek_en(makale): ilce_dogruluk_makale=0.897, hit1=0.934, hit3=0.934, sektor_hit1=0.976
+[16:58:29] [bdm_alternatif] alt_claude | BDM claude-haiku-5-5 tek_en(makale): ilce_dogruluk_makale=0.897, hit1=0.896, hit3=0.896, sektor_hit1=0.981
+[16:58:31] [bdm_alternatif] alt_claude | BDM gpt-5-mini tek_en(makale): ilce_dogruluk_makale=0.872, hit1=0.921, hit3=0.921, sektor_hit1=0.979
+[16:58:34] [bdm_alternatif] alt_claude | BDM gemini-3.8-flash tek_en(makale): ilce_dogruluk_makale=0.974, hit1=0.948, hit3=0.948, sektor_hit1=0.971
+[16:58:36] [bdm_alternatif] alt_gemini | BDM claude-opus-5-5 tek_en: ilce_dogruluk_makale=0.974, hit1=0.974, hit3=0.974, sektor_hit1=0.987, kapsam=1.000
+[16:58:39] [bdm_alternatif] alt_gemini | BDM claude-sonnet-5-5 tek_en: ilce_dogruluk_makale=0.974, hit1=0.966, hit3=0.966, sektor_hit1=0.984, kapsam=1.000
+[16:58:42] [bdm_alternatif] alt_gemini | BDM claude-haiku-5-5 tek_en: ilce_dogruluk_makale=0.949, hit1=0.945, hit3=0.945, sektor_hit1=0.984, kapsam=1.000
+[16:58:44] [bdm_alternatif] alt_gemini | BDM gpt-5-mini tek_en: ilce_dogruluk_makale=0.949, hit1=0.950, hit3=0.950, sektor_hit1=0.990, kapsam=1.000
+[16:58:47] [bdm_alternatif] alt_gemini | BDM gemini-3.8-flash tek_en: ilce_dogruluk_makale=1.000, hit1=0.959, hit3=0.959, sektor_hit1=0.976, kapsam=1.000
+[16:58:49] [bdm_alternatif] alt_gpt | BDM claude-opus-5-5 tek_en: ilce_dogruluk_makale=0.974, hit1=0.934, hit3=0.934, sektor_hit1=0.961, kapsam=1.000
+[16:58:52] [bdm_alternatif] alt_gpt | BDM claude-sonnet-5-5 tek_en: ilce_dogruluk_makale=1.000, hit1=0.935, hit3=0.935, sektor_hit1=0.966, kapsam=1.000
+[16:58:54] [bdm_alternatif] alt_gpt | BDM claude-haiku-5-5 tek_en: ilce_dogruluk_makale=0.974, hit1=0.932, hit3=0.932, sektor_hit1=0.972, kapsam=1.000
+[16:58:57] [bdm_alternatif] alt_gpt | BDM gpt-5-mini tek_en: ilce_dogruluk_makale=0.923, hit1=0.945, hit3=0.945, sektor_hit1=0.976, kapsam=1.000
+[16:59:00] [bdm_alternatif] alt_gpt | BDM gemini-3.8-flash tek_en: ilce_dogruluk_makale=0.923, hit1=0.929, hit3=0.929, sektor_hit1=0.959, kapsam=1.000
+[16:59:03] [bdm_gercek] gercek_en | BDM claude-opus-5-5 kapali/tek_en: hit1=1.000, hit3=1.000, sektor_hit1=1.000, kapsam=1.000
+[16:59:03] [bdm_gercek] gercek_en | BDM claude-opus-5-5 acik_kume: ikili_f1=0.874, kapsam=1.000
+[16:59:05] [bdm_gercek] gercek_en | BDM claude-sonnet-5-5 kapali/tek_en: hit1=1.000, hit3=1.000, sektor_hit1=1.000, kapsam=1.000
+[16:59:05] [bdm_gercek] gercek_en | BDM claude-sonnet-5-5 acik_kume: ikili_f1=0.842, kapsam=1.000
+[16:59:06] [bdm_gercek] gercek_en | BDM claude-haiku-5-5 kapali/tek_en: hit1=0.933, hit3=0.933, sektor_hit1=0.967, kapsam=1.000
+[16:59:06] [bdm_gercek] gercek_en | BDM claude-haiku-5-5 acik_kume: ikili_f1=0.528, kapsam=1.000
+[16:59:08] [bdm_gercek] gercek_en | BDM gpt-5-mini kapali/tek_en: hit1=0.933, hit3=0.933, sektor_hit1=0.967, kapsam=1.000
+[16:59:08] [bdm_gercek] gercek_en | BDM gpt-5-mini acik_kume: ikili_f1=0.718, kapsam=1.000
+[16:59:10] [bdm_gercek] gercek_en | BDM gemini-3.8-flash kapali/tek_en: hit1=0.967, hit3=0.967, sektor_hit1=0.967, kapsam=1.000
+[16:59:10] [bdm_gercek] gercek_en | BDM gemini-3.8-flash acik_kume: ikili_f1=0.874, kapsam=1.000
+[16:59:11] [bdm_gercek] gercek_tr | BDM claude-opus-5-5 kapali/tek_tr: hit1=1.000, hit3=1.000, sektor_hit1=1.000, kapsam=1.000
+[16:59:12] [bdm_gercek] gercek_tr | BDM claude-opus-5-5 kapali/tek_en_mt: hit1=0.619, hit3=0.619, sektor_hit1=0.619, kapsam=1.000
+[16:59:12] [bdm_gercek] gercek_tr | BDM claude-opus-5-5 acik_kume: ikili_f1=0.846, kapsam=1.000
+[16:59:14] [bdm_gercek] gercek_tr | BDM claude-sonnet-5-5 kapali/tek_tr: hit1=1.000, hit3=1.000, sektor_hit1=1.000, kapsam=1.000
+[16:59:15] [bdm_gercek] gercek_tr | BDM claude-sonnet-5-5 kapali/tek_en_mt: hit1=0.619, hit3=0.619, sektor_hit1=0.619, kapsam=1.000
+[16:59:15] [bdm_gercek] gercek_tr | BDM claude-sonnet-5-5 acik_kume: ikili_f1=0.750, kapsam=1.000
+[16:59:17] [bdm_gercek] gercek_tr | BDM claude-haiku-5-5 kapali/tek_tr: hit1=0.952, hit3=0.952, sektor_hit1=0.952, kapsam=1.000
+[16:59:18] [bdm_gercek] gercek_tr | BDM claude-haiku-5-5 kapali/tek_en_mt: hit1=0.619, hit3=0.619, sektor_hit1=0.619, kapsam=1.000
+[16:59:18] [bdm_gercek] gercek_tr | BDM claude-haiku-5-5 acik_kume: ikili_f1=0.575, kapsam=1.000
+[16:59:20] [bdm_gercek] gercek_tr | BDM gpt-5-mini kapali/tek_tr: hit1=0.952, hit3=0.952, sektor_hit1=1.000, kapsam=1.000
+[16:59:20] [bdm_gercek] gercek_tr | BDM gpt-5-mini kapali/tek_en_mt: hit1=0.571, hit3=0.571, sektor_hit1=0.571, kapsam=1.000
+[16:59:20] [bdm_gercek] gercek_tr | BDM gpt-5-mini acik_kume: ikili_f1=0.568, kapsam=1.000
+[16:59:22] [bdm_gercek] gercek_tr | BDM gemini-3.8-flash kapali/tek_tr: hit1=1.000, hit3=1.000, sektor_hit1=1.000, kapsam=1.000
+[16:59:23] [bdm_gercek] gercek_tr | BDM gemini-3.8-flash kapali/tek_en_mt: hit1=0.619, hit3=0.619, sektor_hit1=0.619, kapsam=1.000
+[16:59:23] [bdm_gercek] gercek_tr | BDM gemini-3.8-flash acik_kume: ikili_f1=0.760, kapsam=1.000
+[16:59:24] [bdm_humaid] humaid | BDM claude-opus-5-5 acik_kume/istek_ayrimi: ikili_f1=0.403, kapsam=1.000
+[16:59:24] [bdm_humaid] humaid | BDM claude-sonnet-5-5 acik_kume/istek_ayrimi: ikili_f1=0.444, kapsam=1.000
+[16:59:24] [bdm_humaid] humaid | BDM claude-haiku-5-5 acik_kume/istek_ayrimi: ikili_f1=0.699, kapsam=1.000
+[16:59:24] [bdm_humaid] humaid | BDM gpt-5-mini acik_kume/istek_ayrimi: ikili_f1=0.643, kapsam=1.000
+[16:59:24] [bdm_humaid] humaid | BDM gemini-3.8-flash acik_kume/istek_ayrimi: ikili_f1=0.393, kapsam=1.000
+[16:59:26] BDM deneyleri tamam. Oturumdaki tahmini toplam API maliyeti: $0.00

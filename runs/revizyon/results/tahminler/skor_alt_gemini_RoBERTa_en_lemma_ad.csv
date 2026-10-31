@@ -1,0 +1,618 @@
+﻿id,gercek,top1,top2,top3,top4,top5,s1,s2,s3,s4,s5
+1,coat,cold medicine,blood collection center,wet wipes,equipment for disabled people,search and rescue team,0.58611,0.42176,0.39011,0.38695,0.38039
+3,medicine,medical team,heart medicine,medicine,psychological support team,asthma medicine,0.78592,0.69328,0.67201,0.66153,0.63428
+4,bandage,equipment for disabled people,heart medicine,painkiller,medical team,adhesive bandage,0.50362,0.47251,0.45609,0.45147,0.42542
+6,soap,wet wipes,allergy medication,adhesive bandage,heart medicine,cold medicine,0.43498,0.43422,0.43145,0.42014,0.41457
+9,lantern,blood collection center,power bank,battery-powered radio,baby formula,fever reducer,0.39718,0.38463,0.36293,0.35264,0.32964
+12,life jacket,life jacket,blood collection center,search and rescue team,baby bottle,battery-powered radio,0.38681,0.37927,0.35273,0.33494,0.31593
+13,search and rescue team,cold medicine,blood collection center,painkiller,search and rescue team,power bank,0.43358,0.40853,0.37244,0.36409,0.33454
+14,baby formula;security forces,blood collection center,search and rescue team,baby formula,cold medicine,painkiller,0.48482,0.44735,0.4178,0.37252,0.3705
+16,medical team,equipment for disabled people,cold medicine,blood collection center,painkiller,wet wipes,0.48472,0.44201,0.43755,0.43108,0.39153
+21,medicine,medical team,heart medicine,search and rescue team,adhesive bandage,psychological support team,0.55189,0.48165,0.47563,0.45856,0.45054
+27,dry food,pet food,salt-free and sugar-free food,search and rescue team,blood collection center,gluten free food,0.41447,0.37278,0.36616,0.35872,0.33875
+28,oxygen concentrator,heart medicine,equipment for disabled people,painkiller,fever reducer,cold medicine,0.48536,0.45789,0.44406,0.43838,0.41211
+29,bread;baby formula;soap,salt-free and sugar-free food,blood collection center,baby formula,hot meal,baby bottle,0.37756,0.32927,0.32435,0.31455,0.30759
+30,life jacket,search and rescue team,blood collection center,wet wipes,heating stove,cold medicine,0.41576,0.38188,0.31588,0.3113,0.3051
+31,children's playground,baby bottle,search and rescue team,baby formula,blood collection center,cold medicine,0.26489,0.26229,0.24657,0.2446,0.21116
+33,medical team;generator;coat,cold medicine,search and rescue team,blood collection center,heart medicine,medical team,0.58662,0.51089,0.47984,0.45338,0.43985
+36,drinking water,napkin,heart medicine,sleeping bag,painkiller,cold medicine,0.51262,0.46446,0.43992,0.43475,0.43215
+38,blanket,search and rescue team,blood collection center,cold medicine,heating stove,power bank,0.45327,0.41466,0.36874,0.36811,0.35873
+42,medical team,heart medicine,medical team,painkiller,equipment for disabled people,asthma medicine,0.52549,0.51125,0.48142,0.48046,0.42257
+49,medicine,search and rescue team,blood collection center,medical team,adhesive bandage,heart medicine,0.58824,0.56057,0.547,0.53786,0.53523
+55,search and rescue team,search and rescue team,equipment for disabled people,first aid kit,blood collection center,psychological support team,0.7546,0.48399,0.46622,0.46282,0.45321
+61,fever reducer,fever reducer,painkiller,equipment for disabled people,wet wipes,search and rescue team,0.56989,0.53355,0.50819,0.48289,0.47303
+62,volunteers,search and rescue team,blood collection center,first aid kit,medical team,psychological support team,0.52569,0.4036,0.3564,0.35177,0.34523
+63,drinking water;coat;insulin,heart medicine,blood collection center,asthma medicine,allergy medication,drinking water,0.48049,0.44335,0.43207,0.42647,0.40674
+66,dry food,pet food,cold medicine,canned food,salt-free and sugar-free food,search and rescue team,0.36422,0.3476,0.30455,0.30403,0.30309
+67,search and rescue team,search and rescue team,heart medicine,blood collection center,asthma medicine,medical team,0.4986,0.38432,0.35539,0.34936,0.3396
+74,drinking water;medical team,blood collection center,heart medicine,search and rescue team,painkiller,cold medicine,0.41948,0.41055,0.40525,0.38224,0.37116
+75,children's playground;flashlight,baby bottle,baby formula,search and rescue team,children's playground,psychological support team,0.30732,0.28677,0.28171,0.27047,0.24183
+77,drinking water;diaper,baby formula,baby bottle,salt-free and sugar-free food,wet wipes,cold medicine,0.34155,0.336,0.30882,0.26839,0.23684
+83,medical team,painkiller,equipment for disabled people,heart medicine,cold medicine,fever reducer,0.59402,0.59094,0.55285,0.53045,0.50885
+85,antibiotic,search and rescue team,heart medicine,medical team,equipment for disabled people,painkiller,0.49241,0.48736,0.43644,0.42832,0.42222
+86,bread,cold medicine,painkiller,blood collection center,fever reducer,equipment for disabled people,0.40539,0.37369,0.3489,0.34226,0.33369
+89,antibiotic;food,cold medicine,search and rescue team,blood collection center,pet food,wet wipes,0.34403,0.32827,0.31982,0.31453,0.30936
+90,pet food,pet food,painkiller,cold medicine,search and rescue team,equipment for disabled people,0.46174,0.30312,0.29167,0.28438,0.27102
+94,volunteers;power bank,equipment for disabled people,salt-free and sugar-free food,cold medicine,search and rescue team,sleeping bag,0.26361,0.24326,0.23409,0.23282,0.23225
+100,antibiotic;flashlight,search and rescue team,equipment for disabled people,cold medicine,blood collection center,security forces,0.4372,0.32133,0.26334,0.25445,0.23189
+104,wet wipes,wet wipes,adhesive bandage,toothbrush,blood collection center,toothpaste,0.59494,0.55674,0.49317,0.49068,0.487
+106,dry food,heating stove,salt-free and sugar-free food,wet wipes,blood collection center,hot meal,0.35311,0.30528,0.27595,0.26434,0.26418
+108,toothpaste;battery-powered radio,equipment for disabled people,blood collection center,search and rescue team,heart medicine,cold medicine,0.39824,0.3503,0.34925,0.33,0.32723
+116,drinking water,salt-free and sugar-free food,wet wipes,blood collection center,search and rescue team,heating stove,0.32871,0.30344,0.30316,0.2936,0.29329
+118,napkin;sleeping bag;mask,cold medicine,heart medicine,sleeping bag,search and rescue team,blood collection center,0.3764,0.35596,0.34422,0.34329,0.32675
+126,blanket;baby formula;container housing,cold medicine,blood collection center,baby formula,baby bottle,heart medicine,0.5205,0.37762,0.37,0.347,0.33828
+130,fever reducer,cold medicine,painkiller,fever reducer,blood collection center,equipment for disabled people,0.43544,0.41562,0.39853,0.37131,0.36881
+136,heart medicine,heart medicine,painkiller,psychological support team,asthma medicine,blood collection center,0.49306,0.43457,0.43197,0.42305,0.39282
+137,tent,sleeping bag,cold medicine,pet food,search and rescue team,blood collection center,0.37441,0.32246,0.31508,0.26655,0.24612
+139,first aid kit,equipment for disabled people,cold medicine,painkiller,bandage,heart medicine,0.71495,0.57404,0.57032,0.55731,0.50164
+147,tent;firewood;search and rescue team,search and rescue team,equipment for disabled people,blood collection center,first aid kit,electrical field team,0.47115,0.27932,0.27699,0.27092,0.25417
+164,gluten free food,gluten free food,salt-free and sugar-free food,blood collection center,search and rescue team,first aid kit,0.57418,0.5562,0.49549,0.47456,0.46889
+167,generator,battery-powered radio,cold medicine,power bank,hot meal,salt-free and sugar-free food,0.33178,0.31989,0.31403,0.30575,0.30356
+168,hot meal;cold medicine,cold medicine,painkiller,blood collection center,heart medicine,psychological support team,0.58196,0.46218,0.456,0.40797,0.4002
+172,sleeping bag,cold medicine,sleeping bag,blood collection center,search and rescue team,equipment for disabled people,0.5847,0.4509,0.40085,0.38189,0.34948
+173,food,equipment for disabled people,pet food,cold medicine,painkiller,canned food,0.50278,0.48939,0.46178,0.45304,0.44397
+174,power bank,battery-powered radio,power bank,psychological support team,blood collection center,search and rescue team,0.45565,0.39776,0.39754,0.39447,0.38983
+175,dry food,sleeping bag,pet food,cold medicine,salt-free and sugar-free food,blood collection center,0.36233,0.32643,0.32235,0.30678,0.30196
+176,oxygen concentrator,heart medicine,painkiller,fever reducer,blood collection center,medical team,0.4915,0.44842,0.44771,0.42529,0.41011
+178,drinking water,wet wipes,equipment for disabled people,search and rescue team,cold medicine,fever reducer,0.48607,0.45068,0.43093,0.41628,0.40603
+179,medicine;fever reducer,psychological support team,blood collection center,heart medicine,allergy medication,medical team,0.60963,0.59096,0.57583,0.5605,0.55211
+182,salt-free and sugar-free food,salt-free and sugar-free food,heart medicine,blood collection center,cold medicine,gluten free food,0.37767,0.33569,0.32321,0.31144,0.30221
+184,life jacket,search and rescue team,drinking water,salt-free and sugar-free food,sleeping bag,baby formula,0.44758,0.25355,0.24165,0.20581,0.20055
+186,security forces,blood collection center,security forces,search and rescue team,power bank,heating stove,0.555,0.52258,0.51199,0.50446,0.48084
+189,fever reducer,psychological support team,cold medicine,blood collection center,heart medicine,equipment for disabled people,0.46868,0.46383,0.46108,0.4544,0.44878
+190,flashlight,equipment for disabled people,sleeping bag,napkin,dry food,search and rescue team,0.47492,0.47,0.45736,0.41248,0.40845
+191,psychological support team;asthma medicine;tent,psychological support team,heart medicine,asthma medicine,allergy medication,battery-powered radio,0.64702,0.6333,0.55646,0.52109,0.48244
+192,pots and pans;salt-free and sugar-free food,salt-free and sugar-free food,heart medicine,cold medicine,asthma medicine,gluten free food,0.40065,0.36348,0.33518,0.32578,0.30152
+195,coat,baby formula,cold medicine,first aid kit,children's playground,baby bottle,0.4657,0.40974,0.38452,0.38349,0.37012
+196,generator;toothpaste;electric heater,battery-powered radio,power bank,blood collection center,cold medicine,electric heater,0.50311,0.45875,0.44316,0.44158,0.4349
+199,lantern,heating stove,power bank,firewood,electric heater,life jacket,0.37815,0.36101,0.34653,0.34624,0.3418
+200,dry food;hot meal,cold medicine,equipment for disabled people,blood collection center,heart medicine,painkiller,0.50733,0.47705,0.46431,0.44492,0.44366
+202,batteries;baby bottle,baby bottle,baby formula,salt-free and sugar-free food,heart medicine,pet food,0.60693,0.53329,0.41391,0.38747,0.36754
+205,antibiotic;dry food,allergy medication,cold medicine,painkiller,blood collection center,heart medicine,0.48954,0.47754,0.47236,0.46704,0.46452
+208,tent,search and rescue team,blood collection center,heart medicine,cold medicine,psychological support team,0.27513,0.27444,0.27017,0.26213,0.2197
+214,psychological support team,painkiller,heart medicine,psychological support team,cold medicine,asthma medicine,0.57143,0.57021,0.55208,0.50897,0.47147
+216,tent;oxygen concentrator,heart medicine,psychological support team,equipment for disabled people,medical team,painkiller,0.56883,0.52271,0.50546,0.49275,0.48788
+217,dry food;lighting equipment;toothbrush,heating stove,pet food,cold medicine,blood collection center,electric heater,0.3367,0.29718,0.29213,0.29164,0.27136
+219,volunteers;food,painkiller,fever reducer,blood collection center,equipment for disabled people,cold medicine,0.32518,0.32058,0.31333,0.3068,0.30278
+220,dry food,heating stove,cold medicine,hot meal,pet food,search and rescue team,0.36939,0.36564,0.36518,0.36459,0.36279
+221,diaper;sleeping bag,cold medicine,sleeping bag,equipment for disabled people,napkin,baby bottle,0.46579,0.4627,0.40273,0.38415,0.36893
+225,generator,battery-powered radio,electric heater,power bank,psychological support team,security forces,0.54439,0.52801,0.51816,0.44844,0.43372
+231,wet wipes,search and rescue team,wet wipes,diaper,blood collection center,baby formula,0.44532,0.43571,0.41247,0.41095,0.40212
+241,baby formula,baby formula,blood collection center,baby bottle,pet food,cold medicine,0.51793,0.45452,0.43263,0.37972,0.37022
+271,medical team,search and rescue team,medical team,first aid kit,equipment for disabled people,psychological support team,0.62405,0.58695,0.5146,0.50116,0.4703
+285,medical team,search and rescue team,blood collection center,equipment for disabled people,psychological support team,heart medicine,0.40767,0.3624,0.35477,0.35261,0.33529
+292,medical team,medical team,heart medicine,psychological support team,asthma medicine,search and rescue team,0.56923,0.56687,0.53453,0.51674,0.51372
+296,drinking water,drinking water,diaper,wet wipes,allergy medication,heart medicine,0.55758,0.50349,0.46075,0.44824,0.44157
+303,cleaning product;diaper,cold medicine,blood collection center,equipment for disabled people,battery-powered radio,heart medicine,0.46766,0.45518,0.44429,0.44389,0.41902
+304,oxygen concentrator,cold medicine,equipment for disabled people,fever reducer,painkiller,wet wipes,0.34693,0.33475,0.31184,0.27216,0.27078
+305,pet food;power bank,pet food,psychological support team,canned food,heart medicine,power bank,0.59914,0.54693,0.50049,0.49913,0.47319
+309,blanket;container housing;power bank,power bank,battery-powered radio,blood collection center,cold medicine,first aid kit,0.54852,0.48452,0.48195,0.48138,0.44633
+310,heating stove,cold medicine,heating stove,firewood,blood collection center,power bank,0.45868,0.42702,0.39602,0.345,0.33048
+313,sleeping bag,cold medicine,search and rescue team,equipment for disabled people,blood collection center,baby bottle,0.39383,0.34406,0.31071,0.28692,0.27402
+316,sleeping bag;diaper;generator,heart medicine,sleeping bag,search and rescue team,diaper,medical team,0.43763,0.42214,0.41487,0.41225,0.39986
+320,tent,heart medicine,search and rescue team,painkiller,blood collection center,cold medicine,0.4661,0.45233,0.43786,0.42812,0.41657
+322,equipment for disabled people,equipment for disabled people,cold medicine,painkiller,fever reducer,wet wipes,0.56387,0.44857,0.4405,0.43226,0.38056
+324,blanket,cold medicine,pet food,dry food,salt-free and sugar-free food,heart medicine,0.49516,0.44637,0.40374,0.39739,0.384
+326,food,salt-free and sugar-free food,baby formula,baby bottle,gluten free food,children's playground,0.49581,0.48252,0.44531,0.44435,0.38893
+335,fever reducer;firewood,cold medicine,search and rescue team,blood collection center,heart medicine,heating stove,0.48167,0.38297,0.37609,0.35241,0.34267
+338,bread,equipment for disabled people,cold medicine,search and rescue team,fever reducer,heating stove,0.46925,0.38377,0.35762,0.35492,0.35254
+344,blanket,cold medicine,wet wipes,equipment for disabled people,blood collection center,painkiller,0.53166,0.37998,0.37818,0.37504,0.34554
+350,pots and pans,heating stove,pots and pans,hot meal,blood collection center,salt-free and sugar-free food,0.55366,0.49083,0.38463,0.31077,0.28562
+357,generator;interpreter,equipment for disabled people,sleeping bag,napkin,heart medicine,psychological support team,0.5127,0.4943,0.4493,0.3949,0.39185
+359,generator,battery-powered radio,heating stove,power bank,cold medicine,blood collection center,0.47058,0.44439,0.42738,0.42201,0.40619
+363,cold medicine;heart medicine,cold medicine,heart medicine,blood collection center,allergy medication,psychological support team,0.70326,0.63131,0.61892,0.59089,0.58211
+365,tent;diaper,baby formula,napkin,children's playground,blood collection center,baby bottle,0.55267,0.47152,0.46997,0.46807,0.46606
+368,sleeping bag;batteries,battery-powered radio,toothbrush,sleeping bag,life jacket,toothpaste,0.43593,0.421,0.40361,0.39252,0.36799
+381,fever reducer;heart medicine,heart medicine,asthma medicine,blood collection center,psychological support team,painkiller,0.52267,0.45551,0.4438,0.4417,0.42964
+382,gluten free food;heart medicine,heart medicine,search and rescue team,painkiller,psychological support team,blood collection center,0.33612,0.28066,0.27213,0.26636,0.24912
+383,search and rescue team,search and rescue team,psychological support team,blood collection center,painkiller,heart medicine,0.69304,0.50087,0.49165,0.47266,0.46787
+384,soap;first aid kit;baby formula,blood collection center,search and rescue team,heart medicine,cold medicine,baby formula,0.43283,0.41978,0.41128,0.3898,0.3688
+391,napkin,diaper,wet wipes,heart medicine,adhesive bandage,napkin,0.55286,0.47497,0.45567,0.45294,0.44068
+401,bandage,search and rescue team,blood collection center,adhesive bandage,first aid kit,wet wipes,0.40618,0.35742,0.35155,0.34142,0.32936
+403,lighting equipment;tent;lantern,search and rescue team,firewood,power bank,psychological support team,battery-powered radio,0.36229,0.34116,0.32402,0.32066,0.31763
+404,fever reducer,psychological support team,search and rescue team,children's playground,baby formula,blood collection center,0.47679,0.46753,0.45433,0.45158,0.44758
+405,fever reducer;painkiller,painkiller,heart medicine,blood collection center,medical team,psychological support team,0.51383,0.48019,0.42648,0.4156,0.41405
+408,security forces,blood collection center,painkiller,search and rescue team,medical team,cold medicine,0.40624,0.35721,0.35653,0.34682,0.33739
+413,electric heater;dry food,cold medicine,equipment for disabled people,heating stove,blood collection center,painkiller,0.48138,0.40458,0.35535,0.35017,0.34202
+417,container housing;cleaning product,search and rescue team,sanitary pad,security forces,first aid kit,blood collection center,0.58553,0.46359,0.44631,0.44383,0.43783
+419,cash;insulin,blood collection center,psychological support team,heart medicine,medical team,cold medicine,0.51991,0.44681,0.4421,0.42735,0.40856
+420,security forces;allergy medication,allergy medication,search and rescue team,psychological support team,heart medicine,blood collection center,0.50928,0.47025,0.46075,0.45497,0.44675
+424,mask,equipment for disabled people,wet wipes,cold medicine,blood collection center,fever reducer,0.40342,0.36118,0.35852,0.33202,0.32785
+428,toothpaste;toothbrush;medicine,painkiller,cold medicine,fever reducer,wet wipes,blood collection center,0.54981,0.51227,0.48974,0.48607,0.48281
+431,batteries,psychological support team,heart medicine,battery-powered radio,blood collection center,electric heater,0.58369,0.55079,0.53144,0.51152,0.49847
+432,adhesive bandage;kitchenware;insulin,battery-powered radio,salt-free and sugar-free food,psychological support team,cold medicine,heart medicine,0.44354,0.43483,0.42744,0.41328,0.39102
+435,heating stove,blood collection center,power bank,battery-powered radio,first aid kit,heating stove,0.42067,0.36729,0.34023,0.33615,0.32854
+441,power bank,search and rescue team,baby formula,psychological support team,power bank,blood collection center,0.42654,0.40924,0.40627,0.37877,0.3645
+444,dry food;fever reducer,search and rescue team,equipment for disabled people,blood collection center,fever reducer,cold medicine,0.43167,0.43002,0.3836,0.37929,0.37483
+446,sleeping bag,blood collection center,wet wipes,toothbrush,life jacket,search and rescue team,0.31468,0.29471,0.29309,0.29138,0.28901
+449,mask;power bank;heating stove,cold medicine,power bank,blood collection center,search and rescue team,heart medicine,0.39079,0.32792,0.31781,0.31252,0.30486
+453,dry food,equipment for disabled people,cold medicine,blood collection center,fever reducer,painkiller,0.49568,0.43088,0.37779,0.37076,0.36794
+454,toothpaste,toothpaste,toothbrush,oxygen concentrator,adhesive bandage,blood collection center,0.77019,0.67911,0.62588,0.60383,0.59992
+461,baby bottle;coat,baby bottle,cold medicine,baby formula,blood collection center,search and rescue team,0.49059,0.48305,0.48139,0.45641,0.37522
+463,hot meal,cold medicine,dry food,sleeping bag,fever reducer,salt-free and sugar-free food,0.43106,0.33897,0.33318,0.3225,0.32152
+466,drinking water;medicine,heart medicine,medical team,allergy medication,blood collection center,search and rescue team,0.58421,0.56983,0.51984,0.50293,0.50124
+469,baby formula,equipment for disabled people,baby formula,cold medicine,blood collection center,baby bottle,0.42327,0.36855,0.33764,0.30678,0.30082
+470,first aid kit,search and rescue team,first aid kit,equipment for disabled people,medical team,heart medicine,0.55621,0.48944,0.48817,0.47952,0.45421
+472,gluten free food;equipment for disabled people,salt-free and sugar-free food,gluten free food,cold medicine,equipment for disabled people,dry food,0.54497,0.51541,0.46504,0.45898,0.40958
+476,medicine,heart medicine,search and rescue team,medical team,painkiller,psychological support team,0.56505,0.55849,0.53179,0.52521,0.52355
+480,first aid kit;container housing,search and rescue team,first aid kit,equipment for disabled people,adhesive bandage,blood collection center,0.612,0.4989,0.49637,0.45932,0.45609
+482,food;wet wipes;first aid kit,search and rescue team,blood collection center,equipment for disabled people,cold medicine,psychological support team,0.52583,0.43243,0.41522,0.40001,0.39401
+483,baby bottle;interpreter,search and rescue team,baby formula,baby bottle,equipment for disabled people,blood collection center,0.40358,0.40169,0.40078,0.36566,0.36455
+485,napkin,cold medicine,wet wipes,adhesive bandage,diaper,blood collection center,0.59356,0.58768,0.48953,0.4796,0.45995
+486,cash;salt-free and sugar-free food,search and rescue team,equipment for disabled people,blood collection center,psychological support team,cold medicine,0.46233,0.45929,0.44669,0.40128,0.38847
+487,search and rescue team;fever reducer,search and rescue team,blood collection center,cold medicine,psychological support team,painkiller,0.36601,0.28801,0.25656,0.25324,0.25047
+489,power bank,equipment for disabled people,blood collection center,search and rescue team,battery-powered radio,cold medicine,0.42554,0.39938,0.39156,0.38798,0.3601
+491,fever reducer,heart medicine,allergy medication,psychological support team,medical team,asthma medicine,0.51049,0.48512,0.47697,0.47683,0.46062
+493,dry food,wet wipes,blood collection center,heating stove,hot meal,toothbrush,0.3411,0.33376,0.32091,0.31345,0.29488
+495,kitchenware,heating stove,canned food,pots and pans,kitchenware,hot meal,0.6545,0.53066,0.52777,0.50837,0.41908
+501,drinking water;asthma medicine,equipment for disabled people,search and rescue team,cold medicine,sleeping bag,napkin,0.4724,0.44456,0.43423,0.43058,0.41221
+509,container housing,cold medicine,search and rescue team,blood collection center,equipment for disabled people,heart medicine,0.51924,0.50152,0.43755,0.43733,0.42144
+513,battery-powered radio;kitchenware,battery-powered radio,power bank,electric heater,blood collection center,psychological support team,0.66072,0.54146,0.47318,0.47265,0.46957
+519,electric heater;medicine,psychological support team,electric heater,baby bottle,cold medicine,search and rescue team,0.34849,0.34813,0.34788,0.34096,0.34008
+523,portable toilet,search and rescue team,blood collection center,painkiller,toothpaste,heart medicine,0.27629,0.27372,0.26074,0.25618,0.2541
+532,toothpaste;portable toilet,adhesive bandage,toothbrush,toothpaste,allergy medication,medical team,0.53528,0.52519,0.51621,0.51382,0.50572
+539,medical team;napkin,heart medicine,psychological support team,blood collection center,search and rescue team,medical team,0.52169,0.51103,0.50915,0.49154,0.47753
+545,psychological support team,painkiller,equipment for disabled people,heart medicine,psychological support team,cold medicine,0.57936,0.56549,0.5379,0.52902,0.52649
+549,medicine,equipment for disabled people,heart medicine,psychological support team,blood collection center,cold medicine,0.47317,0.44325,0.40291,0.39501,0.38735
+550,tent;medical team,search and rescue team,cold medicine,heart medicine,blood collection center,equipment for disabled people,0.36843,0.36696,0.30209,0.26517,0.25849
+561,antibiotic,blood collection center,psychological support team,painkiller,cold medicine,search and rescue team,0.5364,0.52544,0.50462,0.495,0.46495
+562,psychological support team,painkiller,heart medicine,blood collection center,psychological support team,equipment for disabled people,0.3975,0.38444,0.36459,0.35336,0.35046
+566,hot meal,hot meal,search and rescue team,heating stove,cold medicine,pet food,0.41851,0.41744,0.40448,0.37539,0.36771
+570,cold medicine;power bank,cold medicine,equipment for disabled people,painkiller,heart medicine,fever reducer,0.49508,0.47641,0.40078,0.37906,0.36813
+571,tent,cold medicine,search and rescue team,equipment for disabled people,heating stove,fever reducer,0.49126,0.4056,0.39458,0.38584,0.38463
+572,bread;portable toilet;toothpaste,toothpaste,blood collection center,baby formula,toothbrush,baby bottle,0.52984,0.4908,0.44574,0.43454,0.43176
+575,container housing,baby formula,search and rescue team,cold medicine,baby bottle,blood collection center,0.38429,0.37537,0.36626,0.36189,0.35169
+578,blanket;kitchenware,heating stove,cold medicine,pet food,canned food,hot meal,0.59387,0.50256,0.46529,0.46042,0.45441
+581,psychological support team;blanket,equipment for disabled people,cold medicine,painkiller,fever reducer,battery-powered radio,0.52452,0.48791,0.44294,0.42956,0.42267
+582,electric heater,electric heater,psychological support team,heart medicine,medical team,heating stove,0.54313,0.5055,0.49366,0.49002,0.47886
+585,spare clothes,search and rescue team,wet wipes,drinking water,diaper,medical team,0.41292,0.40639,0.40414,0.37821,0.35865
+588,antibiotic;search and rescue team;portable toilet,search and rescue team,cold medicine,painkiller,blood collection center,psychological support team,0.40899,0.40263,0.39939,0.38292,0.36834
+589,hot meal,painkiller,fever reducer,cold medicine,heating stove,equipment for disabled people,0.51671,0.50975,0.44129,0.4357,0.42656
+590,container housing,cold medicine,search and rescue team,blood collection center,equipment for disabled people,fever reducer,0.49891,0.46428,0.39242,0.38851,0.36268
+593,bread,bread,blood collection center,pet food,cold medicine,canned food,0.43593,0.42611,0.39992,0.39273,0.38635
+595,insulin,psychological support team,blood collection center,baby formula,baby bottle,cold medicine,0.37656,0.374,0.36718,0.32395,0.32008
+597,cash,equipment for disabled people,cold medicine,search and rescue team,blood collection center,sleeping bag,0.39297,0.36896,0.36709,0.33637,0.31735
+604,baby bottle,baby bottle,baby formula,blood collection center,cold medicine,psychological support team,0.46227,0.44221,0.38543,0.38179,0.34188
+606,napkin,search and rescue team,heating stove,cold medicine,equipment for disabled people,blood collection center,0.42771,0.40656,0.3877,0.37358,0.3714
+608,medical team,medical team,search and rescue team,heart medicine,psychological support team,asthma medicine,0.57108,0.54961,0.53153,0.50353,0.49476
+611,dry food,search and rescue team,equipment for disabled people,hot meal,canned food,pet food,0.53318,0.47023,0.45453,0.42339,0.42005
+614,blanket,cold medicine,equipment for disabled people,fever reducer,painkiller,psychological support team,0.62872,0.54339,0.53906,0.50402,0.4536
+615,fever reducer,painkiller,psychological support team,fever reducer,medical team,blood collection center,0.63121,0.63002,0.60635,0.60597,0.60069
+619,lighting equipment,baby formula,cold medicine,baby bottle,equipment for disabled people,wet wipes,0.50519,0.47654,0.47379,0.46102,0.40266
+620,batteries;volunteers,blood collection center,battery-powered radio,power bank,first aid kit,toothbrush,0.39092,0.3733,0.35803,0.31969,0.31823
+622,tent,search and rescue team,blood collection center,painkiller,cold medicine,equipment for disabled people,0.43745,0.34605,0.34257,0.3332,0.32978
+625,tent,search and rescue team,cold medicine,blood collection center,equipment for disabled people,first aid kit,0.40341,0.37267,0.32977,0.28977,0.26771
+626,medical team;pots and pans,heating stove,heart medicine,medical team,psychological support team,blood collection center,0.42344,0.42071,0.4206,0.41299,0.40544
+628,napkin,wet wipes,baby bottle,diaper,toothpaste,first aid kit,0.49709,0.3977,0.39417,0.39034,0.38839
+630,blanket;portable toilet,cold medicine,wet wipes,blood collection center,portable toilet,search and rescue team,0.50921,0.43559,0.39021,0.38867,0.37485
+633,baby formula,baby formula,baby bottle,blood collection center,cold medicine,painkiller,0.392,0.37212,0.30983,0.30962,0.28767
+634,gluten free food,blood collection center,equipment for disabled people,psychological support team,painkiller,cold medicine,0.40933,0.40627,0.38944,0.37288,0.35603
+637,dry food,canned food,heating stove,gluten free food,pet food,dry food,0.55838,0.5254,0.50283,0.50022,0.47001
+638,generator,wet wipes,fever reducer,search and rescue team,painkiller,equipment for disabled people,0.36211,0.3503,0.32681,0.32347,0.31837
+639,oxygen concentrator,search and rescue team,first aid kit,battery-powered radio,heating stove,blood collection center,0.37165,0.32806,0.27765,0.25777,0.25753
+641,electric heater,cold medicine,salt-free and sugar-free food,blood collection center,sleeping bag,napkin,0.50366,0.42403,0.41447,0.40598,0.40406
+642,dry food;volunteers,search and rescue team,equipment for disabled people,salt-free and sugar-free food,cold medicine,blood collection center,0.37865,0.3636,0.3404,0.3401,0.30836
+644,tent;power bank,power bank,battery-powered radio,electrical field team,psychological support team,electric heater,0.77905,0.64919,0.64746,0.63852,0.59814
+647,medicine;electrical field team,painkiller,cold medicine,blood collection center,equipment for disabled people,fever reducer,0.35204,0.35085,0.32768,0.31943,0.29779
+652,generator;search and rescue team,search and rescue team,power bank,psychological support team,battery-powered radio,heating stove,0.58424,0.38917,0.37762,0.36698,0.3642
+675,fever reducer,blood collection center,painkiller,heart medicine,cold medicine,psychological support team,0.44889,0.4428,0.4369,0.42964,0.39283
+679,interpreter;blanket,search and rescue team,blood collection center,heating stove,wet wipes,first aid kit,0.35119,0.3032,0.28218,0.26132,0.2431
+681,lighting equipment,search and rescue team,blood collection center,cold medicine,wet wipes,battery-powered radio,0.31662,0.25888,0.22136,0.20996,0.20995
+682,sleeping bag,cold medicine,fever reducer,equipment for disabled people,painkiller,sleeping bag,0.61975,0.56841,0.54405,0.52871,0.5253
+687,pots and pans,heating stove,hot meal,pots and pans,canned food,pet food,0.66549,0.59765,0.55857,0.51859,0.4629
+688,spare clothes;dry food;baby bottle,baby bottle,cold medicine,wet wipes,diaper,salt-free and sugar-free food,0.55586,0.54647,0.49967,0.4953,0.49068
+690,tent;first aid kit,cold medicine,equipment for disabled people,search and rescue team,painkiller,heart medicine,0.51204,0.48078,0.44456,0.42913,0.42686
+691,heart medicine,heart medicine,medical team,asthma medicine,painkiller,psychological support team,0.70686,0.61681,0.57875,0.55443,0.5531
+692,salt-free and sugar-free food,salt-free and sugar-free food,gluten free food,hot meal,heart medicine,heating stove,0.42106,0.3237,0.32014,0.31707,0.28426
+696,pots and pans,canned food,pet food,dry food,heating stove,bread,0.50199,0.49148,0.4619,0.45897,0.40877
+697,bread;pet food,dry food,sleeping bag,napkin,cold medicine,pet food,0.51152,0.49799,0.47263,0.47206,0.47118
+698,canned food;blood,equipment for disabled people,cold medicine,painkiller,blood collection center,search and rescue team,0.54574,0.44444,0.40253,0.38015,0.37877
+699,antibiotic,heart medicine,painkiller,cold medicine,blood collection center,fever reducer,0.52117,0.51209,0.48641,0.47549,0.45309
+700,mask,equipment for disabled people,adhesive bandage,medical team,sanitary pad,heart medicine,0.59523,0.49999,0.49656,0.49482,0.49458
+702,blanket;medical team,blood collection center,cold medicine,heart medicine,search and rescue team,psychological support team,0.47862,0.47277,0.45875,0.44182,0.40406
+704,spare clothes,cold medicine,wet wipes,equipment for disabled people,fever reducer,blood collection center,0.63455,0.51524,0.50213,0.47136,0.4576
+709,spare clothes;hot meal,drinking water,baby formula,pet food,salt-free and sugar-free food,blood collection center,0.43124,0.40929,0.4049,0.39444,0.38906
+714,electric heater,electric heater,cold medicine,heating stove,battery-powered radio,psychological support team,0.53512,0.45909,0.40618,0.401,0.36466
+717,blanket,heart medicine,medical team,cold medicine,blood collection center,wet wipes,0.38547,0.35258,0.3478,0.34138,0.34074
+718,sanitary pad,baby formula,wet wipes,diaper,sanitary pad,toothpaste,0.48476,0.47624,0.4544,0.4242,0.421
+721,drinking water,wet wipes,equipment for disabled people,blood collection center,cold medicine,fever reducer,0.30166,0.29237,0.27649,0.2682,0.25245
+724,security forces,equipment for disabled people,psychological support team,search and rescue team,painkiller,blood collection center,0.50218,0.44473,0.43985,0.43969,0.43884
+728,generator;first aid kit,equipment for disabled people,battery-powered radio,power bank,psychological support team,search and rescue team,0.49421,0.48455,0.46114,0.44747,0.43499
+731,cold medicine,cold medicine,heart medicine,blood collection center,painkiller,psychological support team,0.61889,0.50396,0.49267,0.49184,0.4813
+736,hot meal;life jacket,search and rescue team,heating stove,blood collection center,hot meal,first aid kit,0.55225,0.50533,0.46475,0.46125,0.45333
+740,bread,heating stove,salt-free and sugar-free food,search and rescue team,blood collection center,battery-powered radio,0.32639,0.28284,0.27075,0.26063,0.25871
+760,first aid kit;psychological support team,psychological support team,medical team,search and rescue team,heart medicine,blood collection center,0.5527,0.54426,0.54053,0.52061,0.4904
+761,tent,equipment for disabled people,search and rescue team,cold medicine,blood collection center,painkiller,0.47271,0.4233,0.40745,0.38196,0.34738
+767,battery-powered radio;toothpaste,toothpaste,blood collection center,power bank,battery-powered radio,toothbrush,0.62744,0.59173,0.58097,0.55754,0.53599
+769,blanket;food,search and rescue team,cold medicine,blood collection center,first aid kit,wet wipes,0.43871,0.4237,0.3707,0.34015,0.32925
+770,baby bottle,baby bottle,baby formula,heart medicine,blood collection center,psychological support team,0.51799,0.47276,0.36202,0.35933,0.34866
+774,antibiotic,painkiller,blood collection center,heart medicine,fever reducer,cold medicine,0.42787,0.40049,0.39829,0.38213,0.3741
+777,tent;medicine,search and rescue team,psychological support team,medical team,blood collection center,allergy medication,0.67341,0.56369,0.52162,0.49806,0.47985
+780,sanitary pad;blanket,cold medicine,wet wipes,fever reducer,search and rescue team,blood collection center,0.35829,0.27653,0.26761,0.24558,0.23648
+781,pots and pans,heating stove,pots and pans,hot meal,kitchenware,canned food,0.7749,0.76229,0.63824,0.6009,0.57863
+782,sleeping bag;gluten free food,search and rescue team,heart medicine,psychological support team,blood collection center,cold medicine,0.40152,0.38579,0.38239,0.36199,0.34735
+785,pet food,pet food,cold medicine,dry food,sleeping bag,napkin,0.56169,0.38689,0.36838,0.35213,0.34108
+786,medical team,blood collection center,cold medicine,equipment for disabled people,painkiller,search and rescue team,0.4378,0.40163,0.40059,0.39308,0.37539
+788,wet wipes,baby formula,wet wipes,baby bottle,cold medicine,blood collection center,0.47673,0.42347,0.38844,0.34288,0.33471
+790,search and rescue team,search and rescue team,equipment for disabled people,psychological support team,blood collection center,cold medicine,0.63495,0.43168,0.40971,0.40504,0.35997
+793,cash;painkiller,wet wipes,painkiller,blood collection center,heart medicine,search and rescue team,0.34989,0.34715,0.3465,0.34196,0.33722
+802,cold medicine;sleeping bag,blood collection center,cold medicine,heart medicine,search and rescue team,psychological support team,0.47003,0.46927,0.37505,0.37417,0.36896
+811,coat;antibiotic,cold medicine,blood collection center,painkiller,psychological support team,heart medicine,0.59835,0.52241,0.46991,0.44656,0.44564
+813,spare clothes;cold medicine,heart medicine,cold medicine,wet wipes,diaper,toothpaste,0.578,0.54748,0.53093,0.52651,0.52146
+840,generator,equipment for disabled people,fever reducer,cold medicine,painkiller,battery-powered radio,0.54367,0.43296,0.43281,0.42861,0.42836
+846,electric heater,electric heater,power bank,psychological support team,electrical field team,battery-powered radio,0.62368,0.58835,0.58761,0.58491,0.53626
+847,gluten free food;medicine,heart medicine,painkiller,cold medicine,equipment for disabled people,psychological support team,0.52248,0.4962,0.48419,0.47083,0.45208
+848,sleeping bag,cold medicine,sleeping bag,napkin,blood collection center,fever reducer,0.50251,0.45883,0.34742,0.33368,0.31111
+852,volunteers;search and rescue team,search and rescue team,electrical field team,psychological support team,volunteers,power bank,0.64914,0.5469,0.54405,0.53301,0.52028
+854,pet food,pet food,search and rescue team,equipment for disabled people,sleeping bag,blood collection center,0.47863,0.43009,0.3031,0.30225,0.2811
+859,blanket;blood,blood collection center,heart medicine,medical team,psychological support team,asthma medicine,0.44009,0.41848,0.3862,0.35571,0.32619
+860,coat,cold medicine,search and rescue team,equipment for disabled people,spare clothes,baby formula,0.45269,0.3752,0.29391,0.2917,0.27698
+861,psychological support team;food,pet food,painkiller,blood collection center,psychological support team,search and rescue team,0.36442,0.34668,0.33918,0.31426,0.31156
+862,search and rescue team,equipment for disabled people,search and rescue team,blood collection center,cold medicine,painkiller,0.41698,0.36111,0.34452,0.33779,0.31324
+863,cleaning product;blanket,blood collection center,baby formula,cold medicine,baby bottle,salt-free and sugar-free food,0.44626,0.43825,0.42103,0.40673,0.40108
+867,baby formula,baby formula,baby bottle,blood collection center,first aid kit,medical team,0.65944,0.5512,0.43511,0.43235,0.42495
+868,coat,cold medicine,pet food,dry food,salt-free and sugar-free food,electrical field team,0.42271,0.35631,0.29855,0.27274,0.26655
+870,medical team,medical team,painkiller,heart medicine,psychological support team,asthma medicine,0.68708,0.68144,0.66995,0.62098,0.59919
+871,medicine,painkiller,heart medicine,equipment for disabled people,cold medicine,fever reducer,0.50023,0.48172,0.45802,0.43204,0.41364
+875,baby formula,baby formula,pet food,baby bottle,equipment for disabled people,cold medicine,0.34552,0.28233,0.27705,0.27566,0.26479
+876,first aid kit,search and rescue team,medical team,first aid kit,equipment for disabled people,adhesive bandage,0.58915,0.55985,0.55726,0.49984,0.49798
+878,food,salt-free and sugar-free food,heating stove,hot meal,pet food,gluten free food,0.31609,0.30102,0.29523,0.28972,0.28682
+880,hot meal,heating stove,hot meal,first aid kit,search and rescue team,pots and pans,0.61074,0.56625,0.42899,0.41734,0.38803
+881,coat;electric heater,cold medicine,equipment for disabled people,fever reducer,painkiller,blood collection center,0.53885,0.46427,0.43272,0.40338,0.40075
+887,cash;psychological support team,painkiller,equipment for disabled people,blood collection center,search and rescue team,psychological support team,0.42623,0.42472,0.42354,0.41559,0.39508
+890,electric heater,electric heater,electrical field team,heating stove,battery-powered radio,container housing,0.65318,0.54886,0.53663,0.49905,0.48317
+891,generator;mask;container housing,pet food,battery-powered radio,electric heater,search and rescue team,cold medicine,0.40126,0.32591,0.31932,0.31395,0.31098
+892,electric heater,cold medicine,heating stove,power bank,blood collection center,electric heater,0.37454,0.36106,0.32669,0.32278,0.32185
+894,wet wipes;coat;electric heater,blood collection center,toothpaste,power bank,cold medicine,heart medicine,0.34989,0.33444,0.32544,0.30861,0.30674
+897,security forces;blood collection center,blood collection center,search and rescue team,cold medicine,equipment for disabled people,psychological support team,0.4965,0.47507,0.42742,0.41171,0.40839
+899,life jacket,search and rescue team,first aid kit,adhesive bandage,security forces,life jacket,0.62179,0.51252,0.49444,0.48958,0.48644
+902,flashlight,equipment for disabled people,cold medicine,sleeping bag,blanket,bandage,0.50252,0.47281,0.41307,0.39631,0.39399
+903,blanket;coat,cold medicine,blood collection center,dry food,equipment for disabled people,sleeping bag,0.52328,0.30826,0.30485,0.29183,0.2827
+904,mask,wet wipes,cold medicine,equipment for disabled people,baby formula,fever reducer,0.34852,0.33171,0.32837,0.3269,0.31723
+908,search and rescue team,search and rescue team,equipment for disabled people,blood collection center,cold medicine,psychological support team,0.51752,0.34823,0.32748,0.27092,0.27018
+909,baby formula,baby formula,blood collection center,heating stove,search and rescue team,pet food,0.49424,0.40636,0.39522,0.39314,0.37401
+914,napkin,baby formula,pet food,blood collection center,psychological support team,baby bottle,0.49919,0.49395,0.45019,0.44211,0.42363
+917,lantern,equipment for disabled people,cold medicine,sleeping bag,search and rescue team,painkiller,0.4695,0.39181,0.36121,0.33912,0.33549
+918,batteries,battery-powered radio,cold medicine,blood collection center,electric heater,heating stove,0.449,0.38545,0.37392,0.35911,0.35432
+919,salt-free and sugar-free food,painkiller,heart medicine,cold medicine,blood collection center,fever reducer,0.36422,0.36038,0.35642,0.34115,0.28109
+920,cold medicine,cold medicine,fever reducer,wet wipes,painkiller,equipment for disabled people,0.59371,0.44847,0.40933,0.39037,0.36114
+926,sleeping bag;medical team;flashlight,search and rescue team,cold medicine,equipment for disabled people,heart medicine,medical team,0.37887,0.32561,0.31964,0.31312,0.30478
+927,equipment for disabled people;kitchenware;drinking water,drinking water,diaper,heart medicine,portable toilet,equipment for disabled people,0.5954,0.52006,0.4857,0.48235,0.4507
+929,lighting equipment,equipment for disabled people,cold medicine,search and rescue team,sleeping bag,wet wipes,0.48771,0.3892,0.36433,0.35798,0.35573
+930,pet food,pet food,search and rescue team,painkiller,equipment for disabled people,heart medicine,0.45686,0.41877,0.36653,0.34701,0.33217
+932,adhesive bandage;medical team,medical team,search and rescue team,heart medicine,psychological support team,asthma medicine,0.46656,0.46141,0.46105,0.39951,0.3855
+933,cold medicine;heart medicine,cold medicine,heart medicine,blood collection center,search and rescue team,painkiller,0.47261,0.40811,0.40378,0.33802,0.3293
+936,insulin;coat,cold medicine,blood collection center,heart medicine,search and rescue team,painkiller,0.36697,0.30971,0.29051,0.26025,0.25611
+938,cleaning product;cash,diaper,search and rescue team,sanitary pad,adhesive bandage,medical team,0.43754,0.43595,0.41032,0.40863,0.40386
+939,adhesive bandage,search and rescue team,blood collection center,adhesive bandage,equipment for disabled people,psychological support team,0.39633,0.36393,0.33838,0.33412,0.30677
+940,pet food,pet food,sleeping bag,salt-free and sugar-free food,dry food,cold medicine,0.40098,0.31523,0.28078,0.25578,0.24658
+942,dry food,pet food,wet wipes,fever reducer,cold medicine,painkiller,0.31696,0.26458,0.26047,0.25974,0.24897
+943,container housing;sleeping bag,sleeping bag,cold medicine,equipment for disabled people,blood collection center,search and rescue team,0.56692,0.53543,0.47435,0.4522,0.43024
+945,medicine,cold medicine,heart medicine,blood collection center,wet wipes,painkiller,0.47225,0.46616,0.43354,0.40587,0.40394
+948,psychological support team;tent,cold medicine,blood collection center,search and rescue team,painkiller,fever reducer,0.43391,0.40406,0.40228,0.34335,0.3392
+949,tent,cold medicine,children's playground,equipment for disabled people,pet food,wet wipes,0.51825,0.48837,0.43639,0.43135,0.40631
+952,bread,baby formula,blood collection center,cold medicine,salt-free and sugar-free food,search and rescue team,0.37639,0.37594,0.36596,0.35423,0.34144
+954,soap;asthma medicine,heart medicine,allergy medication,medical team,psychological support team,search and rescue team,0.54808,0.53516,0.50956,0.50673,0.48235
+956,spare clothes,wet wipes,cold medicine,diaper,adhesive bandage,spare clothes,0.6855,0.68021,0.57476,0.53729,0.53427
+957,blanket,pet food,blood collection center,search and rescue team,power bank,canned food,0.41795,0.40935,0.40786,0.40474,0.40075
+959,medicine;batteries;dry food,blood collection center,heart medicine,cold medicine,psychological support team,painkiller,0.59463,0.53727,0.52633,0.51202,0.49212
+961,search and rescue team;coat,cold medicine,equipment for disabled people,search and rescue team,blood collection center,painkiller,0.51859,0.51706,0.4998,0.38513,0.32569
+969,drinking water,baby bottle,wet wipes,salt-free and sugar-free food,blood collection center,cold medicine,0.47691,0.47405,0.47365,0.4484,0.44554
+970,tent,equipment for disabled people,fever reducer,search and rescue team,painkiller,battery-powered radio,0.461,0.45711,0.43917,0.40783,0.39118
+972,drinking water,drinking water,wet wipes,diaper,baby bottle,heart medicine,0.57421,0.49072,0.48777,0.47171,0.4678
+973,toothpaste;baby formula,baby formula,salt-free and sugar-free food,toothpaste,blood collection center,gluten free food,0.54141,0.51288,0.46605,0.4526,0.45044
+974,medical team;blanket,cold medicine,blood collection center,heart medicine,search and rescue team,psychological support team,0.57069,0.48073,0.44833,0.43861,0.42674
+978,painkiller;food,painkiller,heart medicine,cold medicine,fever reducer,blood collection center,0.52775,0.46062,0.44057,0.43004,0.40718
+980,kitchenware,heating stove,kitchenware,canned food,pet food,pots and pans,0.49362,0.40565,0.38221,0.37722,0.37146
+982,cold medicine;blanket,cold medicine,heart medicine,psychological support team,pet food,blood collection center,0.59732,0.51512,0.51503,0.49805,0.48071
+983,wet wipes,search and rescue team,blood collection center,baby formula,heart medicine,salt-free and sugar-free food,0.34903,0.32917,0.32262,0.28362,0.28004
+986,search and rescue team,search and rescue team,equipment for disabled people,blood collection center,painkiller,fever reducer,0.5417,0.33292,0.29317,0.26648,0.2448
+989,kitchenware,heating stove,search and rescue team,blood collection center,pots and pans,painkiller,0.53022,0.42659,0.40353,0.40338,0.3914
+995,tent,sleeping bag,search and rescue team,blood collection center,pet food,cold medicine,0.36659,0.33333,0.29084,0.28772,0.27393
+996,food,salt-free and sugar-free food,pet food,dry food,gluten free food,canned food,0.41538,0.40986,0.40349,0.40287,0.40044
+997,security forces,blood collection center,painkiller,equipment for disabled people,search and rescue team,battery-powered radio,0.52333,0.5086,0.48233,0.47178,0.46853
+998,generator,cold medicine,equipment for disabled people,battery-powered radio,power bank,blood collection center,0.47346,0.38899,0.38154,0.35621,0.35112
+1003,salt-free and sugar-free food,salt-free and sugar-free food,gluten free food,heart medicine,hot meal,cold medicine,0.49146,0.40773,0.38939,0.36012,0.35688
+1005,search and rescue team;blanket,search and rescue team,blood collection center,equipment for disabled people,cold medicine,psychological support team,0.67157,0.49384,0.40618,0.399,0.39334
+1008,cold medicine;lighting equipment,cold medicine,search and rescue team,equipment for disabled people,blood collection center,fever reducer,0.41971,0.34207,0.2937,0.29349,0.29291
+1012,pots and pans,heating stove,blood collection center,pet food,pots and pans,equipment for disabled people,0.42645,0.31234,0.30699,0.30102,0.29761
+1017,life jacket;bandage,search and rescue team,blood collection center,heart medicine,first aid kit,wet wipes,0.40891,0.38268,0.37708,0.35793,0.33923
+1018,gluten free food,gluten free food,salt-free and sugar-free food,baby formula,psychological support team,blood collection center,0.57618,0.56576,0.45157,0.43234,0.41076
+1020,cleaning product;search and rescue team,search and rescue team,blood collection center,heart medicine,first aid kit,wet wipes,0.63693,0.43503,0.40821,0.40111,0.39983
+1022,drinking water,sleeping bag,equipment for disabled people,blood collection center,cold medicine,heart medicine,0.47604,0.45423,0.42681,0.42569,0.42372
+1023,container housing;coat,cold medicine,search and rescue team,blood collection center,baby formula,heating stove,0.39557,0.36386,0.31854,0.26309,0.25714
+1024,spare clothes;dry food,salt-free and sugar-free food,dry food,gluten free food,wet wipes,diaper,0.47684,0.42016,0.41372,0.37004,0.36564
+1027,drinking water,search and rescue team,wet wipes,blood collection center,equipment for disabled people,fever reducer,0.58264,0.5459,0.49988,0.49802,0.4956
+1031,dry food;baby formula,baby formula,blood collection center,baby bottle,pet food,gluten free food,0.6653,0.55766,0.51824,0.50926,0.50922
+1038,dry food;pots and pans,pet food,salt-free and sugar-free food,gluten free food,blood collection center,heating stove,0.33862,0.33152,0.3026,0.26705,0.25197
+1041,baby formula;search and rescue team,search and rescue team,baby formula,blood collection center,psychological support team,medical team,0.66687,0.46571,0.43872,0.39319,0.38229
+1044,drinking water;generator;battery-powered radio,equipment for disabled people,battery-powered radio,cold medicine,electric heater,diaper,0.48346,0.47942,0.38781,0.37844,0.37793
+1055,generator;psychological support team,equipment for disabled people,painkiller,cold medicine,psychological support team,fever reducer,0.48082,0.3808,0.38072,0.36435,0.34884
+1061,pots and pans;children's playground,heating stove,baby formula,blood collection center,children's playground,pots and pans,0.37486,0.33249,0.31697,0.29654,0.29317
+1070,antibiotic,cold medicine,heart medicine,blood collection center,painkiller,adhesive bandage,0.59894,0.59321,0.58711,0.54996,0.53959
+1072,medical team,heart medicine,medical team,painkiller,asthma medicine,psychological support team,0.55922,0.53531,0.47603,0.46445,0.43712
+1074,coat,cold medicine,blood collection center,search and rescue team,psychological support team,security forces,0.53373,0.44881,0.41366,0.33204,0.31622
+1076,flashlight;food;first aid kit,search and rescue team,equipment for disabled people,cold medicine,first aid kit,blood collection center,0.45118,0.40649,0.3634,0.33261,0.31975
+1077,drinking water;food,search and rescue team,wet wipes,blood collection center,diaper,heating stove,0.45902,0.38811,0.37501,0.35972,0.33551
+1079,drinking water,search and rescue team,heart medicine,baby formula,blood collection center,baby bottle,0.35749,0.339,0.33614,0.30118,0.29807
+1082,dry food,salt-free and sugar-free food,gluten free food,dry food,baby bottle,toothpaste,0.5335,0.49492,0.40762,0.38067,0.37187
+1083,first aid kit;drinking water,first aid kit,drinking water,search and rescue team,medical team,blood collection center,0.59427,0.59036,0.58987,0.5276,0.51173
+1084,coat;lighting equipment,cold medicine,equipment for disabled people,fever reducer,painkiller,wet wipes,0.54963,0.43431,0.39667,0.38579,0.36853
+1085,sleeping bag,cold medicine,blood collection center,painkiller,fever reducer,heart medicine,0.60122,0.54455,0.51781,0.51004,0.50231
+1088,allergy medication;insulin,painkiller,heart medicine,blood collection center,cold medicine,allergy medication,0.40518,0.35818,0.34767,0.33734,0.33408
+1089,pots and pans,heating stove,hot meal,pots and pans,canned food,kitchenware,0.60644,0.52855,0.52704,0.4355,0.4301
+1092,napkin,adhesive bandage,toothpaste,sanitary pad,toothbrush,diaper,0.64034,0.6397,0.63576,0.63155,0.61726
+1097,napkin;search and rescue team,search and rescue team,blood collection center,first aid kit,psychological support team,painkiller,0.42745,0.31844,0.23591,0.22411,0.21665
+1100,wet wipes,wet wipes,diaper,blood collection center,adhesive bandage,search and rescue team,0.54538,0.48408,0.4763,0.47455,0.45546
+1102,napkin;medical team,heart medicine,medical team,painkiller,psychological support team,equipment for disabled people,0.67161,0.65847,0.59253,0.57508,0.56566
+1103,generator,equipment for disabled people,heating stove,blood collection center,cold medicine,battery-powered radio,0.40151,0.3885,0.36553,0.34651,0.34517
+1104,oxygen concentrator,blood collection center,cold medicine,painkiller,search and rescue team,equipment for disabled people,0.39548,0.3867,0.37654,0.35042,0.34511
+1105,pet food,pet food,search and rescue team,salt-free and sugar-free food,baby formula,hot meal,0.47014,0.3174,0.26164,0.244,0.24249
+1110,sleeping bag,sleeping bag,heart medicine,cold medicine,painkiller,fever reducer,0.38454,0.37614,0.35669,0.29255,0.27398
+1113,first aid kit,blood collection center,heart medicine,psychological support team,medical team,cold medicine,0.6031,0.59315,0.57911,0.52151,0.51853
+1115,electric heater,cold medicine,electric heater,heating stove,battery-powered radio,search and rescue team,0.43782,0.4175,0.40606,0.35215,0.33475
+1118,security forces;sleeping bag,search and rescue team,blood collection center,sleeping bag,psychological support team,heart medicine,0.53562,0.51368,0.50135,0.48976,0.47343
+1120,medical team,painkiller,equipment for disabled people,heart medicine,medical team,fever reducer,0.52052,0.50037,0.4595,0.45331,0.44096
+1125,bandage,search and rescue team,first aid kit,medical team,blood collection center,adhesive bandage,0.65236,0.45152,0.42813,0.40679,0.40426
+1127,mask;drinking water,fever reducer,painkiller,blood collection center,cold medicine,bandage,0.60341,0.59984,0.56914,0.56492,0.55207
+1129,hot meal,heating stove,hot meal,pots and pans,cold medicine,blood collection center,0.45535,0.41133,0.34564,0.33064,0.32905
+1131,medical team,baby formula,psychological support team,blood collection center,heart medicine,medical team,0.49107,0.48811,0.484,0.46146,0.42059
+1132,blanket;antibiotic;power bank,cold medicine,blood collection center,psychological support team,heart medicine,painkiller,0.69876,0.58976,0.47619,0.45788,0.45555
+1133,blanket;blood,cold medicine,salt-free and sugar-free food,sleeping bag,heart medicine,dry food,0.5064,0.43923,0.39325,0.39169,0.38213
+1138,flashlight,baby bottle,sleeping bag,cold medicine,salt-free and sugar-free food,battery-powered radio,0.40277,0.3867,0.38118,0.34,0.32341
+1139,baby formula;container housing,cold medicine,blood collection center,baby formula,search and rescue team,baby bottle,0.48194,0.41277,0.3555,0.34912,0.31456
+1141,tent;drinking water,search and rescue team,blood collection center,heart medicine,power bank,psychological support team,0.52297,0.40974,0.38792,0.35516,0.35477
+1142,tent;sleeping bag,cold medicine,equipment for disabled people,fever reducer,blood collection center,painkiller,0.38773,0.35228,0.31746,0.3168,0.31357
+1148,fever reducer,fever reducer,painkiller,cold medicine,heart medicine,wet wipes,0.46135,0.45607,0.4188,0.4045,0.38021
+1149,hot meal;blanket,hot meal,heating stove,canned food,pots and pans,food,0.73374,0.58563,0.51799,0.48823,0.46547
+1152,search and rescue team,search and rescue team,psychological support team,blood collection center,electrical field team,medical team,0.7481,0.53089,0.51454,0.47066,0.46062
+1156,medicine;spare clothes,cold medicine,heart medicine,diaper,allergy medication,medical team,0.60637,0.5649,0.54781,0.53868,0.52019
+1160,hot meal,hot meal,heating stove,search and rescue team,canned food,psychological support team,0.57797,0.56745,0.47181,0.44531,0.43366
+1165,blood collection center;blanket;fever reducer,blood collection center,painkiller,heart medicine,cold medicine,fever reducer,0.41213,0.40364,0.39944,0.38078,0.36096
+1166,drinking water,painkiller,heart medicine,psychological support team,blood collection center,battery-powered radio,0.46492,0.41617,0.41452,0.41363,0.40053
+1170,mask;blanket,cold medicine,fever reducer,wet wipes,blood collection center,painkiller,0.64291,0.56776,0.51054,0.50593,0.4981
+1176,bread,cold medicine,dry food,pet food,sleeping bag,salt-free and sugar-free food,0.44472,0.42239,0.41434,0.41048,0.39422
+1184,baby formula,baby formula,baby bottle,search and rescue team,blood collection center,first aid kit,0.43314,0.36934,0.36797,0.34372,0.29941
+1186,generator,equipment for disabled people,search and rescue team,cold medicine,wet wipes,fever reducer,0.56691,0.42893,0.42305,0.39976,0.37986
+1188,power bank;pet food;tent,search and rescue team,pet food,blood collection center,cold medicine,painkiller,0.35685,0.29399,0.28629,0.27284,0.26806
+1195,gluten free food;hardware tools,cold medicine,blood collection center,psychological support team,painkiller,power bank,0.4996,0.48938,0.47916,0.46216,0.45733
+1212,baby formula,baby formula,baby bottle,blood collection center,psychological support team,first aid kit,0.65446,0.51302,0.45124,0.41725,0.40647
+1218,electric heater,fever reducer,equipment for disabled people,wet wipes,electric heater,battery-powered radio,0.30842,0.29162,0.25448,0.24122,0.22297
+1219,drinking water,drinking water,search and rescue team,wet wipes,blood collection center,heart medicine,0.53157,0.50645,0.40987,0.40829,0.40506
+1225,napkin,sanitary pad,toothpaste,wet wipes,heart medicine,diaper,0.54408,0.49149,0.48035,0.46349,0.45146
+1226,flashlight,cold medicine,baby bottle,battery-powered radio,baby formula,equipment for disabled people,0.40469,0.36636,0.36062,0.35607,0.35565
+1227,drinking water;search and rescue team,search and rescue team,blood collection center,wet wipes,heart medicine,cold medicine,0.52852,0.48147,0.39669,0.38857,0.38054
+1230,generator,power bank,psychological support team,asthma medicine,medical team,security forces,0.63015,0.61243,0.60949,0.57936,0.55253
+1231,food,equipment for disabled people,search and rescue team,pet food,fever reducer,cold medicine,0.48695,0.4256,0.41462,0.40637,0.39139
+1233,sleeping bag,cold medicine,blood collection center,sleeping bag,painkiller,fever reducer,0.57612,0.46984,0.44151,0.4242,0.41348
+1234,hot meal;lighting equipment,hot meal,baby formula,heating stove,gluten free food,pet food,0.61309,0.52818,0.52547,0.44609,0.44575
+1235,baby formula;spare clothes;equipment for disabled people,baby formula,blood collection center,search and rescue team,cold medicine,baby bottle,0.45632,0.41921,0.37751,0.34383,0.32533
+1241,generator;tent;pots and pans,cold medicine,blood collection center,painkiller,power bank,battery-powered radio,0.51278,0.4619,0.44678,0.42252,0.41946
+1242,medical team;pots and pans,heart medicine,medical team,painkiller,equipment for disabled people,psychological support team,0.53058,0.52317,0.46852,0.45536,0.45506
+1244,blanket,cold medicine,search and rescue team,blood collection center,equipment for disabled people,psychological support team,0.50581,0.39725,0.35984,0.34295,0.32893
+1247,cleaning product,sanitary pad,security forces,adhesive bandage,cleaning product,search and rescue team,0.61041,0.55818,0.54762,0.53668,0.5246
+1248,drinking water,search and rescue team,equipment for disabled people,wet wipes,cold medicine,pet food,0.36133,0.32802,0.31867,0.26833,0.25616
+1249,sanitary pad;cash;drinking water,drinking water,wet wipes,blood collection center,toothpaste,diaper,0.42257,0.39116,0.37578,0.34439,0.33476
+1250,medical team;adhesive bandage;search and rescue team,search and rescue team,blood collection center,heart medicine,medical team,painkiller,0.64908,0.49135,0.46814,0.45756,0.44562
+1252,bandage;security forces;portable toilet,search and rescue team,blood collection center,equipment for disabled people,painkiller,cold medicine,0.52258,0.49656,0.48244,0.4276,0.40751
+1253,drinking water;lighting equipment;power bank,cold medicine,equipment for disabled people,battery-powered radio,painkiller,sleeping bag,0.32969,0.32171,0.30772,0.30575,0.29031
+1254,antibiotic;insulin;sleeping bag,blood collection center,toothpaste,electric heater,oxygen concentrator,life jacket,0.34451,0.29153,0.28754,0.27807,0.27039
+1255,gluten free food;equipment for disabled people,cold medicine,painkiller,equipment for disabled people,heart medicine,fever reducer,0.44395,0.43733,0.40691,0.39081,0.38825
+1259,blanket;hot meal;baby formula,cold medicine,painkiller,equipment for disabled people,fever reducer,baby formula,0.47866,0.45496,0.4333,0.41414,0.3956
+1261,first aid kit;heating stove,painkiller,equipment for disabled people,fever reducer,wet wipes,blood collection center,0.5321,0.51405,0.49198,0.4904,0.46708
+1264,drinking water,napkin,salt-free and sugar-free food,cold medicine,sleeping bag,heart medicine,0.41176,0.40602,0.36768,0.36699,0.36697
+1266,power bank;generator,equipment for disabled people,battery-powered radio,search and rescue team,blood collection center,power bank,0.48331,0.465,0.46424,0.44943,0.44862
+1268,heart medicine;electric heater,heart medicine,pet food,search and rescue team,cold medicine,painkiller,0.35742,0.29858,0.2911,0.27776,0.25453
+1270,first aid kit,equipment for disabled people,adhesive bandage,medical team,search and rescue team,painkiller,0.56918,0.51701,0.51307,0.49898,0.47625
+1271,generator,battery-powered radio,power bank,electric heater,blood collection center,first aid kit,0.55469,0.53623,0.4705,0.4569,0.44307
+1272,drinking water;flashlight,equipment for disabled people,wet wipes,cold medicine,fever reducer,painkiller,0.4986,0.45475,0.43582,0.434,0.42638
+1274,pots and pans;napkin;coat,salt-free and sugar-free food,baby bottle,gluten free food,baby formula,napkin,0.50313,0.4781,0.43009,0.42394,0.3872
+1275,pots and pans,equipment for disabled people,heating stove,search and rescue team,blood collection center,wet wipes,0.43571,0.42473,0.42113,0.40241,0.39605
+1283,fever reducer;blood collection center,blood collection center,heart medicine,search and rescue team,medical team,first aid kit,0.51794,0.48813,0.47427,0.46541,0.44422
+1284,hot meal;cold medicine,psychological support team,heart medicine,blood collection center,baby formula,cold medicine,0.39804,0.37701,0.37263,0.35712,0.33982
+1299,medicine;drinking water,heart medicine,wet wipes,drinking water,diaper,medical team,0.46938,0.45429,0.43788,0.4333,0.42151
+1300,wet wipes,cold medicine,wet wipes,equipment for disabled people,diaper,spare clothes,0.59293,0.59115,0.5578,0.52134,0.52047
+1301,cash,search and rescue team,blood collection center,first aid kit,psychological support team,asthma medicine,0.43434,0.3873,0.34169,0.33852,0.32911
+1305,drinking water;portable toilet,equipment for disabled people,blood collection center,search and rescue team,painkiller,wet wipes,0.42693,0.42483,0.38239,0.38194,0.36932
+1319,fever reducer,painkiller,fever reducer,blood collection center,heart medicine,cold medicine,0.43534,0.40095,0.4006,0.40023,0.39298
+1331,medical team,painkiller,search and rescue team,equipment for disabled people,blood collection center,heart medicine,0.46695,0.43957,0.42658,0.415,0.41432
+1332,medical team,medical team,heart medicine,asthma medicine,blood collection center,allergy medication,0.51152,0.48974,0.45699,0.45153,0.42794
+1335,toothpaste,toothpaste,blood collection center,toothbrush,wet wipes,adhesive bandage,0.53596,0.47743,0.44571,0.43316,0.40272
+1338,food,painkiller,equipment for disabled people,fever reducer,pet food,cold medicine,0.60212,0.58169,0.56316,0.52154,0.50876
+1339,mask,adhesive bandage,allergy medication,bandage,security forces,painkiller,0.59143,0.58096,0.52461,0.51537,0.51476
+1342,fever reducer;soap,search and rescue team,blood collection center,heart medicine,wet wipes,medical team,0.45298,0.44883,0.43054,0.42605,0.42391
+1344,search and rescue team,search and rescue team,equipment for disabled people,blood collection center,medical team,heart medicine,0.3798,0.36009,0.29986,0.29844,0.29512
+1345,bread;portable toilet,pet food,baby formula,canned food,diaper,salt-free and sugar-free food,0.50543,0.44968,0.41877,0.39866,0.39693
+1347,fever reducer,cold medicine,fever reducer,wet wipes,painkiller,heart medicine,0.52547,0.47576,0.4625,0.46227,0.44669
+1350,power bank;wet wipes,equipment for disabled people,cold medicine,baby bottle,baby formula,salt-free and sugar-free food,0.39699,0.37639,0.35249,0.30411,0.30168
+1351,electric heater;food,heating stove,salt-free and sugar-free food,electric heater,gluten free food,cold medicine,0.50898,0.4091,0.40119,0.35931,0.35545
+1356,canned food;hot meal,hot meal,heating stove,canned food,food,pet food,0.53704,0.48763,0.46598,0.43464,0.42822
+1357,salt-free and sugar-free food;diaper;psychological support team,salt-free and sugar-free food,gluten free food,baby formula,baby bottle,toothpaste,0.63907,0.49944,0.40179,0.35543,0.35317
+1360,drinking water,wet wipes,search and rescue team,blood collection center,cold medicine,fever reducer,0.36499,0.33473,0.31232,0.27058,0.26832
+1366,adhesive bandage,adhesive bandage,cold medicine,bandage,equipment for disabled people,blood collection center,0.60507,0.58434,0.55149,0.54392,0.53123
+1367,coat,cold medicine,blood collection center,hardware tools,painkiller,equipment for disabled people,0.64683,0.53226,0.49199,0.49004,0.4813
+1369,medicine,equipment for disabled people,painkiller,cold medicine,blood collection center,psychological support team,0.58222,0.52932,0.49639,0.47671,0.47521
+1372,container housing;bread;cold medicine,cold medicine,blood collection center,bread,power bank,baby formula,0.60705,0.51773,0.39466,0.38487,0.37249
+1381,cleaning product,cold medicine,blood collection center,heart medicine,search and rescue team,equipment for disabled people,0.55662,0.50328,0.47482,0.47285,0.44849
+1384,medical team,search and rescue team,medical team,heart medicine,psychological support team,blood collection center,0.54167,0.47275,0.46715,0.44927,0.3965
+1391,first aid kit,blood collection center,painkiller,medical team,psychological support team,equipment for disabled people,0.56633,0.55841,0.54506,0.53502,0.52966
+1393,bandage,search and rescue team,psychological support team,heart medicine,medical team,blood collection center,0.59664,0.50864,0.50539,0.50358,0.50276
+1395,life jacket,search and rescue team,blood collection center,painkiller,fever reducer,battery-powered radio,0.52509,0.44207,0.43174,0.42713,0.41045
+1396,medicine,equipment for disabled people,cold medicine,search and rescue team,blood collection center,painkiller,0.52352,0.41701,0.40695,0.39621,0.37871
+1397,asthma medicine,heart medicine,search and rescue team,blood collection center,battery-powered radio,painkiller,0.32443,0.30531,0.28075,0.27063,0.2704
+1400,diaper;lantern,blood collection center,search and rescue team,fever reducer,first aid kit,painkiller,0.51608,0.50723,0.50582,0.49469,0.48574
+1406,cleaning product,heart medicine,wet wipes,search and rescue team,adhesive bandage,cold medicine,0.52094,0.51713,0.51003,0.50884,0.50809
+1407,fever reducer;hot meal,heart medicine,painkiller,medical team,psychological support team,blood collection center,0.49112,0.47292,0.46787,0.46223,0.45723
+1409,cleaning product,cold medicine,blood collection center,search and rescue team,wet wipes,equipment for disabled people,0.46353,0.42984,0.39028,0.37717,0.354
+1411,pet food;sleeping bag,heart medicine,cold medicine,pet food,sleeping bag,battery-powered radio,0.41055,0.39304,0.3793,0.34588,0.34199
+1412,soap,search and rescue team,wet wipes,blood collection center,diaper,drinking water,0.49731,0.46693,0.44071,0.41745,0.41416
+1413,life jacket;fever reducer,blood collection center,heart medicine,painkiller,psychological support team,search and rescue team,0.50653,0.48394,0.45617,0.45287,0.42848
+1416,asthma medicine,heart medicine,allergy medication,medical team,baby formula,asthma medicine,0.39517,0.37961,0.36371,0.3542,0.34779
+1421,fever reducer;power bank,equipment for disabled people,painkiller,battery-powered radio,blood collection center,heating stove,0.47289,0.4222,0.38946,0.38307,0.35347
+1422,power bank;drinking water,drinking water,diaper,allergy medication,medical team,search and rescue team,0.55563,0.46709,0.4622,0.4348,0.43132
+1424,flashlight,equipment for disabled people,cold medicine,fever reducer,bandage,painkiller,0.49307,0.48713,0.47283,0.46881,0.44745
+1425,drinking water;medical team,search and rescue team,medical team,heart medicine,drinking water,blood collection center,0.55287,0.49601,0.47176,0.47107,0.45983
+1427,drinking water,drinking water,baby formula,heart medicine,asthma medicine,allergy medication,0.49604,0.45414,0.42385,0.41716,0.41015
+1429,cleaning product;napkin,blood collection center,search and rescue team,heating stove,toothpaste,wet wipes,0.40577,0.39195,0.39039,0.38071,0.37904
+1438,coat,cold medicine,wet wipes,fever reducer,blood collection center,painkiller,0.44134,0.42303,0.37192,0.36698,0.33631
+1440,dry food,fever reducer,cold medicine,painkiller,wet wipes,heating stove,0.33245,0.31966,0.31559,0.31523,0.2947
+1441,mask,equipment for disabled people,baby bottle,cold medicine,baby formula,blood collection center,0.47346,0.45045,0.44912,0.44572,0.43481
+1443,wet wipes;baby formula,toothpaste,baby formula,blood collection center,toothbrush,baby bottle,0.52231,0.52179,0.50236,0.43714,0.40376
+1444,spare clothes,salt-free and sugar-free food,cold medicine,toothpaste,gluten free food,blood collection center,0.49685,0.48801,0.43664,0.43111,0.4221
+1447,generator;drinking water,cold medicine,painkiller,equipment for disabled people,fever reducer,wet wipes,0.56961,0.55885,0.53503,0.53252,0.49188
+1455,generator,dry food,salt-free and sugar-free food,gluten free food,sleeping bag,napkin,0.60235,0.53914,0.49406,0.48049,0.47742
+1461,food;tent;hot meal,heating stove,hot meal,canned food,pet food,food,0.56849,0.56238,0.49683,0.4484,0.44058
+1462,food,equipment for disabled people,search and rescue team,canned food,pet food,fever reducer,0.51837,0.46436,0.4181,0.41084,0.39834
+1466,cash,blood collection center,hardware tools,wet wipes,toothbrush,cold medicine,0.47064,0.40726,0.4014,0.39951,0.3994
+1479,tent,equipment for disabled people,search and rescue team,pet food,sleeping bag,napkin,0.50625,0.45038,0.38575,0.37129,0.36121
+1483,search and rescue team,search and rescue team,blood collection center,wet wipes,cold medicine,painkiller,0.37425,0.36884,0.29555,0.2776,0.27476
+1484,kitchenware,search and rescue team,heating stove,blood collection center,canned food,pet food,0.46549,0.44794,0.444,0.43499,0.38905
+1485,spare clothes;search and rescue team,cold medicine,blood collection center,search and rescue team,equipment for disabled people,power bank,0.48395,0.48042,0.47062,0.41339,0.40902
+1493,search and rescue team,blood collection center,cold medicine,search and rescue team,equipment for disabled people,heart medicine,0.45003,0.43646,0.43639,0.43405,0.42972
+1496,toothpaste,toothpaste,wet wipes,blood collection center,search and rescue team,heart medicine,0.37216,0.36808,0.33302,0.32422,0.29685
+1500,diaper,search and rescue team,pet food,psychological support team,container housing,blood collection center,0.54586,0.4301,0.42049,0.41167,0.40295
+1501,blanket,cold medicine,wet wipes,search and rescue team,diaper,blood collection center,0.41345,0.40221,0.35716,0.31125,0.30683
+1506,drinking water;volunteers,blood collection center,search and rescue team,heating stove,power bank,wet wipes,0.42696,0.37282,0.34982,0.34209,0.32665
+1508,blood,heart medicine,medical team,painkiller,search and rescue team,equipment for disabled people,0.55156,0.54041,0.53743,0.52414,0.50947
+1509,antibiotic,search and rescue team,blood collection center,medical team,adhesive bandage,equipment for disabled people,0.54083,0.51455,0.45306,0.43486,0.43235
+1510,insulin,blood collection center,cold medicine,painkiller,search and rescue team,heart medicine,0.40537,0.38211,0.37264,0.36311,0.36262
+1511,lighting equipment,electric heater,battery-powered radio,cold medicine,salt-free and sugar-free food,power bank,0.3681,0.33547,0.29303,0.28764,0.28445
+1512,power bank;generator,search and rescue team,equipment for disabled people,cold medicine,battery-powered radio,blood collection center,0.43129,0.41108,0.3657,0.34682,0.3392
+1513,flashlight;drinking water,equipment for disabled people,drinking water,heart medicine,wet wipes,cold medicine,0.56819,0.562,0.54839,0.53145,0.51692
+1520,coat;salt-free and sugar-free food,salt-free and sugar-free food,cold medicine,gluten free food,heart medicine,blood collection center,0.54968,0.51049,0.44993,0.44555,0.41375
+1521,cold medicine;sanitary pad,heart medicine,cold medicine,blood collection center,psychological support team,toothpaste,0.54967,0.54624,0.51967,0.51033,0.44497
+1524,blanket,cold medicine,blood collection center,wet wipes,search and rescue team,first aid kit,0.57255,0.47616,0.45482,0.43497,0.42047
+1526,pet food,pet food,equipment for disabled people,painkiller,napkin,canned food,0.59615,0.36377,0.35441,0.35041,0.34901
+1527,bandage,equipment for disabled people,heart medicine,painkiller,cold medicine,blood collection center,0.42064,0.40614,0.39043,0.36437,0.33348
+1528,napkin;medical team,heart medicine,medical team,painkiller,blood collection center,psychological support team,0.55005,0.54121,0.51957,0.4938,0.4697
+1529,napkin,cold medicine,blood collection center,wet wipes,toothpaste,heart medicine,0.61124,0.5958,0.5835,0.57728,0.54656
+1531,kitchenware;spare clothes,cold medicine,salt-free and sugar-free food,wet wipes,sanitary pad,diaper,0.41739,0.33291,0.33181,0.31043,0.30607
+1532,napkin,salt-free and sugar-free food,toothpaste,baby bottle,gluten free food,diaper,0.52303,0.41369,0.40462,0.3954,0.3834
+1533,toothpaste,wet wipes,toothpaste,blood collection center,heart medicine,painkiller,0.58548,0.57333,0.56185,0.55757,0.55082
+1535,batteries,equipment for disabled people,cold medicine,search and rescue team,battery-powered radio,sleeping bag,0.48427,0.44292,0.39634,0.35789,0.34767
+1536,toothpaste,toothpaste,blood collection center,psychological support team,search and rescue team,diaper,0.62227,0.59464,0.54137,0.53263,0.51382
+1537,medicine;first aid kit,heart medicine,psychological support team,allergy medication,asthma medicine,medical team,0.4897,0.43928,0.43869,0.42408,0.41116
+1540,electric heater,cold medicine,electric heater,heating stove,equipment for disabled people,blood collection center,0.44687,0.44058,0.3715,0.34108,0.33964
+1541,first aid kit;search and rescue team,search and rescue team,equipment for disabled people,blood collection center,cold medicine,heart medicine,0.43773,0.40705,0.37604,0.37599,0.36337
+1544,bread,cold medicine,equipment for disabled people,blood collection center,pet food,baby formula,0.48268,0.42543,0.41084,0.36767,0.35375
+1545,coat;medicine,blood collection center,cold medicine,painkiller,heart medicine,psychological support team,0.39686,0.37047,0.33298,0.32589,0.32252
+1547,tent;drinking water;children's playground,cold medicine,search and rescue team,blood collection center,psychological support team,heart medicine,0.41219,0.34852,0.34687,0.30519,0.29062
+1551,food,hot meal,pet food,canned food,heating stove,salt-free and sugar-free food,0.33412,0.33017,0.31035,0.30023,0.29587
+1553,pet food;wet wipes;toothbrush,pet food,baby formula,toothpaste,blood collection center,toothbrush,0.51601,0.47785,0.46014,0.44488,0.41792
+1559,portable toilet,gluten free food,salt-free and sugar-free food,napkin,blood collection center,wet wipes,0.37794,0.36622,0.35037,0.31903,0.30787
+1561,dry food,dry food,diaper,pet food,equipment for disabled people,wet wipes,0.48855,0.4559,0.44167,0.43786,0.43241
+1565,salt-free and sugar-free food;generator,salt-free and sugar-free food,gluten free food,baby formula,baby bottle,first aid kit,0.57637,0.52226,0.48822,0.45713,0.38266
+1570,baby bottle,baby bottle,baby formula,napkin,sleeping bag,blanket,0.51314,0.48433,0.43949,0.43527,0.40537
+1576,diaper,baby formula,baby bottle,blood collection center,children's playground,diaper,0.70959,0.5998,0.50746,0.50055,0.48546
+1581,cleaning product,equipment for disabled people,cold medicine,heart medicine,painkiller,fever reducer,0.56331,0.51949,0.5104,0.49683,0.4913
+1582,psychological support team;oxygen concentrator;batteries,equipment for disabled people,cold medicine,search and rescue team,painkiller,heart medicine,0.45483,0.40334,0.38055,0.36774,0.36173
+1583,pots and pans;oxygen concentrator,heating stove,blood collection center,psychological support team,pots and pans,kitchenware,0.57982,0.4879,0.48743,0.48328,0.47081
+1595,cleaning product,cold medicine,blood collection center,painkiller,wet wipes,fever reducer,0.36322,0.34649,0.3368,0.33637,0.33068
+1600,life jacket,search and rescue team,equipment for disabled people,blood collection center,cold medicine,painkiller,0.51138,0.46242,0.37141,0.34253,0.33906
+1603,container housing;blood,painkiller,equipment for disabled people,blood collection center,search and rescue team,fever reducer,0.41269,0.4058,0.39242,0.35512,0.34064
+1622,psychological support team,equipment for disabled people,painkiller,search and rescue team,cold medicine,fever reducer,0.49215,0.42647,0.41709,0.3919,0.38628
+1634,food;volunteers,wet wipes,blood collection center,equipment for disabled people,heating stove,fever reducer,0.37699,0.35628,0.35379,0.35152,0.34132
+1637,generator,power bank,battery-powered radio,electric heater,painkiller,fever reducer,0.59608,0.5762,0.56806,0.55329,0.55073
+1652,batteries,search and rescue team,equipment for disabled people,battery-powered radio,fever reducer,cold medicine,0.2959,0.2816,0.25012,0.23442,0.216
+1666,sleeping bag;mask,sleeping bag,search and rescue team,blood collection center,baby formula,heart medicine,0.59221,0.5007,0.46377,0.4596,0.44791
+1678,pots and pans,salt-free and sugar-free food,gluten free food,heating stove,dry food,pet food,0.38254,0.37523,0.32239,0.31219,0.3099
+1680,first aid kit;volunteers,search and rescue team,first aid kit,equipment for disabled people,medical team,painkiller,0.56099,0.53111,0.46475,0.432,0.41965
+1684,spare clothes;lantern,sleeping bag,cold medicine,napkin,equipment for disabled people,wet wipes,0.47749,0.44,0.42819,0.37857,0.34842
+1688,blood,blood collection center,medical team,psychological support team,heart medicine,search and rescue team,0.69228,0.58873,0.55784,0.53747,0.51301
+1689,bread;hot meal,salt-free and sugar-free food,gluten free food,dry food,cold medicine,bread,0.47204,0.41565,0.36773,0.33555,0.32974
+1695,coat,cold medicine,equipment for disabled people,dry food,blood collection center,napkin,0.6106,0.51221,0.43224,0.43185,0.42748
+1700,psychological support team,psychological support team,blood collection center,painkiller,heart medicine,medical team,0.49923,0.4574,0.42904,0.41274,0.40815
+1703,life jacket;insulin,search and rescue team,blood collection center,heart medicine,cold medicine,painkiller,0.39848,0.34189,0.34133,0.33029,0.29044
+1708,hot meal,hot meal,power bank,heart medicine,asthma medicine,medical team,0.4197,0.35726,0.33437,0.32045,0.3174
+1715,wet wipes,equipment for disabled people,napkin,wet wipes,cold medicine,sleeping bag,0.52504,0.43769,0.42441,0.41583,0.41001
+1716,hot meal;medicine,hot meal,heating stove,medical team,medicine,canned food,0.73511,0.58096,0.55853,0.51594,0.49822
+1720,blanket,cold medicine,blood collection center,psychological support team,search and rescue team,heart medicine,0.63313,0.50242,0.46018,0.44735,0.43659
+1736,spare clothes,search and rescue team,cold medicine,equipment for disabled people,blood collection center,wet wipes,0.57568,0.52369,0.50801,0.49751,0.48467
+1739,sanitary pad;electric heater,cold medicine,search and rescue team,heart medicine,blood collection center,psychological support team,0.39728,0.36859,0.34594,0.34475,0.32542
+1740,toothpaste;coat,blood collection center,cold medicine,toothpaste,baby formula,salt-free and sugar-free food,0.40401,0.40288,0.33845,0.33236,0.29277
+1742,container housing;salt-free and sugar-free food,heart medicine,salt-free and sugar-free food,power bank,pet food,cold medicine,0.41431,0.36802,0.34709,0.33569,0.33475
+1747,psychological support team,equipment for disabled people,wet wipes,cold medicine,fever reducer,blood collection center,0.33773,0.31748,0.31654,0.30671,0.3049
+1751,hot meal,salt-free and sugar-free food,gluten free food,dry food,cold medicine,pet food,0.46439,0.40842,0.35428,0.34512,0.31684
+1755,electric heater,electric heater,cold medicine,equipment for disabled people,heating stove,battery-powered radio,0.42391,0.39664,0.39575,0.3571,0.35406
+1760,hot meal,baby formula,gluten free food,salt-free and sugar-free food,heating stove,blood collection center,0.40894,0.39404,0.38656,0.37376,0.36439
+1762,hot meal,heating stove,psychological support team,hot meal,canned food,pots and pans,0.51922,0.50041,0.49645,0.46529,0.45477
+1764,drinking water;generator,napkin,blanket,dry food,equipment for disabled people,wet wipes,0.5448,0.51538,0.51361,0.48432,0.48346
+1765,toothbrush,toothpaste,blood collection center,wet wipes,cold medicine,painkiller,0.51513,0.51465,0.50421,0.48197,0.47362
+1768,dry food,search and rescue team,wet wipes,pet food,diaper,medical team,0.33248,0.32436,0.32116,0.31367,0.31254
+1771,adhesive bandage;batteries,cold medicine,baby bottle,equipment for disabled people,blood collection center,baby formula,0.44763,0.43811,0.43517,0.41068,0.37793
+1772,food,search and rescue team,canned food,pet food,salt-free and sugar-free food,heating stove,0.37742,0.36352,0.29789,0.29216,0.28446
+1776,volunteers;tent;baby formula,baby formula,blood collection center,baby bottle,search and rescue team,pet food,0.39532,0.32332,0.31793,0.28782,0.27861
+1782,mask,equipment for disabled people,sleeping bag,cold medicine,napkin,fever reducer,0.5954,0.49583,0.48846,0.47532,0.45977
+1790,dry food;psychological support team,search and rescue team,cold medicine,equipment for disabled people,painkiller,pet food,0.35928,0.35419,0.35157,0.32923,0.31556
+1791,batteries;pet food,pet food,food,canned food,painkiller,psychological support team,0.71105,0.52363,0.51828,0.49493,0.48673
+1798,salt-free and sugar-free food;medicine,salt-free and sugar-free food,baby formula,cold medicine,heart medicine,blood collection center,0.5272,0.45466,0.454,0.45387,0.43678
+1800,generator,equipment for disabled people,cold medicine,blood collection center,battery-powered radio,search and rescue team,0.36885,0.32438,0.31512,0.30299,0.285
+1805,drinking water,baby bottle,cold medicine,wet wipes,blood collection center,baby formula,0.3216,0.30429,0.29625,0.2961,0.2794
+1806,spare clothes;tent;wet wipes,diaper,wet wipes,adhesive bandage,search and rescue team,drinking water,0.61723,0.61559,0.56317,0.55223,0.51402
+1808,container housing,blood collection center,cold medicine,search and rescue team,painkiller,fever reducer,0.42745,0.42191,0.40437,0.37895,0.36381
+1809,drinking water;search and rescue team,search and rescue team,salt-free and sugar-free food,baby formula,baby bottle,blood collection center,0.34723,0.27561,0.21899,0.20404,0.1942
+1811,coat,blood collection center,cold medicine,wet wipes,heating stove,toothpaste,0.29794,0.29514,0.24823,0.23933,0.21028
+1815,batteries;psychological support team,cold medicine,equipment for disabled people,painkiller,fever reducer,search and rescue team,0.37657,0.37444,0.36356,0.34948,0.32984
+1816,oxygen concentrator,equipment for disabled people,sleeping bag,cold medicine,painkiller,fever reducer,0.59694,0.44466,0.41046,0.4012,0.38395
+1819,adhesive bandage,heart medicine,psychological support team,blood collection center,cold medicine,search and rescue team,0.45136,0.41229,0.40645,0.40451,0.39519
+1823,interpreter;tent,container housing,search and rescue team,psychological support team,power bank,volunteers,0.57174,0.52693,0.52113,0.51333,0.47124
+1825,gluten free food;baby bottle;spare clothes,salt-free and sugar-free food,gluten free food,blood collection center,heart medicine,power bank,0.4088,0.37078,0.36243,0.34768,0.33788
+1828,tent,blood collection center,search and rescue team,heart medicine,cold medicine,psychological support team,0.3727,0.36655,0.34809,0.34459,0.31933
+1831,mask,search and rescue team,blood collection center,toothpaste,medical team,life jacket,0.36839,0.30287,0.29339,0.29069,0.28898
+1833,power bank;medicine,battery-powered radio,power bank,electric heater,blood collection center,oxygen concentrator,0.57521,0.53895,0.53544,0.48353,0.46869
+1836,psychological support team;medicine,heart medicine,psychological support team,painkiller,cold medicine,blood collection center,0.50328,0.43075,0.42036,0.40395,0.37278
+1837,kitchenware;sanitary pad,kitchenware,heating stove,blood collection center,baby formula,toothpaste,0.54347,0.52256,0.49734,0.48501,0.47808
+1839,tent,cold medicine,blood collection center,search and rescue team,equipment for disabled people,sleeping bag,0.63029,0.47256,0.41312,0.40418,0.38095
+1840,diaper;fever reducer;food,search and rescue team,blood collection center,salt-free and sugar-free food,heart medicine,sleeping bag,0.34403,0.32472,0.28662,0.28295,0.27871
+1841,container housing;interpreter;sleeping bag,search and rescue team,sleeping bag,blood collection center,fever reducer,battery-powered radio,0.36421,0.29859,0.24141,0.22882,0.21883
+1846,oxygen concentrator;tent,search and rescue team,heart medicine,electrical field team,pet food,power bank,0.27971,0.2644,0.25217,0.23301,0.22331
+1849,search and rescue team;drinking water,search and rescue team,drinking water,blood collection center,wet wipes,diaper,0.58657,0.42412,0.41117,0.39607,0.37217
+1857,baby formula,baby formula,blood collection center,baby bottle,first aid kit,psychological support team,0.57999,0.44852,0.40423,0.39057,0.38783
+1859,life jacket;power bank,search and rescue team,blood collection center,equipment for disabled people,battery-powered radio,cold medicine,0.49092,0.34198,0.33059,0.29774,0.25929
+1862,coat,cold medicine,equipment for disabled people,baby bottle,wet wipes,spare clothes,0.53561,0.49487,0.47104,0.45984,0.45617
+1864,batteries,equipment for disabled people,sleeping bag,cold medicine,napkin,battery-powered radio,0.48709,0.47304,0.37854,0.3702,0.34955
+1867,oxygen concentrator,equipment for disabled people,cold medicine,heart medicine,blood collection center,sleeping bag,0.54424,0.52223,0.48299,0.45988,0.4398
+1869,first aid kit;baby formula;toothpaste,toothpaste,baby formula,blood collection center,psychological support team,first aid kit,0.4442,0.42499,0.41973,0.40196,0.39363
+1870,sanitary pad,search and rescue team,blood collection center,baby formula,salt-free and sugar-free food,wet wipes,0.3545,0.3334,0.32784,0.306,0.30078
+1871,pet food,pet food,sleeping bag,dry food,search and rescue team,heart medicine,0.50766,0.26194,0.26034,0.25286,0.25155
+1872,pet food;flashlight,pet food,equipment for disabled people,search and rescue team,painkiller,cold medicine,0.48374,0.44514,0.41466,0.39309,0.38113
+1878,sanitary pad;lighting equipment,wet wipes,drinking water,diaper,search and rescue team,electric heater,0.35629,0.35575,0.34391,0.33621,0.33489
+1883,hardware tools;heart medicine,heart medicine,blood collection center,search and rescue team,cold medicine,battery-powered radio,0.2966,0.27722,0.27509,0.21762,0.21134
+1884,power bank;lighting equipment,equipment for disabled people,cold medicine,search and rescue team,battery-powered radio,blood collection center,0.45973,0.39766,0.34293,0.33785,0.32347
+1886,hot meal,hot meal,painkiller,heating stove,search and rescue team,canned food,0.46594,0.44002,0.40689,0.40575,0.38594
+1888,flashlight,equipment for disabled people,cold medicine,battery-powered radio,psychological support team,sleeping bag,0.57838,0.51765,0.49841,0.49612,0.4932
+1889,bandage;napkin,equipment for disabled people,wet wipes,search and rescue team,painkiller,fever reducer,0.39321,0.39132,0.37944,0.3595,0.35431
+1893,blanket,cold medicine,equipment for disabled people,search and rescue team,sleeping bag,wet wipes,0.37527,0.32649,0.28106,0.26907,0.26597
+1894,security forces,search and rescue team,equipment for disabled people,blood collection center,painkiller,psychological support team,0.45974,0.42059,0.36783,0.35044,0.34751
+1896,dry food;medical team;lantern,search and rescue team,blood collection center,heating stove,pet food,heart medicine,0.47577,0.39278,0.38952,0.36384,0.35856
+1899,toothpaste,cold medicine,painkiller,equipment for disabled people,fever reducer,blood collection center,0.51288,0.50446,0.47202,0.46335,0.46158
+1903,volunteers;firewood,search and rescue team,heating stove,blood collection center,cold medicine,firewood,0.42668,0.38184,0.36087,0.35027,0.33492
+1905,bread;soap,cold medicine,blood collection center,painkiller,fever reducer,search and rescue team,0.40437,0.38801,0.38445,0.37743,0.3748
+1907,fever reducer,painkiller,heart medicine,medical team,wet wipes,fever reducer,0.47539,0.47116,0.43973,0.41806,0.41729
+1908,coat;first aid kit,blood collection center,cold medicine,search and rescue team,first aid kit,wet wipes,0.43274,0.43022,0.42794,0.38795,0.34635
+1911,search and rescue team,search and rescue team,blood collection center,heating stove,psychological support team,equipment for disabled people,0.50898,0.38303,0.37361,0.33667,0.32066
+1913,antibiotic,painkiller,heart medicine,medical team,psychological support team,blood collection center,0.50678,0.50157,0.45912,0.44423,0.43507
+1917,heart medicine,equipment for disabled people,heart medicine,sleeping bag,cold medicine,psychological support team,0.49281,0.47608,0.44504,0.43169,0.4124
+1919,blanket;search and rescue team,cold medicine,blood collection center,equipment for disabled people,wet wipes,painkiller,0.65479,0.51671,0.51191,0.43349,0.43187
+1921,toothpaste;generator;allergy medication,allergy medication,toothpaste,heart medicine,cold medicine,painkiller,0.50368,0.4901,0.46736,0.46359,0.41747
+1923,kitchenware,heating stove,kitchenware,pots and pans,blood collection center,hot meal,0.63574,0.56035,0.55947,0.52218,0.49165
+1927,hot meal;spare clothes,hot meal,heating stove,salt-free and sugar-free food,wet wipes,gluten free food,0.47932,0.35939,0.34001,0.28673,0.28301
+1930,adhesive bandage,adhesive bandage,heart medicine,painkiller,blood collection center,bandage,0.63663,0.5702,0.52183,0.51897,0.5097
+1932,dry food,dry food,hot meal,wet wipes,gluten free food,salt-free and sugar-free food,0.43866,0.42444,0.42069,0.41011,0.39557
+1934,baby bottle,baby bottle,baby formula,cold medicine,wet wipes,painkiller,0.5203,0.45423,0.43086,0.42416,0.40576
+1938,cleaning product,cold medicine,blood collection center,wet wipes,equipment for disabled people,search and rescue team,0.44147,0.43559,0.43128,0.42487,0.40542
+1939,bread,heating stove,blood collection center,salt-free and sugar-free food,cold medicine,pet food,0.29961,0.28705,0.25497,0.23833,0.23586
+1941,oxygen concentrator,blood collection center,medical team,antibiotic,heart medicine,psychological support team,0.56895,0.5549,0.553,0.5529,0.54851
+1947,medical team,search and rescue team,medical team,first aid kit,psychological support team,equipment for disabled people,0.6358,0.49904,0.45264,0.4378,0.43589
+1953,adhesive bandage,painkiller,blood collection center,equipment for disabled people,medical team,wet wipes,0.44367,0.43595,0.41712,0.38516,0.37825
+1954,toothpaste,wet wipes,toothpaste,diaper,painkiller,heart medicine,0.52582,0.4956,0.44924,0.43646,0.43069
+1959,cleaning product;electric heater,heating stove,cold medicine,blood collection center,search and rescue team,battery-powered radio,0.34908,0.3413,0.31432,0.30859,0.29585
+1966,wet wipes;food,wet wipes,diaper,heating stove,search and rescue team,first aid kit,0.60834,0.56046,0.48947,0.48848,0.47975
+1967,heating stove,search and rescue team,heart medicine,salt-free and sugar-free food,cold medicine,psychological support team,0.31491,0.29165,0.28155,0.26702,0.25745
+1970,coat,cold medicine,blood collection center,baby formula,first aid kit,wet wipes,0.50591,0.49014,0.42447,0.37497,0.3461
+1975,drinking water,wet wipes,fever reducer,search and rescue team,drinking water,cold medicine,0.54148,0.50303,0.48768,0.48045,0.47805
+1979,cold medicine;tent;children's playground,cold medicine,psychological support team,heart medicine,painkiller,blood collection center,0.55275,0.47457,0.46641,0.4474,0.44592
+1982,bread,salt-free and sugar-free food,gluten free food,blood collection center,baby formula,cold medicine,0.39963,0.36411,0.36247,0.35123,0.33718
+1986,sleeping bag,cold medicine,blood collection center,security forces,hardware tools,adhesive bandage,0.49243,0.38122,0.3363,0.32768,0.31981
+1988,napkin;baby formula,wet wipes,cold medicine,painkiller,equipment for disabled people,fever reducer,0.51897,0.50606,0.49387,0.46726,0.45958
+1999,electric heater;tent,electric heater,battery-powered radio,heating stove,hot meal,electrical field team,0.36968,0.30205,0.27584,0.2617,0.26051

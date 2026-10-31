@@ -1,0 +1,618 @@
+﻿id,gercek,top1,top2,top3,top4,top5,s1,s2,s3,s4,s5
+1,coat,cold medicine,equipment for disabled people,blood collection center,coat,allergy medication,0.62116,0.33508,0.33384,0.33277,0.31275
+3,medicine,medical team,first aid kit,heart medicine,medicine,asthma medicine,0.64847,0.5734,0.54975,0.52519,0.52402
+4,bandage,blood,equipment for disabled people,painkiller,cold medicine,blood collection center,0.50957,0.49178,0.45579,0.45258,0.43805
+6,soap,blood collection center,sanitary pad,antibiotic,toothpaste,wet wipes,0.43913,0.41109,0.3905,0.3823,0.37688
+9,lantern,battery-powered radio,power bank,baby formula,heart medicine,blood collection center,0.28521,0.26312,0.25908,0.25794,0.25404
+12,life jacket,search and rescue team,first aid kit,life jacket,asthma medicine,antibiotic,0.53278,0.44619,0.43776,0.4055,0.40321
+13,search and rescue team,equipment for disabled people,search and rescue team,cold medicine,blood,blood collection center,0.36448,0.2676,0.2323,0.22141,0.21876
+14,baby formula;security forces,baby formula,allergy medication,blood collection center,equipment for disabled people,search and rescue team,0.4791,0.42036,0.41933,0.37421,0.34275
+16,medical team,equipment for disabled people,painkiller,cold medicine,blood,allergy medication,0.44345,0.34204,0.33546,0.33423,0.33074
+21,medicine,heart medicine,medical team,baby formula,blood collection center,medicine,0.49532,0.48782,0.47312,0.45473,0.44439
+27,dry food,gluten free food,salt-free and sugar-free food,toothpaste,allergy medication,bread,0.50812,0.4636,0.40434,0.33351,0.32638
+28,oxygen concentrator,equipment for disabled people,cold medicine,heart medicine,asthma medicine,battery-powered radio,0.36126,0.30116,0.28004,0.26441,0.26229
+29,bread;baby formula;soap,gluten free food,salt-free and sugar-free food,toothpaste,hot meal,bread,0.40209,0.37181,0.3459,0.29773,0.29297
+30,life jacket,search and rescue team,equipment for disabled people,life jacket,first aid kit,blood,0.44115,0.35344,0.3374,0.32614,0.31909
+31,children's playground,equipment for disabled people,baby formula,baby bottle,children's playground,allergy medication,0.33405,0.32257,0.29023,0.27252,0.23199
+33,medical team;generator;coat,cold medicine,first aid kit,asthma medicine,search and rescue team,blood collection center,0.52428,0.4581,0.45272,0.44756,0.43277
+36,drinking water,gluten free food,dry food,drinking water,portable toilet,salt-free and sugar-free food,0.4113,0.38952,0.36376,0.34794,0.3289
+38,blanket,baby formula,battery-powered radio,pet food,blood collection center,search and rescue team,0.40155,0.38229,0.35349,0.32585,0.32369
+42,medical team,medical team,allergy medication,equipment for disabled people,heart medicine,blood,0.49485,0.44793,0.43811,0.43465,0.42426
+49,medicine,allergy medication,asthma medicine,antibiotic,baby formula,blood collection center,0.54698,0.46732,0.46292,0.46262,0.45614
+55,search and rescue team,search and rescue team,first aid kit,medical team,psychological support team,allergy medication,0.58973,0.49193,0.43895,0.42703,0.42643
+61,fever reducer,fever reducer,cold medicine,equipment for disabled people,allergy medication,asthma medicine,0.56142,0.55631,0.47876,0.44751,0.44495
+62,volunteers,search and rescue team,first aid kit,volunteers,medical team,allergy medication,0.51638,0.44548,0.38608,0.35318,0.33924
+63,drinking water;coat;insulin,gluten free food,salt-free and sugar-free food,toothpaste,drinking water,insulin,0.54263,0.50361,0.46638,0.44809,0.43345
+66,dry food,gluten free food,salt-free and sugar-free food,pet food,dry food,canned food,0.55284,0.43145,0.42121,0.40677,0.3342
+67,search and rescue team,search and rescue team,equipment for disabled people,blood collection center,firewood,blood,0.42632,0.33414,0.28498,0.27206,0.27125
+74,drinking water;medical team,blood collection center,painkiller,cold medicine,allergy medication,heart medicine,0.39684,0.36674,0.34455,0.34216,0.34032
+75,children's playground;flashlight,baby formula,allergy medication,asthma medicine,baby bottle,equipment for disabled people,0.34466,0.28053,0.27652,0.27526,0.2512
+77,drinking water;diaper,baby formula,gluten free food,baby bottle,salt-free and sugar-free food,pet food,0.3236,0.31363,0.26156,0.24922,0.24904
+83,medical team,equipment for disabled people,blood,painkiller,allergy medication,medical team,0.48165,0.44995,0.44784,0.4455,0.44046
+85,antibiotic,antibiotic,asthma medicine,allergy medication,painkiller,fever reducer,0.48897,0.45878,0.45375,0.43672,0.43653
+86,bread,gluten free food,equipment for disabled people,toothpaste,bread,salt-free and sugar-free food,0.42285,0.35245,0.34571,0.33519,0.31193
+89,antibiotic;food,gluten free food,antibiotic,allergy medication,painkiller,fever reducer,0.51518,0.499,0.4471,0.41602,0.40707
+90,pet food,pet food,gluten free food,equipment for disabled people,dry food,toothpaste,0.38579,0.32558,0.30806,0.27036,0.2612
+94,volunteers;power bank,equipment for disabled people,battery-powered radio,gluten free food,search and rescue team,salt-free and sugar-free food,0.3849,0.2652,0.23346,0.20786,0.20011
+100,antibiotic;flashlight,search and rescue team,antibiotic,equipment for disabled people,allergy medication,painkiller,0.34163,0.33934,0.33352,0.32863,0.32183
+104,wet wipes,wet wipes,diaper,sanitary pad,adhesive bandage,first aid kit,0.61503,0.58407,0.58067,0.52009,0.48695
+106,dry food,gluten free food,salt-free and sugar-free food,hot meal,toothpaste,bread,0.45964,0.41385,0.32394,0.25303,0.24827
+108,toothpaste;battery-powered radio,battery-powered radio,gluten free food,equipment for disabled people,toothpaste,allergy medication,0.39217,0.34166,0.32209,0.32163,0.31122
+116,drinking water,blood collection center,gluten free food,salt-free and sugar-free food,heart medicine,first aid kit,0.39685,0.38514,0.35465,0.34449,0.34386
+118,napkin;sleeping bag;mask,sleeping bag,gluten free food,salt-free and sugar-free food,asthma medicine,toothpaste,0.41938,0.35067,0.32329,0.31947,0.31318
+126,blanket;baby formula;container housing,cold medicine,baby formula,allergy medication,toothpaste,blood collection center,0.42938,0.40654,0.39123,0.37581,0.35399
+130,fever reducer,equipment for disabled people,fever reducer,allergy medication,cold medicine,blood,0.39053,0.38263,0.37536,0.33794,0.33588
+136,heart medicine,allergy medication,asthma medicine,heart medicine,fever reducer,painkiller,0.37408,0.34635,0.34574,0.3388,0.33644
+137,tent,cold medicine,sleeping bag,gluten free food,dry food,pet food,0.33315,0.3255,0.27732,0.2618,0.2483
+139,first aid kit,equipment for disabled people,allergy medication,antibiotic,cold medicine,fever reducer,0.61277,0.5366,0.47058,0.45422,0.4526
+147,tent;firewood;search and rescue team,search and rescue team,firewood,equipment for disabled people,asthma medicine,heating stove,0.39938,0.35055,0.31808,0.29316,0.29016
+164,gluten free food,gluten free food,salt-free and sugar-free food,antibiotic,canned food,allergy medication,0.71611,0.55544,0.47995,0.45368,0.44596
+167,generator,cold medicine,baby formula,allergy medication,fever reducer,battery-powered radio,0.33855,0.32409,0.30264,0.2893,0.27881
+168,hot meal;cold medicine,gluten free food,cold medicine,salt-free and sugar-free food,toothpaste,allergy medication,0.44601,0.42173,0.39975,0.39379,0.36329
+172,sleeping bag,cold medicine,sleeping bag,blood collection center,toothpaste,allergy medication,0.51636,0.38326,0.33865,0.32867,0.30923
+173,food,gluten free food,food,canned food,pet food,painkiller,0.49812,0.47445,0.4635,0.4349,0.41935
+174,power bank,power bank,batteries,battery-powered radio,baby formula,electrical field team,0.40748,0.38613,0.37743,0.36384,0.35668
+175,dry food,gluten free food,dry food,salt-free and sugar-free food,equipment for disabled people,toothpaste,0.45447,0.37987,0.36597,0.26077,0.2553
+176,oxygen concentrator,heart medicine,asthma medicine,cold medicine,fever reducer,blood collection center,0.38323,0.34537,0.33696,0.28924,0.27948
+178,drinking water,drinking water,blood collection center,sanitary pad,asthma medicine,gluten free food,0.4287,0.42681,0.41317,0.41234,0.4083
+179,medicine;fever reducer,fever reducer,allergy medication,asthma medicine,antibiotic,painkiller,0.6518,0.6252,0.62442,0.54341,0.51368
+182,salt-free and sugar-free food,gluten free food,salt-free and sugar-free food,allergy medication,antibiotic,dry food,0.47472,0.47178,0.29901,0.28329,0.27094
+184,life jacket,search and rescue team,gluten free food,salt-free and sugar-free food,battery-powered radio,first aid kit,0.309,0.30263,0.24418,0.23922,0.23838
+186,security forces,blood collection center,security forces,search and rescue team,psychological support team,cold medicine,0.43023,0.42878,0.42779,0.36566,0.35657
+189,fever reducer,fever reducer,allergy medication,asthma medicine,heart medicine,antibiotic,0.63013,0.53251,0.53073,0.49671,0.49618
+190,flashlight,equipment for disabled people,dry food,battery-powered radio,flashlight,search and rescue team,0.4166,0.31749,0.31534,0.29876,0.2904
+191,psychological support team;asthma medicine;tent,asthma medicine,allergy medication,antibiotic,cold medicine,first aid kit,0.60543,0.56361,0.53609,0.51584,0.50553
+192,pots and pans;salt-free and sugar-free food,salt-free and sugar-free food,gluten free food,fever reducer,allergy medication,baby formula,0.49675,0.46884,0.34196,0.33937,0.32996
+195,coat,baby bottle,baby formula,cold medicine,battery-powered radio,coat,0.41364,0.41329,0.36263,0.32203,0.29703
+196,generator;toothpaste;electric heater,toothpaste,heating stove,pots and pans,toothbrush,electric heater,0.60476,0.53217,0.46229,0.46111,0.44119
+199,lantern,firewood,pots and pans,heating stove,asthma medicine,search and rescue team,0.46452,0.45887,0.40859,0.38834,0.35526
+200,dry food;hot meal,equipment for disabled people,dry food,gluten free food,fever reducer,heating stove,0.47038,0.4677,0.37077,0.36806,0.35047
+202,batteries;baby bottle,baby formula,baby bottle,first aid kit,portable toilet,gluten free food,0.53571,0.49052,0.43089,0.39522,0.38959
+205,antibiotic;dry food,allergy medication,equipment for disabled people,gluten free food,antibiotic,painkiller,0.49033,0.48604,0.47392,0.46043,0.42297
+208,tent,cold medicine,electrical field team,equipment for disabled people,search and rescue team,battery-powered radio,0.28228,0.21278,0.21154,0.20619,0.18835
+214,psychological support team,search and rescue team,psychological support team,fever reducer,cold medicine,allergy medication,0.42136,0.38492,0.37584,0.3714,0.36877
+216,tent;oxygen concentrator,oxygen concentrator,allergy medication,asthma medicine,heating stove,fever reducer,0.42765,0.41984,0.4157,0.40934,0.40253
+217,dry food;lighting equipment;toothbrush,gluten free food,salt-free and sugar-free food,toothpaste,toothbrush,dry food,0.50633,0.46364,0.46269,0.4143,0.39926
+219,volunteers;food,equipment for disabled people,gluten free food,fever reducer,allergy medication,search and rescue team,0.33784,0.32526,0.29996,0.28614,0.28391
+220,dry food,gluten free food,salt-free and sugar-free food,search and rescue team,toothpaste,dry food,0.4444,0.36306,0.34846,0.33344,0.33336
+221,diaper;sleeping bag,dry food,sleeping bag,cold medicine,gluten free food,equipment for disabled people,0.40434,0.37421,0.36749,0.33155,0.32659
+225,generator,battery-powered radio,first aid kit,power bank,batteries,asthma medicine,0.56616,0.48821,0.48056,0.45745,0.44953
+231,wet wipes,blood collection center,baby formula,diaper,toothpaste,wet wipes,0.47832,0.44205,0.44067,0.40886,0.3934
+241,baby formula,baby formula,baby bottle,allergy medication,pet food,toothpaste,0.57689,0.44916,0.4313,0.4036,0.39761
+271,medical team,medical team,blood collection center,search and rescue team,equipment for disabled people,heart medicine,0.60794,0.53921,0.51139,0.47869,0.46779
+285,medical team,heart medicine,search and rescue team,equipment for disabled people,allergy medication,cold medicine,0.35588,0.34902,0.34288,0.32756,0.31755
+292,medical team,heart medicine,antibiotic,asthma medicine,medical team,allergy medication,0.52054,0.4997,0.49904,0.49515,0.48833
+296,drinking water,fever reducer,heart medicine,cold medicine,drinking water,blood collection center,0.43455,0.40767,0.4063,0.39214,0.38735
+303,cleaning product;diaper,baby formula,antibiotic,allergy medication,toothpaste,sanitary pad,0.50108,0.48654,0.45928,0.45112,0.43798
+304,oxygen concentrator,asthma medicine,heart medicine,cold medicine,heating stove,equipment for disabled people,0.37309,0.30776,0.30424,0.28918,0.28582
+305,pet food;power bank,baby formula,toothpaste,pet food,allergy medication,antibiotic,0.49596,0.47925,0.46973,0.46774,0.44806
+309,blanket;container housing;power bank,power bank,cold medicine,baby formula,heating stove,blood collection center,0.45244,0.44212,0.42285,0.38444,0.3816
+310,heating stove,heating stove,firewood,pots and pans,cold medicine,electric heater,0.45862,0.44987,0.35867,0.34171,0.31293
+313,sleeping bag,baby formula,cold medicine,blood collection center,allergy medication,toothpaste,0.362,0.31673,0.31324,0.29229,0.28597
+316,sleeping bag;diaper;generator,baby formula,diaper,blood collection center,heart medicine,sleeping bag,0.47569,0.47429,0.4691,0.46799,0.45465
+320,tent,asthma medicine,search and rescue team,firewood,adhesive bandage,first aid kit,0.40786,0.38952,0.38485,0.37845,0.36448
+322,equipment for disabled people,equipment for disabled people,allergy medication,blood,painkiller,cold medicine,0.55559,0.37458,0.35907,0.33749,0.32695
+324,blanket,cold medicine,gluten free food,salt-free and sugar-free food,pet food,dry food,0.54385,0.40237,0.35225,0.34302,0.2745
+326,food,gluten free food,salt-free and sugar-free food,pet food,bread,food,0.46155,0.37861,0.35505,0.34907,0.3455
+335,fever reducer;firewood,cold medicine,fever reducer,allergy medication,gluten free food,salt-free and sugar-free food,0.5007,0.39925,0.33791,0.32844,0.32746
+338,bread,bread,pots and pans,equipment for disabled people,gluten free food,heating stove,0.4467,0.44453,0.41268,0.40927,0.39878
+344,blanket,cold medicine,gluten free food,salt-free and sugar-free food,toothpaste,equipment for disabled people,0.45031,0.38391,0.35939,0.28319,0.25634
+350,pots and pans,pots and pans,heating stove,hot meal,firewood,gluten free food,0.57225,0.55828,0.49319,0.3318,0.28935
+357,generator;interpreter,equipment for disabled people,cold medicine,allergy medication,search and rescue team,antibiotic,0.55679,0.38514,0.38343,0.32568,0.31681
+359,generator,battery-powered radio,search and rescue team,asthma medicine,firewood,blood collection center,0.42468,0.38219,0.3668,0.35782,0.35459
+363,cold medicine;heart medicine,cold medicine,allergy medication,painkiller,antibiotic,asthma medicine,0.66864,0.62824,0.56669,0.5547,0.53078
+365,tent;diaper,dry food,spare clothes,gluten free food,salt-free and sugar-free food,portable toilet,0.47246,0.39614,0.36242,0.34846,0.34669
+368,sleeping bag;batteries,battery-powered radio,sleeping bag,gluten free food,heart medicine,cold medicine,0.41293,0.34364,0.29541,0.28201,0.27969
+381,fever reducer;heart medicine,allergy medication,asthma medicine,fever reducer,antibiotic,baby formula,0.38733,0.38707,0.36461,0.33648,0.31994
+382,gluten free food;heart medicine,gluten free food,salt-free and sugar-free food,allergy medication,antibiotic,toothpaste,0.33075,0.29531,0.26326,0.24311,0.22464
+383,search and rescue team,search and rescue team,cold medicine,equipment for disabled people,fever reducer,first aid kit,0.58942,0.44798,0.44658,0.41921,0.40585
+384,soap;first aid kit;baby formula,allergy medication,baby formula,asthma medicine,soap,diaper,0.46617,0.44916,0.41211,0.39955,0.39531
+391,napkin,blood collection center,search and rescue team,fever reducer,allergy medication,adhesive bandage,0.49168,0.46157,0.44077,0.44,0.43692
+401,bandage,first aid kit,medical team,search and rescue team,asthma medicine,heart medicine,0.43944,0.43659,0.41953,0.41191,0.40772
+403,lighting equipment;tent;lantern,firewood,asthma medicine,pots and pans,search and rescue team,allergy medication,0.3971,0.36661,0.32182,0.3176,0.30488
+404,fever reducer,baby formula,blood collection center,allergy medication,fever reducer,asthma medicine,0.42594,0.38538,0.38184,0.35875,0.3539
+405,fever reducer;painkiller,fever reducer,painkiller,allergy medication,asthma medicine,antibiotic,0.55634,0.52484,0.51749,0.4967,0.45185
+408,security forces,equipment for disabled people,battery-powered radio,baby formula,search and rescue team,blood collection center,0.31786,0.30631,0.30548,0.30134,0.24402
+413,electric heater;dry food,gluten free food,equipment for disabled people,salt-free and sugar-free food,heating stove,toothpaste,0.41872,0.35823,0.34559,0.34344,0.31799
+417,container housing;cleaning product,sanitary pad,adhesive bandage,first aid kit,antibiotic,search and rescue team,0.57028,0.56292,0.5183,0.50489,0.50227
+419,cash;insulin,allergy medication,blood collection center,heart medicine,cold medicine,painkiller,0.43661,0.42916,0.42379,0.41824,0.40336
+420,security forces;allergy medication,allergy medication,antibiotic,asthma medicine,blood collection center,painkiller,0.47599,0.45141,0.44193,0.41245,0.39875
+424,mask,equipment for disabled people,blood,pots and pans,toothpaste,fever reducer,0.49471,0.33835,0.25282,0.21889,0.21808
+428,toothpaste;toothbrush;medicine,toothpaste,allergy medication,antibiotic,equipment for disabled people,blood,0.50799,0.48943,0.48466,0.47389,0.46648
+431,batteries,heart medicine,medical team,asthma medicine,allergy medication,battery-powered radio,0.53315,0.47093,0.46387,0.43741,0.43602
+432,adhesive bandage;kitchenware;insulin,allergy medication,toothpaste,diaper,portable toilet,sanitary pad,0.38411,0.37767,0.37469,0.37222,0.36189
+435,heating stove,blood collection center,heating stove,battery-powered radio,baby formula,heart medicine,0.3414,0.31406,0.28923,0.28761,0.28758
+441,power bank,baby formula,power bank,baby bottle,insulin,blood collection center,0.57558,0.48185,0.45807,0.40426,0.38614
+444,dry food;fever reducer,gluten free food,equipment for disabled people,allergy medication,fever reducer,antibiotic,0.41873,0.41079,0.40896,0.4058,0.37799
+446,sleeping bag,sleeping bag,asthma medicine,blood collection center,medical team,heart medicine,0.33859,0.31457,0.30678,0.29976,0.29477
+449,mask;power bank;heating stove,heating stove,equipment for disabled people,pots and pans,cold medicine,allergy medication,0.33098,0.27568,0.27417,0.27354,0.23608
+453,dry food,gluten free food,pots and pans,bread,salt-free and sugar-free food,toothpaste,0.41727,0.39321,0.38047,0.37808,0.35561
+454,toothpaste,toothpaste,toothbrush,gluten free food,soap,salt-free and sugar-free food,0.82166,0.66077,0.56389,0.5183,0.51744
+461,baby bottle;coat,baby formula,baby bottle,first aid kit,allergy medication,cold medicine,0.50971,0.43935,0.41554,0.4008,0.38042
+463,hot meal,gluten free food,salt-free and sugar-free food,dry food,hot meal,heating stove,0.40931,0.40076,0.36473,0.32016,0.30041
+466,drinking water;medicine,asthma medicine,allergy medication,heart medicine,medical team,painkiller,0.50786,0.50589,0.49923,0.46353,0.46278
+469,baby formula,equipment for disabled people,allergy medication,baby formula,cold medicine,blood,0.50137,0.37675,0.34499,0.33352,0.31705
+470,first aid kit,search and rescue team,first aid kit,medical team,fever reducer,asthma medicine,0.36666,0.3613,0.32533,0.3206,0.29677
+472,gluten free food;equipment for disabled people,gluten free food,equipment for disabled people,antibiotic,allergy medication,salt-free and sugar-free food,0.56417,0.5591,0.45251,0.42877,0.40151
+476,medicine,allergy medication,asthma medicine,medical team,search and rescue team,antibiotic,0.51761,0.46969,0.45633,0.45378,0.44674
+480,first aid kit;container housing,search and rescue team,adhesive bandage,first aid kit,allergy medication,asthma medicine,0.5128,0.47939,0.47689,0.45934,0.4482
+482,food;wet wipes;first aid kit,search and rescue team,first aid kit,allergy medication,antibiotic,fever reducer,0.49382,0.43769,0.42633,0.3956,0.39175
+483,baby bottle;interpreter,baby formula,allergy medication,baby bottle,equipment for disabled people,search and rescue team,0.47878,0.39433,0.39011,0.38891,0.35396
+485,napkin,blood,cold medicine,equipment for disabled people,blood collection center,diaper,0.56093,0.54341,0.48058,0.45564,0.42499
+486,cash;salt-free and sugar-free food,blood collection center,gluten free food,equipment for disabled people,allergy medication,cold medicine,0.35128,0.3339,0.3339,0.32905,0.32768
+487,search and rescue team;fever reducer,fever reducer,heart medicine,allergy medication,cold medicine,gluten free food,0.21441,0.1979,0.19673,0.19481,0.19324
+489,power bank,power bank,battery-powered radio,electrical field team,batteries,generator,0.54567,0.50146,0.42153,0.40808,0.36832
+491,fever reducer,fever reducer,allergy medication,asthma medicine,antibiotic,heating stove,0.60849,0.47932,0.47074,0.43303,0.43286
+493,dry food,gluten free food,dry food,salt-free and sugar-free food,canned food,bread,0.39917,0.39866,0.35956,0.32427,0.29628
+495,kitchenware,heating stove,pots and pans,firewood,hot meal,kitchenware,0.5942,0.5834,0.49092,0.47885,0.46781
+501,drinking water;asthma medicine,dry food,equipment for disabled people,gluten free food,fever reducer,cold medicine,0.53331,0.44865,0.40343,0.40258,0.40056
+509,container housing,cold medicine,search and rescue team,equipment for disabled people,antibiotic,allergy medication,0.46415,0.4121,0.39398,0.36512,0.36258
+513,battery-powered radio;kitchenware,battery-powered radio,power bank,electrical field team,heating stove,allergy medication,0.55964,0.38654,0.3751,0.3669,0.33236
+519,electric heater;medicine,baby formula,allergy medication,asthma medicine,antibiotic,cold medicine,0.44062,0.43885,0.40521,0.38522,0.37573
+523,portable toilet,equipment for disabled people,heart medicine,asthma medicine,blood collection center,fever reducer,0.28174,0.27685,0.24807,0.23266,0.20003
+532,toothpaste;portable toilet,toothbrush,toothpaste,pet food,first aid kit,sanitary pad,0.52228,0.52212,0.5121,0.5069,0.49691
+539,medical team;napkin,medical team,allergy medication,asthma medicine,fever reducer,search and rescue team,0.4708,0.4459,0.44482,0.43882,0.43427
+545,psychological support team,equipment for disabled people,painkiller,psychological support team,baby formula,search and rescue team,0.50811,0.49413,0.47778,0.47634,0.4628
+549,medicine,equipment for disabled people,cold medicine,dry food,allergy medication,sleeping bag,0.36642,0.32547,0.31483,0.31043,0.27727
+550,tent;medical team,search and rescue team,cold medicine,first aid kit,allergy medication,blood collection center,0.41963,0.37964,0.34619,0.31998,0.30762
+561,antibiotic,allergy medication,antibiotic,painkiller,asthma medicine,baby formula,0.47805,0.46944,0.40957,0.40426,0.39129
+562,psychological support team,equipment for disabled people,blood,blood collection center,cold medicine,heart medicine,0.36946,0.29861,0.28349,0.25196,0.23537
+566,hot meal,hot meal,heating stove,cold medicine,pots and pans,fever reducer,0.5555,0.50602,0.50042,0.43746,0.42464
+570,cold medicine;power bank,cold medicine,equipment for disabled people,allergy medication,asthma medicine,dry food,0.42501,0.41012,0.37059,0.30375,0.27982
+571,tent,cold medicine,equipment for disabled people,allergy medication,blood,tent,0.55308,0.42322,0.39083,0.38739,0.36534
+572,bread;portable toilet;toothpaste,toothpaste,toothbrush,gluten free food,bread,pots and pans,0.58854,0.47018,0.43962,0.43179,0.43075
+575,container housing,baby formula,equipment for disabled people,blood collection center,search and rescue team,toothpaste,0.3196,0.288,0.26482,0.26165,0.25262
+578,blanket;kitchenware,kitchenware,heating stove,pots and pans,cold medicine,hot meal,0.50948,0.49826,0.49343,0.45309,0.40963
+581,psychological support team;blanket,equipment for disabled people,fever reducer,cold medicine,allergy medication,heating stove,0.49203,0.44079,0.40536,0.38956,0.36501
+582,electric heater,electric heater,heating stove,electrical field team,power bank,battery-powered radio,0.6463,0.62512,0.56468,0.48603,0.48563
+585,spare clothes,search and rescue team,blood collection center,first aid kit,diaper,medical team,0.3988,0.39087,0.35135,0.31979,0.31662
+588,antibiotic;search and rescue team;portable toilet,cold medicine,asthma medicine,antibiotic,search and rescue team,allergy medication,0.36417,0.3585,0.34909,0.33803,0.3238
+589,hot meal,hot meal,pots and pans,heating stove,fever reducer,gluten free food,0.4981,0.43257,0.42961,0.39981,0.39699
+590,container housing,cold medicine,toothpaste,allergy medication,antibiotic,equipment for disabled people,0.49501,0.32704,0.32351,0.32333,0.3214
+593,bread,bread,gluten free food,pots and pans,canned food,toothpaste,0.44628,0.396,0.36125,0.34086,0.33985
+595,insulin,allergy medication,baby formula,antibiotic,cold medicine,asthma medicine,0.4166,0.39947,0.37833,0.36529,0.35896
+597,cash,equipment for disabled people,blood collection center,gluten free food,cold medicine,toothpaste,0.39312,0.32156,0.29561,0.27504,0.25678
+604,baby bottle,baby formula,gluten free food,salt-free and sugar-free food,baby bottle,allergy medication,0.37175,0.29929,0.28782,0.27919,0.26593
+606,napkin,salt-free and sugar-free food,gluten free food,hot meal,toothpaste,fever reducer,0.54533,0.53526,0.41787,0.36294,0.3554
+608,medical team,medical team,search and rescue team,first aid kit,heart medicine,blood collection center,0.50873,0.49996,0.49043,0.47806,0.47617
+611,dry food,search and rescue team,gluten free food,fever reducer,first aid kit,antibiotic,0.52598,0.52376,0.48853,0.44674,0.44277
+614,blanket,cold medicine,allergy medication,heating stove,power bank,equipment for disabled people,0.57244,0.40392,0.38957,0.3831,0.37274
+615,fever reducer,fever reducer,allergy medication,equipment for disabled people,baby formula,asthma medicine,0.46815,0.45872,0.45108,0.40914,0.39147
+619,lighting equipment,equipment for disabled people,dry food,sleeping bag,baby formula,baby bottle,0.425,0.3449,0.33794,0.32802,0.32552
+620,batteries;volunteers,battery-powered radio,batteries,volunteers,gluten free food,search and rescue team,0.4488,0.31851,0.29802,0.29482,0.29091
+622,tent,search and rescue team,fever reducer,first aid kit,equipment for disabled people,allergy medication,0.38322,0.28765,0.28165,0.279,0.26531
+625,tent,search and rescue team,cold medicine,adhesive bandage,allergy medication,equipment for disabled people,0.4054,0.38727,0.32291,0.31758,0.31624
+626,medical team;pots and pans,pots and pans,asthma medicine,first aid kit,antibiotic,fever reducer,0.41335,0.40927,0.38514,0.36668,0.36388
+628,napkin,wet wipes,diaper,toothpaste,sanitary pad,soap,0.59407,0.55705,0.53554,0.51975,0.51908
+630,blanket;portable toilet,cold medicine,blood collection center,search and rescue team,portable toilet,first aid kit,0.48438,0.38792,0.36844,0.36271,0.35959
+633,baby formula,baby formula,baby bottle,allergy medication,toothpaste,blood collection center,0.50129,0.36766,0.29139,0.27643,0.23633
+634,gluten free food,gluten free food,salt-free and sugar-free food,antibiotic,allergy medication,equipment for disabled people,0.55082,0.43169,0.38046,0.37932,0.37651
+637,dry food,gluten free food,dry food,canned food,salt-free and sugar-free food,food,0.63344,0.54546,0.52393,0.51104,0.48061
+638,generator,battery-powered radio,power bank,generator,heating stove,batteries,0.4552,0.40773,0.33782,0.32077,0.3182
+639,oxygen concentrator,oxygen concentrator,asthma medicine,heating stove,power bank,cold medicine,0.33727,0.29444,0.29297,0.28786,0.28382
+641,electric heater,equipment for disabled people,cold medicine,battery-powered radio,gluten free food,power bank,0.32911,0.3218,0.28853,0.27913,0.2628
+642,dry food;volunteers,gluten free food,salt-free and sugar-free food,toothpaste,allergy medication,antibiotic,0.47479,0.44652,0.3616,0.31424,0.29253
+644,tent;power bank,power bank,electrical field team,tent,firewood,generator,0.62913,0.58563,0.54179,0.51473,0.51097
+647,medicine;electrical field team,equipment for disabled people,allergy medication,cold medicine,antibiotic,power bank,0.45513,0.31618,0.30288,0.27812,0.27511
+652,generator;search and rescue team,search and rescue team,power bank,generator,electrical field team,battery-powered radio,0.53343,0.49365,0.46687,0.45957,0.44982
+675,fever reducer,allergy medication,asthma medicine,fever reducer,antibiotic,painkiller,0.49257,0.44487,0.4404,0.40337,0.36688
+679,interpreter;blanket,battery-powered radio,search and rescue team,firewood,blood collection center,baby formula,0.29382,0.24914,0.23697,0.22703,0.21934
+681,lighting equipment,search and rescue team,equipment for disabled people,fever reducer,firewood,cold medicine,0.27048,0.24156,0.23916,0.23814,0.2376
+682,sleeping bag,cold medicine,sleeping bag,toothpaste,allergy medication,diaper,0.51414,0.50116,0.47667,0.42029,0.41324
+687,pots and pans,pots and pans,heating stove,hot meal,firewood,canned food,0.6824,0.64009,0.56815,0.47368,0.42356
+688,spare clothes;dry food;baby bottle,gluten free food,first aid kit,sanitary pad,diaper,spare clothes,0.55918,0.49591,0.48779,0.4798,0.46936
+690,tent;first aid kit,cold medicine,first aid kit,search and rescue team,equipment for disabled people,painkiller,0.51907,0.40647,0.38472,0.36302,0.34053
+691,heart medicine,heart medicine,baby formula,allergy medication,blood collection center,asthma medicine,0.53814,0.53554,0.45547,0.45545,0.44545
+692,salt-free and sugar-free food,salt-free and sugar-free food,gluten free food,allergy medication,fever reducer,antibiotic,0.49859,0.48975,0.3771,0.36478,0.33069
+696,pots and pans,gluten free food,pots and pans,dry food,canned food,salt-free and sugar-free food,0.49731,0.36322,0.3581,0.35744,0.34816
+697,bread;pet food,gluten free food,dry food,equipment for disabled people,salt-free and sugar-free food,toothpaste,0.46255,0.45114,0.41627,0.39187,0.3651
+698,canned food;blood,equipment for disabled people,cold medicine,allergy medication,blood,asthma medicine,0.49851,0.37322,0.36772,0.32994,0.32821
+699,antibiotic,allergy medication,antibiotic,asthma medicine,painkiller,cold medicine,0.46097,0.44714,0.40022,0.388,0.36244
+700,mask,equipment for disabled people,search and rescue team,blood,allergy medication,painkiller,0.55821,0.46528,0.42463,0.39751,0.38455
+702,blanket;medical team,cold medicine,blood collection center,allergy medication,antibiotic,heart medicine,0.56745,0.47257,0.4399,0.39579,0.3934
+704,spare clothes,cold medicine,equipment for disabled people,sanitary pad,blood,antibiotic,0.50981,0.50766,0.41663,0.40848,0.40639
+709,spare clothes;hot meal,gluten free food,pet food,hot meal,cold medicine,heating stove,0.47098,0.42976,0.42274,0.38406,0.38045
+714,electric heater,heating stove,cold medicine,electric heater,pots and pans,antibiotic,0.47381,0.42103,0.40325,0.37496,0.35035
+717,blanket,fever reducer,cold medicine,gluten free food,heart medicine,asthma medicine,0.28396,0.28101,0.27454,0.26014,0.2525
+718,sanitary pad,sanitary pad,first aid kit,baby formula,diaper,painkiller,0.57196,0.48027,0.4736,0.46666,0.4409
+721,drinking water,equipment for disabled people,blood collection center,blood,cold medicine,allergy medication,0.32973,0.27686,0.24977,0.2059,0.1937
+724,security forces,blood collection center,medical team,allergy medication,adhesive bandage,equipment for disabled people,0.40038,0.38545,0.33957,0.33166,0.325
+728,generator;first aid kit,equipment for disabled people,allergy medication,asthma medicine,blood collection center,blood,0.47513,0.40521,0.39386,0.38788,0.38016
+731,cold medicine,cold medicine,allergy medication,antibiotic,asthma medicine,toothpaste,0.58079,0.51171,0.46615,0.44777,0.42033
+736,hot meal;life jacket,hot meal,heating stove,pots and pans,gluten free food,fever reducer,0.65264,0.61484,0.56508,0.47787,0.46107
+740,bread,pots and pans,hot meal,bread,gluten free food,heating stove,0.41359,0.40404,0.40273,0.37986,0.37279
+760,first aid kit;psychological support team,first aid kit,search and rescue team,baby formula,allergy medication,painkiller,0.52187,0.47128,0.43085,0.42346,0.41739
+761,tent,equipment for disabled people,cold medicine,search and rescue team,dry food,spare clothes,0.44511,0.36556,0.35508,0.33549,0.29753
+767,battery-powered radio;toothpaste,toothpaste,gluten free food,toothbrush,battery-powered radio,insulin,0.52406,0.41073,0.3768,0.37461,0.37051
+769,blanket;food,gluten free food,cold medicine,salt-free and sugar-free food,toothpaste,hot meal,0.43172,0.36975,0.32567,0.32454,0.30505
+770,baby bottle,baby formula,baby bottle,heart medicine,first aid kit,allergy medication,0.45104,0.39251,0.29124,0.26634,0.25229
+774,antibiotic,allergy medication,equipment for disabled people,asthma medicine,fever reducer,antibiotic,0.4408,0.40188,0.3859,0.37408,0.35975
+777,tent;medicine,allergy medication,antibiotic,medical team,asthma medicine,blood collection center,0.47883,0.47638,0.46892,0.46861,0.46584
+780,sanitary pad;blanket,cold medicine,equipment for disabled people,blood collection center,gluten free food,fever reducer,0.35816,0.30347,0.23883,0.22458,0.21882
+781,pots and pans,pots and pans,heating stove,hot meal,kitchenware,firewood,0.75556,0.67603,0.55306,0.54183,0.48942
+782,sleeping bag;gluten free food,gluten free food,salt-free and sugar-free food,pet food,toothpaste,antibiotic,0.57312,0.4576,0.39296,0.36838,0.3638
+785,pet food,pet food,toothpaste,gluten free food,allergy medication,blood collection center,0.45912,0.34143,0.30181,0.26582,0.26327
+786,medical team,equipment for disabled people,heart medicine,search and rescue team,fever reducer,medical team,0.39003,0.36997,0.32699,0.31985,0.31718
+788,wet wipes,baby formula,allergy medication,baby bottle,toothpaste,antibiotic,0.41449,0.34537,0.33311,0.32026,0.29703
+790,search and rescue team,search and rescue team,equipment for disabled people,allergy medication,fever reducer,cold medicine,0.46714,0.40276,0.31945,0.31924,0.31015
+793,cash;painkiller,blood collection center,equipment for disabled people,painkiller,allergy medication,toothpaste,0.39457,0.31725,0.31008,0.27991,0.27678
+802,cold medicine;sleeping bag,cold medicine,allergy medication,blood collection center,antibiotic,toothpaste,0.51162,0.40121,0.38519,0.3778,0.3638
+811,coat;antibiotic,allergy medication,cold medicine,antibiotic,asthma medicine,painkiller,0.60569,0.59826,0.53418,0.49598,0.47656
+813,spare clothes;cold medicine,asthma medicine,allergy medication,antibiotic,gluten free food,sanitary pad,0.54486,0.53906,0.52405,0.51189,0.50091
+840,generator,power bank,equipment for disabled people,battery-powered radio,firewood,gluten free food,0.41738,0.40661,0.37521,0.35636,0.35539
+846,electric heater,heating stove,electric heater,electrical field team,power bank,pots and pans,0.49186,0.48777,0.47285,0.45683,0.42023
+847,gluten free food;medicine,allergy medication,antibiotic,equipment for disabled people,painkiller,fever reducer,0.52828,0.41462,0.40597,0.39717,0.39295
+848,sleeping bag,cold medicine,sleeping bag,dry food,blood collection center,toothpaste,0.4783,0.43859,0.35129,0.32801,0.31159
+852,volunteers;search and rescue team,search and rescue team,psychological support team,volunteers,first aid kit,security forces,0.63018,0.47452,0.43728,0.43542,0.42539
+854,pet food,pet food,dry food,equipment for disabled people,gluten free food,salt-free and sugar-free food,0.34243,0.30228,0.29053,0.27794,0.22372
+859,blanket;blood,medical team,blood collection center,heart medicine,allergy medication,asthma medicine,0.3988,0.38687,0.3855,0.33176,0.32986
+860,coat,cold medicine,coat,spare clothes,search and rescue team,security forces,0.43286,0.38366,0.37436,0.3725,0.35071
+861,psychological support team;food,pet food,gluten free food,painkiller,baby formula,blood collection center,0.36372,0.33737,0.2925,0.28834,0.28625
+862,search and rescue team,equipment for disabled people,search and rescue team,first aid kit,cold medicine,gluten free food,0.38651,0.24759,0.20671,0.19917,0.19748
+863,cleaning product;blanket,salt-free and sugar-free food,sanitary pad,pet food,gluten free food,first aid kit,0.52412,0.50062,0.49833,0.49766,0.42463
+867,baby formula,baby formula,baby bottle,diaper,first aid kit,toothpaste,0.68376,0.5601,0.45817,0.42944,0.41985
+868,coat,cold medicine,equipment for disabled people,gluten free food,pet food,dry food,0.47153,0.29772,0.28036,0.25434,0.23806
+870,medical team,medical team,allergy medication,blood collection center,cold medicine,heart medicine,0.51101,0.46607,0.45549,0.45535,0.44975
+871,medicine,painkiller,cold medicine,antibiotic,equipment for disabled people,allergy medication,0.45065,0.43605,0.41389,0.38535,0.37745
+875,baby formula,baby formula,gluten free food,equipment for disabled people,baby bottle,allergy medication,0.36424,0.27193,0.26943,0.24942,0.23503
+876,first aid kit,first aid kit,search and rescue team,cold medicine,allergy medication,medical team,0.55863,0.54171,0.50072,0.49902,0.48549
+878,food,gluten free food,salt-free and sugar-free food,hot meal,equipment for disabled people,canned food,0.42726,0.35094,0.23921,0.23708,0.22417
+880,hot meal,heating stove,hot meal,pots and pans,firewood,fever reducer,0.55989,0.54155,0.51855,0.38294,0.37292
+881,coat;electric heater,cold medicine,electric heater,battery-powered radio,heating stove,power bank,0.48838,0.45386,0.4498,0.39335,0.38888
+887,cash;psychological support team,equipment for disabled people,blood,cold medicine,blood collection center,allergy medication,0.50506,0.34313,0.28186,0.26641,0.26268
+890,electric heater,electric heater,electrical field team,battery-powered radio,heating stove,power bank,0.64751,0.62091,0.57688,0.57211,0.54185
+891,generator;mask;container housing,toothpaste,equipment for disabled people,allergy medication,blood collection center,asthma medicine,0.28505,0.27732,0.27291,0.25853,0.2473
+892,electric heater,heating stove,equipment for disabled people,cold medicine,power bank,pots and pans,0.38142,0.35218,0.34953,0.28601,0.27944
+894,wet wipes;coat;electric heater,heating stove,blood collection center,cold medicine,pots and pans,toothpaste,0.38747,0.36339,0.34298,0.33286,0.31837
+897,security forces;blood collection center,security forces,blood collection center,search and rescue team,equipment for disabled people,gluten free food,0.32886,0.32173,0.29833,0.29232,0.28389
+899,life jacket,search and rescue team,life jacket,first aid kit,adhesive bandage,asthma medicine,0.6432,0.58131,0.5698,0.5068,0.49772
+902,flashlight,equipment for disabled people,dry food,sleeping bag,spare clothes,allergy medication,0.47475,0.33212,0.32751,0.26572,0.26093
+903,blanket;coat,cold medicine,equipment for disabled people,gluten free food,salt-free and sugar-free food,dry food,0.44223,0.25644,0.25028,0.24684,0.23347
+904,mask,equipment for disabled people,asthma medicine,allergy medication,fever reducer,cold medicine,0.3114,0.29986,0.28926,0.2627,0.23344
+908,search and rescue team,search and rescue team,equipment for disabled people,allergy medication,baby formula,blood collection center,0.38171,0.35267,0.26125,0.24464,0.24062
+909,baby formula,baby formula,gluten free food,pet food,baby bottle,allergy medication,0.52475,0.41631,0.39833,0.38642,0.3794
+914,napkin,gluten free food,pet food,salt-free and sugar-free food,sanitary pad,toothpaste,0.47501,0.46671,0.39272,0.38835,0.38645
+917,lantern,equipment for disabled people,allergy medication,search and rescue team,antibiotic,asthma medicine,0.41854,0.30516,0.28538,0.26627,0.26553
+918,batteries,battery-powered radio,power bank,electric heater,electrical field team,batteries,0.55395,0.41563,0.40591,0.39709,0.36956
+919,salt-free and sugar-free food,gluten free food,salt-free and sugar-free food,toothpaste,heart medicine,equipment for disabled people,0.2915,0.29075,0.216,0.21457,0.21389
+920,cold medicine,cold medicine,equipment for disabled people,blood,allergy medication,toothpaste,0.45584,0.37142,0.34212,0.31113,0.29126
+926,sleeping bag;medical team;flashlight,cold medicine,blood collection center,equipment for disabled people,search and rescue team,painkiller,0.34641,0.3125,0.29615,0.28578,0.2735
+927,equipment for disabled people;kitchenware;drinking water,portable toilet,canned food,kitchenware,sanitary pad,gluten free food,0.47796,0.47664,0.45564,0.44421,0.42989
+929,lighting equipment,equipment for disabled people,blood,cold medicine,allergy medication,search and rescue team,0.56368,0.34141,0.3305,0.30385,0.26721
+930,pet food,pet food,gluten free food,toothpaste,antibiotic,search and rescue team,0.43525,0.34538,0.33388,0.32709,0.31465
+932,adhesive bandage;medical team,allergy medication,blood collection center,medical team,painkiller,antibiotic,0.43669,0.41956,0.41602,0.41016,0.38928
+933,cold medicine;heart medicine,cold medicine,allergy medication,fever reducer,asthma medicine,blood collection center,0.53449,0.40852,0.38763,0.38523,0.36989
+936,insulin;coat,allergy medication,cold medicine,asthma medicine,antibiotic,gluten free food,0.4324,0.42484,0.41232,0.3865,0.38005
+938,cleaning product;cash,gluten free food,salt-free and sugar-free food,sanitary pad,first aid kit,diaper,0.50516,0.50394,0.45279,0.43118,0.41509
+939,adhesive bandage,blood collection center,allergy medication,adhesive bandage,equipment for disabled people,medical team,0.43081,0.41859,0.4119,0.40494,0.39913
+940,pet food,gluten free food,pet food,salt-free and sugar-free food,dry food,toothpaste,0.32569,0.31221,0.30794,0.29362,0.24055
+942,dry food,gluten free food,equipment for disabled people,blood collection center,dry food,salt-free and sugar-free food,0.32958,0.29641,0.25575,0.25454,0.24736
+943,container housing;sleeping bag,sleeping bag,cold medicine,diaper,sanitary pad,blood collection center,0.49058,0.40839,0.40173,0.39168,0.39099
+945,medicine,allergy medication,antibiotic,asthma medicine,fever reducer,baby formula,0.43889,0.42251,0.35954,0.35658,0.35438
+948,psychological support team;tent,search and rescue team,baby formula,allergy medication,fever reducer,wet wipes,0.40984,0.34825,0.33432,0.32878,0.32234
+949,tent,cold medicine,tent,children's playground,blanket,pet food,0.48008,0.4574,0.44214,0.39845,0.38421
+952,bread,gluten free food,salt-free and sugar-free food,bread,toothpaste,pots and pans,0.40141,0.38324,0.32804,0.32798,0.2517
+954,soap;asthma medicine,asthma medicine,allergy medication,antibiotic,fever reducer,soap,0.63648,0.57935,0.55354,0.55244,0.51205
+956,spare clothes,cold medicine,wet wipes,sanitary pad,first aid kit,diaper,0.69954,0.60909,0.59251,0.56264,0.55897
+957,blanket,blanket,pet food,tent,first aid kit,psychological support team,0.39592,0.39065,0.3876,0.3723,0.34098
+959,medicine;batteries;dry food,allergy medication,antibiotic,blood collection center,asthma medicine,gluten free food,0.41882,0.37536,0.35256,0.35163,0.3323
+961,search and rescue team;coat,cold medicine,equipment for disabled people,blood collection center,search and rescue team,blood,0.56899,0.52578,0.41319,0.40205,0.3613
+969,drinking water,gluten free food,salt-free and sugar-free food,drinking water,dry food,sanitary pad,0.53913,0.51627,0.47476,0.42799,0.39624
+970,tent,equipment for disabled people,battery-powered radio,blood,search and rescue team,firewood,0.40766,0.39215,0.33465,0.32601,0.29717
+972,drinking water,drinking water,diaper,allergy medication,sanitary pad,first aid kit,0.58261,0.52634,0.52334,0.51726,0.51108
+973,toothpaste;baby formula,toothpaste,baby formula,gluten free food,salt-free and sugar-free food,toothbrush,0.53965,0.52874,0.48766,0.4537,0.42685
+974,medical team;blanket,cold medicine,allergy medication,equipment for disabled people,painkiller,blood collection center,0.58924,0.45207,0.41966,0.40287,0.38031
+978,painkiller;food,painkiller,allergy medication,antibiotic,gluten free food,asthma medicine,0.46789,0.43764,0.40132,0.38143,0.35987
+980,kitchenware,heating stove,pots and pans,kitchenware,hot meal,food,0.51114,0.50959,0.48104,0.42845,0.34962
+982,cold medicine;blanket,cold medicine,allergy medication,antibiotic,asthma medicine,toothpaste,0.62061,0.4863,0.48395,0.4561,0.41924
+983,wet wipes,blood collection center,first aid kit,baby formula,search and rescue team,toothpaste,0.34542,0.31565,0.29843,0.28971,0.28334
+986,search and rescue team,search and rescue team,equipment for disabled people,allergy medication,blood collection center,cold medicine,0.39722,0.36846,0.24359,0.24112,0.22668
+989,kitchenware,pots and pans,heating stove,kitchenware,canned food,hot meal,0.56473,0.49329,0.4871,0.38938,0.37696
+995,tent,gluten free food,sleeping bag,pet food,dry food,salt-free and sugar-free food,0.32605,0.30534,0.28809,0.25275,0.2353
+996,food,gluten free food,pet food,food,canned food,salt-free and sugar-free food,0.45459,0.38271,0.37481,0.3637,0.32693
+997,security forces,equipment for disabled people,blood,blood collection center,search and rescue team,cold medicine,0.57045,0.37771,0.359,0.27304,0.26792
+998,generator,equipment for disabled people,cold medicine,power bank,battery-powered radio,electric heater,0.36907,0.33798,0.31748,0.2891,0.28632
+1003,salt-free and sugar-free food,salt-free and sugar-free food,gluten free food,allergy medication,toothpaste,antibiotic,0.631,0.58514,0.41492,0.39214,0.39184
+1005,search and rescue team;blanket,search and rescue team,equipment for disabled people,first aid kit,firewood,blood collection center,0.56976,0.39354,0.37994,0.36457,0.34462
+1008,cold medicine;lighting equipment,cold medicine,equipment for disabled people,blood,allergy medication,asthma medicine,0.44665,0.41205,0.32552,0.30466,0.26979
+1012,pots and pans,pots and pans,heating stove,hot meal,equipment for disabled people,firewood,0.41586,0.40457,0.34956,0.33855,0.3374
+1017,life jacket;bandage,first aid kit,search and rescue team,baby formula,asthma medicine,allergy medication,0.43316,0.40924,0.39298,0.3907,0.38253
+1018,gluten free food,gluten free food,salt-free and sugar-free food,baby formula,toothpaste,diaper,0.75575,0.61818,0.46427,0.45096,0.44245
+1020,cleaning product;search and rescue team,search and rescue team,blood collection center,first aid kit,wet wipes,cold medicine,0.58963,0.50535,0.45151,0.43747,0.43392
+1022,drinking water,gluten free food,drinking water,dry food,equipment for disabled people,salt-free and sugar-free food,0.41259,0.37346,0.36455,0.35537,0.33948
+1023,container housing;coat,cold medicine,baby formula,salt-free and sugar-free food,heating stove,toothpaste,0.48888,0.2754,0.26648,0.26163,0.25693
+1024,spare clothes;dry food,gluten free food,salt-free and sugar-free food,dry food,canned food,sanitary pad,0.48589,0.45015,0.40181,0.32987,0.31938
+1027,drinking water,drinking water,blood collection center,fever reducer,antibiotic,allergy medication,0.53062,0.52211,0.48542,0.48202,0.48187
+1031,dry food;baby formula,baby formula,toothpaste,salt-free and sugar-free food,allergy medication,gluten free food,0.55356,0.53671,0.46777,0.43157,0.42765
+1038,dry food;pots and pans,gluten free food,pots and pans,heating stove,hot meal,toothpaste,0.42964,0.39815,0.34475,0.33903,0.33059
+1041,baby formula;search and rescue team,baby formula,search and rescue team,first aid kit,baby bottle,blood collection center,0.64671,0.6087,0.52426,0.50922,0.45024
+1044,drinking water;generator;battery-powered radio,battery-powered radio,equipment for disabled people,batteries,portable toilet,gluten free food,0.51963,0.35455,0.32922,0.3247,0.31168
+1055,generator;psychological support team,equipment for disabled people,fever reducer,search and rescue team,heating stove,asthma medicine,0.41804,0.35926,0.3282,0.32033,0.31593
+1061,pots and pans;children's playground,pots and pans,gluten free food,pet food,heating stove,hot meal,0.34265,0.30909,0.29856,0.28702,0.25623
+1070,antibiotic,antibiotic,allergy medication,painkiller,gluten free food,toothpaste,0.48353,0.46405,0.44639,0.44399,0.42404
+1072,medical team,medical team,heart medicine,asthma medicine,blood collection center,first aid kit,0.5073,0.44109,0.41186,0.40294,0.39742
+1074,coat,cold medicine,equipment for disabled people,blood collection center,blood,allergy medication,0.52549,0.38265,0.33808,0.3193,0.30496
+1076,flashlight;food;first aid kit,equipment for disabled people,antibiotic,search and rescue team,allergy medication,pots and pans,0.45347,0.39167,0.37604,0.36781,0.35319
+1077,drinking water;food,gluten free food,search and rescue team,first aid kit,fever reducer,blood collection center,0.43165,0.40367,0.40192,0.3977,0.3864
+1079,drinking water,baby formula,allergy medication,fever reducer,asthma medicine,first aid kit,0.34388,0.31415,0.29986,0.29457,0.29014
+1082,dry food,gluten free food,salt-free and sugar-free food,bread,toothpaste,canned food,0.49514,0.47924,0.37691,0.34706,0.33795
+1083,first aid kit;drinking water,first aid kit,drinking water,search and rescue team,asthma medicine,sanitary pad,0.69045,0.58533,0.5615,0.5556,0.55129
+1084,coat;lighting equipment,cold medicine,equipment for disabled people,dry food,gluten free food,salt-free and sugar-free food,0.47378,0.40165,0.35246,0.2717,0.25806
+1085,sleeping bag,cold medicine,fever reducer,salt-free and sugar-free food,gluten free food,allergy medication,0.53614,0.44569,0.42369,0.40819,0.406
+1088,allergy medication;insulin,allergy medication,baby formula,antibiotic,gluten free food,asthma medicine,0.44616,0.39235,0.37509,0.33749,0.3348
+1089,pots and pans,heating stove,pots and pans,hot meal,firewood,kitchenware,0.6076,0.59822,0.54548,0.40287,0.3353
+1092,napkin,gluten free food,blood collection center,toothpaste,salt-free and sugar-free food,cold medicine,0.36056,0.35982,0.34403,0.32209,0.29705
+1097,napkin;search and rescue team,search and rescue team,blood collection center,equipment for disabled people,first aid kit,pots and pans,0.46667,0.36767,0.31994,0.27222,0.26632
+1100,wet wipes,search and rescue team,first aid kit,sanitary pad,adhesive bandage,blood collection center,0.4802,0.4769,0.46412,0.44704,0.40633
+1102,napkin;medical team,medical team,equipment for disabled people,blood,blood collection center,search and rescue team,0.50915,0.50868,0.5068,0.45078,0.44613
+1103,generator,battery-powered radio,power bank,heating stove,electric heater,firewood,0.41798,0.41444,0.37523,0.36836,0.34754
+1104,oxygen concentrator,equipment for disabled people,heart medicine,asthma medicine,cold medicine,painkiller,0.37132,0.34845,0.29916,0.29636,0.27956
+1105,pet food,pet food,gluten free food,baby formula,toothpaste,blood collection center,0.39766,0.24795,0.24747,0.21799,0.21184
+1110,sleeping bag,sleeping bag,cold medicine,asthma medicine,allergy medication,equipment for disabled people,0.38576,0.34586,0.29223,0.27812,0.27558
+1113,first aid kit,allergy medication,blood collection center,antibiotic,medical team,blood,0.4738,0.46487,0.43489,0.41231,0.40749
+1115,electric heater,electric heater,cold medicine,heating stove,power bank,battery-powered radio,0.52397,0.49146,0.48353,0.43838,0.42115
+1118,security forces;sleeping bag,medical team,heart medicine,sleeping bag,painkiller,medicine,0.44989,0.44489,0.40777,0.37534,0.36483
+1120,medical team,equipment for disabled people,blood,medical team,cold medicine,heart medicine,0.50511,0.40987,0.40851,0.39338,0.38474
+1125,bandage,search and rescue team,medical team,heart medicine,first aid kit,blood collection center,0.51204,0.4849,0.47621,0.47462,0.45813
+1127,mask;drinking water,equipment for disabled people,search and rescue team,allergy medication,cold medicine,fever reducer,0.43355,0.40585,0.38627,0.381,0.36207
+1129,hot meal,heating stove,hot meal,pots and pans,cold medicine,gluten free food,0.47168,0.42671,0.41752,0.3641,0.31445
+1131,medical team,allergy medication,blood collection center,medical team,baby formula,antibiotic,0.43514,0.42316,0.42094,0.42047,0.40342
+1132,blanket;antibiotic;power bank,cold medicine,antibiotic,allergy medication,asthma medicine,blood collection center,0.58037,0.52792,0.50032,0.42139,0.40394
+1133,blanket;blood,cold medicine,allergy medication,heart medicine,fever reducer,salt-free and sugar-free food,0.51998,0.36863,0.36815,0.35139,0.34601
+1138,flashlight,baby formula,baby bottle,allergy medication,flashlight,diaper,0.42131,0.39154,0.32573,0.31883,0.31093
+1139,baby formula;container housing,cold medicine,blood collection center,baby formula,toothpaste,allergy medication,0.43686,0.33615,0.31708,0.27928,0.26124
+1141,tent;drinking water,search and rescue team,first aid kit,antibiotic,allergy medication,sanitary pad,0.42679,0.37957,0.37218,0.36708,0.36445
+1142,tent;sleeping bag,equipment for disabled people,cold medicine,blood collection center,blood,fever reducer,0.39578,0.35906,0.27424,0.26579,0.2386
+1148,fever reducer,cold medicine,fever reducer,allergy medication,asthma medicine,antibiotic,0.44081,0.43303,0.43177,0.41509,0.40468
+1149,hot meal;blanket,hot meal,heating stove,gluten free food,pots and pans,food,0.76931,0.57937,0.5194,0.49036,0.47591
+1152,search and rescue team,search and rescue team,fever reducer,equipment for disabled people,first aid kit,blood collection center,0.61691,0.43844,0.41788,0.41067,0.40717
+1156,medicine;spare clothes,cold medicine,asthma medicine,heart medicine,painkiller,allergy medication,0.5112,0.41954,0.40928,0.40471,0.38072
+1160,hot meal,hot meal,heating stove,pots and pans,fever reducer,gluten free food,0.57682,0.55544,0.49632,0.44165,0.39154
+1165,blood collection center;blanket;fever reducer,asthma medicine,fever reducer,allergy medication,blood collection center,equipment for disabled people,0.41168,0.39948,0.39196,0.32821,0.32731
+1166,drinking water,equipment for disabled people,blood,blood collection center,allergy medication,gluten free food,0.44991,0.32769,0.32765,0.32541,0.32354
+1170,mask;blanket,cold medicine,equipment for disabled people,allergy medication,blood collection center,blood,0.4998,0.42914,0.39216,0.35446,0.35034
+1176,bread,toothpaste,bread,gluten free food,pots and pans,salt-free and sugar-free food,0.42867,0.42503,0.41458,0.37037,0.36577
+1184,baby formula,baby formula,allergy medication,baby bottle,heart medicine,fever reducer,0.4385,0.30268,0.30035,0.26871,0.26001
+1186,generator,power bank,equipment for disabled people,gluten free food,electric heater,electrical field team,0.44251,0.43436,0.4022,0.36858,0.35203
+1188,power bank;pet food;tent,pet food,search and rescue team,gluten free food,first aid kit,baby formula,0.28811,0.26112,0.23769,0.21484,0.2123
+1195,gluten free food;hardware tools,gluten free food,salt-free and sugar-free food,antibiotic,toothpaste,allergy medication,0.60069,0.48572,0.47736,0.46498,0.42405
+1212,baby formula,baby formula,baby bottle,heart medicine,first aid kit,bread,0.53241,0.49053,0.36786,0.35659,0.33856
+1218,electric heater,heating stove,electric heater,gluten free food,electrical field team,battery-powered radio,0.42553,0.41028,0.34708,0.34337,0.34276
+1219,drinking water,drinking water,first aid kit,sanitary pad,search and rescue team,gluten free food,0.49081,0.43964,0.42029,0.40643,0.40636
+1225,napkin,sanitary pad,adhesive bandage,asthma medicine,first aid kit,salt-free and sugar-free food,0.49785,0.4323,0.4287,0.41574,0.41072
+1226,flashlight,baby formula,flashlight,battery-powered radio,baby bottle,first aid kit,0.39307,0.36429,0.34793,0.34083,0.3291
+1227,drinking water;search and rescue team,cold medicine,blood collection center,allergy medication,search and rescue team,asthma medicine,0.42327,0.41042,0.40736,0.39497,0.38579
+1230,generator,power bank,generator,electrical field team,heating stove,hardware tools,0.5626,0.49268,0.48943,0.47784,0.45961
+1231,food,equipment for disabled people,blood,gluten free food,cold medicine,dry food,0.56132,0.346,0.31053,0.26477,0.26324
+1233,sleeping bag,cold medicine,equipment for disabled people,sleeping bag,allergy medication,blood collection center,0.48313,0.38463,0.37921,0.34185,0.32023
+1234,hot meal;lighting equipment,hot meal,heating stove,pots and pans,pet food,gluten free food,0.57903,0.55097,0.52874,0.44833,0.43604
+1235,baby formula;spare clothes;equipment for disabled people,baby formula,blood collection center,toothpaste,allergy medication,cold medicine,0.37471,0.37272,0.32757,0.28626,0.27035
+1241,generator;tent;pots and pans,dry food,equipment for disabled people,pots and pans,heating stove,gluten free food,0.40248,0.39188,0.38263,0.37983,0.34015
+1242,medical team;pots and pans,asthma medicine,first aid kit,medical team,allergy medication,search and rescue team,0.46165,0.43319,0.4131,0.40605,0.39802
+1244,blanket,cold medicine,toothpaste,gluten free food,allergy medication,salt-free and sugar-free food,0.44365,0.32426,0.29239,0.29207,0.26038
+1247,cleaning product,adhesive bandage,sanitary pad,first aid kit,antibiotic,diaper,0.5821,0.57983,0.53343,0.53232,0.53143
+1248,drinking water,equipment for disabled people,cold medicine,allergy medication,gluten free food,battery-powered radio,0.32539,0.31548,0.29432,0.24071,0.23016
+1249,sanitary pad;cash;drinking water,blood collection center,gluten free food,salt-free and sugar-free food,toothpaste,insulin,0.33242,0.3289,0.31724,0.30637,0.29374
+1250,medical team;adhesive bandage;search and rescue team,search and rescue team,blood collection center,medical team,allergy medication,equipment for disabled people,0.47649,0.43261,0.38433,0.37866,0.37754
+1252,bandage;security forces;portable toilet,equipment for disabled people,blood collection center,search and rescue team,cold medicine,blood,0.45802,0.41919,0.37037,0.36834,0.35564
+1253,drinking water;lighting equipment;power bank,equipment for disabled people,battery-powered radio,dry food,gluten free food,salt-free and sugar-free food,0.37939,0.31994,0.23262,0.21656,0.19822
+1254,antibiotic;insulin;sleeping bag,heart medicine,asthma medicine,allergy medication,blood collection center,baby formula,0.37502,0.34822,0.34286,0.33413,0.32433
+1255,gluten free food;equipment for disabled people,equipment for disabled people,gluten free food,allergy medication,painkiller,blood,0.43261,0.35288,0.32904,0.31682,0.31261
+1259,blanket;hot meal;baby formula,gluten free food,baby formula,pet food,toothpaste,salt-free and sugar-free food,0.38105,0.37746,0.3254,0.3248,0.31423
+1261,first aid kit;heating stove,fever reducer,equipment for disabled people,search and rescue team,allergy medication,heating stove,0.52361,0.47253,0.4506,0.4487,0.44639
+1264,drinking water,gluten free food,dry food,equipment for disabled people,salt-free and sugar-free food,fever reducer,0.3635,0.35337,0.34698,0.32495,0.30062
+1266,power bank;generator,power bank,battery-powered radio,equipment for disabled people,electric heater,electrical field team,0.49919,0.46794,0.45574,0.44661,0.42994
+1268,heart medicine;electric heater,cold medicine,heart medicine,asthma medicine,allergy medication,painkiller,0.39335,0.38153,0.36234,0.33695,0.32885
+1270,first aid kit,first aid kit,medical team,search and rescue team,painkiller,heart medicine,0.61009,0.56391,0.55808,0.51401,0.49302
+1271,generator,power bank,battery-powered radio,electric heater,gluten free food,electrical field team,0.46307,0.46132,0.43375,0.42162,0.40985
+1272,drinking water;flashlight,equipment for disabled people,cold medicine,allergy medication,drinking water,antibiotic,0.48784,0.42877,0.4225,0.40162,0.39242
+1274,pots and pans;napkin;coat,gluten free food,salt-free and sugar-free food,heating stove,pots and pans,dry food,0.37295,0.35061,0.28001,0.27801,0.25798
+1275,pots and pans,pots and pans,equipment for disabled people,heating stove,gluten free food,firewood,0.45227,0.4343,0.4164,0.36382,0.34299
+1283,fever reducer;blood collection center,fever reducer,asthma medicine,blood collection center,allergy medication,heart medicine,0.50349,0.46792,0.46788,0.4323,0.40058
+1284,hot meal;cold medicine,toothpaste,gluten free food,hot meal,heating stove,pots and pans,0.39585,0.38155,0.36898,0.35145,0.32763
+1299,medicine;drinking water,antibiotic,asthma medicine,allergy medication,heart medicine,cold medicine,0.55107,0.54546,0.53503,0.50453,0.47565
+1300,wet wipes,sanitary pad,wet wipes,diaper,salt-free and sugar-free food,adhesive bandage,0.61217,0.58704,0.56442,0.55114,0.54679
+1301,cash,gluten free food,salt-free and sugar-free food,bread,baby formula,toothpaste,0.41027,0.39414,0.26293,0.24352,0.22636
+1305,drinking water;portable toilet,equipment for disabled people,allergy medication,cold medicine,blood,gluten free food,0.46612,0.38234,0.37169,0.37126,0.3617
+1319,fever reducer,fever reducer,allergy medication,asthma medicine,cold medicine,antibiotic,0.45893,0.44188,0.43662,0.37774,0.37465
+1331,medical team,blood collection center,blood,equipment for disabled people,cold medicine,search and rescue team,0.46688,0.42359,0.38072,0.35583,0.32634
+1332,medical team,medical team,heart medicine,blood collection center,medicine,cold medicine,0.42979,0.3996,0.32871,0.30587,0.27763
+1335,toothpaste,toothpaste,blood collection center,pet food,search and rescue team,first aid kit,0.40868,0.38625,0.38467,0.38326,0.37317
+1338,food,blood collection center,canned food,toothpaste,antibiotic,gluten free food,0.49051,0.47418,0.47239,0.46815,0.45071
+1339,mask,equipment for disabled people,allergy medication,blood,cold medicine,fever reducer,0.51221,0.4663,0.43384,0.41337,0.40664
+1342,fever reducer;soap,fever reducer,asthma medicine,allergy medication,antibiotic,heating stove,0.5341,0.49415,0.457,0.42001,0.40101
+1344,search and rescue team,equipment for disabled people,search and rescue team,medical team,kitchenware,heart medicine,0.38161,0.35679,0.3248,0.26888,0.26366
+1345,bread;portable toilet,bread,food,gluten free food,canned food,kitchenware,0.47075,0.45184,0.44407,0.4431,0.43072
+1347,fever reducer,fever reducer,cold medicine,asthma medicine,allergy medication,antibiotic,0.56799,0.51791,0.48646,0.47246,0.46277
+1350,power bank;wet wipes,equipment for disabled people,battery-powered radio,baby formula,salt-free and sugar-free food,heart medicine,0.33445,0.3175,0.2869,0.24962,0.24392
+1351,electric heater;food,heating stove,electric heater,gluten free food,power bank,pots and pans,0.56661,0.49029,0.4596,0.42583,0.42129
+1356,canned food;hot meal,hot meal,heating stove,canned food,gluten free food,pots and pans,0.49074,0.4464,0.38887,0.38459,0.37006
+1357,salt-free and sugar-free food;diaper;psychological support team,salt-free and sugar-free food,gluten free food,toothpaste,cleaning product,sanitary pad,0.74941,0.69596,0.39753,0.37773,0.36507
+1360,drinking water,blood collection center,cold medicine,heart medicine,blood,equipment for disabled people,0.38529,0.34602,0.34597,0.33056,0.326
+1366,adhesive bandage,blood,equipment for disabled people,allergy medication,blood collection center,wet wipes,0.5343,0.50164,0.45917,0.4441,0.42799
+1367,coat,cold medicine,equipment for disabled people,blood collection center,blood,allergy medication,0.5785,0.42455,0.33915,0.33422,0.33099
+1369,medicine,equipment for disabled people,allergy medication,antibiotic,cold medicine,asthma medicine,0.38955,0.3792,0.33814,0.30805,0.30219
+1372,container housing;bread;cold medicine,cold medicine,bread,antibiotic,heating stove,gluten free food,0.53433,0.45453,0.438,0.41865,0.41024
+1381,cleaning product,fever reducer,antibiotic,allergy medication,equipment for disabled people,asthma medicine,0.42444,0.42417,0.41193,0.39524,0.39191
+1384,medical team,search and rescue team,allergy medication,blood collection center,antibiotic,medical team,0.39564,0.38105,0.37733,0.3621,0.35713
+1391,first aid kit,first aid kit,search and rescue team,painkiller,medical team,allergy medication,0.56082,0.49922,0.47783,0.47726,0.47553
+1393,bandage,search and rescue team,allergy medication,fever reducer,cold medicine,antibiotic,0.48672,0.44983,0.42607,0.42504,0.39819
+1395,life jacket,search and rescue team,equipment for disabled people,blood,antibiotic,fever reducer,0.49125,0.44513,0.41011,0.40734,0.38758
+1396,medicine,allergy medication,equipment for disabled people,gluten free food,antibiotic,cold medicine,0.36272,0.32142,0.31371,0.30251,0.28946
+1397,asthma medicine,asthma medicine,heart medicine,fever reducer,allergy medication,blood collection center,0.40326,0.32843,0.30541,0.29635,0.27723
+1400,diaper;lantern,diaper,search and rescue team,baby formula,allergy medication,blood collection center,0.59376,0.57975,0.55761,0.55433,0.50964
+1406,cleaning product,allergy medication,fever reducer,antibiotic,asthma medicine,adhesive bandage,0.55769,0.53516,0.52944,0.49902,0.48443
+1407,fever reducer;hot meal,fever reducer,asthma medicine,hot meal,allergy medication,antibiotic,0.59798,0.49857,0.47872,0.47352,0.44974
+1409,cleaning product,gluten free food,toothpaste,antibiotic,allergy medication,equipment for disabled people,0.40262,0.39401,0.39296,0.37321,0.37176
+1411,pet food;sleeping bag,gluten free food,pet food,toothpaste,salt-free and sugar-free food,sleeping bag,0.42057,0.39689,0.39591,0.37999,0.37536
+1412,soap,soap,sanitary pad,diaper,first aid kit,toothbrush,0.56844,0.48678,0.48127,0.46806,0.46276
+1413,life jacket;fever reducer,fever reducer,asthma medicine,allergy medication,cold medicine,search and rescue team,0.48467,0.43804,0.37704,0.35889,0.33903
+1416,asthma medicine,allergy medication,asthma medicine,baby formula,fever reducer,antibiotic,0.50529,0.499,0.43393,0.43013,0.42019
+1421,fever reducer;power bank,battery-powered radio,batteries,equipment for disabled people,electric heater,heating stove,0.55274,0.40552,0.37384,0.36713,0.35251
+1422,power bank;drinking water,power bank,drinking water,allergy medication,heart medicine,first aid kit,0.46802,0.42442,0.41739,0.41318,0.40947
+1424,flashlight,equipment for disabled people,battery-powered radio,firewood,lantern,asthma medicine,0.45449,0.43439,0.43208,0.41611,0.41225
+1425,drinking water;medical team,blood collection center,first aid kit,search and rescue team,medical team,asthma medicine,0.4431,0.42726,0.4029,0.3915,0.38856
+1427,drinking water,baby formula,baby bottle,heart medicine,cold medicine,fever reducer,0.33731,0.32013,0.30071,0.28684,0.28048
+1429,cleaning product;napkin,blood collection center,allergy medication,equipment for disabled people,diaper,antibiotic,0.4428,0.38736,0.37541,0.35582,0.34065
+1438,coat,cold medicine,equipment for disabled people,blood,blood collection center,allergy medication,0.41766,0.35454,0.26682,0.2641,0.18852
+1440,dry food,gluten free food,equipment for disabled people,toothpaste,dry food,pots and pans,0.43034,0.39691,0.38195,0.37064,0.36283
+1441,mask,equipment for disabled people,battery-powered radio,baby formula,baby bottle,search and rescue team,0.48925,0.32114,0.32078,0.28398,0.2744
+1443,wet wipes;baby formula,baby formula,toothpaste,salt-free and sugar-free food,allergy medication,baby bottle,0.56074,0.42967,0.39469,0.39376,0.38019
+1444,spare clothes,gluten free food,salt-free and sugar-free food,toothpaste,dry food,toothbrush,0.54373,0.53983,0.43068,0.42584,0.42061
+1447,generator;drinking water,equipment for disabled people,cold medicine,blood,allergy medication,dry food,0.50279,0.40617,0.40613,0.36837,0.32986
+1455,generator,generator,battery-powered radio,power bank,electrical field team,electric heater,0.49057,0.48498,0.48123,0.4485,0.44336
+1461,food;tent;hot meal,hot meal,heating stove,pots and pans,gluten free food,canned food,0.57165,0.53733,0.5108,0.46756,0.45216
+1462,food,equipment for disabled people,blood,search and rescue team,blood collection center,food,0.40204,0.3913,0.39095,0.3503,0.33928
+1466,cash,cash,battery-powered radio,power bank,heart medicine,batteries,0.40006,0.33996,0.32425,0.3111,0.31086
+1479,tent,equipment for disabled people,tent,search and rescue team,firewood,sleeping bag,0.40845,0.36724,0.35343,0.33841,0.31658
+1483,search and rescue team,equipment for disabled people,search and rescue team,medical team,blood collection center,battery-powered radio,0.31059,0.29382,0.20799,0.19964,0.19192
+1484,kitchenware,kitchenware,food,toothpaste,pots and pans,pet food,0.414,0.38761,0.37333,0.34751,0.34738
+1485,spare clothes;search and rescue team,sanitary pad,adhesive bandage,fever reducer,search and rescue team,cold medicine,0.47643,0.46211,0.45112,0.44216,0.42587
+1493,search and rescue team,equipment for disabled people,baby formula,antibiotic,allergy medication,blood collection center,0.41349,0.32287,0.30205,0.301,0.29647
+1496,toothpaste,toothpaste,toothbrush,insulin,baby formula,blood collection center,0.47421,0.36967,0.31773,0.3034,0.28514
+1500,diaper,search and rescue team,first aid kit,pet food,baby formula,psychological support team,0.50399,0.49666,0.46668,0.4636,0.45925
+1501,blanket,cold medicine,battery-powered radio,blood collection center,equipment for disabled people,medical team,0.35527,0.31113,0.28658,0.28236,0.26749
+1506,drinking water;volunteers,blood collection center,search and rescue team,asthma medicine,antibiotic,sanitary pad,0.39191,0.32657,0.31781,0.31161,0.31035
+1508,blood,blood collection center,allergy medication,blood,search and rescue team,asthma medicine,0.54805,0.52587,0.50393,0.47803,0.47412
+1509,antibiotic,allergy medication,antibiotic,baby formula,asthma medicine,blood collection center,0.5456,0.52399,0.48004,0.45975,0.4478
+1510,insulin,allergy medication,insulin,asthma medicine,antibiotic,blood collection center,0.48238,0.47087,0.43588,0.4256,0.40659
+1511,lighting equipment,battery-powered radio,power bank,asthma medicine,equipment for disabled people,heating stove,0.37885,0.31519,0.30572,0.29532,0.29433
+1512,power bank;generator,equipment for disabled people,battery-powered radio,search and rescue team,asthma medicine,power bank,0.44602,0.44177,0.40002,0.38518,0.36852
+1513,flashlight;drinking water,search and rescue team,first aid kit,allergy medication,cold medicine,antibiotic,0.514,0.48713,0.48472,0.4557,0.44192
+1520,coat;salt-free and sugar-free food,salt-free and sugar-free food,gluten free food,cleaning product,toothpaste,hot meal,0.75667,0.65903,0.48935,0.39717,0.3929
+1521,cold medicine;sanitary pad,cold medicine,blood collection center,allergy medication,asthma medicine,antibiotic,0.51577,0.46471,0.4573,0.45255,0.44891
+1524,blanket,cold medicine,first aid kit,allergy medication,heart medicine,asthma medicine,0.56651,0.40348,0.38844,0.38249,0.37837
+1526,pet food,pet food,toothpaste,gluten free food,antibiotic,baby formula,0.64021,0.41169,0.40598,0.38375,0.37249
+1527,bandage,equipment for disabled people,blood,blood collection center,cold medicine,allergy medication,0.42475,0.35707,0.35524,0.2784,0.27174
+1528,napkin;medical team,medical team,heart medicine,blood collection center,painkiller,first aid kit,0.56639,0.50431,0.49067,0.47023,0.45621
+1529,napkin,sanitary pad,wet wipes,allergy medication,fever reducer,toothpaste,0.54945,0.50062,0.49886,0.49074,0.49015
+1531,kitchenware;spare clothes,kitchenware,toothpaste,gluten free food,blood collection center,toothbrush,0.34702,0.34087,0.32491,0.31967,0.31947
+1532,napkin,salt-free and sugar-free food,gluten free food,sanitary pad,toothpaste,blood collection center,0.4793,0.46903,0.44947,0.44499,0.41461
+1533,toothpaste,toothpaste,toothbrush,diaper,soap,sanitary pad,0.73714,0.64166,0.55603,0.54685,0.54665
+1535,batteries,battery-powered radio,equipment for disabled people,power bank,electrical field team,asthma medicine,0.4507,0.36094,0.32463,0.3136,0.30858
+1536,toothpaste,toothpaste,toothbrush,antibiotic,gluten free food,allergy medication,0.6282,0.49331,0.48184,0.48005,0.47822
+1537,medicine;first aid kit,asthma medicine,heart medicine,medical team,first aid kit,allergy medication,0.50869,0.49954,0.49211,0.45606,0.44004
+1540,electric heater,cold medicine,electric heater,power bank,heating stove,electrical field team,0.5407,0.4802,0.43907,0.39349,0.38669
+1541,first aid kit;search and rescue team,equipment for disabled people,search and rescue team,blood collection center,first aid kit,cold medicine,0.37624,0.34593,0.29778,0.28765,0.2849
+1544,bread,gluten free food,bread,pots and pans,salt-free and sugar-free food,toothpaste,0.41377,0.40813,0.36283,0.3599,0.34441
+1545,coat;medicine,cold medicine,blood collection center,heart medicine,painkiller,equipment for disabled people,0.34928,0.29703,0.21776,0.21239,0.21178
+1547,tent;drinking water;children's playground,cold medicine,gluten free food,antibiotic,allergy medication,fever reducer,0.38973,0.37181,0.33418,0.32527,0.32005
+1551,food,gluten free food,food,hot meal,canned food,pet food,0.43601,0.38702,0.37456,0.35214,0.33575
+1553,pet food;wet wipes;toothbrush,pet food,toothpaste,toothbrush,diaper,sanitary pad,0.59668,0.55111,0.5121,0.4557,0.43256
+1559,portable toilet,equipment for disabled people,gluten free food,blood collection center,cold medicine,dry food,0.3972,0.26693,0.23397,0.233,0.22325
+1561,dry food,gluten free food,dry food,sanitary pad,diaper,salt-free and sugar-free food,0.52921,0.4488,0.44207,0.42856,0.42127
+1565,salt-free and sugar-free food;generator,salt-free and sugar-free food,gluten free food,baby formula,cleaning product,bread,0.65497,0.57652,0.37896,0.31002,0.2975
+1570,baby bottle,dry food,portable toilet,gluten free food,equipment for disabled people,baby formula,0.42212,0.38752,0.35628,0.34811,0.33297
+1576,diaper,baby formula,diaper,baby bottle,allergy medication,toothpaste,0.61162,0.58638,0.54015,0.4767,0.46822
+1581,cleaning product,antibiotic,allergy medication,asthma medicine,fever reducer,sanitary pad,0.56147,0.55022,0.51353,0.51164,0.50765
+1582,psychological support team;oxygen concentrator;batteries,equipment for disabled people,battery-powered radio,allergy medication,baby formula,asthma medicine,0.42219,0.3217,0.31447,0.30562,0.24591
+1583,pots and pans;oxygen concentrator,heating stove,pots and pans,asthma medicine,antibiotic,heart medicine,0.50758,0.49526,0.4737,0.42636,0.41456
+1595,cleaning product,equipment for disabled people,blood,allergy medication,blood collection center,fever reducer,0.41113,0.33453,0.31463,0.29261,0.2909
+1600,life jacket,search and rescue team,first aid kit,equipment for disabled people,blood,asthma medicine,0.56777,0.49034,0.46334,0.43967,0.42048
+1603,container housing;blood,blood,equipment for disabled people,blood collection center,cold medicine,search and rescue team,0.37579,0.36551,0.33633,0.29419,0.24959
+1622,psychological support team,equipment for disabled people,search and rescue team,baby formula,fever reducer,heart medicine,0.30278,0.25233,0.24227,0.22794,0.21502
+1634,food;volunteers,equipment for disabled people,blood collection center,battery-powered radio,baby formula,firewood,0.32754,0.30282,0.28221,0.26966,0.24907
+1637,generator,generator,battery-powered radio,power bank,electrical field team,batteries,0.61598,0.59607,0.59581,0.54773,0.524
+1652,batteries,equipment for disabled people,fever reducer,allergy medication,gluten free food,cold medicine,0.39834,0.28843,0.25861,0.25102,0.25057
+1666,sleeping bag;mask,sleeping bag,sanitary pad,blood collection center,cold medicine,blanket,0.54934,0.34924,0.34704,0.34463,0.34248
+1678,pots and pans,dry food,pots and pans,equipment for disabled people,gluten free food,heating stove,0.32168,0.31558,0.30559,0.29469,0.26602
+1680,first aid kit;volunteers,first aid kit,search and rescue team,medical team,heart medicine,asthma medicine,0.61282,0.58037,0.46372,0.42346,0.41779
+1684,spare clothes;lantern,dry food,equipment for disabled people,cold medicine,gluten free food,salt-free and sugar-free food,0.49071,0.46359,0.37523,0.33503,0.29568
+1688,blood,blood collection center,medical team,heart medicine,allergy medication,asthma medicine,0.63047,0.45548,0.45478,0.43866,0.42269
+1689,bread;hot meal,gluten free food,salt-free and sugar-free food,hot meal,heating stove,dry food,0.4905,0.43515,0.4009,0.39888,0.37563
+1695,coat,cold medicine,equipment for disabled people,dry food,spare clothes,portable toilet,0.51255,0.47568,0.45434,0.37975,0.37155
+1700,psychological support team,painkiller,blood collection center,cold medicine,psychological support team,search and rescue team,0.43787,0.42696,0.42646,0.42384,0.42227
+1703,life jacket;insulin,allergy medication,asthma medicine,antibiotic,heart medicine,baby formula,0.46607,0.45127,0.44216,0.38714,0.38568
+1708,hot meal,hot meal,heating stove,pots and pans,gluten free food,fever reducer,0.45319,0.41916,0.37359,0.32026,0.3078
+1715,wet wipes,equipment for disabled people,dry food,gluten free food,portable toilet,salt-free and sugar-free food,0.53307,0.47547,0.35451,0.3321,0.32753
+1716,hot meal;medicine,hot meal,heating stove,fever reducer,pots and pans,asthma medicine,0.64633,0.59644,0.56429,0.55465,0.54878
+1720,blanket,cold medicine,allergy medication,search and rescue team,antibiotic,security forces,0.60475,0.3835,0.36313,0.35263,0.34342
+1736,spare clothes,search and rescue team,equipment for disabled people,first aid kit,allergy medication,adhesive bandage,0.55809,0.49258,0.44942,0.43905,0.43845
+1739,sanitary pad;electric heater,cold medicine,heating stove,allergy medication,antibiotic,electric heater,0.38984,0.38008,0.32069,0.31687,0.30217
+1740,toothpaste;coat,cold medicine,toothpaste,blood collection center,baby formula,allergy medication,0.36577,0.30507,0.25637,0.2435,0.24257
+1742,container housing;salt-free and sugar-free food,salt-free and sugar-free food,gluten free food,toothpaste,fever reducer,antibiotic,0.60209,0.58637,0.39073,0.32721,0.32025
+1747,psychological support team,equipment for disabled people,heart medicine,fever reducer,painkiller,cold medicine,0.3556,0.28661,0.27017,0.26333,0.25849
+1751,hot meal,dry food,gluten free food,salt-free and sugar-free food,portable toilet,bread,0.48831,0.46945,0.45599,0.24617,0.23677
+1755,electric heater,heating stove,electric heater,power bank,equipment for disabled people,electrical field team,0.48788,0.47712,0.45119,0.39521,0.39417
+1760,hot meal,hot meal,heating stove,gluten free food,pots and pans,pet food,0.39927,0.37791,0.36379,0.35852,0.34601
+1762,hot meal,hot meal,heating stove,pots and pans,gluten free food,pet food,0.55006,0.51175,0.47673,0.46483,0.44027
+1764,drinking water;generator,power bank,electric heater,battery-powered radio,electrical field team,generator,0.51092,0.48144,0.43666,0.43495,0.42485
+1765,toothbrush,toothpaste,equipment for disabled people,toothbrush,allergy medication,antibiotic,0.52307,0.49111,0.44871,0.40872,0.3989
+1768,dry food,gluten free food,allergy medication,equipment for disabled people,blood collection center,toothpaste,0.30138,0.29624,0.29574,0.27277,0.26259
+1771,adhesive bandage;batteries,allergy medication,equipment for disabled people,antibiotic,baby formula,asthma medicine,0.46611,0.44985,0.40776,0.39021,0.38544
+1772,food,blood collection center,gluten free food,canned food,search and rescue team,toothpaste,0.45208,0.42253,0.37532,0.36655,0.34403
+1776,volunteers;tent;baby formula,first aid kit,baby formula,search and rescue team,pet food,baby bottle,0.37304,0.35356,0.33389,0.30531,0.29158
+1782,mask,equipment for disabled people,dry food,salt-free and sugar-free food,fever reducer,allergy medication,0.52606,0.34497,0.31047,0.3081,0.29684
+1790,dry food;psychological support team,gluten free food,salt-free and sugar-free food,fever reducer,search and rescue team,baby formula,0.4345,0.34475,0.33099,0.30433,0.30191
+1791,batteries;pet food,pet food,baby formula,antibiotic,first aid kit,insulin,0.59981,0.51232,0.45725,0.4552,0.45077
+1798,salt-free and sugar-free food;medicine,salt-free and sugar-free food,gluten free food,baby formula,allergy medication,antibiotic,0.66825,0.612,0.45051,0.43326,0.42174
+1800,generator,equipment for disabled people,battery-powered radio,power bank,allergy medication,cold medicine,0.34118,0.30135,0.26387,0.25304,0.24707
+1805,drinking water,toothpaste,baby formula,allergy medication,equipment for disabled people,blood collection center,0.31993,0.28805,0.27395,0.26514,0.25904
+1806,spare clothes;tent;wet wipes,sanitary pad,search and rescue team,first aid kit,wet wipes,adhesive bandage,0.60906,0.58069,0.57437,0.56765,0.56596
+1808,container housing,equipment for disabled people,search and rescue team,cold medicine,blood collection center,blood,0.38051,0.30671,0.30115,0.26902,0.26675
+1809,drinking water;search and rescue team,baby formula,gluten free food,search and rescue team,first aid kit,baby bottle,0.27814,0.25942,0.25079,0.25045,0.23055
+1811,coat,cold medicine,battery-powered radio,salt-free and sugar-free food,gluten free food,blood collection center,0.30539,0.29657,0.2236,0.20953,0.20816
+1815,batteries;psychological support team,equipment for disabled people,gluten free food,battery-powered radio,cold medicine,asthma medicine,0.3167,0.29173,0.27822,0.26799,0.24105
+1816,oxygen concentrator,equipment for disabled people,gluten free food,cold medicine,allergy medication,dry food,0.54422,0.39004,0.37983,0.37874,0.35122
+1819,adhesive bandage,blood collection center,equipment for disabled people,blood,allergy medication,antibiotic,0.47448,0.47066,0.46383,0.45663,0.39817
+1823,interpreter;tent,search and rescue team,psychological support team,first aid kit,container housing,baby formula,0.45267,0.45216,0.4221,0.4126,0.40255
+1825,gluten free food;baby bottle;spare clothes,gluten free food,salt-free and sugar-free food,dry food,toothpaste,baby formula,0.54805,0.47872,0.29051,0.28751,0.27639
+1828,tent,search and rescue team,sanitary pad,cold medicine,blood collection center,firewood,0.35964,0.33074,0.31828,0.31531,0.30707
+1831,mask,search and rescue team,blood collection center,medical team,equipment for disabled people,first aid kit,0.43828,0.36645,0.33516,0.31602,0.28942
+1833,power bank;medicine,baby formula,battery-powered radio,power bank,insulin,allergy medication,0.44969,0.44954,0.39718,0.39687,0.39575
+1836,psychological support team;medicine,allergy medication,painkiller,equipment for disabled people,fever reducer,antibiotic,0.46205,0.43061,0.38202,0.36439,0.3553
+1837,kitchenware;sanitary pad,kitchenware,pots and pans,heating stove,toothbrush,toothpaste,0.51662,0.44493,0.44402,0.42523,0.40546
+1839,tent,cold medicine,equipment for disabled people,blood collection center,blood,heating stove,0.61861,0.38349,0.36456,0.30119,0.29423
+1840,diaper;fever reducer;food,equipment for disabled people,gluten free food,allergy medication,asthma medicine,fever reducer,0.24917,0.24506,0.21843,0.20992,0.19624
+1841,container housing;interpreter;sleeping bag,blood collection center,baby formula,toothpaste,asthma medicine,allergy medication,0.30737,0.2991,0.25199,0.23455,0.23201
+1846,oxygen concentrator;tent,battery-powered radio,firewood,gluten free food,cold medicine,blood collection center,0.22739,0.2173,0.2025,0.19872,0.18737
+1849,search and rescue team;drinking water,drinking water,search and rescue team,wet wipes,first aid kit,sanitary pad,0.50194,0.49989,0.4329,0.42145,0.41876
+1857,baby formula,baby formula,baby bottle,allergy medication,diaper,first aid kit,0.70942,0.51747,0.45606,0.44444,0.43115
+1859,life jacket;power bank,search and rescue team,battery-powered radio,gluten free food,first aid kit,power bank,0.36987,0.33995,0.33476,0.31608,0.29566
+1862,coat,cold medicine,dry food,spare clothes,gluten free food,salt-free and sugar-free food,0.4409,0.41553,0.37111,0.36661,0.34776
+1864,batteries,equipment for disabled people,battery-powered radio,power bank,oxygen concentrator,blood,0.57267,0.37115,0.34729,0.34642,0.32992
+1867,oxygen concentrator,equipment for disabled people,asthma medicine,heart medicine,allergy medication,cold medicine,0.47324,0.38704,0.37929,0.35696,0.33867
+1869,first aid kit;baby formula;toothpaste,baby formula,toothpaste,allergy medication,antibiotic,blood collection center,0.40979,0.40092,0.35156,0.31768,0.30966
+1870,sanitary pad,blood collection center,baby formula,search and rescue team,heart medicine,allergy medication,0.32672,0.3103,0.24232,0.22879,0.22467
+1871,pet food,pet food,equipment for disabled people,toothpaste,blood collection center,allergy medication,0.33645,0.28058,0.26241,0.24995,0.23554
+1872,pet food;flashlight,pet food,equipment for disabled people,gluten free food,painkiller,search and rescue team,0.53774,0.38452,0.36342,0.34342,0.34052
+1878,sanitary pad;lighting equipment,heating stove,pots and pans,battery-powered radio,toothpaste,asthma medicine,0.31865,0.31845,0.29844,0.28135,0.27623
+1883,hardware tools;heart medicine,equipment for disabled people,blood collection center,cold medicine,search and rescue team,asthma medicine,0.26508,0.25559,0.2529,0.24092,0.22296
+1884,power bank;lighting equipment,equipment for disabled people,battery-powered radio,asthma medicine,cold medicine,allergy medication,0.50984,0.39519,0.38813,0.38106,0.37423
+1886,hot meal,hot meal,gluten free food,pots and pans,fever reducer,heating stove,0.49503,0.46114,0.40609,0.4056,0.40276
+1888,flashlight,equipment for disabled people,flashlight,allergy medication,asthma medicine,cold medicine,0.43892,0.43343,0.42951,0.41559,0.40423
+1889,bandage;napkin,blood,equipment for disabled people,blood collection center,diaper,search and rescue team,0.48597,0.44674,0.44099,0.32612,0.32082
+1893,blanket,cold medicine,equipment for disabled people,allergy medication,blood,sleeping bag,0.39651,0.36415,0.25313,0.23297,0.2327
+1894,security forces,equipment for disabled people,cold medicine,blood collection center,security forces,allergy medication,0.4292,0.35079,0.33868,0.29802,0.27158
+1896,dry food;medical team;lantern,gluten free food,sanitary pad,salt-free and sugar-free food,antibiotic,first aid kit,0.52011,0.49346,0.47486,0.45953,0.44727
+1899,toothpaste,toothpaste,equipment for disabled people,gluten free food,dry food,salt-free and sugar-free food,0.47912,0.45653,0.43007,0.37402,0.36996
+1903,volunteers;firewood,firewood,first aid kit,search and rescue team,heating stove,cold medicine,0.49809,0.35312,0.33406,0.31562,0.30085
+1905,bread;soap,bread,pots and pans,gluten free food,toothpaste,heating stove,0.46896,0.42973,0.42784,0.41803,0.39158
+1907,fever reducer,fever reducer,asthma medicine,allergy medication,antibiotic,painkiller,0.65297,0.62801,0.57215,0.53688,0.50798
+1908,coat;first aid kit,cold medicine,equipment for disabled people,blood collection center,allergy medication,gluten free food,0.38803,0.35448,0.34046,0.25689,0.2548
+1911,search and rescue team,equipment for disabled people,search and rescue team,blood collection center,allergy medication,antibiotic,0.40573,0.29083,0.28798,0.27773,0.2641
+1913,antibiotic,allergy medication,antibiotic,asthma medicine,blood collection center,blood,0.47652,0.4673,0.43771,0.42362,0.41209
+1917,heart medicine,heart medicine,equipment for disabled people,allergy medication,baby formula,cold medicine,0.39229,0.35421,0.33389,0.33092,0.3306
+1919,blanket;search and rescue team,cold medicine,equipment for disabled people,search and rescue team,fever reducer,sanitary pad,0.59498,0.45314,0.41774,0.40754,0.38425
+1921,toothpaste;generator;allergy medication,toothpaste,cold medicine,allergy medication,toothbrush,antibiotic,0.61545,0.51473,0.50765,0.49868,0.47176
+1923,kitchenware,kitchenware,equipment for disabled people,dry food,pots and pans,portable toilet,0.41927,0.40053,0.39157,0.38435,0.38081
+1927,hot meal;spare clothes,hot meal,heating stove,pots and pans,gluten free food,battery-powered radio,0.55286,0.43364,0.39403,0.37941,0.37071
+1930,adhesive bandage,adhesive bandage,antibiotic,blood collection center,allergy medication,first aid kit,0.56133,0.49224,0.48369,0.47352,0.4731
+1932,dry food,gluten free food,salt-free and sugar-free food,dry food,toothpaste,canned food,0.50603,0.45577,0.42021,0.33839,0.33517
+1934,baby bottle,baby formula,baby bottle,allergy medication,diaper,toothpaste,0.58821,0.54236,0.45383,0.44063,0.40892
+1938,cleaning product,allergy medication,antibiotic,equipment for disabled people,asthma medicine,blood,0.51674,0.50036,0.46773,0.46508,0.44744
+1939,bread,bread,pots and pans,toothpaste,heating stove,blood collection center,0.38372,0.34687,0.32475,0.2963,0.29178
+1941,oxygen concentrator,oxygen concentrator,asthma medicine,heart medicine,blood collection center,cold medicine,0.54128,0.52056,0.5169,0.48868,0.47974
+1947,medical team,search and rescue team,blood collection center,medical team,allergy medication,antibiotic,0.51317,0.47453,0.45483,0.44804,0.42893
+1953,adhesive bandage,blood collection center,blood,equipment for disabled people,medical team,allergy medication,0.49041,0.45262,0.43532,0.39916,0.37111
+1954,toothpaste,toothpaste,baby formula,toothbrush,allergy medication,gluten free food,0.47707,0.37726,0.35972,0.32652,0.31989
+1959,cleaning product;electric heater,cold medicine,equipment for disabled people,allergy medication,heating stove,antibiotic,0.41336,0.3975,0.36306,0.36288,0.35635
+1966,wet wipes;food,search and rescue team,blood,pots and pans,asthma medicine,fever reducer,0.51881,0.46869,0.46755,0.46643,0.45779
+1967,heating stove,fever reducer,gluten free food,salt-free and sugar-free food,cold medicine,hot meal,0.30907,0.29717,0.28884,0.27442,0.23162
+1970,coat,cold medicine,blood collection center,baby formula,allergy medication,toothpaste,0.42478,0.34776,0.33067,0.30806,0.30493
+1975,drinking water,drinking water,allergy medication,gluten free food,fever reducer,toothpaste,0.4967,0.49227,0.47637,0.46786,0.46716
+1979,cold medicine;tent;children's playground,cold medicine,allergy medication,equipment for disabled people,painkiller,antibiotic,0.51301,0.46831,0.45702,0.42212,0.38898
+1982,bread,gluten free food,salt-free and sugar-free food,toothpaste,bread,antibiotic,0.46299,0.4173,0.39717,0.35457,0.3498
+1986,sleeping bag,cold medicine,sleeping bag,battery-powered radio,blood collection center,toothpaste,0.46316,0.29101,0.2651,0.25885,0.25186
+1988,napkin;baby formula,equipment for disabled people,blood,diaper,baby formula,allergy medication,0.53095,0.41216,0.39915,0.38453,0.37751
+1999,electric heater;tent,battery-powered radio,electrical field team,heating stove,electric heater,firewood,0.47445,0.40389,0.3874,0.38141,0.37332

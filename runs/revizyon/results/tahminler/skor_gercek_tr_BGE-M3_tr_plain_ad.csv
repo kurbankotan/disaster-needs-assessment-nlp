@@ -1,0 +1,404 @@
+﻿id,gercek,top1,top2,top3,top4,top5,s1,s2,s3,s4,s5
+0,,search and rescue team,medical team,first aid kit,psychological support team,spare clothes,0.53876,0.51553,0.48259,0.47936,0.43216
+1,,medical team,portable toilet,first aid kit,search and rescue team,container housing,0.4826,0.44073,0.43767,0.43116,0.43063
+2,,search and rescue team,interpreter,medical team,tent,bread,0.49325,0.47177,0.45532,0.43156,0.41658
+3,,painkiller,medical team,search and rescue team,psychological support team,adhesive bandage,0.46538,0.44438,0.44438,0.41489,0.41009
+4,,search and rescue team,medical team,interpreter,security forces,volunteers,0.5301,0.51967,0.46287,0.46162,0.46113
+5,,bread,search and rescue team,medical team,first aid kit,insulin,0.45601,0.42956,0.42804,0.4267,0.42275
+6,,search and rescue team,interpreter,medical team,volunteers,equipment for disabled people,0.50972,0.48395,0.47966,0.45815,0.45319
+7,,search and rescue team,first aid kit,portable toilet,tent,volunteers,0.42511,0.42485,0.4184,0.40884,0.39316
+8,,interpreter,search and rescue team,container housing,portable toilet,equipment for disabled people,0.48418,0.46641,0.4393,0.42649,0.41325
+9,,search and rescue team,medical team,hot meal,interpreter,bread,0.47922,0.44877,0.43557,0.43453,0.43404
+10,,medical team,search and rescue team,interpreter,container housing,first aid kit,0.449,0.43492,0.42609,0.41978,0.41352
+11,,interpreter,adhesive bandage,search and rescue team,volunteers,security forces,0.44498,0.43042,0.39406,0.39068,0.3871
+12,,search and rescue team,interpreter,medical team,psychological support team,volunteers,0.46375,0.43512,0.42927,0.42626,0.42225
+13,,search and rescue team,painkiller,psychological support team,container housing,volunteers,0.44934,0.42918,0.42888,0.42033,0.418
+14,,search and rescue team,medical team,security forces,hot meal,equipment for disabled people,0.42228,0.40795,0.39229,0.39176,0.3905
+15,,medical team,search and rescue team,interpreter,psychological support team,painkiller,0.53315,0.49046,0.4299,0.42697,0.4263
+16,,tent,search and rescue team,security forces,painkiller,interpreter,0.45345,0.45072,0.45061,0.4309,0.42958
+17,,search and rescue team,volunteers,medical team,first aid kit,security forces,0.48467,0.4287,0.41894,0.41038,0.4095
+18,,children's playground,baby formula,diaper,cash,pet food,0.54064,0.48036,0.46978,0.46519,0.45867
+19,,search and rescue team,interpreter,medical team,psychological support team,volunteers,0.50505,0.49108,0.47588,0.47123,0.46445
+20,,interpreter,volunteers,search and rescue team,container housing,life jacket,0.44818,0.42993,0.42398,0.4066,0.40181
+21,,search and rescue team,blood,container housing,equipment for disabled people,painkiller,0.435,0.42429,0.42136,0.40713,0.3999
+22,,medical team,search and rescue team,painkiller,bread,security forces,0.51171,0.51,0.47965,0.46881,0.45703
+23,,search and rescue team,medical team,interpreter,volunteers,psychological support team,0.49546,0.47465,0.46908,0.46797,0.46733
+24,,search and rescue team,medical team,blood collection center,volunteers,first aid kit,0.51572,0.5075,0.44373,0.43976,0.43728
+25,,search and rescue team,medical team,volunteers,spare clothes,hot meal,0.45627,0.4559,0.45346,0.44473,0.44
+26,,volunteers,search and rescue team,gluten free food,medical team,salt-free and sugar-free food,0.50154,0.4717,0.46379,0.45995,0.45961
+27,,search and rescue team,medical team,first aid kit,volunteers,tent,0.51539,0.47732,0.45137,0.43335,0.42887
+28,,first aid kit,volunteers,medical team,spare clothes,interpreter,0.41459,0.40825,0.4074,0.40069,0.39477
+29,,search and rescue team,medical team,security forces,portable toilet,first aid kit,0.4833,0.45839,0.44933,0.44133,0.44036
+30,,search and rescue team,bread,first aid kit,container housing,tent,0.4329,0.42568,0.42479,0.41998,0.41598
+31,,mask,medical team,portable toilet,search and rescue team,volunteers,0.44546,0.44125,0.42828,0.41551,0.4097
+32,,search and rescue team,medical team,psychological support team,security forces,volunteers,0.49728,0.46948,0.46443,0.45464,0.41212
+33,,search and rescue team,interpreter,bread,blood,medical team,0.48942,0.45871,0.45048,0.44231,0.44164
+34,,search and rescue team,security forces,interpreter,portable toilet,medical team,0.43018,0.42889,0.42602,0.41677,0.4065
+35,,search and rescue team,medical team,hot meal,volunteers,spare clothes,0.47844,0.45372,0.44966,0.44162,0.4414
+36,,search and rescue team,medical team,interpreter,first aid kit,psychological support team,0.57028,0.50668,0.43989,0.4278,0.42019
+37,,search and rescue team,first aid kit,medical team,psychological support team,interpreter,0.52099,0.5024,0.49178,0.47411,0.47374
+38,,search and rescue team,hot meal,dry food,bread,tent,0.46219,0.43034,0.42403,0.42341,0.42312
+39,,volunteers,medical team,search and rescue team,mask,psychological support team,0.57075,0.55438,0.53086,0.50733,0.50639
+40,,search and rescue team,bread,medical team,security forces,painkiller,0.52935,0.49776,0.47733,0.46376,0.44964
+41,,medical team,search and rescue team,cash,psychological support team,mask,0.40416,0.39333,0.38296,0.37805,0.37283
+42,,search and rescue team,pet food,diaper,medical team,bread,0.4536,0.42991,0.41796,0.40419,0.39688
+43,,search and rescue team,interpreter,container housing,portable toilet,medical team,0.46837,0.45325,0.45057,0.44509,0.44124
+44,,painkiller,search and rescue team,medical team,fever reducer,hot meal,0.44306,0.44191,0.43363,0.42143,0.4162
+45,,bread,volunteers,search and rescue team,interpreter,security forces,0.48493,0.461,0.45449,0.45283,0.45187
+46,,volunteers,mask,bread,insulin,toothbrush,0.41326,0.39462,0.3889,0.38634,0.37976
+47,,interpreter,painkiller,search and rescue team,fever reducer,bread,0.47321,0.46644,0.46299,0.45983,0.44359
+48,,volunteers,psychological support team,medical team,search and rescue team,interpreter,0.45223,0.45025,0.44728,0.44214,0.43029
+49,,search and rescue team,bread,medical team,interpreter,sleeping bag,0.43595,0.42146,0.40598,0.4005,0.3948
+50,,search and rescue team,interpreter,first aid kit,medical team,portable toilet,0.47977,0.47005,0.45765,0.44486,0.44359
+51,,first aid kit,search and rescue team,medical team,volunteers,hot meal,0.41696,0.38719,0.3864,0.37714,0.37597
+52,,search and rescue team,medical team,interpreter,painkiller,security forces,0.5117,0.46414,0.45044,0.42624,0.41336
+53,,interpreter,spare clothes,container housing,insulin,search and rescue team,0.46234,0.44661,0.43901,0.4341,0.43294
+54,,psychological support team,medical team,security forces,painkiller,allergy medication,0.50496,0.42356,0.41471,0.38562,0.38556
+55,,medical team,volunteers,first aid kit,kitchenware,psychological support team,0.49708,0.49085,0.46308,0.46087,0.44632
+56,,interpreter,search and rescue team,painkiller,container housing,bread,0.4645,0.45192,0.44464,0.42321,0.42122
+57,,search and rescue team,volunteers,medical team,security forces,psychological support team,0.5047,0.45201,0.45007,0.44526,0.41825
+58,,bread,search and rescue team,pet food,hot meal,medical team,0.49426,0.47575,0.46692,0.44151,0.43886
+59,,interpreter,bread,container housing,search and rescue team,volunteers,0.49036,0.45442,0.45119,0.44944,0.44641
+60,,medical team,psychological support team,search and rescue team,first aid kit,equipment for disabled people,0.49845,0.49252,0.48127,0.44993,0.43478
+61,food;drinking water;tent,search and rescue team,medical team,tent,psychological support team,first aid kit,0.53509,0.50592,0.50155,0.49814,0.47918
+62,,search and rescue team,medical team,psychological support team,bread,interpreter,0.4799,0.4679,0.42726,0.42188,0.42054
+63,,interpreter,bread,psychological support team,medical team,insulin,0.45409,0.41555,0.40779,0.40206,0.4016
+64,tent,tent,search and rescue team,first aid kit,medical team,spare clothes,0.57112,0.49183,0.4833,0.45824,0.43824
+65,,search and rescue team,security forces,medical team,interpreter,bread,0.53573,0.46483,0.46058,0.45511,0.44918
+66,,interpreter,search and rescue team,insulin,psychological support team,medical team,0.41591,0.41585,0.40284,0.4016,0.39871
+67,,search and rescue team,medical team,volunteers,psychological support team,interpreter,0.49488,0.47895,0.44254,0.441,0.44033
+68,,search and rescue team,medical team,bread,container housing,security forces,0.47506,0.42719,0.42277,0.4194,0.41237
+69,,search and rescue team,interpreter,baby formula,diaper,adhesive bandage,0.42962,0.41262,0.38831,0.37808,0.37757
+70,,search and rescue team,medical team,interpreter,bread,painkiller,0.47801,0.45791,0.45474,0.45439,0.4438
+71,,search and rescue team,interpreter,medical team,container housing,tent,0.48992,0.44237,0.40701,0.40288,0.39607
+72,,interpreter,search and rescue team,medical team,psychological support team,volunteers,0.48396,0.46922,0.45679,0.42806,0.41941
+73,,first aid kit,spare clothes,search and rescue team,medical team,portable toilet,0.50226,0.43204,0.42668,0.4205,0.41122
+74,cash,tent,search and rescue team,first aid kit,volunteers,interpreter,0.51037,0.49272,0.47998,0.46597,0.44867
+75,search and rescue team,search and rescue team,medical team,first aid kit,volunteers,psychological support team,0.51329,0.46229,0.43213,0.43213,0.42233
+76,,search and rescue team,medical team,security forces,psychological support team,blood collection center,0.498,0.4813,0.43122,0.42481,0.4071
+77,,search and rescue team,interpreter,medical team,psychological support team,portable toilet,0.45752,0.43877,0.43819,0.42527,0.41689
+78,,portable toilet,bread,search and rescue team,painkiller,container housing,0.44386,0.43814,0.43433,0.4293,0.4279
+79,,search and rescue team,medical team,portable toilet,hot meal,first aid kit,0.43734,0.4131,0.39873,0.39716,0.39266
+80,,search and rescue team,medical team,psychological support team,interpreter,volunteers,0.50453,0.48968,0.48537,0.47737,0.45788
+81,,search and rescue team,medical team,security forces,hot meal,container housing,0.46758,0.44893,0.39521,0.39373,0.3931
+82,,psychological support team,search and rescue team,medical team,volunteers,interpreter,0.51702,0.47501,0.4406,0.43899,0.43561
+83,,first aid kit,equipment for disabled people,container housing,lighting equipment,search and rescue team,0.48524,0.47316,0.46595,0.46243,0.45693
+84,,search and rescue team,medical team,first aid kit,dry food,psychological support team,0.48192,0.45939,0.42513,0.41629,0.40979
+85,,first aid kit,spare clothes,search and rescue team,hot meal,fever reducer,0.47713,0.43016,0.4161,0.40586,0.39137
+86,,bread,search and rescue team,spare clothes,hot meal,portable toilet,0.43622,0.42924,0.42651,0.42266,0.42012
+87,,search and rescue team,medical team,bread,first aid kit,interpreter,0.47594,0.46364,0.44027,0.43835,0.43129
+88,,volunteers,search and rescue team,portable toilet,blood collection center,medical team,0.44809,0.40213,0.39437,0.38688,0.38427
+89,,search and rescue team,medical team,bread,volunteers,interpreter,0.47667,0.44116,0.41537,0.41332,0.40775
+90,,search and rescue team,medical team,volunteers,interpreter,bread,0.49222,0.46804,0.46221,0.45163,0.44721
+91,,search and rescue team,psychological support team,painkiller,bread,container housing,0.44457,0.41637,0.41626,0.40738,0.40696
+92,,first aid kit,interpreter,search and rescue team,portable toilet,medical team,0.47767,0.47237,0.46027,0.45693,0.45122
+93,,volunteers,search and rescue team,medical team,security forces,psychological support team,0.57194,0.54848,0.49756,0.47792,0.43487
+94,,interpreter,search and rescue team,medical team,cash,psychological support team,0.43754,0.40489,0.40286,0.40245,0.38598
+95,,search and rescue team,medical team,painkiller,interpreter,volunteers,0.4611,0.43739,0.42995,0.42766,0.40999
+96,,search and rescue team,medical team,portable toilet,volunteers,interpreter,0.4744,0.45573,0.43568,0.42276,0.41701
+97,,search and rescue team,tent,medical team,security forces,volunteers,0.49823,0.45426,0.44891,0.44358,0.43679
+98,,first aid kit,interpreter,equipment for disabled people,search and rescue team,medical team,0.47925,0.4277,0.40912,0.39709,0.39556
+99,,search and rescue team,bread,medical team,interpreter,psychological support team,0.50953,0.47958,0.46876,0.46791,0.46172
+100,,search and rescue team,medical team,psychological support team,bread,painkiller,0.49437,0.47808,0.45803,0.43506,0.42016
+101,,painkiller,search and rescue team,tent,bread,container housing,0.42897,0.42113,0.40396,0.39919,0.3954
+102,,search and rescue team,medical team,first aid kit,psychological support team,blood collection center,0.56279,0.5132,0.46227,0.43977,0.43869
+103,,interpreter,volunteers,lighting equipment,adhesive bandage,tent,0.46118,0.45511,0.41669,0.41261,0.40421
+104,,search and rescue team,medical team,psychological support team,security forces,interpreter,0.4912,0.45904,0.45739,0.4377,0.40761
+105,,medical team,painkiller,search and rescue team,fever reducer,security forces,0.41733,0.41138,0.409,0.39782,0.39619
+106,,search and rescue team,medical team,psychological support team,bread,security forces,0.50946,0.46554,0.44161,0.44143,0.43504
+107,,search and rescue team,interpreter,fever reducer,painkiller,first aid kit,0.51964,0.48842,0.48776,0.4822,0.47734
+108,search and rescue team,search and rescue team,medical team,equipment for disabled people,interpreter,first aid kit,0.54434,0.51873,0.4788,0.47511,0.47113
+109,,psychological support team,medical team,search and rescue team,interpreter,volunteers,0.50535,0.49573,0.47121,0.42401,0.41775
+110,,search and rescue team,medical team,psychological support team,volunteers,interpreter,0.49836,0.4915,0.45395,0.4391,0.42038
+111,,volunteers,first aid kit,psychological support team,search and rescue team,interpreter,0.47979,0.4645,0.46081,0.45104,0.44356
+112,,volunteers,search and rescue team,medical team,interpreter,life jacket,0.45808,0.44142,0.44049,0.41531,0.41443
+113,,search and rescue team,interpreter,volunteers,medical team,spare clothes,0.46892,0.45097,0.43116,0.41738,0.40704
+114,,search and rescue team,psychological support team,medical team,interpreter,first aid kit,0.49223,0.44656,0.43039,0.41563,0.3954
+115,,search and rescue team,lighting equipment,food,hot meal,baby formula,0.48068,0.47247,0.4536,0.45284,0.44928
+116,,search and rescue team,medical team,security forces,blood,interpreter,0.45064,0.44786,0.42867,0.42662,0.42224
+117,,search and rescue team,portable toilet,insulin,medical team,first aid kit,0.43881,0.41484,0.41334,0.40888,0.40626
+118,,search and rescue team,medical team,psychological support team,volunteers,first aid kit,0.53122,0.49915,0.48845,0.47902,0.47645
+119,,search and rescue team,medical team,spare clothes,fever reducer,equipment for disabled people,0.54344,0.48643,0.45601,0.45427,0.4525
+120,,search and rescue team,equipment for disabled people,spare clothes,pet food,toothbrush,0.41694,0.40619,0.39703,0.39213,0.39151
+121,,medical team,search and rescue team,painkiller,insulin,hot meal,0.47385,0.45339,0.44408,0.43664,0.43162
+122,,first aid kit,baby formula,pet food,painkiller,cash,0.44376,0.4422,0.4364,0.43279,0.43167
+123,,medical team,search and rescue team,bread,volunteers,interpreter,0.5248,0.49274,0.48108,0.47623,0.46536
+124,,volunteers,search and rescue team,medical team,interpreter,first aid kit,0.58938,0.45907,0.45851,0.42872,0.4253
+125,,search and rescue team,medical team,first aid kit,psychological support team,volunteers,0.51964,0.48735,0.48538,0.46094,0.44859
+126,,search and rescue team,interpreter,first aid kit,portable toilet,security forces,0.49189,0.46246,0.44614,0.44153,0.44011
+127,,search and rescue team,medical team,volunteers,interpreter,psychological support team,0.47173,0.47014,0.44941,0.447,0.44401
+128,,search and rescue team,salt-free and sugar-free food,gluten free food,spare clothes,first aid kit,0.45784,0.44773,0.44564,0.42808,0.42783
+129,,search and rescue team,medical team,children's playground,equipment for disabled people,interpreter,0.4086,0.39131,0.38042,0.36865,0.35768
+130,,search and rescue team,interpreter,medical team,tent,painkiller,0.44985,0.4239,0.42359,0.40766,0.40754
+131,,painkiller,interpreter,hot meal,psychological support team,blood collection center,0.46272,0.44687,0.42453,0.42206,0.40534
+132,,search and rescue team,medical team,insulin,hot meal,spare clothes,0.45762,0.44657,0.42878,0.41819,0.41533
+133,,insulin,firewood,sleeping bag,mask,cash,0.54658,0.54533,0.53373,0.51034,0.49649
+134,,cash,interpreter,lighting equipment,hot meal,pots and pans,0.53137,0.4912,0.48923,0.46536,0.45661
+135,,hot meal,volunteers,painkiller,lighting equipment,cash,0.46859,0.46771,0.45837,0.4572,0.44972
+136,,search and rescue team,medical team,bread,psychological support team,hot meal,0.4565,0.39772,0.38879,0.37901,0.3716
+137,,medical team,search and rescue team,psychological support team,first aid kit,electrical field team,0.53446,0.53346,0.52693,0.43968,0.43299
+138,,medical team,search and rescue team,bread,soap,blood,0.4479,0.43737,0.41818,0.40592,0.40355
+139,,interpreter,psychological support team,search and rescue team,children's playground,volunteers,0.45205,0.44732,0.43857,0.43685,0.42521
+140,,search and rescue team,medical team,psychological support team,security forces,interpreter,0.4912,0.45904,0.45739,0.4377,0.40761
+141,,volunteers,psychological support team,search and rescue team,medical team,interpreter,0.47427,0.47122,0.46053,0.44933,0.42108
+142,,lighting equipment,interpreter,volunteers,search and rescue team,medical team,0.50962,0.45144,0.4466,0.44567,0.4455
+143,,search and rescue team,tent,medical team,interpreter,blood collection center,0.44321,0.39497,0.39257,0.39037,0.38209
+144,,search and rescue team,interpreter,medical team,painkiller,bread,0.41509,0.40556,0.39854,0.3869,0.38086
+145,,search and rescue team,first aid kit,medical team,oxygen concentrator,psychological support team,0.43325,0.4305,0.40264,0.39846,0.39642
+146,,search and rescue team,medical team,psychological support team,volunteers,first aid kit,0.50659,0.48336,0.45895,0.43509,0.4259
+147,,search and rescue team,interpreter,medical team,psychological support team,volunteers,0.46722,0.46423,0.44599,0.42755,0.41712
+148,,search and rescue team,psychological support team,first aid kit,interpreter,medical team,0.51632,0.4957,0.48302,0.47579,0.46607
+149,,security forces,mask,spare clothes,medical team,diaper,0.42628,0.42157,0.41001,0.40821,0.4077
+150,,search and rescue team,medical team,electrical field team,psychological support team,security forces,0.55915,0.51964,0.45265,0.45233,0.44542
+151,,psychological support team,search and rescue team,interpreter,volunteers,tent,0.47049,0.46739,0.45402,0.45399,0.44519
+152,,volunteers,interpreter,bread,psychological support team,search and rescue team,0.42167,0.41735,0.4135,0.41,0.4095
+153,,psychological support team,search and rescue team,interpreter,medical team,painkiller,0.43036,0.42909,0.42674,0.42391,0.42159
+154,,search and rescue team,first aid kit,psychological support team,medical team,bread,0.52734,0.51391,0.51003,0.50181,0.48377
+155,,painkiller,interpreter,cash,volunteers,sleeping bag,0.45363,0.4519,0.44883,0.4445,0.43171
+156,,search and rescue team,interpreter,hot meal,medical team,spare clothes,0.50485,0.46893,0.46637,0.45306,0.44674
+157,,search and rescue team,volunteers,medical team,psychological support team,interpreter,0.47554,0.47489,0.45168,0.44894,0.40822
+158,,search and rescue team,medical team,sleeping bag,volunteers,psychological support team,0.48721,0.48606,0.45733,0.45339,0.452
+159,,search and rescue team,interpreter,medical team,psychological support team,security forces,0.46491,0.43781,0.42601,0.4025,0.39691
+160,,search and rescue team,psychological support team,medical team,interpreter,painkiller,0.48319,0.4796,0.46766,0.45108,0.42638
+161,,interpreter,volunteers,bread,sleeping bag,search and rescue team,0.48623,0.4486,0.43995,0.43932,0.43917
+162,,search and rescue team,medical team,hot meal,cash,portable toilet,0.46511,0.44555,0.41877,0.40235,0.40116
+163,,bread,firewood,flashlight,blood,insulin,0.58197,0.56641,0.5362,0.50054,0.4802
+164,,search and rescue team,psychological support team,security forces,medical team,mask,0.52636,0.48909,0.48146,0.48065,0.46989
+165,,painkiller,search and rescue team,container housing,medical team,fever reducer,0.41946,0.41737,0.41306,0.40144,0.39717
+166,,security forces,interpreter,medical team,bread,search and rescue team,0.46445,0.45362,0.44736,0.43533,0.42832
+167,diaper;baby formula;sanitary pad;spare clothes;canned food,spare clothes,baby formula,cleaning product,portable toilet,medical team,0.55803,0.54844,0.52474,0.52019,0.51527
+168,,interpreter,first aid kit,search and rescue team,medical team,volunteers,0.46181,0.4487,0.44209,0.42228,0.41203
+169,,search and rescue team,volunteers,medical team,interpreter,lighting equipment,0.48054,0.44098,0.42751,0.42569,0.41644
+170,,pots and pans,search and rescue team,portable toilet,cash,electrical field team,0.41189,0.39791,0.37818,0.37017,0.36364
+171,,interpreter,volunteers,security forces,adhesive bandage,psychological support team,0.44326,0.43109,0.42871,0.41571,0.4153
+172,,blood,pots and pans,tent,volunteers,mask,0.70817,0.55631,0.53191,0.53093,0.53086
+173,,search and rescue team,medical team,first aid kit,volunteers,lighting equipment,0.51511,0.4927,0.47886,0.47486,0.46869
+174,,search and rescue team,security forces,medical team,psychological support team,volunteers,0.54023,0.52897,0.52474,0.47193,0.45612
+175,,medical team,volunteers,psychological support team,search and rescue team,interpreter,0.42202,0.41494,0.40356,0.3993,0.39243
+176,,medical team,search and rescue team,bread,security forces,food,0.48406,0.48022,0.47668,0.4626,0.45605
+177,,cash,pots and pans,medical team,search and rescue team,psychological support team,0.4747,0.46545,0.4584,0.4524,0.44543
+178,,search and rescue team,bread,first aid kit,fever reducer,adhesive bandage,0.46845,0.43292,0.41892,0.41768,0.40337
+179,,search and rescue team,medical team,blood collection center,first aid kit,security forces,0.42346,0.40455,0.39232,0.37125,0.35959
+180,,search and rescue team,medical team,psychological support team,volunteers,mask,0.48345,0.48249,0.44483,0.43242,0.41604
+181,,search and rescue team,medical team,volunteers,interpreter,painkiller,0.4709,0.46078,0.44863,0.44545,0.4336
+182,,search and rescue team,life jacket,first aid kit,medical team,blood,0.42779,0.38732,0.38257,0.37492,0.36561
+183,,search and rescue team,medical team,interpreter,hot meal,first aid kit,0.48802,0.46324,0.44378,0.43577,0.43431
+184,,search and rescue team,medical team,psychological support team,volunteers,first aid kit,0.47963,0.45755,0.45269,0.4256,0.41904
+185,,search and rescue team,first aid kit,medical team,psychological support team,interpreter,0.48506,0.44684,0.44366,0.42881,0.41941
+186,,volunteers,search and rescue team,medical team,psychological support team,security forces,0.50454,0.50069,0.48379,0.45472,0.44674
+187,,interpreter,container housing,search and rescue team,portable toilet,bread,0.47367,0.45154,0.44441,0.42309,0.42196
+188,,cash,pots and pans,sleeping bag,interpreter,blood,0.53979,0.48538,0.47378,0.46497,0.4589
+189,,bread,tent,portable toilet,hot meal,kitchenware,0.46055,0.45461,0.45181,0.44835,0.44012
+190,,container housing,search and rescue team,spare clothes,portable toilet,tent,0.42839,0.40348,0.39848,0.39626,0.39616
+191,,search and rescue team,medical team,interpreter,insulin,painkiller,0.46313,0.44648,0.43689,0.43347,0.42652
+192,,container housing,security forces,bread,interpreter,cash,0.40182,0.40053,0.3967,0.39137,0.39047
+193,,search and rescue team,medical team,cash,bread,container housing,0.41663,0.38377,0.3821,0.38107,0.38045
+194,,bread,search and rescue team,volunteers,spare clothes,painkiller,0.49312,0.47108,0.47081,0.45607,0.44433
+195,,medical team,search and rescue team,psychological support team,volunteers,spare clothes,0.49322,0.48056,0.47209,0.4619,0.45871
+196,,dry food,tent,food,container housing,search and rescue team,0.43375,0.42896,0.41712,0.41368,0.41097
+197,portable toilet,portable toilet,search and rescue team,medical team,equipment for disabled people,first aid kit,0.50552,0.496,0.47149,0.43839,0.43366
+198,,search and rescue team,medical team,interpreter,psychological support team,equipment for disabled people,0.597,0.48952,0.43081,0.43067,0.42757
+199,,search and rescue team,interpreter,psychological support team,medical team,bread,0.45918,0.4495,0.43191,0.42745,0.42671
+200,,interpreter,equipment for disabled people,adhesive bandage,bread,search and rescue team,0.46204,0.45161,0.44389,0.4382,0.43319
+201,,search and rescue team,medical team,first aid kit,interpreter,spare clothes,0.50298,0.48024,0.46153,0.45931,0.45598
+202,,search and rescue team,interpreter,adhesive bandage,lighting equipment,first aid kit,0.45426,0.42835,0.42642,0.41794,0.41636
+203,,search and rescue team,medical team,psychological support team,volunteers,first aid kit,0.46601,0.45041,0.43877,0.42139,0.41583
+204,,bread,interpreter,search and rescue team,painkiller,volunteers,0.47766,0.47036,0.45438,0.44155,0.43929
+205,,spare clothes,search and rescue team,volunteers,medical team,first aid kit,0.4752,0.4749,0.4739,0.46959,0.46946
+206,,search and rescue team,interpreter,first aid kit,medical team,volunteers,0.49973,0.49284,0.48327,0.46915,0.46877
+207,,search and rescue team,medical team,psychological support team,electrical field team,first aid kit,0.63283,0.55197,0.50918,0.45015,0.43126
+208,,search and rescue team,interpreter,psychological support team,medical team,portable toilet,0.47965,0.47327,0.47287,0.46151,0.45855
+209,,medical team,search and rescue team,volunteers,psychological support team,first aid kit,0.45652,0.44656,0.43033,0.42196,0.41488
+210,,search and rescue team,psychological support team,interpreter,medical team,pet food,0.47983,0.42273,0.42154,0.41497,0.40949
+211,,search and rescue team,medical team,security forces,volunteers,bread,0.48473,0.45982,0.45367,0.45136,0.4293
+212,,search and rescue team,lighting equipment,interpreter,medical team,sleeping bag,0.43807,0.42282,0.40943,0.40348,0.40143
+213,,search and rescue team,security forces,medical team,psychological support team,insulin,0.48791,0.47453,0.46913,0.46369,0.4434
+214,tent;food,search and rescue team,medical team,tent,first aid kit,security forces,0.51189,0.48565,0.47041,0.43487,0.42907
+215,,search and rescue team,medical team,first aid kit,spare clothes,psychological support team,0.57719,0.55674,0.53687,0.50996,0.48221
+216,search and rescue team,search and rescue team,medical team,psychological support team,first aid kit,volunteers,0.5387,0.51837,0.48168,0.44722,0.44554
+217,,search and rescue team,medical team,psychological support team,volunteers,first aid kit,0.64689,0.57975,0.53809,0.47676,0.47507
+218,,painkiller,interpreter,bread,search and rescue team,container housing,0.46361,0.45572,0.44701,0.44634,0.44301
+219,,search and rescue team,interpreter,medical team,adhesive bandage,psychological support team,0.47618,0.44138,0.42406,0.41885,0.41667
+220,,search and rescue team,medical team,psychological support team,security forces,electrical field team,0.53337,0.49353,0.45566,0.42665,0.42489
+221,,search and rescue team,medical team,psychological support team,volunteers,first aid kit,0.45985,0.45868,0.43266,0.42887,0.41815
+222,,medical team,search and rescue team,hot meal,volunteers,psychological support team,0.47312,0.4647,0.44139,0.4413,0.42773
+223,,search and rescue team,medical team,psychological support team,volunteers,security forces,0.45886,0.45011,0.41945,0.40674,0.40552
+224,medicine,search and rescue team,medical team,painkiller,medicine,allergy medication,0.49017,0.48391,0.46391,0.45988,0.45116
+225,,interpreter,volunteers,search and rescue team,bread,medical team,0.43656,0.41908,0.415,0.4129,0.41214
+226,,volunteers,search and rescue team,adhesive bandage,psychological support team,medical team,0.46705,0.45686,0.44734,0.44545,0.44191
+227,,insulin,hot meal,interpreter,bread,search and rescue team,0.43994,0.43429,0.42005,0.41183,0.40739
+228,,search and rescue team,painkiller,psychological support team,interpreter,blood,0.45158,0.42246,0.41736,0.4142,0.41224
+229,,search and rescue team,first aid kit,painkiller,psychological support team,volunteers,0.50917,0.48757,0.46653,0.46194,0.45728
+230,,interpreter,lighting equipment,sleeping bag,equipment for disabled people,volunteers,0.45881,0.44082,0.43129,0.42601,0.42207
+231,,painkiller,sleeping bag,medical team,spare clothes,search and rescue team,0.43809,0.43646,0.42006,0.41665,0.41127
+232,,search and rescue team,interpreter,medical team,portable toilet,bread,0.49376,0.46254,0.45606,0.44484,0.442
+233,,search and rescue team,volunteers,medical team,psychological support team,security forces,0.65719,0.60407,0.58292,0.55915,0.47457
+234,search and rescue team,tent,search and rescue team,medical team,interpreter,bread,0.48521,0.46902,0.44696,0.44108,0.43814
+235,,search and rescue team,medical team,security forces,electrical field team,psychological support team,0.5478,0.53406,0.49341,0.45106,0.44663
+236,,search and rescue team,first aid kit,interpreter,medical team,container housing,0.48599,0.46046,0.45191,0.44423,0.41515
+237,,search and rescue team,psychological support team,medical team,first aid kit,interpreter,0.51846,0.49719,0.49506,0.47105,0.41722
+238,,medical team,volunteers,search and rescue team,lighting equipment,psychological support team,0.4502,0.4444,0.42911,0.42462,0.4231
+239,,interpreter,volunteers,first aid kit,search and rescue team,medical team,0.45552,0.45488,0.42683,0.42325,0.41643
+240,,bread,tent,hot meal,first aid kit,kitchenware,0.5234,0.47557,0.47535,0.47466,0.46354
+241,,search and rescue team,first aid kit,psychological support team,interpreter,bread,0.47524,0.45238,0.45214,0.44262,0.43243
+242,,painkiller,medical team,cash,interpreter,search and rescue team,0.44792,0.41761,0.41566,0.4139,0.41289
+243,,search and rescue team,medical team,first aid kit,volunteers,spare clothes,0.49046,0.4777,0.42964,0.42841,0.42307
+244,,interpreter,medical team,volunteers,psychological support team,search and rescue team,0.44911,0.44792,0.44695,0.44003,0.43764
+245,search and rescue team,search and rescue team,medical team,first aid kit,volunteers,psychological support team,0.52296,0.45936,0.433,0.41493,0.41348
+246,,volunteers,search and rescue team,medical team,first aid kit,psychological support team,0.51414,0.49147,0.45943,0.44795,0.44773
+247,,blood collection center,volunteers,search and rescue team,tent,hot meal,0.44628,0.43518,0.41732,0.41606,0.41605
+248,,search and rescue team,medical team,first aid kit,psychological support team,equipment for disabled people,0.54949,0.5022,0.46707,0.45165,0.44544
+249,,painkiller,search and rescue team,medical team,toothpaste,psychological support team,0.47628,0.42847,0.42294,0.42079,0.42079
+250,,medical team,volunteers,search and rescue team,psychological support team,security forces,0.45458,0.45328,0.44759,0.4291,0.40421
+251,,bread,search and rescue team,security forces,interpreter,psychological support team,0.5049,0.48104,0.4726,0.46362,0.45322
+252,,medical team,volunteers,search and rescue team,tent,security forces,0.41617,0.39244,0.38783,0.37434,0.36838
+253,,volunteers,adhesive bandage,mask,lighting equipment,medical team,0.44855,0.43372,0.41825,0.4133,0.4124
+254,,search and rescue team,interpreter,blood,bread,security forces,0.46744,0.42788,0.42684,0.41639,0.40416
+255,,search and rescue team,medical team,volunteers,interpreter,container housing,0.53027,0.46553,0.45894,0.45626,0.43178
+256,,volunteers,medical team,search and rescue team,psychological support team,hot meal,0.46426,0.4594,0.44893,0.44618,0.43218
+257,,salt-free and sugar-free food,gluten free food,interpreter,volunteers,adhesive bandage,0.59823,0.5724,0.52066,0.50707,0.4851
+258,,search and rescue team,medical team,psychological support team,interpreter,volunteers,0.50985,0.4969,0.47291,0.45167,0.43934
+259,,interpreter,medical team,equipment for disabled people,search and rescue team,psychological support team,0.45969,0.45612,0.4557,0.44792,0.43659
+260,,security forces,mask,sleeping bag,medical team,volunteers,0.41998,0.41586,0.39938,0.39346,0.39314
+261,,life jacket,mask,blood,interpreter,lighting equipment,0.43292,0.43201,0.42451,0.42427,0.41969
+262,,volunteers,pet food,medical team,security forces,search and rescue team,0.4932,0.48255,0.46212,0.43901,0.43258
+263,,search and rescue team,medical team,volunteers,first aid kit,security forces,0.52233,0.48889,0.46327,0.44808,0.4353
+264,,hot meal,cash,pet food,baby formula,bread,0.48098,0.47792,0.4734,0.47263,0.46628
+265,,search and rescue team,interpreter,medical team,psychological support team,volunteers,0.49651,0.45637,0.45338,0.43501,0.42532
+266,,search and rescue team,medical team,equipment for disabled people,first aid kit,portable toilet,0.49977,0.48183,0.45607,0.44611,0.43193
+267,,search and rescue team,pet food,hot meal,medical team,first aid kit,0.47454,0.45255,0.4492,0.42554,0.42445
+268,,search and rescue team,container housing,medical team,portable toilet,tent,0.47164,0.46989,0.44835,0.43483,0.43414
+269,,painkiller,heart medicine,search and rescue team,medical team,blood collection center,0.45901,0.45448,0.42812,0.41877,0.41797
+270,,hot meal,bread,painkiller,medical team,search and rescue team,0.41712,0.41671,0.41145,0.40725,0.40438
+271,,children's playground,diaper,medical team,hot meal,baby formula,0.49191,0.4892,0.4614,0.45285,0.4421
+272,,search and rescue team,first aid kit,wet wipes,painkiller,volunteers,0.42383,0.41176,0.40769,0.40545,0.40463
+273,,search and rescue team,medical team,psychological support team,volunteers,electrical field team,0.54727,0.54197,0.49863,0.48426,0.45775
+274,,search and rescue team,interpreter,volunteers,medical team,tent,0.45844,0.45605,0.4265,0.42526,0.42485
+275,,painkiller,search and rescue team,interpreter,medical team,bread,0.4543,0.45217,0.43742,0.42431,0.40036
+276,,bread,interpreter,hot meal,medical team,search and rescue team,0.47043,0.46237,0.45236,0.4463,0.44329
+277,,volunteers,medical team,search and rescue team,psychological support team,security forces,0.55077,0.52079,0.51301,0.49102,0.47285
+278,,portable toilet,interpreter,search and rescue team,painkiller,diaper,0.47053,0.45459,0.4535,0.42899,0.41278
+279,,volunteers,interpreter,portable toilet,medical team,first aid kit,0.40905,0.40497,0.40134,0.38078,0.37915
+280,,search and rescue team,medical team,psychological support team,security forces,volunteers,0.47402,0.4651,0.43873,0.41038,0.40632
+281,search and rescue team,search and rescue team,bread,medical team,psychological support team,security forces,0.45865,0.4195,0.41607,0.41021,0.40942
+282,,life jacket,interpreter,search and rescue team,blood,volunteers,0.42618,0.4071,0.40372,0.4022,0.37949
+283,,search and rescue team,medical team,psychological support team,interpreter,volunteers,0.5869,0.51464,0.45893,0.42142,0.4211
+284,,search and rescue team,medical team,security forces,psychological support team,volunteers,0.50749,0.49331,0.4592,0.44848,0.4181
+285,,search and rescue team,interpreter,volunteers,psychological support team,painkiller,0.49255,0.48278,0.46521,0.46082,0.44668
+286,medicine,medical team,medicine,blood collection center,allergy medication,heart medicine,0.53497,0.49087,0.48091,0.47794,0.47012
+287,,medical team,search and rescue team,bread,psychological support team,tent,0.46859,0.45931,0.41618,0.41303,0.40825
+288,,interpreter,search and rescue team,medical team,mask,painkiller,0.44799,0.42072,0.42034,0.41603,0.41457
+289,,search and rescue team,medical team,volunteers,interpreter,psychological support team,0.48546,0.48006,0.46563,0.46163,0.43838
+290,,medical team,psychological support team,search and rescue team,electrical field team,spare clothes,0.49699,0.46934,0.45526,0.45478,0.45277
+291,,children's playground,pet food,spare clothes,sleeping bag,life jacket,0.4669,0.39753,0.39713,0.38916,0.3846
+292,,lighting equipment,interpreter,equipment for disabled people,bread,search and rescue team,0.43578,0.42763,0.42744,0.4223,0.421
+293,search and rescue team,medical team,search and rescue team,psychological support team,interpreter,spare clothes,0.5142,0.51201,0.51063,0.48339,0.47407
+294,,interpreter,search and rescue team,tent,volunteers,equipment for disabled people,0.48272,0.47133,0.46597,0.45807,0.4577
+295,,search and rescue team,medical team,bread,tent,container housing,0.47865,0.45767,0.43833,0.43327,0.42649
+296,,search and rescue team,medical team,psychological support team,first aid kit,interpreter,0.53667,0.51017,0.46913,0.46241,0.453
+297,,volunteers,interpreter,equipment for disabled people,sleeping bag,lighting equipment,0.45611,0.4544,0.44237,0.43113,0.43107
+298,,search and rescue team,medical team,interpreter,psychological support team,painkiller,0.53799,0.48752,0.4829,0.44684,0.44254
+299,,hot meal,food,kitchenware,bread,napkin,0.48655,0.43939,0.4325,0.3838,0.38297
+300,,medical team,search and rescue team,painkiller,heart medicine,interpreter,0.43773,0.43664,0.4229,0.4188,0.41863
+301,,interpreter,search and rescue team,container housing,sleeping bag,painkiller,0.45501,0.45488,0.44806,0.43643,0.42944
+302,,mask,first aid kit,medical team,search and rescue team,lighting equipment,0.43847,0.42093,0.41355,0.41175,0.38967
+303,,search and rescue team,medical team,bread,psychological support team,interpreter,0.51424,0.49598,0.46401,0.45194,0.45106
+304,,search and rescue team,medical team,interpreter,psychological support team,security forces,0.46833,0.44603,0.41787,0.40379,0.40339
+305,,search and rescue team,pet food,volunteers,medical team,portable toilet,0.5172,0.47962,0.46255,0.46113,0.44126
+306,,search and rescue team,volunteers,interpreter,medical team,first aid kit,0.49577,0.47734,0.47104,0.46752,0.46629
+307,,container housing,interpreter,search and rescue team,portable toilet,mask,0.55835,0.50425,0.47037,0.46027,0.4495
+308,,search and rescue team,medical team,first aid kit,volunteers,interpreter,0.48711,0.46925,0.45097,0.41479,0.40421
+309,,search and rescue team,spare clothes,life jacket,volunteers,medical team,0.41757,0.36517,0.36401,0.3621,0.35905
+310,,search and rescue team,medical team,interpreter,painkiller,spare clothes,0.50156,0.47858,0.46068,0.45638,0.45561
+311,,search and rescue team,medical team,volunteers,spare clothes,first aid kit,0.44998,0.44506,0.43187,0.43012,0.42657
+312,,interpreter,volunteers,life jacket,psychological support team,painkiller,0.43512,0.42378,0.42044,0.41725,0.41523
+313,,search and rescue team,medical team,interpreter,first aid kit,blood collection center,0.46518,0.43996,0.43449,0.41847,0.41434
+314,,search and rescue team,painkiller,tent,interpreter,psychological support team,0.44286,0.44106,0.43308,0.42725,0.42316
+315,,search and rescue team,medical team,first aid kit,psychological support team,interpreter,0.55088,0.50879,0.45468,0.45057,0.43179
+316,,search and rescue team,medical team,psychological support team,volunteers,first aid kit,0.50659,0.48336,0.45895,0.43509,0.4259
+317,,volunteers,interpreter,bread,mask,baby formula,0.41156,0.39592,0.388,0.38694,0.3764
+318,,bread,soap,mask,interpreter,dry food,0.51667,0.48568,0.4775,0.47687,0.47303
+319,,search and rescue team,medical team,psychological support team,interpreter,equipment for disabled people,0.60174,0.51818,0.47633,0.46547,0.44518
+320,,interpreter,hot meal,bread,medical team,search and rescue team,0.41728,0.40443,0.40397,0.39636,0.39438
+321,,search and rescue team,medical team,children's playground,adhesive bandage,life jacket,0.54666,0.46922,0.45767,0.43372,0.42232
+322,,interpreter,medical team,volunteers,first aid kit,search and rescue team,0.46749,0.41178,0.40687,0.40572,0.40313
+323,,search and rescue team,container housing,medical team,bread,hot meal,0.46992,0.41989,0.41968,0.41839,0.41701
+324,,medical team,equipment for disabled people,search and rescue team,spare clothes,kitchenware,0.47555,0.45929,0.43326,0.42995,0.41161
+325,,volunteers,interpreter,cash,medical team,psychological support team,0.44079,0.42497,0.41079,0.408,0.40097
+326,,security forces,volunteers,search and rescue team,interpreter,blood collection center,0.43744,0.43138,0.41128,0.40675,0.39745
+327,,search and rescue team,volunteers,interpreter,bread,tent,0.4113,0.40271,0.4002,0.39415,0.39268
+328,,volunteers,interpreter,medical team,mask,lighting equipment,0.5953,0.54493,0.54407,0.54003,0.53119
+329,,search and rescue team,medical team,pet food,interpreter,painkiller,0.51773,0.46385,0.45124,0.44753,0.43716
+330,,cash,firewood,sleeping bag,diaper,toothpaste,0.47769,0.4736,0.47108,0.46441,0.45693
+331,,interpreter,volunteers,cash,hot meal,insulin,0.49336,0.46556,0.46373,0.46368,0.45888
+332,,bread,search and rescue team,interpreter,medical team,painkiller,0.46393,0.45951,0.45868,0.44641,0.43946
+333,,medical team,search and rescue team,psychological support team,security forces,painkiller,0.52278,0.51341,0.46381,0.44228,0.43946
+334,,first aid kit,search and rescue team,spare clothes,medical team,hot meal,0.50383,0.4382,0.43311,0.42758,0.41118
+335,,security forces,bread,interpreter,container housing,life jacket,0.45242,0.44732,0.44404,0.43817,0.43366
+336,,volunteers,interpreter,medical team,search and rescue team,psychological support team,0.46712,0.44087,0.43861,0.43221,0.42614
+337,,volunteers,medical team,search and rescue team,bread,interpreter,0.48379,0.47569,0.46859,0.46723,0.46476
+338,,search and rescue team,medical team,volunteers,adhesive bandage,bread,0.46929,0.45205,0.44352,0.43845,0.4354
+339,,medical team,volunteers,psychological support team,search and rescue team,security forces,0.52106,0.49983,0.48672,0.48307,0.48117
+340,,bread,sleeping bag,pots and pans,mask,interpreter,0.41564,0.40952,0.40822,0.39543,0.39384
+341,blood,volunteers,blood collection center,medical team,search and rescue team,psychological support team,0.51248,0.48312,0.43715,0.42981,0.42544
+342,,search and rescue team,first aid kit,medical team,bread,interpreter,0.49873,0.45363,0.4499,0.44309,0.43885
+343,,search and rescue team,medical team,first aid kit,portable toilet,interpreter,0.46904,0.45483,0.42359,0.41144,0.40894
+344,,search and rescue team,medical team,interpreter,psychological support team,security forces,0.48532,0.46486,0.42945,0.39238,0.39085
+345,,search and rescue team,medical team,first aid kit,equipment for disabled people,painkiller,0.53504,0.49021,0.4455,0.44522,0.42851
+346,,search and rescue team,interpreter,container housing,medical team,spare clothes,0.48679,0.45923,0.44774,0.42809,0.41853
+347,,soap,kitchenware,search and rescue team,pet food,sleeping bag,0.48874,0.48674,0.47844,0.47775,0.47462
+348,,interpreter,gluten free food,napkin,salt-free and sugar-free food,bread,0.44907,0.44793,0.43958,0.43786,0.42625
+349,,search and rescue team,medical team,first aid kit,portable toilet,volunteers,0.51126,0.48161,0.47767,0.46648,0.44972
+350,,kitchenware,volunteers,search and rescue team,first aid kit,medical team,0.46957,0.45144,0.45087,0.44699,0.44577
+351,,search and rescue team,medical team,interpreter,blood,bread,0.42424,0.41047,0.40307,0.39491,0.39221
+352,,search and rescue team,medical team,psychological support team,interpreter,first aid kit,0.49346,0.48086,0.4617,0.44378,0.44117
+353,,pet food,hot meal,toothbrush,baby formula,dry food,0.50628,0.5053,0.49698,0.4818,0.4653
+354,,interpreter,search and rescue team,first aid kit,bread,sleeping bag,0.45723,0.45235,0.44628,0.43923,0.43675
+355,,security forces,medical team,volunteers,psychological support team,search and rescue team,0.49121,0.47271,0.44718,0.43731,0.43572
+356,,lighting equipment,bread,search and rescue team,electric heater,fever reducer,0.51824,0.49567,0.46516,0.45121,0.44957
+357,,interpreter,search and rescue team,first aid kit,volunteers,hot meal,0.42554,0.4238,0.4218,0.42089,0.42045
+358,,search and rescue team,medical team,container housing,bread,tent,0.4925,0.45365,0.45329,0.44904,0.43981
+359,,search and rescue team,container housing,power bank,sleeping bag,cash,0.44154,0.40604,0.40092,0.39842,0.39682
+360,,search and rescue team,medical team,interpreter,psychological support team,container housing,0.59889,0.53807,0.49108,0.47992,0.4705
+361,,medical team,search and rescue team,first aid kit,psychological support team,spare clothes,0.50495,0.49629,0.47486,0.45263,0.44493
+362,,medical team,bread,hot meal,search and rescue team,spare clothes,0.46028,0.45229,0.4412,0.43271,0.42182
+363,,first aid kit,search and rescue team,medical team,container housing,tent,0.47808,0.45053,0.44118,0.42584,0.42533
+364,,search and rescue team,medical team,psychological support team,equipment for disabled people,first aid kit,0.55263,0.51626,0.48553,0.4813,0.43896
+365,,search and rescue team,psychological support team,first aid kit,interpreter,medical team,0.51632,0.4957,0.48302,0.47579,0.46607
+366,,medical team,search and rescue team,painkiller,children's playground,first aid kit,0.51789,0.51345,0.44787,0.44015,0.43786
+367,,volunteers,medical team,psychological support team,first aid kit,search and rescue team,0.42043,0.41651,0.40908,0.39469,0.39101
+368,,lighting equipment,pots and pans,adhesive bandage,toothbrush,blood,0.43224,0.40204,0.39998,0.38692,0.38452
+369,,medical team,search and rescue team,hot meal,interpreter,spare clothes,0.50481,0.50283,0.43969,0.42119,0.41185
+370,,sleeping bag,interpreter,volunteers,batteries,pots and pans,0.46095,0.45741,0.43392,0.42808,0.42619
+371,,medical team,volunteers,hot meal,cash,search and rescue team,0.48908,0.48409,0.46378,0.45763,0.45193
+372,,medical team,search and rescue team,psychological support team,first aid kit,interpreter,0.50394,0.49721,0.49088,0.42995,0.42396
+373,,search and rescue team,interpreter,volunteers,medical team,bread,0.44034,0.43419,0.42183,0.42047,0.41354
+374,,medical team,hot meal,mask,toothpaste,toothbrush,0.56271,0.50516,0.49473,0.48588,0.48543
+375,,search and rescue team,interpreter,bread,portable toilet,napkin,0.44972,0.4406,0.42399,0.41943,0.40099
+376,,search and rescue team,medical team,psychological support team,volunteers,interpreter,0.6126,0.54084,0.48354,0.43922,0.43539
+377,,search and rescue team,interpreter,volunteers,medical team,cash,0.44936,0.44438,0.43955,0.43275,0.43112
+378,,volunteers,lighting equipment,security forces,adhesive bandage,interpreter,0.46743,0.45494,0.4379,0.43256,0.42591
+379,food,search and rescue team,medical team,first aid kit,spare clothes,psychological support team,0.52309,0.50007,0.49698,0.4848,0.47155
+380,search and rescue team,search and rescue team,medical team,psychological support team,first aid kit,interpreter,0.58161,0.55207,0.52863,0.49274,0.48219
+381,,interpreter,search and rescue team,security forces,volunteers,power bank,0.41877,0.41404,0.41318,0.41214,0.39739
+382,,fever reducer,bread,painkiller,search and rescue team,lighting equipment,0.43577,0.428,0.42475,0.42119,0.41842
+383,,search and rescue team,pet food,bread,psychological support team,interpreter,0.41637,0.41381,0.41119,0.38579,0.37856
+384,,interpreter,insulin,lighting equipment,blood,container housing,0.45791,0.4254,0.4253,0.41693,0.41431
+385,,search and rescue team,medical team,interpreter,bread,fever reducer,0.46074,0.45088,0.4504,0.4441,0.42007
+386,,interpreter,portable toilet,volunteers,search and rescue team,container housing,0.39725,0.39659,0.38214,0.37486,0.37316
+387,,search and rescue team,medical team,psychological support team,volunteers,portable toilet,0.47422,0.46084,0.44537,0.42795,0.4214
+388,,search and rescue team,medical team,interpreter,first aid kit,painkiller,0.5081,0.48463,0.43822,0.43174,0.42868
+389,,search and rescue team,first aid kit,dry food,hot meal,bread,0.47252,0.46229,0.4399,0.43897,0.43535
+390,,diaper,baby formula,hot meal,medical team,insulin,0.47963,0.47429,0.43062,0.42803,0.42535
+391,,interpreter,search and rescue team,adhesive bandage,container housing,equipment for disabled people,0.48959,0.45511,0.43386,0.42695,0.41932
+392,tent,tent,portable toilet,spare clothes,search and rescue team,first aid kit,0.54487,0.51811,0.49212,0.49021,0.48937
+393,,search and rescue team,first aid kit,security forces,medical team,blood collection center,0.45867,0.45168,0.44198,0.42299,0.4197
+394,,lighting equipment,spare clothes,volunteers,tent,equipment for disabled people,0.44462,0.4425,0.43821,0.43415,0.42676
+395,tent,tent,spare clothes,first aid kit,search and rescue team,hot meal,0.59865,0.52118,0.4982,0.48646,0.48454
+396,,search and rescue team,medical team,security forces,blood,container housing,0.48672,0.44016,0.42141,0.40663,0.40501
+397,,hot meal,medical team,cash,cleaning product,drinking water,0.48622,0.48099,0.46454,0.46138,0.45959
+398,,sleeping bag,blood,pet food,life jacket,canned food,0.51935,0.51824,0.50169,0.50165,0.48571
+399,,bread,hot meal,search and rescue team,psychological support team,medical team,0.48311,0.46734,0.46614,0.46092,0.45342
+400,,first aid kit,interpreter,medical team,search and rescue team,volunteers,0.48939,0.48246,0.45802,0.44907,0.44083
+401,asthma medicine,painkiller,interpreter,search and rescue team,sleeping bag,psychological support team,0.47868,0.47296,0.44768,0.4224,0.42098
+402,,search and rescue team,medical team,interpreter,psychological support team,first aid kit,0.54741,0.49514,0.45347,0.43952,0.40412

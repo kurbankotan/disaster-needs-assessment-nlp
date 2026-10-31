@@ -1,0 +1,618 @@
+﻿id,gercek,top1,top2,top3,top4,top5,s1,s2,s3,s4,s5
+1,coat,canned food,wet wipes,coat,sleeping bag,life jacket,0.61348,0.60456,0.59665,0.58715,0.58015
+3,medicine,allergy medication,blood collection center,medical team,oxygen concentrator,asthma medicine,0.43556,0.40785,0.37928,0.3708,0.36306
+4,bandage,canned food,blood collection center,sleeping bag,first aid kit,spare clothes,0.60532,0.57949,0.55861,0.52637,0.51289
+6,soap,blood collection center,wet wipes,cleaning product,canned food,drinking water,0.66146,0.65208,0.63195,0.62763,0.60722
+9,lantern,canned food,lighting equipment,first aid kit,blood collection center,drinking water,0.5843,0.5694,0.56045,0.54214,0.49772
+12,life jacket,life jacket,canned food,blood collection center,power bank,first aid kit,0.64728,0.57825,0.57233,0.56517,0.54179
+13,search and rescue team,blood collection center,canned food,first aid kit,lighting equipment,drinking water,0.57641,0.5565,0.51235,0.48957,0.48692
+14,baby formula;security forces,baby formula,blood collection center,canned food,first aid kit,salt-free and sugar-free food,0.57549,0.48702,0.47755,0.42688,0.42363
+16,medical team,blood collection center,canned food,power bank,first aid kit,sleeping bag,0.59503,0.56068,0.53992,0.51911,0.49615
+21,medicine,blood collection center,canned food,first aid kit,heart medicine,blood,0.59284,0.58228,0.55855,0.51111,0.47483
+27,dry food,canned food,food,dry food,gluten free food,salt-free and sugar-free food,0.71045,0.6906,0.67053,0.64669,0.64067
+28,oxygen concentrator,canned food,blood collection center,power bank,sleeping bag,first aid kit,0.65667,0.65119,0.60469,0.60102,0.59937
+29,bread;baby formula;soap,canned food,hot meal,salt-free and sugar-free food,drinking water,pet food,0.76365,0.71145,0.69677,0.67727,0.6316
+30,life jacket,canned food,drinking water,life jacket,blood collection center,power bank,0.69967,0.65333,0.63948,0.62257,0.60682
+31,children's playground,children's playground,canned food,sleeping bag,blood collection center,pet food,0.74223,0.59871,0.56997,0.56774,0.53942
+33,medical team;generator;coat,canned food,medical team,first aid kit,blood collection center,lighting equipment,0.6293,0.62319,0.60211,0.5999,0.51082
+36,drinking water,drinking water,canned food,salt-free and sugar-free food,hot meal,food,0.82185,0.70953,0.65981,0.62264,0.61604
+38,blanket,canned food,pet food,blood collection center,first aid kit,sleeping bag,0.56949,0.54108,0.53806,0.53553,0.53143
+42,medical team,medical team,canned food,blood collection center,first aid kit,sleeping bag,0.65175,0.62563,0.59356,0.5703,0.53277
+49,medicine,canned food,blood collection center,salt-free and sugar-free food,cold medicine,sleeping bag,0.65328,0.63809,0.61127,0.57823,0.56652
+55,search and rescue team,canned food,blood collection center,first aid kit,power bank,salt-free and sugar-free food,0.60673,0.5539,0.53282,0.47396,0.45799
+61,fever reducer,blood collection center,canned food,sleeping bag,wet wipes,hot meal,0.54368,0.54342,0.53204,0.52221,0.51466
+62,volunteers,medical team,canned food,first aid kit,electrical field team,blood collection center,0.57458,0.56326,0.56003,0.54552,0.54519
+63,drinking water;coat;insulin,drinking water,hot meal,wet wipes,salt-free and sugar-free food,spare clothes,0.76196,0.66243,0.65071,0.61642,0.59259
+66,dry food,canned food,salt-free and sugar-free food,dry food,hot meal,gluten free food,0.71725,0.66852,0.66337,0.65945,0.64414
+67,search and rescue team,search and rescue team,blood collection center,medical team,canned food,power bank,0.57069,0.46977,0.43885,0.43571,0.42784
+74,drinking water;medical team,blood collection center,dry food,heart medicine,cold medicine,blood,0.54025,0.5079,0.50341,0.48677,0.48059
+75,children's playground;flashlight,children's playground,canned food,first aid kit,sleeping bag,blood collection center,0.66152,0.60052,0.59905,0.57526,0.5738
+77,drinking water;diaper,canned food,drinking water,blood collection center,hot meal,salt-free and sugar-free food,0.65164,0.61498,0.59041,0.57773,0.57106
+83,medical team,canned food,blood collection center,sleeping bag,medical team,life jacket,0.6035,0.56461,0.53891,0.5299,0.52107
+85,antibiotic,blood collection center,canned food,search and rescue team,equipment for disabled people,container housing,0.50181,0.48519,0.454,0.4539,0.42056
+86,bread,canned food,salt-free and sugar-free food,food,pet food,gluten free food,0.7621,0.62712,0.62432,0.61924,0.61696
+89,antibiotic;food,canned food,blood collection center,salt-free and sugar-free food,cleaning product,first aid kit,0.75837,0.68288,0.63823,0.61896,0.61251
+90,pet food,pet food,canned food,food,salt-free and sugar-free food,gluten free food,0.77256,0.7525,0.68682,0.61495,0.61386
+94,volunteers;power bank,canned food,blood collection center,power bank,first aid kit,lighting equipment,0.53512,0.51923,0.47162,0.45335,0.44417
+100,antibiotic;flashlight,blood collection center,canned food,lighting equipment,first aid kit,power bank,0.68922,0.65381,0.62464,0.61759,0.58092
+104,wet wipes,wet wipes,drinking water,cleaning product,canned food,salt-free and sugar-free food,0.77096,0.63443,0.63385,0.61228,0.60707
+106,dry food,canned food,hot meal,bread,salt-free and sugar-free food,gluten free food,0.65318,0.61868,0.59391,0.58808,0.57669
+108,toothpaste;battery-powered radio,battery-powered radio,power bank,canned food,lighting equipment,first aid kit,0.62369,0.58053,0.52598,0.49476,0.48184
+116,drinking water,drinking water,canned food,blood collection center,cleaning product,salt-free and sugar-free food,0.67216,0.60767,0.58253,0.57863,0.56192
+118,napkin;sleeping bag;mask,sleeping bag,canned food,wet wipes,blood collection center,drinking water,0.73618,0.68501,0.66224,0.63957,0.6252
+126,blanket;baby formula;container housing,canned food,salt-free and sugar-free food,pet food,hot meal,dry food,0.62005,0.5925,0.58311,0.58109,0.56103
+130,fever reducer,salt-free and sugar-free food,canned food,drinking water,blood collection center,hot meal,0.58121,0.57238,0.56987,0.5631,0.55987
+136,heart medicine,blood collection center,blood,heart medicine,sleeping bag,canned food,0.59466,0.5577,0.55074,0.51089,0.50415
+137,tent,canned food,sleeping bag,tent,blood collection center,hot meal,0.58978,0.5871,0.57349,0.5344,0.51976
+139,first aid kit,equipment for disabled people,security forces,portable toilet,dry food,baby bottle,0.56301,0.43998,0.34651,0.33708,0.33665
+147,tent;firewood;search and rescue team,search and rescue team,canned food,blood collection center,children's playground,firewood,0.49807,0.45553,0.43683,0.42898,0.42569
+164,gluten free food,gluten free food,canned food,salt-free and sugar-free food,pet food,food,0.77877,0.75364,0.7309,0.68963,0.68535
+167,generator,canned food,blood collection center,first aid kit,salt-free and sugar-free food,hot meal,0.68025,0.62383,0.58392,0.55756,0.54795
+168,hot meal;cold medicine,cold medicine,hot meal,drinking water,wet wipes,heart medicine,0.67101,0.5947,0.51913,0.50219,0.48407
+172,sleeping bag,sleeping bag,canned food,drinking water,blood collection center,hot meal,0.71631,0.62271,0.58988,0.57578,0.57011
+173,food,canned food,food,pet food,gluten free food,salt-free and sugar-free food,0.67236,0.60301,0.57704,0.54082,0.53966
+174,power bank,power bank,canned food,blood collection center,first aid kit,sleeping bag,0.72143,0.63354,0.61362,0.56899,0.56212
+175,dry food,canned food,food,pet food,hot meal,gluten free food,0.76099,0.67219,0.65209,0.64205,0.6198
+176,oxygen concentrator,oxygen concentrator,blood collection center,asthma medicine,heart medicine,blood,0.52186,0.50773,0.48952,0.47527,0.45882
+178,drinking water,drinking water,canned food,salt-free and sugar-free food,blood collection center,cleaning product,0.79627,0.7439,0.68661,0.68255,0.68083
+179,medicine;fever reducer,blood collection center,canned food,first aid kit,fever reducer,blood,0.62336,0.60591,0.58553,0.53738,0.50898
+182,salt-free and sugar-free food,salt-free and sugar-free food,canned food,gluten free food,food,hot meal,0.84996,0.8165,0.7878,0.73351,0.73229
+184,life jacket,canned food,first aid kit,blood collection center,life jacket,sleeping bag,0.63644,0.63469,0.5889,0.58194,0.56301
+186,security forces,canned food,blood collection center,first aid kit,lighting equipment,power bank,0.56254,0.55541,0.50215,0.49669,0.48471
+189,fever reducer,blood collection center,canned food,first aid kit,blood,fever reducer,0.6756,0.58941,0.55416,0.54559,0.52418
+190,flashlight,canned food,blood collection center,first aid kit,lighting equipment,salt-free and sugar-free food,0.68445,0.62218,0.59355,0.57822,0.56378
+191,psychological support team;asthma medicine;tent,psychological support team,asthma medicine,cold medicine,heart medicine,blood collection center,0.63718,0.61327,0.56012,0.53847,0.47295
+192,pots and pans;salt-free and sugar-free food,salt-free and sugar-free food,canned food,gluten free food,hot meal,pots and pans,0.87843,0.7673,0.74587,0.7006,0.67846
+195,coat,life jacket,sleeping bag,hot meal,cold medicine,coat,0.54006,0.51028,0.49192,0.45758,0.43851
+196,generator;toothpaste;electric heater,electric heater,generator,toothpaste,portable toilet,security forces,0.63131,0.55028,0.48695,0.4016,0.396
+199,lantern,lighting equipment,canned food,blood collection center,lantern,drinking water,0.66022,0.62747,0.58421,0.54665,0.5267
+200,dry food;hot meal,hot meal,dry food,canned food,food,salt-free and sugar-free food,0.76872,0.70262,0.69619,0.67648,0.67245
+202,batteries;baby bottle,baby bottle,equipment for disabled people,portable toilet,security forces,dry food,0.57412,0.56768,0.46972,0.42301,0.41655
+205,antibiotic;dry food,canned food,blood collection center,salt-free and sugar-free food,wet wipes,sleeping bag,0.69446,0.60375,0.60092,0.57753,0.5761
+208,tent,tent,sleeping bag,canned food,hot meal,first aid kit,0.62747,0.55557,0.53496,0.5314,0.52321
+214,psychological support team,psychological support team,blood collection center,first aid kit,electrical field team,medical team,0.62445,0.39565,0.39379,0.39332,0.38556
+216,tent;oxygen concentrator,oxygen concentrator,tent,first aid kit,canned food,lighting equipment,0.61334,0.47217,0.43897,0.43839,0.43755
+217,dry food;lighting equipment;toothbrush,canned food,pet food,salt-free and sugar-free food,food,dry food,0.74761,0.64471,0.64424,0.63756,0.63371
+219,volunteers;food,equipment for disabled people,security forces,generator,heart medicine,volunteers,0.64806,0.48828,0.35991,0.35519,0.34842
+220,dry food,dry food,pet food,food,canned food,hot meal,0.64911,0.55092,0.54618,0.54268,0.49465
+221,diaper;sleeping bag,sleeping bag,life jacket,wet wipes,spare clothes,canned food,0.63454,0.53039,0.51218,0.47927,0.47577
+225,generator,electrical field team,lighting equipment,canned food,first aid kit,blood collection center,0.5696,0.53542,0.52166,0.51729,0.50819
+231,wet wipes,wet wipes,canned food,cleaning product,blood collection center,spare clothes,0.66682,0.50819,0.50255,0.47075,0.46752
+241,baby formula,baby formula,canned food,blood collection center,pet food,first aid kit,0.5549,0.55205,0.50058,0.47943,0.46597
+271,medical team,medical team,search and rescue team,equipment for disabled people,electrical field team,psychological support team,0.61584,0.51916,0.5139,0.49097,0.45199
+285,medical team,canned food,blood collection center,sleeping bag,first aid kit,power bank,0.56465,0.56102,0.45652,0.45584,0.45124
+292,medical team,medical team,blood collection center,canned food,first aid kit,sleeping bag,0.63573,0.62623,0.5994,0.55051,0.50712
+296,drinking water,drinking water,canned food,blood collection center,salt-free and sugar-free food,hot meal,0.79969,0.70514,0.62623,0.62622,0.62526
+303,cleaning product;diaper,cleaning product,wet wipes,canned food,sleeping bag,blood collection center,0.58222,0.57033,0.55155,0.53526,0.49495
+304,oxygen concentrator,blood collection center,canned food,sleeping bag,first aid kit,drinking water,0.66108,0.64962,0.61222,0.59839,0.58627
+305,pet food;power bank,canned food,pet food,power bank,food,blood collection center,0.72158,0.70142,0.63726,0.6232,0.61646
+309,blanket;container housing;power bank,power bank,canned food,blood collection center,first aid kit,salt-free and sugar-free food,0.69711,0.64604,0.5911,0.5652,0.5565
+310,heating stove,heating stove,hot meal,pots and pans,drinking water,salt-free and sugar-free food,0.68163,0.58283,0.53067,0.52583,0.52446
+313,sleeping bag,sleeping bag,canned food,blood collection center,pet food,first aid kit,0.66008,0.60214,0.56111,0.52595,0.51697
+316,sleeping bag;diaper;generator,sleeping bag,diaper,lighting equipment,blood collection center,canned food,0.68289,0.5611,0.51415,0.50196,0.50079
+320,tent,pet food,dry food,children's playground,tent,firewood,0.41689,0.39896,0.39122,0.38789,0.38669
+322,equipment for disabled people,canned food,blood collection center,first aid kit,sleeping bag,lighting equipment,0.60405,0.58595,0.57855,0.55762,0.54883
+324,blanket,cold medicine,sleeping bag,wet wipes,hot meal,canned food,0.58756,0.55247,0.54891,0.53984,0.53763
+326,food,canned food,hot meal,sleeping bag,blood collection center,drinking water,0.63817,0.60622,0.58054,0.56626,0.53752
+335,fever reducer;firewood,canned food,salt-free and sugar-free food,hot meal,drinking water,blood collection center,0.68859,0.66207,0.65188,0.63938,0.62971
+338,bread,canned food,blood collection center,salt-free and sugar-free food,gluten free food,hot meal,0.68182,0.62042,0.58144,0.53359,0.53032
+344,blanket,canned food,sleeping bag,drinking water,hot meal,wet wipes,0.61739,0.56474,0.5475,0.5443,0.53377
+350,pots and pans,pots and pans,hot meal,drinking water,canned food,salt-free and sugar-free food,0.80393,0.70593,0.64429,0.64275,0.63934
+357,generator;interpreter,canned food,blood collection center,power bank,first aid kit,children's playground,0.61382,0.60454,0.59909,0.53597,0.48734
+359,generator,lighting equipment,blood collection center,power bank,canned food,battery-powered radio,0.61037,0.56013,0.49451,0.48714,0.47744
+363,cold medicine;heart medicine,canned food,cold medicine,blood collection center,sleeping bag,drinking water,0.61683,0.61468,0.6125,0.61155,0.60735
+365,tent;diaper,tent,canned food,wet wipes,blood collection center,first aid kit,0.56089,0.54468,0.52749,0.52173,0.52003
+368,sleeping bag;batteries,sleeping bag,batteries,battery-powered radio,dry food,cold medicine,0.59501,0.53724,0.44625,0.42495,0.40235
+381,fever reducer;heart medicine,blood collection center,sleeping bag,canned food,hot meal,life jacket,0.63695,0.6244,0.57828,0.55709,0.54982
+382,gluten free food;heart medicine,canned food,gluten free food,salt-free and sugar-free food,blood collection center,pet food,0.7699,0.71228,0.69596,0.66773,0.66192
+383,search and rescue team,search and rescue team,medical team,first aid kit,canned food,electrical field team,0.69508,0.53893,0.52916,0.51448,0.48595
+384,soap;first aid kit;baby formula,wet wipes,spare clothes,sleeping bag,cleaning product,hot meal,0.56584,0.50492,0.50427,0.49467,0.48939
+391,napkin,spare clothes,first aid kit,napkin,blood collection center,canned food,0.46779,0.45921,0.45823,0.4251,0.41355
+401,bandage,first aid kit,blood collection center,medical team,canned food,electrical field team,0.57453,0.57073,0.53504,0.52986,0.49665
+403,lighting equipment;tent;lantern,lighting equipment,canned food,first aid kit,blood collection center,tent,0.73862,0.64019,0.63389,0.61506,0.60039
+404,fever reducer,children's playground,blood collection center,fever reducer,canned food,pet food,0.6224,0.57385,0.53288,0.52115,0.47467
+405,fever reducer;painkiller,fever reducer,blood,canned food,blood collection center,sleeping bag,0.59346,0.52286,0.50143,0.49771,0.45209
+408,security forces,canned food,blood collection center,power bank,pet food,first aid kit,0.55572,0.50959,0.50199,0.48598,0.48062
+413,electric heater;dry food,canned food,salt-free and sugar-free food,hot meal,drinking water,sleeping bag,0.59797,0.57968,0.57896,0.57762,0.5699
+417,container housing;cleaning product,container housing,dry food,cleaning product,pet food,security forces,0.56862,0.44016,0.43842,0.42717,0.39901
+419,cash;insulin,blood collection center,insulin,canned food,cash,blood,0.64691,0.59965,0.59622,0.5749,0.5627
+420,security forces;allergy medication,canned food,blood collection center,first aid kit,sleeping bag,power bank,0.6203,0.59655,0.54818,0.51514,0.50486
+424,mask,wet wipes,canned food,blood collection center,sleeping bag,drinking water,0.61061,0.58031,0.5461,0.54517,0.52997
+428,toothpaste;toothbrush;medicine,canned food,wet wipes,blood collection center,cleaning product,salt-free and sugar-free food,0.61795,0.61557,0.5955,0.58899,0.57505
+431,batteries,blood collection center,blood,canned food,power bank,first aid kit,0.74843,0.67314,0.6405,0.60878,0.57215
+432,adhesive bandage;kitchenware;insulin,canned food,salt-free and sugar-free food,sleeping bag,blood collection center,hot meal,0.73811,0.69728,0.65301,0.64679,0.63611
+435,heating stove,heating stove,canned food,blood collection center,hot meal,lighting equipment,0.64362,0.51683,0.48684,0.48592,0.47055
+441,power bank,blood collection center,first aid kit,children's playground,canned food,pet food,0.562,0.45704,0.44578,0.43885,0.43595
+444,dry food;fever reducer,dry food,canned food,fever reducer,pet food,food,0.54884,0.54595,0.51259,0.48074,0.46241
+446,sleeping bag,sleeping bag,container housing,canned food,pet food,dry food,0.57931,0.51401,0.45783,0.45777,0.44743
+449,mask;power bank;heating stove,blood collection center,power bank,heating stove,canned food,first aid kit,0.60827,0.59076,0.58438,0.54969,0.54137
+453,dry food,canned food,salt-free and sugar-free food,hot meal,drinking water,food,0.6959,0.63652,0.62733,0.6168,0.5853
+454,toothpaste,toothpaste,first aid kit,electrical field team,power bank,blood collection center,0.47482,0.40185,0.31433,0.31077,0.30715
+461,baby bottle;coat,baby bottle,baby formula,sleeping bag,wet wipes,pet food,0.59584,0.52971,0.41739,0.41307,0.40943
+463,hot meal,hot meal,canned food,drinking water,sleeping bag,salt-free and sugar-free food,0.70144,0.69902,0.66336,0.62166,0.6141
+466,drinking water;medicine,cold medicine,oxygen concentrator,drinking water,asthma medicine,heart medicine,0.53582,0.51765,0.50729,0.50419,0.49402
+469,baby formula,canned food,blood collection center,first aid kit,pet food,sleeping bag,0.53145,0.51879,0.49283,0.48197,0.48085
+470,first aid kit,first aid kit,blood collection center,power bank,canned food,pet food,0.69203,0.53581,0.51061,0.50168,0.46164
+472,gluten free food;equipment for disabled people,canned food,gluten free food,salt-free and sugar-free food,food,pet food,0.67697,0.65136,0.58962,0.57084,0.55808
+476,medicine,equipment for disabled people,medicine,allergy medication,heart medicine,security forces,0.45909,0.45345,0.44121,0.43674,0.43529
+480,first aid kit;container housing,first aid kit,canned food,blood collection center,lighting equipment,pet food,0.73463,0.64483,0.63165,0.56926,0.54349
+482,food;wet wipes;first aid kit,first aid kit,wet wipes,canned food,dry food,pet food,0.55482,0.54399,0.51309,0.48251,0.48186
+483,baby bottle;interpreter,baby formula,canned food,baby bottle,interpreter,equipment for disabled people,0.46603,0.45971,0.4534,0.43602,0.38252
+485,napkin,canned food,wet wipes,blood collection center,first aid kit,cleaning product,0.69042,0.64436,0.63245,0.62723,0.61835
+486,cash;salt-free and sugar-free food,canned food,blood collection center,food,pet food,salt-free and sugar-free food,0.72237,0.65068,0.61884,0.60471,0.59164
+487,search and rescue team;fever reducer,blood collection center,first aid kit,search and rescue team,canned food,fever reducer,0.59346,0.52194,0.51582,0.50094,0.50035
+489,power bank,power bank,canned food,blood collection center,first aid kit,sleeping bag,0.71956,0.67059,0.63908,0.60367,0.54201
+491,fever reducer,canned food,blood collection center,sleeping bag,fever reducer,children's playground,0.56415,0.56415,0.54974,0.5433,0.51559
+493,dry food,equipment for disabled people,dry food,security forces,generator,oxygen concentrator,0.59427,0.53084,0.48571,0.38653,0.3614
+495,kitchenware,pots and pans,heating stove,cold medicine,hot meal,dry food,0.54899,0.48034,0.46025,0.45703,0.40634
+501,drinking water;asthma medicine,drinking water,canned food,blood collection center,salt-free and sugar-free food,wet wipes,0.70521,0.6182,0.60947,0.56278,0.53364
+509,container housing,container housing,canned food,cold medicine,pet food,blood collection center,0.61897,0.53768,0.47993,0.47444,0.46748
+513,battery-powered radio;kitchenware,battery-powered radio,power bank,heating stove,first aid kit,lighting equipment,0.72289,0.57118,0.5465,0.53152,0.52827
+519,electric heater;medicine,baby bottle,electric heater,baby formula,cold medicine,portable toilet,0.50257,0.47374,0.45959,0.42904,0.42456
+523,portable toilet,portable toilet,blood collection center,wet wipes,equipment for disabled people,sleeping bag,0.63226,0.4869,0.46,0.45955,0.44305
+532,toothpaste;portable toilet,wet wipes,first aid kit,blood collection center,lighting equipment,electrical field team,0.45254,0.44641,0.44147,0.42759,0.4273
+539,medical team;napkin,medical team,first aid kit,blood collection center,electrical field team,canned food,0.52875,0.50349,0.48259,0.44492,0.43924
+545,psychological support team,canned food,children's playground,blood collection center,sleeping bag,drinking water,0.52604,0.5034,0.47204,0.46421,0.44463
+549,medicine,canned food,blood collection center,heart medicine,cold medicine,first aid kit,0.51127,0.46803,0.45109,0.44302,0.43567
+550,tent;medical team,medical team,blood collection center,first aid kit,canned food,tent,0.56758,0.56365,0.56194,0.56002,0.51428
+561,antibiotic,blood collection center,canned food,first aid kit,sleeping bag,wet wipes,0.59456,0.56729,0.55008,0.52453,0.5138
+562,psychological support team,blood collection center,canned food,first aid kit,blood,sleeping bag,0.49845,0.46894,0.42312,0.41892,0.40181
+566,hot meal,canned food,hot meal,salt-free and sugar-free food,drinking water,blood collection center,0.69985,0.68661,0.62187,0.61908,0.59674
+570,cold medicine;power bank,blood collection center,sleeping bag,wet wipes,blood,canned food,0.60032,0.55301,0.53511,0.51652,0.51228
+571,tent,tent,sleeping bag,lighting equipment,portable toilet,spare clothes,0.58018,0.46707,0.43913,0.42522,0.41949
+572,bread;portable toilet;toothpaste,canned food,blood collection center,lighting equipment,salt-free and sugar-free food,gluten free food,0.56316,0.51434,0.50263,0.50125,0.48468
+575,container housing,canned food,children's playground,blood collection center,first aid kit,salt-free and sugar-free food,0.62357,0.58292,0.57143,0.54458,0.52218
+578,blanket;kitchenware,canned food,salt-free and sugar-free food,hot meal,pet food,food,0.81632,0.68931,0.68603,0.68323,0.67529
+581,psychological support team;blanket,wet wipes,sleeping bag,cold medicine,canned food,heart medicine,0.49112,0.48067,0.4779,0.47205,0.45608
+582,electric heater,heating stove,hot meal,lighting equipment,wet wipes,sleeping bag,0.54376,0.54164,0.54127,0.53562,0.52953
+585,spare clothes,spare clothes,wet wipes,canned food,blood collection center,sleeping bag,0.68493,0.5772,0.53192,0.53174,0.52064
+588,antibiotic;search and rescue team;portable toilet,canned food,blood collection center,first aid kit,pet food,salt-free and sugar-free food,0.59332,0.58822,0.55184,0.53699,0.52732
+589,hot meal,canned food,hot meal,blood collection center,drinking water,salt-free and sugar-free food,0.67117,0.64859,0.60936,0.60838,0.60228
+590,container housing,canned food,blood collection center,container housing,salt-free and sugar-free food,drinking water,0.53235,0.53162,0.49623,0.49106,0.46962
+593,bread,canned food,blood collection center,salt-free and sugar-free food,hot meal,gluten free food,0.64833,0.56381,0.52202,0.50854,0.50557
+595,insulin,blood collection center,canned food,pet food,first aid kit,food,0.62934,0.62402,0.54692,0.53041,0.52363
+597,cash,cash,power bank,blood collection center,canned food,salt-free and sugar-free food,0.52807,0.50626,0.47957,0.47867,0.42749
+604,baby bottle,canned food,blood collection center,first aid kit,drinking water,salt-free and sugar-free food,0.62823,0.58758,0.55724,0.55475,0.54747
+606,napkin,canned food,food,pet food,cleaning product,salt-free and sugar-free food,0.68608,0.56059,0.55266,0.53528,0.52867
+608,medical team,medical team,canned food,blood collection center,first aid kit,power bank,0.66246,0.59331,0.58683,0.57557,0.50901
+611,dry food,canned food,dry food,pet food,food,blood collection center,0.62443,0.62103,0.57349,0.56352,0.50214
+614,blanket,blanket,cold medicine,wet wipes,security forces,lantern,0.43949,0.38269,0.38063,0.329,0.32847
+615,fever reducer,fever reducer,children's playground,blood collection center,canned food,blood,0.65074,0.61614,0.48332,0.44687,0.42925
+619,lighting equipment,lighting equipment,blood collection center,canned food,first aid kit,hot meal,0.61275,0.57573,0.54977,0.52425,0.51751
+620,batteries;volunteers,battery-powered radio,batteries,volunteers,container housing,electrical field team,0.46189,0.43389,0.39266,0.34958,0.3372
+622,tent,tent,blood collection center,canned food,first aid kit,children's playground,0.55347,0.52279,0.51023,0.50309,0.50039
+625,tent,tent,wet wipes,life jacket,spare clothes,sleeping bag,0.6149,0.61382,0.54749,0.54564,0.54165
+626,medical team;pots and pans,pots and pans,hot meal,canned food,medical team,bread,0.71182,0.51158,0.49607,0.49149,0.48093
+628,napkin,wet wipes,cleaning product,canned food,first aid kit,blood collection center,0.71551,0.65405,0.60143,0.59604,0.59546
+630,blanket;portable toilet,portable toilet,blanket,sleeping bag,wet wipes,spare clothes,0.63296,0.48716,0.48666,0.48535,0.47358
+633,baby formula,canned food,salt-free and sugar-free food,blood collection center,first aid kit,pet food,0.66564,0.59664,0.58025,0.57997,0.55872
+634,gluten free food,gluten free food,food,pet food,canned food,dry food,0.71029,0.63432,0.62508,0.62478,0.58785
+637,dry food,dry food,canned food,food,hot meal,bread,0.62996,0.52718,0.51064,0.50122,0.49361
+638,generator,power bank,lighting equipment,battery-powered radio,blood collection center,canned food,0.68654,0.57489,0.57301,0.56793,0.56134
+639,oxygen concentrator,blood collection center,drinking water,sleeping bag,canned food,blood,0.60043,0.59839,0.55586,0.55477,0.54615
+641,electric heater,first aid kit,blood collection center,canned food,power bank,sleeping bag,0.5756,0.57506,0.55181,0.55075,0.54992
+642,dry food;volunteers,canned food,salt-free and sugar-free food,first aid kit,gluten free food,hot meal,0.72469,0.64131,0.62645,0.60218,0.59308
+644,tent;power bank,power bank,tent,blood collection center,canned food,first aid kit,0.63519,0.58698,0.5026,0.47146,0.46706
+647,medicine;electrical field team,canned food,power bank,sleeping bag,first aid kit,blood collection center,0.59898,0.58615,0.57526,0.57339,0.56747
+652,generator;search and rescue team,search and rescue team,power bank,canned food,blood collection center,electrical field team,0.62007,0.57819,0.54465,0.51758,0.50772
+675,fever reducer,canned food,blood collection center,salt-free and sugar-free food,blood,cold medicine,0.56027,0.5555,0.55336,0.52235,0.5111
+679,interpreter;blanket,canned food,blood collection center,interpreter,first aid kit,power bank,0.62954,0.60432,0.57987,0.57863,0.54031
+681,lighting equipment,lighting equipment,canned food,blood collection center,first aid kit,cleaning product,0.71436,0.64487,0.64006,0.61629,0.5431
+682,sleeping bag,sleeping bag,diaper,blanket,wet wipes,cold medicine,0.62309,0.44366,0.43449,0.42956,0.40995
+687,pots and pans,pots and pans,canned food,hot meal,salt-free and sugar-free food,food,0.78983,0.75058,0.72949,0.68538,0.651
+688,spare clothes;dry food;baby bottle,dry food,spare clothes,pet food,canned food,food,0.6804,0.66836,0.59434,0.58963,0.55902
+690,tent;first aid kit,first aid kit,canned food,blood collection center,sleeping bag,lighting equipment,0.72603,0.71313,0.63458,0.5944,0.56814
+691,heart medicine,heart medicine,blood collection center,canned food,cold medicine,blood,0.703,0.6268,0.61167,0.55773,0.5524
+692,salt-free and sugar-free food,canned food,salt-free and sugar-free food,blood collection center,gluten free food,food,0.78715,0.78196,0.73934,0.70387,0.63469
+696,pots and pans,pots and pans,canned food,hot meal,salt-free and sugar-free food,bread,0.66209,0.63865,0.5831,0.55957,0.54489
+697,bread;pet food,canned food,blood collection center,pet food,sleeping bag,drinking water,0.56404,0.53109,0.50287,0.49137,0.46729
+698,canned food;blood,canned food,blood collection center,lighting equipment,drinking water,sleeping bag,0.60997,0.52881,0.49438,0.48816,0.47145
+699,antibiotic,canned food,blood collection center,first aid kit,sleeping bag,pet food,0.62766,0.58466,0.54361,0.52068,0.49599
+700,mask,equipment for disabled people,security forces,oxygen concentrator,portable toilet,hardware tools,0.61186,0.51251,0.40039,0.39598,0.36517
+702,blanket;medical team,medical team,sleeping bag,canned food,blood collection center,first aid kit,0.59077,0.5364,0.53013,0.52595,0.51848
+704,spare clothes,wet wipes,spare clothes,dry food,sleeping bag,drinking water,0.61858,0.60394,0.54535,0.50694,0.48503
+709,spare clothes;hot meal,hot meal,spare clothes,wet wipes,salt-free and sugar-free food,sleeping bag,0.7506,0.70121,0.70068,0.67257,0.6638
+714,electric heater,canned food,lighting equipment,blood collection center,heating stove,power bank,0.53666,0.52095,0.51888,0.50496,0.49499
+717,blanket,sleeping bag,blood collection center,life jacket,canned food,blanket,0.61759,0.57972,0.57737,0.57167,0.55454
+718,sanitary pad,canned food,blood collection center,first aid kit,sleeping bag,power bank,0.65004,0.64139,0.61511,0.54695,0.53832
+721,drinking water,drinking water,canned food,blood collection center,salt-free and sugar-free food,hot meal,0.74045,0.65871,0.60853,0.60515,0.58927
+724,security forces,blood collection center,electrical field team,canned food,lighting equipment,tent,0.53227,0.53168,0.49394,0.49075,0.48804
+728,generator;first aid kit,canned food,blood collection center,power bank,lighting equipment,pet food,0.50631,0.46132,0.45689,0.44661,0.42733
+731,cold medicine,cold medicine,heart medicine,asthma medicine,wet wipes,sleeping bag,0.66112,0.53155,0.50323,0.47907,0.47003
+736,hot meal;life jacket,hot meal,canned food,life jacket,salt-free and sugar-free food,sleeping bag,0.73383,0.72451,0.7227,0.59917,0.59413
+740,bread,bread,canned food,hot meal,salt-free and sugar-free food,gluten free food,0.61311,0.60271,0.53754,0.53245,0.52601
+760,first aid kit;psychological support team,first aid kit,psychological support team,blood collection center,canned food,children's playground,0.73385,0.63378,0.60304,0.5987,0.55385
+761,tent,canned food,blood collection center,sleeping bag,drinking water,lighting equipment,0.63162,0.60853,0.53286,0.53124,0.52474
+767,battery-powered radio;toothpaste,battery-powered radio,batteries,equipment for disabled people,security forces,toothpaste,0.56057,0.50291,0.4634,0.45984,0.43393
+769,blanket;food,canned food,hot meal,sleeping bag,drinking water,salt-free and sugar-free food,0.62713,0.55209,0.53788,0.51595,0.51381
+770,baby bottle,baby bottle,baby formula,children's playground,sleeping bag,first aid kit,0.54178,0.51947,0.46863,0.39866,0.39732
+774,antibiotic,blood collection center,children's playground,canned food,first aid kit,salt-free and sugar-free food,0.6368,0.61505,0.61179,0.51692,0.51183
+777,tent;medicine,security forces,equipment for disabled people,allergy medication,generator,asthma medicine,0.55654,0.51435,0.49809,0.46935,0.46501
+780,sanitary pad;blanket,sleeping bag,canned food,wet wipes,life jacket,hot meal,0.57709,0.56848,0.55575,0.52015,0.5105
+781,pots and pans,pots and pans,heating stove,hot meal,salt-free and sugar-free food,canned food,0.89389,0.66121,0.64582,0.62609,0.62318
+782,sleeping bag;gluten free food,gluten free food,canned food,pet food,salt-free and sugar-free food,food,0.64957,0.60455,0.58817,0.57055,0.56604
+785,pet food,pet food,canned food,food,salt-free and sugar-free food,gluten free food,0.79718,0.741,0.63989,0.58109,0.58031
+786,medical team,blood collection center,first aid kit,canned food,sleeping bag,power bank,0.64969,0.58266,0.58134,0.54696,0.53274
+788,wet wipes,wet wipes,canned food,drinking water,blood collection center,salt-free and sugar-free food,0.66632,0.64986,0.62019,0.61452,0.61042
+790,search and rescue team,search and rescue team,blood collection center,first aid kit,electrical field team,canned food,0.67441,0.45537,0.44226,0.43908,0.41929
+793,cash;painkiller,canned food,blood collection center,cash,power bank,first aid kit,0.55321,0.51973,0.50022,0.49084,0.44529
+802,cold medicine;sleeping bag,sleeping bag,cold medicine,canned food,blood collection center,drinking water,0.61026,0.57085,0.56083,0.53033,0.527
+811,coat;antibiotic,canned food,blood collection center,sleeping bag,salt-free and sugar-free food,wet wipes,0.63671,0.61219,0.59423,0.57308,0.56095
+813,spare clothes;cold medicine,wet wipes,drinking water,cleaning product,blood collection center,canned food,0.6652,0.62522,0.6142,0.61392,0.60614
+840,generator,power bank,lighting equipment,blood collection center,canned food,battery-powered radio,0.62296,0.61322,0.58091,0.53872,0.52514
+846,electric heater,electric heater,equipment for disabled people,security forces,portable toilet,generator,0.59133,0.43668,0.42312,0.3966,0.34319
+847,gluten free food;medicine,canned food,gluten free food,salt-free and sugar-free food,blood collection center,pet food,0.70998,0.63412,0.60804,0.59581,0.59122
+848,sleeping bag,sleeping bag,blood collection center,canned food,drinking water,salt-free and sugar-free food,0.74435,0.56322,0.56161,0.52175,0.50765
+852,volunteers;search and rescue team,equipment for disabled people,electrical field team,search and rescue team,volunteers,security forces,0.49232,0.47347,0.43798,0.43752,0.43723
+854,pet food,pet food,dry food,food,canned food,equipment for disabled people,0.64624,0.58418,0.45587,0.43857,0.41787
+859,blanket;blood,blood collection center,first aid kit,blood,canned food,sleeping bag,0.73837,0.63879,0.63782,0.62662,0.58549
+860,coat,coat,life jacket,spare clothes,sleeping bag,wet wipes,0.71159,0.69787,0.69378,0.63102,0.62521
+861,psychological support team;food,canned food,pet food,children's playground,salt-free and sugar-free food,food,0.67031,0.5829,0.57894,0.5565,0.54894
+862,search and rescue team,canned food,lighting equipment,first aid kit,blood collection center,power bank,0.63,0.59842,0.56521,0.54793,0.51802
+863,cleaning product;blanket,cleaning product,canned food,hot meal,salt-free and sugar-free food,pet food,0.66545,0.64545,0.5945,0.58761,0.58388
+867,baby formula,canned food,pet food,blood collection center,children's playground,salt-free and sugar-free food,0.62749,0.61244,0.60744,0.58665,0.56762
+868,coat,canned food,life jacket,sleeping bag,hot meal,wet wipes,0.67265,0.66315,0.65301,0.60653,0.59527
+870,medical team,medical team,search and rescue team,blood collection center,electrical field team,psychological support team,0.63195,0.47993,0.45615,0.4164,0.41581
+871,medicine,heart medicine,cold medicine,blood collection center,sleeping bag,blood,0.57196,0.51762,0.48376,0.47618,0.4705
+875,baby formula,canned food,blood collection center,children's playground,first aid kit,pet food,0.63469,0.61462,0.53547,0.52805,0.5191
+876,first aid kit,first aid kit,equipment for disabled people,lighting equipment,security forces,dry food,0.60954,0.45136,0.41666,0.40269,0.39213
+878,food,container housing,equipment for disabled people,canned food,dry food,food,0.43124,0.42778,0.41705,0.41647,0.38952
+880,hot meal,hot meal,dry food,pots and pans,canned food,electric heater,0.50688,0.47029,0.44153,0.42492,0.41302
+881,coat;electric heater,tent,heating stove,hot meal,drinking water,spare clothes,0.58126,0.56892,0.5482,0.537,0.53297
+887,cash;psychological support team,canned food,blood collection center,power bank,first aid kit,cash,0.68833,0.61178,0.58913,0.58388,0.57381
+890,electric heater,electric heater,tent,heating stove,spare clothes,lighting equipment,0.63878,0.60309,0.56393,0.52801,0.46494
+891,generator;mask;container housing,canned food,pet food,blood collection center,sleeping bag,salt-free and sugar-free food,0.6405,0.61221,0.60833,0.5584,0.55119
+892,electric heater,canned food,lighting equipment,blood collection center,power bank,heating stove,0.61384,0.60386,0.59987,0.59079,0.57616
+894,wet wipes;coat;electric heater,wet wipes,heating stove,spare clothes,drinking water,hot meal,0.66526,0.63487,0.56547,0.54686,0.5451
+897,security forces;blood collection center,security forces,equipment for disabled people,dry food,portable toilet,cold medicine,0.62821,0.44264,0.38564,0.36401,0.3522
+899,life jacket,life jacket,canned food,first aid kit,power bank,blood collection center,0.75407,0.64199,0.58595,0.56618,0.56197
+902,flashlight,canned food,lighting equipment,blood collection center,power bank,life jacket,0.60571,0.56393,0.56238,0.54879,0.52866
+903,blanket;coat,canned food,sleeping bag,wet wipes,life jacket,blood collection center,0.66753,0.61723,0.60729,0.5891,0.58601
+904,mask,canned food,blood collection center,drinking water,wet wipes,sleeping bag,0.63147,0.62693,0.57789,0.5737,0.5702
+908,search and rescue team,search and rescue team,canned food,blood collection center,first aid kit,power bank,0.56023,0.52703,0.46692,0.4405,0.43859
+909,baby formula,canned food,sleeping bag,blood collection center,first aid kit,pet food,0.6422,0.59906,0.58468,0.57863,0.57397
+914,napkin,canned food,pet food,food,salt-free and sugar-free food,drinking water,0.72301,0.63849,0.61097,0.60901,0.5789
+917,lantern,lighting equipment,canned food,blood collection center,first aid kit,cleaning product,0.58907,0.57362,0.54791,0.48425,0.44157
+918,batteries,battery-powered radio,lighting equipment,first aid kit,electrical field team,power bank,0.55335,0.49924,0.49858,0.47833,0.478
+919,salt-free and sugar-free food,salt-free and sugar-free food,canned food,blood collection center,gluten free food,drinking water,0.75336,0.70925,0.68342,0.65444,0.61718
+920,cold medicine,cold medicine,wet wipes,sleeping bag,blood,blood collection center,0.58637,0.56045,0.55758,0.53837,0.53574
+926,sleeping bag;medical team;flashlight,sleeping bag,medical team,canned food,blood collection center,hot meal,0.66142,0.54963,0.54894,0.54798,0.52287
+927,equipment for disabled people;kitchenware;drinking water,canned food,drinking water,hot meal,blood collection center,food,0.75229,0.73217,0.63175,0.61657,0.60783
+929,lighting equipment,lighting equipment,canned food,blood collection center,first aid kit,spare clothes,0.6953,0.51204,0.4958,0.4669,0.46055
+930,pet food,pet food,canned food,food,dry food,gluten free food,0.74088,0.60155,0.58298,0.50349,0.50241
+932,adhesive bandage;medical team,medical team,canned food,blood collection center,first aid kit,sleeping bag,0.64833,0.63748,0.62011,0.59681,0.55224
+933,cold medicine;heart medicine,cold medicine,heart medicine,blood,blood collection center,asthma medicine,0.75388,0.70025,0.6208,0.57276,0.56978
+936,insulin;coat,canned food,blood collection center,cold medicine,drinking water,salt-free and sugar-free food,0.54333,0.5259,0.49114,0.47861,0.47543
+938,cleaning product;cash,cleaning product,canned food,pet food,cash,first aid kit,0.6863,0.64826,0.59713,0.59548,0.56641
+939,adhesive bandage,wet wipes,blood collection center,canned food,spare clothes,first aid kit,0.58417,0.58403,0.56491,0.51884,0.49738
+940,pet food,pet food,dry food,canned food,wet wipes,hot meal,0.72742,0.62566,0.62168,0.58774,0.58438
+942,dry food,canned food,food,dry food,pet food,gluten free food,0.75614,0.70544,0.69121,0.67807,0.63054
+943,container housing;sleeping bag,sleeping bag,canned food,blood collection center,container housing,pet food,0.68127,0.59323,0.55642,0.55551,0.548
+945,medicine,blood collection center,canned food,wet wipes,sleeping bag,salt-free and sugar-free food,0.52911,0.52033,0.51924,0.49439,0.47118
+948,psychological support team;tent,canned food,sleeping bag,first aid kit,life jacket,wet wipes,0.59098,0.58785,0.56029,0.55878,0.55677
+949,tent,tent,sleeping bag,canned food,children's playground,drinking water,0.67081,0.61973,0.61401,0.61007,0.60684
+952,bread,canned food,hot meal,salt-free and sugar-free food,bread,sleeping bag,0.68719,0.67041,0.64167,0.63508,0.61065
+954,soap;asthma medicine,canned food,blood collection center,salt-free and sugar-free food,drinking water,pet food,0.6454,0.60819,0.54876,0.54465,0.54441
+956,spare clothes,spare clothes,wet wipes,sleeping bag,life jacket,cleaning product,0.81699,0.70514,0.6459,0.61706,0.57768
+957,blanket,sleeping bag,blanket,hot meal,tent,wet wipes,0.49139,0.46976,0.4378,0.43216,0.42994
+959,medicine;batteries;dry food,blood,blood collection center,heart medicine,cold medicine,oxygen concentrator,0.60431,0.54136,0.49625,0.48391,0.46542
+961,search and rescue team;coat,search and rescue team,canned food,coat,electrical field team,blood collection center,0.63437,0.45554,0.44592,0.44104,0.43794
+969,drinking water,drinking water,canned food,salt-free and sugar-free food,blood collection center,hot meal,0.81454,0.70919,0.68408,0.65033,0.65012
+970,tent,sleeping bag,tent,first aid kit,spare clothes,canned food,0.58874,0.55874,0.55279,0.53527,0.52494
+972,drinking water,drinking water,canned food,blood collection center,salt-free and sugar-free food,pet food,0.71619,0.57387,0.54995,0.53412,0.51684
+973,toothpaste;baby formula,canned food,blood collection center,salt-free and sugar-free food,pet food,gluten free food,0.61354,0.59982,0.59292,0.5561,0.54939
+974,medical team;blanket,canned food,sleeping bag,medical team,blood collection center,pet food,0.58624,0.57115,0.56559,0.55518,0.50437
+978,painkiller;food,canned food,sleeping bag,pet food,hot meal,drinking water,0.66165,0.56753,0.55219,0.54258,0.52722
+980,kitchenware,hot meal,canned food,pots and pans,food,dry food,0.68689,0.63504,0.62037,0.61184,0.59702
+982,cold medicine;blanket,cold medicine,canned food,drinking water,hot meal,sleeping bag,0.60746,0.57483,0.56369,0.54415,0.54255
+983,wet wipes,canned food,blood collection center,sleeping bag,drinking water,wet wipes,0.65971,0.6472,0.63953,0.63634,0.62493
+986,search and rescue team,canned food,search and rescue team,blood collection center,power bank,first aid kit,0.54835,0.51875,0.48905,0.46445,0.44194
+989,kitchenware,pots and pans,canned food,blood collection center,salt-free and sugar-free food,hot meal,0.70783,0.68992,0.61747,0.61291,0.58233
+995,tent,canned food,blood collection center,first aid kit,tent,drinking water,0.66093,0.60968,0.55681,0.55505,0.54763
+996,food,canned food,pet food,food,blood collection center,dry food,0.53828,0.49184,0.49028,0.48249,0.46134
+997,security forces,blood collection center,power bank,first aid kit,canned food,lighting equipment,0.65162,0.57536,0.54611,0.52061,0.47711
+998,generator,canned food,blood collection center,power bank,lighting equipment,drinking water,0.61626,0.57007,0.56628,0.54998,0.52785
+1003,salt-free and sugar-free food,salt-free and sugar-free food,gluten free food,canned food,drinking water,food,0.85484,0.73887,0.70912,0.64072,0.64072
+1005,search and rescue team;blanket,blood collection center,canned food,search and rescue team,sleeping bag,first aid kit,0.58432,0.56794,0.56309,0.55644,0.53874
+1008,cold medicine;lighting equipment,lighting equipment,canned food,blood collection center,cold medicine,wet wipes,0.62653,0.58925,0.56274,0.54858,0.52171
+1012,pots and pans,canned food,pots and pans,salt-free and sugar-free food,hot meal,blood collection center,0.7305,0.67127,0.62216,0.62107,0.57924
+1017,life jacket;bandage,canned food,life jacket,blood collection center,drinking water,sleeping bag,0.65694,0.63927,0.63482,0.60515,0.60354
+1018,gluten free food,gluten free food,canned food,salt-free and sugar-free food,food,pet food,0.84103,0.78108,0.72859,0.71958,0.70358
+1020,cleaning product;search and rescue team,cleaning product,search and rescue team,canned food,first aid kit,blood collection center,0.74976,0.65298,0.60917,0.54733,0.53499
+1022,drinking water,canned food,drinking water,blood collection center,salt-free and sugar-free food,sleeping bag,0.73372,0.7146,0.64984,0.63679,0.59944
+1023,container housing;coat,canned food,drinking water,hot meal,salt-free and sugar-free food,blood collection center,0.64743,0.62358,0.62212,0.62132,0.60514
+1024,spare clothes;dry food,spare clothes,canned food,dry food,wet wipes,sleeping bag,0.74336,0.67484,0.63687,0.62979,0.6251
+1027,drinking water,drinking water,canned food,blood collection center,wet wipes,hot meal,0.6376,0.58174,0.53558,0.50403,0.50195
+1031,dry food;baby formula,bread,hot meal,salt-free and sugar-free food,gluten free food,pots and pans,0.66352,0.56545,0.5552,0.53309,0.52727
+1038,dry food;pots and pans,canned food,hot meal,salt-free and sugar-free food,pots and pans,food,0.72635,0.70851,0.67293,0.66509,0.65518
+1041,baby formula;search and rescue team,search and rescue team,baby formula,canned food,medical team,first aid kit,0.68568,0.51624,0.49455,0.49391,0.45853
+1044,drinking water;generator;battery-powered radio,battery-powered radio,drinking water,canned food,power bank,blood collection center,0.71295,0.65218,0.63549,0.6105,0.57327
+1055,generator;psychological support team,blood collection center,canned food,lighting equipment,power bank,psychological support team,0.64978,0.6368,0.6224,0.58663,0.58403
+1061,pots and pans;children's playground,canned food,children's playground,hot meal,pet food,food,0.65133,0.61315,0.60531,0.59926,0.59867
+1070,antibiotic,blood collection center,canned food,heart medicine,salt-free and sugar-free food,drinking water,0.54468,0.54136,0.47965,0.46385,0.46005
+1072,medical team,medical team,canned food,blood collection center,electrical field team,search and rescue team,0.61286,0.52884,0.50718,0.49044,0.48608
+1074,coat,security forces,cold medicine,equipment for disabled people,allergy medication,electric heater,0.47666,0.46386,0.44628,0.44212,0.36905
+1076,flashlight;food;first aid kit,first aid kit,canned food,blood collection center,lighting equipment,power bank,0.81147,0.70396,0.64784,0.62815,0.60161
+1077,drinking water;food,canned food,drinking water,blood collection center,food,pet food,0.7521,0.68185,0.66449,0.64207,0.63484
+1079,drinking water,drinking water,canned food,blood collection center,salt-free and sugar-free food,hot meal,0.68858,0.66233,0.6326,0.61575,0.61495
+1082,dry food,bread,hot meal,canned food,salt-free and sugar-free food,food,0.65273,0.64151,0.6258,0.58099,0.56032
+1083,first aid kit;drinking water,first aid kit,drinking water,canned food,blood collection center,salt-free and sugar-free food,0.78268,0.71648,0.68883,0.62213,0.59669
+1084,coat;lighting equipment,canned food,lighting equipment,wet wipes,drinking water,blood collection center,0.58106,0.54504,0.53877,0.53453,0.52249
+1085,sleeping bag,sleeping bag,wet wipes,blanket,life jacket,blood collection center,0.59923,0.54528,0.54394,0.53164,0.5229
+1088,allergy medication;insulin,canned food,blood collection center,first aid kit,salt-free and sugar-free food,sleeping bag,0.6578,0.63188,0.62541,0.61111,0.59016
+1089,pots and pans,pots and pans,hot meal,bread,heating stove,dry food,0.74224,0.6727,0.62174,0.59629,0.55842
+1092,napkin,napkin,dry food,spare clothes,equipment for disabled people,security forces,0.50493,0.39074,0.3889,0.38021,0.37155
+1097,napkin;search and rescue team,canned food,blood collection center,search and rescue team,cleaning product,first aid kit,0.63604,0.58739,0.58562,0.5542,0.54535
+1100,wet wipes,wet wipes,tent,cleaning product,canned food,pet food,0.64643,0.55292,0.53061,0.52562,0.52361
+1102,napkin;medical team,medical team,canned food,blood collection center,electrical field team,search and rescue team,0.67173,0.52224,0.50532,0.49697,0.49564
+1103,generator,power bank,canned food,blood collection center,first aid kit,cleaning product,0.61773,0.61494,0.59863,0.58616,0.55229
+1104,oxygen concentrator,blood collection center,canned food,sleeping bag,blood,drinking water,0.56873,0.56125,0.51572,0.49024,0.47682
+1105,pet food,pet food,canned food,food,blood collection center,salt-free and sugar-free food,0.78681,0.75084,0.67978,0.6244,0.62024
+1110,sleeping bag,sleeping bag,dry food,wet wipes,cold medicine,canned food,0.51417,0.41031,0.40582,0.39858,0.39241
+1113,first aid kit,first aid kit,spare clothes,blood collection center,wet wipes,sleeping bag,0.61013,0.5085,0.50148,0.48977,0.4662
+1115,electric heater,electric heater,power bank,canned food,heating stove,lighting equipment,0.50305,0.49612,0.48543,0.47634,0.45426
+1118,security forces;sleeping bag,sleeping bag,blood collection center,first aid kit,canned food,power bank,0.68481,0.62928,0.62209,0.61187,0.5327
+1120,medical team,medical team,blood collection center,psychological support team,canned food,first aid kit,0.64595,0.55369,0.53527,0.53374,0.52291
+1125,bandage,security forces,equipment for disabled people,search and rescue team,allergy medication,generator,0.50131,0.49189,0.47539,0.41571,0.37437
+1127,mask;drinking water,drinking water,oxygen concentrator,dry food,wet wipes,cold medicine,0.53764,0.52775,0.46367,0.45942,0.41857
+1129,hot meal,hot meal,canned food,drinking water,salt-free and sugar-free food,sleeping bag,0.71905,0.68109,0.59862,0.59314,0.58789
+1131,medical team,blood collection center,sleeping bag,first aid kit,wet wipes,diaper,0.49745,0.45978,0.44282,0.42658,0.42364
+1132,blanket;antibiotic;power bank,power bank,blood collection center,canned food,wet wipes,sleeping bag,0.64761,0.64657,0.60681,0.5636,0.5363
+1133,blanket;blood,blood collection center,canned food,blood,sleeping bag,salt-free and sugar-free food,0.67184,0.64054,0.60053,0.57413,0.56864
+1138,flashlight,blood collection center,first aid kit,sleeping bag,canned food,salt-free and sugar-free food,0.55075,0.52685,0.52666,0.51536,0.50851
+1139,baby formula;container housing,hot meal,canned food,container housing,pet food,salt-free and sugar-free food,0.50516,0.49863,0.48713,0.47513,0.47213
+1141,tent;drinking water,drinking water,canned food,blood collection center,salt-free and sugar-free food,first aid kit,0.68284,0.66051,0.59297,0.5915,0.57437
+1142,tent;sleeping bag,canned food,sleeping bag,blood collection center,children's playground,pet food,0.54562,0.54318,0.53335,0.52139,0.47663
+1148,fever reducer,blood collection center,first aid kit,fever reducer,canned food,sleeping bag,0.51487,0.49987,0.49784,0.4801,0.47003
+1149,hot meal;blanket,hot meal,canned food,drinking water,salt-free and sugar-free food,pet food,0.7427,0.74177,0.66014,0.64665,0.61142
+1152,search and rescue team,search and rescue team,medical team,psychological support team,electrical field team,hardware tools,0.67076,0.43686,0.41498,0.39805,0.34611
+1156,medicine;spare clothes,cold medicine,spare clothes,canned food,sleeping bag,wet wipes,0.633,0.5754,0.55045,0.54929,0.54836
+1160,hot meal,hot meal,dry food,canned food,container housing,food,0.46148,0.43061,0.41982,0.40038,0.39862
+1165,blood collection center;blanket;fever reducer,blood collection center,canned food,blood,salt-free and sugar-free food,sleeping bag,0.67388,0.5726,0.563,0.49397,0.48676
+1166,drinking water,drinking water,cold medicine,wet wipes,canned food,blood collection center,0.49475,0.46262,0.46246,0.45133,0.44559
+1170,mask;blanket,blanket,blood collection center,wet wipes,sleeping bag,cleaning product,0.51418,0.49892,0.47528,0.45641,0.44733
+1176,bread,bread,canned food,hot meal,food,pet food,0.56242,0.55545,0.51437,0.49851,0.48105
+1184,baby formula,baby formula,pet food,canned food,children's playground,blood collection center,0.47897,0.42258,0.41505,0.40876,0.40498
+1186,generator,power bank,canned food,blood collection center,lighting equipment,battery-powered radio,0.55507,0.48412,0.47469,0.46232,0.46088
+1188,power bank;pet food;tent,canned food,pet food,power bank,blood collection center,food,0.61128,0.60177,0.55306,0.54945,0.51588
+1195,gluten free food;hardware tools,gluten free food,canned food,salt-free and sugar-free food,food,pet food,0.72242,0.63684,0.62114,0.60516,0.60312
+1212,baby formula,canned food,blood collection center,first aid kit,salt-free and sugar-free food,hot meal,0.60939,0.55164,0.54965,0.54783,0.54331
+1218,electric heater,heating stove,lighting equipment,electric heater,canned food,blood collection center,0.62954,0.53351,0.5125,0.48283,0.47848
+1219,drinking water,drinking water,canned food,blood collection center,hot meal,pet food,0.6244,0.57034,0.53689,0.48659,0.47963
+1225,napkin,canned food,cleaning product,first aid kit,blood collection center,pet food,0.61814,0.59563,0.54287,0.53752,0.53047
+1226,flashlight,canned food,sleeping bag,blood collection center,hot meal,lighting equipment,0.597,0.5848,0.57021,0.55406,0.55044
+1227,drinking water;search and rescue team,search and rescue team,drinking water,canned food,salt-free and sugar-free food,blood collection center,0.6623,0.63602,0.62854,0.56326,0.55766
+1230,generator,electrical field team,blood collection center,canned food,children's playground,dry food,0.47492,0.45516,0.45451,0.44252,0.41553
+1231,food,canned food,pet food,food,gluten free food,dry food,0.55962,0.45912,0.45834,0.4452,0.43816
+1233,sleeping bag,sleeping bag,canned food,blood collection center,hot meal,drinking water,0.68925,0.5843,0.51271,0.5004,0.49365
+1234,hot meal;lighting equipment,hot meal,canned food,lighting equipment,salt-free and sugar-free food,blood collection center,0.73817,0.66646,0.62534,0.59883,0.56657
+1235,baby formula;spare clothes;equipment for disabled people,baby formula,spare clothes,wet wipes,dry food,canned food,0.56443,0.49471,0.48516,0.46543,0.45878
+1241,generator;tent;pots and pans,pots and pans,heating stove,drinking water,hot meal,salt-free and sugar-free food,0.6565,0.6429,0.61295,0.58288,0.55799
+1242,medical team;pots and pans,pots and pans,canned food,medical team,blood collection center,hot meal,0.61761,0.56654,0.55869,0.54792,0.49051
+1244,blanket,sleeping bag,canned food,wet wipes,blanket,cold medicine,0.52788,0.52149,0.5193,0.51352,0.50613
+1247,cleaning product,cleaning product,canned food,blood collection center,pet food,psychological support team,0.57378,0.51523,0.51351,0.48101,0.46523
+1248,drinking water,drinking water,canned food,salt-free and sugar-free food,blood collection center,hot meal,0.80218,0.70654,0.66331,0.64584,0.62018
+1249,sanitary pad;cash;drinking water,drinking water,canned food,blood collection center,salt-free and sugar-free food,hot meal,0.73763,0.73697,0.67572,0.63501,0.62116
+1250,medical team;adhesive bandage;search and rescue team,search and rescue team,medical team,electrical field team,blood collection center,psychological support team,0.63645,0.61502,0.5107,0.47171,0.47143
+1252,bandage;security forces;portable toilet,wet wipes,blood collection center,spare clothes,canned food,sleeping bag,0.56476,0.56307,0.55247,0.50924,0.49069
+1253,drinking water;lighting equipment;power bank,canned food,blood collection center,lighting equipment,power bank,drinking water,0.53821,0.51803,0.45318,0.44847,0.43313
+1254,antibiotic;insulin;sleeping bag,sleeping bag,canned food,blood collection center,insulin,pet food,0.67641,0.61159,0.5571,0.5324,0.51592
+1255,gluten free food;equipment for disabled people,canned food,blood collection center,gluten free food,sleeping bag,hot meal,0.66641,0.57376,0.54607,0.53999,0.53515
+1259,blanket;hot meal;baby formula,hot meal,canned food,sleeping bag,pet food,wet wipes,0.5646,0.5488,0.51967,0.50971,0.50446
+1261,first aid kit;heating stove,wet wipes,heating stove,blood collection center,sleeping bag,blood,0.50921,0.50177,0.49344,0.46201,0.45985
+1264,drinking water,blood collection center,drinking water,canned food,first aid kit,salt-free and sugar-free food,0.65344,0.58833,0.58827,0.58119,0.57083
+1266,power bank;generator,power bank,blood collection center,canned food,first aid kit,battery-powered radio,0.69193,0.5765,0.55161,0.52456,0.48064
+1268,heart medicine;electric heater,canned food,heart medicine,cold medicine,blood collection center,pet food,0.54352,0.52158,0.51901,0.5029,0.4868
+1270,first aid kit,first aid kit,canned food,blood collection center,lighting equipment,power bank,0.78611,0.57082,0.55604,0.55029,0.50574
+1271,generator,blood collection center,canned food,first aid kit,children's playground,pet food,0.58275,0.57743,0.51947,0.50707,0.50447
+1272,drinking water;flashlight,canned food,drinking water,blood collection center,salt-free and sugar-free food,first aid kit,0.7218,0.71707,0.64949,0.63369,0.61056
+1274,pots and pans;napkin;coat,pots and pans,wet wipes,spare clothes,hot meal,drinking water,0.65738,0.58772,0.56141,0.55137,0.5371
+1275,pots and pans,canned food,pots and pans,salt-free and sugar-free food,hot meal,bread,0.68549,0.65117,0.5881,0.56365,0.53607
+1283,fever reducer;blood collection center,blood collection center,blood,canned food,first aid kit,salt-free and sugar-free food,0.77398,0.62327,0.62295,0.57819,0.54207
+1284,hot meal;cold medicine,hot meal,canned food,pet food,blood collection center,dry food,0.56765,0.49071,0.48392,0.47168,0.47061
+1299,medicine;drinking water,drinking water,canned food,blood collection center,salt-free and sugar-free food,cleaning product,0.69453,0.68709,0.62318,0.6081,0.58496
+1300,wet wipes,wet wipes,cleaning product,spare clothes,drinking water,sleeping bag,0.82448,0.64931,0.59387,0.57252,0.5656
+1301,cash,canned food,cash,blood collection center,power bank,first aid kit,0.65225,0.62062,0.60663,0.60483,0.58297
+1305,drinking water;portable toilet,drinking water,canned food,hot meal,dry food,blood collection center,0.5591,0.47078,0.46671,0.4561,0.42241
+1319,fever reducer,blood collection center,canned food,fever reducer,salt-free and sugar-free food,hot meal,0.55608,0.54903,0.54131,0.53271,0.51828
+1331,medical team,blood collection center,canned food,medical team,sleeping bag,pet food,0.65829,0.62524,0.57489,0.54492,0.53588
+1332,medical team,medical team,blood collection center,first aid kit,canned food,electrical field team,0.65237,0.64557,0.63656,0.57706,0.53699
+1335,toothpaste,equipment for disabled people,container housing,pet food,dry food,lighting equipment,0.46876,0.40272,0.39296,0.39197,0.39005
+1338,food,canned food,food,pet food,dry food,gluten free food,0.44478,0.43493,0.41593,0.38727,0.36764
+1339,mask,canned food,blood collection center,wet wipes,cleaning product,mask,0.61016,0.5836,0.5714,0.55157,0.54033
+1342,fever reducer;soap,canned food,blood collection center,salt-free and sugar-free food,drinking water,blood,0.70251,0.70234,0.65648,0.62409,0.56864
+1344,search and rescue team,search and rescue team,canned food,electrical field team,first aid kit,lighting equipment,0.58817,0.54517,0.49249,0.48732,0.47892
+1345,bread;portable toilet,canned food,hot meal,drinking water,sleeping bag,salt-free and sugar-free food,0.76358,0.69405,0.65056,0.65046,0.64522
+1347,fever reducer,fever reducer,blood collection center,canned food,sleeping bag,cold medicine,0.58716,0.53846,0.52217,0.50915,0.49694
+1350,power bank;wet wipes,canned food,blood collection center,drinking water,sleeping bag,first aid kit,0.65767,0.63617,0.63009,0.61385,0.60687
+1351,electric heater;food,canned food,hot meal,electric heater,salt-free and sugar-free food,heating stove,0.56479,0.55853,0.55834,0.55808,0.53528
+1356,canned food;hot meal,canned food,hot meal,food,pet food,salt-free and sugar-free food,0.8989,0.80183,0.78357,0.76604,0.74739
+1357,salt-free and sugar-free food;diaper;psychological support team,salt-free and sugar-free food,gluten free food,canned food,hot meal,pet food,0.83385,0.75398,0.75386,0.67393,0.64846
+1360,drinking water,drinking water,canned food,pet food,salt-free and sugar-free food,blood collection center,0.74199,0.66396,0.58863,0.58307,0.57925
+1366,adhesive bandage,spare clothes,blood collection center,first aid kit,wet wipes,canned food,0.61566,0.61054,0.5897,0.5877,0.562
+1367,coat,life jacket,canned food,sleeping bag,wet wipes,hot meal,0.66195,0.62496,0.6084,0.59226,0.58971
+1369,medicine,asthma medicine,heart medicine,cold medicine,canned food,blood collection center,0.43318,0.42711,0.42186,0.42183,0.41122
+1372,container housing;bread;cold medicine,cold medicine,container housing,heart medicine,bread,hot meal,0.71187,0.56871,0.5286,0.52252,0.4855
+1381,cleaning product,canned food,blood collection center,wet wipes,cleaning product,first aid kit,0.60932,0.56952,0.56812,0.56013,0.53237
+1384,medical team,medical team,electrical field team,blood collection center,search and rescue team,psychological support team,0.50598,0.47695,0.456,0.45498,0.43048
+1391,first aid kit,first aid kit,canned food,blood collection center,lighting equipment,power bank,0.80423,0.6356,0.61359,0.54217,0.53183
+1393,bandage,equipment for disabled people,security forces,allergy medication,volunteers,generator,0.41925,0.41859,0.41132,0.36855,0.34495
+1395,life jacket,drinking water,canned food,blood collection center,life jacket,salt-free and sugar-free food,0.59033,0.58449,0.57527,0.55985,0.53004
+1396,medicine,canned food,blood collection center,first aid kit,salt-free and sugar-free food,power bank,0.63522,0.61326,0.57703,0.51008,0.51006
+1397,asthma medicine,blood collection center,heart medicine,sleeping bag,cold medicine,asthma medicine,0.55486,0.53345,0.51237,0.50943,0.4758
+1400,diaper;lantern,diaper,blood collection center,first aid kit,lantern,portable toilet,0.47975,0.4252,0.41557,0.41466,0.39849
+1406,cleaning product,cleaning product,canned food,wet wipes,blood collection center,salt-free and sugar-free food,0.67037,0.54782,0.54344,0.54303,0.49377
+1407,fever reducer;hot meal,hot meal,canned food,salt-free and sugar-free food,fever reducer,gluten free food,0.6779,0.65562,0.60877,0.59103,0.58693
+1409,cleaning product,canned food,cleaning product,salt-free and sugar-free food,wet wipes,first aid kit,0.68088,0.67774,0.61772,0.60034,0.5941
+1411,pet food;sleeping bag,pet food,canned food,sleeping bag,food,hot meal,0.67387,0.6448,0.64037,0.59125,0.58701
+1412,soap,wet wipes,cleaning product,soap,canned food,pet food,0.45551,0.44896,0.44538,0.44149,0.42701
+1413,life jacket;fever reducer,fever reducer,life jacket,sleeping bag,blood collection center,canned food,0.57454,0.5631,0.51707,0.51096,0.48896
+1416,asthma medicine,asthma medicine,canned food,blood collection center,heart medicine,first aid kit,0.59724,0.54742,0.54263,0.52101,0.51771
+1421,fever reducer;power bank,battery-powered radio,hot meal,canned food,sleeping bag,wet wipes,0.47304,0.47096,0.46266,0.44584,0.44457
+1422,power bank;drinking water,power bank,canned food,drinking water,blood collection center,salt-free and sugar-free food,0.7444,0.72992,0.70783,0.66327,0.63519
+1424,flashlight,lighting equipment,canned food,first aid kit,blood collection center,spare clothes,0.61472,0.58812,0.57209,0.56032,0.54781
+1425,drinking water;medical team,canned food,blood collection center,drinking water,first aid kit,medical team,0.70778,0.65815,0.60439,0.59858,0.56958
+1427,drinking water,drinking water,canned food,salt-free and sugar-free food,hot meal,blood collection center,0.79269,0.66647,0.65444,0.65256,0.62668
+1429,cleaning product;napkin,wet wipes,spare clothes,cleaning product,canned food,pet food,0.70912,0.58316,0.56272,0.56052,0.55328
+1438,coat,life jacket,coat,cold medicine,wet wipes,blanket,0.53573,0.50636,0.4996,0.48991,0.43172
+1440,dry food,lighting equipment,dry food,spare clothes,first aid kit,blood collection center,0.47337,0.46575,0.44297,0.43329,0.40139
+1441,mask,canned food,blood collection center,sleeping bag,wet wipes,life jacket,0.66628,0.64508,0.63104,0.6297,0.60778
+1443,wet wipes;baby formula,wet wipes,cleaning product,salt-free and sugar-free food,hot meal,sleeping bag,0.72197,0.63256,0.61417,0.60373,0.59004
+1444,spare clothes,spare clothes,wet wipes,sleeping bag,cleaning product,life jacket,0.70785,0.6514,0.57732,0.5269,0.5227
+1447,generator;drinking water,canned food,blood collection center,sleeping bag,hot meal,drinking water,0.62676,0.61495,0.61312,0.60137,0.6
+1455,generator,power bank,battery-powered radio,canned food,blood collection center,lighting equipment,0.568,0.47776,0.45049,0.44113,0.43167
+1461,food;tent;hot meal,canned food,hot meal,food,pet food,salt-free and sugar-free food,0.74495,0.71738,0.6833,0.68079,0.64487
+1462,food,canned food,food,pet food,dry food,gluten free food,0.56405,0.53092,0.5087,0.49964,0.49188
+1466,cash,cash,power bank,blood collection center,first aid kit,canned food,0.59418,0.59057,0.57933,0.52653,0.52539
+1479,tent,canned food,tent,lighting equipment,children's playground,blood collection center,0.56974,0.52992,0.50971,0.49261,0.49176
+1483,search and rescue team,search and rescue team,canned food,blood collection center,medical team,electrical field team,0.61391,0.55206,0.54222,0.49528,0.4896
+1484,kitchenware,pet food,food,canned food,dry food,gluten free food,0.60212,0.57369,0.54754,0.53132,0.47893
+1485,spare clothes;search and rescue team,canned food,cleaning product,first aid kit,life jacket,lighting equipment,0.65043,0.61629,0.59863,0.59412,0.58349
+1493,search and rescue team,canned food,blood collection center,first aid kit,cleaning product,power bank,0.69826,0.66417,0.65765,0.58115,0.57762
+1496,toothpaste,equipment for disabled people,toothpaste,heart medicine,container housing,security forces,0.46094,0.35688,0.34647,0.33925,0.33296
+1500,diaper,canned food,blood collection center,children's playground,first aid kit,pet food,0.61697,0.57027,0.56951,0.55386,0.54514
+1501,blanket,cold medicine,blanket,sleeping bag,wet wipes,heating stove,0.60147,0.5123,0.51096,0.46467,0.4553
+1506,drinking water;volunteers,canned food,blood collection center,cleaning product,drinking water,salt-free and sugar-free food,0.66747,0.63212,0.62291,0.62127,0.57166
+1508,blood,canned food,pet food,dry food,equipment for disabled people,heart medicine,0.3448,0.32887,0.31434,0.30093,0.29177
+1509,antibiotic,canned food,blood collection center,children's playground,pet food,first aid kit,0.60817,0.58511,0.58015,0.50294,0.48681
+1510,insulin,insulin,heart medicine,asthma medicine,blood collection center,cold medicine,0.47114,0.45249,0.44405,0.43718,0.43161
+1511,lighting equipment,lighting equipment,blood collection center,canned food,first aid kit,power bank,0.62721,0.61222,0.59346,0.56295,0.56279
+1512,power bank;generator,power bank,blood collection center,canned food,lighting equipment,first aid kit,0.72851,0.62253,0.60474,0.56125,0.55444
+1513,flashlight;drinking water,drinking water,canned food,salt-free and sugar-free food,hot meal,wet wipes,0.83942,0.63815,0.61505,0.58267,0.5716
+1520,coat;salt-free and sugar-free food,salt-free and sugar-free food,canned food,hot meal,drinking water,gluten free food,0.80743,0.73508,0.73179,0.71469,0.70807
+1521,cold medicine;sanitary pad,canned food,pet food,cold medicine,blood collection center,sleeping bag,0.60299,0.59427,0.58243,0.56144,0.54767
+1524,blanket,blanket,canned food,hot meal,blood collection center,sleeping bag,0.60785,0.53285,0.52576,0.51697,0.51648
+1526,pet food,pet food,canned food,food,dry food,gluten free food,0.67836,0.59077,0.58259,0.52961,0.49964
+1527,bandage,blood collection center,canned food,sleeping bag,first aid kit,spare clothes,0.66456,0.63836,0.60584,0.60435,0.58106
+1528,napkin;medical team,medical team,blood collection center,canned food,search and rescue team,electrical field team,0.66546,0.53237,0.5094,0.49413,0.49382
+1529,napkin,wet wipes,spare clothes,sleeping bag,blood collection center,cleaning product,0.65285,0.55425,0.50424,0.47761,0.44181
+1531,kitchenware;spare clothes,spare clothes,canned food,sleeping bag,cleaning product,drinking water,0.71278,0.66586,0.63371,0.62271,0.61526
+1532,napkin,blood collection center,canned food,cleaning product,first aid kit,salt-free and sugar-free food,0.61766,0.57855,0.53868,0.53208,0.51676
+1533,toothpaste,canned food,pet food,first aid kit,blood collection center,power bank,0.49693,0.42726,0.42309,0.40799,0.39944
+1535,batteries,power bank,battery-powered radio,blood collection center,canned food,lighting equipment,0.66173,0.61601,0.60221,0.58575,0.56174
+1536,toothpaste,blood collection center,canned food,container housing,electrical field team,dry food,0.44778,0.44161,0.4375,0.41237,0.39744
+1537,medicine;first aid kit,first aid kit,blood collection center,canned food,sleeping bag,pet food,0.68363,0.63026,0.62344,0.5726,0.5532
+1540,electric heater,electric heater,cold medicine,heating stove,portable toilet,electrical field team,0.6409,0.4762,0.43851,0.43698,0.42901
+1541,first aid kit;search and rescue team,first aid kit,canned food,blood collection center,power bank,lighting equipment,0.69921,0.61892,0.61448,0.53494,0.52173
+1544,bread,canned food,bread,salt-free and sugar-free food,gluten free food,pet food,0.72258,0.68491,0.67813,0.6464,0.61795
+1545,coat;medicine,blood collection center,cold medicine,life jacket,canned food,dry food,0.46564,0.44862,0.44292,0.43285,0.43162
+1547,tent;drinking water;children's playground,canned food,drinking water,children's playground,blood collection center,salt-free and sugar-free food,0.70079,0.68026,0.65218,0.62253,0.61594
+1551,food,canned food,blood collection center,salt-free and sugar-free food,hot meal,sleeping bag,0.70382,0.63295,0.62577,0.60454,0.60438
+1553,pet food;wet wipes;toothbrush,pet food,canned food,wet wipes,food,salt-free and sugar-free food,0.78028,0.75024,0.70134,0.66899,0.66078
+1559,portable toilet,equipment for disabled people,canned food,blood collection center,dry food,children's playground,0.45752,0.44652,0.41777,0.41079,0.40398
+1561,dry food,canned food,dry food,pet food,first aid kit,blood collection center,0.69988,0.63004,0.59411,0.57287,0.56653
+1565,salt-free and sugar-free food;generator,salt-free and sugar-free food,gluten free food,canned food,hot meal,food,0.90349,0.78753,0.7789,0.72076,0.67753
+1570,baby bottle,canned food,pet food,sleeping bag,children's playground,blood collection center,0.57623,0.54545,0.49518,0.46886,0.46239
+1576,diaper,diaper,sleeping bag,canned food,children's playground,blood collection center,0.65179,0.63345,0.61992,0.60466,0.59955
+1581,cleaning product,canned food,cleaning product,pet food,blood collection center,wet wipes,0.51952,0.50057,0.49803,0.49152,0.46974
+1582,psychological support team;oxygen concentrator;batteries,canned food,first aid kit,blood collection center,lighting equipment,sleeping bag,0.54061,0.51113,0.50816,0.49731,0.49374
+1583,pots and pans;oxygen concentrator,pots and pans,canned food,hot meal,salt-free and sugar-free food,heating stove,0.76938,0.69762,0.67859,0.67719,0.65396
+1595,cleaning product,wet wipes,portable toilet,equipment for disabled people,container housing,canned food,0.47276,0.42464,0.42298,0.41246,0.38997
+1600,life jacket,life jacket,canned food,first aid kit,blood collection center,sleeping bag,0.70252,0.6684,0.59663,0.59063,0.58554
+1603,container housing;blood,canned food,blood collection center,sleeping bag,drinking water,first aid kit,0.69825,0.67564,0.61422,0.57972,0.56968
+1622,psychological support team,canned food,blood collection center,psychological support team,children's playground,first aid kit,0.64753,0.62874,0.55294,0.54707,0.53418
+1634,food;volunteers,canned food,first aid kit,blood collection center,lighting equipment,spare clothes,0.65263,0.61555,0.59519,0.55772,0.55548
+1637,generator,power bank,battery-powered radio,lighting equipment,canned food,first aid kit,0.71229,0.58506,0.57713,0.52525,0.51158
+1652,batteries,equipment for disabled people,dry food,security forces,portable toilet,battery-powered radio,0.53516,0.48737,0.44646,0.40994,0.40636
+1666,sleeping bag;mask,sleeping bag,canned food,blood collection center,first aid kit,life jacket,0.79874,0.67915,0.63042,0.60066,0.59618
+1678,pots and pans,pots and pans,hot meal,bread,canned food,food,0.80178,0.76452,0.71748,0.70578,0.70173
+1680,first aid kit;volunteers,first aid kit,canned food,lighting equipment,blood collection center,pet food,0.70105,0.56784,0.51001,0.49558,0.45249
+1684,spare clothes;lantern,canned food,blood collection center,drinking water,wet wipes,salt-free and sugar-free food,0.63007,0.58667,0.58063,0.57325,0.57318
+1688,blood,blood collection center,canned food,blood,first aid kit,pet food,0.65105,0.55181,0.50533,0.49873,0.48325
+1689,bread;hot meal,hot meal,canned food,bread,salt-free and sugar-free food,gluten free food,0.75974,0.69375,0.68331,0.662,0.616
+1695,coat,life jacket,coat,wet wipes,sleeping bag,canned food,0.60573,0.56277,0.54464,0.53555,0.50831
+1700,psychological support team,psychological support team,blood collection center,medical team,first aid kit,canned food,0.6824,0.59928,0.55322,0.54684,0.51148
+1703,life jacket;insulin,canned food,blood collection center,drinking water,life jacket,salt-free and sugar-free food,0.71253,0.67704,0.63076,0.62934,0.61004
+1708,hot meal,hot meal,canned food,blood collection center,pet food,food,0.6133,0.56406,0.53899,0.50326,0.4984
+1715,wet wipes,wet wipes,cleaning product,canned food,drinking water,salt-free and sugar-free food,0.69759,0.63684,0.60236,0.59378,0.56536
+1716,hot meal;medicine,hot meal,canned food,salt-free and sugar-free food,food,drinking water,0.73954,0.70568,0.61981,0.61332,0.59582
+1720,blanket,canned food,wet wipes,hot meal,sleeping bag,drinking water,0.60537,0.58786,0.58301,0.55731,0.54565
+1736,spare clothes,spare clothes,wet wipes,first aid kit,sleeping bag,canned food,0.7346,0.70543,0.57778,0.55933,0.53695
+1739,sanitary pad;electric heater,canned food,hot meal,sleeping bag,heating stove,blood collection center,0.62096,0.59253,0.5797,0.56902,0.56749
+1740,toothpaste;coat,wet wipes,life jacket,sleeping bag,coat,hot meal,0.65804,0.6156,0.60804,0.59861,0.57981
+1742,container housing;salt-free and sugar-free food,salt-free and sugar-free food,canned food,gluten free food,pet food,food,0.88928,0.80359,0.76867,0.70659,0.69102
+1747,psychological support team,canned food,blood collection center,salt-free and sugar-free food,first aid kit,gluten free food,0.6512,0.58948,0.56462,0.54641,0.53545
+1751,hot meal,hot meal,canned food,drinking water,salt-free and sugar-free food,bread,0.67087,0.62992,0.60928,0.58267,0.56842
+1755,electric heater,electric heater,portable toilet,equipment for disabled people,container housing,electrical field team,0.5832,0.41402,0.39455,0.37573,0.37459
+1760,hot meal,hot meal,canned food,pet food,children's playground,food,0.66502,0.65501,0.62413,0.6238,0.6068
+1762,hot meal,canned food,hot meal,pet food,food,salt-free and sugar-free food,0.64685,0.59556,0.5736,0.56273,0.54166
+1764,drinking water;generator,cleaning product,power bank,lighting equipment,wet wipes,drinking water,0.5684,0.55375,0.52939,0.48221,0.46562
+1765,toothbrush,canned food,blood collection center,first aid kit,power bank,pet food,0.56496,0.5335,0.51635,0.5106,0.46709
+1768,dry food,canned food,pet food,blood collection center,first aid kit,food,0.65227,0.55845,0.55362,0.54767,0.53944
+1771,adhesive bandage;batteries,blood collection center,canned food,sleeping bag,first aid kit,lighting equipment,0.63763,0.60515,0.59234,0.58597,0.57683
+1772,food,canned food,blood collection center,pet food,salt-free and sugar-free food,gluten free food,0.68779,0.56911,0.55839,0.55463,0.54674
+1776,volunteers;tent;baby formula,equipment for disabled people,baby formula,baby bottle,security forces,volunteers,0.49812,0.47192,0.45214,0.44523,0.43873
+1782,mask,canned food,blood collection center,wet wipes,sleeping bag,drinking water,0.62158,0.60908,0.60664,0.57174,0.56601
+1790,dry food;psychological support team,canned food,blood collection center,pet food,salt-free and sugar-free food,first aid kit,0.77708,0.66471,0.63363,0.63019,0.63011
+1791,batteries;pet food,pet food,canned food,food,gluten free food,dry food,0.77031,0.67681,0.6692,0.57426,0.52619
+1798,salt-free and sugar-free food;medicine,salt-free and sugar-free food,gluten free food,canned food,food,pet food,0.82714,0.74084,0.66911,0.64096,0.62576
+1800,generator,canned food,blood collection center,power bank,first aid kit,lighting equipment,0.66027,0.65043,0.63198,0.62045,0.55024
+1805,drinking water,canned food,drinking water,blood collection center,salt-free and sugar-free food,hot meal,0.62738,0.60692,0.60044,0.55956,0.5521
+1806,spare clothes;tent;wet wipes,wet wipes,spare clothes,tent,sleeping bag,cleaning product,0.77127,0.76998,0.6276,0.59739,0.5973
+1808,container housing,container housing,blood collection center,canned food,cold medicine,drinking water,0.58228,0.46272,0.45639,0.42225,0.42055
+1809,drinking water;search and rescue team,canned food,drinking water,blood collection center,hot meal,salt-free and sugar-free food,0.69336,0.64155,0.63771,0.5931,0.58864
+1811,coat,life jacket,sleeping bag,hot meal,canned food,coat,0.62854,0.62276,0.6029,0.6022,0.57726
+1815,batteries;psychological support team,canned food,sleeping bag,life jacket,blood collection center,pet food,0.64657,0.61713,0.59554,0.57802,0.55231
+1816,oxygen concentrator,canned food,blood collection center,sleeping bag,drinking water,wet wipes,0.53591,0.52458,0.49823,0.49233,0.47812
+1819,adhesive bandage,canned food,blood collection center,first aid kit,salt-free and sugar-free food,cleaning product,0.65475,0.63745,0.615,0.58719,0.58348
+1823,interpreter;tent,tent,lighting equipment,children's playground,blood collection center,equipment for disabled people,0.58948,0.45418,0.40941,0.40336,0.39337
+1825,gluten free food;baby bottle;spare clothes,gluten free food,canned food,salt-free and sugar-free food,pet food,dry food,0.72801,0.72589,0.71553,0.67688,0.66757
+1828,tent,tent,canned food,blood collection center,sleeping bag,wet wipes,0.5841,0.52114,0.51391,0.47097,0.4686
+1831,mask,blood collection center,search and rescue team,mask,medical team,canned food,0.54009,0.52139,0.49394,0.47619,0.46896
+1833,power bank;medicine,blood,blood collection center,power bank,canned food,first aid kit,0.66644,0.65662,0.59175,0.54484,0.5419
+1836,psychological support team;medicine,sleeping bag,blood collection center,canned food,first aid kit,blood,0.64195,0.63247,0.63124,0.55436,0.54747
+1837,kitchenware;sanitary pad,canned food,hot meal,sleeping bag,salt-free and sugar-free food,dry food,0.5575,0.53493,0.50746,0.50481,0.50462
+1839,tent,sleeping bag,canned food,tent,drinking water,hot meal,0.62634,0.61167,0.5932,0.58409,0.57129
+1840,diaper;fever reducer;food,canned food,blood collection center,sleeping bag,salt-free and sugar-free food,pet food,0.68154,0.6007,0.59911,0.5802,0.5759
+1841,container housing;interpreter;sleeping bag,canned food,blood collection center,sleeping bag,children's playground,pet food,0.66345,0.59276,0.58445,0.53808,0.53568
+1846,oxygen concentrator;tent,blood collection center,canned food,drinking water,tent,children's playground,0.6031,0.54789,0.52658,0.50959,0.50561
+1849,search and rescue team;drinking water,canned food,drinking water,blood collection center,salt-free and sugar-free food,hot meal,0.70139,0.63216,0.62097,0.58851,0.56303
+1857,baby formula,baby formula,pet food,canned food,first aid kit,blood collection center,0.59519,0.51249,0.51069,0.4944,0.44457
+1859,life jacket;power bank,power bank,life jacket,canned food,blood collection center,first aid kit,0.71952,0.65205,0.63856,0.62621,0.58415
+1862,coat,life jacket,wet wipes,sleeping bag,blood collection center,canned food,0.60419,0.59987,0.59439,0.54946,0.54879
+1864,batteries,lighting equipment,power bank,battery-powered radio,first aid kit,blood collection center,0.57862,0.56263,0.55936,0.53448,0.52556
+1867,oxygen concentrator,canned food,blood collection center,sleeping bag,power bank,lighting equipment,0.66941,0.65954,0.58277,0.58168,0.57634
+1869,first aid kit;baby formula;toothpaste,canned food,salt-free and sugar-free food,hot meal,first aid kit,sleeping bag,0.73873,0.65979,0.64396,0.63777,0.63512
+1870,sanitary pad,blood collection center,canned food,first aid kit,sleeping bag,power bank,0.63296,0.6047,0.583,0.53578,0.51064
+1871,pet food,pet food,canned food,food,salt-free and sugar-free food,gluten free food,0.81952,0.72433,0.65038,0.58802,0.5861
+1872,pet food;flashlight,canned food,pet food,first aid kit,salt-free and sugar-free food,lighting equipment,0.71869,0.6751,0.61469,0.60377,0.597
+1878,sanitary pad;lighting equipment,lighting equipment,canned food,first aid kit,sleeping bag,spare clothes,0.74866,0.59482,0.58868,0.54956,0.53308
+1883,hardware tools;heart medicine,canned food,blood collection center,first aid kit,sleeping bag,lighting equipment,0.62364,0.61391,0.59201,0.5464,0.52761
+1884,power bank;lighting equipment,lighting equipment,power bank,blood collection center,battery-powered radio,first aid kit,0.67804,0.67553,0.60432,0.58397,0.53982
+1886,hot meal,hot meal,canned food,cold medicine,salt-free and sugar-free food,drinking water,0.51737,0.45588,0.44058,0.40144,0.39978
+1888,flashlight,lighting equipment,canned food,blood collection center,flashlight,cleaning product,0.60129,0.57817,0.53719,0.51903,0.51541
+1889,bandage;napkin,wet wipes,blood collection center,canned food,sleeping bag,blood,0.66238,0.6515,0.636,0.61203,0.60512
+1893,blanket,sleeping bag,wet wipes,hot meal,canned food,cold medicine,0.57408,0.51334,0.50639,0.48455,0.47279
+1894,security forces,canned food,blood collection center,first aid kit,lighting equipment,power bank,0.60446,0.5521,0.51615,0.50999,0.50935
+1896,dry food;medical team;lantern,dry food,pet food,lighting equipment,canned food,food,0.56788,0.55339,0.53095,0.52467,0.51437
+1899,toothpaste,canned food,blood collection center,first aid kit,sleeping bag,salt-free and sugar-free food,0.63817,0.61149,0.60391,0.59162,0.57012
+1903,volunteers;firewood,canned food,first aid kit,lighting equipment,hot meal,blood collection center,0.62952,0.58255,0.5619,0.55455,0.55055
+1905,bread;soap,bread,salt-free and sugar-free food,canned food,hot meal,spare clothes,0.56736,0.48998,0.48989,0.48413,0.47064
+1907,fever reducer,fever reducer,cold medicine,heart medicine,asthma medicine,hot meal,0.61497,0.57727,0.53054,0.48178,0.46601
+1908,coat;first aid kit,first aid kit,blood collection center,canned food,lighting equipment,wet wipes,0.57709,0.54496,0.51321,0.4964,0.49313
+1911,search and rescue team,canned food,pet food,blood collection center,search and rescue team,first aid kit,0.61878,0.58087,0.53981,0.49497,0.49176
+1913,antibiotic,blood collection center,canned food,sleeping bag,first aid kit,salt-free and sugar-free food,0.66969,0.65424,0.55018,0.54473,0.54374
+1917,heart medicine,blood collection center,canned food,first aid kit,sleeping bag,heart medicine,0.68425,0.65117,0.63271,0.56992,0.54417
+1919,blanket;search and rescue team,cold medicine,canned food,lighting equipment,heart medicine,wet wipes,0.44931,0.42593,0.41752,0.40147,0.40097
+1921,toothpaste;generator;allergy medication,allergy medication,cold medicine,medical team,asthma medicine,canned food,0.6212,0.56981,0.47941,0.42803,0.42477
+1923,kitchenware,pots and pans,canned food,salt-free and sugar-free food,hot meal,sleeping bag,0.71756,0.60383,0.57707,0.54481,0.54186
+1927,hot meal;spare clothes,hot meal,spare clothes,canned food,salt-free and sugar-free food,sleeping bag,0.67937,0.67765,0.66885,0.60316,0.57922
+1930,adhesive bandage,canned food,blood collection center,cleaning product,salt-free and sugar-free food,first aid kit,0.62258,0.58433,0.55231,0.52799,0.52371
+1932,dry food,dry food,canned food,pet food,food,gluten free food,0.61884,0.54998,0.52181,0.50499,0.44915
+1934,baby bottle,baby bottle,baby formula,canned food,dry food,sleeping bag,0.73679,0.62153,0.31047,0.30505,0.29742
+1938,cleaning product,wet wipes,cleaning product,blood collection center,pet food,drinking water,0.61234,0.4763,0.47478,0.45921,0.45893
+1939,bread,canned food,blood collection center,bread,pet food,food,0.56805,0.48535,0.48501,0.47638,0.46181
+1941,oxygen concentrator,blood collection center,canned food,blood,first aid kit,oxygen concentrator,0.61749,0.53043,0.52255,0.52039,0.49061
+1947,medical team,medical team,search and rescue team,blood collection center,first aid kit,psychological support team,0.65088,0.46928,0.45671,0.45608,0.43844
+1953,adhesive bandage,blood collection center,canned food,first aid kit,power bank,salt-free and sugar-free food,0.62506,0.61673,0.55726,0.5336,0.48752
+1954,toothpaste,canned food,blood collection center,hot meal,drinking water,children's playground,0.52742,0.48084,0.46661,0.44602,0.44135
+1959,cleaning product;electric heater,canned food,cleaning product,wet wipes,blood collection center,salt-free and sugar-free food,0.60315,0.60179,0.58593,0.54066,0.53226
+1966,wet wipes;food,canned food,wet wipes,cleaning product,blood collection center,salt-free and sugar-free food,0.77271,0.69698,0.67095,0.65496,0.64845
+1967,heating stove,canned food,blood collection center,heating stove,hot meal,drinking water,0.61293,0.59306,0.57748,0.56643,0.54861
+1970,coat,sleeping bag,canned food,blood collection center,wet wipes,first aid kit,0.56582,0.56476,0.56207,0.54405,0.53627
+1975,drinking water,drinking water,hot meal,wet wipes,cold medicine,canned food,0.65551,0.52939,0.52006,0.5111,0.50958
+1979,cold medicine;tent;children's playground,children's playground,canned food,sleeping bag,pet food,drinking water,0.71879,0.65022,0.62539,0.58963,0.57147
+1982,bread,blood collection center,bread,canned food,salt-free and sugar-free food,blood,0.57527,0.56619,0.56003,0.54271,0.5407
+1986,sleeping bag,sleeping bag,hot meal,canned food,wet wipes,cold medicine,0.55016,0.53256,0.49763,0.49015,0.48706
+1988,napkin;baby formula,wet wipes,sleeping bag,canned food,first aid kit,blood collection center,0.63844,0.60667,0.59506,0.59184,0.58989
+1999,electric heater;tent,blood collection center,tent,heating stove,lighting equipment,electrical field team,0.54604,0.54086,0.53863,0.53459,0.51647

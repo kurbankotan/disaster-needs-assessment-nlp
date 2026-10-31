@@ -1,0 +1,5 @@
+﻿metin_ureticisi,uretici_model,denetci_model,plan,kabul,denetlenen,ihtiyaclar_tam,fazladan_ihtiyac_yok,ilce_dogru,tumu_gecti,ret_nedenleri,tekrar_elenen
+gemini,gemini-3.8-flash,gpt-5-mini,1014,967,967,0.921406411582213,0.9410548086866598,0.9937952430196484,0.9089968976215098,"{""başka ilçe adı"": 7, ""ilçe adı yok"": 206, ""kimlik uyuşmazlığı"": 2}",0.0
+gpt,gpt-5-mini,gemini-3.8-flash,1014,635,635,0.9480314960629921,0.925984251968504,1.0,0.8944881889763779,"{""ilçe adı yok"": 943, ""başka ilçe adı"": 6, ""kimlik uyuşmazlığı"": 2}",0.0
+claude,claude-opus-5-5,gpt-5-mini,1014,1014,1014,0.8214990138067061,0.8599605522682445,0.9990138067061144,0.8037475345167653,,0.0
+claude (makaledeki denetim),claude-opus-5-5,claude-sonnet-5-5,1014,1014,1014,,,,0.9388560157790927,,
