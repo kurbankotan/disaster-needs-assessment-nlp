@@ -66,7 +66,8 @@ def self_pref(mask):
             "logit_p": float(lg.pvalues["ayni_aile"]), "aile_fark_farki": D_,
             "anlatim": {e: int(((GEXP == e) & mask).sum()) for e in ("explicit", "mixed", "implicit")}}
 
-SP = {"tum_617": self_pref(np.ones(len(gids), bool)), "temiz_455": self_pref(CLEAN)}
+SP = {"tum_617": self_pref(np.ones(len(gids), bool)), "temiz_455": self_pref(CLEAN),
+      "ortuk_617": self_pref(GEXP == "implicit"), "ortuk_temiz_455": self_pref(CLEAN & (GEXP == "implicit"))}   # örtük paylaşımlarda kesinlik
 # kayıtlı ana analizle tutarlılık
 old = json.load(open(os.path.join(OUT, "kendi_ailesini_kayirma.json"), encoding="utf-8"))   # revizyon_uretici.py üretir
 assert abs(SP["tum_617"]["lpm_ayni_aile"] - old["lpm_ayni_aile"]) < 1e-9
