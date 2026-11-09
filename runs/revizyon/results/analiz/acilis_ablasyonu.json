@@ -1,0 +1,237 @@
+{
+ "esik": 5,
+ "acilis": {
+  "en": {
+   "tekrar_eden_acilisli_paylasim": 809,
+   "farkli_tekrar_eden_acilis": 56,
+   "en_sik": [
+    [
+     "i m",
+     150
+    ],
+    [
+     "we re",
+     141
+    ],
+    [
+     "please help",
+     54
+    ],
+    [
+     "hello i",
+     22
+    ],
+    [
+     "i am",
+     20
+    ],
+    [
+     "my neighbour",
+     16
+    ],
+    [
+     "at the",
+     15
+    ],
+    [
+     "please someone",
+     15
+    ],
+    [
+     "our building",
+     13
+    ],
+    [
+     "my dad",
+     13
+    ]
+   ],
+   "bos_kalan_tekrar_eden": 0,
+   "bos_kalan_tumu": 0
+  },
+  "tr": {
+   "tekrar_eden_acilisli_paylasim": 1082,
+   "farkli_tekrar_eden_acilis": 107,
+   "en_sik": [
+    [
+     "lütfen yardım",
+     25
+    ],
+    [
+     "merhaba ben",
+     21
+    ],
+    [
+     "ne olur",
+     21
+    ],
+    [
+     "şile de",
+     18
+    ],
+    [
+     "ben turist",
+     17
+    ],
+    [
+     "7 aylık",
+     17
+    ],
+    [
+     "fatih te",
+     17
+    ],
+    [
+     "sultangazi cebeci",
+     16
+    ],
+    [
+     "tekerlekli sandalyedeyim",
+     16
+    ],
+    [
+     "kağıthane de",
+     16
+    ]
+   ],
+   "bos_kalan_tekrar_eden": 0,
+   "bos_kalan_tumu": 0
+  }
+ },
+ "dogrulama_en_govde_ad": 1.0,
+ "dogrulama_en_govde_ad+tanim": 1.0,
+ "sonuclar": [
+  {
+   "kosul": "en_govde_ad",
+   "metin": "ozgun",
+   "hit1": 0.712,
+   "hit1_acik": 0.9673659673659674,
+   "hit1_karma": 0.9256198347107438,
+   "hit1_ortuk": 0.11317567567567567,
+   "hit1_tekrar_eden_acilisli": 0.7181705809641533,
+   "hit1_diger": 0.707808564231738
+  },
+  {
+   "kosul": "en_govde_ad",
+   "metin": "tekrar_eden",
+   "hit1": 0.7115,
+   "hit1_acik": 0.9673659673659674,
+   "hit1_karma": 0.9256198347107438,
+   "hit1_ortuk": 0.11148648648648649,
+   "hit1_tekrar_eden_acilisli": 0.7169344870210136,
+   "hit1_diger": 0.707808564231738,
+   "fark": -0.0004999999999999449,
+   "ga_alt": -0.0015,
+   "ga_ust": 0.0,
+   "kaybedilen": 1,
+   "kazanilan": 0,
+   "mcnemar_p": 1.0,
+   "fark_ortuk": -0.0016891891891891858
+  },
+  {
+   "kosul": "en_govde_ad",
+   "metin": "tumu",
+   "hit1": 0.7005,
+   "hit1_acik": 0.9526029526029526,
+   "hit1_karma": 0.8925619834710744,
+   "hit1_ortuk": 0.11317567567567567,
+   "hit1_tekrar_eden_acilisli": 0.7181705809641533,
+   "hit1_diger": 0.6884970612930311,
+   "fark": -0.011499999999999955,
+   "ga_alt": -0.0165125,
+   "ga_ust": -0.0065,
+   "kaybedilen": 26,
+   "kazanilan": 3,
+   "mcnemar_p": 1.5236437320709229e-05,
+   "fark_ortuk": 0.0
+  },
+  {
+   "kosul": "en_govde_ad+tanim",
+   "metin": "ozgun",
+   "hit1": 0.7555,
+   "hit1_acik": 0.9230769230769231,
+   "hit1_karma": 0.8181818181818182,
+   "hit1_ortuk": 0.3783783783783784,
+   "hit1_tekrar_eden_acilisli": 0.7515451174289246,
+   "hit1_diger": 0.7581863979848866
+  },
+  {
+   "kosul": "en_govde_ad+tanim",
+   "metin": "tekrar_eden",
+   "hit1": 0.756,
+   "hit1_acik": 0.9222999222999223,
+   "hit1_karma": 0.8347107438016529,
+   "hit1_ortuk": 0.3783783783783784,
+   "hit1_tekrar_eden_acilisli": 0.7527812113720643,
+   "hit1_diger": 0.7581863979848866,
+   "fark": 0.000500000000000056,
+   "ga_alt": -0.001,
+   "ga_ust": 0.002012499999999932,
+   "kaybedilen": 1,
+   "kazanilan": 2,
+   "mcnemar_p": 1.0,
+   "fark_ortuk": 0.0
+  },
+  {
+   "kosul": "en_govde_ad+tanim",
+   "metin": "tumu",
+   "hit1": 0.7495,
+   "hit1_acik": 0.9153069153069153,
+   "hit1_karma": 0.8264462809917356,
+   "hit1_ortuk": 0.3733108108108108,
+   "hit1_tekrar_eden_acilisli": 0.7478368355995055,
+   "hit1_diger": 0.7506297229219143,
+   "fark": -0.005999999999999894,
+   "ga_alt": -0.0125,
+   "ga_ust": 0.0,
+   "kaybedilen": 28,
+   "kazanilan": 16,
+   "mcnemar_p": 0.09614175442061423,
+   "fark_ortuk": -0.005067567567567599
+  },
+  {
+   "kosul": "tr_snowball_ad",
+   "metin": "ozgun",
+   "hit1": 0.656,
+   "hit1_acik": 0.8966588966588966,
+   "hit1_karma": 0.8264462809917356,
+   "hit1_ortuk": 0.09797297297297297,
+   "hit1_tekrar_eden_acilisli": 0.666358595194085,
+   "hit1_diger": 0.6437908496732027
+  },
+  {
+   "kosul": "tr_snowball_ad",
+   "metin": "tekrar_eden",
+   "hit1": 0.656,
+   "hit1_acik": 0.8966588966588966,
+   "hit1_karma": 0.8264462809917356,
+   "hit1_ortuk": 0.09797297297297297,
+   "hit1_tekrar_eden_acilisli": 0.666358595194085,
+   "hit1_diger": 0.6437908496732027,
+   "fark": 0.0,
+   "ga_alt": 0.0,
+   "ga_ust": 0.0,
+   "kaybedilen": 0,
+   "kazanilan": 0,
+   "mcnemar_p": 1.0,
+   "fark_ortuk": 0.0
+  },
+  {
+   "kosul": "tr_snowball_ad",
+   "metin": "tumu",
+   "hit1": 0.653,
+   "hit1_acik": 0.891996891996892,
+   "hit1_karma": 0.8264462809917356,
+   "hit1_ortuk": 0.09797297297297297,
+   "hit1_tekrar_eden_acilisli": 0.666358595194085,
+   "hit1_diger": 0.6372549019607843,
+   "fark": -0.0030000000000000027,
+   "ga_alt": -0.0055,
+   "ga_ust": -0.001,
+   "kaybedilen": 6,
+   "kazanilan": 0,
+   "mcnemar_p": 0.03125,
+   "fark_ortuk": 0.0
+  }
+ ]
+}

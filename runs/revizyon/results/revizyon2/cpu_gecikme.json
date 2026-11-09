@@ -1,0 +1,377 @@
+{
+ "donanim": {
+  "islemci": "AMD EPYC 7B12",
+  "mantiksal_cekirdek": 8,
+  "fiziksel_cekirdek": 4,
+  "ram_gb": 54.8,
+  "torch_is_parcacigi": 8,
+  "gpu_kullanildi": false,
+  "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "python": "3.13.18",
+  "lscpu": "Architecture:                            x86_64\nCPU op-mode(s):                          32-bit, 64-bit\nAddress sizes:                           48 bits physical, 48 bits virtual\nByte Order:                              Little Endian\nCPU(s):                                  8\nOn-line CPU(s) list:                     0-7\nVendor ID:                               AuthenticAMD\nModel name:                              AMD EPYC 7B12\nCPU family:                              23\nModel:                                   49\nThread(s) per core:                      2\nCore(s) per socket:                      4\nSocket(s):                               1\nStepping:                                0\nBogoMIPS:                                4499.99\nFlags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext ssbd ibrs ibpb stibp vmmcall fsgsbase tsc_adjust bmi1 avx2 smep bmi2 rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 clzero xsaveerptr arat umip rdpid\nHypervisor vendor:                       KVM\nVirtualization type:                     full\nL1d cache:                               128 KiB (4 instances)\nL1i cache:                               128 KiB (4 instances)\nL2 cache:                                2 MiB (4 instances)\nL3 cache:                                16 MiB (1 instance)\nNUMA node(s):                            1\nNUMA node0 CPU(s):                       0-7\nVulnerability Gather data sampling:      Not affected\nVulnerability Indirect target selection: Not affected\nVulnerability Itlb multihit:             Not affected\nVulnerability L1tf:                      Not affected\nVulnerability Mds:                       Not affected\nVulnerability Meltdown:                  Not affected\nVulnerability Mmio stale data:           Not affected\nVulnerability Reg file data sampling:    Not affected\nVulnerability Retbleed:                  Vulnerable\nVulnerability Spec rstack overflow:      Vulnerable\nVulnerability Spec store bypass:         Vulnerable\nVulnerability Spectre v1:                Vulnerable: __user pointer sanitization and usercopy barriers only; no swapgs barriers\nVulnerability Spectre v2:                Vulnerable; IBPB: disabled; STIBP: disabled; PBRSB-eIBRS: Not affected; BHI: Not affected\nVulnerability Srbds:                     Not affected\nVulnerability Tsa:                       Not affected\nVulnerability Tsx async abort:           Not affected\nVulnerability Vmscape:                   Not affected\n"
+ },
+ "surumler": {
+  "torch": "2.14.1+cpu",
+  "transformers": "5.22.1",
+  "sentence_transformers": "5.7.0",
+  "tensorflow": "2.21.0",
+  "tensorflow_hub": "0.16.1",
+  "gensim": "4.4.0",
+  "sklearn": "1.6.1",
+  "numpy": "2.4.6"
+ },
+ "protokol": {
+  "tek_paylasim": "30 paylaşım x 3 tur, 3 ısınma çağrısı, ortanca",
+  "toplu": "256 paylaşım, yığın 32",
+  "olculen": "paylaşımın vektöre dönüştürülmesi (ön işleme hariç); ihtiyaç vektörleri önceden hesaplanır",
+  "tohum": 42
+ },
+ "on_isleme_ms": {
+  "duz_metin_en": 0.015694999888182792,
+  "govde_en": 0.19253000004937348,
+  "duz_metin_tr": 0.006805499992879049,
+  "govde_tr_snowball": 0.931925000031697
+ },
+ "modeller": {
+  "TF-IDF (gövde)": {
+   "kaynak": "TF-IDF (sklearn, 1-2 gram, sublinear tf), Porter gövdesi",
+   "girdi": "en_stem",
+   "dtype": "float32",
+   "parametre": 0,
+   "boyut": 18809,
+   "yukleme_sn": 0.1,
+   "tek_ms_ortanca": 0.42613550010628387,
+   "tek_ms_p90": 0.9024249999356473,
+   "tek_ms_tur_ortancalari": [
+    0.5055149999861897,
+    0.39635000007365306,
+    0.41742449991488684
+   ],
+   "toplu_ms_paylasim": 0.07670101562506915,
+   "hit1_256": 0.72265625
+  },
+  "TF-IDF (Snowball, TR)": {
+   "kaynak": "TF-IDF (sklearn, 1-2 gram, sublinear tf), Snowball Türkçe gövdesi",
+   "girdi": "tr_stem",
+   "dtype": "float32",
+   "parametre": 0,
+   "boyut": 23776,
+   "yukleme_sn": 0.2,
+   "tek_ms_ortanca": 0.4743744999586852,
+   "tek_ms_p90": 1.46408489993064,
+   "tek_ms_tur_ortancalari": [
+    0.4284350000034465,
+    0.5128194999315383,
+    0.5402750000484957
+   ],
+   "toplu_ms_paylasim": 0.10820421484414311,
+   "hit1_256": 0.671875
+  },
+  "USE": {
+   "kaynak": "universal-sentence-encoder/4 (/content/drive/MyDrive/Colab Notebooks/NLP Modeller/USE Files)",
+   "girdi": "en_plain",
+   "dtype": "float32",
+   "parametre": 256797824,
+   "boyut": 512,
+   "yukleme_sn": 34.2,
+   "tek_ms_ortanca": 4.244548499968914,
+   "tek_ms_p90": 5.447964000040884,
+   "tek_ms_tur_ortancalari": [
+    4.14068450004379,
+    4.162183999937952,
+    4.70432949998667
+   ],
+   "toplu_ms_paylasim": 0.16697996093739675,
+   "hit1_256": 0.6875
+  },
+  "SBERT-mpnet": {
+   "kaynak": "sentence-transformers:all-mpnet-base-v2",
+   "girdi": "en_plain",
+   "dtype": "float32",
+   "parametre": 109486464,
+   "boyut": 768,
+   "yukleme_sn": 14.7,
+   "tek_ms_ortanca": 81.83150150000529,
+   "tek_ms_p90": 115.28671789999407,
+   "tek_ms_tur_ortancalari": [
+    85.80679100009547,
+    77.99805249999281,
+    82.41262150011153
+   ],
+   "toplu_ms_paylasim": 41.366168023436956,
+   "hit1_256": 0.65625
+  },
+  "RoBERTa-güncel": {
+   "kaynak": "sentence-transformers:all-distilroberta-v1",
+   "girdi": "en_plain",
+   "dtype": "float32",
+   "parametre": 82118400,
+   "boyut": 768,
+   "yukleme_sn": 11.5,
+   "tek_ms_ortanca": 51.329398500001844,
+   "tek_ms_p90": 119.79759250011745,
+   "tek_ms_tur_ortancalari": [
+    46.58180950013957,
+    80.40300499999375,
+    50.38658899991333
+   ],
+   "toplu_ms_paylasim": 20.25271241796922,
+   "hit1_256": 0.6171875
+  },
+  "ALBERT-paraphrase": {
+   "kaynak": "sentence-transformers:paraphrase-albert-small-v2",
+   "girdi": "en_plain",
+   "dtype": "float32",
+   "parametre": 11683584,
+   "boyut": 768,
+   "yukleme_sn": 18.5,
+   "tek_ms_ortanca": 39.78403399992203,
+   "tek_ms_p90": 56.77840599998946,
+   "tek_ms_tur_ortancalari": [
+    39.03553899999679,
+    39.671544499924494,
+    41.76141900006769
+   ],
+   "toplu_ms_paylasim": 26.72629941406246,
+   "hit1_256": 0.59375
+  },
+  "BERT (NLI)": {
+   "kaynak": "sentence-transformers:bert-base-nli-mean-tokens",
+   "girdi": "en_plain",
+   "dtype": "float32",
+   "parametre": 109482240,
+   "boyut": 768,
+   "yukleme_sn": 12.8,
+   "tek_ms_ortanca": 91.87623850004911,
+   "tek_ms_p90": 368.5516889000611,
+   "tek_ms_tur_ortancalari": [
+    90.76802900005987,
+    81.76422849999199,
+    165.40112250004313
+   ],
+   "toplu_ms_paylasim": 43.6871268085941,
+   "hit1_256": 0.234375
+  },
+  "RoBERTa (NLI)": {
+   "kaynak": "sentence-transformers:roberta-base-nli-mean-tokens",
+   "girdi": "en_plain",
+   "dtype": "float32",
+   "parametre": 124645632,
+   "boyut": 768,
+   "yukleme_sn": 12.9,
+   "tek_ms_ortanca": 98.21500300006392,
+   "tek_ms_p90": 155.78963689999918,
+   "tek_ms_tur_ortancalari": [
+    90.08814350011107,
+    112.44269299993448,
+    101.51560350004729
+   ],
+   "toplu_ms_paylasim": 47.536272054687245,
+   "hit1_256": 0.2109375
+  },
+  "BERT-raw": {
+   "kaynak": "sentence-transformers:bert-base-uncased",
+   "girdi": "en_plain",
+   "dtype": "float32",
+   "parametre": 109482240,
+   "boyut": 768,
+   "yukleme_sn": 12.5,
+   "tek_ms_ortanca": 90.04996300006951,
+   "tek_ms_p90": 171.52384610005825,
+   "tek_ms_tur_ortancalari": [
+    83.18568350000533,
+    88.37281300009181,
+    119.90039299996624
+   ],
+   "toplu_ms_paylasim": 39.53639040234336,
+   "hit1_256": 0.12890625
+  },
+  "RoBERTa-raw": {
+   "kaynak": "sentence-transformers:roberta-base",
+   "girdi": "en_plain",
+   "dtype": "float32",
+   "parametre": 124645632,
+   "boyut": 768,
+   "yukleme_sn": 18.6,
+   "tek_ms_ortanca": 99.97094949994789,
+   "tek_ms_p90": 176.84122699993173,
+   "tek_ms_tur_ortancalari": [
+    93.51440000000366,
+    112.12338400002864,
+    100.75276450004367
+   ],
+   "toplu_ms_paylasim": 49.86898562890563,
+   "hit1_256": 0.05078125
+  },
+  "ALBERT": {
+   "kaynak": "sentence-transformers:albert-base-v2",
+   "girdi": "en_plain",
+   "dtype": "float32",
+   "parametre": 11683584,
+   "boyut": 768,
+   "yukleme_sn": 15.6,
+   "tek_ms_ortanca": 105.17540900002587,
+   "tek_ms_p90": 183.0130348000469,
+   "tek_ms_tur_ortancalari": [
+    116.09138800008623,
+    103.41735899999094,
+    100.790108999945
+   ],
+   "toplu_ms_paylasim": 56.97178324999985,
+   "hit1_256": 0.0625
+  },
+  "SBERT çok dilli (TR)": {
+   "kaynak": "sentence-transformers:paraphrase-multilingual-MiniLM-L12-v2",
+   "girdi": "tr_plain",
+   "dtype": "float32",
+   "parametre": 117653760,
+   "boyut": 384,
+   "yukleme_sn": 19.0,
+   "tek_ms_ortanca": 46.889828000075795,
+   "tek_ms_p90": 62.56369389996057,
+   "tek_ms_tur_ortancalari": [
+    44.4008130000384,
+    44.57452299993747,
+    48.805502500044895
+   ],
+   "toplu_ms_paylasim": 23.019919437500036,
+   "hit1_256": 0.43359375
+  },
+  "BERTurk-STS (TR)": {
+   "kaynak": "sentence-transformers:emrecan/bert-base-turkish-cased-mean-nli-stsb-tr",
+   "girdi": "tr_plain",
+   "dtype": "float32",
+   "parametre": 110617344,
+   "boyut": 768,
+   "yukleme_sn": 15.9,
+   "tek_ms_ortanca": 96.8677695000224,
+   "tek_ms_p90": 191.80035589986355,
+   "tek_ms_tur_ortancalari": [
+    98.18800499999725,
+    102.92060450001372,
+    94.69611449992499
+   ],
+   "toplu_ms_paylasim": 47.458575160155725,
+   "hit1_256": 0.4296875
+  },
+  "mE5-large-instruct": {
+   "kaynak": "sentence-transformers:intfloat/multilingual-e5-large-instruct",
+   "girdi": "en_plain",
+   "dtype": "float32",
+   "parametre": 559890432,
+   "boyut": 1024,
+   "yukleme_sn": 21.6,
+   "tek_ms_ortanca": 537.7255035000417,
+   "tek_ms_p90": 852.8421050999671,
+   "tek_ms_tur_ortancalari": [
+    544.5563694999009,
+    664.8727244999009,
+    464.9026755000705
+   ],
+   "toplu_ms_paylasim": 262.1515574882807,
+   "hit1_256": 0.6171875
+  },
+  "BGE-M3": {
+   "kaynak": "sentence-transformers:BAAI/bge-m3",
+   "girdi": "en_raw",
+   "dtype": "float32",
+   "parametre": 567754752,
+   "boyut": 1024,
+   "yukleme_sn": 25.8,
+   "tek_ms_ortanca": 227.32573100006448,
+   "tek_ms_p90": 334.5896381000331,
+   "tek_ms_tur_ortancalari": [
+    224.2929334998962,
+    237.14425800005756,
+    218.2187390000081
+   ],
+   "toplu_ms_paylasim": 167.71743592578048,
+   "hit1_256": 0.6015625
+  },
+  "Qwen3-Embedding-0.6B": {
+   "kaynak": "sentence-transformers:Qwen/Qwen3-Embedding-0.6B",
+   "girdi": "en_plain",
+   "dtype": "float32",
+   "parametre": 595776512,
+   "boyut": 1024,
+   "yukleme_sn": 19.6,
+   "tek_ms_ortanca": 449.1012389999014,
+   "tek_ms_p90": 590.9912351001822,
+   "tek_ms_tur_ortancalari": [
+    463.8930864999793,
+    458.8104275001115,
+    409.24301800009744
+   ],
+   "toplu_ms_paylasim": 275.1227881289067,
+   "hit1_256": 0.4140625
+  },
+  "Word2Vec": {
+   "kaynak": "word2vec-google-news-300 (/content/drive/MyDrive/Colab Notebooks/NLP Modeller/Word2Vec Files/word2vec-google-news-300.bin)",
+   "girdi": "en_plain",
+   "dtype": "float32",
+   "parametre": 900000000,
+   "boyut": 300,
+   "yukleme_sn": 83.5,
+   "tek_ms_ortanca": 0.04297999998925661,
+   "tek_ms_p90": 0.0843531000100484,
+   "tek_ms_tur_ortancalari": [
+    0.044285000058152946,
+    0.04084000011062017,
+    0.04355999999461346
+   ],
+   "toplu_ms_paylasim": 0.04963929296852854,
+   "hit1_256": 0.3671875
+  },
+  "FastText": {
+   "kaynak": "cc.en.300.bin (/content/drive/MyDrive/Colab Notebooks/NLP Modeller/FastText Files/cc.en.300.bin)",
+   "girdi": "en_plain",
+   "dtype": "float32",
+   "parametre": 1200000000,
+   "boyut": 300,
+   "yukleme_sn": 165.9,
+   "tek_ms_ortanca": 0.17701050001051044,
+   "tek_ms_p90": 0.31745190035508136,
+   "tek_ms_tur_ortancalari": [
+    0.18065050016957684,
+    0.16985000002023298,
+    0.17968549991564942
+   ],
+   "toplu_ms_paylasim": 0.23920685156220145,
+   "hit1_256": 0.140625
+  },
+  "GloVe": {
+   "kaynak": "glove.840B.300d (/content/drive/MyDrive/Colab Notebooks/NLP Modeller/GloVe File/glove.840B.300d-001.txt)",
+   "girdi": "en_plain",
+   "dtype": "float32",
+   "parametre": 658804800,
+   "boyut": 300,
+   "yukleme_sn": 239.0,
+   "tek_ms_ortanca": 0.16146999996635714,
+   "tek_ms_p90": 0.3587209999295738,
+   "tek_ms_tur_ortancalari": [
+    0.13532549974115682,
+    0.16146999996635714,
+    0.1909854997848015
+   ],
+   "toplu_ms_paylasim": 0.20493959765488512,
+   "hit1_256": 0.17578125
+  },
+  "Qwen3-Embedding-4B": {
+   "kaynak": "sentence-transformers:Qwen/Qwen3-Embedding-4B",
+   "girdi": "en_plain",
+   "dtype": "float32",
+   "parametre": 4021774336,
+   "boyut": 2560,
+   "yukleme_sn": 45.7,
+   "tek_ms_ortanca": 3228.901274000009,
+   "tek_ms_p90": 4505.757833000008,
+   "tek_ms_tur_ortancalari": [
+    3242.493887999899,
+    3194.8062919998392,
+    3210.66734850001
+   ],
+   "toplu_ms_paylasim": 2001.7677309726557,
+   "hit1_256": 0.69140625
+  }
+ }
+}

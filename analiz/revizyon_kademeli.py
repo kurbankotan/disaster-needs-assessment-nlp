@@ -31,11 +31,17 @@ t0 = time.perf_counter()
 for i in range(500):
     vec.transform([msgs[i]])
 tf_ms_bu_makine = (time.perf_counter() - t0) / 500 * 1000
-# Makaledeki tablolarda analiz makinesinde ölçülen değer kullanılmıştır; süre donanıma bağlı olduğundan sonuçların
-# birebir yeniden üretilmesi için bu değer sabitlenmiştir (bu makinedeki ölçüm yalnızca bilgi olarak yazdırılır).
-TF_MS_MAKALE = 0.3440349980000974
+# İlk kademe süresi, sıfır atışlı yerel yöntemlerin aynı işlemcide ölçüldüğü çalıştırmadan alınır (notebooks/NLP_Afet_CPU_Gecikme.ipynb,
+# runs/revizyon/results/revizyon2/cpu_gecikme.json; TF-IDF tek paylaşım süresinin ortancası). Bu dosya yoksa önceki sürümde analiz
+# makinesinde ölçülen değer kullanılır. Süre donanıma bağlı olduğundan bu makinedeki ölçüm yalnızca bilgi olarak yazdırılır.
+CPU_JSON = os.path.join(REVR, "revizyon2", "cpu_gecikme.json")
+if os.path.exists(CPU_JSON):
+    _cpu = json.load(open(CPU_JSON, encoding="utf-8"))
+    TF_MS_MAKALE = float(_cpu["modeller"]["TF-IDF (gövde)"]["tek_ms_ortanca"]); _kaynak = f"aynı işlemci ölçümü ({_cpu['donanim']['islemci']})"
+else:
+    TF_MS_MAKALE = 0.3440349980000974; _kaynak = "önceki analiz makinesi ölçümü"
 tf_ms = TF_MS_MAKALE
-print(f"TF-IDF dönüşümü bu makinede {tf_ms_bu_makine:.3f} ms/paylaşım; tablolarda makaledeki {TF_MS_MAKALE:.3f} ms kullanılır.")
+print(f"TF-IDF dönüşümü bu makinede {tf_ms_bu_makine:.3f} ms/paylaşım; tablolarda {_kaynak} {TF_MS_MAKALE:.3f} ms kullanılır.")
 lat = pd.read_csv(os.path.join(RR, "yeni_kodlayici_gecikme.csv"))
 q4 = lat[lat.Model == "Qwen3-Emb-4B"].iloc[0]
 FIRST_MS = {"TF-IDF (gövde, ad)": tf_ms, "TF-IDF (gövde, ad+tanım)": tf_ms, "Qwen3-Emb-4B (düz, ad+tanım)": float(q4.tek_paylasim_ms_cuda)}

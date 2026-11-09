@@ -18,14 +18,16 @@ Bu depoda değerlendirme aşamasındaki bir makalenin kodu, simüle veri seti ve
 - **Ölçütler:**
   - Mesaj düzeyi hit@1 ve hit@3, yakın anlam grubu (32 grup) ve sektör (13 sektör) düzeyinde isabet, kısmi puan, çok etiketli mikro ve makro F1, ilçe doğruluğu ve ilçe başına paylaşım sayısına duyarlılığı.
   - %95 önyükleme güven aralıkları, gerçek veride kesin binom aralıkları; McNemar tam testi (Holm düzeltmeli); kendi ailesini kayırma için kümelenmiş standart hatalı doğrusal olasılık ve lojistik model.
-  - Açık / karma / örtük anlatım ayrımı; gecikme ve maliyet.
+  - Açık / karma / örtük anlatım ayrımı; işlem süresi ve maliyet. Sıfır atışla kullanılan tüm yerel yöntemlerin (TF-IDF, statik kelime vektörleri, USE ve cümle kodlayıcıları) çıkarım süresi GPU'suz bir ortamda aynı işlemcide ölçülmüştür; az örnekli sınıflandırıcıların (SetFit, dondurulmuş gömmeler üzerinde lojistik regresyon) ve ilçe çıkarımındaki NER modelinin süresi ölçülmemiştir.
 - **Temel bulgular:**
   - Simüle veride (N = 2.000) ihtiyacın adıyla anıldığı açık paylaşımlarda TF-IDF (0,97) BDM'lerle (0,96-0,98) aynı isabete ulaşır. İhtiyacın adlandırılmadığı örtük paylaşımlarda sözcüksel ve gömme yöntemleri 0,11-0,45'e düşer, BDM'ler 0,70-0,88'de kalır.
   - İhtiyaç adlarına kısa tanım eklemek en iyi kodlayıcıyı (Qwen3-Embedding-4B) 0,81'e çıkarır; BDM'lerin genel isabeti 0,88-0,94'tür.
-  - BDM üstünlüğü metni yazan modelin ailesine değil, metnin ne kadar örtük olduğuna bağlıdır; değerlendiricinin üreticiyle aynı aileden olması isabeti artırmaz.
+  - BDM üstünlüğü metni yazan modelin ailesine değil, metnin ne kadar örtük olduğuna bağlıdır; değerlendiricinin üreticiyle aynı aileden olmasının anlamlı bir etkisi görülmez (örtük paylaşımlarda güven aralığı daha geniştir ve küçük bir etki dışlanamaz).
   - Simüle verideki etiketler üretim planından gelir. Farklı aileden bir modelin denetiminden geçen ve geçemeyen örtük paylaşımlarda BDM ortalaması ile en iyi yerel yöntem arasındaki fark aynı kalır (0,203 ve 0,195); tartışmalı etiketler mutlak isabetleri düşürür, ancak yöntemler arasındaki farkı açıklamaz.
   - Listedeki bir ihtiyacı içeren küçük gerçek örneklemde (30 İngilizce, 21 Türkçe paylaşım; 8'i örtük) BDM'ler 0,93-1,00 isabete ulaşır ve yöntem sıralaması simüle veriyle tutarlıdır (Spearman ρ İngilizcede 0,94, Türkçede 0,96). Örneklem küçük ve çoğunlukla açık anlatımlı olduğundan bu sonuç keşif niteliğindedir.
   - Kademeli tasarım paylaşımların yaklaşık üçte birini BDM'ye göndererek BDM'nin isabetine 1 puan yaklaşır, yaklaşık yarısını göndererek ona ulaşır.
+  - GPU'suz bir işlemcide (AMD EPYC 7B12, 8 mantıksal çekirdek) tek paylaşımın kodlanması TF-IDF'de 0,43 ms, USE'de 4,2 ms, Qwen3-Embedding-4B'de yaklaşık 3,2 saniye sürer.
+  - Simüle paylaşımlardaki tekrar eden açılış ifadeleri ("lütfen yardım", "merhaba ben" vb.) çıkarıldığında TF-IDF isabeti değişmez (İngilizcede 2.000 paylaşımdan yalnızca birinin sonucu değişir).
 
 ## Depo yapısı
 
@@ -39,6 +41,8 @@ notebooks/
   NLP_Afet_Revizyon.ipynb        Revizyon defteri: alternatif üreticiler, gerçek paylaşımlar, Türkçe BDM
                                  değerlendirmesi, güncel kodlayıcılar, ihtiyaç tanımları, az örnekli öğrenme,
                                  çok etiketli ve tekrarlı BDM çalıştırmaları, ilçe ve konum çıkarımı
+  NLP_Afet_CPU_Gecikme.ipynb     Sıfır atışlı yerel yöntemlerin çıkarım süresini GPU'suz bir ortamda aynı işlemcide ölçer
+                                 (tek paylaşım ve toplu kodlama); API çağrısı yapmaz
 runs/
   20261016_1116/                 Makalede raporlanan ana çalıştırma
     data/                        Veri seti (CSV, XLSX, JSONL) ve ilçe sınırları (geo/)
@@ -56,6 +60,8 @@ runs/
                                  ihtiyaç tanımları, sektör şeması, BDM istemleri, API kullanımı ve maliyeti
       tahminler/                 Paylaşım düzeyi tahminler ve benzerlik puanları (skor_*), mesaj ve ilçe düzeyi sonuçlar
       analiz/                    analiz/revizyon_*.py betiklerinin ürettiği türetilmiş tablolar (makaledeki sayılar)
+      revizyon2/                 İşlemci gecikme ölçümü (cpu_gecikme.json, .csv), donanım ve sürüm bilgisi ve
+                                 doğrulama için 256 paylaşımdaki tahminler (notebooks/NLP_Afet_CPU_Gecikme.ipynb)
     figures/                     Veri dağılımı şekilleri
     logs/                        Ayarlar, istemler ve çalıştırma günlüğü
 analiz/                          Makaledeki türetilmiş sayıları ve şekilleri depodaki dosyalardan yeniden üreten betikler
@@ -135,22 +141,11 @@ python analiz/revizyon_calistir.py
 python analiz/revizyon_sekilleri.py
 ```
 
-`revizyon_calistir.py` analiz betiklerini sırayla çalıştırır (persona ve ilçe duyarlılığı, sentetik veride tüm yöntemler, eşleştirilmiş testler, kademeli tasarım, üretici etkisi, duyarlılık analizleri, gerçek paylaşımlar) ve türetilmiş tabloları `runs/revizyon/results/analiz/` klasörüne yazar. `revizyon_sekilleri.py` makalenin şekillerini ve grafiksel özetleri Carlito yazı tipiyle `makale_sekilleri_revizyon_yeniden/` klasörüne yazar. Betikler Python 3.13 ile `requirements-revizyon.txt` içindeki sürümlerle sınanmıştır ve depodaki tabloları ve şekilleri birebir yeniden üretir.
+`revizyon_calistir.py` analiz betiklerini sırayla çalıştırır (persona ve ilçe duyarlılığı, sentetik veride tüm yöntemler, eşleştirilmiş testler, kademeli tasarım, üretici etkisi, duyarlılık analizleri, gerçek paylaşımlar, tekrar eden açılış ifadeleri) ve türetilmiş tabloları `runs/revizyon/results/analiz/` klasörüne yazar. `revizyon_sekilleri.py` makalenin şekillerini ve grafiksel özetleri Carlito yazı tipiyle `makale_sekilleri_revizyon_yeniden/` klasörüne yazar. Betikler Python 3.13 ile `requirements-revizyon.txt` içindeki sürümlerle sınanmıştır ve depodaki tabloları ve şekilleri birebir yeniden üretir.
 
 Gerçek Türkçe paylaşımlarda TF-IDF metin gerektirdiğinden, metinler depoda olmadığında bu yöntemin kayıtlı paylaşım düzeyi tahminleri (`results/analiz/tahmin_gercek_tr_tfidf_tr_*.csv`) kullanılır. Tweet metinleri yeniden toplanıp aynı sütunlara ek olarak `metin` sütunuyla `runs/revizyon/data/gercek_veri_altin.csv` adıyla konduğunda bu tahminler yeniden hesaplanır.
 
-Duyarlılık analizleri (`revizyon_duyarlilik.py`) şunları üretir: kendi ailesini kayırma analizinin üç üreticinin metni de çapraz denetimden geçen 455 planda yinelenmesi; ana sonuçların etiket denetiminden geçen alt kümelerde (Claude Sonnet 5.5 denetiminden geçen 1.878 paylaşım, GPT-5 mini çapraz denetiminden geçen ve geçemeyen Claude metinleri) yinelenmesi; denetçinin bulduğu fazladan liste ihtiyaçlarını da doğru sayan esnek puan; gömme yöntemleri için gerçek ihtiyaç sayısını gerektirmeyen göreli eşik kuralı (eşik 5 katlı çapraz doğrulamayla); metinden çıkarılan ilçelerle uçtan uca ilçe doğruluğu; persona başına paylaşım sayıları.
-
-#### İnsan değerlendirmesi
-
-`analiz/revizyon_insan_degerlendirme.py` simüle etiketlerin insan değerlendirmesi içindir. Örneklem, üç üreticinin ortak 617 planındaki örtük paylaşımların tamamıdır (150 Claude Opus 5.5 metni, Türkçe). İki etiketleyici üretici etiketlerini görmeden, birbirinden bağımsız olarak etiketler.
-
-```bash
-python analiz/revizyon_insan_degerlendirme.py olustur <klasor>          # iki özdeş boş çalışma kitabı
-python analiz/revizyon_insan_degerlendirme.py puanla <e1.xlsx> <e2.xlsx> # uyum, üretici etiketleriyle karşılaştırma, yeniden puanlama
-```
-
-Puanlama; etiketleyiciler arası uyumu (MASI uzaklığıyla Krippendorff α, madde, yakın anlam grubu ve sektör düzeyinde), insan etiketleri ile üretim planı arasındaki uyumu, yöntemlerin insan etiketlerine göre yeniden puanlanmasını ve BDM hatalarının "yanlış tahmin" ile "tartışmalı etiket" olarak ayrıştırılmasını `runs/revizyon/results/analiz/insan_degerlendirme_*` dosyalarına yazar.
+Duyarlılık analizleri (`revizyon_duyarlilik.py`) şunları üretir: kendi ailesini kayırma analizinin üç üreticinin metni de çapraz denetimden geçen 455 planda ve yalnız örtük paylaşımlarda yinelenmesi; ana sonuçların etiket denetiminden geçen alt kümelerde (Claude Sonnet 5.5 denetiminden geçen 1.878 paylaşım, GPT-5 mini çapraz denetiminden geçen ve geçemeyen Claude metinleri) yinelenmesi; denetçinin bulduğu fazladan liste ihtiyaçlarını da doğru sayan esnek puan; gömme yöntemleri için gerçek ihtiyaç sayısını gerektirmeyen göreli eşik kuralı (eşik 5 katlı çapraz doğrulamayla); metinden çıkarılan ilçelerle uçtan uca ilçe doğruluğu; persona başına paylaşım sayıları.
 
 ### 3. Deneyi baştan çalıştırmak (Google Colab)
 
@@ -164,6 +159,7 @@ Puanlama; etiketleyiciler arası uyumu (MASI uzaklığıyla Krippendorff α, mad
 4. Ana çalıştırmada eksik kalan BDM değerlendirmeleri `notebooks/NLP_Afet_BDM_Tamamlama.ipynb` ile tamamlanır. Ek defter tamamlanan modelleri aynı çalıştırma klasöründeki tablolara ve tahmin dosyalarına ekler.
 5. Revizyon deneyleri `notebooks/NLP_Afet_Revizyon.ipynb` ile çalıştırılır. Defter yeni sentetik veri üretmez; ana çalıştırmanın veri setini ve ayarlarını kullanır, çıktıları `MyDrive/NLP_Disaster/runs/revizyon/` altına yazar. Gerçek paylaşım deneyleri için metinli altın etiket dosyası (`gercek_veri_altin.csv`) `MyDrive/NLP_Disaster/gercek_veri/` klasörüne konmalıdır; dosya yoksa bu adımlar atlanır. Makaledeki revizyon çalıştırması Python 3.13 ve NVIDIA A100 (40 GB) ile yapılmıştır.
 6. `SMOKE_TEST = True` ayarıyla akış, API ve büyük modeller kullanılmadan sahte veriyle birkaç dakikada denenebilir.
+7. İşlemci süreleri `notebooks/NLP_Afet_CPU_Gecikme.ipynb` ile ölçülür. Colab'da donanım hızlandırıcı olarak **CPU** ve yüksek RAM seçilip tüm hücreler çalıştırılır; GloVe, Word2Vec, FastText ve USE Drive'daki model klasörlerinden, diğer modeller Hugging Face'ten yüklenir. Defter her yöntem için üç ısınma çağrısından sonra 30 rastgele paylaşımın her birini üç kez tek başına kodlar (90 ölçümün ortancası) ve 256 paylaşımı 32'lik yığınlarla kodlar; sinir ağı kodlayıcıları tam duyarlıkla (float32) çalışır. Çıktılar `MyDrive/NLP_Disaster/runs/revizyon/results/revizyon2/` altına yazılır. Ölçümde kullanılan modellerin 256 paylaşımdaki tahminleri makaledeki kayıtlı tahminlerle %99,2-100 oranında aynıdır. Makaledeki ölçüm AMD EPYC 7B12 (8 mantıksal çekirdek, 55 GB bellek) üzerinde yapılmıştır; süreler donanıma bağlıdır.
 
 ## Notlar
 
@@ -173,7 +169,7 @@ Puanlama; etiketleyiciler arası uyumu (MASI uzaklığıyla Krippendorff α, mad
 - **Claude maliyetleri:** `20261016_1116` çalıştırması Claude yanıtlarını önceki `20261016_0743` çalıştırmasının önbelleğinden almıştır; bu yüzden bu çalıştırmanın tablolarında Claude maliyeti 0 görünür. Gerçek çağrıların maliyeti `runs/20261016_0743_claude_maliyet/` altındadır ve analiz betikleri bu dosyayı kullanır.
 - **Şekiller ve haritalar:** `runs/*/figures/` klasörlerinde yalnızca veri dağılımı şekilleri vardır. `makale_sekilleri/` klasöründe makalenin revize sürümünün şekilleri bulunur: `fig_framework`, `fig_hit1`, `fig_all`, `fig_explicit`, `fig_generators`, `fig_real_posts`, `fig_maps` ve `fig_cascade` sırasıyla Şekil 1-8'dir; grafiksel özetler `grafiksel_ozet_tr.png` ve `grafiksel_ozet_en.png` dosyalarındadır. Bu şekiller `analiz/revizyon_sekilleri.py` ile üretilir. Şekil 7'deki dört ilçe haritası `analiz/sekiller_carlito.py` ile ayrı paneller hâlinde üretilir; `fig_maps.png` aynı haritaların birleşik sürümüdür. İlk sürümün şekilleri `analiz/calistir.py` ve `analiz/sekiller_carlito.py` ile yeniden üretilebilir; `fig_cosine.png` ve `fig_transformer.png` ilk sürüme aittir. Ek defterle tamamlanan BDM'lerin (GPT-5 mini, Gemini 3.8 Flash) ilçe haritaları `maps/` klasöründe yoktur; bu modellerin ilçe düzeyi sonuçları `results/tahminler/ilce_sentetik_BDM_*.csv` dosyalarındadır.
 - **Model ağırlıkları** depoya konmamıştır. Kaynakları `logs/model_bilgisi.json` dosyasında listelenmiştir.
-- **Kademeli tasarımın gecikmesi:** İlk kademedeki TF-IDF dönüşümünün süresi donanıma bağlıdır. Sonuçların birebir yeniden üretilebilmesi için `analiz/revizyon_kademeli.py` analiz makinesinde ölçülen değeri (0,344 ms/paylaşım) kullanır ve çalıştığı makinedeki ölçümü yalnızca bilgi olarak yazdırır. BDM gecikmeleri revizyon çalıştırmasında istemci tarafındaki bekleme hariç API süresinden hesaplanmıştır.
+- **Kademeli tasarımın süresi:** İlk kademedeki TF-IDF dönüşümünün süresi donanıma bağlıdır. `analiz/revizyon_kademeli.py` bu süreyi sıfır atışlı yerel yöntemlerin aynı işlemcide ölçüldüğü çalıştırmadan alır (`runs/revizyon/results/revizyon2/cpu_gecikme.json`, TF-IDF tek paylaşım ortancası 0,426 ms); dosya yoksa önceki sürümde analiz makinesinde ölçülen değeri (0,344 ms) kullanır. Çalıştığı makinedeki ölçümü yalnızca bilgi olarak yazdırır. BDM'lerin paylaşım başına süresi revizyon çalıştırmasında, 10 paylaşımlık bir isteğin ağ gidiş-dönüşünü içeren süresinin (istemci tarafında hız sınırı nedeniyle beklenen süre hariç) paylaşım sayısına bölünmesiyle hesaplanmıştır; bu, toplu işlemde paylaşım başına düşen süredir. Bir paylaşımın yanıtı isteğin tamamı sonuçlandığında alındığından paylaşımın beklediği süre istek süresidir (paylaşım başına sürenin on katı, ortanca 1,4-2,5 s). Kademeli sistemin `ms_paylasim` sütunu da bu toplu süreye dayanan paylaşım başına ortalamadır. Tek paylaşım içeren isteklerin yanıt süresi ölçülmemiştir.
 - **Revizyon çalıştırmasının ayar kaydı:** `runs/revizyon/logs/config.json` dosyasından gizli bilgi içeren bir alan çıkarılmıştır; diğer ayarlar olduğu gibidir. Revizyon defteri adında KEY, TOKEN, SECRET ya da PASSWORD geçen hiçbir değişkeni ayar kaydına yazmaz.
 
 ## Lisans
@@ -205,13 +201,14 @@ This repository contains the code, the simulated dataset and the results of a pa
 - **Main results:**
   - On explicitly phrased posts TF-IDF (0.97) matches the LLMs (0.96-0.98); on implicitly phrased posts lexical and embedding methods fall to 0.11-0.45, while the LLMs stay at 0.70-0.88.
   - Need descriptions raise the best encoder (Qwen3-Embedding-4B) to 0.81; the LLMs reach 0.88-0.94 overall.
-  - The LLM advantage depends on how implicit the texts are, not on which model family wrote them; evaluators show no same-family advantage.
+  - The LLM advantage depends on how implicit the texts are, not on which model family wrote them; evaluators show no significant same-family advantage (on implicit posts the confidence interval is wider and a small effect cannot be ruled out).
   - The simulated labels come from generation plans. On implicit posts that passed and failed an audit by a model from another family, the gap between the LLM average and the best local method stays the same (0.203 and 0.195), so disputable labels lower absolute accuracy but do not explain the gap.
   - In the small real sample with a listed need (30 English, 21 Turkish posts; 8 implicit) the LLMs reach 0.93-1.00 and the method ranking is consistent with the simulated data (Spearman 0.94 in English, 0.96 in Turkish). The sample is small and mostly explicit, so this result is exploratory.
 
 **Quick start:**
 - `pip install -r requirements.txt && python analiz/calistir.py` regenerates the figures and key numbers of the first version from the stored outputs. It needs no API keys or model downloads.
 - `pip install -r requirements-revizyon.txt && python analiz/revizyon_calistir.py && python analiz/revizyon_sekilleri.py` regenerates all derived tables of the revised paper (`runs/revizyon/results/analiz/`) and its figures.
+- CPU inference times of all zero-shot local methods (TF-IDF, static word vectors, USE and sentence encoders) were measured on the same processor without a GPU with `notebooks/NLP_Afet_CPU_Gecikme.ipynb` (results in `runs/revizyon/results/revizyon2/`). On an AMD EPYC 7B12 (8 logical cores), encoding a single post takes 0.43 ms with TF-IDF, 4.2 ms with USE and about 3.2 s with Qwen3-Embedding-4B. The few-shot classifiers (SetFit, logistic regression on frozen embeddings) and the NER model were not timed. LLM times are per post in requests of 10 posts (request time divided by 10); a post's answer arrives when the whole request finishes (median 1.4-2.5 s), and single-post requests were not timed.
 - To rerun the full experiment, open `notebooks/NLP_Afet_TekParca.ipynb` in Google Colab with a GPU, high RAM and an `ANTHROPIC_API_KEY` secret. `OPENAI_API_KEY` and `GOOGLE_API_KEY` are optional. The additional experiments of the revised paper are in `notebooks/NLP_Afet_Revizyon.ipynb`. LLM outputs are not deterministic; the reported results are based on the stored responses under `runs/`.
 
 **License:** code under MIT; data, results and figures under CC BY 4.0. District boundaries come from geoBoundaries (OpenStreetMap contributors). For the real posts only tweet IDs and our labels are shared; the tweets and source datasets remain under their own terms.

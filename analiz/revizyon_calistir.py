@@ -18,6 +18,7 @@ ADIMLAR = [
     ("revizyon_uretici.py", "üretici modelin etkisi ve kendi ailesini kayırma"),
     ("revizyon_duyarlilik.py", "duyarlılık: çapraz denetimden geçen alt kümeler, esnek puan, çok etiket eşik kuralı, uçtan uca ilçe, persona sayıları"),
     ("revizyon_gercek.py", "gerçek paylaşımlar: kapalı ve açık küme, sıralama ilişkisi"),
+    ("revizyon_acilis_ablasyonu.py", "tekrar eden açılış ifadelerinin TF-IDF isabetine etkisi"),
 ]
 for betik, aciklama in ADIMLAR:
     print(f"\n=== {betik}: {aciklama}", flush=True)
